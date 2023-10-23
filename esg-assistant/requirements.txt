@@ -1,0 +1,8 @@
+bs4
+dotenv
+json
+ibm_watson
+ibm-generative-ai
+ibm_cloud_sdk_core
+ibm_watson_machine_learning
+

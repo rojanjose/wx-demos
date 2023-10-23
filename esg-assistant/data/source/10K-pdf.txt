@@ -1,0 +1,22 @@
+J&J | https://d18rn0p25nwr6d.cloudfront.net/CIK-0000200406/95a96a32-2c0b-46cb-b73f-5c7cae6b4de4.pdf
+Pfizer | https://d18rn0p25nwr6d.cloudfront.net/CIK-0000078003/de8a877e-8aa4-4fb9-a84a-7ff78e3e0dbf.pdf
+Novartis | https://www.sec.gov/ix?doc=/Archives/edgar/data/0001114448/000137036823000006/nvs-20221231.htm
+Merck |	https://d18rn0p25nwr6d.cloudfront.net/CIK-0000064978/b390be48-92bf-4595-96da-ac5cd7c3d92e.pdf
+Toyota | https://www.toyotafinancial.com/content/dam/tmcc-webcommons/toyotafinancial/documents/investor-relations/sec-filings/2023/Annual%20Reports%20on%20Form%2010-K/june-2023/FY%202023%20ended%20March%2031,%202023.pdf
+GeneralMotors |	https://www.annualreports.com/HostedData/AnnualReports/PDF/NYSE_GM_2022.pdf
+Ford | https://d18rn0p25nwr6d.cloudfront.net/CIK-0000037996/b57765e8-f164-43d9-a47b-d48a3e7c5c41.pdf
+Honda | https://global.honda/content/dam/site/global-en/investors/cq_img/library/form_20-f/FY202303_form20f_e.pdf
+Microsoft | https://microsoft.gcs-web.com/static-files/e2931fdb-9823-4130-b2a8-f6b8db0b15a9
+Apple | https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/b4266e40-1de6-4a34-9dfb-8632b8bd57e0.pdf
+Amazon| https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/d2fde7ee-05f7-419d-9ce8-186de4c96e25.pdf
+Alphabet | https://abc.xyz/assets/9a/bd/838c917c4b4ab21f94e84c3c2c65/goog-10-k-q4-2022.pdf
+Facebook | https://d18rn0p25nwr6d.cloudfront.net/CIK-0001326801/e574646c-c642-42d9-9229-3892b13aabfb.pdf
+JPMC | https://jpmorganchaseco.gcs-web.com/static-files/57c2ed73-8a15-47c2-94f0-e9e29ca87e2c
+BankofAmerica | https://investor.bankofamerica.com/regulatory-and-other-filings/annual-reports/content/0001140361-23-013653/0001140361-23-013653.pdf
+WellsFargo | https://www08.wellsfargomedia.com/assets/pdf/about/investor-relations/sec-filings/2022/10k.pdf
+Citigroup | https://www.citigroup.com/rcs/citigpa/storage/public/10k20221231.pdf
+Comcast | https://www.cmcsa.com/static-files/b5959ccc-6216-4bbb-a0ca-de6f689925f7
+AT&T | https://otp.tools.investis.com/clients/us/atnt2/sec/sec-show.aspx?FilingId=16393783&Cik=0000732717&Type=PDF&hasPdf=1
+Verizon | https://quotes.quotemedia.com/data/downloadFiling?webmasterId=104600&ref=117234907&type=PDF&formType=10-K&formDescription=Annual+report+pursuant+to+Section+13+or+15%28d%29&dateFiled=2023-02-10&cik=0000732712
+Disney | https://otp.tools.investis.com/clients/us/the_walt_disney_company/SEC/sec-show.aspx?FilingId=16233275&Cik=0001744489&Type=PDF&hasPdf=1
+Netflix | https://d18rn0p25nwr6d.cloudfront.net/CIK-0001065280/73bf5172-b70c-43fd-865e-4f58bef2eb5d.pdf
