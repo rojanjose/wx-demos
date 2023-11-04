@@ -1,0 +1,107 @@
+{
+    "- Arts and Culture" : [
+            "- Increase appreciation and support for the arts",
+            "- Increase access to quality education programs and services",
+            "- Increase active participation in society"    
+            ],
+    "- Animal Rights & Welfare" :[
+        "- Protect and rescue animals",
+        "- Increase land protection and/or conservation",
+        "- Increase water protection an/or conservation",
+        "- Advocate for/Promote Policy Change"
+    ],
+    "- Restorative and Criminal Justice" :[
+        "- Reduce criminal activity",
+        "- Reduce criminal recidivism",
+        "- Achieve equality/eliminate discrimination",
+        "- Increase active participation in society",
+        "- Reduce risky and addictive behaviors",
+        "- Reduce trauma",
+        "- Advocate for/Promote Policy Change"
+    ],
+    "- Disaster Response, Relief, and Recovery" :[
+        "- Enhance community infrastructure",
+        "- Reduce homelessness",
+        "- Reduce hunger and malnutrition",
+        "- Increase access to quality, affordable healthcare and services",
+        "- Reduce trauma",
+        "- Protect and rescue animals",
+        "- Increase peace through conflict resolution"
+    ],
+    "- Diversity, Equity, and Inclusion" :[
+        "- Increase appreciation and support for the arts",
+        "- Ensure STEM skills proficiency",
+        "- Increase access to and acquire employment",
+        "- Promote economic growth",
+        "- Achieve equality/eliminate discrimination",
+        "- Increase active participation in society",
+        "- Advocate for/Promote Policy Change"
+    ],
+    "- Economic Empowerment and Workforce Development" :[
+        "- Achieve financial stability",
+        "- Increase access to and acquire employment",
+        "- Promote economic growth",
+        "- Ensure STEM skills proficiency",
+        "- Increase access to quality education programs and services"
+    ],
+    "- Education" :[
+        "- Ensure STEM skills proficiency",
+        "- Increase access to quality education programs and services",
+        "- Improve academic achievement",
+        "- Advocate for/Promote Policy Change"
+    ],
+    "- Food and Hunger" :[
+        "- Reduce hunger and malnutrition",
+        "- Increase access to nutritious food",
+        "- Increase sustainable food systems"
+    ],
+    "- Housing and Homelessness" :[
+        "- Reduce homelessness",
+        "- Increase amount and access to quality affordable housing",
+        "- Advocate for/Promote Policy Change"
+    ],
+    "- Sustainability and Environment" :[
+        "- Increase education, awareness and/or understanding of the risks/threat of climate change",
+        "- Reduce carbon impact",
+        "- Increase land protection and/or conservation",
+        "- Increase water protection an/or conservation",
+        "- Improve air quality",
+        "- Improve water quality",
+        "- Advocate for/Promote Policy Change"
+    ],
+    "- Human Rights" :[
+        "- Achieve equality/eliminate discrimination",
+        "- Increase peace through conflict resolution",
+        "- Reduce trauma",
+        "- Advocate for/Promote Policy Change"
+    ],
+    "- Civic Engagement" : [
+        "- Advocate for/Promote Policy Change",
+        "- Increase peace through conflict resolution",
+        "- Increase active participation in society"
+    ],
+    "- Public Health" :[
+        "- Reduce hunger and malnutrition",
+        "- Increase access to nutritious food",
+        "- Increase access to drinkable/potable water",
+        "- Reduce disease/improve health",
+        "- Increase access to quality, affordable healthcare and services",
+        "- Improve reproductive health",
+        "- Reduce risky and addictive behaviors",
+        "- Increase access to mental health services",
+        "- Advocate for/Promote Policy Change"
+    ],
+    "- Science and Technology" :[
+        "- Promote economic growth",
+        "- Enhance community infrastructure",
+        "- Ensure STEM skills proficiency",
+        "- Increase active participation in society",
+        "- Reduce disease/improve health"
+    ],
+    "- Poverty Alleviation" :[
+        "- Reduce homelessness",
+        "- Reduce criminal activity",
+        "- Achieve financial stability",
+        "- Promote economic growth"
+    ]
+}

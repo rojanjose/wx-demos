@@ -1,4 +1,5 @@
 import re
+import json
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from ibm_watson import DiscoveryV2
@@ -17,6 +18,7 @@ class WatsonDiscovery:
         )
         self._discovery.set_service_url(url)
 
+
     # Set project variables
     def set_project_name(self, project_name):
         self._project_name = project_name
@@ -26,6 +28,7 @@ class WatsonDiscovery:
             # print("Project:", project)
             if (project['name'] == project_name):
                 self._project_id = project['project_id']
+
 
     # Set Collection variables
     def set_collection_name(self, collection_name):   
@@ -47,35 +50,29 @@ class WatsonDiscovery:
 
         return perfect_text
 
+    def save_discovery_search(self, file_name, query_result):
+        with open(file_name, "w") as outfile: 
+            json.dump(query_result, outfile)
+
 
     def process_discovery_search(self, question, company):
         # Processing Setup
-        print("quest_text: ", question)
-        query_result = self._discovery.query(project_id=self._project_id, collection_ids=self._collection_ids, query=question).get_result()
-        range_limit = len(query_result['results'])
-        # print(f"Returned {range_limit} results.")
+        count = 2
+        max_per_document = 10
+        passages = {
+            "enabled": True,
+            "per_document": True,
+            "max_per_document": max_per_document,
+            "fields": ['text', 'title'],
+            "count": 10,
+            "characters": "2000"
+        }
+
+        query_result = self._discovery.query(project_id=self._project_id, collection_ids=self._collection_ids, natural_language_query=question, count=count, passages=passages).get_result()
         
-        #Process search results that has the company name in the file name
-        # relevant_passages = []
-        passage_count = 0
-        relevant_passages = dict()
-        for i in range(0, range_limit):
-            file_name = query_result['results'][i]['extracted_metadata']['filename']
-            if(company in file_name):
-                # print(f"File: {file_name}")
-                relevant_passages[f'passage_{passage_count}'] = {
-                    "source": file_name,
-                    "p1": self.format_string(query_result['results'][i]['document_passages'][0]['passage_text']),
-                    "p2": self.format_string(query_result['results'][i]['document_passages'][1]['passage_text']),
-                    "p3": self.format_string(query_result['results'][i]['document_passages'][2]['passage_text'])
-                }
+        # self.save_discovery_search("search_response.json", query_result)
 
-                # relevant_passages.append(self.format_string(query_result['results'][i]['document_passages'][0]['passage_text']))
-                # relevant_passages.append(self.format_string(query_result['results'][i]['document_passages'][1]['passage_text']))
-                # relevant_passages.append(self.format_string(query_result['results'][i]['document_passages'][2]['passage_text']))
-                passage_count += 1
-
-        return(relevant_passages)
+        return query_result
     
 
     def print_project_and_collections(self):

@@ -1,0 +1,38 @@
+Map the input passage below to one or more of the Cause Areas. Provide a brief explanation for the mapping.
+
+Cause Areas:
+- Arts and Culture
+- Animal Rights & Welfare
+- Restorative and Criminal Justice
+- Disaster Response, Relief, and Recovery
+- Diversity, Equity, and Inclusion
+- Economic Empowerment and Workforce Development
+- Education
+- Food and Hunger
+- Housing and Homelessness
+- Sustainability and Environment
+- Human Rights
+- Civic Engagement
+- Public Health
+- Science and Technology
+- Poverty Alleviation
+
+Input:
+There is growing concern among consumers, public health professionals, and government agencies about the health problems associated with obesity. Increasing public concern about obesity; other health-related public concerns surrounding the consumption of sweetened beverages; potential new or increased taxes on sweetened beverages by government entities to reduce consumption or to raise revenue; additional governmental regulations concerning the advertising, marketing, labeling, packaging, or sale of our sweetened beverages; and negative publicity resulting from actual or threatened legal actions against us or other companies in our industry relating to the marketing, labeling or sale of sweetened beverages may reduce demand for, or increase the cost of, our sweetened beverages, which could adversely affect our profitability.
+Document Offset: 22324
+
+Output:
+Cause Areas:
+- Food and Hunger
+- Public Health
+
+Explanation:
+Document Offset: 22324
+- Public Health: The passage covers health concerns related to obesity caused by sweetened drinks. 
+- Food and Hunger: Drinks and consumption of sweetened drinks also fall under food and health.
+
+
+Input:
+%s
+
+Output:

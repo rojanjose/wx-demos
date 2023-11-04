@@ -1,0 +1,16 @@
+Search for passages in 10-K documents that where %s covers one of the following topics:
+- Arts and Culture
+- Animal Rights & Welfare
+- Restorative and Criminal Justice
+- Disaster Response, Relief, and Recovery
+- Diversity, Equity and Inclusion
+- Economic Empowerment and Workforce Development
+- Education
+- Food and Hunger
+- Housing and Homelessness
+- Sustainability and Environment
+- Human Rights
+- Civic Engagement
+- Public Health
+- Science and Technology
+- Poverty Alleviation

@@ -1,0 +1,107 @@
+
+
+Cause Areas:
+- Sustainability and Environment
+- Economic Empowerment and Workforce Development
+- Food and Hunger
+
+Explanation:
+Document Offset: 192976
+- Sustainability and Environment: This cause area is selected because the company's sustainability goals include reducing carbon emissions, sustainable sourcing of agricultural commodities, and water conservation. These initiatives aim to mitigate the environmental impact of their operations and promote sustainable practices throughout their supply chain.
+- Economic Empowerment and Workforce Development: The success of the company's sustainability efforts depends on collaboration with various stakeholders, including employees, suppliers, and bottling partners. By prioritizing diversity, equity, and inclusion within their organization and supply chain, they can foster an inclusive environment that promotes economic empowerment and workforce development opportunities for diverse groups.
+- Food and Hunger: Although not directly mentioned in the given passage, the company's primary product offerings consist of sweetened beverages, which falls under the category of food and hunger. Therefore, it indirectly relates to this cause area.
+
+Cause Areas:
+- Sustainability and Environment
+- Economic Empowerment and Workforce Development
+- Governance
+
+Explanation:
+Document Offset: 193639
+- Sustainability and Environment: Focus areas include reducing carbon dioxide and other greenhouse gases, sustainable sourcing of agricultural commodities, and water quality and scarcity.
+- Economic Empowerment and Workforce Development: This includes empowering their workers and supply chain.
+- Governance: They discuss how they manage risk and uncertainty, internal controls over financial reporting, and audits.
+
+Cause Areas:
+- Diversity, Equity, and Inclusion
+- Economic Empowerment and Workforce Development
+- Education
+
+Explanation:
+Document Offset: 54342
+- Diversity, Equity, and Inclusion: This cause area is directly addressed in the passage through the company's efforts to promote diversity, equity, and inclusion through their compensation programs, pay equity analyses, and employee-led inclusion networks.
+- Economic Empowerment and Workforce Development: The passage highlights the company's commitment to developing its employees' skills and providing opportunities for growth, which aligns with this cause area's focus on empowering individuals economically and supporting workforce development.
+- Education: While not explicitly mentioned in the passage, education is closely linked to the company's emphasis on training and upskilling its workers. By offering chances for professional advancement and skill acquisition, the business promotes lifelong learning and invests in human capital, both of which are crucial to educational attainment.
+
+Cause Area:
+- Economic Empowerment and Workforce Development
+
+Explanation:
+Document Offset: 601349
+- Economic Empowerment and Workforce Development: This section discusses management contracts and compensatory plans and arrangements that involve executive officers' salaries and bonuses. It falls into economic empowerment because it deals directly with how people get paid and their job titles.
+
+Cause Area:
+- Diversity, Equity, and Inclusion
+
+Explanation:
+The entire passage discusses various initiatives taken by the company to improve diversity, equity, and inclusion within its workforce. It includes measures such as diversity and inclusion metrics, leadership councils, pay equity analyses, and employee-led inclusion networks. Additionally, it mentions how these efforts are linked to executive compensation and considered essential for driving business growth. Therefore, this passage maps exclusively to the "Diversity, Equity, and Inclusion" cause area.
+
+Cause Area:
+- Diversity, Equity, and Inclusion
+
+Explanation:
+The entire input text revolves around diversity, equity, and inclusion initiatives taken up by the company. It discusses their efforts towards creating an inclusive environment, setting targets for diversity, and implementing measures to achieve them. Therefore, it falls under the cause area of "Diversity, Equity, and Inclusion."
+
+Cause Area:
+- Diversity, Equity, and Inclusion
+- Education
+- Employee Engagement
+
+Explanation:
+Document offset: 55313
+- Diversity, Equity, and Inclusion: This cause area is covered because the company supports employee led inclusion networks. They also mention that they try to create an integrated, streamlined and inspiring career experience.
+- Education: Mentioned when talking about the company's comprehensive global talent management process and how they provide learning opportunities to help employees develop and grow. Also mentioned when discussing the company's focus on investing in inspirational leadership, capability development, and providing learning opportunities.
+- Employee Engagement: Mentioned when discussing the company's efforts to create an integrated, streamlined and inspiring career experience. It's also mentioned when they talk about improving employee engagement and retention.
+
+Cause Areas:
+- Sustainability and Environment
+- Food and Hunger
+- Economic Empowerment and Workforce Development
+
+Explanation:
+Document Offset: 137714
+- Sustainability and Environment: This cause area is directly addressed in the given passage since it talks about the company's sustainability goals and how they might be affected by external factors such as changing consumer preferences or regulatory changes. It specifically mentions reducing waste from plastic bottles and efficient resource utilization through circular economics.
+- Food and Hunger: Since this passage discusses the environmental effects of plastic bottles used for beverages, it indirectly addresses the broader topic of food and hunger because these containers often contain food items like soft drinks that people consume daily. Even though there isn't an immediate connection between them, both topics share some common ground.
+- Economic Empowerment and Workforce Development: Although not explicitly mentioned here, this cause area can still relate to the discussion around sustainability practices and meeting stakeholder demands. By prioritizing sustainability measures such as using eco-friendly packaging alternatives or implementing recycling programs effectively, businesses can create job opportunities within those fields while promoting positive economic growth overall.
+
+Cause Areas:
+- Data Privacy
+- Sustainability and Environment
+- Food and Hunger
+- Human Rights
+- Diversity, Equity, and Inclusion
+
+Explanation:
+Document Offset: 136349
+- Data Privacy: Unauthorized access to personal data can lead to its misuse and exploitation, which would be a breach of privacy and trust. This falls directly into the category of Data Privacy.
+- Sustainability and Environment: The company's sustainability goals and targets are at risk due to external factors. They include practices and disclosures related to sustainable packaging, water stewardship, climate, health, and nutrition. All these points map directly to Sustainability and Environment.
+- Food and Hunger: As this is a document about a beverage company, it indirectly maps to Food and Hunger as they deal with edible items that people consume daily.
+- Human Rights: The company has goals that relate to human rights like diversity, equity, and inclusion. Failure to meet these goals might tarnish their image and affect how they do business. It maps to Human Rights.
+- Diversity, Equity, and Inclusion: The company has set goals and targets for diversity, equity, and inclusion. Their failure to meet them would put their reputation at risk.
+
+Cause Areas:
+- Labor Rights and Welfare
+- Animal Welfare
+- Human Rights
+- Sustainability and Environment
+- Food and Hunger
+- Public Health
+
+Explanation:
+Document Offset: 96814
+- Labor Rights and Welfare: This cause area is mentioned because there's an issue with child labor laws being followed by suppliers. 
+- Animal Welfare: There's a mention of mistreatment or abuse of animals by suppliers. 
+- Human Rights: Suppliers are accused of violating human rights.
+- Sustainability and Environment: Mention of environmental impact.
+- Food and Hunger: Products and packaging fall into this category.
+- Public Health: Obesity and health concerns connected to company products.

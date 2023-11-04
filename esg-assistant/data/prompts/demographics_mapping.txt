@@ -1,0 +1,38 @@
+Map the input passage below to one or more of the Demographics. Provide a brief explanation for the mapping.
+
+Demographics:
+- Seniors and Aging Populations
+- Youth/Young People
+- Indigenous Peoples
+- Immigrants
+- Migrants and Refugees
+- People who identify as LGTBQ+
+- People of Color
+- Veterans
+- Women and Girls
+- People with Disabilities/Differently Abled
+- People Experiencing Poverty
+- People Experiencing Homelessness
+- People Experiencing Obesity and/or Diabetes
+- People Experiencing Hunger or Malnourishment
+- People Experiencing Mental Illness
+- People Experiencing Viruses and Diseases
+
+Input:
+Immigrants and refugees often encounter a myriad of challenges as they seek to rebuild their lives in new lands. One of the most immediate obstacles is the language barrier, which can impede their ability to access essential services, secure employment, or engage in meaningful social interactions. This linguistic hurdle can lead to feelings of isolation and hinder successful integration. Legal and bureaucratic obstacles can be overwhelming. Refugees may face complex asylum processes, while immigrants may struggle with stringent visa and residency requirements.
+Document Offset: 22324
+
+Output:
+Demographics:
+- Immigrants
+- Migrants and Refugees
+
+Explanation:
+Document Offset: 22324
+- Immigrants: Communication challenges associated with language barrier.
+- Migrants and Refugees: Legal challenges with the asylum processes.
+
+Input:
+%s
+
+Output:

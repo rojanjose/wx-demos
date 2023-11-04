@@ -1,0 +1,21 @@
+Map the input passage below to one or more of the Impact Areas. Provide a brief explanation for the mapping.
+
+Impact Areas:
+%s
+
+Input:
+There is growing concern among consumers, public health professionals, and government agencies about the health problems associated with obesity. Increasing public concern about obesity; other health-related public concerns surrounding the consumption of sweetened beverages; potential new or increased taxes on sweetened beverages by government entities to reduce consumption or to raise revenue; additional governmental regulations concerning the advertising, marketing, labeling, packaging, or sale of our sweetened beverages; and negative publicity resulting from actual or threatened legal actions against us or other companies in our industry relating to the marketing, labeling or sale of sweetened beverages may reduce demand for, or increase the cost of, our sweetened beverages, which could adversely affect our profitability.
+Document Offset: 22324
+
+Output:
+Impact Areas:
+- Reduce disease/improve health
+
+Explanation:
+Document Offset: 22324
+- Reduce disease/improve health: Concern about obesity and association actions can improve health. 
+
+Input:
+%s
+
+Output:
