@@ -50,15 +50,17 @@ def init():
     }
     watson_ai.set_model_parameters(model_id, parameters)
 
-    log_file = open(f"./state1-RAG.log", "w")
+    log_file = open(f"./stage1-RAG.log", "w")
 
     ca_to_impact_map_file="./config/cause_areas_to_impact.json"
     with open(ca_to_impact_map_file) as json_file:
         cause_areas_to_impacts = json.load(json_file)
 
-    #Initalize the list of companies
+    #Initialize the list of companies
     # companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "WellsFargo", "Netflix", "Amazon"]
-    companies = ["coke"]
+    # companies = ["coke"]
+    companies = ["coke", "Apple", "Microsoft", "Ford", "Verizon", "Netflix", "Amazon"]
+    
 
 
 def get_prompt(prompt_file):
@@ -153,11 +155,11 @@ def main():
 
         for result in query_result['results']:
             file_name = result['extracted_metadata']['filename']
-            log_file.write(f"Working with 10-K source file: {file_name}")
+            log_file.write(f"\nFound relevant passages in source file: {file_name}")
 
             if(company in file_name):
                 log_file.write("\n----------------------------------------------\n")
-                print(f"Mapping cause areas for {company}")
+                print(f"\nMapping cause areas for {company}")
                 for passage in result['document_passages']:
                     clean_passage = discovery.format_string(passage['passage_text'])
                     clean_passage += f"\nDocument offset: {passage['start_offset']}"
@@ -182,7 +184,7 @@ def main():
 
                     impacts = impacts + extract_lines(response, "Impact Areas", "Explanation")
                     impacts_explanation = impacts_explanation + extract_lines(response, "Explanation", "go until end")
-                    log_file.write(f"\Impact Areas prompt:\n{generated_prompt} \Impact Areas response:\n{response}")
+                    log_file.write(f"\nImpact Areas prompt:\n{generated_prompt} \Impact Areas response:\n{response}")
 
                     log_file.write("\n----------------------------------------------\n")
                 

@@ -4,83 +4,58 @@ Cause areas coke focuses on:
 - Sustainability and Environment
 - Economic Empowerment and Workforce Development
 - Food and Hunger
+
 - Governance
 - Diversity, Equity, and Inclusion
 - Education
-- Employee Wellbeing
-- Human Resources
-- Labor Practices
+- Data Privacy
+- Human Rights
+- Labor Rights and Welfare
+- Animal Welfare
+- Public Health
 
-Explanation:
-
+Explaination:
 Document Offset: 192976
-
 - Sustainability and Environment: This cause area is selected because the company's sustainability goals include reducing carbon emissions, sustainable sourcing of agricultural commodities, and water conservation. These initiatives aim to mitigate the environmental impact of their operations and promote sustainable practices throughout their supply chain.
-
 - Economic Empowerment and Workforce Development: The success of the company's sustainability efforts depends on collaboration with various stakeholders, including employees, suppliers, and bottling partners. By prioritizing diversity, equity, and inclusion within their organization and supply chain, they can foster an inclusive environment that promotes economic empowerment and workforce development opportunities for diverse groups.
-
 - Food and Hunger: Although not directly mentioned in the given passage, the company's primary product offerings consist of sweetened beverages, which falls under the category of food and hunger. Therefore, it indirectly relates to this cause area.
-
 Document Offset: 193639
-
 - Sustainability and Environment: Focus areas include reducing carbon dioxide and other greenhouse gases, sustainable sourcing of agricultural commodities, and water quality and scarcity.
-
 - Economic Empowerment and Workforce Development: This includes empowering their workers and supply chain.
-
 - Governance: They discuss how they manage risk and uncertainty, internal controls over financial reporting, and audits.
-
 Document Offset: 54342
-
 - Diversity, Equity, and Inclusion: This cause area is directly addressed in the passage through the company's efforts to promote diversity, equity, and inclusion through their compensation programs, pay equity analyses, and employee-led inclusion networks.
-
 - Economic Empowerment and Workforce Development: The passage highlights the company's commitment to developing its employees' skills and providing opportunities for growth, which aligns with this cause area's focus on empowering individuals economically and supporting workforce development.
-
 - Education: While not explicitly mentioned in the passage, education is closely linked to the company's emphasis on training and upskilling its workers. By offering chances for professional advancement and skill acquisition, the business promotes lifelong learning and invests in human capital, both of which are crucial to educational attainment.
-
 Document Offset: 601349
-
 - Economic Empowerment and Workforce Development: This section discusses management contracts and compensatory plans and arrangements that involve executive officers' salaries and bonuses. It falls into economic empowerment because it deals directly with how people get paid and their job titles.
-
 The entire passage discusses various initiatives taken by the company to improve diversity, equity, and inclusion within its workforce. It includes measures such as diversity and inclusion metrics, leadership councils, pay equity analyses, and employee-led inclusion networks. Additionally, it mentions how these efforts are linked to executive compensation and considered essential for driving business growth. Therefore, this passage maps exclusively to the "Diversity, Equity, and Inclusion" cause area.
-
-Document Offset: 53843
-
-- Education: This cause area is selected because the company invests in training and development programs for its employees, such as Coca-Cola University, which offers courseware from prestigious institutions like Harvard and LinkedIn Learning. Additionally, the company provides access to external resources like eCornell.
-
-- Employee Wellbeing: The company prioritizes employee wellbeing by providing various initiatives to promote growth, engagement, and retention. They hold regular town hall meetings, both globally and at the functional level, and encourage open communication across the organization. Furthermore, they offer coaching and mentoring programs to support employee development.
-
-Document Offset: 189172
-
-- Sustainability and Environment: This cause area is selected because the company acknowledges its role in addressing environmental challenges and risks, such as reducing carbon emissions and promoting sustainable agriculture. They have set specific ESG goals related to environmental stewardship.
-
-- Economic Empowerment and Workforce Development: The company's commitment to promoting human and workplace rights falls under this cause area. Their efforts to develop and implement solutions related to workplace rights align with this category.
-
-- Food and Hunger: Like the previous document, sweetened drinks and their production fall into food and hunger.
-
-- Diversity, Equity, and Inclusion: The company highlights diversity, equity, and inclusion as an essential challenge and risk related to their business. They have established specific ESG goals related to diversity, equity, and inclusion, demonstrating their dedication to advancing this cause.
-
-Document Offset: 189997
-
-- Sustainability and Environment: Reducing carbon dioxide and other greenhouse gases falls into environmental sustainability. 
-
-- Economic Empowerment and Workforce Development: This company has set up ESG goals related to human and workplace rights.
-
-- Diversity, Equity, and Inclusion: They've also included DEI as part of their ESG goals.
-
-Document Offset: 47776
-
-- Human Resources: This passage discusses human capital management, employee numbers, and collective bargaining agreements. It falls into this cause area because it focuses on how the company manages its employees.
-
-- Diversity, Equity, and Inclusion: The passage highlights the importance of creating a diverse, equitable, and inclusive work environment. This aligns with the DEI cause area since it emphasizes promoting equality and fostering an inclusive atmosphere within the organization.
-
-Document Offset: 48357
-
-- Diversity, Equity, and Inclusion: This cause area is directly mentioned in the text, where it states "We believe that a diverse, equitable and inclusive workplace...". Additionally, the company's focus on social justice issues, specifically racial and gender equity, falls within this category.
-
-- Labor Practices: The passage highlights the importance of labor practices by mentioning the number of employees covered by collective bargaining agreements and the company's efforts to successfully renegotiate them when they expire. It also mentions the company's commitment to attracting and retaining high-performing talent.
+The entire input text revolves around diversity, equity, and inclusion initiatives taken up by the company. It discusses their efforts towards creating an inclusive environment, setting targets for diversity, and implementing measures to achieve them. Therefore, it falls under the cause area of "Diversity, Equity, and Inclusion."
+Document offset: 55313
+- Diversity, Equity, and Inclusion: This cause area is covered because the company supports employee led inclusion networks. They also mention that they try to create an integrated, streamlined and inspiring career experience.
+- Education: Mentioned when talking about the company's comprehensive global talent management process and how they provide learning opportunities to help employees develop and grow. Also mentioned when discussing the company's focus on investing in inspirational leadership, capability development, and providing learning opportunities.
+- Employee Engagement: Mentioned when discussing the company's efforts to create an integrated, streamlined and inspiring career experience. It's also mentioned when they talk about improving employee engagement and retention.
+Document Offset: 137714
+- Sustainability and Environment: This cause area is directly addressed in the given passage since it talks about the company's sustainability goals and how they might be affected by external factors such as changing consumer preferences or regulatory changes. It specifically mentions reducing waste from plastic bottles and efficient resource utilization through circular economics.
+- Food and Hunger: Since this passage discusses the environmental effects of plastic bottles used for beverages, it indirectly addresses the broader topic of food and hunger because these containers often contain food items like soft drinks that people consume daily. Even though there isn't an immediate connection between them, both topics share some common ground.
+- Economic Empowerment and Workforce Development: Although not explicitly mentioned here, this cause area can still relate to the discussion around sustainability practices and meeting stakeholder demands. By prioritizing sustainability measures such as using eco-friendly packaging alternatives or implementing recycling programs effectively, businesses can create job opportunities within those fields while promoting positive economic growth overall.
+Document Offset: 136349
+- Data Privacy: Unauthorized access to personal data can lead to its misuse and exploitation, which would be a breach of privacy and trust. This falls directly into the category of Data Privacy.
+- Sustainability and Environment: The company's sustainability goals and targets are at risk due to external factors. They include practices and disclosures related to sustainable packaging, water stewardship, climate, health, and nutrition. All these points map directly to Sustainability and Environment.
+- Food and Hunger: As this is a document about a beverage company, it indirectly maps to Food and Hunger as they deal with edible items that people consume daily.
+- Human Rights: The company has goals that relate to human rights like diversity, equity, and inclusion. Failure to meet these goals might tarnish their image and affect how they do business. It maps to Human Rights.
+- Diversity, Equity, and Inclusion: The company has set goals and targets for diversity, equity, and inclusion. Their failure to meet them would put their reputation at risk.
+Document Offset: 96814
+- Labor Rights and Welfare: This cause area is mentioned because there's an issue with child labor laws being followed by suppliers. 
+- Animal Welfare: There's a mention of mistreatment or abuse of animals by suppliers. 
+- Human Rights: Suppliers are accused of violating human rights.
+- Sustainability and Environment: Mention of environmental impact.
+- Food and Hunger: Products and packaging fall into this category.
+- Public Health: Obesity and health concerns connected to company products.
 
 Demographics coke focuses on:
 - People Experiencing Poverty
+- People Experiencing Homelessness
 - People Experiencing Hunger or Malnourishment
 - People Experiencing Mental Illness
 - People Experiencing Viruses and Diseases
@@ -88,8 +63,9 @@ Demographics coke focuses on:
 - Women and Girls
 - People Identifying as LGBTQ+
 - People who identify as LGBTQ+
+- People Experiencing Obesity and/or Diabetes
 
-Explanation:
+Explaination:
 Document Offset: 192976
 - People Experiencing Poverty: The company's commitment to improving its impact on society includes addressing issues like poverty through sustainability initiatives.
 - People Experiencing Homelessness: The same commitment extends to homelessness, acknowledging it as an issue relevant to their business operations.
@@ -108,34 +84,49 @@ Document Offset: 54342
 - People identifying as LGBTQ+: The company's diversity, equity, and inclusion strategies include supporting employee-led inclusion networks for various groups, including those identifying as LGBTQ+.
 Document Offset: 601349
 - People Experiencing Poverty: No explicit mention. However, reference to "The Coca-Cola Company" and its executives' signatures suggest involvement with wealth disparities.
+- People Experiencing Homelessness: Not directly mentioned.
+- People Experiencing Hunger or Malnourishment: Not explicitly stated.
+- People Experiencing Mental Illness: No direct association.
+- People Experiencing Viruses and Diseases: No clear connection.
 
 Document Offset: 53812
 - Women and Girls: Emphasis on promoting women's leadership through the Global Women’s Leadership Council and ensuring equal pay through pay equity analyses.
 - People of Color: Efforts to increase diversity and representation across different job grades and regions, as well as measures to address potential disparities through adverse impact analysis.
 - People Identifying as LGBTQ+: Inclusion of sexual orientation and gender identity as aspects of diversity and inclusion metrics, and support for employee-led inclusion networks focused on these identities.
-
-Document Offset: 189172
-- People Experiencing Poverty: The company's commitment to reducing poverty through its ESG goals, particularly in relation to sustainable agriculture and workplace rights.
-- People Experiencing Homelessness: Not directly mentioned.
-- People Experiencing Hunger or Malnourishment: The company's goal to reduce hunger by improving access to nutritious food and addressing food waste.
-- People Experiencing Mental Illness: Not directly mentioned.
-- People Experiencing Viruses and Diseases: Not directly mentioned.
-Document Offset: 189997
-- People Experiencing Poverty: The company's ability to achieve its ESG goals related to sustainable agriculture, diversity, equity, and inclusion, and human and workplace rights depends on the actions of various stakeholders, such as governments, non-governmental organizations, communities, and other third parties, which could impact people experiencing poverty.
-- People Experiencing Homelessness: The same factors mentioned above could also impact people experiencing homelessness.
-- People Experiencing Hunger or Malnourishment: Reduction of added sugar in beverages and sustainable agriculture practices could help address hunger and malnutrition issues. However, achieving these goals depends on various stakeholders' actions.
-- People Experiencing Mental Illness: The success of the company's ESG goal regarding mental health support for employees and supply chain workers depends on various stakeholders' actions.
-- People Experiencing Viruses and Diseases: The company's commitment to reducing carbon dioxide and other greenhouse gas emissions could positively impact public health by mitigating climate change's effects on viruses and diseases.
-Document Offset: 47776
-- People of Color: Reference to diversity, equity and inclusion across different races, ethnicities, and tribes.
-- Women and Girls: Reference to diversity, equity and inclusion across different genders.
-- People who identify as LGBTQ+: Reference to diversity, equity and inclusion across expressions of gender and sexual identity.
-- People Experiencing Poverty: No direct reference but could fall under the umbrella of "socioeconomic backgrounds".
-- People Experiencing Homelessness: No direct reference but could fall under the umbrella of "socioeconomic backgrounds".
-Document Offset: 48357
-- Women and Girls: Represented at 39% of US employees.
-- People of Color: Represented at 46% of US employees.
-- People who identify as LGBTQ+: Not explicitly mentioned but included under "expressions of gender and sexual identity" in the company's approach to diversity, equity, and inclusion.
+Document Offset: 52926
+- Women and Girls: Focus on creating equal opportunities and promoting diversity and inclusion through leadership councils and quantitative and qualitative components in compensation programs.
+- People of Color: Emphasis on reflecting the U.S. Census racial and ethnic representation at all job grade levels and developing locally relevant diversity, equity, and inclusion aspirations.
+- People who identify as LGBTQ+: Inclusion in diversity, equity, and inclusion metrics and efforts to provide access to equal opportunities and foster belonging.
+Document Offset: 55313
+- People of Color: Emphasis on inclusivity and diversity within the company's talent management process.
+- Women and Girls: Focus on gender equality in career development and learning opportunities.
+- People Experiencing Poverty: Potential impact of the company's efforts to provide training and development opportunities aimed at improving employee engagement and retention.
+- People Experiencing Homelessness: The possibility of the company's initiatives helping individuals get back on their feet by offering them employment and skill-building chances.
+- People Experiencing Hunger or Malnourishment: Similar to those experiencing homelessness, the potential positive influence of the company's programs on this group.
+- People Experiencing Mental Illness: Recognition of mental health as crucial aspect of overall wellbeing; provision of resources like coaching and mentoring programs might aid employees dealing with such issues.
+- People Experiencing Viruses and Diseases: General emphasis on employee welfare could encompass measures against viral outbreaks or spread of diseases inside the workplace.
+Document Offset: 137714
+- People Experiencing Poverty: Concerns about the environmental impact of plastic bottles and other packaging materials could result in reduced demand for beverages and increased production and distribution costs.
+- People Experiencing Homelessness: Reduced demand for beverages could affect availability of jobs and affordable housing options.
+- People Experiencing Hunger or Malnourishment: Increased production and distribution costs could limit food security and worsen malnutrition.
+- People Experiencing Mental Illness: Negative impact on company's reputation and potential loss of jobs could exacerbate mental health issues.
+- People Experiencing Viruses and Diseases: Accumulation of plastic waste in water sources could contribute to spread of diseases through contaminated drinking water.
+Document Offset: 136349
+- People who identify as LGBTQ+: Concerns about diversity, equity, and inclusion.
+- People of Color: Concerns about diversity, equity, and inclusion.
+- Women and Girls: Concerns about gender equality and empowerment.
+- People Experiencing Poverty: Concerns about economic inequality and lack of resources.
+- People Experiencing Homelessness: Concerns about housing instability and lack of support systems.
+- People Experiencing Hunger or Malnourishment: Concerns about food security and access to basic needs.
+- People Experiencing Mental Illness: Concerns about mental health and wellbeing.
+- People Experiencing Viruses and Diseases: Concerns about public health and access to medical care.
+Document Offset: 96814
+- People Experiencing Poverty: Negative impact on the company's overall reputation and brand image due to allegations of not respecting internationally recognized human rights.
+- People Experiencing Homelessness: Negative impact on the company's overall reputation and brand image due to allegations of not respecting internationally recognized human rights.
+- People Experiencing Obesity and/or Diabetes: Adverse publicity surrounding obesity and health concerns related to our products.
+- People Experiencing Hunger or Malnourishment: Allegations of actual or perceived failure by our suppliers or other business partners to comply with applicable workplace and labor laws, including child labor laws, or their actual or perceived abuse or misuse of migrant workers.
+- People Experiencing Mental Illness: Negative impact on the company's overall reputation and brand image due to allegations of not respecting internationally recognized human rights.
+- People Experiencing Viruses and Diseases: Negative impact on the company's overall reputation and brand image due to allegations of not respecting internationally recognized human rights.
 
 Impact Areas coke focuses on:
 - Reduce carbon impact
@@ -151,11 +142,14 @@ Impact Areas coke focuses on:
 - Reduce hunger and malnutrition
 - Increase access to nutritious food
 - Increase sustainable food systems
+
 - Increase education, awareness and/or understanding of the risks/threats of climate change
 - Improve air quality
-- Improve academic achievement
+- Reduce waste/increase recycling
+- Increase land protection and/or conversation
+- Increase water protection an/or conversation
+- Advocate for/
 
-Explanation:
 Document Offset: 192976
 - Reduce carbon impact: The company's efforts to reduce carbon dioxide and other greenhouse gas emissions will help mitigate climate change.
 - Increase land protection and/or conservation: Sustainable sourcing of agricultural commodities helps protect natural resources like land.
@@ -182,14 +176,14 @@ Document Offset: 193639
 - Ensure STEM skills proficiency: None mentioned.
 - Increase access to quality education programs and services: None mentioned.
 - Reduce hunger and malnutrition: Focus area of sustainable s
-Document Offset: 54342
+Document offset: 54342
 - Increase access to and acquire employment: The company's efforts to promote diversity, equity, and inclusion in their hiring practices and career development opportunities can lead to increased job opportunities for underrepresented groups.
 - Promote economic growth: By promoting diversity, equity, and inclusion, the company can tap into a broader pool of talents, leading to better business outcomes and contributing to economic growth.
-- Achieve equality/ eliminate discrimination: The company's commitment to equal pay and adverse impact analysis helps to eliminate discrimination and promote equal opportunities for all employees.
-- Increase active participation in society: Employee-led inclusion networks supported by the company can encourage greater involvement and engagement in community activities.
-- Ensure STEM skills proficiency: Career development and training opportunities provided by the company can include STEM skills, ensuring employees are prepared for jobs requiring these competencies.
-- Increase access to quality education programs and services: The company's emphasis on developing its workers might result in higher-quality educational possibilities being made available to a larger variety of individuals.
-- Improve academic achievements: Employees participating in professional growth and training initiatives may enhance their performance in school and contribute to raising academic standards.
+- Achieve equality/ eliminate discrimination: The company's commitment to diversity, equity, and inclusion helps to promote equal opportunities and eliminates discrimination in the workplace.
+- Increase active participation in society: Employee-led inclusion networks supported by the company can encourage greater involvement in community activities, volunteering, and civic engagement.
+- Ensure STEM skills proficiency: As part of the company's talent development initiatives, workers might receive training in science, technology, engineering, and mathematics (STEM), improving their ability to compete in the modern economy.
+- Increase access to quality education programs and services: The company's dedication to employee development may involve chances for further instruction and education, such as online courses, professional certifications, or partnerships with educational institutions.
+- Improve academic achievements: Workers who take advantage of these possibilities would enhance their abilities and knowledge, which will ultimately result in higher grades and improved success in school.
 Document Offset: 601349
 - Achieve financial stability: The company's annual report discusses financial performance and outlook, indicating efforts to achieve financial stability.
 - Increase access to and acquire employment: As a large corporation, Coca-Cola likely employs many people and provides opportunities for employment.
@@ -204,40 +198,27 @@ Document offset: 53812
 - Ensure STEM skills proficiency: As the company emphasizes diversity and inclusion in its hiring practices, it increases the likelihood of having a skilled workforce in science, technology, engineering, and mathematics (STEM).
 - Increase access to and acquire employment: The company's commitment to diversity, equity, and inclusion creates opportunities for individuals who might have been previously excluded due to biases or barriers.
 - Advocate for/promote policy change: By implementing policies and practices that promote diversity, equity, and inclusion, the company advocates for positive changes in societal attitudes towards these issues.
-Document Offset: 53843
-- Increase access to and acquire employment: Formal and informal learning programs, leadership, training, and development goals, and comprehensive enterprise-wide coaching and mentoring programs support employee development and career advancement.
-- Promote economic growth: Employee development and career advancement lead to improved productivity and innovation, contributing to economic growth.
-- Ensure STEM skills proficiency: Digital content from sources like Harvard, eCornell, and LinkedIn Learning can enhance STEM skills.
-- Increase access to quality education programs and services: Coca-Cola University offers a robust catalog of digital content, providing access to high-quality educational resources.
-- Improve academic achievement: By offering comprehensive learning programs, employees' academic achievements can improve, leading to better job performance and career prospects.
-Document Offset: 189172
-- Reduce carbon impact: The company's goal to reduce carbon dioxide and other greenhouse gas emissions will help mitigate climate change.
-- Increase land protection and/or conservation: The company's commitment to sustainable agriculture practices helps protect and conserve natural resources.
-- Increase water protection an/or conservation: Efforts to improve water quality and reduce water usage contribute to conserving water resources.
-- Improve water quality: By reducing pollutants entering waterways, the company improves aquatic ecosystems' health.
-- Achieve financial stability: The company's success contributes to economic stability through job creation and tax revenues.
-- Increase access to and acquire employment: The company provides jobs and supports workforce development initiatives.
-- Promote economic growth: Expanding operations and creating jobs stimulates local economies.
-- Ensure STEM skills proficiency: The company likely employs individuals skilled in science, technology, engineering, and math fields contributing to innovation.
-- Increase access to quality education programs and services: Supporting educational initiatives strengthens the talent pipeline and promotes future innovation.
-- Improve academic achievement: Educational efforts enhance knowledge retention and skill development.
-- Advocate for/Promote Policy Change: Collaborating with NGOs and governments to advance environmentally friendly laws and rules fosters positive societal transformation.
-Document Offset: 189997
-- Achieve financial stability: The company's goal is to achieve financial stability by reducing costs and increasing revenue.
-- Increase access to and acquire employment: By promoting economic growth, the company plans to create job opportunities.
-- Promote economic growth: The company intends to promote economic growth by supporting sustainable practices and reducing environmental impact.
-- Ensure STEM skills proficiency: The company's ESG goals include reducing carbon emissions and implementing sustainable practices, requiring STEM skills proficiency.
-- Increase access to quality education programs and services: The company's ESG goals include improving water quality and reducing sugar content in their drinks, which will lead to better health outcomes and improved educational attainment.
-- Advocate for/promote policy changes: The company's ESG goals include achieving equality and eliminating discrimination, which requires advocacy for policy changes.
-Document Offset: 47776
-- Achieve equality/ eliminate discrimination: Diversity, equity, and inclusion are mentioned as a strategic business priority.
-- Increase access to and acquire employment: Mention of hiring talents and retention of employees.
-- Promote economic growth: Belief that a diverse, equitable, and inclusive workplace is critical to company's success.
-- Ensure STEM skills proficiency: Not directly related but included in the mention of people being the company's most valuable assets.
-- Increase appreciation and support for the arts: Not directly related.
-Document Offset: 48357
-- Achieve equality/ eliminate discrimination: Focus on social justice issues, including racial and gender equity.
-- Increase access to and acquire employment: Belief that people are their most important asset and striving to attract and retain high performing talent.
-- Promote economic growth: Striving to attract and retain high performing talent.
-- Ensure STEM skills proficiency: Not mentioned.
-- Increase appreciation and support for the arts: Not mentioned.
+Document offset: 52926
+- Achieve equality/ eliminate discrimination: Focus on providing access to equal opportunities and fostering belonging. Aspiration to reflect US census racial and ethnic representation at all job grade level. Conduct annual pay equity analysis to ensure fairness.
+- Increase active participation in society: Seek to create a better shared future for everyone their brands and business touch. Belief that sustainability goals, including diversity, equity and inclusion aspirations, are key drivers for growth. Introduction of quantitative and qualitative component into compensation program to promote progress towards diversity, equity and inclusion aspiration.
+- Advocate for/promote policy change: Public announcement of 2030 aspiration to be 50% led by women globally and in the united states. Locally relevant diversity, equity and inclusion aspiration developed by each operating unit outside the united states.
+Document offset: 55313
+- Increase access to and acquire employment: Supporting employee led inclusion networks and providing opportunities for employees' development and growth improves access to employment.
+- Promote economic growth: Developing and growing talents accelerates promotion within the company, hence promoting economic growth.
+- Ensure STEM skills proficiency: Focus on investing in inspirational leadership, capability development, and providing learning opportunities equips the global workforce with skills needed for the future.
+- Increase appreciation and support for the arts: Not specified in the given text.
+- Achieve equality/ eliminate discrimination: The comprehensive global talent management process provides equal opportunities for employees irrespective of their background.
+- Increase active participation in society: Employees having a say in what it means to have a career in the company makes them actively engaged in society.
+- Advocate for/promote policy change: Democratized access to content for all employees gives room for advocacy.
+Document Offset: 136349
+- Reduce greenhouse gas emissions: The company's sustainability goals include reducing their carbon footprint.
+- Conserve water resources: The company's sustainability goals include water stewardship.
+- Promote sustainable agriculture: The company's sustainability goals include sustainable packaging.
+- Protect biodiversity and ecosystems: The company's sustainability goals include sustainable packaging.
+- Support human rights: The company's sustainability goals include human rights.
+- Promote diversity, equity, and inclusion: The company's sustainability goals include diversity, equity, and inclusion.
+- Reduce waste and pollution: The company's sustainability goals include reducing waste and pollution.
+- Improve supply chain management: The company's sustainability goals include accurate and transparent reporting of progress towards sustainability goals.
+- Enhance brand reputation: Meeting sustainability goals and stakeholder expectations can enhance the company's brand reputation.
+Document Offset: 96814
+- Reduce disease/impro

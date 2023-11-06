@@ -57,8 +57,8 @@ class WatsonDiscovery:
 
     def process_discovery_search(self, question, company):
         # Processing Setup
-        count = 2
-        max_per_document = 10
+        count = 25
+        max_per_document = 5
         passages = {
             "enabled": True,
             "per_document": True,

@@ -1,0 +1,79 @@
+ESG mapping for Netflix
+
+Cause areas Netflix focuses on:
+- Arts and Culture
+- Public Health
+- Diversity, Equity, and Inclusion
+- Education
+- Economic Empowerment and Workforce Development
+
+Explanation:
+
+The excerpt discusses the company's financial statements, including its balance sheet, income statement, and cash flow statement. It also mentions the appointment of an independent registered public accounting firm to audit the company's financial statements. This suggests that the document is related to economic empowerment and workforce development since it deals with financial management and oversight, which are essential components of business success and job creation.
+
+Document Offset: 138601
+
+- Economic Empowerment and Workforce Development: This document contains information about the company's financial performance and governance structure, including executive compensation and board composition, which falls within the purview of economic empowerment and workforce development.
+
+- Sustainability and Environment: As an annual report for a publicly traded company, it likely includes information about the organization's environmental impact and sustainability initiatives, such as energy usage, waste reduction, and supply chain management practices.
+
+The document includes information about employment and job roles within the company, specifically mentioning the positions of co-chief executives and chief financial officers. It also mentions stock options and agreements related to employee compensation. Therefore it can be mapped to the cause area of economic empowerment and workforce development.
+
+Document Offset: 4356
+
+- Arts and Culture: Netflix's primary business is providing entertainment services through its streaming platform, which falls under arts and culture. 
+
+- Public Health: The document mentions the COVID-19 pandemic and the company's response to it, which falls under public health.
+
+Document Offset: 14732
+
+- Diversity, Equity, and Inclusion: This cause area is directly addressed in the passage, which emphasizes the importance of building diversity, inclusion, and equity into all aspects of operations globally. The company's efforts include training recruiters to hire more inclusively, supporting employee resource groups, publishing an annual Inclusion report, and offering leadership development programs.
+
+- Education: The passage mentions programs, such as seminars and lectures, that help leaders examine their values and develop leadership skills. Additionally, the company offers workshops to provide skills and coaching to employees on various topics. These educational initiatives contribute to employee growth and development.
+
+- Economic Empowerment and Workforce Development: By focusing on developing great leaders and providing opportunities for employees to grow and learn, the company empowers its workforce and promotes economic mobility. The passage also highlights the company's commitment to paying employees at the top of their personal market and allowing them to choose between cash and stock options, indicating a focus on fair compensation practices.
+
+Demographics Netflix focuses on:
+- People Experiencing Poverty
+- People experiencing poverty
+- People experiencing homelessness
+- People experiencing hunger or malnourishment
+- People experiencing mental illness
+- People experiencing viruses and diseases
+- People of Color
+- Women and Girls
+- People Identifying as LGBTQ+
+
+Explanation:
+Document offset: 138601
+- People experiencing poverty: Reference to the annual meeting of stockholders and the proxy statement suggests that the document relates to corporate governance and wealthy shareholders, indicating a disparity between the wealthy owners and those experiencing poverty.
+Document Offset: 4356
+- People experiencing poverty: Reference to "liquidity" and "sufficiency of capital resources."
+- People experiencing homelessness: No direct mention.
+- People experiencing hunger or malnourishment: No direct mention.
+- People experiencing mental illness: No direct mention.
+- People experiencing viruses and diseases: Reference to COVID-19 pandemic.
+Document Offset: 14732
+- People of Color: Emphasis on increasing representation among employees.
+- Women and Girls: Representation of women in leadership roles.
+- People identifying as LGBTQ+: Supporting ERG's representing historically underrepresented and/or marginalized communities.
+- People experiencing poverty: Training recruiters to hire more inclusively.
+
+Impact Areas Netflix focuses on:
+- Improve transparency & disclosure
+- Increase access to quality education programs and services
+- Reduce disease/improve health
+
+Explanation:
+The document includes various exhibits related to regulatory compliance, such as forms 10-K and 8-K, and certifications pursuant to Sections 302 and 906 of the Sarbanes-Oxley Act of 2002. Additionally, it includes a power of attorney granting certain individuals the authority to sign and file documents with the Securities and Exchange Commission. Therefore, it maps to impact areas related to regulatory compliance and legal protection.
+Document Offset: 4356
+- Increase access to quality education programs and services: The document mentions "our ability to improve our content offerings and service" which could lead to improved educational content.
+- Reduce disease/improve health: The document mentions "impact of foreign exchange rate fluctuations, including on net income, revenues and average revenues per paying member" which could have an indirect positive effect on health outcomes if people are able to afford better healthcare due to favorable currency rates.
+Document Offset: 14732
+- Increase access to quality education programs and services: Training recruiters to hire more inclusively and supporting employee resource groups.
+- Increase active participation in society: Building diversity, inclusivity, and equity into all aspects of operations globally.
+- Advocate for/promote policy change: Publishing an Inclusion Report and EEO-1 reports on the website.
+- Achieve equality/ eliminate discrimination: Fostering a work environment that is culturally diverse, inclusive, and equitable.
+- Increase access to and acquire employment: Offering programs and workshops to provide skills and coaching to employees.
+- Promote economic growth: Operating a global business of providing compelling content to entertain the world.
+- Ensure STEM skills proficiency: Not mentioned explicitly but supported by offering programs and workshops.

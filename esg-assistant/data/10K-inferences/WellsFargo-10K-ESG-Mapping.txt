@@ -1,0 +1,109 @@
+ESG mapping for Wells Fargo
+
+Cause areas WellsFargo focuses on:
+- Diversity, Equity, and Inclusion
+- Economic Empowerment and Workforce Development
+- Human Rights
+
+Explanation:
+
+The passage highlights how Wells Fargo invests in employee development, offers competitive compensation, and focuses on building diverse and inclusive teams. This aligns with the cause area of economic empowerment and workforce development, which seeks to create equal access to job opportunities and training for individuals to improve their economic stability and mobility.
+
+Document Offset: 11424
+
+- Diversity, Equity, and Inclusion: This cause area is selected because the passage highlights Wells Fargo's commitment to promoting diversity, equity, and inclusion in their hiring practices, career development, and leadership positions. They have implemented measures like pay equity reviews to ensure equal pay for all employees regardless of gender, race, or ethnicity.
+
+- Economic Empowerment and Workforce Development: The passage discusses how Wells Fargo's compensation program aims to attract, motivate, and retain talented individuals. It also mentions the company's efforts to promote diversity and equity in their workforce, which falls under economic empowerment and workforce development.
+
+Document Offset: 9717
+
+- Economic Empowerment and Workforce Development: This cause area is mapped because the text discusses employee compensation and career development opportunities offered by Wells Fargo. It highlights the importance of pay for performance and attracting/retaining talented individuals.
+
+- Diversity, Equity, and Inclusion: The passage emphasizes Wells Fargo's commitment to championing diversity and inclusion within their organization. They strive to build diverse and inclusive teams, which aligns with this cause area.
+
+Document Offset: 67263
+
+- Human Rights: This document talks about employee compensation and ownership plans. Employee wellbeing falls under human rights.
+
+- Economic Empowerment and Workforce Development: It discusses matters related to employees' financial empowerment through equity compensation plans.
+
+Document Offset: 11991
+
+- Diversity, Equity, and Inclusion: This cause area is mapped because the passage highlights Wells Fargo's commitment to promoting diversity, equity, and inclusion in its hiring practices, career development, and leadership positions. It mentions the company's goal to increase diverse representation in leadership roles and describes its efforts to meet the diverse needs of its global customer base.
+
+- Economic Empowerment and Workforce Development: This cause area is mapped because the passage discusses Wells Fargo's efforts to attract, motivate, and retain talented individuals by providing comprehensive benefits packages and conducting an annual pay equity review to ensure fair and equitable compensation practices.
+
+Demographics Wells Fargo focuses on:
+- Women and Girls
+- People of Color
+- People Experiencing Poverty
+- People Experiencing Homelessness
+- People Experiencing Hunger or Malnourishment
+- People Experiencing Mental Illness
+- People Experiencing Viruses and Diseases
+- People experiencing poverty
+- Women and girls
+- People of color
+- People with disabilities/differently abled
+- People identifying as LGBTQ+
+- Women
+
+Explanation:
+Document Offset: 10596
+- Women and Girls: Emphasis on gender equality in the workplace.
+- People of Color: Commitment to diversity and inclusion.
+- People Experiencing Poverty: Offering market-competitive compensation packages.
+- People Experiencing Homelessness: Not directly addressed.
+- People Experiencing Hunger or Malnourishment: Not directly addressed.
+- People Experiencing Mental Illness: Support for mental wellbeing through employee assistance programs.
+- People Experiencing Viruses and Diseases: Healthcare benefits for employees.
+Document Offset: 11424
+- Women and Girls: Gender equality in terms of salary.
+- People of Color: Racial/ethnic diversity reflected in equal pay.
+Document Offset: 9717
+- People experiencing poverty: Financial struggles addressed through financial planning and loan services.
+- Women and girls: Gender equality emphasized in career development opportunities and work-life balance initiatives.
+- People of color: Diversity and inclusion championed in all roles and levels within the organization.
+- People with disabilities/differently abled: Accessibility considered in employee support programs and accommodations.
+- People identifying as LGBTQ+: Inclusivity promoted among employees and reflected in policies and practices.
+Document Offset: 67263
+- People Experiencing Poverty: No direct relation found.
+- People Experiencing Homelessness: No direct relation found.
+- People Experiencing Hunger or Malnourishment: No direct relation found.
+Document Offset: 11991
+- Women: Gender equality in terms of salary compensations.
+- People of Color: Racial/Ethnic diversity in the workplace.
+
+Impact Areas WellsFargo focuses on:
+- Increase access to and acquire employment
+- Achieve financial stability
+- Ensure STEM skills proficiency
+- Increase appreciation and support for the arts
+- Promote economic growth
+- Achieve equality/eliminate discrimination
+- Increase active participation in society
+- Advocate for/Promote Policy Change
+- Increase access to quality education programs and services
+- Increase peace through conflict resolution
+- Reduce trauma
+
+Explanation:
+Document Offset: 10596
+- Develop Human Capital: This section discusses how Wells Fargo invests in employee development, compensation, benefits, and work-life balance. It highlights the importance of embracing candor, doing what's right, being great at execution, learning and growing, championing diversity and inclusion, and building high-performing teams. Additionally, it mentions that Wells Fargo conducts an annual pay equity review to ensure fair and equitable compensation practices. All these initiatives contribute to developing human capital.
+Document Offset: 11424
+- Increase access to and acquire employment: Compensation program aimed at attracting and retaining talents.
+- Promote equality/ eliminate discrimination: Committed to fair and equitable compensation practices and conducts an annual pay equity review.
+- Increase active participation in society: Recruitment and career development practices support employees and promote diversity in the workforce.
+- Advocate for/promote policy change: Engage in activities that advocate for policies supporting diversity, equity, and inclusion.
+Document Offset: 9717
+- Increase access to and acquire employment: Job training and career development opportunities.
+- Promote economic growth: Financial solutions for businesses and individuals.
+- Achieve financial stability: Financial solutions for businesses and individuals.
+- Ensure STEM skills proficiency: Not directly mentioned.
+- Increase active participation in society: Strong work-life programs.
+- Advocate for/promote policy change: Not directly mentioned.
+Document offset: 11991
+- Increase access to and acquire employment: Wells Fargo provides benefits to its employees to protect their physical and financial health and help them make the most of their financial futures. It also conducts an annual pay equity review to ensure fair and equitable compensation practices. This will encourage people to seek employment here.
+- Achieve equality/ eliminate discrimination: Wells Fargo ensures equal pay for men and women and racial minorities. They value and promote diversity, equity, and inclusion in every aspect of their business. They have a good history of hiring, developing, and advancing women and racial minorities. These show they want to eliminate discrimination.
+- Increase active participation in society: Wells Fargo promotes diversity, equity, and inclusion in every aspect of their business. Their head of diverse segments, representation, and inclusion reports directly to the CEO and drives a company-wide DE&I strategy. This encourages people to participate actively in society.
+- Advocate for/promote policy change: By valuing and promoting diversity, equity, and inclusion, Wells Fargo advocates for and promotes policies that foster these qualities.

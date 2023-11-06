@@ -1,0 +1,112 @@
+ESG mapping for Verizon
+
+Cause areas Verizon focuses on:
+- Diversity, Equity, and Inclusion
+- Economic Empowerment and Workforce Development
+- Sustainability and Environment
+- Human Rights
+- Labor Practices
+
+Explanation:
+
+Document Offset: 53273
+
+- Diversity, Equity, and Inclusion: This cause area is selected because the passage highlights Verizon's commitment to creating a diverse and inclusive work environment, promoting equal opportunities, and increasing representation of women and people of color in their workforce.
+
+- Economic Empowerment and Workforce Development: The passage discusses Verizon's efforts to develop its employees' skills through education and training programs, enabling them to reach their full potential and advance professionally within the company.
+
+Document Offset: 52674
+
+- Diversity, Equity, and Inclusion: This cause area is selected because Verizon emphasizes creating a diverse and inclusive work environment for its employees. They aim to attract and retain a diverse workforce and provide opportunities for professional growth and development. Additionally, they disclose demographic information regarding gender and racial diversity within their workforce.
+
+- Economic Empowerment and Workforce Development: Verizon invests in employee education and skill development through various programs such as tuition reimbursement, on-the-job training, and career advancement initiatives. Their efforts aim to enhance the economic prospects of their workers while fostering a skilled and knowledgeable workforce.
+
+Document Offset: 51743
+
+- Sustainability and Environment: Natural disasters and attempts to impose regulations to ensure continuity of service during disasters. 
+
+- Diversity, Equity, and Inclusion: Maintaining a diverse workforce with high-value skills and expertise and creating an inclusive work environment for all.
+
+- Economic Empowerment and Workforce Development: Developing human capital programs and practices that support, develop and care for our employees from the time they join our team through the entirety of their careers with Verizon.
+
+- Human Rights: Establishing an inclusive work environment for all.
+
+Document Offset: 53441
+
+- Diversity, Equity, and Inclusion: This cause area is mapped because the passage highlights Verizon's commitment to diversity and inclusion in its hiring practices and employee representation across various demographics. It emphasizes creating a workplace where employees can bring their authentic selves and feel valued and included.
+
+- Economic Empowerment and Workforce Development: The passage focuses on developing employees' skills through education and training programs, enabling them to reach their professional potential and contribute to Verizon's success. Additionally, it mentions the company's efforts to provide upskilling opportunities and promote career advancement within the organization.
+
+Document Offset: 54141
+
+- Diversity, Equity, and Inclusion: This cause area is selected because the passage highlights Verizon's commitment to diversity and inclusion, providing statistics on gender and racial representation within its workforce. It emphasizes efforts to promote equality and ensure everyone feels valued and included.
+
+- Labor Practices: The passage discusses Verizon's approach to labor relations, recognizing employees' rights to collective bargaining and freedom of association while maintaining positive relationships with unions representing around 22.5% of staff members. It showcases initiatives promoting fair treatment and collaboration between workers and management.
+
+Demographics Verizon focuses on:
+- Women and Girls
+- People of Color
+- People Experiencing Poverty
+- People Experiencing Homelessness
+- People Experiencing Hunger or Malnourishment
+- People Experiencing Mental Illness
+- People Experiencing Viruses and Diseases
+
+Explanation:
+Document Offset: 53273
+- Women and Girls: Representation in workforce and leadership positions.
+- People of Color: Representation in workforce and leadership positions.
+- People Experiencing Poverty: Not explicitly mentioned but could potentially benefit from job training and education programs.
+Document Offset: 52674
+- People of Color: Representation of women and people of color in the workforce.
+- Women and Girls: Representation of women in the workforce.
+- People Experiencing Poverty: Not explicitly mentioned but could be inferred due to the mention of job training and tuition reimbursement programs aimed at supporting employee professional growth and potentially alleviating poverty.
+Document Offset: 51743
+- People Experiencing Poverty: Regulation of rates paid between carriers for voice traffic.
+- People Experiencing Homelessness: Not directly addressed.
+- People Experiencing Hunger or Malnourishment: Not directly addressed.
+- People Experiencing Mental Illness: Not directly addressed.
+- People Experiencing Viruses and Diseases: Not directly addressed.
+Document Offset: 53441
+- Women and Girls: Representation in workforce and leadership positions.
+- People of Color: Representation in workforce and leadership positions.
+- People Experiencing Poverty: Not explicitly mentioned but could potentially benefit from job training and upskilling opportunities.
+- People Experiencing Homelessness: Not explicitly mentioned but could potentially benefit from job training and upskilling opportunities.
+Document Offset: 54141
+- Women and Girls: Representation in workforce and leadership positions.
+- People of Color: Representation in workforce and leadership positions.
+- People Experiencing Poverty: Not explicitly mentioned but could potentially benefit from job training and career development opportunities.
+- People Experiencing Homelessness: Not explicitly mentioned but could potentially benefit from job training and career development opportunities.
+- People Experiencing Hunger or Malnourishment: Not explicitly mentioned but could potentially benefit from job training and career development opportunities.
+- People Experiencing Mental Illness: Support for mental health and wellbeing through employee assistance program.
+- People Experiencing Viruses and Diseases: Support for physical health and wellbeing through employee assistance program.
+
+Impact Areas Verizon focuses on:
+- Increase access to and acquire employment
+- Promote equal opportunity/ eliminate discrimination
+- Increase active participation in society
+- Achieve financial stability
+- Advocate for/Promote Policy Change
+
+Explanation:
+Document Offset: 53273
+- Increase access to and acquire employment: The company offers training, tuition reimbursement, and career development support to help employees advance professionally. 
+- Promote equal opportunity/ eliminate discrimination: Commitment to diversity and inclusion has led to a strong representation of women and people of color in the workforce. 
+- Increase active participation in society: By creating a workplace where employees feel seen and heard, they will be able to participate actively in society.
+- Ensure STEM skills proficiency: Through on-the-job training and career development support, employees have the opportunity to develop valuable STEM skills.
+Document offset: 52674
+- Increase access to and acquire employment: The company tries to attract the right talents and maintain a diverse workforce. It provides on-the-job training, tuition reimbursement programs, and career development support to its employees. This will help them get employed and advance in their careers.
+- Promote economic growth: By having a large number of employees (117,100) and committing to diversity and inclusion, Verizon contributes significantly to the economy. Additionally, it promotes economic growth by providing jobs and career advancement opportunities.
+- Achieve equality/ eliminate discrimination: Verizon has made a long-standing commitment to diversity and inclusion, which has led to a good representation of women and people of color in their workforce. They provide equal opportunity and ensure that everyone feels included and valued.
+- Increase active participation in society: Verizon creates a workplace where employees are empowered to share their authentic selves and feel seen and heard as vital contributors to Verizon’s corporate purpose. This encourages them to participate actively in society.
+- Advocate for/promote policy change: Verizon advocates for policies that promote diversity and inclusion in the workplace. Its commitment to diversity and inclusion has resulted in a strong representation of women and people of color.
+Document Offset: 53441
+- Increase access to and acquire employment: Educational programs and exceptional development experience will help people get jobs. 
+- Promote equal opportunity/ eliminate discrimination: Diversity and inclusion initiatives promote equal opportunity.
+- Increase active participation in society: Employees feeling included increases societal participation.
+- Achieve financial stability: Tuition reimbursement helps achieve financial stability.
+Document Offset: 54141
+- Increase access to and acquire employment: Tuition reimbursement programs and career development support.
+- Promote equal opportunity/ eliminate discrimination: Commitment to diversity and inclusion. Representation of women and people of color. Respect for employees rights to freedom of association and collective bargaining.
+- Increase active participation in society: Engagement with employee representative bodies such as works councils. Discussion between union leaders and company leaders.
+- Advocate for/Promote Policy Change: Oversight by board of directors over human capital management practices.

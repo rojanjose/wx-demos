@@ -1,4 +1,4 @@
-Map the input passage below to one or more of the Impact Areas. Provide a brief explanation for the mapping.
+Map the input passage below to one or more of the Impact Areas. Exclude the Impact areas if there is no direct mention or explicitly stated. Provide a brief explanation for the mapping.
 
 Impact Areas:
 %s
