@@ -1,0 +1,104 @@
+CONVERSATIONS
+Recap Action Items in Conversations
+
+Oct 31, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Meeting with prospective customers results in key takeaways – things you’ve learned during the call, and action items – the tasks that need to be completed after a sales meeting ends.
+
+Many sellers keep track of action items during a call, or even make a list while listening to the recording after a meeting is complete. 
+
+Salesloft’s Conversations serve up a list of action items after you complete a recorded meeting.
+
+Things to Note:
+
+Admins can manage access to Action Items from the Generative Artificial Intelligence settings.
+Action items are available for all Conversations Platform Integrations.
+Action Items will only be extracted for meeting recordings with a transcript.
+Call recordings, including recordings using the Salesloft Dialer are not included.
+Action Items are only available for recordings in English. Conversations conducted in any other language will not generate Action Items.  
+
+In this article, you will learn about Action Items, including: 
+
+View Action Items
+Copy Action Items
+Edit Action Items
+View Action Items
+
+Your action items appear on the Conversations detail page under the Recap tab.  
+
+You should always review AI generated content to confirm accuracy before using or sharing your Action Items. See below for instructions on how to edit Action Items .  
+
+There is no limit to the number of action items that can be extracted from a single transcript. Our research indicates that sales conversations frequently have between 0 and 5 action items.
+
+Things to Note: Action items should appear minutes after a meeting transcript becomes available.
+
+When you go to the Recap tab on a Conversation, you will see the following details: 
+
+Total number of Action Items 
+Bullet list of action items. Each bullet point includes a description of the action and, in many cases, there is a reference to the name or team responsible for the action.  
+
+Things to Note: Action items will only be displayed inside the Salesloft platform. Action items will not be shown in the recording’s public page. 
+
+Review your items after a meeting, or bring them to a manager so you can discuss any necessary tasks. 
+
+Copy Action Items
+
+You can copy individual and All action items. Copying comes in handy if you would like to bring these action items into an email, chat message, or presentation for a follow-up meeting. 
+
+Things to Note: Action Items will automatically appear in the Meeting Follow-up play in Rhythm in Salesloft. 
+
+Copying All Actions will copy the entire list of available action items onto a clipboard you can paste. To copy all actions listed, follow these steps: 
+
+Go to your meeting’s Conversation details page. 
+Under the Video player, select the Recap tab to view all of your action items. 
+To the right of the total number of Actions, select Copy All. A notification will inform you that all actions have been copied. 
+
+You also have the option to copy a single action. This is useful when sharing individual actions with people. It’s also beneficial if you are highlighting a single action and offering detailed steps to complete that action, like you may do in a slide presentation. 
+ To copy an individual action item, follow these steps:
+
+Go to your meeting’s Conversation details page. 
+Under the Video player, select the Recap tab to view all of your action items. 
+Find the action item inside the actions list. Hover over the action item’s name. Salesloft actions will appear on the right side of the list item. 
+Select the second icon Copy Action Item. A notification will appear to inform you that the Action Item Copied. 
+
+ 
+
+Edit Action Items
+
+Action items can be edited in the event that things need to be changed. Here are a couple of potential scenarios that may lead you to edit an action item:
+
+The action was reassigned to a different person: For example, during your call, it was stated that Steve would create a requirements list, but you receive an email that Brenda will send the information instead. 
+Transcription error: Transcription technology is improving everyday, but there are still the occasional errors in voice-to-text. You can edit action items to correct these errors. 
+
+Things to Note: 
+
+Action items cannot be added, they can only be edited. 
+If action items are modified in the Conversations Detail Page, action items will NOT be automatically updated in the Rhythm: Meeting Follow Up task.
+
+To edit an action item, follow these steps: 
+
+Go to your meeting’s Conversation details page. 
+Under the Video player, select the Recap tab to view all of your action items. 
+Find the action item inside the actions list. Hover over the action item’s name. Salesloft actions will appear on the right side of the list item.
+Select the pencil icon to Edit Action Item. The action item will convert to a text box with the existing action item. 
+Make any necessary changes to the text in the text box. 
+Click Save. 
+Last Modified By
+Raequel Sank, 10/31/2023 4:07 PM
+Title
+Recap Action Items in Conversations
+URL Name
+Recap-Action-Items-in-Conversations
+Conversations
+Salesloft Knowledge
+Conversations Recordings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

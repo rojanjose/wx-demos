@@ -1,0 +1,39 @@
+CADENCES + TASKS
+CADENCES & TASKS FAQ + TROUBLESHOOTING
+My Email threads are broken after moving a Cadence Step
+
+May 15, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Threaded emails are follow up emails inside a Cadence that use the subject line of a previous email. 
+
+If you notice that an email is not threading, it could be due to moving steps after People have been added to the Cadence. 
+
+As soon as a Person is added to a Cadence, all Cadence logic and rules are applied. This means that automated emails are instantly scheduled to send for the Person, and threaded emails are assigned their subject lines. 
+
+Issues may occur on threaded email steps if the steps are edited, rearranged, or moved once a Person is in progress in that Cadence. If any of these actions are taken in a Cadence that People are currently running or have previously been added to, this would break the thread.
+
+Things to Note: Editing a Cadence includes step content edits, rearranging the step using the drag and drop method, and editing the step from the Edit Step menu. 
+
+Breaks in the thread result in subject lines being removed from emails and People not being able to progress through the Cadence as expected. 
+
+To prevent breaks in email threads, we suggest the following: 
+Do not edit a Cadence that includes threaded emails after you have added People to the Cadence. If you would like to rearrange steps after someone has entered the threaded step, wait until everyone has run through Cadence before making any changes. 
+Copy the Cadence, make the changes to your email steps you would like to apply. Then you can add People and run a fresh Cadence. Archive the former Cadence so you do not use it again. 
+Last Modified By
+Stephanie Griffith, 5/15/2023 6:50 PM
+Title
+My Email threads are broken after moving a Cadence Step
+URL Name
+Email-thread-broken
+Cadences & Tasks FAQ + Troubleshooting
+Cadences + Tasks
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

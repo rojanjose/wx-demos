@@ -1,0 +1,59 @@
+CONVERSATIONS
+Conversations Trackers
+
+Sep 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Trackers are keyword identifiers that help you scan Conversations transcriptions for specific words and phrases.
+
+Want to scan a recording for mentions of competitors, or identify crutch words (ex: like)? Trackers can help! 
+
+Admins can set Tracker groups to define the parameters that Trackers use to identify keywords and phrases in your transcriptions.
+
+Once set, Tracker groups become available on the Recording Details Page where you can use them to scan the recording’s transcription. You can also filter Conversations recordings by Tracker groups, making it easy to identify which words and phrases are being used across your entire team. 
+
+In this article, you will learn more about Conversations Trackers, including:
+
+Using Trackers to Scan a Conversations Transcription 
+Filter Conversations Recordings By Trackers
+Using Trackers To Scan A Conversations Transcription 
+
+Trackers allow you to scan Conversations Transcriptions and identify keywords or phrases. 
+
+To scan a Conversations transcription using Trackers, follow these steps:
+
+Open the Recording Details Page. 
+Scroll to the Trackers panel on the left hand side of the page.
+Click a Tracker. If a keyword or phrases from that Tracker group was used during the call, it will appear timestamped beneath the video player. You can click the timestamp to be directed to that particular point of the call. 
+
+Filter Conversations Recordings By Trackers
+
+You can filter Conversations recordings by Trackers.
+
+To filter by Trackers, follow these steps:
+
+Navigate to the Conversations Recordings tab.
+Click +Add Filter.
+Select Tracker.
+Choose the language you would like to filter by. 
+Search or scroll to find the Trackers you want to filter by. Check the box beside each Tracker you choose. 
+Click Apply. 
+
+Last Modified By
+Raequel Sank, 9/10/2023 10:06 PM
+Title
+Conversations Trackers
+URL Name
+Conversations-Trackers
+Conversations
+Salesloft Knowledge
+Conversations Recordings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

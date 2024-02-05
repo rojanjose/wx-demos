@@ -1,0 +1,172 @@
+CRM
+Imports from Salesforce
+
+Oct 6, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft makes it easy to bring Lead, Contact, and Account records from Salesforce directly into Salesloft. 
+
+To import from Salesforce into Salesloft, you will need to Download the Salesloft Chrome Extension. The Salesloft extension will create Salesloft specific buttons in your Salesforce instance including the ability to import, view Salesloft profile pages, Click to Dial within Salesforce, and Connect for Salesforce features.
+
+Things to Note: The Import into Salesloft button will not appear if Salesforce is in accessibility mode. Temporarily disable accessibility mode to use this functionality.
+
+Once the extension has been downloaded, you may import records from your Salesforce account. You can import from Lead, Contact, or Accounts records. The imports can be pulled from an individual record, lists, campaigns, or reports.
+
+In this article, you will learn about the different Salesforce to Salesloft import options, including:
+
+Importing an Individual Lead, Contact, or Account
+Importing from a List or Campaign
+Importing from a Report
+Custom Import Button
+Completing Your Salesforce Import
+
+Things to Note: If you run into any errors during an import, learn how to solve errors from our Salesforce Troubleshooting Guide.
+
+Importing an Individual Lead, Contact, or Account
+
+Follow these steps to import an individual Lead, Contact, or Account from Salesforce: 
+
+Navigate to the lead or contact record you want to import into Salesloft.
+Click the Import to Salesloft button.
+
+Individual Contact Record in Salesforce Lightning: 
+ 
+
+ 
+SLU: Importing to Salesloft from a Salesforce Account (Video)
+
+Want to know how to import Salesforce Accounts into Salesloft, but prefer a video format? Visit Salesloft University to see the Importing to Salesloft from a Salesforce Account video tutorial. 
+
+Importing From a List or Campaign
+
+Follow these steps to import a list or campaign from Salesforce: 
+
+Things to Note:
+
+The import maximum is 2,000 Contacts at a time for a Contact list view.
+The import maximum is 2,000 Leads at a time for a Lead list view.
+The import maximum is 500 Accounts at a time for an Account list view.
+The import maximum is 100 Leads/Contacts at a time for a Campaign.
+From your Salesforce account, navigate to the Leads, Contacts, Accounts tabs or select an individual Campaign (depending on which list you want to import into Salesloft).
+Things to Note: Salesforce displays "Recently Viewed" as the default list for all objects. The Import to Salesloft button does not appear on the "Recently Viewed" page. You must select a specific list before the Import to Salesloft button will appear.
+Find the View pick list to select a previously created list and select Go or Create a New View.
+Click the Import to Salesloft button.
+
+
+
+Contacts List View in Salesforce Lightning: 
+ 
+
+
+Leads List View in Salesforce Lightning: 
+ 
+
+
+ 
+
+Campaign Import in Salesforce Lightning:
+ 
+
+ 
+
+Importing From a Report
+
+Salesforce reports are lists of records that meet a defined criteria. Reports that are imported into Salesloft must meet certain requirements inside Salesforce and Salesloft in order to bring in records. 
+
+Salesforce Reports are the best tool to import when you have a complex set of criteria or want to import Leads and Contacts related to other important records in your Salesforce environment. Reports are recommended when:
+
+You have a list of Leads or Contacts with a complex set of criteria that tells you if they should be imported
+You want to import Contacts related to certain types of Opportunities
+You want to import a set of Campaign Members based on various criteria like status or across campaigns
+You want to import a set of Leads or Contacts related to a custom object in your Salesforce environment
+An admin or manager has provided a pre-built report of records you should import
+
+
+Use the following checklist to build Salesforce reports that will successfully import into Salesloft: 
+
+Ensure your saved Report has a column containing Lead IDs or Contact IDs
+Leads & Contacts & Accounts Report Types
+When importing a Report using the Leads or Contacts and Accounts Report Type, the standard LeadID or Contact ID column must be saved as a report column.
+All Other Report Types
+When importing a Report using a Report Type other than Leads or Contacts & Accounts, ensure that you have at least one column with valid Lead ID or Contact ID values saved as a report column. 
+In the event your Report has multiple columns with valid Lead or Contact IDs, you will see a mapping page after clicking Import to Salesloft to determine which column you’d like to use to determine which Leads or Contacts should be imported.
+Things to Note:
+15 or 18 character ID values are supported
+If a column contains a mix of Lead ID and Contact ID values, both will be included in the Person import.
+
+ 
+
+ 
+
+To check the report type, look next to the title of your report:
+
+ 
+
+
+ 
+Include Lead/Contact ID per the Recommendations Above
+(Recommended) Place these fields in the leftmost columns of your report to make it easy to check your work.
+Use the Correct Report Format
+Salesloft can import from reports in "tabular" format, meaning that no rows or columns have groupings. 
+Make sure that every row and column displays on its own. If your report has grouped rows or columns, remove them. 
+
+Accepted Report Format:
+ 
+
+
+Unaccepted Report Format:
+ 
+
+Check Your Report Filters
+Salesforce filters that compare fields using field-to-field filters or group data using bucket columns may not be interpretable. Reports that are not performant may not return data to Salesloft before the browser times out.
+Save Your Report
+Salesforce report filters can be updated to refresh the view without saving the underlying report. If you adjust filters and simply "Run" the report, those changes are not saved. Salesloft will import the records on the saved version of the report, so be sure to "Save & Run" after making updates to the Salesforce report.
+The import maximum is 2000 people at a time. 
+
+
+
+Common Errors when Importing Salesforce Reports
+Error Example: INVALID_FIELD: Field1, Field2, Field3, etc.
+
+When importing records to Salesloft, Salesloft also syncs field data. The Field Configuration page in SalesLoft tells Salesloft which fields to sync. This error indicates that the listed field(s) may not be visible to the Salesforce user who is importing records to Salesloft.
+
+Work with your Salesforce system admin to review the Salesforce user's profile. Make sure the profile has Read/Edit access to all relevant fields.
+
+Things to Note: If you run into any errors during an import, learn how to solve errors from our Salesforce Troubleshooting Guide.
+
+SLU: Importing to Salesloft via Salesforce Report (Video)
+Want to know how to import Salesforce Reports into Salesloft, but prefer a video format? Visit Salesloft University to see the Importing to Salesloft via Salesforce Report video tutorial.
+ 
+
+Custom Import Button
+
+The Salesloft extension pulls all of the leads or contacts from a list when you click the import button. If you would like to pick and choose or select specific leads or contacts from a list view to import, you can do so by installing our Custom Import Button.
+
+Things to Note: The custom import button does involve Java scripting to install and will require the assistance of a Salesforce admin. 
+
+For more information on how to create these buttons, check out the Custom Import Buttons in Salesforce article.
+
+Completing Your Salesforce Import
+
+After you select your lead, contact, list, campaign or report to import, you will be taken to the Complete Your Import screen in Salesloft. Here, you can add your imports directly into a cadence or simply import them to your database for a later date.
+ 
+
+Last Modified By
+Stephanie Griffith, 10/6/2023 1:59 PM
+Title
+Imports from Salesforce
+URL Name
+Imports-from-Salesforce
+Salesloft Knowledge
+Salesforce
+CRM
+Salesforce User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

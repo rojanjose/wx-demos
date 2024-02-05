@@ -1,0 +1,61 @@
+DIALER + MESSENGER
+How to Reduce Background Noise
+
+Jun 6, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+A noisy environment can negatively impact your team's calls. Teams may suggest more closed office spaces or noise-canceling headsets, but those options can be pricey and difficult to come by.
+
+ 
+
+If there is background noise during calls, you can adjust your computer settings to reduce the noise that is picked up by your microphone and headset. The instructions below will walk you through how to configure noise reduction.
+
+ 
+
+Things to Note: MacOS has a known issue where users experience crackling audio as a result of having multiple applications/browsers using audio.
+
+ 
+For Mac OSX
+Open System Preferences.
+Click the Sound icon.
+Select the Input tab.
+Check the box for Ambient Noise Reduction.
+Move the Input Volume dial up and down, until you find the right balance of sound volume that minimizes background noise.
+For Windows 11
+Click the Windows logo. In the search bar, type "control panel". Click the Control Panel app.
+Click Hardware & Sound.
+Click Sound, then click Recording.
+Right-click on the microphone bar and select Properties.
+Click the Levels tab. Move the microphone dial all the way down, then move the microphone dial all the way up.
+Click the Advanced tab. Under Signal Enhancements, check the box beside Enable audio enhancements.
+Once you’re finished, click Apply, then click OK.
+For Windows 10, 8, and 7
+Click Start to open your computer settings.
+Select Control Panel from the menu options.
+Click Hardware & Sound.
+Click Sound, then click Recording.
+Right-click on the microphone bar and select Properties.
+Click the Levels tab, and navigate to the Microphone Boost tool.
+Move the microphone tool all the way down, then move the microphone dial all the way up.
+Click the Enhancements tab.
+Check the following boxes: Noise Suppression and Acoustic Echo Cancellation.
+Press OK.
+Test the noise, then go back to the Recording menu and listen to the device. Once you’re done, click OK.
+Last Modified By
+Briana Morgan, 6/6/2023 2:20 PM
+Title
+How to Reduce Background Noise
+URL Name
+How-to-Reduce-Background-Noise
+Dialer + Messenger
+Salesloft Knowledge
+Dialer FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

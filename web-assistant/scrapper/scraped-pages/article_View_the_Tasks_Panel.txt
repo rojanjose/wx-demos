@@ -1,0 +1,57 @@
+CADENCES + TASKS
+View the Tasks Panel
+
+Oct 1, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Tasks in Salesloft allow you to complete one-off actions in through Salesloft. All Tasks live in the Salesloft Actions Dashboard Tasks panel. 
+
+Things to Note: If you do not see the Tasks panel, customize your layout on the homepage and make sure the Tasks panel is enabled. You can update the Actions Dashboard layout to rearrange, resize, or remove any panels to match your personal layout preferences. With the addition of Tasks, it may be preferred to make changes to prioritize the most used panels on this page.
+
+In this article, we will walk through the Tasks panel layout from the top-down, including: 
+Create Tasks Button
+Tasks Due Filter and Metrics
+What is Included in the Task Tiles?
+Create Tasks Button
+At the top of the Tasks panel, click the + sign in the upper right corner to create a task.
+ 
+ 
+To learn more about creating a tasks, check out the Tasks in Salesloft article.
+Tasks Due Filter and Metrics
+You can use filtering to focus on a Tasks due date, whether they are overdue or due at a certain time. Select the Due filter to open the due filter dropdown. Next to each filter is the count of how many tasks are in that grouping. The filters include:
+Overdue
+Due Today
+Due Tomorrow
+Due This Week
+Due Next Week
+Any Time
+
+To the right of the Due filter, the Tasks panel displays stats for the following :
+Due: how many Tasks are due today.
+Overdue: Tasks that were due in the past.
+What is Included in the Task Tiles?
+The rest of the Tasks panel will list out any Tasks that have been created (and apply to your filter). Any Tasks that has not been completed will display on the Tasks panel. Tasks are ordered by Due Date with overdue Tasks appearing at the top of the list.
+
+Each Tasks is listed on its own Task tile. The tile contains the following details:
+Icon: Show the type of tasks that has been created.
+Subject
+Person Name
+Due Date and Time (if applicable) 
+ 
+Last Modified By
+Stephanie Griffith, 10/1/2021 11:06 AM
+Title
+View the Tasks Panel
+URL Name
+View-the-Tasks-Panel
+Salesloft Knowledge
+Cadences + Tasks
+Manage Tasks
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

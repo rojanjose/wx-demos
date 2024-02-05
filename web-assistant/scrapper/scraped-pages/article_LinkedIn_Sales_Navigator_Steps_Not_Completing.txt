@@ -1,0 +1,30 @@
+INTEGRATIONS
+LinkedIn Sales Navigator Steps Not Completing
+
+Mar 24, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+If steps are not completing, the connection between your team's LinkedIn Sales Navigator account and Salesloft may need to be refreshed.
+
+Sync up with your Salesloft Admin ask them to perform the following steps: 
+Log out of the LinkedIn Sales Navigator for the team.
+Toggle the LinkedIn integration switch off from the Admin settings.
+Log back in to LinkedIn Sales Navigator.
+Re-enable the LinkedIn Sales Navigator integration in Salesloft . 
+Last Modified By
+Stephanie Griffith, 3/24/2023 9:29 PM
+Title
+LinkedIn Sales Navigator Steps Not Completing
+URL Name
+LinkedIn-Sales-Navigator-Steps-Not-Completing
+Integrations
+Salesloft Knowledge
+Integrations FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

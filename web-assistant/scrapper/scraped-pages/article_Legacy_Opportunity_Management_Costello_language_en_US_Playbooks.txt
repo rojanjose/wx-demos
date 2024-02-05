@@ -1,0 +1,134 @@
+DEALS
+Legacy Opportunity Management (Costello)
+
+Sep 13, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft acquired Costello in late 2019. The core components of the platform include Pipeline and Opportunity Management as well as Guided Selling (Playbooks). The acquisition led to the creation of Opportunity Management within the Salesloft platform. 
+
+Legacy Costello users will still have the full range of Costello capabilities within Salesloft starting February 3, 2020. There are four tabs at the top of the page:
+Meetings: The home screen
+Opportunities
+Analytics 
+Admin: Only visible if you are an admin.
+In this article, we will walk through the legacy Costello application, including: 
+Meetings Page
+Opportunities Page
+Pipeline Overview
+Deal View
+Playbooks
+If you experience any technical issues, please check out the Deals Troubleshooting article. 
+
+For Legacy Costello customers, find additional resources at help.andcostello.com.
+
+ 
+Meetings Page
+Legacy Costello users only. 
+
+The Meetings tab is your Costello home page.
+
+Things to note: The meeting information listed does not share functionality with Salesloft's Meetings or Conversation Intelligence features. 
+
+Here, you'll see three sections:
+Today's Meetings: Previously scheduled actions for today
+Upcoming Meetings: A heads-up on what's coming so you can prepare in advance.
+Past Meetings: You'll see the meetings from the past
+The actions listed will give you the pertinent information from that meeting: Title, Date & Time, CRM Link, and Playbook.
+
+ 
+Opportunities Page
+Located under the Opportunities tab, this is a tabulation of all your deals. It's highly customizable and offers a variety of insights.
+
+Top bar actions
+New Record: On the left-hand side at the top, the New Record button allows you to create a new Lead, Contact, Account, or Opportunity. Creating a new record is accessible anywhere you go inside the Opportunities tab.
+Open Playbook
+New Note: Allows you to take notes while on a call. Those notes can be mapped to certain fields, and your team admin will set that mapping.
+You will see two views:
+Pipeline: Shows you all the Opportunities you are working.
+Deal View: Goes into detail of the Opportunity when you click on the Opportunity name.
+Customize your Opportunity Dashboard by filtering. To filter, select the funnel icon on the far right side of the page. Use the dropdown to select your filters. You'll find filters like Stage, Probability, Amount, Close Date, and a ton more. Once your filters are decided, you can be even more precise with Advanced Filters for each of your columns. 
+
+To edit a column's information, click on the information within a column. The editor will appear in the column itself and allow you to update rich text, amounts, or dates.
+
+Things to Note: Custom objects are not integrated.
+
+ 
+Pipeline Overview
+The Pipeline or Opportunities view pulls in all of the Opportunity data relevant to your filters. Here, you see all of the Opportunities listed in the first column. The columns on the right are all fields inside an Opportunity.
+View Filters
+At the top of the page, you will see an Object Type filter that allows you to choose the Pipeline page display. For example, Accounts may be the view preferred by CSM teams who work primarily with Accounts, while a sales rep may want to focus on Contacts. The Object Type contains options:
+Opportunity
+Account
+Contact
+Lead 
+Things to Note: You will not have the option of Deal view if you sort the Pipeline page by Account, Lead, or Contact.
+
+You can update what fields you want to see by clicking on the three bars at the top right. A pop-up will then allow you to manage the columns, and you can then select or deselect the columns you want to see.
+
+Advanced Filters: The funnel icon to the far right is used to filter down the Pipeline view to a very specific or granular list.
+Columns and Field Information
+Each column represents a field type. All of the information in the columns is editable. When you edit information, it bi-directionally syncs with Salesforce in real time. If you make a change in Salesforce, the Pipeline page will reflect the change in about fine minutes.
+
+Things to Note: The following are supported in the Pipeline view: 
+Salesforce validation rules
+Permission and access rules are the same in Pipeline as they are in your team's CRM.
+Multiple record types are supported.
+Dashboards
+You can create custom dashboards with the columns you want to see. Once the view is filtered to your liking, you can save that view to revisit it time and time again. 
+
+Things to Note: You can customize your personal dashboard. Users cannot edit team dashboards.
+
+Within a dashboard, you can perform the following actions: 
+Rename the dashboard
+Edit dashboard sharing
+Duplicate the dashboard
+Delete the dashboard
+Deal Gaps
+Deal Gaps create business rules to bring attention to what could be problematic for an Opportunity.
+
+Deal Gaps are configured by clicking on the little gear icon in the top right of the Pipeline page. A team admin will create the deal gaps. Admins can build in logic for things like:
+This close date is past due
+The last activity was greater than X amount of days ago
+If a column is recognized as a gap, it will be called out with a little warning triangle. The total number of gaps identified will be identified in the Deal Gaps column. 
+To Do’s Column
+To do’s are Task Management from Salesforce associated with the Opportunity.
+
+From the To Do's column, you can create, manage, close out and update these Tasks.
+
+ 
+Deal View
+The Deal view provides a deep dive into an Opportunity. You can access the Deal view by clicking on the Opportunity name from Pipeline view. 
+
+From the Deal view, you get a complete overview of the Opportunity information including:
+Deal Summary: Opportunity status and information. What you view here is decided by your admin. You can edit information inline. 
+Next Scheduled Call: Works along with the Calendar integration to show when your next scheduled call is. You are able to leverage and open Playbooks from this screen. 
+Stakeholders: The associated Contacts to this Opportunity. From the Stakeholders panel, you may take the following actions: 
+If a Contact is in Salesforce, you can search and add the Contact directly to the Opportunity.
+If they are not in Salesforce, add a net new Contact by clicking on the plus sign next to Stakeholders.
+Edit and update Contact roles.
+Tabs inside of Deal view:
+Overview: Shows To Do’s and Deal Summary
+Calls: Shows you past Playbooks run (only Legacy Costello customers)
+Timeline: Pulling all of the activity for that Opportunity.
+ 
+Playbooks
+Only available to Legacy Costello customers or Early Access customers
+
+Playbooks give you the ability to build out your calls, like a discovery call or cold call. Within a Playbook, you can build out scripts for calls. 
+Last Modified By
+Stephanie Griffith, 9/13/2021 5:19 PM
+Title
+Legacy Opportunity Management (Costello)
+URL Name
+Legacy-Opportunity-Management-Costello
+Deals
+Salesloft Knowledge
+Deals Overview
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

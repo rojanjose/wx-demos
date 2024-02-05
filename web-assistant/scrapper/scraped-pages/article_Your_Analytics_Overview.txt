@@ -1,0 +1,114 @@
+ANALYTICS + REPORTING
+Your Analytics Overview
+
+Mar 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Your Salesloft Analytics bring you Salesloft relevant data. Lots of data. 
+
+This data is spread into three different tabs:
+Overview
+Reports Tab
+Ranking Analytics
+The Analytics Overview tab provides a quick view of Salesloft activities. This tab is best for getting a quick look at your general activity metrics and a brief history of the activities that have been completed. 
+
+The Overview is split into panels that focus on a particular metric segment, like calls logged. Each panel has between 9-12 pieces of information that can be used with the date and group filter at top of the page. 
+
+You can filter the metrics seen in the Overview by time range or by Salesloft user. 
+
+In this article, we will walk through the Overview tab, including:
+Important Overview Details
+Panel Information
+Customize Your Analytics Overview Layout
+Add or Remove Analytics Overview Panels
+Overview Panels 
+Important Overview Details
+Data levels are broken down by time: The lowest level of details is by hour by Person.
+Average line: All trend lines have an average line in grey showing the average across the selected date range.
+Weekends Data: Weekends are excluded from trend lines when the date range is more than 5 days ONLY. 
+How far back does the data go? Step and Cadence data goes back to January 2019.
+Hourly View: If you select a single day in the filter, the x-axis of all the line charts (like those seen for calls and emails) will change from daily to hourly. This shows when emails and calls are made throughout the day.
+The timezone reflected in the x-axis is that of the user's computer.
+The hover state reflects the hour of the day on the x-axis vs. the date.
+Panel Information
+Each panel in the Overview consists of the same six elements. 
+ 
+The panels include the following sets of information: 
+Panel Name: This describes the type of information that is in the panel across the primary and secondary metrics.
+Knowledge Base Links: The information icon (i) directs you to the Knowledge Base article relevant to the panel. Click the (i) to open the article link in another window. 
+Primary Metric: It is the larger metric found on the left side of the panel. It has the total, average, or count of the selected metric. Adjacent to the primary metric is the period comparison for the primary metric.
+Primary Metric Chart: This is the chart associated with the primary metric. It provides additional contextual information on the primary metric. The primary metric chart excludes weekends when selecting a date range > 5 days.
+Secondary Metrics: These are additional metrics associated with the panel topic. There can be up to four secondary metrics in a panel.
+View Report: Goes to the report related to this panel. This way you can drill down into the corresponding report and view details grouped by Cadence, user, or date.
+Period Comparison: Based on the date range selected, the period comparison will show the comparison for the selected period compared to its prior identical period. Here are the period comparisons currently available explained:
+7 Days - Compares the most recent 7 days to the prior 7 days.
+Week to Date - Compares the current week to date, e.g. Monday to Wednesday, to the prior week’s Monday to Wednesday. All weeks begin on a Monday. If you want to see the previous Monday to Friday in the period change,  select the week to date option.
+Month to Date - Compares the current month to date, e.g. the 1st to the 21st, to the prior month’s 1st to the 21st.
+30 Days - Compares the most recent 30 days to the prior 30 days. This is a rolling comparison.
+90 Days - Compares the most recent 90 days to the prior 90 days. This is a rolling comparison.
+Custom date rage - When using a custom date selection, the period changes will reflect the number of days selected in the past. So whatever number of days you choose will count that many days back in the past as the prior period.
+Customize Your Analytics Overview Layout
+You can customize your Analytics Overview panels to fit your preference. Customizing your layout means you get to choose the panels and page layout so you only see the panels that are the most important to you.
+
+After you customize your Analytics Overview layout, that layout will be present each time you navigate to the Analytics page.
+
+To customize your Analytics Overview layout, follow these steps:
+From the Analytics Overview Page, click Customize Your Layout in the upper right corner of the page. A dropdown menu will appear.
+Select Edit Layout from the dropdown menu. The page will refresh to the Edit view.
+Hover over any panel. Click and drag the panel to where you want it to be. Repeat for each panel until everything is where you want it to be.
+Click Save.
+Add or Remove Analytics Overview Panels
+You can choose which panels appear on your Analytics Overview page.
+
+If there is a panel that you never use, remove it. It's that simple.
+
+The add/remove functionality is nestled into the customize your layout feature, where you can edit the layout of the page. To edit the add or remove Overview Panels, follow these steps:
+From the Analytics Overview Page, click Customize Your Layout in the upper right corner of the page. A dropdown menu will appear.
+Select Edit Layout from the dropdown menu. The page will refresh to the Edit view.
+Select the Add/Remove Panels button. This will open the panel configuration dropdown menu.
+All of the panels will be toggled on (appearing blue) by default. Click the toggle to remove a panel from the layout. When a toggle is off, it will appear grey. This panel will disappear from the page.
+Once you have disabled the panels you don't want, click Save.
+ 
+Overview Panels
+The Overview tab shows ten panels by default.
+
+Things to Note: The Overview Panel shows ten panels by default. If you would like to view a panel that is not on by default, customize your layout to add or remove panels.
+
+You can learn more about each panel by clicking the link and visiting that panel's individual Knowledge Base article. 
+
+The panels that are visible by default include the following: 
+Account Activity Panel
+Account Productivity Panel
+Team Performance Panel
+Best Time to Call Panel
+Cadence Process Panel
+Cadence Results Panel
+Calls Results Panel
+Email Personalization Panel
+Email Results: Cadence and One-Off Panel
+Email Template Panel
+The following panels are available, but off by default, meaning they are not automatically visible: 
+Top Sentiments Panel
+Top Dispositions Panel
+Email Leaderboard Panel
+Calls Leaderboard Panel
+LinkedIn Results Panel
+Other Step Panel
+ 
+Last Modified By
+Stephanie Griffith, 3/28/2023 10:03 AM
+Title
+Your Analytics Overview
+URL Name
+Your-Analytics-Overview
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Essentials
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

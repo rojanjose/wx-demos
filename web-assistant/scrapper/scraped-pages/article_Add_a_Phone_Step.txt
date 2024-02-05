@@ -1,0 +1,59 @@
+CADENCES + TASKS
+Add a Phone Step
+
+Apr 25, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Phone steps in your Cadences aim to engage a Person by calling them and having a conversation. While you can have one-off reminders to follow up with a contact, a Cadence workflow allows you to systematically schedule phone steps to increase your chances of a call connection. 
+
+In this article, you will learn about adding phone steps to a Cadence, including: 
+Add a Phone Step
+Phone Step Best Practices
+Phone Step Details on the Cadence Overview Page
+Add a Phone Step
+To add a phone step to your Cadence, follow these steps:
+Create a Cadence.
+From your Cadence’s overview page, add a Cadence step. 
+In the Create Step box, select the phone icon.
+Enter the Day you would like the step to run.
+Hit Next.
+Give your phone step a name to let you know what the purpose of this call will be. Common examples include “Intro Call” or “Follow up with a Voicemail.”
+Add any instructions you think are necessary. Instructions can include a script you may use or bullet points of the points you’d like to make during the call.
+Click Add & Create Another to continue adding steps to your Cadence or Add Step to add the step and close the add step window.
+ 
+Phone Step Best Practices
+There are a lot of unique pieces within a Cadence, like the number of phone steps you use, the tone of your call script, or even what you deem a success. That being said, there are certain tactics that we at Salesloft have seen consistent enough success with that you can put in place while creating your Cadences.  
+
+For phone steps, we recommend testing the following Cadence practices: 
+Multi-Touch Cadences with Phone and Email
+Take advantage of Multi-Touch Cadence steps to increase the chances of your email getting opened. Hopefully, you’re able to connect outright, but the combination gives you a greater chance of engagement overall.
+
+Here are a couple specific examples you can put into place: 
+Add a phone step immediately before an email step. When you run the step, plan to leave a voicemail letting them know you’ll follow up via email.
+Add an email step then have a phone step due immediately after. You can use the phone call and leave a voicemail to refer back to the email you just sent. 
+Phone Step Details on the Cadence Overview Page
+Once the step is added, you will see it on the Cadence Overview page as its own Cadence Step details panel. 
+ 
+The Phone step includes the following details: 
+Phone Step Name: Designated name of the phone step. Common examples include, “Intro Call,” “Follow up Call,” “Call + Voicemail.”
+Instructions: Written out instructions on what should take place on your calls.
+Calls Made: the Total number of calls made while running this Cadence step.
+ 
+ 
+Last Modified By
+Stephanie Griffith, 4/25/2023 8:27 PM
+Title
+Add a Phone Step
+URL Name
+Add-a-Phone-Step
+Salesloft Knowledge
+Cadences + Tasks
+Create A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

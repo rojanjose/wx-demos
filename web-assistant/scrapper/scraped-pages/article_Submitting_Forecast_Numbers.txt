@@ -1,0 +1,198 @@
+FORECAST
+Submitting Forecast Numbers
+
+Dec 19, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Keeping up with your forecast is an ongoing process. In order to maintain an awareness of how you’re progressing toward your goal, you will need to keep updated numbers by submitting an up-to-date Forecast. 
+
+ 
+
+Submitting your forecast through Salesloft holds you accountable for your progress. Each time you submit a forecast, that information is shared with your manager and that data is incorporated into the team's goal. By inputting your data, you are helping your entire organization run smoothly.
+
+
+
+
+
+ 
+
+ 
+
+Forecasts will be submitted weekly, every two weeks, or monthly, based on the settings configured by your team admin. 
+
+ 
+
+After your number is submitted, the Forecast rollup metrics found in the Team Rollup panel and Hierarchy panel will update. Your manager’s Forecast numbers will also update to reflect the metric you’ve included. 
+
+ 
+
+Things to Note:
+
+Each user submits their own forecast.
+Admins and users with the  Manage Forecast Submissions permission have the ability to Submit a Forecast on Behalf of a User. 
+All users should only be able to submit forecasts for segments they are visible in via the Hierarchy Visibility admin feature. For more information see our article on how to Manage Deals Forecast Settings.
+
+ 
+
+In this article, you will learn about submitting your Forecast numbers, including:
+
+View Your Due Date
+Who Can View My Submission?
+How to Submit Your Forecast
+Forecast History Report
+How to Submit a Forecast on Behalf of Another User
+
+ 
+
+View Your Due Date  
+
+Team admins will pre-configure a Forecast due date for your team. This due date lets you know when your Forecast must be submitted. 
+
+ 
+
+It’s easy to lose track of dates, so you may already wonder, “How can I keep track of my Forecast due date?”
+
+ 
+
+Your Forecast Due Date is located in the upper right corner of the Forecast Dashboard. The due date will show how many days until your next Forecast is due.
+
+ 
+
+ 
+
+Hover over the Due Date to see the specific date when you need to turn in your Forecast. The hover data includes the day of the week, calendar date, time, and time zone when Forecasts are due. 
+
+ 
+
+ 
+
+Things to Note: Pay close attention to your due date. Your Forecast can only be submitted for the current period. If you miss a submission due date, you cannot add a Forecast to the previous time period. In the case of skipping a forecast, the product will carry over the most recent forecast submitted. You can, however, update your Forecast at any time.
+
+ 
+
+Who Can View My Submission?
+
+Hover over the Who can view my Submission item in the upper right corner of the Forecast Dashboard to learn about the people in your organization who can see your Forecast when you submit it.
+ 
+
+ 
+
+Forecasts may be viewed based on your Hierarchy structure. This structure is determined inside your team’s Salesforce account based on the Manager field on the User profile.
+
+ 
+
+Simply put, the people who can view your Forecast submissions depend on where you fall in your company’s organizational structure. Here’s an overview of the breakdown:
+
+Users: Individual contributors, such as sales reps and Account Executives will be able to view their own Forecasts only.
+Managers: Team managers will be able to view their own Forecasts and the forecast submissions of any user who is on their team. 
+Sales Leaders: Sales leaders will be able to view their own Forecasts, the Forecasts of managers who report to them, and the forecasts of their managers' direct reports. 
+
+ 
+
+How to Submit Your Forecast
+
+The time has finally come to submit your Forecast! 
+
+ 
+
+You will submit your Forecast inside the Submit Forecast window. The window includes data like your goal, rollup metrics, and Last Week’s metrics to help you configure your Forecast amount. 
+
+ 
+
+To submit your forecast, follow these steps: 
+
+Go to the Forecast Dashboard in the Deals product area of Salesloft. 
+Click Submit Forecast above the upper-right corner of the dashboard. This will open the Submit Forecast window. 
+Type your forecasted amount in the Your Forecast text box. 
+(Optional) Add Notes that are paired with your forecast submission. These notes could explain how you arrived at your current forecast or provide more details about the progress you’re making and set future expectations.
+Click Submit. Once submitted, this forecast amount will appear as your Forecast metric value and will roll up to your manager’s forecast amount. 
+
+
+Things to Note: You cannot edit existing Forecasts that have previously been submitted, only current submissions.
+
+ 
+
+ 
+
+When submitting a forecast, reps and managers that fall into more than one segment can submit a separate forecast for each segment they’re a part of.
+
+ 
+
+If a team has multiple segments that are active and a user is submitting against multiple segments, the modal will show the two active segments on the left side. Within each segment, the submissions will be the same and are shared for the different types and timeframes they have configured. 
+
+ 
+
+ 
+
+In the submission modal, there are also several numbers existing within each configured forecast type. These numbers represent the previous forecast submission and the total of included opportunities forecasted for that period and type. 
+
+ 
+
+To populate the submission window with your value, click the Use button. The set of included opportunities comes from our Scenario Planning feature and will add up the deals for the user who is currently submitting.
+
+ 
+
+ 
+
+The submission experience also includes validation that will let you know if you are missing any required forecast submissions when updating your numbers. If any information is missing, an alert box will appear letting you know your forecast submission is incomplete.
+
+ 
+
+ 
+
+Once you’ve filled out all the required information and no longer see the alert box, click Submit to record your submission.
+
+ 
+Forecast History Report
+
+Sales forecast accuracy is the absolute percentage difference between the Day One forecast and cumulative sales results achieved through the last day of the forecast period. In other words, it’s the difference between the Day One Forecast and Actual Sales for the quarter (or any reporting period) as a percentage of Actual Sales. 
+
+ 
+
+If you and your team want to review past forecasts to gauge their accuracy, you can do so using Salesloft’s Forecast History Report. This report enables you to export your forecasts for a given period as a CSV file. Armed with the information in the Forecast History Report, you can analyze the effectiveness of your forecasting efforts, as well as calculate forecasting by reps and team. You can measure and understand the Day One Forecast versus how the period actually played out.
+
+ 
+
+For more information, see our Forecast Dashboard Overview article.
+
+ 
+
+How to Submit a Forecast on Behalf of Another User
+
+To submit a forecast on behalf of another user, you must have the Manage Forecast Submissions permission enabled by an admin. This permission is turned on for admins by default.
+
+You can submit a forecast on behalf of another user in a variety of ways. These include the following:
+
+1. In-Line Editing of a Single Number in the Hierarchy Table: You can easily edit or update a single forecast number via the hierarchy table. To do this, hover over any number in the table. Click the pencil icon to edit the forecast.
+
+2. In-Line Editing of All Numbers in the Hierarchy Table: You can also edit all numbers in the Hierarchy Table on behalf of another user by hovering next to the user’s name. Click the pencil icon to launch the forecast model.
+
+3. Updating a Forecast in the Flyout: To update a user’s forecast in the flyout, hover over the user’s name and click the pencil icon to edit their information.
+
+4. Updating a Forecast in the Expanded View:
+
+When you submit a forecast on behalf of another user, it will show in the flyout that a forecast was submitted for the user by another user and when that update was made.
+
+In the Forecast History Report, forecasts submitted on behalf of another user show up in the exported .csv file. You can see both the Forecast User Name and the Submitter Name as seen below:
+
+ 
+
+Last Modified By
+Stephanie Griffith, 12/19/2023 8:50 PM
+Title
+Submitting Forecast Numbers
+URL Name
+Submitting-Forecast-Numbers
+What's New
+Forecast
+Forecast Dashboard
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,125 @@
+GETTING STARTED
+Salesloft Knowledge Base Guide
+
+May 9, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Hello Lofter, 
+
+Greetings from the Salesloft Knowledge Base! The Knowledge Base goes by a few names – the KB, the Knowledge section of the Help Center, or Support articles to name a few. Whatever you decide to call it, our goal remains the same – to provide you with answers about Salesloft. 
+
+The Knowledge Base is a comprehensive resource that covers all things Salesloft. Whether you are getting started with a guide, learning about a new feature, or in need of some troubleshooting help, we've got you covered. 
+
+Since the Knowledge Base is very robust, we've created this guide to help you get the most out of this valuable tool. We'll walk through Knowledge Base features and actions, including: 
+Knowledge Base 2021 Updates
+Complete Knowledge Article Catalogue
+Salesloft Help Widget
+Search the Knowledge Base
+Search the KB from Your Chrome URL
+Click Through the Knowledge Base Categories
+Knowledge Base 2021 Updates
+If you are an existing Salesloft customer, you may have realized that the Knowledge Base looks a little different.
+
+Starting March 22, 2021, the Salesloft Support site and Knowledge Base moved to a new home in our improved Help Center (you are here). This new Help Center offers the same great support options you’re accustomed to, but the website address and the general look and feel are different.
+
+For starters, our new web address is help.salesloft.com. 
+
+The new Knowledge Base and Help Center are your one-stop shop for all things Salesloft Support. You can view articles and learn from the KB and reach out to our Salesloft team by clicking the Contact Support button on any page. For more information, check out the Need Help? Salesloft Support Guide.
+
+We’ve enabled single sign-on between Salesloft and the Help Center. This means you can log into the Help Center with the same credentials you use for the Salesloft application. If you visit the Help Center directly, click the Log In button in the top right corner of the page. To access the Help Center from Salesloft, click the Need Help question mark icon (?) in the Top Navigation menu. Then select Knowledge Base.
+Complete Knowledge Base Catalogue
+In the top navigation bar, you will see a couple of options on the left side:
+Home: Takes you to the Home Page.
+Knowledge
+The Knowledge option takes you to a single page with all of the Knowledge Base Categories and Subcategories listed by section. 
+
+If you prefer outline views, this may be the best page for you. Click any category or subcategory to go to view the related articles.
+Salesloft Help Widget
+The Need Help? button found in the bottom right hand corner of the Help Center in the Salesloft Help widget. This widget uses a powerful, artificial intelligence tool from Forethought to quickly serve answers and information. 
+
+The widget is available to all customers as another way to get your Salesloft answers fast. You can ask the Help widget any question you have about the Salesloft platform. The widget leverages Salesloft’s existing knowledge articles and documents and suggests relevant answers. 
+
+You can refresh a search or exit out of the widget by click the icons in the upper right corner. 
+
+To ask a question in the Help widget, follow these steps: 
+Click the Need Help? widget in the bottom right corner. The widget will open and ask, "
+Hi, how can I help you today?"
+Enter a question or search in the textbox. 
+Click Send.
+Things to Note: You must hit Send to submit your question. Hitting the Enter key on your keyboard will create a line break.
+Three article cards will populate that may contain the answer you are seeking. Click the different tabs to view the snippet of information provided. The snippet will include the text that is most relevant to your question. If you would like to view the entire article, click Read more at the bottom of the card to open the article in another tab. 
+After the answer suggestions, respond to the "Still need help?" question with of the following options: 
+I'm all set thanks!: For the times when your questions is answers and you are good to go. 
+Yes, I have another question: Keeps the widget open so you can ask a follow up question.
+Things to Note: If you don't find your answer on your first search, try asking in a different way. The widget is searching articles for the common phrases used. If you enter the same key phrase a second time, it may return the same results. 
+I want to request a demo: Directs you to the Salesloft website where you can reach out for a demo. 
+Contact Support: The widget will refresh with a new option. Click Create a Ticket' to open the Contact Support form in a new window. 
+
+
+ 
+Search the Knowledge Base
+The Knowledge Base is designed to be searched. If you are wondering about a certain subject or have a question, enter it into the search bar, and the search will pull up relevant article results. 
+
+The Help Center Knowledge Base has two primary search bar locations you can use. 
+Home Page Search
+Top Navigation Search
+Home Page Search
+When you go to help.salesloft.com, the Home Page Search is front and center. To use the Home Page search, follow these steps
+Click into the bar. Begin typing your search using either a word or question.
+As you search, suggested articles will appear in the dropdown below. Things to Note: Suggested articles will not populate until at least 4 characters have been added, sometimes more. 
+Select an article title to go directly to that article. OR select the top line (magnifying glass with your search term(s)) to option the full search page. 
+On the Search page, you will see all of the results that populated with your search. Click the article you want to view. 
+ 
+Top Navigation Search Widget
+The magnifying glass in the upper right corner of the Knowledge Base is the Top Navigation Search Widget. You can use this search option from anywhere within the Help Center.
+
+Let's say you are reading about creating Cadences, and then want to know more about Cadence Reporting. You'd follow these steps to search: 
+From your article, click the magnifying glass in the upper right corner.
+Begin typing your search using either a word or question.
+As you search, suggested articles will appear in the dropdown below. Things to Note: Suggested articles will not populate until at least 4 characters have been added, sometimes more. 
+Select an article title to go directly to that article. OR select the top line (magnifying glass with your search term(s)) to option the full search page. 
+On the Search page, you will see all of the results that populated with your search. Click the article you want to view. 
+ 
+ 
+Search the KB from Your Chrome URL
+Did you know, you can actually set up your URL bar in Google Chrome to behave as a Salesloft-specific search engine? 
+
+Sure, maybe you've typed in a word or question into the URL to open a Google search. This alternative search engine actually allows you to use the URL bar to search the Salesloft Knowledge Base. Saving you valuable time to get your answers faster. 
+
+To set up Google Chrome as a Salesloft search engine, follow these steps: 
+Go to your Chrome Settings by clicking the three vertical dots in the upper right corner of your browser. In the dropdown, select Settings. 
+Find the right side menu, and select Search Engine.
+Click Manage Search Engines.
+Scroll to the Other Search Engines part of the page and click Add. The Add Search Engine widget will appear. 
+In the Add Search Widget, enter the following details:
+Search engine: This is the name you will recognize for the search engine your creating. We recommend "SalesLoft Knowledge Base."
+Keyword: The keyword is a quick code you will type into your browser to switch from hyperlink to Salesloft search engine. We recommend keeping this short and easy, like “SLKB” (or preference)
+URL: This is the site search you will be utilizing. Google pulls from this source. Copy and paste this like into the URL: “https://help.salesloft.com/s/global-search/%s”
+Click Save. From now on, you can enter your Keyword in the Chrome URL bar, hit tab, and then enter a search term or phrase to search the SalesLoft Knowledge Base.
+Click Through the Knowledge Base Categories
+Below the Home page Search, you will see the Knowledge Base Categories. 
+
+The Knowledge Base currently has 12 categories. Each category cover a specific feature or function of Salesloft. So you can think of each category is like a box of information regarding that single topic. Click a category to see the articles that fit that topic. 
+
+The category-specific page shows a complete list of all articles related to that category. Below the category name, you will see sections links. These organize the articles into even more defined subcategories.
+
+All in all, the KB is a breadcrumb trail that gets you to your point of interest. Which search may populate results fastest, clicking through the categories allows you the see all of the articles that pertain to a category at a time. 
+
+For example, click in the Cadence category. The sections include Create a Cadence and Run a Cadence. You can follow the action you would like to take. 
+Last Modified By
+Briana Morgan, 5/9/2022 2:32 PM
+Title
+Salesloft Knowledge Base Guide
+URL Name
+Salesloft-Knowledge-Base-Guide
+Salesloft Knowledge
+Getting Started
+Support Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

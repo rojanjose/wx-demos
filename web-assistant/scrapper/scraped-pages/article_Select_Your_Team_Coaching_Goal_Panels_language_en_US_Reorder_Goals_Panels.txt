@@ -1,0 +1,100 @@
+COACHING
+Select Your Team Coaching Goal Panels
+
+Dec 15, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+You know the phrase, “good things come in threes”?
+ 
+The Team Coaching Dashboard lets you focus on up to three goals at a time. If you’re prioritizing a single goal in your coaching efforts, you can specify that goal only. Anywhere from one to three goals can be tracked simultaneously.
+ 
+When you first access the Team Coaching Dashboard, specific panels will appear by default to help get you started. The default panels vary based on your team’s Salesloft level of access. The available Team Coaching Dashboard defaults include:  
+
+Teams with access to Deals: Meetings Booked, Opportunities Created, and Closed Won
+Teams that do not have Deals access with Salesforce or Dynamics CRM connected: Successes, Meetings Booked, and Opportunities Created
+Teams with Hubspot CRM connected or no CRM connected: Total Activities, Successes, and Meetings Booked
+
+Ultimately, the goals seen in the Goals Panel should align with the objectives that matter the most to your team. On the Team Coaching Dashboard, you can change the Goals Panels by removing, adding, and reordering visible goals. 
+ 
+In this article, you will learn about the Goals Panels found in the Team Coaching Dashboard and how to best apply them for your team, including: 
+
+Available Goals Panels 
+Deciding the Right Goals for Your Team 
+Add and Remove Goals Panels
+Reorder Goals Panels
+Available Goals Panels 
+
+The Goals Panels show how your team is progressing towards specific goals. Each panel contains a colored growth chart that shows goal progress along with other data relevant to that specific goal. These goals are the sum of your group goals (not the sum of individual goals) set from the Compare Teams tab.
+
+Salesloft offers specific goals panels that you can apply for your team. Let’s take a look at the Goals Panels that are available. 
+
+Meetings Booked
+Opportunities Created
+Closed Won
+Total Activities
+Success
+New Pipeline Added
+
+Deciding the Right Goals for Your Team 
+
+Salesloft provides default goals as a suggestion when you first get started, but to get the most out of Coaching, you will want to highlight the top 3 goals that matter most for your team. 
+
+You may wonder “why only three goals?” It’s highly likely that your team will perform and want to accomplish metrics for more than three of the available goals. Keeping the goals to three allows you and your team members to prioritize your efforts and make sure the most important things are done. (Side tip, you can still set goals even if they aren’t appearing in the 3 goals panels. Any other goals can be seen in the Explore and Compare sections where you can track your overachievers.)
+
+With a maximum of 3 goals visible in the goals panel, how do you choose which goals are most important to you?
+
+Start by considering the tools you use inside of Salesloft. Some goals require access to areas of the platform to gather data – like Closed Won with Deals. Then there are goals like the Success goals which relies on users selecting the Success button in Salesloft. If your team is not using the Success button to track data, this panel won’t fit the goals you want to track. 
+Consider your team’s function. A team of account executives or closers will depend mostly on closing opportunities, whereas an SDR or BDR will focus on creating opportunities. 
+You will want to consider the members of your team and what will ultimately help them develop and accomplish the most for your business. If you have a team of newer users who are just getting started, you may want to focus on goals like meetings booked and number of activities that can help increase their skill set. A more seasoned user, on the other hand, could have more direct goals like Pipeline Added and Closed Won amounts. 
+Finally, you may want to consider setting an overall team goal that is more achievable and setting individual goals that are more ambitious. For example, you set a goal for your SDR team of 5 to generate 100 opportunities this quarter. Then, for each rep you can set a goal of 25 opportunities each quarter to make sure the team goal is met while allowing for some margin of error.
+
+Add and Remove Goals Panels
+
+Now that you’ve considered which goals should be visible inside the Goals Panel, you want to edit the display to show those goals. Editing the visible panels is managed from the Add/Remove Panels button on the Team Coaching Dashboard. 
+
+As we’ve mentioned, you can have a maximum of three (3) panels on display. If you have three panels selected already, you must remove one panel before adding another. This will be the case for any team using Coaching for the first time. 
+
+To change the Goals Panels seen on the Team Coaching Dashboard, follow these steps to add and remove panels: 
+
+Go to the Team Coaching Dashboard. 
+Click the Add/Remove Panels button. A dropdown menu will appear with the option to Enable Panels. The panels that are currently visible on the Team Coaching Dashboard will be selected. When a panel has a blue toggle, that means it is turned on and visible in the dashboard.  
+Since you can only have 3 panels enabled at a time, you will need to remove panels before you can add new ones. In the list of panels, click the blue toggle. When you click a toggle, it will turn “off” and appear gray. As soon as two or fewer panels are selected, you will have the ability to add panels. 
+To add a different panel to the display, click the gray toggle next to the panel name. When the panel turns blue, it is set to turn on.
+Once the panels you wish to view are selected, click Save. The Goals Panels will instantly refresh to show you the panels you have selected. 
+
+Reorder Goals Panels
+
+Your goals panels will appear in the order they are displayed inside the Add/Remove Panels window. This means, whichever panel is closest to the top of the Enable Panels dropdown will be first. The Goals Panel order from left to right will match the Enable Panels dropdown from top to bottom.
+
+Just like the panels themselves, the order of the panels you’ve selected can be rearranged. The order is entirely up to you and your preference. Here are some suggestions of ways you can order your Goals Panels:
+
+Alphabetically: For a clean, classic display. 
+Most important to least important: Help your team visualize your priorities with the top priority as the first thing you see (or vice versa).
+Building goals: Goals that impact the next goal. For example, if your goals are Total Activities, Meetings Booked, Closed Won, you can test the assumption that the number of activities could lead to more meetings booked which could equal more Closed Won business. 
+To reorder your goals panels, follow these steps: 
+Go to the Team Coaching Dashboard. 
+Click the Add/Remove Panels button. A dropdown menu will appear with the option to Enable Panels. 
+(optional) Add or Remove panels to see the panels you want to display. 
+Find the panel you want to move. Hover over the six-dot icon to the left of the panel name. A hand icon will appear. 
+Click and hold the icon. Then, drag the icon up or down in the list to move the panel. The rest of the panels will shift accordingly as you drag the panel. 
+Let go of the panel when it’s in the order you would like. 
+Repeat steps 4-6 for any panels you wish to reorder. 
+Click Save. The panels will refresh to your preferred order. 
+
+Last Modified By
+Stephanie Griffith, 12/15/2023 4:27 PM
+Title
+Select Your Team Coaching Goal Panels
+URL Name
+Select-Your-Team-Coaching-Goal-Panels
+Salesloft Knowledge
+Coaching
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

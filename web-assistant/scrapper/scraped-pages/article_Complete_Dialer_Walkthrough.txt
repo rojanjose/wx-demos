@@ -1,0 +1,128 @@
+DIALER + MESSENGER
+Complete Dialer Walkthrough
+
+Mar 18, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Making a call is as simple as hitting the “Call” button in the Dialer, having a conversation with the Person on the other end, and hanging up.
+
+Still, the Salesloft Dialer contains additional tools that can contribute to your overall efficiency and make performing calls effortless.   
+
+In this article, we will explore a complete, detailed walkthrough of the Dialer, from the buttons, tabs and available featues, including: 
+Top Dialer Icons
+Person Call Details
+During a Call
+The Dialer Tabs
+Dialer Keypad Tab
+Dialer Person Tab
+Dialer Log Tab
+Dialer Settings Tab
+Top Dialer Icons
+The icons you see at the top of the Dialer allow you to control Dialer functionality in between calls. Using these icons you can enable or disable features like call recording, LocalDial, and Call Pass Through. 
+
+Things to Note: Some of these icons only appear between calls. Scroll down to view the list of the icons you can control during your call.
+Recording: In the upper left corner of the Dialer, the circle icon is the record button. When the button is red, your call is set to record. If you have recording enabled, you can turn recording on and off by clicking the icon. 
+LocalDial: LocalDial will use an area code local to the number you are dialing. When the icon is green, it means LocalDial is active. In the event that you would like to disable LocalDial, click the icon to turn the feature off or on.
+Things to Note: LocalDial must be enabled by an admin before it can be used. 
+Call Pass Through: Pass Through calls allow you to take your Salesloft call from a different phone, like your cell phone or desk line. If the icon is enabled, the call will be directed to a secondary line prior to completing the call as dialed. When call pass through number has been set up, but is not turned on, the icon will appear grey and your call will take place through the Salesloft in-app Dialer.
+Reset Dialer: Refreshes the Dialer to a clean slate. If you have selected a Person or entered a number, hit Reset to clear the information. 
+Minimize: Shrinks the Dialer to a minimal view that will only show the top portion of the Dialer. To expand the Dialer after it's been minimized, select any of the Dialer tabs. 
+Close: Exits out of the Dialer. 
+ 
+Person Call Details
+
+The Person Call Details appear before and after you place a call. These details offer a quick view into the person you are contacting and their phone information. 
+
+Things to Note: The contact being dialed must be created as a Salesloft Person in order for their name and details to appear in the Dialer. 
+
+ 
+1. Selected Number: If the Person has multiple phone numbers on their record, this dropdown menu allows you to select an alternative number. 
+ 
+2. Person's Name: Name of the Salesloft Person you are dialing. 
+
+3. Phone Number: The Person's phone number you are dialing. 
+
+4. Call Button: Button to initiate the phone call. Select the call icon in the Dialer if the call does not automatically start. When you click Click the Dialer will seek to connect the call. 
+During a Call
+When you are actively on a call, the Dialer offers details and feature icons to assist you. 
+
+ 
+Recording Status: Manages call recording. If the icon is red, call recording is enabled. You can click the icon to enable or disable recording. 
+Mute: Allows you to mute your end of the call. If the call has been muted, the icon will appear green with a line crossing through it, denoting that your audio is not going into the call. 
+Drop Voicemail: Drop-in voicemail messages, or voicemail drop, allow you to select pre-recorded voicemail messages so you don’t have to waste valuable time reciting the same message over and over.
+Raise Hand: Notifies Live Call Studio users that you need further assistance on a call
+Add Participant: Call collaboration allows you to call another Salesloft user so they may join your call.
+Calling From Number: The number you are using to place the call. This number may be different when you are using your assigned number, Call Pass Through, or LocalDial. 
+Person Details: Standard information about the Person you are calling or speaking. The Person details will pull from the Person Profile information in Salesloft. Some details shown include the Person's name, the type of number you are calling, and the Person's role. 
+Call Time: Amount of time the call has been active. This will start when the call begins and run until you end the call. 
+End Call: Ends the active call. Aka, hangs up the call. 
+The Dialer Tabs
+The Dialer includes tabs that provide that offer a variety of functionality inside a seamless layout. From each  Dialer tabs, you can dial a number, search for a Person, log a call, and manage your Dialer settings all within one window. ​
+
+We will explore the components of each Dialer tab in the rest of this article. 
+
+ 
+Keypad
+Person
+Log
+Settings
+Dialer Keypad Tab
+Once the Dialer is open, click the Keypad tab to view the full dial pad. From this tab, you can type the number from your keyboard OR use your mouse to click the phone number.
+ 
+Dialer Person Tab
+The Dialer holds your entire Salesloft catalogue within the Person tab. From this tab, you can search and select a Person you wish to call. 
+Search: Allows you to search for a Salesloft Person by by their name, phone number, or email. 
+Edit Person Info: Update and edit fields related to this Person. When you click Edit, the Edit Person Details page opens in another tab in your browser. 
+Person Info: A quick view of Person information. The visible information may differ based on the information that has been added to the Person's profile. 
+Dialer Log Tab
+The Log tab is where you will complete your phone call. While hanging up may end the call, logging your call allows you to enter call notes and details and push that information into Salesloft and your CRM. Once the call is logged, you can review call details and build additional call reports . 
+
+If you move to another tab in the Dialer after a call and before you've finished logging the call, you may notice a little red dot next to the Log tab. This red dot is an indicator reminding you to complete your call log. Select the Log tab to finish logging your current call. Once the call is logged, the dot will go away. 
+
+Things to Note: Don't see the Log tab? You may have the Use Popped our Call Logger option enabled. This will open the Log box in a window outside of the Dialer. Check the Settings tab in your Dialer if you would like to view the Log tab. 
+ 
+ 
+CRM Record Selection: The CRM record where this call will log. 
+Scroll Bar: Allows you to view additional fields and information in the log box by scrolling up and down in the window.
+Log Call Notes: Type in any call notes you may have for the call.
+Disposition: Field to determine the result of the phone call you are making. In other words, the disposition determines what happened on your call. 
+Mandatory Field: The red asterisk appears next to Disposition and/or Sentiment fields that are required in order to log the call. 
+Sentiment: Field to determine the outcome of your connected calls. Was the call a bad fit? Is the prospect interested in more information?
+CRM Fields: Additional activity fields that are setup by a team admin.  
+Call Sessions (Not Pictured): 
+Instructions (Cadence Calls Only - Pictured below): Shows instructions that may be added to guide you during a Cadence call. Click View More to expand the script that may be setup by your manager.
+Log Options
+The Log options seen at the bottom of the Log tab in the Dialer may appear different based on how you are currently using the Dialer. Here are some of the varieties you may see:
+Find Person: This option appears if the number you dialed is not currently linked to a Person in Salesloft. Salesloft only logs calls to Person records. So you need to find a Person to link the call log to. When you click Find Person, you will jump to the Person tab in the Dialer. Search for a Person record, or add a new Person so that you can log your call. 
+Log a One-Off Call
+Log
+Success
+Log a Call from a Cadence
+Log & Complete
+Log Only
+Complete Only
+Success
+Dialer Settings Tab
+The Settings tab inside the Dialer is where you can adjust your Dialer settings. Here, you can manage the audio settings for the Dialer as well as determine how the Call Logger will display. 
+Microphone Settings (Input): Select the microphone being used during your calls.
+Headset Settings (Output): Select the headset or audio being used during your calls.
+Play Test Sound: Plays a tune so you can hear how the audio will sound during your call.
+Use Popped our Call Logger: Will open the call log page in a separate tab across the bottom of the page instead of within the Dialer itself 
+ 
+Last Modified By
+Stephanie Griffith, 3/18/2022 4:18 PM
+Title
+Complete Dialer Walkthrough
+URL Name
+Complete-Dialer-Walkthrough
+Salesloft Knowledge
+Dialer + Messenger
+Phone Calls With The Dialer
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

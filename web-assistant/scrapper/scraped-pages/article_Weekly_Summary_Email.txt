@@ -1,0 +1,159 @@
+ANALYTICS + REPORTING
+Weekly Summary Email
+
+Mar 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft's Weekly Summary Email goes out to Salesloft users each week. The email shows your assigned group's key performance metrics for the previous week and compares those metrics from week to week.
+
+This email can help you plan for the coming week and decide which actions will help you meet your goals.
+
+By default, all users are opted into this email. If the user is assigned to a group, they will receive that group’s summary metrics. If the user is not part of a group, they will receive the summary metrics for their team. The email will be sent each Monday and calculates results from the prior Monday through Sunday. 
+
+You can opt out of the email from your Personal Settings in Salesloft. 
+
+In this article, you will learn about Salesloft's Monthly Admin Summary email, including: 
+Inside Your Weekly Summary
+Cadences
+Conversations
+Deals
+ 
+ 
+Inside Your Weekly Summary
+Each Monday morning, Salesloft users will receive their Weekly Summary Email to the email address on their Salesloft profile. In the email, you will see a variety of metrics and charts that define your performance. After viewing how your team’s outcomes and activities have changed since the previous week, you can click the report links to learn more about the metrics you see.
+
+The email is tailored to your user group at the highest level if using group hierarchies or to your team's account (if you are not assigned to any group).
+
+Things to Note: Users with any of the following permissions disabled for their role will not be able to see the most efficient user in the email:
+View Analytics
+Filter Team Analytics
+Filter by Teammates
+Users with View Analytics permission turned off will not see the links to Calls, Emails, or Team Performance reports.
+
+For more information about the measurements below, review our Analytics Metrics List.
+Cadences Summary
+The Weekly Summary email includes the following details: 
+Time Period
+Team Name
+Outcome summary sentence
+Outcomes: What progress have you made last week
+Opportunities Created
+Meetings Booked
+Successes
+Activities Per Opportunity
+Activities Per Meeting
+Activities Per Success
+Most Efficient Per Opportunity
+Most Efficient Per Meeting
+Most Efficient Per Success
+View Outcomes Dashboard
+What does “most efficient” mean? The most efficient user is the user that needed the lowest amount of activities to achieve an outcome. For example, some users are able to quickly convert an initial email or call into a demo meeting which would mean more opportunities being generated at a quicker pace as well.
+ 
+Leading Indicators: What areas can affect your outcomes
+People Added
+View Cadences Report
+Positive Calls
+View Calls Report
+Emails Personalized
+View Templates Report
+Positive Emails
+View Emails Report
+Activities: What activities has your team been focused on
+Total Activities
+Activities Per Day
+% On-Time
+Total Activities by Day Chart
+Emails Sent
+Average Personalization
+% Opened
+% Replied
+% Positive Replies
+Total Calls Logged
+Calls Dialed
+% Connected Calls
+Total Voicemails
+% Positive Calls
+Links
+View Team Performance Report
+View Analytics Overview
+ 
+Account Activities: Accounts touched last week
+Avg Touches per Account
+Unique Accounts Touched
+Top Accounts by Touches
+View Accounts Report Link
+ 
+Conversations
+
+If you have enabled Conversations, you will see a new section after the Cadence summary sections focused on your team’s recordings. For the Salesloft group the email focuses on, the following will be summarized for the last week (Monday through Sunday):
+
+Total recordings:
+Total number of recordings uploaded in Conversations in the last week.
+Change amount (↑ or ↓) compares total recordings last week to the week before.
+Average talk time %:
+Average percentage of time spent in Conversations recordings that the user is talking in the last week.
+Calculation: (time in seconds team spends talking) / (total time in seconds every participant spends talking)
+Change amount (↑ or ↓) compares average talk time percent last week to the week before.
+Average recording duration:
+Average amount of time spent on Conversations recordings in the last week.
+Calculation: (time in seconds for each recording) / (recordings)
+
+Change amount (↑ or ↓) compares average recording duration last week to the week before.
+
+Things to Note: Recordings on platforms without active speaker detection (i.e. Google Meet, manual uploads) or private recordings are not included in these metrics.
+
+Additionally, you will see the top keywords across all X-ray groups that are mentioned in the team’s recordings for the last week. You can dig deeper into the recordings themselves by clicking the View Recordings link to go to your Conversations dashboard. Filler words will not be included in the weekly email.
+
+You can also find these metrics on individual Coaching Recordings pages.
+
+
+
+
+If you do not have Conversations enabled, you will see a promotional section at the end of the email encouraging you to learn more about Conversations.
+
+
+
+
+Deals
+If you have enabled Deals, you will see a new section after the Cadence Summary sections focused on your team’s Opportunities. This section only highlights deals with a close date in the current fiscal quarter. For the Salesloft group the email focuses on, the following will be summarized for the last week (Monday through Sunday):
+Weighted Pipeline:
+Sum of open deal amounts by their stage-weighted probabilities to close as of last week.
+Calculation: sum( [opportunity amount expected to close this quarter] * [stage-weighted probability] )
+Change amount (↑ or ↓) compares weighted pipeline closing this quarter from last week to the week before.
+Closed Won:
+Total deal amounts with a stage marked Closed Won as of last week.
+Change amount (↑ or ↓) compares Closed Won this quarter from last week to the week before.
+Close Date Pushed:
+Deal amounts for open opportunities that have been pushed out of the quarter (close date updated) in the last week. 
+Additionally, users with access to View All Opportunities can view a summary of the top deals that changed last week. The list only includes open deals closing this quarter and is sorted in order of the greatest change (negative or positive). You can explore this information in more detail via the Forecast weekly trend chart. If you only have access to view your own Deals, you will not see the Top Opportunity Changes chart.
+
+The Deal Engagement Score indicator highlights which of these deals might need more attention in the coming week (scores less than 70).
+
+Click the View Pipeline link to go to your Deals dashboard and dig deeper into your pipeline. If you have Forecast enabled, you can also navigate to your Forecast dashboard from this email by clicking View Forecast.
+
+
+
+If your team is using multi-currency in Deals, the weekly summary will only display deal amounts in the corporate currency.
+
+
+If you do not have Deals enabled, you will simply see a promotional section at the end of the email encouraging you to learn more about Deals.
+   
+Last Modified By
+Stephanie Griffith, 3/28/2023 10:30 AM
+Title
+Weekly Summary Email
+URL Name
+Weekly-Summary-Email
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Essentials
+Getting Started
+Set Up Salesloft
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

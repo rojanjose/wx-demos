@@ -1,0 +1,161 @@
+ADMIN GUIDES
+Manage Email Footers
+
+Nov 2, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Email footers are located at the bottom of an email, and contain content that often tells a lot about the sender’s validity. As an admin at Salesloft, you can create custom email footers and custom opt-out links for your team to ensure that every email maintains your organization's standard of professionalism and compliance.
+
+When you create email footers in Salesloft, you can determine what content is included, whether the email footers should automatically populate, and whether to include opt-out links. You can create multiple email footers and enable the Dynamically Change Email Footers setting, which allows Salesloft to pick an email footer based on the recipient.
+
+By creating custom, dynamic email footers, you can set your team up for email success, maintain security compliance, and meet the needs of your customers.
+
+Things to Note: Email Footers can only be created and altered by Salesloft admins.
+
+In this article, you will learn everything you need to know about creating and managing email footers in Salesloft, including:
+Create a Custom Email Footer
+Salesloft's Default Email Footer
+Enable the Automatically Include Email Footers Setting
+Enable the Dynamically Change Email Footers Setting
+Manage Your Team's Email Footers
+Create a Custom Email Footer
+Creating custom email footers for your team allows you to determine what content is included and how the information is displayed. The content you choose may depend on your organization's needs and the needs of your customers; for example, you can create multiple email footers that include your organization's privacy statement in your customers' respective languages. 
+
+Once you determine what content you want to include, you can create custom email footers from the Email Footer Team Settings.
+
+To create a custom email footer, follow these steps:
+1. Navigate to the Team Settings.
+2. Select Email Footer from the Communication settings.
+3. From the Email Footer page, scroll to the footers list and select Create Custom Footer in the top right corner of the list. This opens the Edit Custom Footer window.
+ 
+4. From the Edit Custom Footer window, complete the following fields:
+Footer Name: Add a name for your email footer; ex: Canada - English.
+Person Field Value: Choose the Person Field Value. Salesloft uses the Person Field Value to determine which emails to include your email footer in. The value you select for this field is compared to the email recipient's Person Profile page; ex: CA - ENG.
+
+Things to Note: If Salesloft does not find a value on the Person Profile page that matches the Person Field value you entered, Salesloft will check the cadence settings. If there are no cadence settings for email footers, Salesloft will use the default email footer. 
+ 
+Opt-Out Link: Type the text for your opt-out link.
+Email Footer Content: Add your desired email footer content, ex: privacy statement specific to the needs of your English-speaking Canadian customers. You can add your custom opt-out link in this section.
+
+Things to Note: If you create a custom email footer that includes a custom opt-out link, be sure to uncheck the Use Salesloft Opt-Out Link box. This will ensure that Salesloft's default Opt-Out link does not appear in your emails. Check out Step 5 in the Salesloft's Default Email Footer section for instructions. 
+ 
+5. Once you complete each field, hit Save.
+6. You're all set!
+
+Now that you've created your custom email footer, your team can begin including it in their emails. You can also enable the Automatically Include Email Footer setting to automatically add it to your team's emails. 
+ 
+Salesloft's Default Email Footer
+
+Every organization is different, and perhaps your team doesn't need multiple, custom email footers. You can choose to use Salesloft's default email footer instead of creating a custom one. Salesloft's default email footer contains only an opt-out link whose text you can customize based on your organization's needs.  
+
+To use Salesloft default email footer, follow these steps:
+
+1. Navigate to the Team Settings.
+2. Select Email Footer from the Communication settings.
+3. From the Email Footer page, scroll to the footers list. The default email footer should be at the top of the list. 
+
+4. Select Default Footer to open the Edit Default Footer window. 
+
+5. From this window, you can do the following:
+
+Use Salesloft's Opt-Out link
+Edit the default Opt-Out Link text 
+
+Things to Note: If you choose your own opt-out link, Salesloft will not mark email recipients who click it as 'Do Not Contact'. You can, however, create automation rules to mark people as 'Do Not Contact'. 
+
+
+6. Hit Save. 
+7. You're all set!
+
+
+Once you have saved the default email footer, you can choose to automatically include it in your team's emails.
+
+Enable the Automatically Include Email Footer Setting
+So, you want your team to use email footers, but should they be included in every email? As an admin, you can choose to automatically include email footers in all of your team's emails, or only your team's cadence emails. You may also choose not to automatically include email footers and allow your team to manually add them. 
+
+To access the Email Footer settings and enable the Automatically Include Email Footers setting, follow these steps:
+1. Navigate to the Team Settings.
+2. Select Email Footer from the Communication settings.
+3. Scroll to the Automatically Include Email Footer tile and select Edit. This opens the Automatically Include Email Footer window. 
+
+
+
+ 
+ 
+4. From the Automatically Include Email Footer window, choose whether to include email footers in all of your team's emails, only your team's cadence emails, or none of your team's emails. 
+Things to Note: If you choose None, your team can manually add an opt-out link to their individual emails and cadences. 
+5. Hit Save.
+6. You're all set!
+Enable the Dynamically Change Email Footers Setting
+So, you've created multiple email footers based on the needs of your customers. Now, you want to make sure that your team uses the appropriate email footers for the respective customers. The Dynamically Change Email Footers setting makes this possible.
+
+The Dynamically Change Email Footers setting makes your team's email footers dynamic, meaning they change based on a particular variable. These variables include:
+User (email sender): This setting allows an email footer to auto-populate based on the user's location. You can assign your users a Work Country from the Team Settings. 
+Person (email recipient): This setting allows an email footer to auto-populate based on attributes from the Person Profile page.
+
+You can set these variables when you enable the Dynamically Change Email Footers setting.
+
+Before you enable the Dynamically Change Email Footers setting, you'll want to create your email footers and enable the Automatically Include Email Footers setting. Once you've completed those steps, you can enable the Dynamically Change Email Footers setting.
+
+To enable the Dynamically Change Email Footers setting, follow these steps:
+1. Navigate to the Team Settings.
+2. Select Email Footer from the Communication settings.
+3. Scroll to the Dynamically Change Email Footer tile and select Edit. This opens the Dynamically Change Email Footer window.
+ 
+4. From the Dynamically Change Email Footer window, you can choose from the following:
+Change Footer Based on User (email sender)
+If you choose to dynamically change email footers based on the User, you will need to assign your users a Work Country. 
+Change Footer Based on Person (email recipient)
+If you choose to dynamically change email footers based on the Person, select the Person Field dropdown to choose from the following Person Field attributes:
+City
+State
+Country
+Work City
+Work State
+Work Country
+ 
+5. Hit Save. 
+6. You're all set! 
+
+
+
+
+
+Update the Recipient's Person Profile
+
+Before anyone on your team sends an email, we recommend checking whether the email recipient's Person Profile page matches the Person Field you selected for the Dynamically Change Email Footer setting. This ensures that your customers receive the appropriate email footers.
+
+ 
+ 
+ 
+Manage Your Team's Email Footers
+From the Email Footers settings page, you can view all of your team's email footers.
+ 
+At any point, you can edit your team's email footers. To do this, simply click on the name of the email footer you would like to edit. This opens an edit window where you can make any necessary changes.
+ 
+
+
+
+ 
+ 
+ 
+Last Modified By
+Briana Morgan, 11/2/2022 6:04 PM
+Title
+Manage Email Footers
+URL Name
+Manage-Email-Footers
+What's New
+Email
+Salesloft Knowledge
+Admin Guides
+Email Guides
+Sending Emails
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

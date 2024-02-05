@@ -1,0 +1,211 @@
+DEALS
+DEAL MANAGEMENT
+Deals Stakeholders Panel
+
+Feb 22, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+When you're managing a deal, you need to identify all of the right stakeholders. Think about it. If you don't know who is going to be a part of the decision-making process, chances go way down on closing the deal.
+
+The Stakeholders panel helps keep you up-to-date on the contacts you engage with during a deal. The panel can be found on any individual Deal View page. Any stakeholders associated with the Opportunity will be listed in the panel. Stakeholders can be added, removed, viewed, and edited all from within this panel. 
+
+In this article, you will learn about the details and actions you can take from the Stakeholders panel, including: 
+Stakeholder Panel at a Glance
+Add a Stakeholder
+Add Suggested Stakeholders
+Stakeholder Link to a Person Record
+Stakeholder One-off Actions: Add to Cadence
+Stakeholder One-off Actions: Book a Meeting
+Stakeholder One-off Actions: Call
+Stakeholder One-off Actions: Email
+Stakeholder One-off Actions: SMS Text Messages
+Edit a Stakeholder
+Remove a Stakeholder
+Stakeholder Panel at a Glance
+The Stakeholder panel, as mentioned above, will show anyone who has been added as a Stakeholder on the deal (or Contact on the Opportunity). The panel will show the list of names in rows with relevant Stakeholder information like their title, a grey badge showing the Opportunity Contact Role, and Stakeholder engagement metrics.  
+
+One stakeholder will be labeled as the Primary Contact. This stakeholder will most likely be the key decision maker or your main point of contact (depending on which you think is most important). 
+Things to Note: you can't have two (2) primary contacts.
+The names of the stakeholders appear in the following order: 
+Primary Contact will appear first.
+Followed by last engaged date (as long as there is engagement data).
+Then, the order will be same as the picklist of contact roles.
+Final order is based alphabetically.
+Next to each Stakeholder's name, you will see metrics to help keep track of their engagement throughout the deal. These metrics are pulled from your Salesloft activities.
+
+Things to Note: For metrics to appear, the Stakeholder must be a created Person in Salesloft. If the Person is not in Salesloft, you will see an indicator in the Stakeholder panel. 
+
+The metrics include: 
+Last engaged date: The last time they were on a meeting or replied to an email.
+Meetings: (calendar icon) How many meetings were book with this Person. 
+Calls: (phone icon) How many calls were logged to this Person.
+Emails Sent: (paper airplane icon) How many emails were sent to this Person.
+Emails Replied: (arrow icon) How many times did they reply to an email
+Add a Stakeholder
+Imagine that you are working through a deal and one of the contacts introduces you to a brand new member of the team. This new team member will need to be included on any decisions moving forward which means, they need to be added as a stakeholder. 
+
+To add someone as a Stakeholder, follow these steps: 
+
+1. Go to the Deal View and find the Stakeholder Panel.
+
+2. In the upper right corner of the panel, click the plus sign +. This will open the Add Stakeholder view. 
+ 
+
+3. Search for existing contacts OR click to Create a New Stakeholder. The search will automatically show People at Account. These are the Contacts that are linked to the Opportunity in Salesforce. You can also search and add contacts that are not linked to the Account.
+
+ 
+4. When you select Create a New Stakeholder text boxes will appear where you can add the person's information. 
+
+5. Click Save. The stakeholder will be added to the deal. 
+
+New Stakeholders will be linked to their equivalent Person record in Salesloft Cadence. If a Person record cannot be found, a new Person record will be created based on the Stakeholder data. The Stakeholder data used to create a Person record includes: 
+First name
+Last name
+Email address
+Phone number
+CRM ID
+Things to Note: The Last name and either the email address or phone number must be included for the record to be created successfully.
+
+The Person that is created in Cadence is treated like any other record in Cadence in the following ways:
+The user that creates the record in Deals is considered to have created the Person in Salesloft, and is therefore the default owner .
+Once the record exists inside Cadence, it performs a sync to the CRM and reconciles data according to the team’s Field Configuration.
+Add Suggested Stakeholders
+Since stakeholders are the contacts you will be in contact with and making key decisions throughout a deal, it's pretty important to know who those people are. If you can't name a stakeholder or leave an important person out of the conversation, your deal could be in jeopardy (and, let's be honest, it's not a good look to forget a person you've been talking to). 
+
+The stakeholder panel uses suggested stakeholders to help keep your listed contacts up-to-date. The suggested stakeholders offers the names of people who may be involved in the deal based on certain criteria.
+
+You can view suggested stakeholders in the stakeholders panel and even add them as a confirmed stakeholder.
+
+Stakeholders may be suggested based on the following criteria: 
+Person at the Account: The suggested person is listed as a Contact on the Account that the opportunity is associated with and is not already listed as a stakeholder.
+Contacts on Meetings: For People on the Account that were an invitee or attendee on a meeting. There may be a couple of scenarios:
+If a person on the account was an attendee/invitee on a meeting after an opportunity was created.
+If a person on the account was an attendee/invitee on a meeting right before an opportunity was created.
+Contacts with Calls: If a Person on the Account logged a call in Salesloft, suggested stakeholders will recognize this as a noteworthy action. 
+Contacts with Emails: If a Person on the Account was on or included in an email exchange. There may be a couple of scenarios:
+If a person on the account was sent an email by the sales rep.
+If a person on the account sent an email to the sales rep.
+ 
+
+When a stakeholder is suggested, you can add them as an official stakeholder. To add a suggested stakeholder to the stakeholders list, follow these steps: 
+In the Stakeholder panel, find the suggested stakeholder.
+Click the + to the left of their name. The panel will switch to the Add Stakeholder view. 
+The Add Stakeholder view will already contain the Person's basic information like their name and title if they were already listen in Salesloft. 
+(Optional) Click Primary Contact if the stakeholder is the main point of contact at the Account.
+Select an Opportunity Contact Role. 
+Click Save. The stakeholder is now in your stakeholder's list. 
+ 
+ 
+Stakeholder Link to a Person Record
+Each stakeholder represents a contact you communicate with through a deal. While the Stakeholder Panel offers a quick glance at stakeholder activity related to the deal, you may be missing important details about that individual and their engagement with your organization. 
+
+The stakeholder in deals links to a Person within Cadences. When you click the name of a stakeholder, you will navigate to the Person Profile Page in the same tab. The Person Profile Page allows you to quickly dive into the details of a Person and see all of the Activity Feed details of the engagement that this person has had.
+
+Things to Note
+If you go to a Person Profile page from the Stakeholder Panel and click the Back button, you will return to last page you were on, most likely the Deal View. 
+If the stakeholder has not been imported into Salesloft as a Person, their name will not appear as a clickable link. Make sure the Person is Imported into Salesloft.
+Stakeholder One-off Actions: Add to Cadence
+
+Many of the tasks that take place while managing an opportunity are one-off actions like a scheduled meeting, an email, or a check-in phone call.
+
+However, there are some instances where it makes sense to add stakeholders to a Cadence and maintain a consistent form of communication. Some examples include re-engaging a deal where communication went dead, dropping a closed-lost deal into a nurture campaign, or dropping a closed-won deal into a next steps campaign.
+
+There are a number of use cases, but whatever your reason may be, you have the ability to add stakeholders to a Cadence from within Deals. 
+
+Things to Note: The Stakeholder must be a created Person in Salesloft. If the Person is not in Salesloft, you will not see the Add to Cadence option. 
+
+To add a stakeholder to a Cadence from Deals, follow these steps: 
+
+In the stakeholder panel of a deal, hover over a contact. The Add to Cadence button will appear. 
+Click Add to Cadence. This opens the Add Person to Cadence module. 
+In the module, search and/or select a Cadence from the list. You can select Show steps to view the Cadence steps and add the Stakeholder to a certain step in the Cadence. 
+(Optional) Assign the Cadence. By default, the Cadence will be assigned to the user you is adding the Person to the Cadence (you). 
+Once a Cadence is selected, click Add to Cadence. This will add the stakeholder to the Cadence. The actions will be due according to the Cadence settings. 
+ 
+Stakeholder One-off Actions: Book a Meeting
+When working a deal, one of the last topics you'll cover is most likely "When can we meet again?" The Book a Meeting action inside the Stakeholder panel lets you schedule a meeting with a contact in the moment. This way you can easily get a follow up meeting on your calendar, with the added bonus of keeping track of all meetings in Salesloft.
+
+Things to Note:
+Book a Meeting from the Stakeholder panel does NOT require access to the Chrome Extension. 
+You must have your calendar setup in Salesloft to Book a Meeting.
+If your calendar isn't connected when you click Book a Meeting, an error message will appear. In the Unable to Book Meeting window, click to cancel or click Connect to Calendar. Connect to Calendar will redirect you to the Calendar personal settings where you can connect you calendar.
+
+To book a meeting from the Stakeholders panel, follow these steps: 
+In the stakeholder panel of a deal, hover over a contact. A dropdown button will appear. Select the dropdown button to view available actions.
+Click Book a Meeting. The Book a Meeting pane will open. 
+In the pane, follow the steps to Book a Meeting . 
+After you have added the Meeting details, click Book Meeting to schedule. Once a meeting is booked it will appear in the Activity Feed on the deal as an Upcoming Meeting Activity. 
+Stakeholder One-off Actions: Call
+The Deals Stakeholder panel allows you to call a stakeholder from the Deal view. This form of one-off action is perfect for making calls on the fly. As an example, let's say you are reviewing your Deal and notice that a key stakeholder has been quiet. You can call them on the spot and, hopefully, connect.
+
+One-off calls from the Stakeholder panel are performed via the Salesloft Chrome Extension. Without Downloading the Salesloft Chrome Extension, you will not be able to make one-off calls from within the Deals product. 
+
+To make a call from the Stakeholders panel, follow these steps: 
+In the stakeholder panel of a deal, hover over a contact. A dropdown button will appear. Select the dropdown button to view available actions.
+Click Call. The Salesloft Dialer pane will open on the right-hand side of the screen. 
+Things to Note: The Stakeholder must have a Person record in Salesloft with a phone number. If they do not exist as a Person, one-off actions will not appear. If they do not have a phone number, the option to call will not appear. 
+ In the Dialer pane, call the stakeholder. You can add any notes as well as the call's disposition and sentiment. 
+Hang up and log the call once it's complete. The call activity will log to the stakeholder and will appear in the activity feed on the person and opportunity pages. 
+Stakeholder One-off Actions: Email
+The Deals Stakeholder panel allows you to email stakeholders from the Deal view. This form of one-off action is perfect for sending emails at a moment's notice whether is a friendly reminder or to stay top of mind with a prospect. 
+
+One-off emails from the Stakeholder panel are performed via the Salesloft Chrome Extension. Without Downloading the Salesloft Chrome Extension, you will not be able to make one-off calls from within the Deals product. 
+
+To send an email from the Stakeholders panel, follow these steps: 
+In the stakeholder panel of a deal, hover over a contact. A dropdown button will appear. Select the dropdown button to view available actions.
+Click Email. The Salesloft Email Window will open on the right-hand side of the screen. 
+Things to Note: The Stakeholder must have a Person record in Salesloft with an email address. If they do not exist as a Person, one-off actions will not appear. If they do not have an email address, the option to email will not appear. 
+ In the Email window, create your message. 
+Send or schedule your email. The email activity will log to the stakeholder and will appear in the activity feed on the person and opportunity pages. 
+ 
+Stakeholder One-off Actions: SMS Text Messages
+Texting a customer is a great way to discuss updates of a deal, terms, negotiations, and more. Usually you may incorporate texting as a communication channel as a deal is progressing and getting closer to closing. 
+
+In order to simplify your communication methods, you can send SMS text messages directly from the Stakeholder panel inside the Deal View. This way, if you are viewing a Deal and realize you want to quickly connect with someone, you can send them a quick text rather than calling them or sending a full email. 
+
+Things to Note: 
+Sending SMS Text Messages from the Stakeholder panel does NOT require access to the Chrome Extension. 
+Texting comes with its own set of regulations that must be followed. Please review the Messenger Regulation Guidelines prior to initiating texts. 
+Below are the permission checks Salesloft completes before SMS texting is possible to a Stakeholder: 
+Make sure that the user has North America Unlimited text messaging plan through Salesloft. 
+Make sure the user (the salesperson) has a phone number assigned to them.
+Make sure the stakeholder has a mobile number in the contact fields populated.
+Make sure that the contact does not have a contact restriction in place, specifically that they are not labeled as Do Not Contact or Do Not Message.
+To send an SMS message from the Stakeholders panel, follow these steps: 
+In the Stakeholder panel of a deal, hover over a contact. A dropdown button will appear. Select the dropdown button to view available actions.
+Click Message. When you click Message, the message pane will open on the right-hand side of the screen.
+In the Messenger window, you can message the stakeholder and have a back-and-forth dialogue. In addition to the conversation with the stakeholder, you will also see any other ongoing text conversations. Click on the other conversations to continue messaging with other prospects. The message activity will log to the stakeholder and will appear in the activity feed on the person and opportunity pages. 
+ 
+Edit a Stakeholder
+If you ever need to update a Stakeholder's information in the event of a title change or switching a Primary Contact, follow these steps: 
+Hover over the person's name. The metrics will change to a blue down arrow. 
+Click the down arrow to open a menu of actions. 
+Select Edit. This will open up that contact's info where you can edit fields.
+Click Save. 
+Remove a Stakeholder
+If someone leaves an organization or no longer needs to be associated with the deal, you can remove them as a stakeholder. 
+
+To remove a stakeholder, follow these steps: 
+Hover over the person's name. The metrics will change to a blue down arrow. 
+Click the down arrow to open a menu of actions. 
+Select Remove from Opportunity. A warning will pop up to confirm you would like to remove the stakeholder. 
+Click Remove. 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 2/22/2022 7:46 PM
+Title
+Deals Stakeholders Panel
+URL Name
+Deal-Stakeholders-Panel
+Deals
+Salesloft Knowledge
+Deal Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

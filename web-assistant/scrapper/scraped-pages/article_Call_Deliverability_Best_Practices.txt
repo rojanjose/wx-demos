@@ -1,0 +1,83 @@
+ADMIN GUIDES
+Call Deliverability Best Practices
+
+Feb 7, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Technology has made it possible for people to make calls from almost anywhere in the world and reach their prospects. While it may be simple to dial a phone number from anywhere, you want to make sure that your call is going to go through the line and hopefully result in a connection. 
+
+This is where Call Deliverability comes into place. Similar to email deliverability best practices, call deliverability aims to recognize that a person is calling a person rather than a robot (because no one appreciates a spammer). 
+ 
+Salesloft offers steps your team can take to greatly reduce the risk of a call being flagged as phone spam. Some best practice measures involve managing your team's call traffic, verifying your business communications using Trust Hub, and avoiding spam labeling. 
+ 
+In this article, we will walk through some ways your team can maintain healthy call deliverability, including: 
+Best Practices for Call Traffic
+Verify Trust Hub
+Avoid Spam Labeling
+For additional information, check out our Dialer Troubleshooting Guide and our Manage Trust Hub in Salesloft articles.
+Best Practices for Call Traffic
+In order for your team to have success with Call Deliverability, it’s important to be mindful of the type of call traffic being sent to carriers. Carriers are looking for suspicious traffic behaviors that may be performed by a bot or spam. 
+
+Salesloft recommends keeping these practices in place as you dial  to ensure calls are wanted and answered:
+Good call durations: Avoid bursts of many calls in a short time period. These patterns mimic a bots behavior to dial without considering human correspondence and appear suspicious to carriers. Take time in between calls to prepare for conversations. 
+Aim for high answer rates: Actually making connections on calls regularly ensures your calls are wanted and accepted.
+Avoid repetitive caller IDs: Too many calls from the same source can look robotic.
+Use registered numbers, if possible: "Number masking" may appear untrustworthy to your prospect and to carriers. 
+Register your business for STIR/SHAKEN: This regulation authenticates the caller and determines if they are authorized to use the number to place the call. You can set up the registration using Salesloft's Trust Hub. 
+Register your business for CNAM: This will populate your business name on outbound caller ID.
+Verify Trust Hub
+The Salesloft Trust Hub is a self-service resource portal for businesses to register and verify their identities. The portal connects directly to your carrier and provides all of the information and validation needed for your calls traversing their network.
+
+By utilizing a verified business profile, you are able to take full advantage of the Dialer related services that help improve call deliverability.
+
+Trust Hub uses the following aspects to benefit to your business’s Dialer practices: 
+STIR/SHAKEN
+STIR/SHAKEN authenticates the caller and determines if they are authorized to use the number to place the call.
+
+Salesloft teams can register for STIR/SHAKEN inside the Salesloft platform. You can learn more in the Manage Trust Hub in Salesloft article. 
+CNAM
+Caller Name Delivery (CNAM) is a technology carriers use to look-up and deliver the caller ID displayed on inbound calls.
+
+In the US, various public entities keep a database of name records associated with phone numbers. Whenever a phone call is made, a CNAM “dip” is performed in their respective databases to retrieve the latest name record associated with the caller. Ideally, these records would be kept up to date as number ownership changes by submitting carrier requests. Depending on when a number or name record was last changed and/or updated, the databases may be outdated.
+
+Since the CNAM service allows carriers to provide a contextual name with the call, it is very important to US based customers for identification. This practice can significantly improve answer rates and responses since the person being called is able to recognize the caller. Salesloft recommends all customers have a CNAM registration setup with their numbers to ensure the correct outbound caller ID is displayed to prospects.
+
+CNAM setup is generally done during Salesloft implementation but can also be requested at any point as phone numbers are acquired or names are modified. The CNAM a customer chooses to display does not need to match the business name and may be any 15 character string desired. If you wish to confirm CNAM is configured on your account, please reach out to our Support team for assistance.
+ 
+Avoid Spam Labeling
+Carriers utilize spam scoring technology provided by 3 public entities that each have their own algorithms to calculate the spam risk associated with a number. Since spam reports and scores are not publicly available to carriers, it can be difficult for a team to know if they are subject to spam labeling without hearing it from the prospect directly.
+
+This can also be impacted by the history of a number as numbers are portable from one carrier to another. Sometimes numbers will be flagged incorrectly as “Spam Likely” or “Scam Likely” when they are delivered to mobile devices.
+
+We strongly encourage you to follow the best practices listed above to avoid any negative spam scores and having a number labeled as spam.
+Can Salesloft fix mislabeled calls?
+Salesloft cannot currently clear a negative reputation associated with a number, however, there are many publicly available resources to do so.
+
+We strongly recommend customers register their numbers using the linked vendors below to help clear any incorrect spam labels attached to numbers.
+
+Things to Note: This process may take a few weeks to complete but will ensure the vendors calculating spam risks do not negatively flag your calls.
+All Carriers 
+AT&T 
+Sprint, Verizon, U.S. Cellular 
+T-Mobile 
+
+ 
+Last Modified By
+Briana Morgan, 2/7/2023 2:36 PM
+Title
+Call Deliverability Best Practices
+URL Name
+Call-Deliverability-Best-Practices
+Salesloft Knowledge
+Dialer + Messenger
+Admin Guides
+Advanced Dialer Guides
+Dialer Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

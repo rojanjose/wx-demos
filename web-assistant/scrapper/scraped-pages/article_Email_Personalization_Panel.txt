@@ -1,0 +1,126 @@
+ANALYTICS + REPORTING
+Analytics Overview: Email Personalization Panel
+
+Oct 9, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+An email personalization score measures how much the sent email differed from the original email message from which it was crafted. This score takes the following into account when analyzing an email: 
+
+The words in the original template
+Number of words inserted or added to the template
+Number of words deleted
+Number of substitutions made to existing words. 
+
+These conditions are calculated into a percentage to give you your email personalization score. By using the email personalization score and its associated metrics, you can discover how often personalization is used and what amount of personalization really gets you the best reply rate.
+
+Using the email personalization score, Salesloft designed the Email Personalization panel to highlight email reply rates based on the average personalization of the sent email based on your Analytics Filters.
+
+In this article, you will learn about Personalization and the Email Personalization panel, including:
+
+What's Included in the Email Personalization Score?
+The Email Personalization Panel
+Personalization Panel Results
+Personalization and Email Coaching Opportunities
+Panel Drill Down: Team Email Report by User
+What's Included in the Email Personalization Score?
+
+As mentioned above, the email personalization score takes the number of words inserted, deleted, or substituted into account. While that seems simple enough, it's also a little vague. 
+
+Let's take a look at the specifics of the types of changes that add to your email personalization score and, maybe more importantly, the changes that won't increase your personalization:
+
+Included
+All textual changes in the email body
+Snippets
+Changes in salutations (e.g. “Hello John” in template becomes “Hi John” in email) 
+Excluded
+Filling out the dynamic tags of the template does not count as personalizing the email. Dynamic tags are filled in before computing the email, so those are considered part of the email body. 
+Excludes signatures and email threads.
+Punctuation is disregarded when computing personalization (exclamation points don’t help).
+Does not include postscript text (P.S.). The Personalization Score is designed to strictly view the body of the email. 
+Images and videos do not count towards personalization. 
+The Email Personalization Panel
+Email Personalization: (Panel Name)
+Metric: Average Personalization: The average of personalization scores across a set of emails.
+Period Comparison based on date selection: To the right of the metrics, you will see a small percentage in either green or red. This will show how your numbers have increased or decreased over time.
+View Report: (Drill down to more details) Takes you to the Emails Standard Report. The drill down report will sort by user sorted by avg. personalization in ascending order.
+Chart: The chart shows which personalization "bucket" or amount of personalization has the best reply rate.
+Y-axis left: Emails Delivered: (orange) Number of emails delivered based on the set filters.
+Y- axis right: Reply Rate: (blue) Number of replies based on the set filters.
+X-axis: Average Percentage Personalized: Percent ranges of the amount of emails that were personalized. 
+
+ 
+
+Understanding the Email Personalization Panel Results
+
+When looking at most metric charts, seeing a hockey stick chart represents an uptick in numbers and an overall positive outcome. 
+
+Well, the Average Personalization chart is a little different. The goal of the chart is to make sure the best reply rate and most emails delivered are in the same bucket. This means you are comparing those two bars with each other rather than looking for your averages to skew left or right. 
+
+You need to interpret the data being shown. Fortunately, we've prepared four types of charts to teach you how to read the data you see.
+
+Nada: No Personalization
+
+What this chart says…
+
+Based on the bucket, all emails have less than 15% personalization.
+This means you're seeing low overall personalization.
+There's also a low reply rate.
+Conclusion: Need to personalize more than 5% to see improved reply rates.
+Need Less: Diminishing Returns
+
+What this chart says…
+
+The best reply rate, 10%, is when personalization is 16-30%.
+Most emails are sent with 31-45% personalization.
+Conclusion: Since the best reply rate occurs with a lower personalization rate, you might be doing too much personalization.
+Not Working: Less is More
+
+What this chart says…
+
+Doing lots of personalization with emails in every category.
+Conclusion: Personalization isn’t working because the reply rate is the same no matter how much you do.
+Check out this blog article post for tips.
+Nirvana: Ideal Chart
+
+What this chart says…
+
+Personalizing between 31-45%.
+Your highest reply rate occurs in the bucket where you send the majority of your emails.
+Conclusion:  Keep doing what you’re doing!
+Personalization and Email Coaching Opportunities
+
+Using the Personalization metrics, you can gauge whether a user should use more or less personalization in their emails. But there is a difference between reps changing a couple sentences to boost their personalization score and sending a quality, personalized email. The latter has a greater chance of receiving a reply. 
+
+Keeping that in mind, here are some tips managers should keep in mind while coaching reps to improve the quality of their personalization: 
+
+Add content that is unique to the individual. Adding details you may share in common like if you:
+attended the same college
+previously worked at the same company
+know people in common
+Align the message to the buyers’ unique challenges. Position the message with specific knowledge of the buyer’s pain points. 
+Focus on the Account or company-based information, highlighting the specific company that the buyer represents
+Use a persona-based approach. This will position the role of the buyer.
+Personalize based on where the buyer is in sales cycle.
+Panel Drill Down: Team Email Report by User
+
+This panel drills down into the Emails Standard Report sorted by average personalization by User,  where you can see all the other steps completed.
+
+ 
+Last Modified By
+Stephanie Griffith, 10/9/2023 5:29 PM
+Title
+Analytics Overview: Email Personalization Panel
+URL Name
+Email-Personalization-Panel
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Overview Panels
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

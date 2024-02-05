@@ -1,0 +1,101 @@
+DEALS
+Deals Summary: Pipeline by Closed Date Tile
+
+Jan 6, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Pipeline by Close Date Tile shows a breakdown on your pipeline. The insight are available in two different chart views:
+The Weight Pipeline
+Pipeline by Stage
+You can change the chart view by clicking the selector in the top right of the tile.
+
+In this article, you will learn about the Pipeline by Closed Date Tile, including: 
+Pipeline By Close Date Tile Metrics
+Weighted Pipeline Chart View
+Pipeline by Stage Chart View
+Pipeline By Close Date Tile Metrics
+The Pipeline by Close Date tile has two available chart views. Each view will show different sets of data. 
+
+Let's walk through the different parts of the Pipeline by Close Date Tile and explain what the mean: 
+ 
+Object	Definition	Calculation
+Name	Pipeline by Close Date Tile	N/A
+Dropdown	There will now be two sections of charts to choose from: Weighted Pipeline and Pipeline by Stage.
+In the dropdown, you'll see the different available record types  as long as your team has multiple record types in your Salesforce account. 	N/A
+X-axis	On the x-axis are the dollar amount totals.	The values are not fixed ranges and are dynamic to the your data. The scale is determined by how much money is in your weighted pipeline.
+Y-axis	The y-axis shows the date ranges that the pipeline will be displayed	The ranges will be different depending on the goal period (monthly, quarterly, or annually) that is set:
+- When Quarterly Goal Period is set, this chart will show data for the given fiscal quarter. On the chart it will organize bars into the three months that makeup the quarter
+- When Monthly Goal Period is set, this chart will show data for the given month. On the chart it will organize bars into the weeks that makeup the month. A week is defined as Saturday - Sunday
+- When Annually Goal Period is set, this chart will show data for the given fiscal year. On the chart it will organize bars into the 4 fiscal quarters that makeup the year
+Number at the top of each column - Weighted Pipeline Chart	Each column will display the total amount of weighted pipeline + closed won that is within each time period. 	It is calculated by adding the weighted pipeline and closed won values for the column
+- Closed Won: This value is calculated as the deals that have a status of closed won during the time period on the y-axis.
+- Weighted Pipeline: Sum of deal amounts by their stage-weighted probabilities
+Number atop column - Pipeline by Stage Chart	Each column will display the total amount of pipeline in each stage that has a close date in the time ranges.	It is being calculated by putting deals into each column based on their close date. Then it displays them in each of their respective stages
+Weighted Pipeline Chart View
+The Weighted Pipeline View shows a breakdown of the closed-won amount versus the weighted pipeline amount for given time periods. The the chart will be accessible as an additional option on the Pipeline By Close Date Tile on the Deals Summary page.
+
+The total amounts can be viewed above each bar.
+ 
+ 
+Hover over the chart to view the following details:
+Date
+Weighted amount if hovering over weighted pipeline
+Closed-won amount if hovering over closed won
+ 
+The visible information in the Weighted Pipeline Chart is directly related to how your Deals admin settings. The variations are as follows:
+Variation	Image 
+Quarterly Goal Period	
+
+
+Monthly Goal Period	
+
+
+
+
+Annual Goal Period
+
+	
+
+Pipeline by Stage Chart View
+
+The Pipeline by Stage View shows the pipeline broken down into each Opportunity stage across time periods of their goal. The the chart will be accessible as an additional option on the Pipeline By Close Date Tile on the Deals Summary page.
+ 
+ 
+Hover over a section of a column within the chart to see the following details:
+Date
+Stage name of that section
+Amount of Opportunities in the stage
+Number of Deals
+The visible information in the Pipeline by Stage Chart is directly related to how your Deals admin settings. The variations are as follows:
+Variation	Image
+Quarterly Goal Period	
+
+
+Monthly Goal Period	
+
+
+
+
+Annual Goal Period
+
+	
+
+ 
+ 
+Last Modified By
+Stephanie Griffith, 1/6/2022 1:31 PM
+Title
+Deals Summary: Pipeline by Closed Date Tile
+URL Name
+Pipeline-by-Closed-Date-Tile
+Deals
+Salesloft Knowledge
+Deals Analytics
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

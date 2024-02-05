@@ -1,0 +1,83 @@
+RHYTHM
+Cadence Focus Zone
+
+Dec 18, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Cadence Focus Zone provides a full list of your Cadences and allows you to run Cadence steps. 
+
+From the Cadence Focus Zone, you can access information related to your Cadences and complete action items to make running steps more efficient. 
+
+Cadence Focus Zone Layout
+Filter the Cadence Focus Zone View
+Run Steps in the Cadence Focus Zone
+Cadence Focus Zone Layout
+
+The Cadence Focus Zone is where you can quickly access and run Cadence steps.
+
+By default, the Cadence Focus Zone groups by Cadence Step. The Group by Cadence Step view prioritizes actionable items by listing each of your cadences and all of the steps in each respective cadence.
+
+ 
+
+Let's walk through the Cadence Focus Zone layout:
+
+Filter: By default, the Cadence Focus Zone displays a list of your Cadences with steps that are either due today or are overdue. You can click the filter icon to filter the Cadence Focus Zone view. 
+Cadence Name: Name of the cadence
+Cadence Step Tiles: Cadence steps. Each tile includes the following details:
+Type of Cadence Step (Icon): Email, Phone, General Task, LinkedIn Task
+Cadence Day: The day your steps will run once a person has been added to the Cadence
+Multi-Touch: Allows you to run a day's steps for a prospect all at one time
+Play Button: Allows you to run Cadence step tasks. The number beside the play button shows you how many activities are included in the Cadence step.
+
+ 
+
+Click the cadence step tile to gain more details about the Person, Account, and due date for each cadence step.
+
+ 
+
+Filter the Cadence Focus Zone View
+
+By default, the Cadence Focus Zone lists your Cadence steps grouped by due date. You can filter the Cadence Focus Zone view to complete steps in the most efficient way for your workflow.
+
+To filter the Cadence Focus Zone view, click the filter icon in the upper right corner. 
+
+Using the Cadence Focus Zone filter, you can:
+
+Group Cadences by:
+No Grouping: This filter removes the cadence name and shows a list of cadence steps.
+Cadence Step
+Account
+Time Zone
+Sort Cadence Groups by:
+Priority (High - Low)
+Priority (Low - High)
+Tasks Due (Most - Least)
+Tasks Due (Least - Most)
+Filter by Due Date
+Filter by Task Type
+Filter by Time Zone
+
+Run Steps in the Cadence Focus Zone
+
+The Cadence Focus Zone makes it easy to run your cadence steps. To run a Cadence step, hover over the Task icon, then click the down arrow to learn more about the step. 
+
+When you're ready to run the Step, click the Play button. 
+
+Last Modified By
+Raequel Sank, 12/18/2023 5:41 PM
+Title
+Cadence Focus Zone
+URL Name
+Cadence-Focus-Zone
+Salesloft Knowledge
+Rhythm
+Rhythm Workflow
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

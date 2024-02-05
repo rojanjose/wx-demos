@@ -1,0 +1,124 @@
+ANALYTICS + REPORTING
+Calls Standard Report
+
+May 19, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Calls Standard Report provides a detailed record of each team member's call metrics. By reviewing these values, team coaches can pinpoint where reps may need additional help, while individual users can track call progress. 
+
+Here are some of the questions you can answer using the Calls Report: 
+How many calls have we actually dialed this past month? This highlights your call quantity.
+Do the calls logged totals match the number of dialed calls? Helps show that your team is sticking to the call process and means your call data is in tip-top shape. 
+What percent of my calls connect? Suggests more success if you are making more connections.
+Do certain days or hours have better connect rates? Is you display calls by time period, and see that certain days or hours showed increased connect rates, you can schedule this time to make calls. 
+In this article, you will learn about the Calls Report, including:
+Access the Calls Report
+Calls Report Add Filter Options
+Calls Report Metrics
+Sort the Calls Report
+Why Is the Number of Calls Different on the Calls Page Versus My Call Analytics?
+Can multiple Calls share the same Call Log?
+Access the Calls Report 
+To view the Calls report, navigate from one of the following locations within Salesloft:
+The Calls Logged: Cadence and One-Off Panel: Click the View Report link in the upper right corner of the panel. 
+The Standard Calls View from your Reports Tab: Select the Standard Calls View link found in the Calls Section of the Reports Tab. You will be redirected to the Calls Report.
+When you access the report, you will see the name of the report you have accessed and a breadcrumb trail in the upper left corner. This can take you back to the Analytics Overview by clicking Analytics. 
+Calls Report Add Filter Options
+The Calls Report data can be adjusted by using Analytics Filters. When you change any of these filters, you can save the page view to Create Custom Reports.
+
+Outside of the standard filter options, you can add additional filters to your report. The Calls Report's additional filters include: 
+Calls Dialed
+Average Duration
+Calls Logged
+% Connected Calls
+ 
+
+ 
+Calls Report Metrics
+The first row of the report contains the total metrics based on your filter settings.
+ 
+
+Each call metric is visible in its own column. The columns include: 
+ 
+User	The Salesloft team member
+Average Calls Logged Per Day	How many calls are being logged each day on average. 
+Calls Dialed	
+
+Shows the number of calls that were made using the Salesloft Dialer. These calls are set by the status assigned by the Dialer provider. Calls dialed include all calls with the following status:
+
+Completed
+Busy
+No-answer
+Canceled
+Failed
+
+Average Duration	Average Call Duration is the collect of all time spent on calls dialed divided by the number of calls. The smallest increment of Avg. Call Duration in analytics is by user by hour.
+Calls Logged	
+
+Number of calls that have been logged by the user. 
+
+
+Connected Calls	
+
+Number of calls logged with the disposition Connected by the user. 
+
+
+Connected Calls Rate (% Connected Calls)	The percent of calls logged that have the disposition of Connected Call. The calculation is Connected Calls Rate = Connected Calls/Calls Logged.
+Things to Note: Connected Calls is the standard disposition of "Connected". 
+
+Positive Calls (Pos. Calls)	
+
+Total number of calls labeled with the disposition Connected and sentiments Interested, Timeline 6-12 Months, or Demo Scheduled.
+
+
+
+
+Positive Calls Rate (% Pos. Calls)
+
+	The percent of calls logged that have also been logged with a Positive Calls sentiment. The calculation is Positive Call Rate = Positive Calls/Connected Calls.
+Voicemails	
+
+Total number of calls marked with the Salesloft Default Left Voicemail disposition. 
+
+ 
+Sort the Calls Report
+Each column header can also be used to sort the list. To sort the Team Call report to fit your preference, follow these steps:
+Select the appropriate column header. The header name will turn blue.
+Use the arrow to the right of the header name to set the sorting direction. The arrow will point up or down (ascending or descending order) to reflect the order of the list. 
+ 
+ 
+Why Is the Number of Calls Different on the Calls Page Versus My Call Analytics?
+In Salesloft, there are two steps when making a phone call within the platform: making the call from the Dialer and then logging the call.
+
+These two steps feed into different call metrics. 
+
+The Calls Page keeps track of all calls made via the Salesloft Dialer. The reason these feed exclusively to this page is thanks to our Dialer provider tracking call data on their server. 
+
+The Analytics page keeps track of any logged calls. Logged calls can happen using the Dialer or you can log calls that took place outside of the Salesloft platform when you would like to keep a recorded note.
+
+If you make a call through the Dialer and do not log the call, the call will not appear in your call analytics. On the flip side, if you log a call that was not made with the Dialer, the call will not appear on the Calls page.
+
+To keep your metrics aligned, we recommend completing your calls through the Salesloft Dialer and logging all calls that take place. This will also give you a complete picture of how well your call metrics are doing.  
+ 
+Can multiple Calls share the same Call Log?
+If your call is disconnected for some reason and you call the Person back, you can log both dials to the same log. To log calls to the same log, you will need to log the first call. Then, go back and edit the original call log with the additional information. 
+
+As a result Calls Dialed and Calls Logged may not always match.   
+ 
+Last Modified By
+Briana Morgan, 5/19/2022 7:10 PM
+Title
+Calls Standard Report
+URL Name
+Calls-Standard-Report
+Salesloft Knowledge
+Analytics Reports
+Analytics + Reporting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,56 @@
+DIALER + MESSENGER
+The Calls Page
+
+Apr 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Calls tab in Salesloft gives you a comprehensive view of all calls that have been attempted or completed, outbound or inbound, by you or all users on your team.
+
+This way you have a simple and manageable list to use for reporting or to review as you work towards hitting quota and other goals. 
+
+In this article, we will go over everything that is visible to you from the Calls tab.
+Calls Page Layout
+Calls List
+Calls Page Layout
+The Calls Page offers a variety of tools to manage your Calls and the layout of the Calls page. 
+
+
+
+The Calls Page layout contains the following features: 
+Call Page Saved Views: Save the filtered list you use. This way you can easily access a particular filter without having to set the same filter each time you access the calls page.
+Filter & Sort: Your Call page shows all listed calls by default. If you would like to refine the list to show a select type of calls or sort the list in the order that makes the most sense for your use case, you can use the Filter & Sort feature to simplify your call list.
+Calls List: List of calls that have been dialed using Salesloft.
+ 
+Calls List
+The calls listview is your one-stop shop for your comprehensive call list. With that being said, there is a lot of information on display on the list.
+
+Let’s take a look at the different data columns that are on display in the calls listview:
+Time: When the call took place.
+Team Member: Salesloft user who made the call.
+Person: Who was called. If the person has been imported into Salesloft, their name will be listed, along with their phone number. If the phone number is not associated with a person in Salesloft, only the number will be displayed.
+Account: The account associated with the person called. If the person was imported to Salesloft with their account information, the account name will display. If the person is not in Salesloft or their account information has not been entered in Salesloft, the field will be blank.
+Duration: How long the call lasted. The duration is recorded in seconds.
+Status: Dialer status associated with the call.
+Direction: Whether the call was outbound or inbound. Things to note: Inbound calls are redirected to your forwarding number, but still logged in your call list.
+Log: Allows you to edit log information about the call. The log column will show one of the following clickable icons
+Plus sign: Allows you to add logs on calls that previously did not contain a call log. This pertains to one-off calls, Inbound Call, and Calls from Salesloft Mobile if you can't log while on the call. Things to Note: Calls must be logged to a Salesloft Person record. If the phone number is not already linked to a Person, you will need to search or create a person record before logging the call. 
+Pencil: Allows you to edit previously logged call information. Things to Note: If you edit a call log, any updates to the log will not appear in Salesforce. 
+Recording: If your call was recorded, click Listen to Recording to hear the call recording. Calls without recordings will be listed as No Recording.
+ 
+Last Modified By
+Stephanie Griffith, 4/13/2023 8:18 PM
+Title
+The Calls Page
+URL Name
+The-Calls-Page
+Salesloft Knowledge
+Dialer + Messenger
+Phone Calls With The Dialer
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,101 @@
+DEALS
+Deals Analytics Overview: Weighted Pipeline Tile
+
+Aug 1, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Weighted Pipeline Tile looks at what the weighted and unweighted pipeline coverage is for a given goal period. 
+
+ 
+
+The Weighted Pipeline value is based on the percentage value of deals in each stage. For example if the full amount of a deal is $1,000, and you are viewing weighted pipeline values, then it will show at 50% (probability to close the deal) of the deal, which is $500.
+
+ 
+
+The Unweighted Pipeline value will display the full amount of the deal regardless of what stage it's at. For example if the full amount of the deal is $1,000, and you are viewing unweighted pipeline values and the deal is at 50% (probability to close), then the value will still be displayed at $1,000.
+
+ 
+
+Things to Note: The visible information is directly related to your Goal Management admin settings. Charts and data may appear different based on your team and individual goals. 
+
+ 
+
+In this article, you will learn about the information provided within the Weighted Pipeline Tile, including:
+
+Inside the Weighted Pipeline Tile
+
+Weighted Pipeline Tile Metrics
+
+Weighted Pipeline Tile Variations
+
+ 
+
+ 
+
+Inside the Weighted Pipeline Tile
+
+The Weighted Pipeline chart shows the weighted and unweighted trends for your pipeline, your unweighted pipeline amount, and the pipeline coverage for your goal period.
+
+ 
+
+
+Hover over the chart to gain insight into the trend data. It will show the date, unweighted pipeline amount, and weighted pipeline amount. Additionally, tooltips help the rep understand how we are calculating the values in the tile.
+
+ 
+ 
+Weighted Pipeline Tile Metrics
+
+Let's walk through each metric you will see in the Weighted Pipeline Tile and what it means: 
+
+ 
+
+Object	Definition
+Name	Weighted Pipeline Tile
+Weighted Pipeline	Sum of deal amounts by their stage-weighted probabilities
+Pipeline Trend	This is a historical chart that displays the weighted and unweighted pipeline across the course of the goal period
+Unweighted Pipeline	The Unweighted Pipeline value will display the full amount of the deal regardless of what stage it's at. For example if the full amount of the deal is $1000, and you are viewing unweighted pipeline values and the deal is at 50% (probability to close), then the value will still be displayed at $1,000.
+Unweighted Pipeline Deals	The number of deals owned by the user
+Pipeline Coverage	Unweighted Pipeline/ Remaining Goal
+
+ 
+
+Weighted Pipeline Tile Variations
+
+Based on your Goal Management admin settings, the Weighted Pipeline Tile could appear in a variety of ways. Below are the different variations for how these sentences may appear:
+
+ 
+
+Variation	Images
+Quarterly Goal Period	
+Monthly Goal Period	
+
+
+
+
+Annual Goal Period
+
+	
+
+
+No Goal Set	
+
+ 
+ 
+Last Modified By
+Briana Morgan, 8/1/2023 3:55 PM
+Title
+Deals Analytics Overview: Weighted Pipeline Tile
+URL Name
+Weighted-Pipeline-Tile
+Deals
+Salesloft Knowledge
+Deals Analytics
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

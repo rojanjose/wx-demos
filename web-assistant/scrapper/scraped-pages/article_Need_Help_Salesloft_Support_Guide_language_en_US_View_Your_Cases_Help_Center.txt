@@ -1,0 +1,178 @@
+GETTING STARTED
+Need Help? Salesloft Support Guide
+
+Nov 1, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Welcome to the Salesloft Help Center! 
+
+The Salesloft Help Center connects you to our Salesloft Support team, our robust Knowledge Base, and allows you to manage any Support cases all from this one source!
+
+Our Support team delivers a highly customized service experience with you, our customer, at the center of everything we do. Our goal is to use our technical expertise to give all of our customers the knowledge and understanding they need to confidently accomplish their goals.
+
+This guide is specifically designed to help you utilize the Salesloft Help Center (aka the Knowledge Base) and resources from our Support team to the fullest. In this article, you'll find answers to some of your Salesloft support questions and learn how to interact with our Support team, including:
+
+Sign into the Help Center from Salesloft
+How Do I Contact Salesloft Support?
+What's a Case?
+View Your Cases in the Help Center
+Salesloft Support Tiers and Response Times
+Access Your Team's Case History (Admins Only)
+Can I Get Salesloft Training Walkthrough?
+
+
+Want to use the Salesloft Help Center but prefer a video format? Visit Salesloft University to see the Salesloft Support Portal Walkthrough video tutorial. 
+
+Sign into the Help Center from Salesloft
+
+You may be wondering why you would want or need to be signed into the Help Center? The Salesloft Help Center offers more than articles like the one you're currently reading.
+
+Logging into the Help Center allows you to submit Support cases (or tickets), manage your cases, and view exclusive customer Knowledge Base articles!. 
+
+See? The Help Center has a lot to offer! 
+
+By default, Salesloft customer's will be signed into the Help Center and Knowledge Base. Your Salesloft login will act as your SSO (single sign-on) and grant you access to help.salesloft.com's many features.  
+
+Things to Note: If you use your Salesloft authentication to sign into the Help Center, these accounts will be tied together. This means if you log out of the Help Center, you will also be logged out of Salesloft. 
+
+To access the Help Center seamlessly from the Salesloft platform, follow these steps: 
+
+Sign Into Salesloft. 
+Go to the Needs Help icon on the top navigation bar. 
+Click a Related Article or the Knowledge Base link. This will open the Salesloft Help Center's Knowledge Base in another tab. 
+Go the the upper right corner and click the Log In button. 
+Once the page loads, notice that your name is in the upper right corner. Click your name to open your Knowledge Base menu.
+
+ 
+
+How Do I Contact Salesloft Support
+
+As mentioned above, if you run into technical issues, you may submit a case to our Support team from the Help Center.
+
+Creating a case with the support team is a click away, literally. To reach out to the Salesloft support team, click Contact Support in any of the following locations: 
+
+Inside the Salesloft platform: Click the Need Help Question Mark icon in the Top Navigation bar, then select Contact Support. 
+From the Need Help Widget in the Help Center
+At the bottom of the Help Center home page
+On the right side of any Knowledge Article
+
+Many of the answers to commonly asked questions, like feature how to's and troubleshooting guides, can be found in the Knowledge Base documentation (because we try to be very thorough). However, in the event that the problem you experience is beyond the technical resources available here, reach out to tech support directly from the Knowledge Base.
+
+Things to Note: Before submitting a case, especially regarding severity level 1 or severity level 2 issues, be sure to check the Salesloft Status Page. If an update is posted on the Salesloft Status Page, this will act as a first response time regardless of when a case is submitted. 
+
+To submit a support request from the Help Center, follow these steps:
+
+From Help.salesloft.com, find and click Contact Support button. You'll be directed to the Contact Customer Support form. 
+Enter your email address.
+Enter a Subject. As you enter a subject, a list of suggested articles in the Knowledge Base appear on the right side of the page. You can click one of the articles instead of submitting the request.
+Add a Description of the problem.
+Select the Type of assistance you need:
+Billing or Subscription
+Feedback
+Platform Assistance
+Best Practice
+Select a Severity level. Use your best and honest discretion here. The severity level informs our team is they can help you in an individual ticket or if this is a system wide issue that may need to involve our engineering team. Severity includes:
+Feature Request
+Minor Issue: A specific feature is disrupted for select users or not working as intended. (most common)
+Key functionality or component where multiple users on your team are affected.
+Platform is down for all users: Enterprise Salesloft Platform or a core feature (email, Dialer, Salesloft Connect) is down and no users are operational. 
+Click Submit.
+
+ 
+
+What's a Case?
+
+
+Whenever you submit a request to Salesloft support, you open a Case. 
+
+Things to Note: The Salesloft Knowledge Base made a move to a new system March 22, 2021. This move brought us to help.salesloft.com. Along with changing the web address, we shifted from using "tickets" to "cases." So, what was formerly tickets are now cases. But they have the same outcome: helping you get back to accomplishing your goals.
+
+Cases allow our internal Salesloft team to provide more service and assistance for the questions you may have. 
+
+View Your Cases in the Help Center
+
+Any cases you submit to Salesloft Support, can be viewed within the Help Center.
+
+This way you have a log of all that activity. Here, you can refer to previous cases (if you need to find an answer again) or keep track of an ongoing request. 
+
+To view previous or ongoing Cases with support, follow these steps: 
+
+Go to the Salesloft Help Center, Make sure you are logged in. When you are logged in, you will see the Cases tab.
+Click the Cases tab
+Select the appropriate list view to see the related cases.
+Help Center - My Open Cases: all open cases you've submitted
+Help Center - My Closed Cases: all closed cases you've submitted
+Within the list view, click any case to view the interaction.
+
+ 
+
+ 
+
+Salesloft Support Tiers and Response Times
+So, you’ve submitted a case, now what? Once you submit a case in the Help Center, our Support team will review your case according to our service-level targets. 
+
+Service-Level Targets are the response times that we intend to meet based on the severity level of your case. Customers will be prompted to assign a Severity Level when submitting support requests by using the help.salesloft.com portal. 
+ 
+The tables below list our service-level targets and define case severity levels. 
+
+Things to Note: 
+Customers should use reasonable discretion in assigning Severity Levels, basing such assignment on the severity definitions in this article.
+Salesloft reserves the right to reclassify Severity Level assignments if Salesloft reasonably determines that the Customer’s assignment is inaccurate.
+If an update is posted to the Salesloft Status Page, this will act as a first response time regardless of when an individual case is submitted.
+All response times listed in the Service Level Target chart are estimates and cannot be guaranteed.
+ 
+Service Level Targets - First Response
+Severity	Standard Support	Priority/Premium Support
+Severity Level 1	2 Business Hours	1 Hour (for PS Admins only)
+Severity Level 2	1 Business Day	4 Business Hours
+Severity Level 3	2 Business Days	1 Business Day
+
+
+Severity Levels
+Severity Level	Definition
+Severity Level 1	Platform is down. Functionality of the whole system or core features is down and no users are operational.
+Severity Level 2	Platform is impaired. Issues exist around major functionality or component where multiple users are affected.
+Severity Level 3	Minor issue. A specific feature is disrupted for select users but there are workarounds to solve the issue.
+Access Your Team's Case History (Admins Only)
+
+As an admin, viewing your team's case history allows you to stay up-to-date on occurring issues and ticket resolutions. 
+
+By default, you have access you see your own cases within the Help Center. If you would like to view tickets for your entire team, contact Support about gaining access to view your organizations cases. 
+
+To access your team's case history, follow these steps: 
+
+Go to the Salesloft Help Center, Make sure you are logged in. When you are logged in, you will see the Cases tab.
+Click the Cases tab
+Select the appropriate list view to see the related cases.
+Help Center - My Open Cases: all open cases you've submitted
+Help Center - My Closed Cases: all closed cases you've submitted
+Help Center - All Open Cases: all open cases for your company**
+Help Center - All Closed Cases: all closed cases for your company**
+Within the list view, click any case to view the interaction.
+
+ 
+
+Can I Get a Salesloft Training Walkthrough?
+
+If your team needs further assistance or explanations on how to put Salesloft to use, you can still receive a training walkthrough from the following sources:
+
+Salesloft U
+Weekly Webinar: Attend one of our weekly, monthly or quarterly recurring webinars. Some provide formal “how to” and best practice guidance regarding specific Salesloft features (e.g. Cadences, automation rules) while others offer an informal Q&A format (e.g. Daily Office Hours). There’s something for everyone. You may register for the webinar in advanced by selecting the link. The webinar is hosted Wednesdays at the following times: 9:30 am EST and 2:00 pm EST
+Last Modified By
+Stephanie Griffith, 11/1/2023 3:01 PM
+Title
+Need Help? Salesloft Support Guide
+URL Name
+Need-Help-Salesloft-Support-Guide
+Salesloft Knowledge
+Getting Started
+Support Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

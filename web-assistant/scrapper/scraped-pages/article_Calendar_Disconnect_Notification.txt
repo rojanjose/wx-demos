@@ -1,0 +1,40 @@
+USER GUIDES
+Calendar Disconnect Notification
+
+Dec 6, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Once your calendar is connected, Salesloft will notify you if a disruption to that connection occurs. The calendar disconnect notification will inform you when your calendar is not connected to Salesloft along with instructions to resolve the problem.
+
+Things to Note: In order to identify the calendar connection problem, Salesloft checks the connection every hour.
+
+The calendar disconnect notification will appear in both of the following ways:
+
+The Salesloft App Warning Banner: A red warning banner will appear below the top navigation bar within the Salesloft application. This bar will provide context and instructions to resolve the problem (e.g., update their email or calendar connection).  
+
+ 
+
+Email Notification: An email message will be sent to you with the context and instructions to resolve your disconnected calendar.
+
+ 
+
+To remove this banner, you will need to connect your calendar. Check out our Connect Your Calendar to Salesloft article for more information.
+
+Last Modified By
+Raequel Sank, 12/6/2023 5:45 PM
+Title
+Calendar Disconnect Notification
+URL Name
+Calendar-Disconnect-Notification
+Salesloft Knowledge
+User Guides
+User Guides FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

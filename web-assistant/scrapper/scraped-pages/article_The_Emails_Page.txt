@@ -1,0 +1,69 @@
+EMAIL
+The Emails Page
+
+Apr 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Emails page shows you the log of all emails you have sent using Salesloft. From this tab, you can view the send data and metrics of your emails. The Emails page also allows you to control and, more importantly, cancel sent messages. 
+
+To access the Emails page, click the envelope icon in your Salesloft Side Navigation bar.
+
+In this article, you will learn about the Emails page, including:
+Emails Page Layout
+Emails List
+Email Details 
+Emails Page Layout
+
+The Emails Page layout contains the following features: 
+Email Filters: The Emails page shows all emails you have attempted to send by default. You can use filters to specify a select type of emails. 
+Number of Emails: The total number of emails in the current view. When you select an email, the number will show how many emails have been selected out of the total number of emails (example 3 of 25 emails will show if you have checked the box next to 3 emails on a full page.)
+Selected Email Actions: When you check the boxes listed towards the left of each email's row, email actions will appear at the top of the list. 
+Cancel Sends: Cancel an email prior to sending.
+Retry Send: Retry a previously failed email send.
+Emails List: The list of emails you have sent using Salesloft.
+Emails List
+The Emails list out the emails you have sent on one page. 
+
+
+
+The Emails page includes the following information:
+To: The Recipient's name is hyperlinked to their Person Profile Page. The person who received the email. 
+Date: Sortable column by date the last action on the email occurred. Sent emails will appear in standard text. Cancelled, Scheduled, or Failed messages will appear in italics to signify an alternative email event. 
+Account: Account linked to the recipient Person, hyperlinked to the Account Profile Page.
+Subject: The subject line of the email. The subject line is a link you can click to view the full email and email details. 
+Tracking Metrics:
+Opens: Number of emails sent that have been opened. 
+Clicks: Number of times a link in the email has been clicked. 
+Replies: Number of replies the email has received.
+Status: state of the email send. Options include Scheduled, Pending, Sent, Failed, Canceled
+Cadence: The name of the Cadence the email was sent from. If the email was sent as a one-off a dash will appear in the column. 
+ 
+Email Details 
+Selecting the subject line of an individual email gives you further insights into the email metrics. This is particularly helpful if you want to view the entire email thread or need more information about the interaction. 
+ 
+
+The Email Details Page includes the following information:
+Subject line: The Subject line of the email you are viewing. 
+Email thread: The content of your email. The thread will include the dialogue between you and others. Each email will be broken by the From and To fields. The emails will also show the time the email was sent. 
+Reply: Opens an email window so you can reply to the email thread and continue the email conversation.  
+Email Metrics: Opens, Clicks, and Replies that have been registered to this email thread. 
+Email Activity: Shows the number of Devices and Locations where activity was made on the email. This is helpful if you are curious how often an email was viewed. If an email has a large number of views, and you see that it has an equally large number of devices or locations, you can assume the email was forwarded and viewed by multiple people. 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 4/13/2023 9:16 PM
+Title
+The Emails Page
+URL Name
+The-Emails-Page
+Email
+Salesloft Knowledge
+Email Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

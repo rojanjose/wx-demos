@@ -1,0 +1,192 @@
+EMAIL
+Create a Template
+
+Apr 12, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Templates are created email messages that can be used within Cadences or to simply compose a one-off email with a ready-to-go draft.
+
+Before you can add email templates to emails, you need to create the templates. Creating templates is very similar to drafting an email. With templates, you get the benefit of re-using that email message over and over. The templates you use will gather metrics so you can assess how well a template performs. 
+
+In this article, you will learn about creating templates in Salesloft and we will provide some examples, including: 
+Create a New Template
+Create a Team Template
+B2B Cold Email Template Examples
+Follow Up Email Template Examples
+Create a New Template
+There are certain email messages you will send over and over like introduction emails, follow-ups, meeting recaps. 
+
+These repeated emails are perfect use cases for templates. 
+
+To create a template, follow these steps:
+Go to the Templates page.
+In the upper right corner of the page, select Create Template.
+If you have the Salesloft templates permission, you will see a couple options for the type of template you can create. Choose a Personal Template or Team Template. 
+Once you’ve accessed the Create Template box, the first thing you will do is give your template a Name.
+Add your Subject Line.
+Draft your email. The body of your email will be laid out here. Just like when you are composing an email from your email server, Salesloft provides you with additional email features that can empower your messages like adding Dynamic Fields or gifs. You can learn more about editing your template in The Email Window Toolbar article. 
+From the preview window, send yourself a preview of the email if you would like to see how it will appear to your recipients.
+Add Tags at the bottom of the email message for quick filtering after the template is saved.
+Click Save.
+Create a Team Template
+Team templates allow you to share unified messaging that is scalable across your entire team. In other words, your whole team can leverage the exact same email messages. 
+
+Salesloft admins can control and quickly distribute messaging to your entire team by using team templates. Your reps will all have access to the same approved messaging that they can easily use when reaching out to their prospects.
+
+Things to Note:  
+Only Salesloft admins or users with the Manage Team Templates permission can create, edit, copy, or archive a team template.
+Any changes made to a team template will be time stamped with the date and by user made the changes.
+When a team template is updated, it is updated across the entire platform, with users seeing the changes immediately.
+Team template metrics are aggregated across the entire team.
+To create a team template, follow these steps:
+Go to the Templates Page
+Select Create Template.  
+If you have the templates permissions enabled for your role, you will have the option of creating a Personal or Team Template. Select Team. Hit Next.
+Create your template. When creating a team template, you have the same functionality and user experience as when creating a personal template.
+Save the template. Users will now be able to find it under their Team Templates. 
+B2B Cold Email Template Examples
+The following are examples of email templates to help you start creating templates: 
+Useful Resource Sales Email Template
+Forwarding new or additional resources provides value to your prospects. 
+
+Hey {{first_name}}, 
+
+Our data science team just sent us these latest market trends for [INSERT STRATEGY]. (PDF attached) 
+
+Hopefully these help as you think about your [INSERT PAIN POINT] strategies. 
+
+Let me know if there is anything else I can help with, 
+
+{{My.first_name}}
+ 
+Website Visit Sales Email Template
+
+Cold prospects who’ve visited your website and downloaded a resource have already demonstrated interest. Now, it’s time to send a cold email to kick off a conversation and gauge further interest. Using video is a great way to boost response rates!
+
+Hey {{first_name}},
+
+Looks like you might be interested in learning more about [INSERT COMPANY HERE]!
+
+Below is a quick video to introduce myself and explain why I’d like to chat with you. 
+
+[[INSERT VIDEO HERE]]
+
+As well, here is a teaser on what is to come 🙂 
+
+See you soon,
+
+{{My.first_name}}
+
+Case Study Sales Email Template
+
+Forwarding a case study is a great way to establish yourself as a trusted advisor in your industry—all while sharing positive experiences of past customers and the benefits of working with you. 
+
+{{first_name}},
+
+Since implementing [INSERT COMPANY], [INSERT CUSTOMER NAME AND LINK CASE STUDY] has seen [INSERT TANGIBLE RESULTS]. We have also helped [INSERT CUSTOMER] to start [INSERT A GAME CHANGER].
+
+Do you have time on {{2_business_days_from_now}} or {{3_business_days_from_now}} to discuss how [INSERT COMPANY] can help your organization?
+
+{{My.first_name}}
+Pain Point Sales Email Template
+Cold emails focused on a prospect’s pain point are immediately enticing. 
+
+The template below captures interest and secures a response by emphasizing the prospect’s need for more effective processes. 
+
+Hi {{first_name}},
+
+[PERSONALIZE]
+
+As you continue to strategize ways to improve this year, curious if your team has any technology or processes in place to be more effective when [INSERT COMPANY INFORMATION]?
+
+Asking because there are a lot of organizations that are investing in technology like [COMPANY] to better [INSERT VALUE PROP]. 
+
+Would you be opposed to learning how other [INSERT JOB TITLE] are utilizing this kind of technology?
+
+{{My.first_name}}
+Follow Up Email Template Examples
+With Salesloft, reps can maintain consistent follow-up and stay pleasantly persistent.
+
+Here are some examples of follow up email templates: 
+Subject Line: Your Company’s Name + Buyer’s Company Name 
+Hey [Name],
+
+Thank you for your time the other day. If you’d like to move forward with [proposal], I’d be happy to discuss our next steps. 
+
+Best, 
+
+[Signature]
+Subject Line: Enclosed is the info you requested.
+Hey [Name],
+
+Thank you so much for yesterday’s chat! It was great meeting you and your team. 
+
+Per your previous email, I’ve attached the requested info about [product/service]. Please let me know when you’ve reviewed the packet so we can discuss our next steps.
+
+If you have any questions, feel free to contact me at [phone number]. 
+
+Best, 
+
+[Signature]
+Subject Line: Did you want to learn more?
+Hi [Name],
+
+Have you had a chance to review the packet I sent you? If so, I’d be happy to touch base again about our proposal. 
+
+I’m available to discuss any remaining questions or concerns you may have. 
+
+We can schedule a quick chat at your earliest convenience. 
+
+Thanks, 
+
+[Signature]
+Subject Line: More about (Company Name).
+Hey [Name],
+
+I’m touching base about our last conversation. If you’ve had the chance to review the [attachment or webpage link] I forwarded, I’d love to hear your thoughts.
+
+What’s a good time to set up a quick call?
+
+Best, 
+
+[Email Signature]
+ 
+Subject Line: Fun facts you didn’t know about (Company Name).
+Hey [First Name],
+
+I sent you an email about [proposal] last week. I wanted to let you know we recently released a new feature that increases [function] by X%!  
+
+If you’d like to learn more, I’m open to a short call at your earliest convenience.
+
+Best,
+
+[Signature]
+ 
+Subject Line: Hoping to get in contact with you soon.
+Hey [Name],
+
+I’m sorry we haven’t been able to set up a meeting. Last we talked, you seem interested in [proposal]. 
+
+If that’s still the case, I’m free to talk this week. I’m sure you’re so busy, so I’m open to speaking outside of regular working hours as well.
+
+Let me know!
+
+[Signature]
+ 
+Last Modified By
+Stephanie Griffith, 4/12/2023 6:06 PM
+Title
+Create a Template
+URL Name
+Create-a-Template
+Email Guides
+Email
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

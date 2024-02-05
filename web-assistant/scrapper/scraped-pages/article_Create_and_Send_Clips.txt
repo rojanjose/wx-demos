@@ -1,0 +1,88 @@
+CONVERSATIONS
+Create and Send Clips in Conversations
+
+Dec 12, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Sharing Conversations recordings is a great way to spread information across the team; however, in our fast-paced world, most people prefer direct, quick information. 
+
+When reviewing recordings in Conversations, you can create and send Clips to share the most important, bite-sized nuggets from your recordings.
+
+The My Clips tab in Conversations contains a catalog of clips that you have created. Think of the My Clips tab as your clip library where you can view and manage previously created clips. 
+
+Things to Note: If you do not see the clip tool in the video player or the My Clips tab on the Conversations page, contact your success manager to enable the feature. 
+
+In this article, you will learn about the Conversations Clips, including: 
+Create a Clip
+Generate a Clip Link
+View My Clips
+My Clip Actions
+Create a Clip
+Clips may span from a fifteen-second blurb to a complete demo call that's shaved off meeting waiting time or small talk from the beginning or end. No matter how long it is, Clips allow you to share the most important moments from your meetings.
+
+To create a Clip in Conversations, follow these steps: 
+
+1. From the Recordings tab, select the recording you would like to Clip and go to the Recording Detail Page.
+ 
+  
+ 
+2. From the video player select the scissor icon to create a Clip. The Create Clip window will appear. 
+
+3. Create a clip by dragging the start and end points across the timeline to your desired start and end points. 
+
+4. Add a title for your Clip in the Clip Title section. 
+
+5. Your Clip timestamp will appear in the Start and End sections based on the start and end points you chose. You can edit this if necessary.
+
+6. Click Create Clip in the bottom right corner of the module. 
+
+7. You will receive an email once your clip is ready to share. The email will contain a link to view the clip that you may also share.
+Generate a Clip Link
+To create a link of your newly created clip to share, follow these steps: 
+From Conversations, select the My Clips tab.
+Locate the Clip you would like to obtain a shareable link for.
+Click the ellipses in the upper right corner of the tile, then click Copy Link. 
+A notification will appear informing you that the link has been copied. Now you can add the link to an email or message. 
+Things to Note: Anytime you share a recording from Salesloft, the recording link will use a Salesloft link shortener. This keeps your recipient from seeing the overwhelmingly long, full link, which could be multiple lines of text. The link shortener will start with https://links.salesloft.com/ followed by link identifying numbers and letters.
+ 
+ 
+ 
+ 
+View My Clips
+
+Once you have created a clip (or multiple clips), the clips will live under the My Clips tab on the Conversation Intelligence page. 
+
+Each clip contains the following: 
+
+Clip Card: Tile containing the Clip details. New Clips may appear with the message Clip still processing..., if the Clip has not been loaded yet. 
+Clip Actions: The ellipses icon opens more actions you may take with your Clips (see below).
+Clip Name: Title of the Clip. Click the Clip name to view the Clip. 
+Organizer: Name of user who organized the conversation. 
+Clip Details: Date and time the Clip was created. Duration of the Clip.
+Full Recording: Opens the Recording Detail Page to view the full recording. 
+View Details: Opens the Clip in a video player.
+My Clips Actions
+From the ellipses icon at the bottom right corner of the clip, you can access additional clip actions. The following actions are available: 
+Manage Playlists: Opens the Manage Playlists module where you can assign the clip to a previously created Playlist (see walkthrough below). 
+Copy Link: Saves the Clip link to your clipboard so you can paste the link into an email or other message. 
+Delete: Removes the Clip from your Salesloft record. 
+ 
+ 
+ 
+Last Modified By
+Raequel Sank, 12/12/2022 2:18 PM
+Title
+Create and Send Clips in Conversations
+URL Name
+Create-and-Send-Clips
+Conversations
+Salesloft Knowledge
+Conversations Pages
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

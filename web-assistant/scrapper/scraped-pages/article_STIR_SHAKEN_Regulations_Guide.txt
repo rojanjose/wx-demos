@@ -1,0 +1,73 @@
+ADMIN GUIDES
+STIR/SHAKEN Regulations Guide
+
+Nov 2, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+STIR/SHAKEN is a technology service that authenticates callers and determines if they are authorized to use the number to place the call. Literally speaking, STIR/SHAKEN are acronyms for "Secure Telephone Identity Revisited" (STIR) standards and the "Signature-based Handling of Asserted Information Using toKENs" (SHAKEN). 
+
+As of June 30th, 2021, the FCC has mandated all carriers recognize and implement the STIR/SHAKEN architecture within their networks to ensure the effectiveness of this new protocol. This means that calls traversing through interconnected phone networks have their caller ID approved, or  "signed," as legitimate by originating carriers. The number is also validated by other downstream carriers before reaching consumers.
+
+In this article, you will learn the basics about STIR/SHAKEN regulations and answers to some questions you may have, including: 
+
+Why does STIR/SHAKEN exist?
+STIR/SHAKEN Verification Levels
+How does STIR/SHAKEN work?
+How will STIR/SHAKEN impact Salesloft customers?
+
+ 
+
+Why does STIR/SHAKEN exist?
+
+STIR/SHAKEN exists to combat illegal caller ID spoofing using caller ID authentication. 
+
+A caller ID authentication system is critical to protecting Americans from scam spoofed robocalls. You may have experienced back-to-back phone calls from a number that is eerily similar to your own. Not only is it annoying, many people answer these calls and find themselves victims of a scam. STIR/SHAKEN aims to erode the ability of callers to illegally spoof a caller ID, which scammers use to trick Americans into answering their phones when they shouldn't.
+
+Additionally, this sort of regulation allows consumers and law enforcement to more readily identify the source of illegal robocalls and reduce their frequency and impact.
+
+Industry stakeholders are working to implement caller ID authentication, aka STIR/SHAKEN. Once implemented, it should greatly help the accuracy of caller ID information and provide consumers with helpful information for determining which calls are verified.
+
+STIR/SHAKEN Verification Levels
+
+STIR/SHAKEN requires companies to register their network. Salesloft teams can register as one unit inside the Salesloft platform. Check out the Manage Trust Hub in Salesloft to learn how to register for STIR/SHAKEN. 
+
+After your registration has been submitted and approved, you will receive a level of attestation, or proof, that your team has completed the registration. This is kind of like a grade for your STIR/SHAKEN registration. 
+
+There are 3 levels of verification or attestation, possible in STIR/SHAKEN:
+
+Full Attestation (highest level) “A”: Salesloft knows the identity of the caller and that the caller has the right to use the phone number as the calling number.
+Partial Attestation “B”: Salesloft knows the identity of the caller but Salesloft does not know if the caller has the right to use the phone number as the calling number
+Things to Note: International calls are given a “B” as STIR/SHAKEN is only for US based numbers.
+Gateway Attestation “C”: Salesloft does not recognize the identity of the caller nor the number in question but it is sourced from a trusted carrier gateway. 
+How does STIR/SHAKEN work?
+
+Once a number is registered for STIR/SHAKEN, inbound calls delivered to mobile devices from that number will receive a “Verified Call” on the Caller ID display if the call has received the highest “A” level attestation. This helps consumers quickly identify whether or not the call is being sourced from a verified and trusted source.
+
+In order to confirm your team has been registered for STIR/SHAKEN, please review your registration status from within our Application’s Trust Hub section. If you need to register your business for STIR/SHAKEN, you may proceed to submit the required information within that section.
+
+How will STIR/SHAKEN impact Salesloft customers?
+
+Since this is a government mandate, Salesloft asks that all customers get registered for STIR/SHAKEN as soon as possible. This ensures that your call traffic is compliant with FCC regulations. Ideally, this will help alleviate issues with spam labeling as the calls will be verified.
+
+Things to Note: While STIR/SHAKEN makes your business compliant with regulations, spam labels are still possible if your business uses poor (bot-like) call practices. For more information and practices to avoid Spam Labeling, check out our Call Deliverability Best Practices article. 
+
+Last Modified By
+Stephanie Griffith, 11/2/2021 8:23 PM
+Title
+STIR/SHAKEN Regulations Guide
+URL Name
+STIR-SHAKEN-Regulations-Guide
+Admin Guides
+Dialer + Messenger
+Dialer Management
+Salesloft Knowledge
+Advanced Dialer Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,164 @@
+DIALER + MESSENGER
+Messenger from Salesloft
+
+Aug 23, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Texting is part of most people's communication these days. So it makes sense to incorporate that into your sales process. Salesloft Messenger brings the power of SMS into your sales engagement platform.
+
+Sending SMS through Salesloft allows you to gain the benefits of reaching prospects through text messaging with your Salesloft number. 
+
+Users who have set up the Dialer and whose admins have the feature turned on will be able to send and receive text messages in Salesloft. 
+
+When Messenger is enabled, you will see the Messenger icon in the top navigation menu. The icon looks like a speech bubble with ellipses text inside it. The top navigation menu is consistent throughout the Salesloft platform, so you can access this icon no matter where you are within Salesloft. 
+
+Things to Note: The speech bubble icon may not show up until you have some messaging history.
+ 
+
+
+In this article, you will learn about Salesloft Messenger, including: 
+
+Important Things to Know About Messenger
+Enable Messenger
+How to Start a Text
+Inside The Messenger Pane
+When You Receive a Text
+Send an Outbound Message
+Messenger Activity Logging
+Important Things to Know About Messenger
+Messenger is only available to phone numbers in the United States and Canada that contain the +1 area code. 
+Access to Messenger requires purchase of a Talk and Text plan. Contact your Salesloft rep for more information.
+Carrier filtering is a possibility when using SMS.
+Messenger will respect both Do Not Contact or the more specific Restrict Messages contact restriction.
+Salesloft Messenger opts out when customers respond with a STOP message, and any message sent after that won't reach the receiver. 
+Sending SMS to landline numbers: If a text is sent to a number that is a landline, Messenger will attempt to send it to our carrier for delivery. Some carriers will convert the SMS into text-to-speech messages via voice calls.
+When a Person opts out from receiving text messages, their profile won't be automatically marked as Do Not Text. The user must do this manually.
+Currently, Messenger uses your assigned Salesloft number. If you are using a Passthrough number or LocalDial to contact customers, you may need to introduce yourself in the message you send. 
+Enable Messenger 
+
+In order to use Messenger, an admin must enable the feature in the Team Dialer Settings.
+
+ 
+
+Once Messenger has been enabled for your team, your admin will need to contact the Salesloft Support Team to enable the Messenger license for individual users and register the team for A2P 10DLC.
+
+How to Start a Text
+
+If this is your first time texting someone from Salesloft, you will begin that text from the Person Quick Actions . 
+
+Using the Quick Actions is a lot like going to a contact in your mobile phone, and selecting the "Message" option. 
+
+To start a text, follow these steps: 
+
+Go to the Person Profile page of the Person you would like to text. 
+
+From the Quick Actions menu, select the Message icon. The icon will show the mobile number that the text will be sent to. 
+
+The Messenger pane will open in the bottom right window of the page. 
+
+Send your message. 
+
+ 
+
+ 
+
+In order to send an outbound message to a Person, there must be a number in the Mobile field. Otherwise the Quick Action will be inactive.
+
+You can tell whether the action is inactive if the button is grayed out. You will not be able to select the icon. 
+
+Inside the Messenger Pane
+
+Whenever you access Messenger from the top navigation icon, the Quick Actions, or by clicking a notification, the Messenger pane will open in the bottom right corner of the Salesloft platform. From the Messenger pane, you may view and respond to any ongoing messages. 
+
+The Messenger pane is broken down into two sections:
+
+List of Message Histories
+
+On the left of the message window, you will see the full list of messages that you have sent/received. Select a message to view the conversation.
+
+The selected message will have a blue vertical bar on the far left of the tile containing the Person's name, time the last message was received, and a preview of the text.
+
+Conversation 
+
+The text conversation is on the right of the Messenger window.
+
+At the top of the section, you can see and link to Person information. This information includes:
+
+Person name and link to their profile
+
+Account name (if linked) and link to the Account profile
+
+Job title
+
+Salesforce icon: The icon will be highlighted in blue if the Person is linked to their Salesforce Lead or Contact record.
+
+The conversation will be represented by text bubbles that contain the message. You will see the following in the bubbles:
+
+Inbound: Gray bubbles are from the Person you are texting. They will contain the message and time the text was received.
+
+Outbound: Blue bubbles represent messages you have sent from Salesloft. The bubble will contain the message and the time you sent the text. 
+
+Finally, the bottom of the conversation section is where you can type and send your messages. 
+
+When You Receive a Text
+
+Inbound messages are matched to a Person in Salesloft based on the following criteria in order:
+
+Most recently contacted with that number 
+
+Most recently created with that number
+
+This keeps us from having to move to requiring phone numbers to be unique.
+
+Whenever new messages are sent to your number, you will be alerted by a notification badge on the Messenger icon. The red badge icon displays the number of unread messages.
+
+ 
+
+You will also see a Chrome notification for the inbound message. Select the notification to open the Messenger pane. 
+
+Send an Outbound Message
+
+Sending an SMS message from Salesloft is very similar to sending the same style message from your mobile phone. So, unless you are holding onto your Motorola RAZR or Nokia and using T9, you're probably pretty familiar with how to send a text. 
+
+Still, for the sake of being thorough, let's walk through the instructions of how to send an SMS message. 
+
+Things to Note:
+
+Message length is 1,600 characters.
+Currently no GIFs.
+Salesloft Messenger supports emojis, but they are not natively in the keyboard. Because Messenger functions via SMS, you can only send text and emojis (though you must use Unicode to send emojis). For instance, on a Mac hit command-control-space to access an emoji.
+​​​​​​​Images (MMS) can only be received in the Messenger panel, not sent. In addition, no part of the image (content, name) will be reflected within the Salesforce Activity. It only says <media attached>.
+
+​​​​​​​
+​​​​​​​To send an outbound message, follow these steps:
+
+Access the Messenger from the top nav, Quick Actions, or an inbound notification.
+
+Select the Person you want to text from the Messenger history (if applicable).
+
+Type your message in the text box.
+
+Click Send or hit Enter on your keyboard.
+
+Messenger Activity Logging
+
+Texts sent using Salesloft Messenger are logged in Salesloft on Person Activity Feed and in your CRM. To learn more these logs, check out the Salesforce Activity Logs or Dynamics Activity Logs article.
+
+Last Modified By
+Raequel Sank, 8/23/2023 7:10 PM
+Title
+Messenger from Salesloft
+URL Name
+Messenger-from-Salesloft
+Salesloft Knowledge
+Dialer + Messenger
+Messenger
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

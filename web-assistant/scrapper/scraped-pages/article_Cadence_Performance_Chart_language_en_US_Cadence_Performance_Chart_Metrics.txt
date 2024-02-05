@@ -1,0 +1,79 @@
+ANALYTICS + REPORTING
+Cadence Performance Chart
+
+Jul 17, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Cadence Performance Chart shows your Cadence metrics broken down by step. You can find the chart in the Cadence Step Analytics. 
+
+Each step type is indicated by a different color bar, while the height of the bar represents the metric count for the specific step.
+
+The Cadence Performance chart will help answer the following questions:
+What is driving the change in this cadence’s results?
+Which step or part of my cadence is having the most impact?
+Which email step gets the most replies?
+Where are my successes occurring?
+Which step can we attribute a successful outcome to?
+How many steps, generally, does it take to get to an outcome?
+Things to Note: The Cadence Performance Chart defaults to show Cadence steps that have been marked as a Success. If your team does not use the success button, select the drop down menu and choose a different metric to populate data.
+
+In this article, you will learn about the Cadence Performance chart, including: 
+The Cadence Performance Chart
+Cadence Performance Chart Metrics
+Understanding the Cadence Performance Chart
+The Cadence Performance Chart
+The Cadence Performance Chart contains the following details from left to right and then the top of the tile working our way down:
+Cadence performance: Name of the chart
+By (Metric): Drop down to select the metric which will alter the chart view. The chart is set to Success by default. 
+Learn More: Takes you to this Knowledge Base article (you are already here!)
+Y-axis: Number of times the interactions occurred
+X-axis: Cadence Steps by Number
+Legend: Each step type and the color that represents that step type in the Chart. The step types include the following: 
+Emails
+Calls
+Integration
+Other
+ 
+Cadence Performance Chart Metrics
+The Cadence Performance Chart shows how many steps fit a certain metric criteria. You can select the different criteria from the drop down in the chart title. The available metrics include:
+Successes (default): Shows when Success was marked on the Cadence based on the last action, such as clicking the Success button after a completed call step.
+Opened Emails
+Clicked Emails
+Replied Emails
+Connected Calls (based on standard connected call disposition)
+Skipped Steps
+Overdue Steps
+Completed Steps
+Opportunities
+Meetings Booked
+ 
+
+ 
+Each bar represents a step in your Cadence. They will appear in different colors for the different step types. Hover over a bar to see specific details about the step. While bars will only appear for the steps that have data, you can hover, over the space of any step and see step stats. The stats include the follow: 
+Step Name
+Day of the Step: Step Number - Step Type
+Number of times the selected Metric occurred 
+If there are multiple variants on a step, they will not display on the chart, you can learn more information about individual variants in the Cadence Step Analytics Table. 
+Understand the Cadence Performance Chart
+The Cadence Performance Chart will show you the level of engagement you are getting out of your Cadence steps. There are a couple of things to keep in mind when using this chart: 
+No engagement: If you have completed Cadence steps, but aren't seeing any bars in your Cadence chart, it means People are not engaging with your Cadence material. It may be time to try a new method. 
+Look at the Cadence big picture, and don’t only consider what happens on a specific step: Your Cadence is a process. That being said, the steps that come before and after a step you are reviewing are just as important. For example, you may find that more Connected Calls occur after an email. This may suggests that this multi-touch pattern is a practice that works for you. 
+Delete Steps Remove Data: If you delete a step, the step and all its data are removed from the report. That data is still available in the aggregate view on the Cadences report. Our best practice here is not to delete Cadence steps. If you want to try a different process, we recommend copying the Cadence and editing within the new Cadence. 
+ 
+Last Modified By
+Briana Morgan, 7/17/2023 1:55 PM
+Title
+Cadence Performance Chart
+URL Name
+Cadence-Performance-Chart
+Salesloft Knowledge
+Analytics Reports
+Analytics + Reporting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

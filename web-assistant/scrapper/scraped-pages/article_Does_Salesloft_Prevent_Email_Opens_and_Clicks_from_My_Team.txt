@@ -1,0 +1,29 @@
+EMAIL
+Does Salesloft Prevent Email Opens and Clicks from My Team?
+
+Apr 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Reliable open tracking means you know when a prospect or customer views or clicks an email and can trust that internal or self views are not part of the calculation.
+
+Salesloft has included the following measures to ensure that only prospect and customer opens are calculated. Please note, the preventative measure is listed in bold. The type of user the measure applies is noted in the parenthesis.
+Dynamically Block Opens and Clicks by IP address (Non-Gmail Salesloft Admins/Users): Salesloft will dynamically collect user’s IP addresses every 5-9 minutes. Based on the captured IP address, Salesloft will block opens and clicks coming from these IP addresses. This means that the IPs of members of your Salesloft team will automatically register and opens and clicks will be blocked within the team. 
+Salesloft Chrome Extension (Gmail Salesloft Admins/Users): Google routes all images in an email through proxy servers making it impossible for Salesloft to detect the IP address from which the tracking pixel is loaded. Therefore, Salesloft cannot block self-views when viewing an email in Gmail without the assistance of the Google Chrome Extension. With the Chrome Extension, clicks and views made from yourself and your colleagues in Gmail will still be blocked.
+Block Opens by IP range (People without a Salesloft License): If your company uses Outlook/Office365, your Salesloft admin can block opens/ views by IP range in the Salesloft settings. This is a static list that can block views from people within your organization if they do not have a Salesloft license.  
+Last Modified By
+Raequel Sank, 4/28/2023 2:46 PM
+Title
+Does Salesloft Prevent Email Opens and Clicks from My Team?
+URL Name
+Does-Salesloft-Prevent-Email-Opens-and-Clicks-from-My-Team
+Email
+Salesloft Knowledge
+Email FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

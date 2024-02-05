@@ -1,0 +1,62 @@
+CADENCES + TASKS
+Launch Your Cadence
+
+Sep 17, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+When you are ready to begin executing your Cadence steps, there are a few ways to begin, or launch, your Cadence from within Salesloft.
+
+Launching a Cadence will open the Cadence Side Panel where you can actually Run Cadence Steps.
+
+In this article, you will learn where you can start your Cadence steps in Salesloft, including:
+Cadences Panel on the Home Dashboard
+Run A Cadence (Rocket Ship Icon)
+From a Person’s Profile Page
+Cadences Panel on the Home Dashboard
+The Home Dashboard Cadences Panel shows the Cadences that have activity to complete.
+
+To run a step from the Cadences panel, follow these instructions: 
+Go to the Cadences panel in the bottom right of your Dashboard, aka the Salesloft home page. 
+Find the Cadence and step type you want to take action on.
+Next to the step name, you will see a blue Run Step button. Click Run Step.
+The Cadence side panel will expand on the right side of your window. You will be re-directed to the profile page of the first person listed in the Cadence step will and prompted to take your Cadence step action.
+ 
+Run A Cadence (Rocket Ship Icon)  
+Click the Rocket ship icon in the upper right corner or the Salesloft navigation bar to open your Cadence side panel.
+
+This icon stays visible throughout the Cadence product. So, no matter what page you are viewing, you can quickly begin your Cadence steps by clicking this icon. 
+
+Things to Note: The Rocket Ship icon is not currently visible in the Deals product.
+
+To launch a Cadence using the Rocket Ship icon, follow these steps: 
+In the upper right corner of Salesloft, click the Rocket Ship Icon to Run a Cadence.
+A list of open Cadence actions will appear. Click Run Step next to the action you want to take.  
+ 
+From a Person’s Profile Page
+You can launch Cadences from any profile view in Salesloft. The Person Profile and Account Profile pages both show Cadence information in the following locations:
+The upcoming activities found in the Activity Feed
+Person Profile Activity Feed
+Account Profile Activity Feed
+Cadences panel: Click the Day/Step link of the Next listed Cadence. 
+ 
+To launch a Cadence from the Activity Person Profile page, follow these steps: 
+Go to a Person’s Profile Page in Salesloft.
+If the person is currently on a Cadence step, you will see it listed the Cadence listed in the Activity Feed as an Upcoming Action.
+The step will be listed as "the day: step number: step type". Click Run Step to open the Cadence side panel.
+Last Modified By
+Stephanie Griffith, 9/17/2021 3:08 PM
+Title
+Launch Your Cadence
+URL Name
+Launch-Your-Cadence
+Salesloft Knowledge
+Cadences + Tasks
+Run A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

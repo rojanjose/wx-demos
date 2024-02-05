@@ -1,0 +1,236 @@
+FORECAST
+Forecast Hierarchy Table
+
+Dec 18, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Forecast Hierarchy table is a spreadsheet-like table view of your team that features forecasting and the forecast rollup.
+
+This table includes a list of users according to the hierarchy structure setup in Salesforce. Within the table, it will show each user’s corresponding numbers as it relates to the Forecast. These numbers will include their quota/goal, their forecast, and any rollup metric your team cares about (i.e. Deals in Commit Forecast Category). This view also does the job of rolling up your data to a manager or a sales leader to have an aggregate view of their team’s and their own forecast metrics.   
+
+Things to Note: Governance for the Forecast Hierarchy is managed with the View Full Forecast Hierarchy permission. This permission is enabled for Salesloft admins by default. To include the permission for other roles, edit custom role(s) to include the permission:
+
+When the role permission is assigned to a role, the user can see all users in the hierarchy of Forecast for whatever segment(s) they have access to.
+When the role permission is not assigned for a role, the user will only be able to see hierarchy data themselves and any direct/indirect reports that roll up to them.
+
+In this article, you will learn about the Forecast Hierarchy table, including:
+
+How Salesloft Determines Forecast Hierarchy
+Forecast Hierarchy Table Breakdown
+Drill Down into Hierarchy Table Numbers
+Expanded Opportunities View
+
+ 
+
+ 
+
+How Salesloft Determines Your Forecast Hierarchy
+
+The Forecast Hierarchy table displays the rollup metrics attributed to each member. These metrics will appear in the Hierarchy table based on the designated hierarchy of your team.
+
+The table displays users according to the reporting hierarchy structure setup in Salesforce. Your admins have the ability to manage which users appear or do not appear in this hierarchy as you may have some users in your hierarchy who have nothing to do with the Forecast process. This can be managed here in your Forecast Hierarchy Settings.
+
+
+The order and hierarchy assignments in the Salesloft Forecast Hierarchy table occur based on the following settings being properly configured:
+
+Your team's Salesloft sync user (CRM Main User Connector) must have permission to see all the User objects in Salesforce.
+A Salesforce admin must define the Forecast Hierarchy inside your team's Salesforce instance.
+The Manager Field on the User object in Salesforce is updated and accurately reflects the manager-direct report relationships for each user on your team. 
+To configure the Manager field in Salesforce so that it reflects in Salesloft, contact your Salesforce admin.
+
+ 
+
+ 
+
+Forecast Hierarchy Table Breakdown
+
+The Forecast Hierarchy table lists your team’s opportunities within a given close date period. 
+
+Next to each user in the table, is a set of rollup metrics and numbers. These metrics and numbers can be customized, changed in order, and hidden if not valuable. Some examples of metrics are Goal, Forecast, Forecast Categories, Stage, etc.  Metrics are based on the Forecast Rollup Metrics Settings. Admins can customize which metrics appear in their Forecast view on the page by clicking on the Manage Columns button above the table. 
+
+ 
+
+
+For each metric in the Forecast Hierarchy table it is pulling the associated data for each metric based on the Close Date Selection filter. Teams can choose to filter the page to This Month, Next Month, This Quarter, Next Quarter, and This Fiscal Year.  
+
+ 
+
+ 
+
+By default, the Forecast Hierarchy table shows your team’s forecast metrics and opportunities for the current month. Use the Forecast Dashboard Filters to change the metrics that appear in this table.
+
+ 
+
+The table focuses on two sets of data: 
+
+Users: the list of team members displayed on the table. 
+Hierarchy Rollup Metrics: The headers in the Forecast Hierarchy table align with the items in the Team Rollup panel and the metrics associated with each team member. 
+
+ 
+
+Users Column
+
+The Users column lists your team’s members. The team members shown in the list include users who directly and indirectly report to you. If you are an individual contributor with no direct reports, you will only see yourself in the table. 
+
+ 
+
+If you have direct and/or indirect reports, you will see a dropdown beside the names of your organization’s sales leaders. You can click the dropdown to see opportunities owned by those who directly report to the sales leaders in your organization.
+
+ 
+
+Let’s look at a couple of examples of how you'll view the Hierarchy table based on your role:
+
+When the Vice President of Sales reviews the Forecast Hierarchy table, they will be able to see the opportunities owned by the Sales Managers who report to them, as well as the Account Executives that report to each sales manager. 
+When a Sales Rep is viewing the Forecast Hierarchy table, they will only see their own metrics because they don’t have direct reports. They can show their report to a manager during a Deal review and zero in on areas of concern. 
+
+ 
+
+ 
+
+Hierarchy Rollup Metrics
+
+The Forecast Hierarchy table lists forecast-related metrics that pertain to each user. Each column head and associated metric are decided based on the Forecast Rollup Metrics Settings.
+
+ 
+
+Each amount in a team leader’s column in the table (except Goal and Forecast) equals the total of the amount listed in each of their direct report’s cells. 
+
+ 
+
+Inside the table, the cells beneath each table header contain an amount that you can click to open the Cell Details View. The amounts will show the currency related to the opportunity data. 
+
+ 
+
+Things to Note:
+
+The Goals cell is not clickable and will not open a cell details view.
+If your team uses Multi-Currency in Deals, the data in the hierarchy table will show the ISO code and the corporate currency amounts. 
+
+ 
+
+ 
+
+If your team does not have AI Forecast, clicking on any value in the Weighted Pipeline column will pop open a flyout panel. This flyout displays the rollup metrics of the Weighted Pipeline. Here, each stage is given a percentage that represents the probability of closing.
+
+ 
+
+
+Things to Note:
+
+The table view may appear different based on your Salesloft permissions and your CRM Manager settings. Users with the View All Forecasting Permission enabled and who are labeled as a Manager in their CRM will see a list of users. Individual contributors may only see their own data in the Hierarchy table. In this article, we will primarily explain the manager view in which your team members are visible. 
+You can drill into eight (8) levels within the hierarchy table.
+
+ 
+
+ 
+
+Drill Down Into Hierarchy Table Numbers
+
+The Hierarchy Table offers a lot of data in one view. However, you may find yourself wondering what opportunities contributed to certain amounts. 
+
+ 
+
+When that question comes up, you can click an individual cell in the Forecast Hierarchy table to open the Flyout which will breakdown the Forecast values that make up the number in the table.
+
+ 
+
+Things to Note: You cannot click cells within the Goals column as there is no underlying data. Goals are entirely determined from the Goal Management Settings.
+
+There are four different types of metrics that appear within the table. Below we will show what each looks like in the flyout when being clicked on:
+
+ 
+
+Goal Metric: You cannot click on values of Goal as there is no underlying data.
+
+ 
+
+ 
+
+You cannot click cells within the Goals column as there is no underlying data. Goals are entirely determined from the Goal Management Settings.
+
+ 
+
+Forecast Type Metric: These are user-submitted Forecasts that display within the table. Think of these as the human’s typed in Forecast number. 
+ 
+
+ 
+
+When clicking on a Forecast Type metric in the table the flyout will show the user’s submitted Forecast and also the deals included and excluded from this forecast. This data is for the user’s row they clicked on in the table. Included and excluded deals are managed via the Scenario Planning feature.
+
+ 
+
+ 
+
+General Rollup Metric: This is a metric that adds up all the deals that meet the criteria. For example, a rollup metric could be all deals in the Commit Forecast Category. 
+
+ 
+
+ 
+
+When clicking on any generic rollup metric, it will show the corresponding deals that make up the number. So in the example below, the user clicked on $926,000 on the Proposal Rollup Metric. This will list out the deals that make up the $926,000. It will show the deal name, forecasts the deal is included in, any recent amount changes, and the amount on the deal. 
+ 
+
+ 
+
+Weighted Pipeline/AI Forecast: These are Salesloft standard metrics. Your team may have one or the other depending on your implementation. 
+
+Weighted Pipeline: Each stage in a deal is given a percentage that represents its probability of closing. We calculate the weighted value by multiplying this probability and the opportunity amount. For example, if the opportunity amount is $30,000, and the probability is 30%, then the weighted value is $9,000. Add up this number for all deals in the funnel, and you have the weighted pipeline.
+
+The AI Forecast number is generated by adding up the Closed Won Deals + AI Weighted Pipeline for each user. This is a data science model our team has built in-house. 
+
+ 
+
+ 
+
+When clicking on the AI Forecast or Weighted Pipeline Metrics, the flyout will show the list of deals that make up the prediction. It will give some explainability, show the deals that make it up, and then a likelihood to close. This likelihood to close is driven off the probability set on the deal. For weighted pipeline this probability is driven off of the stage and for the AI Forecast each deal gets a unique probability depending on the factors on the deal. 
+ 
+
+ 
+
+ 
+
+Expanded Opportunities View
+
+The Expand Opportunities option inside the Flyout redirects you to a pipeline list-view of the opportunities presented in the Cell Details.
+
+ 
+
+The Expanded View may look familiar if you are already accustomed to the Pipeline View within Deals. Similar to the Pipeline View, the expanded view allows you to quickly reference qualitative opportunity details like the opportunity stage or deal gaps, make in-line edits to values on the opportunity, and click on the opportunity in Salesforce or Salesloft.
+
+ 
+
+On the left side of the screen, you will see a minimized version of the Hierarchy Table, including a list of users in the first column listed. By referencing team member amounts in this minimized table, you can decide about the opportunities you are viewing. 
+
+ 
+
+Once you are done looking at the Expanded Opportunities list, select Minimize Opportunities or the X in the upper right corner of the view to return to the Forecast Dashboard Overview.
+
+ 
+
+ 
+
+ 
+
+
+ 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 12/18/2023 5:17 PM
+Title
+Forecast Hierarchy Table
+URL Name
+Forecast-Hierarchy-Table
+What's New
+Forecast
+Forecast Dashboard
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,97 @@
+EMAIL
+SMTP/IMAP Email Connection
+
+Mar 24, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+SMTP (Simple Mail Transfer Protocol) and IMAP (Internet Message Access Protocol) configurations are settings Salesloft uses to send emails on your behalf and check replies.
+
+SMTP applies to outgoing mail settings (i.e. sends), while IMAP is used for incoming settings (i.e.replies). 
+
+In this article, you will find the answers to common errors you may encounter with SMTP and IMAP configurations, along with some tips and resources to help you troubleshoot, including:
+How Do I Find My SMTP and IMAP Settings?
+Which Salesloft IP Addresses Should I Whitelist?
+Invalid Server or Port
+[Error Message] Email Client Not Configured
+[Error Message] Problem with IMAP Server
+[Error Message] This IMAP Server is Not Supported
+How Do I Find My SMTP and IMAP Settings?
+SMTP and IMAP are email protocols that allow applications, like Salesloft, to securely send email and track the replies to those emails through your Exchange mail server.  
+
+If you haven't set up an SMTP/IMAP connection before, your company's IT representative is probably the best person to provide you with the information you'll need to configure Cadence to send through your Exchange account.
+
+Below is a list of technical requirements that will help your IT admin get you the necessary configuration information and, if necessary, open the proper ports on your mail server.
+
+What information will be helpful for my IT admin?
+
+Printable version of these requirements
+SMTP
+Host name for the SMTP Server
+Login name & password for the user's Exchange account.
+An open SSL SMTP Port
+* Typical port numbers: 587 or 25 (with STARTTLS)  
+IMAP
+Host name for the IMAP Server
+Login name & password for the user's account.
+An open SSL IMAP Port
+* Typical port number: 993 or 143
+UIDPLUS
+Cadence requires “UIDPLUS” to be enabled on your mail server for it’s core functionality.  Please verify with your IT team that it is enabled. You will receive a “IMAP Server is not supported” error if it is not enabled.
+
+Please note: you must be using Exchange 2010 SP1 or newer. Exchange 2003, 2007 and 2010 do not support the IMAP UIDPLUS extension and therefore cannot integrate with Salesloft.
+Which Salesloft IP Addresses Should I Whitelist?
+
+If your team blocks inbound communication to your SMTP or Exchange Server, you (or your IT) need to whitelist Salesloft IP addresses in order to connect.
+
+Things to Note: Whitelisting Salesloft IP addresses is primarily for any customers with Exchange / SMTP Servers that are behind a firewall that doesn’t allow outside connection.
+
+The table below lists public IP addresses for IMAP/SMTP email integration and API access. Reach out to your Salesloft customer service representative to learn which region your team is in. Based on your region, whitelist the following IP addresses:
+ 
+
+US1	US2	US3	US4	EU1
+54.163.237.178	3.83.196.94	35.184.122.213	34.85.255.113	34.141.56.47
+54.163.244.247	54.157.223.117	35.184.14.189	35.245.243.55	34.107.108.77
+54.243.159.114	54.162.183.19	34.122.59.142	35.188.230.178	34.141.48.141
+54.243.159.120	34.194.201.131	35.238.47.176	34.85.199.86	34.141.112.65
+54.243.159.132	34.239.231.177	34.72.181.122	34.145.228.251	34.141.87.177
+54.243.159.165	52.206.12.68	35.222.231.218	34.86.18.154	35.198.78.18
+54.83.32.223	 	34.123.195.217	 	34.89.131.63
+54.83.32.240	 	34.69.86.124	 	34.107.85.19
+54.83.33.2	 	35.223.7.9	 	34.107.73.182
+54.83.33.82	 	34.68.73.86	 	34.141.29.152
+54.83.33.106	 	35.226.90.187	 	34.89.146.49
+ 	 	34.123.60.84	 	34.89.194.249
+ 
+[Error Message] Invalid Server or Port
+The port numbers provided to Salesloft are incorrect.
+
+Verify your port numbers with your IT administrator.
+[Error Message] Email Client Not Configured
+An error occurred while sending your email batch. This is usually due to a temporary connection issue with your mail server.
+
+To solve the connection issue, re-verify and save your SMPT/IMAP protocols by navigating to your Personal Settings then Emails. Once your protocols are re-verified, you can attempt your email send again.
+[Error Message] Problem with IMAP Server
+Your company mail server is not configured properly to integrate with Salesloft.
+
+Confirm with your IT administrator that your email server is configured correctly. These settings are found in the Email tab of your Personal Settings.
+[Error Message] This IMAP Server is Not Supported
+UIDPLUS is not enabled or advertised as available. UIDPLUS is required for Salesloft functionality.
+
+Ask your IT administrator to verify you are on the minimum version of Exchange 2013 and enable the UIDPLUS extension in order to be compatible with Salesloft.
+Last Modified By
+Stephanie Griffith, 3/24/2023 4:28 PM
+Title
+SMTP/IMAP Email Connection
+URL Name
+SMTP-IMAP-email
+Email
+Salesloft Knowledge
+Email FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

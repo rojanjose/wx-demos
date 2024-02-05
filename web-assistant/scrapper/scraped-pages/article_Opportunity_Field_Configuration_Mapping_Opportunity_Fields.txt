@@ -1,0 +1,109 @@
+ADMIN GUIDES
+Opportunity Field Configuration
+
+Dec 21, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft gives you the ability to view, edit, and access Opportunities from the Salesloft platform. 
+
+By configuring Opportunity fields, you assign the information that is shared between CRM Opportunities and Salesloft.
+
+Things to Note: 
+
+In order to create and map any standard or custom Opportunity fields between Salesloft and the CRM, each user Salesloft instance must be connected to their CRM.
+Opportunities only include standard CRM fields. It is not possible to create custom fields that aren’t mapped to the CRM. 
+Opportunity fields are only available for users connected to Salesforce or Dynamics.
+
+
+In this article, we will go over Opportunity field configuration, including:
+
+List of Available Opportunity Fields
+Mapping Opportunity Fields
+Custom Opportunity Fields 
+SLU: What to Map and Why: Opportunity Fields (Video)
+
+Psst, new to Salesloft and want to make mapping easier? Start by Auto-Mapping Standard Salesforce Fields or Auto-Mapping Standard Dynamics Fields!
+
+ 
+
+List of Available Opportunity Fields
+
+Salesloft has a select number of Opportunity fields that may be mapped to standard CRM Opportunity fields. 
+
+The following list breaks down those available fields: 
+ 
+
+Salesloft Field Name	CRM API Name	CRM Field Type	Sync Direction
+Account CRM ID	AccountId	reference	SL ← CRM
+Amount	Amount	—	SL ← CRM
+CloseDate	CloseDate	date	SL ← CRM
+Created by CRM Id	CreatedById	reference	SL ← CRM
+Created Date	CreatedDate	datetime	SL ← CRM
+Is Won	—	—	—
+Last Updated Date	LastModifiedDate	datetime	SL ← CRM
+Name	Name	string	SL ← CRM
+Opportunity Type	Type	picklist	SL ← CRM
+Owner CRM ID	OwnerId	reference	SL ← CRM
+Probability	—	—	—
+Stage	StageName	picklist	SL ⇆ CRM
+
+ 
+
+Mapping Opportunity Fields
+
+To set your Opportunity field configuration to standard CRM Opportunity fields, follow these steps:
+
+Navigate to the Opportunity Fields tab by accessing your Team Settings, selecting Field Configuration, and clicking the Opportunity Fields tab.
+Find the Salesloft field you would like to map and select the dropdown arrow on the same line.
+Click Edit Field.
+Under CRM Opportunity, check the box next to Map to CRM Opportunity.
+Select the Opportunity Field Name. Once the Field Name is selected, the CRM Opportunity API Name and Field Type will populate.
+Choose the Direction for the data sync.
+Click Save.
+
+ 
+
+Custom Opportunity Fields
+
+Additional custom fields can be added and mapped from the Field Configuration page and imported from the CRM Opportunity object, as fields that will be visible in the Opportunities panel. You may select to have read-only or use bi-directional fields. 
+
+To set custom Opportunity fields, follow these steps: 
+
+Navigate to the Opportunity Fields tab by accessing your Team Settings, selecting Field Configuration, and clicking the Opportunity Fields tab.
+On the right side of your screen, click the + Create Custom Field button. 
+Enter the Salesloft Field Name.
+Things to Note: To create a custom field in Salesloft, the name must meet the following criteria:
+Field only accepts use A-Z characters, dashes, underscores, and numbers 0-9
+Name cannot start with a dash, underscore, or digit (must start with letter)
+Select the Salesloft Field Type from one of the following options:
+Date: Will display a date picker on the Opportunity panel within the Person and Account pages.
+Text: Will display a text field that users can type into.
+Under CRM Opportunity, choose the CRM Opportunity Field Name you will map to. Once the Field Name is selected, the CRM Opportunity API Name and Field Type will populate.
+Select the Direction.
+Click Save. 
+
+ 
+
+SLU: What to Map and Why: Opportunity Fields (Video)
+
+Want to know more about Opportunity field mapping, but prefer a video format? Visit Salesloft University to see the What to Map and Why: Opportunity Fields video tutorial. 
+
+ 
+Last Modified By
+Stephanie Griffith, 12/21/2023 3:06 PM
+Title
+Opportunity Field Configuration
+URL Name
+Opportunity-Field-Configuration
+Salesloft Knowledge
+Admin Guides
+Field Configuration
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

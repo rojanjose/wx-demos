@@ -1,0 +1,93 @@
+ADMIN GUIDES
+Manage Operational Cadences
+
+Aug 18, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Operational Cadences are Team Cadences that allow certain users to communicate with People who have contact restrictions.
+
+Contact restrictions may be in place for a number of reasons. Perhaps a customer opted out of marketing communication and was marked as Do Not Contact in your CRM. When your CRM syncs to Salesloft, that restriction will be synced as well, blocking you from nurturing ongoing customer relationships.
+
+As an admin, you can enable the Operational Cadences setting. This setting allows you to create Operational Cadences and give certain users the permission to communicate with users who have contact restrictions.
+
+In this article, we will walk through the key components of Operational Cadences, including:
+
+Enabling the Operational Cadences Setting
+Adding the Operational Cadence Permission to Roles
+Creating an Operational Cadence
+Enabling the Operational Cadences Setting
+
+The Operational Cadences setting allows admins to create Operational Cadences, make existing Cadences operational, and give users the Operational Cadences permission.
+
+Things to Note:
+
+Once the Operational Cadences setting is turned on, the setting can not be disabled until all operational cadences have been archived.
+We recommend consulting with your company’s legal team before enabling the Operational Cadences setting. 
+
+To enable the Operational Cadence setting, follow these steps:
+Navigate to your team settings.
+Using the left menu panel, select Cadences and Tasks (located beneath the Data Settings). 
+Click the Operational Cadences toggle to turn the setting on. 
+Things to Note: When the toggle area is blue, the setting is on.
+ 
+
+ 
+
+Adding the Operational Cadence Permission to Roles
+
+When the Operational Cadences setting is enabled, the Operational Cadences permission becomes available. With this permission, admins can create new roles with the Operational Cadence permission or add the permission to existing roles.
+
+To add the Operational Cadence permission to roles, follow these steps:
+
+Navigate to your Team Settings. 
+Select Roles and Permissions under Administration. 
+Click the Permissions tab. 
+Scroll to the Cadences permission and click the dropdown. 
+Check the box under the roles you would like to add the Operational Cadences permission to. 
+
+Things to Note: By default, all teams have two roles: Admin and User. Permissions assigned to these roles cannot be edited. If you would like to edit one of the default roles, create a new role and adjust the permissions. 
+ 
+
+ 
+To learn more about Cadence permissions, check out our Complete List of Available Permissions article. 
+Creating an Operational Cadence
+
+As an admin or user with the operational cadence permission, you can create team operational cadences or apply the setting to existing team settings.
+
+To do this, create a new cadence or navigate to an existing team cadence that you would like to make operational.
+
+To create a new Cadence, check out the Create a Cadence article.
+
+Things to Note: 
+
+Once a Cadence is saved with the operational setting, it cannot be reverted to a non-Operational Cadence.
+The Operational Cadence setting can not be disabled until all Operational Cadences are archived. 
+Multi-touch steps and integration steps are allowed on operational cadences; however, if the multi-touch step includes a call step and the person is marked Do Not Call (DNC), the call steps will be skipped. 
+When a Cadence becomes operational, the original Cadence owner remains the same.
+
+
+To make an existing Cadence operational, follow these steps:
+Navigate to the Team Cadence you would like to make operational. 
+Things to Note: Operational Cadences are only available for Team Cadences, however, you can turn a Personal Cadence into a Team Cadence that can then become operational. 
+Check the box labeled Operational: Allow Contact Restriction Override.
+Save the Cadence.
+ 
+Last Modified By
+Raequel Sank, 8/18/2023 4:13 PM
+Title
+Manage Operational Cadences
+URL Name
+Manage-Operational-Cadences
+Salesloft Knowledge
+Cadences + Tasks
+Admin Guides
+Manage A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

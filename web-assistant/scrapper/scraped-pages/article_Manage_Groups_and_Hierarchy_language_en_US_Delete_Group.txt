@@ -1,0 +1,136 @@
+ADMIN GUIDES
+Manage Groups and Hierarchy
+
+Dec 5, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Group Hierarchies allow you to structure your Salesloft users into teams.
+
+Similar to an org chart, a group hierarchy creates structure for your Salesloft team based on the positions or job relationships.
+
+By splitting your team into groups, you can set which content is visible to each group and view metrics based on a particular group's activity.
+
+Admins can create groups and adjust group placement in the hierarchy by setting each group as a parent or child. The parent/child group relationships are shown in a tree diagram on the Group Settings page. This is where admins can edit their hierarchy and rename groups if needed.
+
+In this article, you will learn how to manage groups, including:
+Setting Up Group Hierarchy
+Create New Groups
+Create Child Groups
+Search Groups Dropdown
+Groups Users Lists
+Edit Groups
+Delete a Group
+Setting Up Group Hierarchy  
+Group hierarchy can be managed from the Groups Settings page in Team Settings.
+
+Things to Note: Configuring group hierarchy structure requires the Team Management permission.
+
+Setting up group hierarchy, team content assignment, and analytics filtering is an easy, 3-step process. Follow the links in to the step below to set up group hierarchy:
+Establishing/ creating the group hierarchy.
+Assign content.
+Selecting the team content filtering level appropriate for the organization's needs.
+For Salesloft Teams with Previous Groups
+For Salesloft teams that had created groups prior to the release of Group Hierarchies, any groups that were established pre-rollout will be preserved and groups will present as a flat organization. Hierarchy MUST be created.
+
+An admin will need to go to the Groups Settings page to structure their team’s group hierarchy. From there, go through your team content and assign it to specific groups. Content that is assigned to a parent group will be assigned to the child groups by default. However, you can deselect child groups if you don't want to assign the parent content to that child group . 
+ 
+Create New Groups
+Group Hierarchies list groups into parent and child groups. If a user is added to a parent group, they will see content and data that is assigned to the parent and/or associated child groups.
+
+Think of the parent groups as the foundation where your child groups will form. For example, if your groups are set based on an organizational structure, your parent groups would be the departments: Sales, Marketing, Customer Success.
+
+The child groups would be the teams within those departments. Scroll down to learn more about child groups.
+
+If you are just getting started with groups, you will want to create a new group. Once one group is created you can add different parent groups that share the same hierarchy level or you can add child groups below the parent group.
+
+To create a new parent group, follow these steps:
+Go to the Groups page under your Team Settings.
+Click the Create New Group button at the top right of the groups table. If this is your first time creating a group, the table will not be visible yet. Click Create a Group. The Create Group module will appear.
+Specify the Group Name.
+Click Create.
+The new group will appear as a root group.
+Once the group is created, you can assign users to that group in the User Settings.
+ 
+ 
+Create Child Group
+Child groups fall under the overarching parent group categories. If a user is assigned to a child group, they will only see content assigned to that child group.
+
+Continuing with our parent group example, if the parent groups are the departments, the child groups would be the individual teams within that department. So the Sales parent group may contain north, south, east, and west as children groups, representing the regional sales teams.
+
+Things to Note: There are no limits to the number of subgroups an admin can create. Create as many as you need to mimic your organizational structure.
+
+There are two ways to create a child group:
+From the Create New Group button.
+From the groups hierarchy tree.
+To create a child group by clicking the Create New Group button, follow these steps:
+Go to the Groups page under your Team Settings.
+Click the Create New Group button at the top right of the groups table. If this is your first time creating a group, the table will not be visible yet. Click Create a Group. The Create Group module will appear.
+Specify the Group Name.
+Choose a Group Parent.
+Click Create. The new group will appear below the selected parent group.
+ 
+To create a child group from the parent group, follow these steps:
+Go to the Groups page under your Team Settings.
+In the hierarchy tree, find the intended parent group. Click the ellipsis to the right of the group name. A menu will appear.
+Select the Create Child Group option. The Create Group module will appear.
+Specify the Group Name.
+Choose a Group Parent.
+Click Create. The new group will appear below the selected parent group.
+ 
+ 
+Search Groups Dropdown
+As you add more groups and child groups your list of groups will obviously get longer. Once that list is too long to see in a single view, use the groups search bar to find specific groups. 
+
+The search bar is located at the top of the groups list. To search, you will need to enter at least one character into the search bar and hit Enter on your keyboard. After you hit Enter, the list will only show groups that fit your search results. 
+ 
+Groups Users Lists
+The Groups hierarchy list shows all of the available groups. By default, you will see the parent groups. You can the option to expand or collapse all visible groups.
+
+In addition to a list of groups, you can see the number of users that are in the group. The number of users in a group will be identified next the user icon. There are two possible icons you may see to designate the number of users in a group: 
+Users in this Group: This icon will appear next to all group listings. If a group does not have any members, the number of users will be zero (0).
+Users in this Group and Child Groups: This icon will only appear on parent groups. It represents the number of users set to any child group as well as the parent group. 
+If users are in the group, the number and icon will be blue. Click the Groups hierarchy number of users to view a list of the users within that group. Follow these steps to view the users in a group from the Group Hierarchy page: 
+
+1. Go to the Groups Settings.
+
+2. Click the number located next to the Groups icon in the Groups hierarchy. After clicking on the number, you will be redirected to the Users page.
+ 
+3. On the Users page, the users list will be filtered to the users within the Group you selected. 
+ 
+Edit Groups
+In the event that you need to change a group name or the position of a group in the hierarchy, you may edit the group.
+
+To edit a group, follow these steps:
+Go to the Groups Settings under your Team Settings.
+In the hierarchy tree, find the intended parent group. Click the ellipsis to the right of the group name. A menu will appear.
+Change group name or its position in the hierarchy by selecting a new parent group from the dropdown.
+Click Save.
+ 
+ 
+Delete a Group
+If you restructure your teams or decide to delete groups:
+Go to the Groups Settings under your Team Settings.
+In the hierarchy tree, find the intended parent group. Click the ellipsis to the right of the group name. A menu will appear.
+Select Delete Group. A prompt will appear.
+Click Delete to confirm you wish to delete the group.
+Things to Note: If any users are assigned to a group that is deleted, the users will be updated to unassigned.
+ 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 12/5/2021 4:06 PM
+Title
+Manage Groups and Hierarchy
+URL Name
+Manage-Groups-and-Hierarchy
+Salesloft Knowledge
+Admin Guides
+Team Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,32 @@
+INTEGRATIONS
+LinkedIn Sales Navigator Failed Send Invites
+
+Mar 24, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+If you see an error that LinkedIn Sales Navigator failed to send invites, it is likely due to their network send limit. LinkedIn allows users to send up to 3000 invites. Each user is allotted 30,000 send invites from their LinkedIn Sales Navigator account, and they are allowed to send out as many as they want per day. 
+
+However, keep in mind after you send 100 invites in a day, you will have to enter a CAPTCHA for any invites over the 100th send in a 24-hour period.
+
+Also your LinkedIn account may be temporarily restricted from sending invitations to people for the following reasons:
+
+You’ve sent too many invitations within a short amount of time.
+Many of your invitations have been ignored, left pending, or marked as spam by the recipients.
+Last Modified By
+Stephanie Griffith, 3/24/2023 9:29 PM
+Title
+LinkedIn Sales Navigator Failed Send Invites
+URL Name
+LinkedIn-Sales-Navigator-Failed-Send-Invites
+Integrations
+Salesloft Knowledge
+Integrations FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

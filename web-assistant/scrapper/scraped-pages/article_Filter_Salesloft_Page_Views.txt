@@ -1,0 +1,118 @@
+USER GUIDES
+Filter Salesloft Page Views
+
+Mar 16, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+As your Salesloft usage increases, the number of records that are visible inside you page lists will also increase. While it's great to have that list readily available, seeing all of your records could be overwhelming and difficult to sift through. 
+
+Salesloft makes it easy to refine your lists using the filters. Filters allow you to view the records in your list that matter most to you. With filters in place, you can focus on your top priorities. 
+
+Things to Note: 
+Once your list is filtered, you can also sort your lists in the order you prefer to see items. To learn more about list sorting, check out Sort Salesloft Page Views.
+Some pages allow you to save your filters for easy access. Learn more in our Saved Views in Salesloft article. 
+In this article, you will learn about Salesloft filters and how to put filters into action, including:
+How Filters Work
+Select a Filter
+Add Filters
+Custom Fields Filter
+Alternative Filters
+No Matching Data - Page Empty States
+Want to see what filters you can add to each page in Salesloft? Check out our Complete List of Salesloft Filters . 
+How Filters Work
+ All logs, list views, and reports use additive filters, also known as "and" logic. This means if you select multiple filters at once, any records that appear in your updated list match the data of each applied filter. 
+
+For example, when filtering the page for Job Seniority = Director and Cadence = Outbound Cadence, the results will show People who are Directors that are also on the Outbound Cadence. 
+
+Things to Note: Multi-select filters would follow “or” logic for that individual filter. For example, let’s say you have Groups labeled A, B, C, and D. You select to filter so you only see records for groups A or C. Any records that match Groups A and C will appear in your list. 
+Select a Filter
+You can select the filters you would like applied to your list using the filter buttons seen at the top of the list.
+
+Things to Note: Some Salesloft pages do not have the filter buttons. Learn more about how to filter those pages in the Alternative Filter section of this article.  
+
+To select a filter, follow these steps: 
+
+Go to a page that includes a list view in Salesloft, like the Cadence, Accounts, or People pages. 
+Above the list view, you will see any default filter buttons. Click the filter button. A drop down will appear with available filter criteria. 
+Search for a specific field criteria using the textbox at the top of the menu or scroll and select from one of the available options. 
+Things to Note: If the filter has the ability to select multiple checkboxes, you will need to select all of the criteria and hit Apply. 
+As soon as you select a criteria, your list will apply the filters and update the view.
+ 
+Add Filters
+To the right of the default filter(s), you will see the Add Filter button. This option allows you to include a variety of additional filters to your list. 
+
+Click Add Filter to view a dropdown menu of the available filter options. You can search for a specific field filter using the textbox at the top of the menu or scroll and select from one of the available options. 
+
+When you choose one of the filters, it will appear as a button on the filter row. Once the filter is added to the row, you can select the filter criteria to apply. 
+
+To remove the filter from the row, select the X in the filter button. 
+
+
+ 
+Custom Fields Filter
+
+Custom fields allow you to incorporate data that is specific to your business needs. Using these fields as filters lets you quickly and intuitively find the records you need to focus on in a list. 
+
+Things to Note: Custom fields must be created by a team admin in your CRM Field Configuration. 
+
+To filter by a custom field, follow these steps: 
+
+Select the Add Filter button. A menu will appear with the available filters. 
+After the Standard Fields, you will see a list of all available Custom Fields. Search or scroll to find the field you would like to filter by. Select the Custom filter.
+Modify the field operator if necessary. The field operator defines the filter logic for custom string field types. When a custom field contains numerical values, users can choose the operator necessary to create the grouping they are looking to create. Use the value Is Exactly to filter custom fields that have text inputs. The available operators include: 
+Is Exactly
+Greater Than
+Less Than
+Between
+Enter the filter you want to see. 
+Hit Apply. The filter will be applied to your list view. You can see the filter above the list. Hover over the filter and click the X to clear the filter value.
+ 
+Alternative Filters
+Some Salesloft pages use alternative filters. The filters function exactly the same way as the filter buttons explained above. The only difference is the way you select the filter.
+
+These different filters include the Filter & Sort menu and the Activity Filters. 
+Filter & Sort Menu
+
+The Filter & Sort Menu is a dropdown that allows you to select filters and sort options. 
+
+To filter a list using the Filter & Sort menu, follow these steps: 
+
+In the top right corner of the list view, select Filter & Sort button. The dropdown menu will appear.
+Choose the filtering or sorting options that fit your needs. Each time you select a filter or sort field, the options will drop open. 
+Once you’ve chosen the filter and sorting options, click Apply.
+
+
+Activity Filters 
+The Activities filter allows you to filter by activity type. This way, if you want to review how many phone calls or meetings have happened through the stages in the opportunity, all you need to do is filter by those activity types. 
+
+The Activities filter can be found in the Person Profile Activity Panel, Account Profile Activity Panel, and the Deals Activity Timeline. By default it will show all types of activities. 
+
+To use the filter, click Activities to open the list of activities and select which activities you want to view in the timeline. Click Apply to update the timeline to show only the activity types selected.  
+ 
+No Matching Data - Page Empty States
+When you view a page and there is no data to be found, Salesloft will show an "empty state" message. You may see no data because records have no been added or you have adjusted your filters and none of your existing records fit the defined criteria. 
+
+The empty state message will prompt you to adjust your filters to bring in more results. 
+
+Things to Note: There is a difference between an empty state, null data, and zero results:
+Empty State: Means that steps have not been completed with this Cadence. You will typically see this for a new Cadence. 
+Null Data: Specific to the Email Engagement chart, if no emails were sent for the selected date period, there is no data and the metric will display as N/A.
+Zero Results: Emails were sent but no opens, clicks, or replies occurred from those sends. The results will display zeros. 
+
+ 
+Last Modified By
+Stephanie Griffith, 3/16/2023 9:14 PM
+Title
+Filter Salesloft Page Views
+URL Name
+Filter-Salesloft-Page-Views
+Salesloft Knowledge
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

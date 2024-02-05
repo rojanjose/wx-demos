@@ -1,0 +1,5 @@
+
+python-dotenv
+ibm_watson
+ibm_cloud_sdk_core
+bs4

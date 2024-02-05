@@ -1,0 +1,82 @@
+ANALYTICS + REPORTING
+Emails Standard Report
+
+May 19, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Emails report provides a detailed record of each team member's email data. 
+
+In this article, you will learn about the Emails Report, including:
+Access the Emails Report
+Email Report Add Filter Options
+Emails Report Metrics
+Sort the Emails Report 
+Access the Emails Report
+Access the Emails report from one of the following methods:
+The Email Results: Cadence and One-Off Panel: Click the View Report link in the upper right corner of the panel. 
+The Email Standard View from your Reports Tab: Select the Standard Emails View link found in the Emails Section of the Reports Tab. You will be redirected to the Emails Report.
+When you access the report, you will see the name of the report you have accessed and a breadcrumb trail in the upper left corner. This can take you back to the Analytics Overview by clicking Analytics. 
+Email Report Add Filter Options
+The Email Report data can be adjusted by using Analytics Filters. When you change any of these filters, you can save the page view to Create Custom Reports.
+
+Outside of the standard filter options, you can add additional filters to your report. The Email Report's additional filters include: 
+Sent
+Delivered
+% Personalized
+% Opened
+% Replied
+ 
+Emails Report Metrics
+The first row of the report contains the total metrics based on your filter settings.
+
+Each email metric is visible in its own column. The columns include: 
+ 
+User	The Salesloft team member.
+Sent	The total emails sent, which includes bounces.
+Delivered	Total number of emails delivered. This is the total number of emails sent minus the number bounced.
+Bounced	Number of emails sent resulting in a bounce.
+% Bounced	Percentage of emails sent that resulted in a bounced email.
+Personalized	Number of emails that were personalized.
+% Personalized	
+
+The percentage of emails sent that have > 5% personalization score. The 5% reflects a minimum threshold for meaningful personalization that impacts reply rates.
+
+
+Average Personalization Score	The average of personalization scores across a set of emails.
+Positive	The count of positive replies
+Objection - Not the Buyer	The number of not the buyer objections
+Objection - Timing	The number of timing objections
+Objection - No Interest	The number of non interest objections
+Objection - Competitor	The number of competitor objections
+Opened	Total number of emails sent from this user that have been viewed.
+% Opened	(Open Percentage) The percent of emails opens compared to those delivered. 
+Clicked	Total number of links that were clicked from emails sent.
+% Clicked	(Click Percentage) The percent of emails clicks compared to those delivered. 
+Replied	Amount of emails sent during this time period. This counts any email replies, regardless of if they were sent from a Cadence, Lofted, or one-off emails.
+% Replied	(Reply Percentage) The percentage measuring the number of emails that have been replied to divided by the total number of emails delivered, aka the Reply Ratio.
+Sort the Emails Report
+Each column header can also be used to sort the list.
+
+
+
+To sort the Emails report to fit your preference, follow these steps:
+Select the appropriate column header. The header name will turn blue.
+Use the arrow to the right of the header name to set the sorting direction. The arrow will point up or down (ascending or descending order) to reflect the order of the list. 
+ 
+Last Modified By
+Stephanie Griffith, 5/19/2022 6:50 PM
+Title
+Emails Standard Report
+URL Name
+Emails-Standard-Report
+Salesloft Knowledge
+Analytics Reports
+Analytics + Reporting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

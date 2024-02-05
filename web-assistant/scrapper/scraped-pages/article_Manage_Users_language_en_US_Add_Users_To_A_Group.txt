@@ -1,0 +1,263 @@
+ADMIN GUIDES
+Manage Users
+
+Oct 9, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft team members include all of the admins and users who currently have or have previously had a Salesloft account. As a team admin, you can invite new Salesloft users and manage all of those team members from Users Settings.
+
+
+To access the Users Settings, click your name in the upper right corner of the Salesloft platform and click Team to go to your Team Settings. From the left-side settings menu, click Users. For instructions on how to invite a user to Salesloft, check out the Invite Users article. 
+
+
+In this article, you will learn how to manage your Salesloft users, including:
+
+Users Settings Page Layout
+User Management Table Layout
+Filter Users
+Export Users
+Deactivate Users
+Add Users To A Group
+Enable Conversations Recording
+View Users API Video Conferencing Integrations
+Assign Roles
+Auto-Map Users To Their CRM Account
+Add A User’s Work Country
+Bulk Edit Users
+
+ 
+
+Want to know about the admin User Settings, but prefer a video format? Visit Salesloft University to see the Team Admin: User Settings video tutorial. 
+
+Users Settings Page Layout
+
+The Users Settings allow you to manage your Salesloft user's activation statuses, roles, and more.
+
+ 
+
+Here's a walkthrough of the User Settings page:
+
+User Tabs: The tabs separate your user tables based on the user's status. The status options (and tab names) include:
+Active: Current Salesloft user
+Inactive: Previous Salesloft user whose access has been disabled.
+Invited: Future Salesloft user. When a person is invited to Salesloft, they will be added to the Invited table until they accept the invite. Then they will move to an Active user.
+Current Plan Licenses: The number of licenses you have available per package. This is the number of users you may invite to the team.
+CRM Usernames: The number of users whose usernames are mapped to their CRM.
+Filters: Refine the list of users in the User Management table.
+Search: Located to the top-right of the Users table, search to quickly find a user within the table based on their username or email.
+Invite Users: Press this button to invite Users to join the Salesloft platform.  
+User Management Table: Where you can view and manage user roles, groups, etc. Table layouts will change based on the tab you are viewing. 
+User Management Table Layout
+
+The User Management Table is where you can manage your active users' functions in Salesloft.
+
+ 
+
+Here's a list of actions you can perform from the User Management table:
+
+View User Emails
+Add Users to a Group
+Enable Conversations Recording
+View API Video Conferencing Integrations
+Assign Roles
+Auto-Map CRM Username
+Add a Work Country
+Deactivate a User
+Bulk Edit Users
+Filter Users
+
+The filters on the User Management page allow you to refine the list of users that are visible.
+
+ 
+
+You may filter the user list based on the following criteria: 
+
+Groups
+Role
+CRM Username: Unmapped
+Things to Note: The CRM Username: Unmapped filter is only available on the Active Users tab.
+
+To learn more about these filters, check out our Filter Salesloft Page Views article.
+
+Export Users
+
+The Export Users button allows you to download an exported CSV file of active and inactive users. This button gives you on-demand access to user information for auditing purposes. 
+
+
+To export your user list, follow these steps: 
+
+Navigate to the User Settings.
+Apply filters for Email, Group, or Role on the Users Table. If filters are not applied, all Active and Inactive users will be included in the export list.
+Things to Note:
+There is no current maximum limit to the number of users that can be included in the export.
+If a customer does not currently subscribe to Conversation Intelligence, then that column will be hidden and will not be viewable within the export.
+Click Export Users in the top left corner of the Users table.
+A window will appear for you to confirm the export. Click Export.
+The export will appear as a direct download on the bottom left-hand corner of the browser. Click the download in the bottom left-hand corner to open the CSV. The exported file will include columns for filtered or unfiltered user data selected by the customer.
+ 
+
+Deactivate Users
+
+In the event that a user is no longer on your team, you may deactivate their Salesloft license.
+
+ 
+
+To learn more about how to deactivate a Salesloft user, including recommended off-boarding steps, viewing inactive users, and even reactivating users, check out the Deactivate Users article. 
+
+Add Users to a Group
+
+Groups are structured teams in Salesloft. 
+
+Groups can be used in Snippets, Team Cadences, Analytics, Conversations, and Coaching to leverage data for multiple users at once.
+
+You can create groups and set specific visibility rules as well as see collective group metrics that will apply to the users you add to that group. 
+
+To add a user to a Group, follow these steps:
+
+Find the user you would like to add to a group.
+Scroll to the Group column and click the dropdown.
+Select the group you would like your user to be nested under.
+
+ 
+
+Enable Conversations Recording
+
+The Conversations Recording setting allows users to access Salesloft Conversations. 
+
+ 
+
+With Salesloft Conversations, users can capture their recorded calls in Salesloft, where they can review the call, create clips, take notes and more. 
+
+ 
+
+To enable Conversations Recording for a user, click the toggle (when the toggle area is blue, the setting is turned on).
+
+ 
+
+Things to Note: Conversations is available for the Premier and Advanced Salesloft packages.
+
+View Users API Video Conferencing Integrations
+
+API Video Conferencing Integrations allow Conversations users to sync their Salesloft account with their preferred video conferencing platform. Syncing the two makes it easy to access recorded calls in Salesloft. 
+
+ 
+
+When your users enable an API Video Conferencing Integration, a check mark will appear beneath the video conferencing platform’s icon. Your User table will show all of Salesloft’s available API Video Conferencing integrations. 
+
+ 
+
+To learn more about API Video Conferencing Integrations, check out our How Meetings are Captured article. 
+
+ 
+
+Assign Roles
+
+Assigning Roles in Salesloft allows you to grant certain levels of access to users on your team. As an admin, you can create roles and add certain permissions to them to manage your team’s access to various parts of the platform.
+
+ 
+
+You can assign and update roles from the User Management Table.
+
+ 
+
+To update a user’s role, follow these steps:
+
+ 
+
+From the User Management table, scroll to the Role column.
+Click the dropdown arrow.
+Select a role.
+
+The user’s role will automatically update. Any permissions assigned to that particular role will be instituted to the user. To learn more about the roles and permissions available to your users, check out the Roles and Permissions article. 
+
+Auto-Map Users to Their CRM Account
+
+While each user needs to connect to their CRM for activity logging purposes, user management brings CRM ownership into Salesloft. This means you will have consistent logs for records that are owned, edited, or updated. Also, user management allows you to create Automation Rules that specify a CRM owner.
+
+
+Things to Note:
+
+CRM Usernames were previously managed under the CRM User Management tab inside the Salesloft CRM Sync Settings. All functionality has been moved to the Users Settings.
+In the event that a user is deactivated, the CRM username will be unmapped. 
+Auto-mapping users is not available for Hubspot. 
+
+
+Auto-mapping users to their CRM Account links a Salesloft user to their CRM account automatically, meaning you have one less step to worry about when onboarding (win!).
+
+
+As soon as a user accepts their Salesloft invitation, the system links by comparing the user's Salesloft email to their CRM email. If there is no match found, the text Unmapped is shown.
+
+
+When you have unmapped results, you or anyone with the Salesloft Admin role can manually edit a user to match them to a CRM Username, or you can trigger Automap CRM Username from the Users Settings.
+
+
+To trigger the automap CRM Username, follow these steps:
+
+Navigate to the Users Settings.
+In the Active users tab, click the CRM Username: Unmapped filter. This will show you all users who have not been mapped to a CRM account. 
+Select the unmapped users by checking the boxes next to their names, or check the box in the upper left corner of the user table to Select All. Menu options will appear above the table.
+Click Automap CRM Username. A window will pop up to confirm the action.
+Click Automap. A notification will confirm the action is taking place. Refresh the page to view the results. If auto-mapping could not find a matching CRM username, the user will still be listed as Unmapped. 
+
+ 
+
+Add A User’s Work Country
+
+From the User Management table, you can add a user’s Work Country. Adding a work country establishes where the user is based, which is helpful when determining working hours. 
+
+ 
+
+Adding a work country is also necessary for users with dynamic email footers that auto-populate based on the user's location.
+
+ 
+
+To add a user’s Work Country, follow these steps:
+
+ 
+
+Navigate to the Team Settings, then select Users.
+From the User Management table, locate the user you would like to add to assign a Work Country to.
+Scroll to the Work Country column. From this section you can do the following:
+Use the dropdown to search for a Work Country
+Type a country's name or 2-letter ISO code.
+You're all set!
+
+Bulk Edit Users
+
+You can bulk edit your users’ settings from the User Management table.
+
+ 
+
+To bulk edit user settings, follow these steps: 
+
+From the User Management table, do one of the following:
+Check the User heading box to select all users at once.
+Check the box beside each user you would like to update. The number of users that are selected out of the total number of users on your team will appear above the table.
+Click the Edit button that has appeared above the table. The edit module will pop up.
+In the edit module, use the dropdown menus to edit the following:
+Group
+Meeting Recording
+User Role
+Work Country
+Once your settings are correct, click Save. A notification will appear to inform you that the user's information has been updated.
+
+ 
+
+Last Modified By
+Stephanie Griffith, 10/9/2023 6:36 PM
+Title
+Manage Users
+URL Name
+Manage-Users
+Salesloft Knowledge
+Admin Guides
+Team Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

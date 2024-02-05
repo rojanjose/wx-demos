@@ -1,0 +1,160 @@
+PEOPLE AND ACCOUNTS
+ACCOUNT PROFILE PAGE
+Add and Manage Contact Restrictions
+
+Dec 19, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Contact restrictions are put in place to respect the boundaries people and organizations put in place. You may have a customer who prefers to be contacted by text only, or an organization may choose to limit email communication. Putting contact restrictions in place ensure that you and your team know how to contact prospects and stakeholders. 
+
+ 
+
+In this article, you will learn how to add or manage a Person or Account's contact restrictions, including:
+
+Manage Contact Restrictions from the People Page
+
+Manage a Person’s Contact Restrictions from their Profile Page
+
+Add an Account to the Do Not Contact List
+
+Remove an Account from the Do Not Contact List
+
+Manage Contact Restrictions from the People Page
+
+The People Page shows a full list of your leads and contacts and allows you to manage their contact restrictions, including: 
+
+Mark a Person as Do Not Contact
+Limit contact via phone calls, text, and/or emails
+
+ 
+
+To manage a Person’s contact restrictions from the People page, follow these steps:
+
+Navigate to the People page.
+
+Find the Person whose contact restrictions you want to manage and check the box beside their name. You can also select multiple People to manage all of their contact restrictions at once.
+
+Select More from the menu options, then choose Do Not Contact. The Do Not Contact status window will appear.
+
+Select or de-select the contact restriction options.
+
+Do Not Contact
+
+Things to Note: The Do Not Contact setting will always take precedent over the other contact restrictions if it is marked.
+
+Restrict Calls
+
+Restrict Emails
+
+Restrict Texts 
+
+Click Update Status. The contact restriction will be added/removed. 
+
+ 
+
+Manage a Person’s Contact Restrictions from their Profile Page
+
+You can manage a Person’s contact restrictions from the Person profile page. Managing a Person’s contact restrictions includes adding restrictions, or marking a Person as Do Not Contact. It also includes removing contact restrictions. 
+
+ 
+
+Things to Note: Contact Restrictions are typically put in place due to a personal request from the contact. We recommend you keep that restriction in place unless to Person specifically asks you to contact them. 
+
+ 
+
+To manage a Person’s contact restrictions from their Person profile page, follow these steps: 
+
+Go to the Person’s Profile page. 
+
+In the Person Information Panel (upper right corner), click the ellipses icon to open the Person Panel Actions. 
+
+Select Do Not Contact. The Do Not Contact menu will open. 
+
+Select or deselect the following contact restriction options:
+
+Do Not Contact
+
+Things to Note: The Do Not Contact setting will always take precedent over the other contact restrictions if it is marked.
+
+Restrict Calls
+
+Restrict Emails
+
+Restrict Texts 
+
+Click Update Status. The contact restriction(s) will be added/removed. 
+
+ 
+
+Things to Note: A Person can be marked both Do Not Call and Do Not Email at the same time. This scenario would prevent phone calls and emails to the prospect, but it would still allow that Person to be added to cadences and contacted via other means, i.e. LinkedIn, Twitter, direct mail, etc.
+
+ 
+
+Add an Account to the Do Not Contact List
+
+Adding an account to the Do Not Contact list will remove linked people from all existing cadences and will prevent you or members of your team from contacting those people from within cadence.
+
+ 
+
+Linked people will be removed from all of your and your teammates cadences. You will not be stopped from contacting linked people from a third party such as Gmail or Outlook. All people added to this account while it is marked Do Not Contact will be removed from their cadences.
+
+ 
+
+To mark an Account Do Not Contact, follow these steps:
+
+Go to the Account’s Profile page. 
+
+Click the ellipses icon (...) in the upper left corner. This will open a menu.
+
+From the menu, select Mark Do Not Contact. A pop up will appear to confirm the action. 
+
+Review the confirmation notice then click Confirm.
+
+ 
+
+ 
+
+Remove an Account from the Do Not Contact List
+
+When an Account is marked as Do Not Contact, you are restricted from contacting any Person linked to that Account. 
+
+ 
+
+If you would like to contact someone linked to an Account that has been marked as Do Not Contact, you will need to unmark the Account as Do Not Contact before you can correspond with the Person. 
+
+ 
+
+Follow these steps to unmark an Account as Do Not Contact: 
+
+Go to the Account’s Profile page. 
+
+Click the ellipses icon (...) in the upper left corner. This will open a menu.
+
+From the menu select Unmark Do Not Contact. A pop up will appear to confirm the action. 
+
+Review the confirmation notice then click Unmark. You may now contact People associated with the Account. 
+
+ 
+
+l
+
+Last Modified By
+Stephanie Griffith, 12/19/2023 3:20 PM
+Title
+Add and Manage Contact Restrictions
+URL Name
+Add-and-Manage-Contact-Restrictions
+Person Profile Page
+People Page
+Account Profile Page
+Salesloft Knowledge
+People And Accounts
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

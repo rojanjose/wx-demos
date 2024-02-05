@@ -1,0 +1,35 @@
+INTEGRATIONS
+API
+Set Up the Salesloft API
+
+Mar 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Salesloft API allows you to integrate data between Salesloft and your own business applications to fit your complex and custom team's processes. Built by developers, for developers, the Salesloft API provides a world-class experience for our customers to interact with the data in their Salesloft instance. 
+
+The Salesloft API is self-service, meaning you, or (most likely) your development team, can implement the API system to expand your data. After using an API Key or OAuth 2.0 to authorize a user, the REST API is accessed over HTTP to push and pull data from Salesloft.
+
+In order to get started using the API, you will want to follow these steps:
+Review our API documentation for instructions and a comprehensive list of API endpoints available.
+Log in to the account that will own your API Key or OAuth App at https://accounts.salesloft.com/
+Create an app using our App Management.
+Create and test your integration via the blue Try buttons within our API documentation.
+How Do I Get a Developer Salesloft Account?
+Last Modified By
+Stephanie Griffith, 3/28/2023 5:35 PM
+Title
+Set Up the Salesloft API
+URL Name
+Set-Up-the-Salesloft-API
+Salesloft Knowledge
+API
+Integration Partners
+Integrations
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

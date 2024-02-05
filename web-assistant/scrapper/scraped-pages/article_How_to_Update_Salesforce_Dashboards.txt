@@ -1,0 +1,327 @@
+CRM
+How to Update Salesforce Dashboards
+
+Sep 16, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+A dashboard in Salesforce offers a lot of potentially valuable information in one easy-to-view place. But, like many things, relevant dashboards come and go. Even at Salesloft, we've created dashboards that no longer fit our needs. 
+
+When that happens, the dashboards in your Salesforce are going to need an update. This can be a confusing process if you don't know what you're doing. So to help you along, we've provided the steps to switch from one dashboard in your Salesforce instance, to another. 
+
+All information in these sections pertain to the "previous dashboard" which was downloadable through the Salesloft platform prior to February 1, 2019. The downloadable managed dashboard package available after that date is referred to as Insight from Salesloft.
+
+In this article, you will learn how to manage and update between the different dashboard packages, including: 
+Your Salesloft Dashboard Package Options
+Export and Save Historical Data
+Uninstall Former Dashboard Package
+Install Insight from Salesloft (the New Dashboard Package)
+Migrating Historical Field Values to Insight from Salesloft
+Your Salesloft Dashboard Package Options
+You have a few different options about the offered Salesforce Dashboard packages that have been offered from Salesloft:
+Remain on Current Package and Do not install Insight: Don’t feel like you have to update. If you're happy with your current dashboard, the old dashboard will still work. Important Thing to Note: Our Salesloft team will no longer offer support or assistance regarding the former dashboard package.
+Keep Both: You may think that two dashboard packages are better than one. This use case allows you to review all historical data from the previous dashboard. It also takes advantage of Insight from Salesloft without having to migrate any data to the new fields. Things to Note: This is not our personal recommendation. Salesforce has a hard limit on the number activity fields, and keeping both will use up those fields.
+Rip and Replace: For anyone with an "out with the old, in with the new" mentality, you may switch from the former dashboard package to Insight from Salesloft. This will require you to save a copy of data included in existing custom fields and migrate this data to the Insight managed package fields. You will follow these steps in order to upgrade to the new install:
+Export and save historical data
+Uninstall former dashboard package
+Install New Package
+Migrate historical field values from previous Dashboard package fields to the Insight managed package fields: Use Salesforce Data Loader or a similar data loading application.
+If you've chosen option number 3 (Rip and Replace), the rest of this Support article will walk you through the steps to complete your install process.  
+Export and Save Historical Data
+It is very important that you run a report and export all Leads, Contacts, and Activity (Task) records that have data populated in any of the Salesloft fields prior to uninstalling the Salesloft Dashboard package that is currently installed in your Salesforce Org. Failing to export this data will result in a loss of the fields in these Salesloft specific fields. 
+
+In this section, we will look at the fields and reports you will want to compile for your historical data export. Then, we will walk through how to save the export. 
+
+Here is a table of the fields you will want to migrate your existing data to while migrating to the Insight dashboard package:
+
+Activity Fields
+
+	
+
+Lead Fields
+
+	
+
+Contact Fields
+
+
+
+
+Salesloft Cadence Name
+
+	
+
+Most Recent Cadence- Last Completed Step
+
+	
+
+Most Recent Cadence- Last Completed Step
+
+
+
+
+Salesloft View Count
+
+	
+
+Most Recent Cadence - Cadence Name
+
+	
+
+Most Recent Cadence - Cadence Name
+
+
+
+
+Salesloft Clicked Count
+
+	
+
+Most Recent Cadence - Next Step Due Date
+
+	
+
+Most Recent Cadence - Next Step Due Date
+
+
+
+
+Salesloft Replies Count
+
+	 	 
+
+
+Salesloft Email Template Title
+
+	 	 
+
+
+Salesloft Step Day
+
+	 	 
+
+
+Call Sentiment
+
+	 	 
+
+
+Call Disposition
+
+	 	 
+Leads & Contacts
+The Most Recent Cadence Lead and Contact fields were not included in the former Dashboard package, but three of these fields are included in the Insight package on the Lead and Contact objects.
+
+If you have mapped these Most Recent Cadence fields in Salesloft to your Salesforce in the past, you may want to migrate the field values in these fields to the Insight package fields using Data Loader.
+Activities (Task)
+If you would like to populate the Insight package fields on your historical Activity (Task) records, first you will need to export this data from Salesforce.
+
+One easy way to do this is by creating a Tasks and Activities report in Salesforce. In the report set the filter criteria to show any Completed Task that has data populated in any of the following fields:
+Salesloft Cadence Name
+Salesloft View Count
+Salesloft Clicked Count
+Salesloft Replies Count
+Salesloft Email Template Title
+Salesloft Step Day
+Call Sentiment
+Call Disposition
+
+Once you’ve run this report, you will need to export this Report to a CSV file which Salesforce allows you to do at the click of a button.
+Fields to Include in Your Report
+Be sure you include the Activity ID as well as all of the Salesloft activity fields in your report prior to exporting it. This is important since you will use the Activity record ID to update these activity records on a later step.
+
+The Salesloft Activity fields must be included so you can import and map the values to the new Insight package fields.
+Save the Export File
+Once you’ve exported this data, save the file so you have a backup of your Historical Task data.
+
+Now that your data has been backed up, you are now ready to uninstall the existing Salesloft Dashboard package.
+Uninstall Former Dashboard Package
+Salesforce Admins may uninstall a dashboard within your Salesforce instance.
+
+Things to Note: If you would like to keep the fields from the former Dashboard package in your Org and install the new Dashboard Package, we recommend that you do not uninstall the former package. Simply delete the fields containing data that you no longer need in your Org.
+
+Previously, you would need to go through a process to remove fields, reports, and dashboards associated with the dashboard. Now, you can easily remove a dashboard by following the steps below.
+
+Things to Note: The detailed step walk through follows the instructions for Salesforce Classic. Salesloft Lightning users should follow this path: 
+
+Setup > Object Manager > Lead > Fields & Relationships > Map Lead Fields
+
+To remove the dashboard, follow these steps: 
+
+1. As a Salesforce Admin, go to Setup
+
+2. Enter a Quick Search for Installed Packages. 
+
+-Or-
+
+Scroll to the Build section and select Installed Packages. 
+
+3. Scroll to find the name of the dashboard you would like to uninstall in the Installed Packages list. 
+
+4. Under the Action column, click Uninstall.
+
+5. Confirm that you would like to uninstall the dashboard.   
+
+6. Once the dashboard has been uninstalled, it will appear in the Uninstalled Packages archive list at the bottom of the Installed Packages page.  
+Install Insight from Salesloft (the New Dashboard Package)
+Time to replace the previous dashboard with new and improved model!
+
+To learn all about the updated dashboard package and how to install the package into your Salesforce org, check out our How to Install Insight from Salesloft article.  
+Migrating Historical Field Values to Insight from Salesloft
+Once you’ve installed the Insight package, you will be ready to update your historical Task records, and your Lead and Contact records, if needed.
+
+To complete this update, you will need to use Salesforce Data Loader or a similar data loading application in order to update these historical records.
+
+Things to Note: There is no need to complete this data migration if you would like to keep the fields from the former Dashboard Package in your Org and install Insight from Salesloft.
+
+Regardless of the data loading application you use, it is extremely important that you perform an Update so we only update existing records. DO NOT perform an Insert or Upsert Action. These could result in the creation of net new records during this process.
+
+To migrate your historical field values to the Insight from Salesloft managed package, follow these steps: 
+
+1. In the Data Loading tool you’re using, select the Update action.
+
+2. Login to Salesforce using your Salesforce Credentials via the Data Loading Tool.
+
+3. Select the Object where you would like to perform the record Update (i.e. Task).
+
+4. Create a mapping table in the Data Loading tool and Map ID to ID.
+
+5. Map all fields included in the former Dashboard Package to the Salesloft fields included in Insight. Please see mapping table below for reference: 
+
+Object
+
+	
+
+Old Field Name
+
+	
+
+New Field Name
+
+
+
+
+Activity/Task
+
+	
+
+Call_Disposition__c
+
+	
+
+Salesloft1__Call_Disposition__c
+
+
+
+
+Activity/Task
+
+	
+
+NOT IN FORMER PACKAGE
+
+	
+
+Salesloft1__Call_Sentiment__c
+
+
+
+
+Activity/Task
+
+	
+
+Salesloft_Cadence_Name__c
+
+	
+
+Salesloft1__Salesloft_Cadence_Name__c
+
+
+
+
+Activity/Task
+
+	
+
+Salesloft_Clicked_Count__c
+
+	
+
+Salesloft1__Salesloft_Clicked_Count__c
+
+
+
+
+Activity/Task
+
+	
+
+Salesloft_Email_Template_Title__c
+
+	
+
+Salesloft1__Salesloft_Email_Template_Title__c
+
+
+
+
+Activity/Task
+
+	
+
+SalesloftReplyCount__c
+
+	
+
+Salesloft1__Salesloft_Replies_Count__c
+
+
+
+
+Activity/Task
+
+	
+
+Salesloft_Step_Day_new__c
+
+	
+
+Salesloft1__Salesloft_Step_Day__c
+
+
+
+
+Activity/Task
+
+	
+
+Salesloft_Viewed_Count__c
+
+	
+
+Salesloft1__Salesloft_View_Count__c
+
+
+6. Once your field mapping is complete, you can execute the data update using your Data Loading application.
+
+7. After the update is complete, review any errors that occurred during the Data update, and re-attempt the data update once the error has been resolved.
+
+8. Finally, feel free to spot check a few records that were included in the data update to ensure the Salesloft managed fields are populated as expected.
+Last Modified By
+Raequel Sank, 9/16/2021 9:00 PM
+Title
+How to Update Salesforce Dashboards
+URL Name
+How-to-Update-Salesforce-Dashboards
+Salesloft Knowledge
+Salesforce
+CRM
+Insight For Salesforce
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

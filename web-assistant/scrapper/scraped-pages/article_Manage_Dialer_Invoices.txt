@@ -1,0 +1,80 @@
+ADMIN GUIDES
+ADMIN ESSENTIALS
+Manage Dialer Invoices
+
+Sep 29, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Salesloft Dialer provides a phone service for Salesloft users. Similar to any phone service or plan, the use of the Salesloft Dialer comes at an additional cost. These costs will be covered through purchasing an unlimited calling module through Salesloft or tallying up Dialer credits in a pay-as-you-go model. 
+
+For more information on the available Dialer Module plans and Dialer credits, check out the Dialer Pricing Guide.
+
+Payments for the Dialer will be completed in your Dialer invoice. Any admin and billing contacts for Salesloft teams who have Dialer included within their package will receive a PDF copy of the Dialer invoice via email. From the email, you can click the unique URL to make a payment using a credit card.
+
+Things to Note: Previously, Salesloft used a Payments tab to control Dialer Credits. The Payments tab was sunset from the Salesloft platform beginning in July 2021. 
+ 
+In this article, you will learn how to pay and manage your Dialer invoice, including:
+Submit Invoice Payment
+Add or Change a Credit Card
+Dialer Invoice FAQ
+Submit Invoice Payment
+To submit a payment for your Dialer invoice, follow these steps:
+
+1. You will receive an email with your Salesloft Dialer Invoice. Click the unique URL found in your Dialer invoice. This will open your private payment portal.
+
+2. Once in the payment portal, double-check the invoice number compared to the invoice and make sure you are paying for the correct invoice number and amount.
+
+3. To pay with a credit card, click the Pay with Card button and follow the step-by-step instruction to complete the transaction.
+
+Things to Note: If you would like to save your Credit Card information, please be sure to check the Save payment information for future use box before clicking the "Pay With Card” button.
+ 
+Add or Change Credit Card
+You have the option of saving a credit card on file when paying an invoice (see step 3 in the section above). Once the credit card is saved, the card will be charged within 5 days of you receiving the invoice. 
+
+If you need to update your card for any reason, you can do so when you receive the invoice email (or upon request to the Salesloft billing department. 
+
+To add a new credit card on file or update your credit card information, follow these steps:
+
+1. Click the unique URL provided within the email body or upon request. This will open the payment. 
+ 
+
+2. Select the Manage Account tab.
+ 
+
+3. Enter your credit card information and click Update Card.
+ 
+Dialer Invoice FAQ
+Where did the “Payments” tab go?
+
+The “Payments” tab has been sunset as part of our Dialer invoicing process. Payments will now be handled through a new customer payment portal. The new customer payment portal can be accessed through a link on your Dialer invoice. 
+
+What types of charges will be included within the variable Dialer invoices?
+
+Variable dialer usage is defined as any one-off Dialer minutes used outside of an unlimited Dialer minute module, or any one-off LocalDial numbers used outside of the unlimited LocalDial module. Dialer minutes will be charged to customers the same as they always have been (based on where they are calling, etc.).
+
+Customers will be charged $1 to provision the LocalDial number initially, and $1 per month per LocalDial number while it’s in use (so the first month the customer will be charged $2 total for each LocalDial number).
+
+Do I have to pay as an invoice or can I pay by credit card? 
+
+All Dialer invoices must be paid using a credit card.  We recommend you save the credit card on file in the customer payment portal so future transactions can be processed automatically and to avoid any service interruptions.
+
+Invoices for your Salesloft subscription are still being sent out according to the agreed billing frequency, payment terms, and/or method.
+
+Last Modified By
+Stephanie Griffith, 9/29/2021 6:23 PM
+Title
+Manage Dialer Invoices
+URL Name
+Manage-Dialer-Invoices
+Salesloft Knowledge
+Admin Essentials
+Admin Guides
+Dialer Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

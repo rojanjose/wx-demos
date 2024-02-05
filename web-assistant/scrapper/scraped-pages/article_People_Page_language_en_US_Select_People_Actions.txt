@@ -1,0 +1,192 @@
+PEOPLE AND ACCOUNTS
+People Page Overview
+
+Mar 16, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+People in Salesloft are just like your Leads and Contacts in Salesforce. Your Salesloft People are the individuals that you reach out to, have conversations with, and engage throughout the sales process.
+
+The People page allows you to import, view, sort, filter, and take action on individuals or multiple People at a time. 
+
+To access the People page, select the People icon that looks like a building from the Side Navigation.
+
+In this article, we will walk through the People page view, including: 
+Saved People Views
+Filter & Sort the People List
+Add Person Filters
+People Search
+Export People
+Create People Button
+People Table
+Select People Actions
+Saved People Views 
+Filtering your People list view lets you see a select group of People. Saved Views work closely with the filter & sort feature, so you can save any refined list you create. This way you can easily access a particular filter without having to set the same filter each time you access the People page.
+
+To save a filtered view, follow these instructions:
+
+1. Go to the People page.
+
+2. Filter the list.
+
+3. As you change the filters, a Save As button will appear in the upper left corner of the People page. Click Save As.
+
+4. Enter the new name of your view. Hit Save.
+
+5. Once the view has been created you can access it by selecting the name in the top left corner of the People page. A dropdown will appear with your saved views listed. Select your view.
+Filter and Sort the People List
+You can filter the People Page by several different fields.
+
+If you apply multiple filters, the results will be a combination of all filters chosen ('AND'). For example, when filtering the page for Job Seniority = Director and Cadence = Outbound Cadence, the results will show people who are Directors that are also on the Outbound Cadence. 
+
+The following filters are available on the People Page:
+Owner: Filter based on the user who is assigned the actions related to the Person. Users can filter for Owned by:
+You
+All Users
+Active Users
+Inactive Users
+A Specific User.
+Account: Filters the People list to all People linked to the same Account. 
+Cadence: Users can filter by Cadence Name, displayed in a list. This will show People actively on the Cadence name chosen.
+City: Filters by City. This value is determined based on what is listed on the Person Profile page.
+Country: Filters by Country. This value is determined based on what is listed on the Person Profile page.
+CRM Owner: Filters based on the user assigned to the Lead or Contact record in your CRM. Use this to confirm that the CRM Owner and Salesloft Owner are aligned or, use the No CRM Owner option to spot gaps in sales coverage.
+Custom: Optimize search with exact/approximate numeral values
+Date Added: Filters by the date a contact record was created.
+Import: Users can filter by Import Batch Name, displayed in a list.
+Job Seniority: Users can filter by Job Seniority, displayed in a list. Users can filter for People who do not have Job Seniority assigned.
+Last Contacted Date: Filters by the last date someone reached out to a contact record.  
+Person Stage: Users can filter by Person Stage, displayed in a list.
+State: Filters by State. This value is determined based on what is listed on the Person Profile page.
+Status: Filters based on the status label. The labels are shown as different icons to the left of the Person's name.  
+Bounced
+Do Not Contact: Does not include Contact Restrictions
+New 
+Started
+Success 
+Tag: Users can filter by a particular Tag.
+Time Zone: Filters based on the contact record's time zone.
+Title: Filters based on the contact record's Title as listed in the Title field on the Person Profile page.
+
+You can also sort the table by clicking on the title headers. One click will sort ascending and another click will sort descending, and a third will remove the sort.
+
+You can sort on the following fields on the table:
+Person
+Account
+Title
+Job Seniority
+Calls Logged All Time
+Emails Sent All Time
+Emails Opened All Time
+Emails Clicked All Time
+Emails Replied All Time
+Last Contacted
+Date Added
+Add Person Filters
+The Add Filter button lets you select filters that are specific to the People page. 
+
+To add filters to your People page listview, follow these steps:
+From the filter row on the People page, click the Add Filter button. A dropdown will appear with your available filters.
+Select the filter you wish to add. The filter will appear on the filter row with the dropdown open.
+Things to Note: You can also type Custom in the Search Person Fields bar to optimize your search with exact numeral values.
+Select the options within the filter. Your People list will only show People who match the filtered settings. 
+ 
+
+ 
+4. The filters will appear from left to right according to the order they were applied. 
+ 
+ 
+5. To remove the filters you applied, click the X beside it. You can also click Clear Filters to remove all of the filters you applied at one time. 
+People Search
+Allows you to search for a specific Person or group of People. To use the search bar, follow these steps:
+In the search bar, enter the name of a Person, name of an Account, or role to define your search.
+Hit the Enter key.
+Your people list will then display the search results. The filter bar will appear, defining the search criteria that fits the current list.
+To clear your results, select Clear from the filter bar.  
+ 
+Export People
+If you’d like to share People metrics outside of Salesloft, you may do so by exporting the People. Exporting will create a CSV file based off of your People list. If the People have been filtered, the export will comply with the filter’s rules.
+
+To export People, follow these steps:
+From the People page, Filter and sort your list.
+Click Export in the right corner of the page. An Export People popup will appear asking if you want to export based on the current filter.
+In the popup, click Export. A notification will inform you that the export will be delivered to your email.
+When you receive the email, click the link to download the export.
+You will download a CSV that will contain the follow standard fields and any custom fields you have created on the person record in Salesloft:
+First Name
+Last Name
+Name
+Email
+Address
+Phone
+Phone Extension
+Mobile Phone
+Home Phone
+LinkedIn URL
+Company Company URL
+Title
+Industry
+City
+State
+Country
+Has Replied?
+Has Bounced?
+Do Not Contact
+Success
+Last Success date
+Last Contacted At
+CRM URL
+CRM ID
+Salesloft ID
+Time Zone
+Starred #
+Sent Emails #
+Email Views #
+Email Clicks #
+Email Replies #
+Calls Owner
+Owner CRM
+Person Stage
+Tags
+Created At
+Updated At
+Linked Account Name
+Linked Account Salesloft ID
+Linked Account CRM ID
+Linked Account Owner CRM ID
+Create People Button
+General actions that add to or provide additional activity from the People page. To access either of these types of actions, go to your People page, and select Create People in the top right corner. These actions include:
+Create Person: Allows you to manually add one Person to Salesloft.
+Import People from a CSV: Allows you to select a CSV file to import multiple People. 
+Imports from Salesforce: Shows how to import People into Salesloft from Salesforce. 
+View Your Import History: Shows previously completed imports. From the Import History page, you can click an import to filter the People list by that import only. 
+ 
+People Table
+The People table is your comprehensive People list. From the People list, you can quickly view primary People info and select People to take specific actions on. You can also filter or sort by these options.
+
+Things to Note: If fields are missing information, they can be edited from the Person Profile page.
+
+For more information on each column listed in the People table, check out The People Table Layout article. 
+Select People Actions
+Salesloft allows you to do more with People than filter & sort, add new People, and export metrics. By selecting multiple People or an individual Person, additional People action items appear at the top of your People list.
+
+Click the links for more information on how to complete each action. For an in-depth explanation of each action, check out our Select People Actions from the People Page article. 
+ 
+ 
+Last Modified By
+Raequel Sank, 3/16/2023 4:35 PM
+Title
+People Page Overview
+URL Name
+People-Page
+Salesloft Knowledge
+People And Accounts
+People
+People Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,36 @@
+INTEGRATIONS
+INTEGRATION PARTNERS
+Salesloft + HubSpot Integration
+
+Sep 27, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+HubSpot's integration with Salesloft allows you to decide the level of contact mapping plus custom fields your team desires. All of your sales tactics will be executed inside of Salesloft and changes to those contact fields will update in your HubSpot CRM, keeping your data clean to focus on your accounts and opportunities.
+
+To setup the integration, you will need to connect and use Data Sync by HubSpot. For more information on Data Sync, check out the Connect and use HubSpot data sync Knowledge Base article. 
+
+Here’s what you get with Data Sync by HubSpot:
+Two-way sync: Data is shared between Salesloft and HubSpot in real time
+Default field mappings: Set-up is quick with out-of-the-box field mappings already created for you
+Historical syncing: Your existing data will sync right away, and updates will sync as they happen
+Learn more about the Salesloft and HubSpot integration on the Salesloft App Directory.
+
+For help or assistance with the integration, contact HubSpot customer support. 
+ 
+Last Modified By
+Stephanie Griffith, 9/27/2021 9:07 PM
+Title
+Salesloft + HubSpot Integration
+URL Name
+Salesloft-HubSpot-Integration
+Salesloft Knowledge
+Integration Partners
+Integrations
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

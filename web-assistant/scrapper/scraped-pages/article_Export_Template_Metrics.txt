@@ -1,0 +1,46 @@
+EMAIL
+Export Template Metrics
+
+Apr 12, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft allows you to easily view the metrics for one template from the stats listed to the right of the template. But in the event that you want to view and share all of those metrics, you can export the data as a CSV file.
+
+The CSV file will include the following template information:
+Title
+Subject
+Body
+Owner
+# Sent Emails
+# Email Views
+# Email Clicks
+# Email Replies
+% Email Views
+% Email Clicks
+% Email Replies
+Tags
+Archived
+
+To export template metrics, follow these steps:
+Select the templates you want to export metrics for, or select all templates using the select all feature from the Template list view.
+Navigate to the Template Actions dropdown menu and select Export Templates.
+A popup will appear asking if you are sure you want to export metrics for the selected template(s). Click Export.
+The export will be downloaded. Click the download to view the metrics.
+ 
+Last Modified By
+Stephanie Griffith, 4/12/2023 2:41 PM
+Title
+Export Template Metrics
+URL Name
+Export-Template-Metrics
+Email Guides
+Email
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,63 @@
+ADMIN GUIDES
+Manage Conversation Intelligence
+
+Jan 18, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+As a Salesloft admin, you manage your team's access to Conversation Intelligence. By providing access to Conversations, Salesloft users can record and share their meetings.
+
+Things to Note: If an admin disables Conversations for any users, the user may still view available recordings.
+
+Navigate to your settings and find the Conversations tab below the Communication section. The Conversation Intelligence Settings are split into the following tabs: 
+General Settings
+Note Tags Settings
+X-Ray Settings
+From the Conversations product tab you can enable and set guidelines for your team’s recordings.
+
+In this article, you will learn about the components of the Conversations settings, including:
+Getting Your Team Started with Conversation Intelligence
+Conversation Intelligence Module
+Manage Bot Settings
+SLU: Team Communication: Conversation Intelligence (Video)
+Getting Your Team Started with Conversation Intelligence
+Before your team can record their meetings, someone has to push “Start”. As a Salesloft admin, this means enabling the feature for individual users.
+
+By purchasing Conversations, you provide your team the entry-level access to recordings. Aka, once Conversations has been turned on, all users on your team can view existing recordings.
+
+But to unlock all the capabilities the Conversations has to offer (call recordings, transcriptions, recording sharing, etc.), each user needs to have the feature enabled.
+
+Follow these instructions to activate Conversations and enable it for your users:
+From your Team Settings, go to the Users tab.
+To enable Conversation Intelligence for a user, turn the toggle from gray to blue in the Meeting Recording column. A notification will appear to confirm that the settings have been updated.
+ 
+Conversation Intelligence Module
+Conversations is a paid module for each user to be able to record, annotate, and analyze your team’s recordings.
+
+When Conversations is enabled for users on your team, our Salesloft team will reach out to add the feature to your contract.
+
+Things to Note: You will not be charged for retroactive use of Conversations. Enjoy testing the feature at no additional cost!
+Manage Bot Settings
+The Bot settings let you determine how the Conversations bot appears with your team’s instance. The Bot settings including the following sections: 
+Bot Name: Determines how the bot will appear as an attendee during meetings. 
+Bot Behavior: where you can configure how and when the bot will join your team's meetings. The bot behaviors include join behaviors and join time. 
+Bot Detects Alternate Emails: Shows the email addresses associated to each Conversation Intelligence user on your team. 
+For a detailed walk through and setup instructions of the Bot Settings tab, check out the Manage the Conversation Intelligence Bot article.   
+SLU: Team Communication: Conversation Intelligence (Video)
+Want to know about team Conversation Intelligence Settings, but prefer a video format? Visit Salesloft University to see the Team Communication: Conversation Intelligence video tutorial. 
+Last Modified By
+Raequel Sank, 1/18/2022 9:20 PM
+Title
+Manage Conversation Intelligence
+URL Name
+Manage-Conversation-Intelligence
+Salesloft Knowledge
+Admin Guides
+Communication Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

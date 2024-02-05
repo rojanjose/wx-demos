@@ -1,0 +1,182 @@
+DEALS
+DEAL MANAGEMENT
+Deal Engagement Score Overview
+
+Feb 21, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Deal Engagement Score (DES) is a health score that helps managers and sellers identify which deals need attention. This 0-100 score is based on 30+ stakeholder engagement and deal progression factors.
+
+By combining the deal engagement score with your “fit” of each account (fit = how close is this account to your typical ICP), you'll have a strong indication of the likelihood of winning a deal.
+
+The DES also highlights which factors most positively and negatively impact the score, kind of like your credit score report. With this type of visibility, you can see how you can improve a deal’s health and make the appropriate actions. 
+
+Things to Note:
+Before you can use and see the Deal Engagement Score, a team admin must enable and setup the score. Check out Manage Deal Engagement Score for more information. 
+Deal Engagement Score only applies to New Business Deals. 
+In this article, you will learn about the Deal Engagement Score, including: 
+How is the Deal Engagement Score Calculated?
+Where can I view the Deal Engagement Score?
+Deal Engagement Score 7 Day Summary
+Deal Engagement Score Key Factors
+ 
+How is the Deal Engagement Score Calculated?
+The Deal Engagement Score is a machine-learning-based health score that gives a directional idea to sellers and their frontline managers about the health of their deals. The score takes into account 2-way engagement between the sellers and the prospect.
+
+The score falls between 0 and 100, with higher numbers indicating good health. Each score will have a colored ring around it. The scores will adhere to the following thresholds that are based on data conducted by Salesloft's data science:
+ 
+Color 	Range	Icon Example 
+
+
+Green
+
+	Scores 70 and above	
+Orange	Scores 40 or above, but less than 70	
+Red	Scores less than 40	
+
+The DES is computed by tracking various activity-related engagement metrics and the data of comparable sales behavior as they relate to closed-won and closed-lost deals.
+
+The activity metrics rely heavily on AE, or full cycle rep, activities (emails, calls, meetings, etc) being logged into Salesloft. Some of the activities that contribute to the score include (but are not limited to):
+Number of emails sent
+Number of calls made
+Number of meetings held
+Email replies received
+In addition, it uses machine learning to look for trends in the last time a prospect was engaged. The trends are created through two possible models that look into comparable sales behavior. As different data comes in, the models refresh themselves to the most recent data. Salesloft has two possible models:
+
+Salesloft uses an anonymized, aggregated Global Model for driving the health score. The global model relies on combining customer data in order to train the model. The global model is especially helpful in a couple of scenarios:
+A customer is brand new to Salesloft and doesn't have enough data to leverage a team-specific model.
+A customer doesn't have enough history of data or doesn't loft a lot of their activities.
+ 
+Where can I view the Deal Engagement Score?
+The Deal Engagement Score will be visible throughout Deals. The visible information may vary based on where you are looking at the score. 
+
+You can find the Deal Engagement Score in the following locations: 
+Pipeline View column: the Score column will show the score associated with the deal if it is available.
+Deal View panel: the Deal Insights panel will display the score, score trends, the 7-day summary, and the key factors influencing the score. 
+Deals Summary page drill-downs: Anywhere there is a drill-down, the engagement score will be displayed if available on a deal. It will appear to the left of the deal in the drill-down
+ 
+Deal Engagement Score 7 Day Summary
+The 7 day summary is included in the Deal Insights panel on the Deal View page. The summary provides a two-sentence recap of what activities have happened on the deal in the past 7 days. The specific activities in the summary include:
+Number of meetings
+Number of email replies
+Number of calls
+Stage changes
+Amount changes
+Close date changes
+ 
+
+The two sentences that can display in the 7-day summary will contain the following details: 
+Sentence 1: Meetings, email replies, and call engagement activity: The first sentence is focused on displaying Engagement Activity. An example of how this may display is "There has been 1 meeting, 2 email replies, and 1 call." The details of the variations of the sentence include: 
+Engagement Activity: Meetings, calls, emails sent, email reply (same values that display on stakeholders panel)
+If there are multiple of the first value use “have”
+If there is a single for the first value use “has”
+The order of activities are meetings, calls, emails sent, email replies
+If there are no meetings in the past 7 days, it will be hidden and display other activities (same for other values)
+If there was no activity on one or a couple of the above items, they will NOT display
+Sentence 2: CRM changes: The details of the variations of the sentence include: 
+CRM changes: Stage Change, Amount Change, Close Date Change
+Stage change
+Progression: If the deal moved forward, display “The stage has progressed to Stage_name”
+Digression: If the deal moved backward, display “The stage has moved back to Stage_name”
+Amount changes
+If there are multiple changes, the summary will take the first and the last value and compare them to each other (increase and decrease)
+
+If there is no activity in the past 7 days, you will see a message that says, There has been no activity in the past week. 
+ 
+
+ 
+Deal Engagement Score Key Factors
+Your Deal Engagement Score is created based on a number of different factors. These factors take into account things like how frequently you are communicating with Stakeholders or how's the level of engagement. The factors are split into the following categories: 
+Recency
+Frequency
+Progression
+Engagement
+All in all, there are about twenty or so different factors that are taken into consideration for your score (You can take a look at all of the possible factors in the chart below).
+
+However, when you are considering your Deal Engagement Score and trying to create a plan of action, all twenty factors aren't really that important. You only need to know the most pressing factors. That is where Key Factors come into play. 
+
+Key Factors surface the top three (3) factors that influence your Deal Engagement Score. These factors are either positive or negative, and they spell out the reasons why your score is the way it is. This way you can quickly see that you are doing a great job sending emails to a Stakeholder, but you're receiving very little engagement (this may hint that you need to switch up your messaging or try to get the Stakeholder on the phone). 
+
+You can find your Key Factors listed on the Deal Detail page, in the Deal Insights panel, under the 7 day Summary. Each factor will contain an icon that represents a positive or negative result, the factor category, and a sentence describing your factor results. 
+
+Things to Note: Factors display as the top three factors if they meet the +/-5 threshold requirement of the factor contributing to your score. This threshold determines if it has a high impact on the score. This may result in 0, 1, 2, or 3 factors showing up in this section.
+ 
+What are all of the key factors? 
+The key factors will be broken into sections based on their category. With each factor, a customer-facing label/badge will be displayed that categorizes the key factors. Let's take a look at all of the possible key factors that influence the score: 
+
+Recency Key Factors
+ 
+
+Key Factor	Feature Definition	Label/Badge	In-app messaging
+Recent Email Trend	Total number of emails in past 14 days / Total number of emails in past 35 days	Recency	X% of emails the past month came during the last 2 weeks. Email activity has increased
+Recent Email Frequency	Total number of emails in past 14 days / Time since first email in that period	Recency	0.X emails per day over the past 14 days
+Days since the last touch	Number of days since last connected call/email reply/meeting held for anyone	Recency	
+
+X days since last engagement from any stakeholder
+
+If no engagement in history..."0 engagements with any stakeholder"
+
+
+Recent calls trend	Total number of calls in past 14 days / Total number of calls in past 35 days	Recency	X% of calls the past month came during the last 2 weeks. Call activity has increased
+Recent calls frequency	Total number of calls in past 14 days / Time since first call in that period	Recency	0.X calls made per day over the past 14 days
+Average calls time gap	Average time gap between calls sent in past 14 days	Recency	X days, on average, between calls in the past 14 days
+
+
+Frequency Key Factors
+ 
+
+Key Factor	Feature Definition	Label/Badge	In-app messaging
+Average email time gap	Average time gap between emails sent in past 14 days	Frequency	X days, on average, between emails sent in the past 14 days
+Total emails	Total number of emails in past 35 days	Frequency	X emails in the past 35 days
+Email frequency	Total number of emails in past 35 days / Time since first email in that period	Frequency	0.X emails per day over the past 35 days
+Total calls	Total number of calls in past 35 days	Frequency	X calls in the past 35 days
+Calls frequency	Total number of calls in past 35 days / Time since first call in that period	Frequency	
+0.X calls made per day over the past 35 days
+
+
+Progression Key Factors
+ 
+
+Key Factor	Feature Definition	Label/Badge	In-app messaging
+Total days in stage	Total number of days the opportunity has been in the current stage	Progression	X days spent in [stage name]
+Week in deal	Number of weeks since the opportunity was created	Progression	X weeks since opportunity creation date
+
+
+Engagement Key Factors
+ 
+
+Key Factor	Feature Definition	Label/Badge	In-app messaging
+Recent email views
+ 	Number of email views in past 14 days	Engagement 	X email views in the past 14 days
+Recent email clicks	Number of email clicks in past 14 days	Engagement 	X email clicks in the past 14 days
+Recent email replies	Number of email replies in past 14 days	Engagement	X email replies in the past 14 days
+Recent email positive replies	Number of email replies in the past 14 days marked positive by sentiment model	Engagement	X email replies with positive sentiment in the past 14 days
+Recent Meetings	Total number of meetings held with anyone in the account in the past 14 days	Engagement	
+
+X days since the last meeting with a stakeholder
+
+If no meetings have occurred..."0 meetings in the last 14 days"
+
+
+Total People	Total people ever touched in the account added as a stakeholder	Multi-threading	X stakeholders have been contacted
+Average calls duration	Average call duration in past 14 days	Engagement	XX seconds, on average, of call duration in the past 14 days
+Recent canceled meetings	Total number of canceled meetings with anyone in the account in the past 14 days	Engagement	X canceled meetings in the past 14 days
+
+ 
+Last Modified By
+Briana Morgan, 2/21/2023 4:29 PM
+Title
+Deal Engagement Score Overview
+URL Name
+Deal-Engagement-Score-Overview
+Deals
+Salesloft Knowledge
+Deal Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

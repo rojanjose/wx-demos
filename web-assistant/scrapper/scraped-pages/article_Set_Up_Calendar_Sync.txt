@@ -1,0 +1,90 @@
+USER GUIDES
+MEETINGS/CALENDAR
+Set Up Calendar Sync
+
+Dec 21, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Once a meeting invite is sent, it's not always set in stone. People reschedule meetings, decline them, or add colleagues, they send agenda requests and may even set some requirements directly in the meeting invite. 
+
+When these changes happen, it's just as important for that information to be updated and logged for your records. 
+
+For users with a Google, Outlook 365, or Microsoft Exchange calendar connection, Salesloft Calendar Sync matches event updates from the calendar to Salesloft and connected CRM, in real-time.
+
+Things to Note: 
+
+Currently Calendar Sync is only available to users with a Gmail, Office 365, and Microsoft Exchange EWS calendar connections. 
+If you have a different calendar connection than Google, Office 365, or Microsoft Exchange EWS calendar, you will not see the Calendar Sync tab under your Calendar Settings. 
+Salesloft does not support the email client SMTP/IMAP. Users with SMTP/IMAP as their connected email client cannot connect their calendar. If you use this email client, you will see an error that states "we don't currently support your calendar provider" in the calendar settings. 
+
+In this article, you'll learn the following:
+
+Enable Calendar Sync as a User
+Sync Meetings to Salesloft
+Sync Calendar Events to Your CRM
+Enable Calendar Sync as a User
+
+
+After a team admin enables calendar sync, users with the Google, Office 365, and Microsoft Exchange EWS calendar connection can enable Calendar Sync feature on the individual level. 
+
+To enable Calendar Sync as an individual user, follow these steps: 
+
+From your Personal Settings, go to the Calendar page.
+Go to the Calendar Sync tab.
+Make sure the Calendar Sync toggle is turned on (blue). When the toggle is on, the label will say Calendar Sync is enabled. 
+
+ 
+
+ 
+Sync Meetings to Salesloft
+Once calendar sync is enabled, Salesloft will automatically pull all meetings which include at least one guest with a Salesloft Person record into Salesloft. 
+
+Things to Note: 
+Sync will not create new People records.
+The following events will not be synced to Salesloft: 
+None of the guests exist in Salesloft as a Person
+All guests domains are on the team domain exclusion list. 
+Event is marked as private on your calendar. 
+Users will see updated meeting information on the activity feed on the Person Profile Page.
+
+For meetings that are canceled, Meeting Canceled Date can be mapped to the Activity field to your CRM so that your team can build reporting around canceled meetings. 
+Sync Calendar Events to Your CRM
+With calendar sync enabled, events that take place in your calendar will automatically sync to your CRM. These events include meetings booked, meeting invite declines, recurring meetings booked...etc.
+ 
+Things to Note: 
+Recurring meetings sync is currently only available for Salesforce. 
+Only recurring meetings scheduled after October 13, 2023 will be synced to SFDC. To ensure recurring meetings are synced to SFDC, we recommend re-booking meetings that were scheduled before October 13, 2023.
+
+Recurring Events in Salesforce
+
+Before you begin syncing your recurring meetings to Salesforce, here are a few things to note about recurring events in Salesforce. Per Salesforce's Event article (See Event Series and Recurring Events section):
+
+Event series: Calendar events with multiple occurrences in In Lightning Experience. Event series are indicated when the IsRecurrence2 field is set to true.
+Recurring Events: Calendar events with multiple occurrences in Salesforce Classic. Recurring events are indicated when the IsRecurrence field is set to true.
+The IsRecurrence2 field and the IsRecurrence field cannot be set to true for the same event.
+Once an event is created in Salesforce, you cannot change the values of IsRecurrence2 or IsRecurrence from true to false or vice versa. Additionally, you cannot set fields associated with IsRecurrence2 for events where IsRecurrence is set to true, or vice versa.
+"For Salesforce Classic recurring events, the following fields must be populated: RecurrenceStartDateTime, RecurrenceEndDateOnly, RecurrenceType."
+In Salesforce Lightening Experience, event series do not have series ID. For this reason, you can not locate other occurrences in a series. 
+For additional information regarding event series and recurring events in Salesforce, check out Salesforce's Limits for Lightening Experience and Limits for Salesforce Classic Recurring Events articles.  
+ 
+
+ 
+
+Last Modified By
+Stephanie Griffith, 12/21/2023 3:30 PM
+Title
+Set Up Calendar Sync
+URL Name
+Set-Up-Calendar-Sync
+Salesloft Knowledge
+Meetings/Calendar
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

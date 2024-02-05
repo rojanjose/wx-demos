@@ -1,0 +1,202 @@
+CADENCES + TASKS
+Create a Cadence
+
+Jul 6, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+A Salesloft Cadence is a repeatable series of steps, or sequence, that mimics your sales process to create a consistent process. Your Cadences in Salesloft allow you to seamlessly execute your tasks in a way that fits your work rhythm (or cadence...get it?).
+
+Since every sales process is different, Salesloft allows you to create and customize your Cadences to your preferences.
+
+Cadences consist of Email, Phone, Other, and/or Integration steps. 
+
+The same creation process is used for you are creating personal and Team Cadences, or shared Cadences between all users on your team.
+
+In this article, we will walk through the steps to create a Cadence, including:
+Create a New Cadence
+The Cadence Settings Page
+Define General Cadence Settings
+Choose Cadence Classification Settings
+Set Cadence Sharing Settings
+Assign Cadence Automation Settings
+Advanced Cadence Settings  - Cadence External Identifier
+Delete Cadence Settings
+Add a Cadence Steps
+Create a New Cadence
+Any time you want to create a new Cadence, you will start from the Cadences Page. 
+
+To add a new Cadence, follow these steps:
+Navigate to The Cadences Page.
+In the upper right corner of your Cadence list click Create Cadence. You will be directed to the Cadence Settings. 
+Fill out the sections in the Cadence Settings Page.
+Once your settings are complete, Click Save Settings.  
+The Cadence Settings Page
+When you add a Cadence, you will define the Cadence information and rules on the Cadence Settings page. 
+
+After the Cadence has been created you can edit information from the Settings tab found in the Cadence view. 
+
+The Cadence Settings page is grouped by similar themes so you can define your Cadence’s functionality. We will walk through each functionality in this article. The Cadence Settings include the following sections: 
+General  
+Classification
+Sharing
+Automation
+Advanced
+Delete
+Define General Cadence Settings
+Your General Cadence Settings assign the basic information required for a Cadence.
+
+
+
+This includes the following fields: 
+Cadence Name
+The first detail in your Cadence Settings is the Cadence’s Name. You can enter or edit the Cadence Name in the available text box. 
+
+Your Cadence’s name should give you a quick idea of this Cadence’s use. For example, you could name your Cadence after the role of people you are reaching out to (i.e. VP of Sales) and then follow that with a breakdown of how many steps will run over however many days (so a 10 step Cadence that runs for 14 days would be “10 x 14”.)
+Cadence ID
+The Cadence ID is a number given to each created Cadence to help identify the Cadence. The ID is especially helpful when building reports in your CRM or if troubleshooting a Cadence is necessary. 
+
+Since the Cadence ID is a default number, the text box the ID appears in may not be edited. If you ever need to share the Cadence ID, click the Copy Cadence ID button located to the right of the Cadence ID. Once the ID is copied, you can paste it wherever you need.
+
+
+Cadence Owner
+The Cadence Owner is the Salesloft user who is in charge of a Cadence. Typically, this is the user who creates the Cadence. 
+
+For Personal Cadences, the Cadence Owner will see the Cadence in their list of Personal Cadences. This means they can add People to the Cadence and run it as their own workflow. 
+
+The owner of a Team Cadence is the user who puts the Cadence together. This may be an admin or manager. 
+When you create a Cadence, the owner will default to your name.
+
+Things to Note: Cadence Owner can be chosen for users who have the Manage Cadences Ownership Permission. Users who do not have this Permission will be assigned as the Cadence owner automatically.
+
+
+ 
+Daily People Target
+The daily people target is the number of people that you want to add to your Cadence every day to keep you on target for your sales goals.
+If you do not meet your goal for a day, there are no penalties within the application.
+If you create a Cadence and know you need to consistently reach out to 20 people per day in order to meet your quota, set your daily people target to 20.
+To add a Daily People Target, type in the number of People you would like to add the to cadence each day in the available text box. 
+
+
+Include an email footer
+The Include an email footer in all emails sent from this cadence option adds your designated Email Footer to the bottom of any emails sent from the cadence. Email footers may include standard messaging or an opt out link that will mark the person as Do Not Contact in Salesloft.
+ 
+Choose Cadence Classification Settings
+ Your Cadence Classification Settings help define the type of Cadence you are creating. Most of these classifications will allow you to filter and dig into additional Cadence metrics. 
+
+The Cadence Classification Settings include the following: 
+Cadence Function
+The Cadence Function defines the type of Cadence. Once the function is set, you can reference the function in your Cadence Analytics to compare common types of Cadences or see which types of Cadences are performing best (example, are your inbound Cadences seeing more success than outbound?) 
+
+When you are editing your Cadence Settings, you can select the Cadence Function dropdown to define the use case of your Cadence. You may choose one of the following options: 
+Outbound: denotes an outbound cadence, typically for sales purposes.
+Inbound: denotes an inbound sales cadence.
+Event: denotes a cadence used for an upcoming event.
+Other: denotes a cadence outside of the standard process. 
+ 
+Cadence Priority
+The Cadence Priority allows you to select which Cadences are most important to run. This will vary depending on your role or personal preferences. If you are an SDR focussed on booking meetings with prospects in the Pacific region, your priority will be different from the Account Executive aiming to maintain a connection and close an opportunity.
+
+Things to Note: Team admins can edit the priority levels to fit your team.
+
+Your team can set the Priority level of the Cadence in your Cadence Settings. The default options include the following: 
+High
+Medium 
+Low
+None (Default)
+ 
+
+Once the Cadence Priority is set, you can prioritize your Cadence list when you run your steps.  
+Cadence Tags
+Tags act like labels for your Cadence. They can help you assign labels to similar Cadences, like Cadences geared towards a specific region or persona. 
+
+To add a tag, type the name of the tag you want to apply and hit the Enter key on your keyboard. The tag will appear in a bubble above the Add New Tag text box.
+
+To remove a tag, under Tags, click the X next to the tag name you want to remove.
+
+
+ 
+Set Cadence Sharing Settings
+The Sharing Settings allow you to choose the Cadence Type, including: Personal Cadence or Team Cadence. Choosing the Cadence Type allows you to assign how many users may have access to the Cadence. 
+
+Once you choose the Cadence Type, additional settings will appear, including:
+Personal Cadence
+Check the box for Allow other team members to view and copy this Cadence if you wish to share this Cadence with other users. 
+Team Cadence:
+Assign Groups to the Team Cadence
+Make the Team Cadence an Operational Cadence
+Assign Cadence Automation Settings
+Cadence Automation Settings assign specific actions to take place when an initial action (or triggering action) occurs. The automation settings include defining a Person’s stage based on a Cadence action and automatically removing People from the Cadence. 
+
+In your Cadence, you can put People into stages after certain actions occur. When a Stage is selected, the Person stage will update and reflect where they are in the sales cycle. 
+
+Things to Note: Stages Settings inform you where a Person is in your sales cycle. A team admin can define what the available Person settings include in the Team Stages Setting. 
+
+You can set stages when a Person completed the following actions:
+Email Bounces
+Replied to your email
+When you first add them to a Cadence
+When they complete a Cadence.
+Click the checkboxes to automate the following actions from your Cadence. 
+Automatically remove people from this Cadence if they reply: Removes People from the Cadence once they reply to any Lofted email from a Cadence or sent as a one-off.  
+Automatically remove people from this Cadence if their email bounces: Removes people from the Cadence if you receive a bounce back, meaning the email was incorrect or not deliverable.
+Automatically remove people from this cadence if a meeting is booked from related email step: Once a Person books a meeting using a calendar link or insert availability link shared from an email in this Cadence, they will be removed from this Cadence.
+Things to Note: This feature will only remove a Person from a Cadence when they book a meeting using your Salesloft Meeting link sent from the Cadence email.
+It will NOT remove person from the cadence in the following cases:
+A sales rep books a meeting on demand via “Quick Actions“ in Salesloft.
+The meeting is booked using the Google / Outlook calendar and synced to Salesloft.
+An SDR books a meeting on behalf of the prospect via their calendar page.
+The sales rep sends a non-Salesloft meeting link. 
+Automatically reschedule step due dates when a person is marked out of office: Enables Out Of Office (OOO) Detection, which will shift Cadence step dates when an out of office reply is received from a Person. 
+ 
+ 
+Advanced Cadence Settings  - Cadence External Identifier
+The External Identifier helps identify a specific Cadence based on one identifier. It comes in handy when a team wants to report on an individual Cadence's track record or a group of Cadences.
+
+The External Identifier can be mapped and pushed to your CRM in the Activity Field Configuration. To add the External Identifier to a Cadence, follow these steps:
+Create the Cadence. 
+Scroll to the Advanced section. 
+In the External Identifier text field, enter the name you want to associate to this Cadence. You can add whatever identifier you would like, but we recommend using a naming convention you will remember (like Cadence-31 or a series of numbers).
+. Click Save Settings.
+ 
+ 
+Delete Cadence Settings  
+The final settings on the Cadence Settings page allow you to remove the Cadence from Salesloft. 
+
+There are two ways to remove a Cadence: 
+Archive Cadence: Best practice is to archive cadences that are no longer in use.
+ 
+ 
+Delete Cadence: Permanently delete this cadence from your Salesloft instance. Deleting this cadence will remove everyone from this cadence. Any data associate with the cadence will be gone and cannot be recovered. 
+
+Click the option that best suits your needs. After you select an option, a pop up will appear to confirm the action. Once the action is completed, you will be redirected to the Cadences Page. The Cadence you Archived or Deleted will no longer be visible. 
+ 
+Add Your Cadence Steps
+Once you hit Save Settings on your Cadence Settings, the Cadence has been created and exists as a Cadence. However, the Cadence you’ve created is an empty shell. Cadence Steps need to be added in order to complete your new Cadence. 
+
+As soon as you hit Save Settings, you will be directed to the Cadence Overview page. The space will have two available options: 
+Start from Scratch: Allows you to add steps on your own. This is best for creating your own specific Cadences. 
+Start with Cadence Frameworks: Allows you to select a Cadence Framework. 
+If you start from scratch, you will choose the type of step you want to add to your Cadence. Click the appropriate link below to learn more about each kind of step type you can add to your Cadences.
+Add an Email Step
+Add a Phone Step
+Add an Other Step
+Add an Integration Step
+ 
+ 
+Last Modified By
+Raequel Sank, 7/6/2023 9:01 PM
+Title
+Create a Cadence
+URL Name
+Create-a-Cadence
+Salesloft Knowledge
+Cadences + Tasks
+Create A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

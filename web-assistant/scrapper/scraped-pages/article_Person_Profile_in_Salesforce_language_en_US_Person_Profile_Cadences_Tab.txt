@@ -1,0 +1,84 @@
+USER GUIDES
+SALESLOFT CONNECT
+CONNECT FOR SALESFORCE
+Person Profile in Salesforce
+
+Aug 10, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft Connect for Salesforce offers visibility into a Salesloft Person Profile from the side panel within your browser. The Person Profile view gives you a snapshot of Salesloft information. This way you don’t need to bounce back and forth between Salesforce and the Salesloft platform.
+
+When you open the side panel, it will display the Person info of the Lead or Contact you are viewing. As you navigate through Salesforce, the sidebar will automatically display your Contact's Salesloft profile.
+
+In this article, we will walk through the Person Profile View in Salesforce, including: 
+Person Information and Stats
+Person Profile Contact Tab
+Person Profile Cadences Tab
+Person Profile Notes Tab
+Person Information and Stats
+A Person Profile displays all of the familiar information and actions available in Salesloft, including:
+Person’s information: Name, Title, Account, and Company Website
+Integration Icons (if applicable)
+Create a Tasks: Opens a new tasks for the Person
+Success button: Mark your Contact as a Success
+Edit icon: Click the "pencil" icon to edit the Person’s information.
+Person stats: Up-to-date metrics on your team’s engagement with this Person. 
+Calls
+Sent
+Viewed
+Clicked
+Replied
+ 
+Person Profile Contact Tab
+Below the Person Profile information, there are multiple tabs to view. The first is the Contact tab. The Contact tab shows the Person’s contact information, including email address, available phone numbers, and other standard information available for that Contact.
+
+Things to Note: Contact information pulls from the completed fields of the Person’s Salesloft profile.
+
+In addition to viewing the Contact info, you can take the following actions:
+Click available email addresses to send an email.
+Click available phone number to open the Dialer and make a call. 
+Update the Person Stage: The Person Stage keeps you up-to-date with where the Person is in the sales cycle. To update a Stage, select the Person Stage drop-down menu and pick the stage you want.
+Add tags: Tags are labels or folders that you can use to organize groups of People in Salesloft. To add a tag, type the name of the tag in the text box and hit your enter key.
+Select a Contact Restriction: Under the Contact Restriction section of the contact info, click Edit to assign a contact restriction. When you click Edit, the Contact Restriction Module will appear. Once a selection is made, the contact restriction will appear in the side panel. Depending on which contact restriction is selected, functions like clicking a phone number or email address will be disabled. 
+ 
+Edit Custom Person Fields: You can edit customer Person fields in the side panel. Custom Person Fields are additional fields created by your Salesloft team admin. Any available custom fields can be found at the bottom of the Contact tab. The following custom fields types can be updated: Picklist, Date and Text fields.
+Things to Note: Editing fields in the side panel respects the Edit People Permission. 
+Person Profile Cadences Tab
+The Cadences tab displays information about Cadences a Person is on as well as their Cadence history.
+
+In addition to viewing the Person’s Cadence history, you can also add the Person to a Cadence. Select the green Add to Cadence button. From the Add Person to Cadence module, you can do the following:
+Search from My Cadences or Team Cadences.
+Select the Cadence you want.
+Add the Person to a specific Cadence step. Click Show Steps to the right of the Cadence name to expand the view and see all of the steps. Select the step you would like to add the Person to. If you don't want to view the steps, select Hide Steps. 
+If the Cadence uses A/B testing, you can select the email variant you would like that Person to receive. 
+ 
+
+You can take actions on People who are active in a Cadence from the side panel, including changing the Person’s Cadence due date and removing the Person from the Cadence.
+Select the green Calendar icon and pick a new date to pause the Person on a Cadence.
+Remove a Contact from a Cadence by selecting the red Remove icon.
+ 
+Person Profile Notes Tab
+The Notes tab does exactly what the name says: it allows you to log notes on the Person’s record in Salesloft. When you log a note, you can quickly reference it from the Notes tab, or view it under recent activity. Notes even log to your Salesforce activity history with the subject line “Note” for seamless logging and clarity across the platforms.
+
+Click the Notes tab to view and add notes to this Contact.
+ 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 8/10/2022 1:35 PM
+Title
+Person Profile in Salesforce
+URL Name
+Person-Profile-in-Salesforce
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Connect For Salesforce
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

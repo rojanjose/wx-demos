@@ -1,0 +1,40 @@
+ADMIN GUIDES
+Manage Messenger
+
+Mar 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Admins with teams who have purchased Messenger will have the ability to turn it on under Team Dialer Settings and grant their team the ability to send and receive SMS messages through Salesloft.  
+
+Things to Note: 
+Access to Messenger requires purchase of an unlimited Talk and Text plan for any teams that plan on using Messenger. For more information, please reach out to your Salesloft rep. 
+Users must have the Messenger permission in order to enable messenger.
+To turn on Messenger for your team, follow these steps:
+Go to the Dialer page under your Team Settings.
+From the Dialer Settings, select the Messenger tab.
+Below Messenger, you will see a toggle. Click the toggle to turn it from grey to blue. The button will change to say Messenger is enabled. 
+If the toggle is grey, it will say Messenger is disabled, meaning your team will not be able to send messages.
+ 
+ 
+
+Once Messenger has been enabled for your team, your admin can contact the Salesloft Support Team to enable the Messenger license for individual users.
+ 
+Last Modified By
+Stephanie Griffith, 3/10/2023 6:36 PM
+Title
+Manage Messenger
+URL Name
+Manage-Messenger
+Admin Guides
+Dialer + Messenger
+Dialer Management
+Salesloft Knowledge
+Messenger
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

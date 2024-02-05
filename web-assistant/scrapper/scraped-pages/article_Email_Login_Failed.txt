@@ -1,0 +1,26 @@
+EMAIL
+Email Error Login Failed
+
+Mar 24, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The mail server rejected the connection when Salesloft attempted to send the email.
+
+Re-verify and save your SMPT/IMAP protocols by navigating to "Settings" then "Emails." Once your protocols are re-verified, simply navigate back to the email step and run it again.
+Last Modified By
+Stephanie Griffith, 3/24/2023 4:45 PM
+Title
+Email Error Login Failed
+URL Name
+Email-Login-Failed
+Email
+Salesloft Knowledge
+Email FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

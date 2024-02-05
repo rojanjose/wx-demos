@@ -1,0 +1,167 @@
+CRM
+Salesloft Connect for Dynamics
+
+Jul 5, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft Connect for Dynamics brings the core Salesloft functionality into your Microsoft Dynamics instance. Run your targeted Cadences, send one-off emails to individual records, use the Dialer to make calls, or view all details on a Person directly in the sidebar.
+
+In this article, you will learn how to set up Connect for Dynamics and explain the features this extension offers, including:
+Install Connect for Dynamics
+Salesloft Imports from Dynamics
+Click to Call in Dynamics
+Loft an Email in Dynamics
+Connect for Dynamics Side Panel
+Running Cadence Steps in Dynamics
+View Salesloft Person Record Details
+Hot Leads in Connect for Dynamics
+Install Connect for Dynamics
+Before you Loft emails, view Salesloft People information, and execute Cadences from your Dynamics account, you need to Download the Salesloft Chrome Extension. 
+
+After the extension has been installed, you will gain access to Salesloft features within your Dynamics instance!
+
+Things to Note: You must be logged into SalesLoft in order to see and use the buttons and workflow sidebar in Dynamics.
+Salesloft Imports from Dynamics
+Once the extension has been downloaded, you may import records from your Dynamics account.
+
+Things to Note: For those familiar with our Connect for Salesforce extension, please note the following differences for Connect for Dynamics imports:
+Imports from reports in Dynamics are not currently supported (list views are supported!)
+Importing related Contacts or Leads directly from an Opportunity or Campaign is not currently supported (this is supported for Accounts!)
+
+The following types of imports can be completed:
+Import individual Leads, Contacts, and Accounts
+ 
+ 
+Bulk import lists of Leads, Contacts, and Accounts (up to 2,000 records)
+ 
+ 
+Import Contacts from the Account record
+ 
+Click to Call in Dynamics
+Salesloft’s Dialer lets you call from wherever you work, including your Dynamics instance. With click-to-call, all you have to do is click the Call button next to a Person’s phone number. Once you’ve clicked Call, the Dialer functions exactly like it does in-app. 
+
+The Call button can be found next to the phone field on a Dynamics record. 
+
+Things to Note: The Call button is not available in listviews. 
+
+
+
+Once you click-to-call, use the Dialer just like you would within the Salesloft platform. When the call is finished, you can log the call or make a new one by clicking on the reset button at the top of the Dialer. 
+Loft an Email in Dynamics
+Connect for Dynamics allows you to leverage the power and features of Salesloft email and templates from the Loft It button. Using the Loft It feature opens a Salesloft email using the Person's email address as your recipient. You can compose a new message or use templates or snippets. Lofting from Dynamics also offers email tracking and logs your emails in Salesloft (and Dynamics) upon sending. 
+
+When composing emails in Connect for Dynamics, you may add CC or BCC recipients by clicking the CC/BCC link in the upper right hand corner of the email compose pane. Enter multiple email addresses in the CC or BCC fields by separating them with a comma.
+
+To send an email from Dynamics, follow these steps:
+Go to the Lead or Contact record.
+Click the Loft It button next to the Person’s email address. The Email Window will appear in the bottom right corner.
+Compose your message. Add templates or snippets by selecting the Insert button in the bottom right corner of the email window.
+Send the Cadence email using one of the following options:
+Send: sends the email to the Person and logs the email in Salesloft and Dynamics. 
+Schedule Send: the Calendar icon will allow you to schedule the email to send later. When scheduling a step in advance, you can set the emails to go at a certain time according to your time zone or the time zone of the Person receiving the email. 
+Send All: sends the emails to each Person listed on the Cadence step and logs the email in Salesloft and Dynamics.
+Schedule Send All: the Calendar icon will allow you to schedule all of the emails in the Cadence step to send at a later time. When scheduling a step in advance, you can set the emails to go at a certain time according to your time zone or the time zone of the Person receiving the email. 
+ 
+Connect for Dynamics Side Panel
+The Connect for Dynamics side panel opens more of Salesloft’s core functionality within Dynamics, like viewing Salesloft Person information and running Cadences.
+
+To access the Connect for Dynamics side panel, click on the Salesloft logo on the right-hand side of the page. The side panel will appear on the right side of your page.
+
+
+ 
+The Side Panel has different icons at the top that take you to different panel pages or tabs. Select the links below to learn more about each tab. The Side Panel tabs include: 
+Person Profile Tab
+Cadence Tab
+Tasks in Dynamics
+Hot Leads Tab
+ 
+Run Cadence Steps in Dynamics
+You can run entire Cadences straight from your Dynamics instance.
+
+To view Cadence steps that are currently due inside Dynamics, open the Connect for Dynamics side panel by clicking the icon in the lower right corner of the page. On the top bar of the panel, select the Cadence icon (rocket ship). This will take you to the Run a Cadence list in the side panel that contains a list of each Cadence step with open activities. 
+ 
+
+You can sort the Cadence steps in order to group steps into categories and see them in a certain order. Click the Sorted by drop down and select one of the following options to sort in ascending or descending order: 
+Cadence name
+Cadence priority
+Step type
+Time Zone
+After you select a Cadence step to run, the step itself will have sorting options, so you can rearranging the order that you will contact People. The Cadence step order can be sorted with the following: 
+Due on 
+Last Name
+Account
+Starred
+Replied
+Timezone
+Activity
+Missing Email 
+Account Tier
+Once you are ready to run a Cadence, follow these instructions to run a Cadence step from Dynamics: 
+Go into Dynamics and open the Connect for Dynamics side panel by clicking the icon in the lower right corner of the page. If you don't see the icon, make sure your CRM is connected to Salesloft and you have the most up-to-date version of the Salesloft Chrome Extension . 
+On the top bar of the panel, select the Cadence icon (rocket ship). This will take you to a list of Cadence steps that are currently due. 
+Select the Cadence step you would like to run by hovering over the step and clicking Run Step.
+Once you are in the Cadence step, you will see the list of People currently due for that step. Your list will automatically be sorted by Timezone. You may sort your list by your preferred category.
+Select a Person to run the Cadence step. When you select a Person, Dynamics will refresh to that Person’s Lead or Contact record.
+Run the email, call, or other step just as you would in Salesloft.
+ 
+View Salesloft Person Record Details
+Salesloft Connect for Dynamics offers visibility into a Salesloft Person Profile from the side panel within your browser. The Person Profile view gives you a snapshot of Salesloft information. This way you don’t need to bounce back and forth between Dynamics and the Salesloft platform.
+
+When you open the side panel, it will display the Person info of the Lead or Contact you are viewing. As you navigate through Dynamics, the sidebar will automatically display your Contact's Salesloft profile.
+
+
+ 
+
+The Person Record view includes the following details: 
+Person Information and Stats: displays all of the familiar information and actions available in Salesloft, including:
+Person’s information: Name, Title, Account, and Company Website
+Integration Icons (if applicable)
+Create a Tasks: Opens a new tasks for the Person
+Success button: Mark your Contact as a Success
+Edit icon: Click the "pencil" icon to edit the Person’s information.
+Person stats: Up-to-date metrics on your team’s engagement with this Person. 
+Calls
+Sent
+Viewed
+Clicked
+Replied
+Person Profile Contact Tab: The Contact tab shows the Person’s contact information, including email address, available phone numbers, and other standard information available for that Contact.
+Things to Note: Contact information pulls from the completed fields of the Person’s Salesloft profile.
+Person Profile Cadences Tab: Allows you to view the Person’s Cadence history and take the following actions on People:
+Select the green Add to Cadence button. From the Add Person to Cadence module, you can do the following:
+Search from My Cadences or Team Cadences.
+Select the Cadence you want.
+Add the Person to a specific Cadence step. Click Show Steps to the right of the Cadence name to expand the view and see all of the steps. Select the step you would like to add the Person to. If you don't want to view the steps, select Hide Steps. 
+If the Cadence uses A/B testing, you can select the email variant you would like that Person to receive. 
+Change the Person’s Cadence due date and removing the Person from the Cadence. Select the green Calendar icon and pick a new date to pause the Person on a Cadence.
+Remove a Contact from a Cadence by selecting the red Remove icon.
+Person Profile Notes Tab: The Notes tab allows you to log notes on the Person’s record in Salesloft. 
+Hot Leads in Connect for Dynamics
+Hot Leads identify which prospects should be your highest priority based off of their level of engagement. You can view and take actions on Hot Leads from the Dynamics side panel, similar to how you can access Hot Leads in Salesloft. 
+
+A Hot Lead Chrome notification will display the Person's name and their company whenever a new Hot Lead comes in.
+
+View your full list of Hot Leads by clicking the Salesloft icon on the right side of any Dynamics page. Once the sidebar is displayed, click the flame icon on the top of the side panel to see the list of current Hot Leads.
+
+This list will show all Hot Leads assigned to you in order of most recent to least recent Date Created by default. You can click the Sorted by: Date Created button in order to reverse the order from least recent to most recent.
+
+Click the Refresh button at the top of the sidebar to refresh the list and see newer Hot Leads at any time. If there are new Hot Leads, they will get pulled into this view at the top of the list.
+ 
+Last Modified By
+Stephanie Griffith, 7/5/2022 8:41 PM
+Title
+Salesloft Connect for Dynamics
+URL Name
+Salesloft-Connect-for-Dynamics
+CRM
+Salesloft Knowledge
+Dynamics User Guides
+Dynamics
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

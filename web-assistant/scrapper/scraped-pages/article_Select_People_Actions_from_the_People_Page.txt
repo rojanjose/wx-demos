@@ -1,0 +1,159 @@
+PEOPLE AND ACCOUNTS
+Select People Actions from the People Page
+
+Sep 20, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+You can manage all of the People in your Salesloft instance from the People page. This page is designed to help you import, sort, filter, and take action on individuals or multiple People at a time. To access the People page, select the Person icon (it looks like a peg from the game Life).
+
+There are a lot of available features and visible information on the People page. In this article, we will walk through the different features and views, including:
+Add People to a Cadence
+Remove from All Cadences
+Send a One-off Email
+Add People to an Account
+Update Job Seniority
+Update People Stages
+Update the People Owner
+Manage People Tags
+Additional People Actions
+For a complete guide on each component of the People page, check out our The People Table Layout article.
+Add People to a Cadence
+From your People list, you can select a number of People and easily add them to a Cadence. Execute just the right series of steps based on the People that require action by using status, stage, or tag filters.
+
+Here’s an example: Let’s say a lot of your previous prospects have been set with the stage “Not Interested,” but you’re ready to re-engage those Accounts. You can filter your People list and add all of those People to a Cadence specifically built to maximize your potential to connect.
+
+To add People to a Cadence, follow these steps:
+Go to the People page. Filter & sort your list if you would like.  
+Select the Person or People you want to add to a Cadence.
+Click the Add to Cadence button (with the rocket ship).
+Select the Cadence you want them to add People to. Selecting the Cadence will start the Person/People on day 1, step 1 of the Cadence.
+To add People to a specific step within a Cadence, select Show Steps on the row with the Cadence name. This reveals all of the individual steps within that Cadence, including variants. Select the step to highlight it.
+Click Add to Cadence. If a step is selected, the customer(s) will be added to the selected Cadence, at the selected step.
+ 
+Remove from All Cadences
+In some cases, once a Person or group of People have worked their way through your sales cycle, you may not want them in any Cadence.
+
+You may individually remove a Person from each and every Cadence they are running on, or you can make your life easy and remove that Person from all Cadences (even those that have slipped your radar) in one simple action.
+
+Things to Note: Team admins may control whether or not users have the option to remove People from all Cadences with the Permission. 
+
+To remove People from a Cadence, follow these steps:
+Go to the People page. Filter & sort your list if you would like.  
+Select the Person or People you want to remove from Cadences.
+Click the down arrow next to the Add to Cadence button. A dropdown menu will open.
+From the drop down, select Remove from All Cadences.
+A confirmation message will appear. Select Remove from All Cadences to continue. Click Cancel to go back without completing the action. 
+Once the action is confirmed, you will see a notification at the top of your page that the People will be removed from all Cadences. Depending on how many People are being removed, or the number of Cadences, this action could take some time. 
+ 
+Send a One-off Email
+Quickly compose an email to an individual Person or a select number of People outside of the Cadence.
+
+To send a one-off email, follow these steps:
+From the People page, find the Person you want to send a one-off email to and click the checkboxes next to their name.
+Click the Email button with the envelope icon. The email window will appear in the bottom right corner of the page. 
+Draft your one-off email, or select an email template, and send.
+ 
+Send a Multi-select One-off Email
+If you select multiple People, each Person will receive an individual email to their inbox.
+
+Things to Note:
+You can select up to 100 People (which is the maximum you can view on the People page at a time). 
+If a Person has a Contact Restrictions, is marked as Do Not Contact, or does not have an email address, you will not be able to send a one-off email and you will not be able to click the Send a One-off Email icon. Make sure all People with those restrictions have been de-selected to send one-off emails. 
+To send a one-off email to multiple People at the same time, follow these steps:
+From the People page, find the People you want to send a one-off email to and click the checkboxes next to their names.
+Click the Email button with the envelope icon. You will be redirected to an email compose page. 
+Select a template or compose an email. 
+Use the Preview icon in the upper left corner to see how the email will be to the recipient.
+Click Send or the clock icon to schedule when your email will send. 
+ 
+Add People to an Account
+Assigning People to an Account in Salesloft is similar to connecting a Salesforce Contact to the appropriate Salesforce Account.
+
+It allows all of the metrics and logged information that are associated with the individual Person to link to their Account information. This results in complete data regarding your conversations with that Account, which can help your sales engagement.
+
+To assign People to an Account, follow these steps:
+Select the People you want to assign to an Account.
+Click the Edit button from the top bar. The Edit People module will appear
+In the Account text box, begin typing the name of the Account. You must add two characters before the name will populate.
+When the list of Accounts populate, click the Account's name.
+Click Save. The People will be added to the account. You will now see the Account name listed on the Person's details. 
+Update Job Seniority
+In the People Table a contact's Job Seniority is editable both by a single Person edit, or by selecting multiple People to edit their seniorities at once.
+
+To edit an individual Person's Job Seniority from the People page, follow these steps:
+From the People page, find the Person. 
+Go to the Job Seniority column. If the Job Seniority is "Unknown," there will be a purple diamond next to the label.
+Click on the purple diamond. A dropdown menu will appear to allow selections of Job Seniority labels on the following:
+Director
+Executive
+Individual Contributor
+Manager
+Vice President
+Click Update Seniority. The Seniority level will update.
+Select multiple People and edit their Job Seniority by following these steps:
+Select the Person (or People) you want to update the Job Seniority for.
+When you select a Person, a line of People action items will appear at the top of your list. Click the Edit button from the top bar. The Edit People module will appear
+Select the Job Seniority dropdown. The options will appear. 
+Choose the Job Seniority. 
+Click Save. A message will appear to confirm the Job Seniority was updated. 
+ 
+Update People Stages
+Your People stages act like the status of where a Person is in the sales process.
+
+To update People stages in bulk, follow these steps:
+Click the checkboxes next to any People who need a stage update.
+When you select a Person, a line of People action items will appear at the top of your list. Click the Edit button from the top bar. The Edit People module will appear
+Select the Stages dropdown. The options will appear. 
+Choose the Stage. 
+Click Save. A message will appear to confirm the Stage was updated. 
+ 
+Update the People Owner
+When a Person is imported into Salesloft, they are automatically assigned to, and “owned” by, the user who imported.
+
+Now, while you don’t need to have ownership to email or call a Person, they will only show up under “My People” lists if they are owned by you. Plus, if your sales team makes changes or a sales rep moves to a new role or leaves the company, you may need to switch the Person owner to another Salesloft user.
+
+This is why you can update the owner of a Person or select People. To change the owner of People, follow these steps:
+From the People page, filter & sort your People list (if necessary). Select the Person or multiple People by checking the box to the left of their name.
+When you select a Person, a line of People action items will appear at the top of your list. Click the Edit button from the top bar. The Edit People module will appear
+Select or search in the Owner field. The available options will appear. 
+Choose an Owner. 
+Click Save. A message will appear to confirm the Owner was updated. 
+ 
+Manage People Tags
+Salesloft tags are labels that you can use to classify and sort different Salesloft objects together. With tags, you can group together similar People to take quick actions on, like adding them to a Cadence.
+
+From the People page, you can add or remove People tags by following these steps:  
+Select the Person (or People) you want to add or remove any tags from by clicking the checkbox next to the Person’s name.
+When you select a Person, a line of People action items will appear at the top of your list. Click the Tags icon.
+To add a tag, click the Add Tags link. Then, type your tag and click add. Continue adding your tags individually, and click Save.
+ 
+
+To remove tags, click the Remove Tags link. Then, click the X next to each tag you wish to remove and click Save.
+Additional People Actions
+There are even more actions you can make on a Person from the People page. When you select People and click More, you will open the Additional People Actions dropdown menu.
+
+Some of these actions limit accessibility to People in Salesloft or remove them entirely. This is why they require the an extra click to perform, so you have a failsafe and don’t accidentally Delete someone from Salesloft. 
+Mark Star
+Mark Do Not Contact: Keeps Salesloft users from engaging with a Person in Salesloft. All the metrics on the Person will still exist.
+Delete People: Deletes the Person from Salesloft. All metrics associated with that Person will also be deleted.
+Mark as EU Resident: Marking someone as an EU Resident disables open tracking, click tracking, and Live Website Tracking for GDPR compliance.
+Unmark EU Resident: Removes the EU Resident label from users who have previously been marked as an EU Resident.
+ 
+Last Modified By
+Stephanie Griffith, 9/20/2021 7:45 PM
+Title
+Select People Actions from the People Page
+URL Name
+Select-People-Actions-from-the-People-Page
+Salesloft Knowledge
+People And Accounts
+People
+People Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

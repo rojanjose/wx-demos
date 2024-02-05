@@ -1,0 +1,58 @@
+CADENCES + TASKS
+Change a Person's Cadence Step Due Date
+
+May 19, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Your Cadence is designed to run steps on the designated day and in a consistent pattern. However, there could be times when the due dates of your process need to be moved. When these moments come up, you can change the date a Person is due to run a cadence step.
+
+Things to Note:
+If you are headed out of office and would like to stop all Cadence activity during your time off, you can Pause all Cadences.
+While changing due dates is a helpful tool, it's not meant to be used often. If you notice you are changing due dates regularly (once a week on average), it could mean that your cadence process does not fit your personal workflow. Consider reviewing your cadences to best fit your day to day. 
+In this article, you will learn about changing a Person's due date from the People tab inside a Cadence, including: 
+Common Use Cases for Changing a Due Date in Salesloft
+Changing a Due Date
+Common Use Cases for Changing a Due Date in Salesloft
+Let's walk through some use cases that identify ideal moments for changing a Cadence due date. Changing due dates is ideal for moving dates of a single Cadence at a time. 
+Delay a Step
+Sometimes, you may need to delay your Cadence. For example, let’s say you receive an out of office (OOO) response from a Person. Rather than falling behind in your process, change that Person's step due date so you can put those actions on hold until you are ready to complete them.
+Moving dates Earlier
+Changing the cadence due date can allow you to run actions earlier that proposed. 
+
+Some cadences may have a longer span between steps than you want. Rather than wait on each one, grab multiple records and change them to the current date or perhaps a day later.
+
+Moving your cadence due date to an earlier day is also suggested if you are reacting to engagement with your prospect. For example, let’s say you create a cadence that includes a meeting confirmation. If your prospect books time on your calendar earlier than the original Cadence due due, change the date to the day before of the meeting to send the reminder email.
+Move to a Specific Date
+Let’s say your company has an upcoming conference and you want to include an invite to prospects in your ongoing outbound cadence. You can change the Cadence due dates to a specific date to email/call people. This way you can align to the dates prior to a conference and match your cadence to your calendar.
+Holidays
+Change Due Date can account for holidays in different cultures around the globe.
+Managing Workload
+If you have too much or too little work for a day, use change due date to help move your day along. 
+ 
+Changing a Due Date
+To change the due date on People from the Cadence People tab, follow these steps:
+Access the Cadence you need to move People on and select the People tab of the Cadence.
+Filter and sort your People list (if necessary).
+Select specific People or all the People you want to move. Cadence actions will appear at the top of your People list.
+Click the down arrow to the right of the Cadence Actions (rocket ship icon).
+From the Cadence Actions dropdown, select Change Due Date.
+A calendar will pop up. Choose a date for the Person to resume the Cadence.
+Click Update Due Date. 
+ 
+Last Modified By
+Stephanie Griffith, 5/19/2023 1:59 PM
+Title
+Change a Person's Cadence Step Due Date
+URL Name
+Change-Cadence-Step-Due-Date
+Cadences + Tasks
+Manage A Cadence
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

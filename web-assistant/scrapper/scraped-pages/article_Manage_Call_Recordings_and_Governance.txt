@@ -1,0 +1,82 @@
+ADMIN GUIDES
+Manage Call Recordings and Governance
+
+Nov 3, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Call Recordings come with their own set of conditions that need to be adhered to, from complying with company restrictions to state- or country-wide call regulations.
+
+With these regulations in mind, it's important for admins to control recording settings to best fit their team's needs while keeping in compliance with any mandates.
+
+To configure call recording settings across your team, go to the Dialer section within your Team Settings. At the top of the page, click on Call Recordings.
+
+In this article, you will learn how to manage your team's recording behavior from the Call Recordings tab, including:
+Enable Call Recording
+Team Recording Default
+Recording Authentication
+Call Recording User Settings
+Call Recording Governance Restrictions
+Enable Call Recording 
+Step one with call recording: enable the feature. By enabling call recording, you are allowing your team's calls to be recorded for sales reference and training purposes.
+
+Things to Note: There is no time setting on call recordings. The dialer records based on the user selection or governance settings.
+
+Use the toggle located below Enable Recording to enable/disable the ability to record calls for your entire team. 
+ 
+Team Recording Default 
+The team recording default decides whether or not your team can be flexible about recording or not recording calls. If the Team Recording Default is toggled off, call recordings will be disabled by default. Users can turn on the call recording by clicking the recording icon when they open the Dialer. 
+Recording Authentication
+Recording authentication adds an element of security to your team's call recordings. 
+
+By requiring authentication, your team will only be able to access those recordings if they are logged into Salesloft. Users who are not logged into Salesloft will be directed to log in before being able to access the recording from the link.
+
+Things to Note: For teams using Conversation Intelligence, enabling Recording Authentication blocks call recordings from the Salesloft Dialer from processing. Video conference recordings will process as normal.
+
+If you toggle on Require Authentication When Sharing, users who click on a Salesloft recording link will be required to log in if they are not already authenticated before listening to a recording. 
+
+Things to Note: When recording authentication is enabled, links may only be shared with the members of your team. If a user sends a link to a non-Salesloft user (like a customer or prospect), they will be prompted to log in to Salesloft but will not be able to hear the recording. 
+ 
+Call Recording User Settings
+Specific users may require different recording settings. For example, a new rep's calls should be recorded for training purposes. On the other hand, reps working in certain territories may be restricted from recording their calls.
+
+To set Call Recordings settings on a user-by-user basis, follow these steps:
+Go to the Dialer section within your Team Settings. At the top of the page, click on Call Recordings.
+Under User Settings, find the name of the user whose recording settings you would like to edit. 
+Use the dropdown pick list next to the user’s name to set their individual settings:
+Team Default: the user inherits the setting set under Team Recording Default.
+On by Default: overrides settings and user has recording turned on.
+Off by Default: overrides settings and user has recording turned off.
+ 
+Call Recording Governance Restrictions
+At Salesloft, we understand that a general “one size fits all” recording setting doesn’t cut it. Specific territories, states, and countries have different laws when it comes to call recording. 
+
+Recording governance rules can be set up based on area codes and international prefixes so they perfectly comply with specific territories.
+
+Things to Note:
+Call recording governance applies to outbound and Inbound Calls with the Salesloft Dialer. 
+An area code/international prefix can only be added to either One-sided Recording or Do Not Record, not both.
+For questions related to acceptable practices for recording phone calls in certain regions, you should refer to your own internal compliance/legal counsel to determine acceptable use cases. While we provide this feature, we do not have recommendations related to appropriate usability.
+To set your call recording governance restrictions, follow these steps:
+From the Dialer settings, select the Call Recordings tab. Below the user defaults, you will find Call Recording Governance.
+In the first box, select US Area Codes or International Codes from the dropdown menu.
+In the second text box, add the area codes that will fit the restriction. You can add multiple area codes and separate them by commas. 
+From the third box, use the dropdown menu to choose your recording preference. You can select One-sided Recording or Do Not Record. Selecting One-sided Recording will only turn on the user's side of the call recording. Selecting Do Not Record will block the call recording for that code.
+Click Add. The area code(s) will be added to the appropriate recording preference list. 
+ 
+Last Modified By
+Stephanie Griffith, 11/3/2021 2:59 PM
+Title
+Manage Call Recordings and Governance
+URL Name
+Manage-Call-Recordings-and-Governance
+Salesloft Knowledge
+Admin Guides
+Dialer Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

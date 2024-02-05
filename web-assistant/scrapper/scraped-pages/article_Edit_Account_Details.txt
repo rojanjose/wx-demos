@@ -1,0 +1,125 @@
+PEOPLE AND ACCOUNTS
+ACCOUNT PROFILE PAGE
+Edit Account Details
+
+Jul 19, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Account Details are all of the information you can view about a particular Account. You can view these details from The Account Profile Page. 
+
+All of the visible information comes from Account field types. If your team admin has configured your CRM Field Configuration, the field types will pull from your CRM whenever you import an account into Salesloft. 
+
+However, in our face-paced, ever-changing world, it's a given that sometimes company related data is going to need an update as addresses change, revenue grows, and new information comes into being. You can manage and edit all of these fields on the Account level from the Account Details page. 
+
+In this article, you will learn about the Account details, including:
+Account Details Panel
+Account Stage
+Edit the Account Details Page
+Account Basics
+Account Custom Fields
+Account Links
+Account Details
+Location Details
+Account Owner
+Account Details Panel
+The Account Details panel shows all populated fields for the account, as well as Custom Fields. Information may be updated by clicking the Edit button.
+
+If your team’s CRM field configuration has been set up, the fields that contribute to the account details will be pulled from the CRM account record upon import. Also, fields can be completed from a CSV import by assigning the account fields.
+
+Things to Note: Only fields populated with data will appear in the information panels
+
+The panel contains certain fields that allow quick actions from the Details Panel. Those fields include:
+Account Stage
+Account Phone Number: Click the phone number to complete a one-off phone call with the dialer.
+Copy phone number: Hover over the Account Details phone number. The option to "Copy" will appear on that line. When you click the "Copy" icon, the number will be copied and you can paste it in any application.
+ 
+Account Stage
+Similar to the Cadence Stage on the People level, the Account Stage lets you know where this Account is in the sales process. This is especially beneficial for anyone using Account-Based Sales methods.
+
+To update the Account Stage, click the Account Stage and select from the stage drop-down menu.
+Edit from the Account Details Page
+While the Account Details Panel offers a quick glance of the Account's data, the details page allows you to view all of that data and edit existing additional fields. 
+
+To access the Account Details page and edit any information, follow these steps:
+Go to the Account Details Panel.
+Select the Edit button in the upper right corner of the panel. 
+Find the section and appropriate field.
+Type the updated information in the text box.
+Once your information is completed, click the Save button in the bottom left of the page.
+If the fields are mapped, the information will pull from your CRM or a CSV file upon import.
+
+Any updates will also reflect on the CRM Account when bidirectional sync is enabled for your team. 
+Account Basics
+Every Salesloft Account requires data in the following two fields:
+Name: Name of the company
+Domain: The website or URL that will act as the primary host for Salesloft data associated with this Account. 
+Both of these fields can be found under the Account Basics section of the Account Details page. 
+
+Since these fields are required, the information will import into Salesloft whenever you create the Account. 
+Account Custom Fields
+Custom fields are additional field types that your team admin can create. With custom fields in place, you can see the important data that relates to the Account you are working. 
+
+For example, maybe you need to reference a specific CRM field when talking to a potential customer. After an admin creates and maps that custom field, you can view that information after the Account has been imported. 
+
+Only custom fields that are listed to show in the Field Layout Settings will be displayed in the Custom Fields section of the Account Details page. Any custom field that is displayed in the Account fields section that contains a URL can be accessed or copied with one click.
+ 
+Account Links
+Account links offer quick access to sources outside of Salesloft. When the fields are completed, the links will appear as icons at the bottom of the Account Information Panel.
+
+The Account Links section contains the following fields:
+Website
+LinkedIn URL
+Twitter Handle
+All of the Account links will be listed under the Account Links section of the Account Details page. 
+Account Details
+Account Details contain the data that you will most likely want to reference during your sales process. These bits and pieces will help you keep you well informed about the customer so you can focus your talking points.
+
+The Account Details contain the follow fields: 
+Conversational Name: The common name. For example, "The Coca-Cola Company" would be the Account Name, but the Conversational Name would be "Coca-Cola."
+Phone Number: The main phone number for the company. This will appear as a clickable link in the Account Details panel.
+Industry: Company's industry
+Description: Tagline or company description
+Account Type: Type of Account as defined by your organization
+Account Tier: Set an Account tier, based on the tier levels defined by your team admin. Account Tiers allow you to prioritize certain tiers within a cadence.
+Founded: Year the company was founded.
+Size: Size of the company
+Revenue: Company's value
+All of the Account detail fields will be listed under the Account Details section of the Account Details page.
+Location Details
+Location Details inform you about the whereabouts of the account. 
+
+All of the location related fields will be listed under the Location Details section of the Account Details page. The Location Details section contains the following field types:
+Street
+City
+State
+Country 
+Postal Code
+Time Zone
+Account Owner
+The Account owner is the user who will work with the Account. Typically, the Account Owner will be the user who imports or adds the Account to Salesloft. The Account owner may be edited.
+
+Things to Note: You do not need to own the Account in order to communicate with them.
+
+To edit the Account Owner, follow these steps:
+Click Edit in the upper corner of the Account Details panel.
+Find and click the Account Owner field.
+Search and select the updated Account owner. 
+Last Modified By
+Briana Morgan, 7/19/2023 6:32 PM
+Title
+Edit Account Details
+URL Name
+Edit-Account-Details
+Salesloft Knowledge
+People And Accounts
+Accounts
+Accounts Page
+Account Profile Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,121 @@
+CADENCES + TASKS
+Out Of Office (OOO) Detection
+
+Nov 30, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Out of Office (OOO) Detection helps you manage Cadence actions for People who are currently out of office. 
+
+Let's be honest, if a prospect is on a beach somewhere, they probably want to disengage as much as possible. When an Out of Office reply comes back from a Person, Salesloft pauses Cadence actions to that Person to prevent you from repeatedly reaching out to prospects who are less likely to connect due to being out of office or on PTO.
+
+Salesloft offers two types of Out of Office Detection: 
+Automatic Out of Office Detection
+Manually Mark a Person as Out of Office 
+
+In this article, you will learn about Out of Office Detection in Salesloft, including: 
+Things to Know About Out of Office Detection
+Enable Out of Office Detection
+Automatic Out of Office Detection
+Manually Mark a Person as Out of Office
+When a Person is Out of Office
+Remove Out of Office
+Things to Know About Out of Office Detection
+Here are the requirements and things you must know in order to use Out of Office Detection within Salesloft:
+OOO Detection is currently only available to users connected to Gmail or Outlook Office 365 accounts.
+Salesloft can detect out of office messages in English and in the following formats:
+US Format - MM/DD/YYYY
+Non-US Format - DD/MM/YY
+Explicit Written - Ex. January 15th, 2022; Jan 15
+Relative Written - Ex. "Next Tuesday, mid-January, next week"
+OOO replies will be detected in the following languages:
+English
+Spanish
+German
+OOO detection must be enabled at the Cadence level.
+Enable Out of Office Detection
+Whether Cadence steps should shift is governed by a setting on the Cadence level. 
+
+When the Automatically reschedule step due dates when a person is marked out of office Cadence setting is on, associated cadence steps will be shifted when an OOO email is detected (automatic OOO detection) or a Person is manually set to OOO. 
+
+If this setting is off, Cadence steps will not be shifted and the steps will be due on their original schedule. 
+
+Why doesn’t Out of Office Detection apply to all planned actions and Cadences by default? 
+
+The Out of Office Detection settings lets you determine whether or not pausing Cadence actions when an email recipient is the best action in relation to your Cadence type. Cadences can be used for different types of communication. While some may focus their cadences on inbound or outbound prospecting, others use Cadences for event communications and announcements. 
+
+To enable Out of Office Detection, follow these steps: 
+Create a Cadence or go to your Cadence Settings page. 
+Under the Cadence Settings Automation section, check the box Automatically reschedule step due dates when a person is marked out of office. 
+Click Save Settings. 
+ 
+
+The Out of Office Detection will apply to any Person that is added to the Cadence after the setting has been saved. 
+Automatic Out Of Office Detection
+We all have different reasons for setting automatic Out of Office replies including work-related events, personal trips, parental leave, and doctor’s appointments. While Out of Office replies differ, they generally include information regarding the sender’s expected Return Date. 
+
+We can think of Return Date information as "data" embedded in email replies. Using algorithms, Automatic Out of Office (OOO) Detection can recognize email patterns and automatically identify and extract the expected return date data.
+
+Once we detect an OOO email, we will automatically shift Cadence steps and automated emails will shift to the day after the specified OOO return date (return day +1). 
+
+Things to Note: Tasks will not shift. Steps that are overdue will remain overdue, but their due dates will change.
+
+Why the added day? Giving your prospects one day after their return date gives them time to catch up and get back into work mode. Since they aren’t overwhelmed by catch-up tasks, there’s an increased likelihood that you will receive a response. 
+ 
+Manually Mark a Person as Out Of Office
+Automatic Out of Office Detection aims to pick up the data from received out of office responses. However, if you learn that a Person will be out of office during a phone conversation or in the event that the out of office message is in a different format, you have the ability to manually mark a Person as Out of Office from their Person Profile page. 
+
+When you manually mark a person as OOO, Salesloft shifts affected Cadence steps to a specified return day you select.  
+
+To manually mark someone as out of office, follow these steps: 
+Go to the Person’s Profile Page. 
+Find the Information Panel in the upper left corner. Select the ellipses icon in the upper right corner of the panel to open the actions menu. 
+In the menu, select Mark Out of Office. The Mark Out of Office module will appear. 
+Set a Return Date. Your return date will be the day your cadence actions resume. So, you can either make it the day the Person is due to return or the day after. 
+Click Mark Out of Office. The Palm Tree icon will appear on the Person’s Profile page. 
+ 
+When a Person is Out of Office
+Out of Office Detection shifts the Cadence actions that are due for a Person until they return from office. But what about one-off actions like emails or phone calls?
+
+You are still able to perform those actions to a Person who is OOO. However, Salesloft will inform you that the Person is Out of Office. You will find different indicators inside emails, the Dialer, and on the Person Profile page that inform you a Person is marked as away. 
+
+Email
+
+Dialer
+
+Person Profile Page: Palm Tree Icon. Hover over the palm tree to view the return date.  
+
+
+ 
+Remove Out of Office
+If a prospect reaches out and informs that they have returned to work, you can remove the out of office status to either mark as back in office or to change the out of office date.
+
+To remove an Out of Office, follow these steps: 
+
+1. Go to the Person’s Profile Page. 
+
+2. Find the Information Panel in the upper left corner. Select the ellipses icon in the upper right corner of the panel to open the actions menu. 
+
+3. In the menu, select Remove Out of Office. The Remove Out of Office Status module will appear. 
+ 
+
+4. Click Remove OOO Status. The Palm Tree icon will be removed from the Person’s Profile page. Any cadence steps will be due immediately. 
+ 
+Last Modified By
+Briana Morgan, 11/30/2022 7:16 PM
+Title
+Out Of Office (OOO) Detection
+URL Name
+Out-Of-Office-Detection
+Salesloft Knowledge
+Cadences + Tasks
+People And Accounts
+Manage A Cadence
+People Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

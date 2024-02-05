@@ -1,0 +1,118 @@
+DEALS
+Create a New Object in Deals
+
+Jul 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft Deals help you track and manage your opportunities between Salesforce and Deals in Salesloft.  
+
+In order for your information to stay the most up-to-date, each object type must be visible inside Salesforce and Deals. By default, data syncs between Salesforce and Deals, so updates in one platform will be reflected in the other. 
+
+If you are working inside Deals and realize an object is missing, you can create a new object inside Deals. Objects added to Deals will be synced back to Salesforce. There are three existing object types you can create from Deals: 
+
+Contact
+Account
+Opportunity
+
+In this article, you will learn how to create certain types of objects from Deals, including: 
+
+Create a New Contact
+Create a New Account
+Create New Opportunities
+Dependent Fields When Creating an Opportunity
+Auto-Add Stakeholders
+
+ 
+
+Create a New Contact
+
+Contacts are the people you work with throughout the Deal. Inside of Deals, these people may also be known as your stakeholders. 
+
+While Contacts are very similar to Leads — and may even start as a Lead — Contacts must be associated with an Account in Salesforce. 
+
+To create a new Contact from Deals, follow these steps: 
+
+In the Deals platform area of Salesloft, go to the Pipeline tab. 
+Click New Object in the upper right corner of the page. The Create New Object window will open. 
+Choose the Object Type Contact. The object type will determine what fields are shown.
+Enter the field details. Required fields will have a red asterisk. 
+Things to Note: Fields displayed may vary based on your team's Object Creation Settings. A team admin can go to the Deals Admin tab, go to Screen Settings, and select CRM Object Creation. From that tab, the admin can manage the fields shown when new objects are created. 
+Below the contact information, you will need to assign an Account to the contact as well. Select one of the following options and follow the appropriate steps: 
+Existing Account: Add the Contact to an Account that already exists in Salesforce (and Deals)
+Type the name of the Account in the Account text box. Results will populate as you enter the word. Select the name of the Account. 
+Create New Account: If you would like to add a new contact and a new Account. Enter the field information for Account Name (required) and Website. 
+Click Save. 
+
+ 
+
+Create a New Account
+
+Accounts are the businesses that you are trying to close Deals with in Salesforce. Typically, these will be company names. 
+
+To create a new Account from Deals, follow these steps: 
+
+In the Deals platform area of Salesloft, go to the Pipeline tab. 
+Click New Object in the upper right corner of the page. The Create New Object window will open. 
+Choose the Object Type Account. The object type will determine what fields are shown.
+Enter the field details. Required fields will have a red asterisk. 
+Things to Note: Fields displayed may vary based on your team's Object Creation Settings. A team admin can go to the Deals Admin tab, go to Screen Settings, and select CRM Object Creation. From that tab, the admin can manage the fields shown when new objects are created. 
+Click Save. 
+
+ 
+
+Create New Opportunities
+
+Your Opportunities are the potential future sales for an account you want to work on or track. Your Salesforce Opportunities equal your Salesloft Deals. 
+
+To create a new Opportunity from Deals, follow these steps: 
+
+In the Deals platform area of Salesloft, go to the Pipeline tab. 
+Click New Object in the upper right corner of the page. The Create New Object window will open. 
+Choose the Object Type Opportunity. The record type will determine what fields are shown.
+Enter the field details. Required fields will have a red asterisk. 
+Things to Note: Fields displayed may vary based on your team's Object Creation Settings. A team admin can go to the Deals Admin tab, go to Screen Settings, and select CRM Object Creation. From that tab, the admin can manage the fields shown when new objects are created. 
+Click Save. 
+Dependent Fields When Creating an Opportunity
+
+When creating a new Opportunity, there are often fields that are required for the creation to complete successfully. 
+
+Salesforce required fields show up when you are creating a new opportunity in Deals. Only valid pick lists options that are dependent on other fields in object creation will be shown. You can see what fields are required to create a new opportunity, update them, and save the new opportunity. 
+
+Things to Note: The dependent field needs to be added to the opportunity creation screen through the admin settings in Deals so it can be seen.
+
+Auto-Add Stakeholders
+
+When you create a new opportunity in Deals, the Added Stakeholders window will appear. This window shows relevant stakeholders who were automatically added based on their engagement within the last 60 days. 
+
+You can keep these stakeholders, or alter them to suit your needs.
+
+To review and make changes to automatically added stakeholders, follow these steps:
+
+From the Added Stakeholders window, review the stakeholders that were automatically added to your opportunity.
+To change a stakeholder’s role:
+Use the Opportunity Contact Role dropdown to select a new role for the stakeholder.
+Click Save.
+To delete or remove a stakeholder:
+Click the checkbox beside a stakeholder’s name.
+Click Save.
+
+ 
+
+Last Modified By
+Briana Morgan, 7/28/2023 5:45 PM
+Title
+Create a New Object in Deals
+URL Name
+Create-a-New-Object-in-Deals
+Deals
+Salesloft Knowledge
+Pipeline Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

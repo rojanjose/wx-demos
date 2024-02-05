@@ -1,0 +1,244 @@
+COACHING
+Individual Coaching Dashboard
+
+Dec 15, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Individual Coaching Dashboard is an overall look into activities and outcomes for an individual seller. You can think of it as the one spot to go to learn about your rep’s performance and guide you through coaching opportunities. 
+
+Things to Note:
+
+Coaching Header Metrics always display metrics/goals for the current month or week only.
+Since the Individual Coaching Dashboard only shows the information for an individual rep at a time, you cannot see other rep’s specific metrics. To compare rep metrics, we recommend using the Coaching Team Dashboard. 
+
+For example, inside the Individual Coaching Dashboard you can see that Albert is performing well when it comes to calls and recorded meetings, but he’s struggling with email responses. Inside Albert’s individual Coaching Dashboard, you can go through various emails and discuss new email tactics. On the flip side, you can find positive recordings from Albert and share them with other team members to promote a job well done! 
+
+In this article, we will walk through the Individual Coaching Dashboard page to identify the components of this valuable coaching tool, including: 
+
+Individual Coaching Dashboard Layout
+Individual Coaching Summary
+Individual Coaching Emails
+Individual Coaching Calls
+Individual Coaching Recordings
+Individual Coaching Dashboard Layout
+
+The Individual Coaching Dashboard is separated by different tabs that show various dashboards and panels related to a specific subject matter. While the data is different based on the tab, the type of content found inside each tab is similar. 
+
+Let’s walk through the Individual Coaching Dashboard so you understand what information you can find there: 
+
+User Filter: Allows a manager to shift between the different users on their team. 
+
+Things to Note: This filter will only appear when the Team View permission is enabled. 
+
+Goal Progress Tile: The user’s goal progress. Use the goal progress tile to decide which area may need special attention. For example, if you are tracking calls logged, you can leverage the Individual Coaching Call tab. 
+
+Individual Coaching Tabs: 
+
+Individual Coaching Summary (Default Individual view)
+
+Individual Coaching Emails
+
+Individual Coaching Calls
+
+Individual Coaching Recordings
+
+Panel Filters: The filters that set the parameters for the data found in the Individual Coaching Dashboard Panels. Each Individual Coaching Tab includes the Date filter. The Recording tab also includes a Recordings filter where you can view All Recordings or only Recordings where the user was the organizer. 
+
+Results Panel: A dot plot that compares different types of results between the individual rep and their peers. Using this chart, you can gauge whether the rep is more or less successful than the rest of the team when it comes to achieving results. 
+
+Top Keywords: Panel found in the Individual Coaching Recordings tab. 
+
+Team Comparison: A bar chart that compares an individual rep’s outcomes to the team average. Using this chart, you can gauge if the rep is as efficient as the rest of the team. 
+
+Trend: A line chart that shows quantitative data. Using this chart, you can see the number of and activity accomplished by the rep, and whether those numbers are trending upwards or downwards from the previous time period and that of their peers. 
+
+Review Activity Panel
+
+Individual Coaching Summary
+
+The Summary page in the Individual Coaching Dashboard is broken into multiple charts to provide a visual representation of the rep’s performance. 
+
+You can bring the charts into a 1-1 or coaching session to use as a guide for what should be discussed. As you are looking at the charts found on the Coaching Summary, you can ask and find answers to the following questions: 
+
+Where does this rep stand on this metric relative to their peers? [Results Panel]
+Is this rep above or below the team’s average on this metric? [Team Comparison Panel]
+Is the seller trending up or down on this metric? Did something change at a specific time point? [Trend Panel]
+Is the seller doing the right mix of channel activities on a daily basis? [Activity Summary Panel]
+Is the seller adhering to our prescribed cadence process?
+
+Things to Note: Comparative data found on the summary page will show the user’s individual metric compared to the group average.
+
+The Coaching Summary tab includes the following panels and charts: 
+
+Coaching Summary Page’s Results By Panel: The Results By panel offers the following metrics: 
+
+% On Time Steps (default)
+% On Time Rhythm Tasks
+% Positive Calls
+% Positive Replies
+Touches Per Account
+
+Coaching Summary Page’s Team Comparison Panel: The Team Comparison By panel on the Summary page offers the following metrics: 
+
+Accounts Touched (default)
+Meetings Booked
+Opportunities
+Successes
+Activities per Meeting
+Activities per Opportunity
+Activities per Success
+% Skipped Steps
+% Rhythm Tasks Deleted
+
+Coaching Summary Page’s Trend Panel: The Trend panel on the Coaching Summary page offers the following metrics: 
+
+Activities
+Calls Logged
+Completed Steps
+Emails Sent
+Integration Steps
+Meetings Attended
+People Added (default)
+SMS Convos
+Rhythm Tasks Completed
+
+Activity Summary Panel: The Activity Summary panel gives an overview of the activities the rep has completed. Within Coaching, the Activity Summary can confirm whether the number of actions meets expectations. Based on your findings, you can continue to delve into that specific activity type using the additional Coaching tabs. Below the primary metrics, a stacked bar chart will show the total activities completed per day in the given time period. Hover over a metric name to only view that type of activity in the stacked chart. The activities shown in the bar chart add up to the total activity number and include: 
+
+Emails sent
+Calls logged
+Integration steps
+Other steps
+SMS convos
+Other tasks
+Individual Coaching Emails
+
+The Coaching Emails page is where managers and reps can focus on Email performance. If you notice from the Goal performance that a rep seems to be struggling with email performance, these charts can help pinpoint areas for improvement. Then, you can use your 1-1s to focus on developing email skills. 
+
+Things to Note: Coaching Email data is gathered from emails sent using Salesloft, or Lofted, whether that be directly from the Salesloft app or extension. 
+
+Here are some prompt questions that the data found on the Coaching Emails page can address for a rep’s emails:
+
+Is the seller adhering to the email best practices? [Results Panel]
+What kind of personalization is the seller doing? [Team Comparison Panel]
+Is the seller responding to replies appropriately and in a timely manner? [Review Emails Panel]
+
+The Coaching Emails tab includes the following panels and charts: 
+
+Coaching Emails Results By Panel: The Results By panel offers the following metrics: 
+
+% Emails On Time
+% Personalized
+% Positive (default)
+% Replied
+% On-time Rhythm Email Tasks
+
+Coaching Emails Team Comparison Panel: The Team Comparison By panel on the Summary page offers the following metrics: 
+
+% Clicked
+% Emails Skipped
+% Opened
+% Rhythm Email Tasks Deleted
+Average (Avg.) Personalization (default)
+Email Touches Per Success 
+
+Coaching Emails Trend Panel: The Trend panel on the Coaching Emails page offers the following metrics: 
+
+Emails Sent (default)
+Objection - Competitor
+Objection - No Interest
+Objection - Not the Buyer
+Objection - Timing
+Positive Replies 
+Rhythm Email Tasks Completed
+
+Coaching Review Emails Panel: The Review Emails Panel on the Coaching Emails page allows you to drill into emails. This panel is perfect for getting an in depth look into the specific types of emails the rep is sending.
+
+Individual Coaching Calls
+
+The Coaching Calls page is where managers and reps can focus on call performance. If you notice from the Goal performance that a rep seems to be struggling with call performance, these charts can help pinpoint areas for improvement. Then, you can use your 1-1s to focus on developing call rapport and best practices. 
+
+Things to Note: Coaching Call data is gathered from calls made and logged using the Salesloft Dialer. 
+
+Here are some prompt questions that the data found on the Coaching Calls page can address:
+
+How is the seller opening calls? Is their intro strong? [Review Calls Panel]
+How does the seller establish rapport? [Review Calls Panel]
+How is the seller handling objections? [Review Calls Panel]
+Is the seller adhering to our talk tracks? [Review Calls Panel]
+Is the seller using the right sentiment classifications? [Review Calls Panel]
+
+The Coaching Calls tab includes the following panels and charts: 
+
+Coaching Calls Results By Pane: The Results By panel on the Coaching Calls page offers the following metrics: 
+
+% Connected Calls (default)
+% Positive Calls
+% Calls on Time
+% On-time Rhythm Calls Tasks
+
+Coaching Calls Team Comparison Panel: The Team Comparison By panel on the Summary page offers the following metrics: 
+
+% Calls Skipped
+Average Call Duration (default)
+Call Touches per Success
+Connected Calls per Meeting
+Voicemails
+% Rhythm Calls Tasks Deleted
+Total Duration
+
+Coaching Calls Trend Panel: The Trend panel on the Coaching Summary page offers the following metrics: 
+
+Calls Dialed
+Calls Logged (default)
+Connected Calls
+Rhythm Calls Tasks Completed
+
+Coaching Review Calls Panel: The Review Calls Panel on the Coaching Calls page allows you to drill into calls made by the rep. This panel is perfect for getting an in depth look into the specific types of calls the rep is making.
+
+Individual Coaching Recordings
+
+The Coaching Recordings page is where managers and reps can focus on how well a rep is running recording meetings. If you notice from the Goal performance that a rep seems to be struggling with meeting performance, these charts can help pinpoint areas for improvement. Then, you can use your 1-1s to focus on best practices for hosting web meetings. 
+
+The Coaching Recordings page may prompt the following questions that can also be answered with data found on the page:
+
+Is the seller employing the right balance of talking versus listening? (aka, How’s the rep’s talktime?)
+How is the seller qualifying problems?
+Does the seller appropriately identify next steps when wrapping up a meeting? 
+
+Things to Note:
+
+Recordings are gathered from Salesloft Conversations. 
+The following recordings are not included in Coaching recordings because they do not include active speaker detection: 
+
+Dialer Calls: To coach calls made using the Salesloft Dialer, use the Coaching Calls page. 
+Google Meet
+Manually uploaded recordings
+Recordings from bots
+Team averages calculated in Coaching Recordings are pulled from the data of everyone in your Salesloft team. This is different from the other pages in Coaching that pull averages from the Group. 
+
+The Coaching Recordings tab includes the following panels and charts:
+
+Top Keywords in Tracker Groups Panel: The Tracker Groups panel allows you to view the top 10 most frequently used Trackers, or keywords/phrases, within a selected date range. Trackers are collections of words and phrases that help you and your team identify phrase patterns during calls. 
+Coaching Recordings Team Comparison Panel: The Team Comparison By panel on the Summary page offers the following metrics: 
+
+Talk Time %
+Avg Recording Duration
+Trend by Total Recordings Panel:  The Coaching Recordings Trend panel is a line chart that shows how many total recordings have taken place.
+Coaching Review Recordings Panel: The Review Recordings Panel on the Coaching Recordings page allows you to drill into meetings attended by the rep. This panel is perfect for understanding how your sellers are interacting with prospects or customers. You can even find coachable moments by using the search bar to hone in on specific keywords or phrases mentioned by the rep or the buyer. 
+Last Modified By
+Stephanie Griffith, 12/15/2023 8:59 PM
+Title
+Individual Coaching Dashboard
+URL Name
+Individual-Coaching-Dashboard
+Salesloft Knowledge
+Coaching
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

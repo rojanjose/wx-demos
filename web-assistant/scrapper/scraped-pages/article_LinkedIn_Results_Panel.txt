@@ -1,0 +1,76 @@
+ANALYTICS + REPORTING
+Analytics Overview: LinkedIn Results Panel
+
+Jul 18, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The LinkedIn panel shows the amount of LinkedIn completed steps as well as the Linked activity types based on your Analytics Filters. 
+
+In addition to the details in this panel, you can view LinkedIn data from the the Process Standard Report, Team Standard Report, Accounts Standard Report, and Cadences Standard Report.
+
+Taking these details into consideration, the panel aims to answer the following questions:
+Are we increasing our LinkedIn cadence efforts?
+What types of LinkedIn actions are we completing?
+Which teams or groups are increasing their LinkedIn activity?
+How are our LinkedIn steps trending? 
+What is the breakdown of LinkedIn actions by cadence or by user?
+In this article, you will learn about the LinkedIn panel, including:
+The LinkedIn Results Panel
+LinkedIn Metrics and Calculations
+Panel Drill Down: Team Process - LinkedIn Report
+The LinkedIn Results Panel
+The LinkedIn panel contains the following details from the top of the panel working our way down:
+Panel Name: LinkedIn Results
+View Report: (Drill down to more details) Takes you to LinkedIn specific version of the Team Standard Report.  
+Primary Metric: LinkedIn Completed Steps: The total number of LinkedIn completed steps.
+Primary Metric Chart: The trend and average lines show LinkedIn completed steps for the selected date range.
+Secondary Metrics include: 
+LinkedIn Research: The completed LinkedIn steps that are research.
+LinkedIn Introductions: The completed LinkedIn steps that are introductions.
+LinkedIn Connections: The completed LinkedIn steps that are connections.
+LinkedIn InMail: The completed LinkedIn steps that are InMail.
+Period Comparison based on date selection: To the right of the metrics, you will see a small percentage in either green or red. This will show how your numbers have increased or decreased over time. 
+ 
+LinkedIn Metrics and Calculations
+Each panel contains primary and secondary metrics. These metrics are calculated in different ways. Check out the Analytics Metric Calculations for a complete list of metrics. 
+
+The LinkedIn panel includes the following metrics based on the associated calculations. 
+Metrics
+	
+Calculations
+
+Completed Steps	 The total number of all LinkedIn completed steps.
+LinkedIn Research	 Sum of LinkedIn steps that are research.
+LinkedIn Introductions	 Sum of LinkedIn steps that are introductions.
+ LinkedIn Connections	 Sum of LinkedIn steps that are connections.
+ LinkedIn InMail	 Sum of LinkedIn steps that are InMail.
+ 
+Panel Drill Down: Team Process - LinkedIn Report
+
+This panel drills down into a modified version of the Team Standard Report that only has LinkedIn results. This report includes the following columns: 
+
+LinkedIn Completed Steps
+LinkedIn Research
+LinkedIn Connections
+LinkedIn InMail
+LinkedIn Introductions
+Skipped Integration Steps
+Overdue Integration Steps
+On-time Integration Steps
+Last Modified By
+Briana Morgan, 7/18/2022 3:38 PM
+Title
+Analytics Overview: LinkedIn Results Panel
+URL Name
+LinkedIn-Results-Panel
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Overview Panels
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

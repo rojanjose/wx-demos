@@ -1,0 +1,144 @@
+SALESLOFT MOBILE
+Salesloft Mobile App
+
+Oct 25, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft Mobile takes the Salesloft Dialer, Messenger, and Email functionalities on the go. You can make and log calls, send messages, and send emails directly from the mobile app, using your mobile phone's network. 
+
+Similar to any mobile app, Salesloft Mobile contains multiple features within a single application. These features are broken down into different tabs where you can take actions like dialing, logging, messaging, or adjusting your settings. 
+
+Things to Note:
+
+Salesloft Mobile is available for iOS and Android 8.1
+Salesloft Mobile inherits the language set in the Salesloft web app.
+Salesloft Mobile is currently unavailable in mainland China.
+When using Salesloft Mobile, please follow state driving laws related to phone use. Please do not use Salesloft Mobile while driving.
+
+
+In this article, we will learn about the mobile app and all of the actions you can take from Salesloft Mobile, including: 
+
+Mobile Live Feed
+Search for a Person
+Emailing from Mobile
+Mobile Workflow
+Salesloft Mobile
+Messaging from Mobile
+Salesloft Mobile Settings
+
+For a guided walkthrough of how to set up Salesloft Mobile, please check out our Getting Started with Salesloft Mobile article. 
+
+Mobile Live Feed
+
+When you open the Salesloft Mobile app, the first screen you'll see is the Mobile Live Feed. 
+
+The Mobile Live Feed shows you all the activity you see in the Salesloft Live Feed, but this one is conveniently on your mobile phone. You can view all of the available activities seen in the Live Feed in our Live Feed article. 
+ 
+
+If you click on an event from the Mobile Live Feed,  you will go to the Person page of the Person who interacted with you. 
+
+
+
+You may access the Mobile Live Feed at any time from Salesloft Mobile by clicking the Live Feed tab. 
+
+ 
+Voicemail in Live Feed
+
+Voicemail Live Feed notifications appear in Salesloft Mobile when a voicemail is left to your Salesloft number. 
+
+Things to Note: You must have the Send to Voicemail setting enabled in your Inbound Call Settings to receive voicemails. 
+
+Select the Voicemail Live Feed event to perform one of the following actions: 
+
+Play Voicemail: Opens the audio recording so you can listen to the voicemail recording directly from your mobile device. 
+View Person: Takes you to the Person's Profile page. 
+Search for a Person
+
+The Person Search icon allows you to find Salesloft People that you would like to call or add to a Cadence. This icon is available from every tab in the Salesloft Mobile app.
+
+To find a Person in Salesloft Mobile, follow these steps:
+
+Hit the Person Search icon.
+Enter the name of the Person and select their name. This will direct you to the Person Page.
+From the Person Page, you can review and edit the Person's information, send an email, call, and more.
+
+To learn more about the Search and Person pages, check out our People in Salesloft Mobile article.  
+
+
+
+Emailing from Mobile
+From the Person page on Salesloft Mobile, you can send an email. 
+
+Tap the Person's email to open an email window. From the email window, you can compose a new email, enable View and Click Tracking, schedule an email to be sent, and more!
+
+Check out the Emailing from Mobile article to learn more about sending emails from Salesloft Mobile. 
+ 
+Mobile Workflow
+
+The Mobile Workflow tab is where you can review and run Cadence Actions and Tasks.
+
+To learn more about the Mobile Workflow tab, check out the Salesloft Mobile Workflow article.
+
+Salesloft Mobile
+
+The Mobile tab is where you can make calls, review your call history, and manage your Mobile Dial settings. 
+
+From the Mobile tab you can access the following:
+
+Keypad: Make a call by dialing a number
+Calls History: View recent calls, log previously completed calls, and review previously logged information.
+(Mobile Dial) Settings: Update the cell number associated with your Salesloft Mobile account, enable/disable LocalDial, and manage CallerID updates, make a test phone call.
+Things to Note: LocalDial must be enabled in the Salesloft web app in order to use it in Salesloft Mobile. If LocalDial is not enabled, you will see LocalDial (not setup) on the settings tab, and you will not be able to move the toggle. 
+
+
+ 
+
+
+For more information about the Mobile Dial tab, check out the Calling from Salesloft Mobile article.
+Messaging from Mobile
+The Message tab allows you to send and receive messages. You can enable the Message tab by purchasing a Salesloft texting plan.
+
+From the Message tab, you can perform the following actions:
+View your previous text conversations
+Search for a contact to send a message to
+Send a message to a new contact
+
+ 
+
+
+For more information about sending multimedia messages from the Mobile app, check out the Messaging from Mobile article.
+Salesloft Mobile Settings
+
+The Settings tab allows you to manage your Salesloft Mobile settings. 
+
+From the Settings tab, you can do the following:
+
+View your Salesloft Mobile Profile settings
+Manage push notifications
+Check the build and version of the Salesloft app you're using
+Manage Salesloft Mobile Theme
+
+ 
+
+
+For more information about the Settings tab, check out the Salesloft Mobile Settings article.  
+
+ 
+Last Modified By
+Raequel Sank, 10/25/2023 5:30 PM
+Title
+Salesloft Mobile App
+URL Name
+Salesloft-Mobile-App
+Salesloft Knowledge
+Salesloft Mobile
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

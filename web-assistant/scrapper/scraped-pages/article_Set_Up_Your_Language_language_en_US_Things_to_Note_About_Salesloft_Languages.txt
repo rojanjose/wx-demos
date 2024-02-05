@@ -1,0 +1,89 @@
+GETTING STARTED
+Set Up Your Language
+
+Oct 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft Language Settings allow you to choose the language that appears throughout the Salesloft application
+
+Salesloft currently supports the following languages:
+
+English (US –  default)
+English (UK)
+French
+German
+Spanish (Spain)
+
+Users can also manage their language settings on an individual level. Once a Seller updates their preferred locale, all text through the platform will be translated into the language selected. Additionally, all occurrences of date, time, number values, and currency (where applicable) will be displayed in the format pertaining to the locale.
+ 
+
+In this article, you will learn about Salesloft’s language settings, including: 
+
+Select Your Preferred Language
+Your Language Experience
+Things to Note About Salesloft Languages 
+Select Your Preferred Language
+
+You can change the language you wish to interact with the Salesloft application.
+
+Supported languages include English, Spanish, German, and French. The default language is English. 
+
+To set your language preference follow these steps: 
+
+Go to your Settings by clicking your name in the upper right corner of the platform. A menu will appear. 
+Click the Settings cog to go to your Personal Settings. You will land on the Profile tab. 
+On the Profile Settings, find the Language window and click Edit. The Edit Language window will appear.
+Select your preferred language from the dropdown. The options will show the locale and language. Select the language that applies to you:
+American English
+British English
+European Spanish
+French (France)
+German (Germany)
+Once you select a language, click Save. The page will instantly update to the chosen language. 
+
+ 
+
+Your Language Experience
+
+Immediately after you select your preferred language inside Salesloft, the text on the page will appear in that language. Additionally, all instances of time or dates throughout the application will adapt to account for your location. 
+
+Translated content will include the following across the Salesloft platform: 
+
+Page Titles
+Page Instructions
+Imports/Exports
+Labels
+Buttons
+Column Headers, etc.
+Salesloft provided extensions (Outlook Connect, Dialer).
+Error states and Salesloft-generated backend messages users may receive.
+Adapt the display of dates, times, and number values based on user language preference
+Things to Note About Salesloft Languages  
+
+The following features are not currently supported in multiple languages and will only appear in English: 
+
+Salesloft Connect
+Customer-generated or third-party text is not in scope.
+
+Conversation translation does not transcribe from one language to another. Salesloft automatically provides transcripts in the language being used during the recorded conversation.
+
+ 
+
+Last Modified By
+Raequel Sank, 10/13/2023 6:01 PM
+Title
+Set Up Your Language
+URL Name
+Set-Up-Your-Language
+Salesloft Knowledge
+Getting Started
+Set Up Salesloft
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

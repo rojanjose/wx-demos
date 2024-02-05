@@ -1,0 +1,166 @@
+ADMIN GUIDES
+Activity Field Configuration
+
+Jul 6, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Any activities logged in Salesloft, whether they are sent emails, logged phone calls, or other steps, can also be logged in your CRM.
+
+When activities are logged, the type of activity, subject field, and description will be filled out by default. Salesloft activity field configuration allows you to log even more information into your CRM. 
+
+Once your fields are mapped, you can leverage the Salesloft activities that have been logged to your CRM to create additional reports.
+
+Things to Note: to get a jumpstart on building reports and dashboards in Salesforce, check out the Insight from Salesloft Dashboard package, to simplify your reporting.
+
+Activity fields are divided into two types: default fields and additional fields.
+
+In this article, we will go over activity field configuration, including: 
+List of Default Activity Fields
+Create Activity Fields with Insight from Salesloft
+Mapping Default Activity Fields
+Additional Activity Fields
+Mapping Task Subtype
+SLU: Activity Field Mapping (Video)
+List of Default Activity Fields 
+You must map activity fields to an equivalent CRM field in order to view Salesloft activity field information in your CRM. However, you CRM doesn't typically contain fields named "Cadence" or "Step ID" or any number of these activity fields.
+
+This means you (or more specifically, a CRM Admin) will need to create those fields in your CRM in order to complete the activity field mapping and view all the awesome data that comes along with it. Check out these instructions to create fields in Salesforce.
+
+Things to Note: All users who will log activities in Salesloft must have Read/Write access to all Salesforce Activity fields that are mapped from Salesloft to your CRM.
+
+Here is a complete list of the Salesloft Default Activity Fields and the type of CRM field they should be mapped to:
+ 
+Activity Field Name	CRM Field Type	Salesloft Field Description
+Bounced	Boolean	If an email sent to a prospect bounced.
+Cadence External Identifier	Text	The identifier you can manually assign to a Cadence, and it will remain the same even on copied versions.
+Cadence ID	Number	The identifier assigned to a Cadence.
+Cadence Name	Text	The name given to a Cadence.
+Call End Time	Date/Time	 Time when the caller hangs up.
+Call Disposition	Picklist	The disposition that the user logged during the call.
+Call Duration °	Number	How long the call lasted.
+Call Sentiment	Text	The sentiment that the user logged during the call.
+Call Start Time 	DateTime	 Time when the call is dialed.
+Call To	Phone Number	The phone number you made the call to.
+Clicked Count	Number	How many clicks were received on a URL within an email.
+Email Message ID	String	 
+The unique string of letters, numbers, and symbols that prevents duplicate email activities in your CRM.
+Email Template ID	Number	The identifier assigned to an email template.
+Email Template Title	Text	The name given to a template.
+Replies Count	Number	How many replies an email has received.
+Step Day	Number	The day in the Cadence that a step has been set to be run.
+Step ID	Number	The identifier assigned to a step within a Cadence.
+Step Name	Text	The name given to a step.
+Step Type	Text	The type of step (i.e. Email, Phone, or Other).
+Viewed Count	Number	How many opens/views an email has received.
+Meeting Assigned To	String	Who the meeting is set with.
+Meeting Booked By	String	Salesloft user who sent the meeting link or booked a meeting on demand. 
+Meeting Canceled Date	DateTime	Updates meeting information in the event the meeting is cancelled.
+Meeting Duration	 Number	Length of the meeting. 
+Meeting Date	Date	Scheduled date of meeting.
+Meeting Name	String	Name of meeting.
+Meeting Recording URL	URL	URL link to the meeting recording in Salesloft.
+Meeting Start time	DateTime	Time when the meeting is set to begin.
+Meeting Type	String	The designated Meeting Type name that's selected by the User. 
+Meeting No Show	Boolean	
+Salesloft user indicates an invitee did not attend meeting.
+
+
+Meeting Source	Text	
+Will show whether meeting was booked via Salesloft or synced via Calendar Sync.
+° Denotes a default Salesforce activity field. This means the field does not have to be custom created.
+Create Activity Fields with Insight from Salesloft
+Salesloft has made the Salesforce activity field creation process simple by providing the Insight from Salesloft managed dashboard package. By downloading the package, most of the activity fields will be created in your Salesforce instance for you (how nice is that?).
+
+Things to Note: While the Insight for Salesloft dashboard package creates the activity fields in Salesforce, it is your team's responsibility to complete the field mapping process after the fields are created. 
+
+The Insight dashboard includes the following fields: 
+ 
+Name
+	
+Field Type
+
+Active Account	Formula (Number)
+Call Disposition	Text(255)
+Call Sentiment	Text(255)
+Salesloft Cadence Name	Text(255)
+Salesloft Clicked Count	Number(18, 0)
+Salesloft Email Template Title	Text(255)
+Salesloft Replies Count	Number(18, 0)
+Salesloft Step Day	Number(18, 0)
+Salesloft Type	Formula (Text)
+Salesloft Unique Click Count	Formula (Number)
+Salesloft Unique Reply Count	Formula (Number)
+Salesloft Unique View Count	Formula (Number)
+Salesloft View Count	 
+ 
+If you do not wish to download or use the dashboard package and would like to manually create the custom activity fields in Salesforce, you may do just that.
+Mapping Default Activity Fields
+Default activity fields are readily available in Salesloft. This means you can map the fields directly to their equivalent CRM activity field.
+
+Things to Note: While default fields show on the Salesloft side, some of them may not be in your CRM account. Create custom fields in your CRM in order to map the activity fields, OR download our Insight from Salesloft dashboard package, which will create the Salesforce activity fields.
+
+To map default activity fields, follow these steps:
+Navigate to the Activity Fields tab by accessing your Team Settings, selecting Field Configuration, and clicking the Activity Fields tab.
+Find the Salesloft field you would like to map and select the ellipses on the same line.
+Click Edit Mapping.
+Use the CRM Field Name dropdown picklist and chose the appropriate CRM field.
+Click Save.
+ 
+Additional Activity Fields
+If your team uses specific activity fields that need to be logged, you can add those fields in your Additional Fields section.
+
+Additional fields can be set as a default option so all your Salesloft activity is logged the same. Or you can set the field so you can edit the information when your users log a call.
+
+To add an additional field for your activity logging, follow the instructions below:
+Navigate to the Activity Fields tab by accessing your Team Settings, selecting Field Configuration, and clicking the Activity Fields tab.
+Scroll to the bottom of the page and click New Additional Field.
+From the picklist, select the CRM Field Name the field will map to.
+Check the box for the type of activity you would like to log the field for:
+Emails: Email logs will require a set value. For the Email activity, you must set a value to log in the field information using the following checkbox: 
+Always set value to: Sets a fixed value for all emails logged.
+Calls: You have two options for call logs. From the Calls activity, you have the following additional options: 
+Field is editable when logging: Selecting this box will add a field to the call log box when your users make their calls. They can update the field when their calls are logged.
+Always set value to: Sets a fixed value for call logs.
+Both: Check both boxes to log the field to each activity.
+Hit Save.
+ 
+ 
+Mapping Task Subtype
+If your team uses Tasks Subtypes inside Salesforce, you can select a subtype value when logging Salesloft activities. With the Task Subtype log in place, you can filter and view Salesloft activities at a more granular level inside Salesforce.
+
+To set the Task Subtype of Salesloft Activities, map the field as a Custom Activity field. 
+
+Things to Note:
+When mapping activity fields, all Users must have read and write access to the field based on Salesforce Field Level Security. Sync errors will occur if a user, including the admin, does not have read and write access to the Task Subtype Field in Salesforce Field Level Security. To resolve the issue, have a Salesforce Admin update your user profile so you have read and write access to the Task Subtype Field.
+The Task Subtype can only be set when the Task is being created and cannot be changed.
+
+The Task Subtype field mapping is managed under Additional Fields on the Activity field configuration table.
+ 
+
+When you map this field, set a value of Email for Emails logged, and Call for Calls logged.
+
+Things to Note: Do not make this field editable when logging a call.
+ 
+ 
+SLU: Activity Field Mapping (Video)
+Want to know more about Activity field mapping, but prefer a video format? Visit Salesloft University to see the Activity Field Mapping video tutorial. 
+ 
+Last Modified By
+Stephanie Griffith, 7/6/2022 11:39 AM
+Title
+Activity Field Configuration
+URL Name
+Activity-Field-Configuration
+Salesloft Knowledge
+Admin Guides
+CRM
+CRM Essentials
+Field Configuration
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

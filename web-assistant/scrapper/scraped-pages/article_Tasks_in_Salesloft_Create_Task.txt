@@ -1,0 +1,227 @@
+CADENCES + TASKS
+Tasks in Salesloft
+
+Jan 9, 2024•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Tasks allow you to create and complete one-off actions. 
+
+You can think of tasks like Cadence-style reminders. You create Tasks, like a one-off Call or Email Tasks, with a date and time that is assigned to a Person. Any created tasks will generate a Chrome notification when it's time to complete the Task.
+Things to Note:
+
+Tasks are available by default to all team admins. If you do not see tasks, check with your team admin to enable the Tasks permission for your Role. 
+To receive notifications, Chrome Notifications must be enabled. 
+
+Tasks run with a single click. Once selected, the Tasks leverages the Dialer or email compose window in Salesloft or from Tasks in Salesforce. Once a Task is complete, the event will automatically log to Salesforce, providing a higher level of visibility across the organization.
+
+In this article, you will learn all about Tasks in Salesloft, including: 
+
+Types of Tasks in Salesloft
+Create a Task
+View Upcoming Tasks
+Run a Task from the Person Profile Page
+Run a Task from the Rhythm Focus Zone
+Run a Task from the Rhythm Sidebar
+Reschedule Tasks
+Edit Task
+Delete Task
+Types of Tasks in Salesloft
+
+Salesloft uses different Task Types to define the action you assign for yourself. Whenever you create a new Task, you will assign one of the following Task Types: 
+
+General Tasks: An open option for tasks that are outside of contacting the prospect. When you create a General Tasks, add notes to describe the action you will take.  
+Call Tasks: Action item to call a Person. 
+Email Tasks: Action item to email a Person.
+LinkedIn Sales Navigator Tasks: With the LinkedIn Sales Navigator Integration enabled, you can create LinkedIn Sales Navigator tasks, including:
+Ask for an Introduction
+Connection Request
+InMail
+Research
+Create a Task
+
+Before you can complete one-off actions via Tasks, you must create the Tasks to work out of.
+
+Follow these steps to create a Task:
+
+In Salesloft, open the Create Tasks module from one of the following locations:
+The Plus sign (+) in the upper right corner of the Actions Dashboard Tasks Panel
+Person Quick Actions
+Add a Subject for the tasks. The Subject can be anything the user would like to help them remember details about this task, up to 255 characters.
+Choose from a Tasks Type.
+Add the Related Person. The Related Person is the Person in Salesloft linked to this scheduled action.
+Things to Note: If you create the task from the Person Profile page, the Related Person field will populate with that Person's name. 
+Enter a Due Date. The due date is the date you would like to complete this action. You have the option to add a time to the Due Date.
+Click Set Task Reminder to add a specific time to complete the Tasks. Adding a time will surface a Chrome notification at the time the tasks is due to be completed. This is useful for any action that is time sensitive like a scheduled call. Click Set Task Reminder. The Reminder Time (15 Minutes) text box will appear. Enter a time of day or use the up down arrows to adjust the time.
+If you change your mind and don't wish to set a reminder time, click the minus icon to the right of the Reminder text box to cancel. 
+Select the Assignee. Usually this will be yourself. However, if you would like to pass the task to another team member, click the dropdown menu to view and select from your list of Salesloft team members. 
+Click Create Task to save. 
+View Upcoming Tasks
+
+Upcoming tasks will appear in the Tasks Panel on the home dashboard. 
+
+Upcoming Tasks are also visible on the Person and Account Profile pages under the upcoming section of the Activity Feed.
+
+From the Activity Feed, you can also take actions on a Tasks by selecting one of the following options: 
+
+Run the Task: Depending on the type of Task, click Call or Email to run the Tasks from the Activity Feed.
+More 
+Mark as Complete
+Edit Taks
+Delete the Task
+
+ 
+
+Once any Tasks are completed, they will appear in the Activity Feed on the Person Profile Page and the Account Profile Page. Completed tasks will be included up the Past Activities. 
+
+Run a Task from the Person Profile Page
+
+When you are ready to complete a task, hover over the Task card. A button will display depending on the task type.
+
+
+General Tasks
+
+When you are ready to run a General Task, hover over the Task and click Open.
+
+
+
+
+
+A Tasks box with the Person's name at the top will open. The notes you entered while creating the General Task will be filled in the tasks box. From the General Tasks box, you have the following log options to complete the tasks: 
+
+Log and Complete: The Task is logged to the person record and A notes artifact is created if there are notes.
+Complete Only: A notes artifact is created if there are notes. 
+Log Only: The Task is logged to the Person record.
+
+ 
+
+ 
+
+Call Tasks
+
+Clicking the Call button will open the Salesloft Dialer with the Person's number automatically input.
+
+
+
+Email Tasks
+
+Clicking the Email button will open a new email pane. Type a new email or insert a template from this view.
+
+
+Finishing a call or sending an email will complete the Task and remove it from the user's view. The completed task will sync to Salesforce as a completed activity.
+
+ 
+
+LinkedIn Sales Navigator Tasks
+
+To complete a LinkedIn Sales Navigator Task, hover over the task card and click Open. A LinkedIn Sales Navigator window will appear where you can complete the task. 
+
+
+Things to Note: If you complete a Tasks outside of Salesloft, i.e. using an alternative Dialer or replying to an email rather than sending a new one, use Mark as Complete to complete the Tasks. 
+
+Run Tasks from the Rhythm Focus Zone
+
+The Rhythm Focus Zone displays the prioritized tasks in your Rhythm Workflow.
+
+ 
+
+To run a task from the Rhythm Focus Zone, follow these steps:
+
+Navigate to your Salesloft homepage.
+Click the Rhythm Focus Zone tab.
+Choose a task from the list and either click the tile, or, hover over the tile and click the play button to run the task. You will be directed to the Person’s profile page.
+Complete the task.
+
+ 
+
+Once you complete the task, your Rhythm workflow will be updated. You can either go back to the Rhythm Focus Zone to complete another task, or continue running tasks from the Rhythm Sidebar. 
+
+Run Tasks from the Rhythm Sidebar
+
+When you click a task in your Rhythm Focus Zone, you will be directed to the Person’s profile page and the Rhythm Sidebar will appear.  The Rhythm Sidebar is set up like the Rhythm Focus Zone and allows you to run tasks throughout Salesloft.  
+
+ 
+
+To run a task from the Rhythm Sidebar, simply click a task to be directed to the Person’s Profile Page where you can perform the activity. 
+
+ 
+
+As you complete tasks, your workflow will update in the Rhythm Sidebar, removing completed tasks and showing you which task to complete next. 
+
+Reschedule Tasks
+
+You can reschedule tasks to complete them at a later date.
+
+ 
+
+To reschedule a task, follow these steps:
+
+Navigate to your Salesloft homepage.
+Click the Rhythm Focus Zone tab.
+Find the task you would like to reschedule and hover over it. A few icons should appear on the right hand side of the tile.
+Click the calendar icon to reschedule the task. A menu with reschedule date options should appear.
+Select the new task due date.
+
+ 
+
+Things to Note: Your Rhythm workflow will be reorganized according to the task’s new due date.
+
+ 
+
+Edit Task
+
+Let's be honest, tasks aren't set in stone. While deadlines are ideal, sometimes life things happen that require you to make adjustments. Editing a Tasks allows you to fluidly make changes to a tasks.
+
+When editing a tasks, you can update any of the fields in the Edit Tasks window. These include: 
+
+Subject
+Task Type
+Related Person
+Due Date
+Assignee
+
+To make changes or edit a Tasks, follow these steps: 
+
+Go to the Tasks panel. (Or the Upcoming Activities on the Person's Profile Page.)
+Hover over the Tasks. Where the Due Date was listed, action items will appear. 
+Click the down arrow to open the additional Tasks options menu. 
+Select Edit Task. The Edit Task module will appear. 
+Make your changes and click Save Task.  
+
+ 
+
+Delete Task
+
+If a Tasks is no longer relevant, delete the Tasks to remove it from your list. 
+
+Things to Note: You can only delete Tasks that are due. You cannot delete Tasks once they have been completed. 
+
+To delete a tasks, follow these steps: 
+
+ Go to the Tasks panel. (Or the Upcoming Activities on the Person's Profile Page.)
+Hover over the Tasks. Where the Due Date was listed, action items will appear. 
+Click the down arrow to open the additional Tasks options menu. 
+Select Delete Task. 
+A message will appear. Confirm you would like to delete the task by clicking Delete. The Tasks will be removed. 
+
+ 
+
+
+ 
+Last Modified By
+Raequel Sank, 1/9/2024 9:36 PM
+Title
+Tasks in Salesloft
+URL Name
+Tasks-in-Salesloft
+Salesloft Knowledge
+Cadences + Tasks
+Manage Tasks
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,129 @@
+USER GUIDES
+SALESLOFT CONNECT
+CONNECT FOR SALESFORCE
+Salesloft Connect for Salesforce
+
+Aug 10, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+In modern sales, you use more than one piece of technology to complete your day-to-day tasks. But hopping between multiple platforms and searching for the information you need is a waste of time. Salesloft’s Connect feature solves the problem within your technology stack by letting you access and perform Salesloft functions directly from the applications you use the most.
+
+Salesloft Connect for Salesforce brings the core Salesloft functionality into your Salesforce instance. Run your targeted Cadences, send one-off emails to Leads and Contacts, use the integrated Dialer to make calls from any page in Salesforce, or view all details on a Lead/Contact directly in the sidebar.
+
+In this article, you will learn how to set up Connect for Salesforce and explain the features this extension offers, including:
+Connect for Salesforce Admin Setup
+Install Connect for Salesforce
+Salesloft Imports from Salesforce
+Connect for Salesforce Side Panel
+Click to Call in Salesforce
+Loft an Email in Salesforce
+Insert Meeting Availability in Salesforce
+Hot Leads in Connect for Salesforce
+Connect for Salesforce Admin Setup
+The Connect for Salesforce feature is enabled by default for all Salesloft users. Admins have the ability to manage who has access to Connect for Salesforce from their Team Settings.
+
+If you need to disable access to Connect for Salesforce for a user on your team, navigate to the Salesloft Connect settings. There you will see a list of all Salesloft users and their Connect for Salesforce statuses. Select the user(s) you would like to update. Click on the plug icon that appears at the top of the list to enable or disable access.
+Install Connect for Salesforce
+Before you Loft emails, view Salesloft People information, and execute Cadences from your Salesforce account, you need to Download the Salesloft Chrome Extension. 
+
+After the extension has been installed, you will gain access to Salesloft features within your Salesforce instance!
+Salesloft Imports from Salesforce
+Once the extension has been downloaded, you may import records from your Salesforce account. You can import from Lead, Contact, or Accounts records. The imports can be pulled from an individual record, lists, campaigns, or reports.
+
+To learn more about importing from Salesforce, check out the Imports from Salesforce article. 
+Connect for Salesforce Side Panel
+There are many Salesloft actions you can take on Lead and Contact records using Connect for Salesforce, but that’s really only the basic features available to you. The Connect for Salesforce side panel opens more of Salesloft’s core functionality within Salesforce, like viewing Salesloft Person info and running Cadences.
+
+To access the Connect for Salesforce side panel, click on the Salesloft logo on the right-hand side of the page. The side panel will appear on the right side of your page.
+ 
+
+ 
+The Side Panel has different icons at the top that take you to different panel pages or tabs. Select the links below to learn more about each tab. The Side Panel tabs include: 
+Person Profile Tab
+Cadence Tab
+Tasks in Salesforce
+Hot Leads Tab
+ 
+Click to Call in Salesforce
+Salesloft’s Dialer lets you call from wherever you work, including your Salesforce instance. With our click-to-call function, reaching out to Leads and Contacts is even simpler. All you have to do is click the Call button next to a Person’s phone number. Once you’ve clicked Call, the Dialer functions exactly like it does in-app. You can enable LocalDial to drive higher connect rates as well as drop-in Voicemail Recordings.
+
+Things to Note:
+Click to Call does not work when Salesforce is in accessibility mode. You can temporarily disable accessibility mode to use the click-to-dial functionality.
+It is not possible to add the button to custom phone fields in SFDC Classic because they don’t have an ID or class that can distinguish them from other custom field types.
+Manual Import must be enabled in the Team General Settings in order to add People to Salesloft via the Dialer extension if they do not already exist in Salesloft.
+
+Before you call from your Salesforce records with ease, you need to enable the functionality. Follow these steps:
+From your Salesloft account, click your name in the upper right corner and go to your Settings.
+Click the Calls tab.
+Below Phone Settings, check the box next to Click to Call Enabled?
+Hit Save.
+
+The Call button located next to any Salesforce phone field, allows you to click-to-call by opening the Salesloft Dialer. The click-to-call feature is available on Leads, Contacts, Accounts, and Opportunities in Salesforce Classic or Lightning. 
+
+Things to Note: Opportunities in Salesforce do not contain phone fields by default. To access the click-to-call feature within opportunities, a Salesforce admin needs to customize your Salesforce instance. 
+
+Once you click-to-call, use the Dialer just like you would within the Salesloft platform. When the call is finished, you can log the call or make a new one by clicking on the reset button at the top of the Dialer.
+ 
+Loft an Email in Salesforce
+Connect for Salesforce allows you to leverage the power and features of Salesloft email and templates without leaving the Salesforce record. Quickly email Leads or Contacts by using a template so you use the same consistent messaging, with the added benefit of tracking metrics.
+
+Speaking of tracking, using the Loft It feature logs and tracks your emails in Salesloft (and Salesforce).
+
+When composing emails in Connect for Salesforce, you may add CC or BCC recipients by clicking the CC/BCC link in the upper right hand corner of the email compose pane. Enter multiple email addresses in the CC or BCC fields by separating them with a comma.
+
+To send an email from Salesforce, follow these steps:
+Go to the Lead or Contact record.
+Click the Loft It button next to the Person’s email address. The Email Window will appear in the bottom right corner.
+Compose your message. Add templates or snippets by selecting the Insert button in the bottom right corner of the email window.
+Send the Cadence email using one of the following options:
+Send: sends the email to the Person and logs the email in Salesloft and Salesforce. 
+Schedule Send: the Calendar icon will allow you to schedule the email to send later. When scheduling a step in advance, you can set the emails to go at a certain time according to your time zone or the time zone of the Person receiving the email. 
+Send All: sends the emails to each Person listed on the Cadence step and logs the email in Salesloft and Salesforce.
+Schedule Send All: the Calendar icon will allow you to schedule all of the emails in the Cadence step to send at a later time. When scheduling a step in advance, you can set the emails to go at a certain time according to your time zone or the time zone of the Person receiving the email. 
+ 
+Insert Meeting Availability in Salesforce
+Insert Availability allows your to add times from your calendar when send a one-off email or Run Cadence Steps. Having this feature within Connect for Salesforce means you can add your availability without leaving your Salesforce window (and you don't have to jump between your calendar tab and your Salesforce tab!)
+
+To insert your calendar availability, follow these steps: 
+Go to the Lead or Contact record.
+Click the Loft It button next to the Person’s email address. The Email Window will appear in the bottom right corner.
+You can select Insert Availability from one of the following options:
+Calendar icon dropdown in the email editor pane
+Insert menu in the compose window
+Once you select the Insert Availability option, Calendar pop-up will appear. Enter your meeting details and select any applicable time slots. on the calendar.
+Click Insert Times. The time slots you selected on your calendar will be added to your email. 
+Send the email. 
+ 
+ 
+Hot Leads in Connect for Salesforce
+Hot Leads identify which prospects should be your highest priority based off of their level of engagement. You can view and take actions on Hot Leads from the Salesforce side panel, similar to how you can access Hot Leads in Salesloft. 
+
+A Hot Lead Chrome notification will display the Person's name and their company whenever a new Hot Lead comes in.
+
+View your full list of Hot Leads by clicking the Salesloft icon on the right side of any Salesforce page. Once the sidebar is displayed, click the flame icon on the top of the side panel to see the list of current Hot Leads.
+
+This list will show all Hot Leads assigned to you in order of most recent to least recent Date Created by default. You can click the Sorted by: Date Created button in order to reverse the order from least recent to most recent.
+
+Click the Refresh button at the top of the sidebar to refresh the list and see newer Hot Leads at any time. If there are new Hot Leads, they will get pulled into this view at the top of the list.
+ 
+ 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 8/10/2022 1:37 PM
+Title
+Salesloft Connect for Salesforce
+URL Name
+Salesloft-Connect-for-Salesforce
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Connect For Salesforce
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

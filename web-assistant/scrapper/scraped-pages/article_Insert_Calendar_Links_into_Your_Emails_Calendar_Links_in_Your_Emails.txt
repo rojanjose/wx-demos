@@ -1,0 +1,112 @@
+USER GUIDES
+MEETINGS/CALENDAR
+Insert Calendar Links into Your Emails
+
+Dec 8, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft’s meetings bring calendar links into your email communication. With meeting links, you can send out your own or even your teammates’ meeting link.
+
+Then, when a Person receives a meeting link, they can view available meeting times and schedule time on your calendar for calls, demos, or to finalize deals.
+
+In this article, you will learn how to send meeting links and book meetings through your email, including: 
+
+Calendar Links in Your Emails
+Add Calendar Links with a Dynamic Field
+Insert Meeting Availability 
+
+For more information on booking meetings outside of emails or what a Person sees as they select a meeting time, check out our Book Meetings Through Salesloft article. 
+
+Calendar Links in Your Emails
+
+Once your calendar is all set up, you can insert meeting links into your emails. When you add meeting links to an email, you can select your own calendar or a teammate’s calendar. 
+
+To add a meeting link to your email, follow these steps:
+
+Create an email and compose your message.
+Select the calendar icon from the compose window toolbar.
+The Insert Meeting Link window will drop down.
+Select whose calendar link you will be using (your personal calendar or your team member’s calendar).
+Things to Note: You can only send a teammate's meeting link if they have set up their calendars under Personal Settings.
+Select a Meeting Type. 
+Default Meeting Type: Books a meeting using your default Calendar Settings.
+Team Meeting Types : Meeting types set by a team admin for different styles of meetings.
+Click the dropdown menu and select a Meeting Length time. Things to Note: You may edit the meeting length even if the Meeting Type has a previously designated length.
+Click Insert Link.
+Send your email. 
+Add Calendar Links with a Dynamic Field
+
+The Meeting URL dynamic field populates your meeting link into your email message. Adding this field to your personal or team templates or snippets makes it easy for you to send meeting links. Instead of adding the individual link to an email, you can skip that process, and insert the previously created content.
+
+When you create your email template, use the dynamic tag drop-down menu to find the My Meeting URL tag under My Tags.
+
+To add the dynamic field, follow these steps:
+
+From the Templates Page click Template Actions.
+Select Add Templates.
+Click the Insert Dynamic Field icon </>.
+Scroll to My Fields.
+Select My Meeting URL.
+Complete your email draft and hit Save.
+
+ 
+
+Insert Meeting Availability 
+
+The Insert Availability feature allows you to send email recipients specific meeting time slots. This provides more control over your own calendar, and still gives prospects and customers the ability to book a meeting with fewer clicks of their mouse.
+
+Insert Availability is available within the Salesloft platform, as well as within your Gmail.
+
+ 
+
+To insert your meeting availability in a Salesloft email, follow these steps:
+
+Create an email and compose your message.
+Click the calendar icon in your compose window toolbar. The Meetings window will appear. 
+From the Meetings window, complete the following fields:
+Meeting Owner: The meeting owner determines whose calendar to book the meeting on. This can be your calendar or one of your team members' calendars.
+Meeting Type: Use the dropdown to select from the following options:
+Default Meeting Type: Books a meeting using your default Calendar Settings.
+Team Meeting Types : Meeting types set by a team admin for different styles of meeting.
+Meeting Length: Determines length of time for meeting slots
+Click Insert Availability. Your calendar will appear in a pop-up window.
+Things to Note: To view an alternative calendar when selecting a Meeting Owner or Adding Attendees, you must have access to the other person's calendar. This means either your Salesloft team member has set up their Calendar Settings in their Salesloft account or that the person being invited has shared their Google Calendar with you previously.
+From your calendar, click the dropdown in the upper right corner to set a time zone for the calendar.
+Click individual time slots or click and drag your cursor to select multiple time blocks. Click the slots to remove them. You can also click the arrows in the upper left corner to choose different dates/weeks.
+
+Things to Note: Availability can be selected for up to 90 days from the current date, regardless of your Scheduling Limit. 
+Click Insert Times in the bottom right corner to insert your availability. You will be directed back to the email window.
+All of the selected times will appear as clickable links.
+Things to Note: If your email recipient is located in a different time zone, the time slots you chose will appear typed out. To view a clickable link, select View in Your Time Zone.
+Send your email. 
+
+
+    
+
+ 
+
+When an email recipient clicks on a link, they will be taken directly to the confirmation page, as long as the selected time slot is still available on the Meeting Owner's calendar.
+
+If the selected time slot has already been taken, the link will direct the recipient to a page where they can view all other available time slots. 
+ 
+ 
+ 
+ 
+Last Modified By
+Raequel Sank, 12/8/2023 9:06 PM
+Title
+Insert Calendar Links into Your Emails
+URL Name
+Insert-Calendar-Links-into-Your-Emails
+Salesloft Knowledge
+Meetings/Calendar
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

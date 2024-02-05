@@ -1,0 +1,54 @@
+ANALYTICS + REPORTING
+Can My Team Restrict Rep Comparisons?
+
+Mar 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+If your company policy or regulatory body restricts the ability to let employees compare their performance, also known as "head-to-head comparison," a team Admin can toggle analytics comparisons on or off to support requirements.
+
+An admin will need to manage the permission sets assigned to their user groups. Specifically, they will need to uncheck the View Analytics Permission.  
+
+When unchecked, the following Analytics items will no longer be visible by individual users.
+
+The following Analytics Overview Panel will be hidden:
+The Email Leaderboard panel will be hidden
+The Call Leaderboard panel will be hidden
+The Ranking tab panels will be hidden
+Analytics Pages and reports will not be visible where data is grouped and displayed by user. This includes:
+The Ranking tab will be inaccessible through the url
+The Team Process Report will be inaccessible
+The Team Performance Report will be inaccessible
+The Email Report will be inaccessible
+The Call Report will be inaccessible
+The LinkedIn Report will be inaccessible
+The Email Sentiment by User Report will be inaccessible
+The Call Sentiment by User Report will be inaccessible
+The Team Cadence by User Report will be inaccessible
+Panel Drill downs that link to user based reports will also be unavailable, including: 
+The Email Results Panel should not have a view report link
+The Call Results Panel should not have a view report link
+The Other Steps Panel should not have a view report link
+The LinkedIn Results Panel should not have a view report link
+The Team Performance Panel should not have a view report link
+The Best Time to Call Panel should not have a view report link
+The Cadence Process Panel should not have a view report link
+The Email Personalization Panel should not have a view report link
+
+All new panels or reports will be tied to this permission moving forward as of March 2022.
+Last Modified By
+Stephanie Griffith, 3/28/2023 10:37 AM
+Title
+Can My Team Restrict Rep Comparisons?
+URL Name
+Can-My-Team-Restrict-Rep-Comparisons
+Analytics FAQ + Troubleshooting
+Analytics + Reporting
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

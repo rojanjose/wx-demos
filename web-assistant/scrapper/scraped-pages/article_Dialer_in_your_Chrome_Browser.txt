@@ -1,0 +1,82 @@
+DIALER + MESSENGER
+ADVANCED DIALER GUIDES
+Dialer In Your Chrome Browser
+
+Mar 10, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+A modern, robust dialer needs to work where it's most convenient for you. And that’s why Salesloft’s Dialer in Chrome makes call execution easy, allows you to take action right when you find a number, and like the name says, it can be accessed anywhere inside your Google Chrome browser.
+
+To use the Salesloft Dialer outside the Salesloft application, anywhere within your Chrome browser, you need to Download the Salesloft Chrome Extension. 
+ 
+In this article we will walk through how to get the most out of Salesloft’s Dialer in Chrome, with specific walkthroughs on the following features:
+Access the Dialer From Your Google Chrome Browser
+Add New People within the Salesloft Dialer
+Automatically Match a Phone Number to the Salesloft Person
+Search a Person and Select Their Number
+Log a Previously Completed Call
+Adjust Audio Settings
+If you run into any technical problems with the Dialer, check out our Dialer Troubleshooting Guide for more help. 
+Access the Dialer From Your Google Chrome Browser
+The Dialer gives you the flexibility to enter any phone number, find an existing person, or create a new person from anywhere within your Google Chrome Browser
+
+To access the Salesloft Dialer on any page within Chrome, right-click anywhere on the page and select Salesloft Dial. As a shortcut, highlight the number before opening the Dialer. 
+Add New People With the Salesloft Dialer  
+Before logging, you have to add the person. The Dialer gives you the flexibility to enter any phone number, find an existing person, or create a new one to call. 
+ 
+Automatically Match a Phone Number to the Salesloft Person  
+The Dialer is meant for immediate action. So when you call someone who has already been imported into Salesloft, the Dialer pulls up that Person's call record. This means you can seamlessly communicate and log a call to your contact without having to search for their record.
+
+Whether you dial their number, copy and paste the number, or right-click to dial their number, Salesloft searches your database and links the phone number to existing people. 
+
+What if more than one prospect shares the number? Salesloft will select the best option available. If we choose the wrong person, you can select the correct person from the Person search bar options.
+Search a Person and Select Their Number
+The Dialer holds your entire Salesloft catalogue within the Person tab. From this tab, you can search and select a Person you wish to call. This means, if you're hopping around your browser and then remember you were supposed to follow up with Stanley, you can bring up the Dialer, search for Stanley, and give him a call. 
+
+Follow these steps to search for a Person in the Dialer in Chrome:
+
+1. Right click in you Chrome browser window. In the menu, select Salesloft Dial. The Dialer will appear in your window. 
+
+2. Select the Person tab. 
+
+3. In the available text box, search for the Person by their name, phone number, or email. 
+
+4. Click the Person. Their phone number and name will appear in the upper portion of the Dialer where you can make the call. 
+
+
+
+5. If the Person has multiple phone numbers, you can select between the numbers. In the upper portion of the Dialer, click the down arrow to open the available numbers dropdown. There you can select the appropriate number. When you pick a number, it will become the number you will dial. 
+ 
+Log a Previously Completed Call
+While working through a series of phone calls, it's simple to hang up with one person and quickly move on to your next call without logging the first call's valuable information.
+
+Salesloft has you covered if you ever forget to log a call. If you start a new call but forgot to log your previous call, you can click Go back to log call from the prompt above the dialer. If you don’t want to log your previous call, close the notification or click Call to continue.
+Adjust Audio Settings
+The Dialer includes the ability to adjust audio settings to your preferred device. For example, if you would like to use an alternative microphone than your set default, you can select a different default option in the audio settings.
+
+To set a device default from the Dialer, follow these steps:
+Right click in you Chrome browser window. In the menu, select Salesloft Dial. The Dialer will appear in your window. 
+Select the Settings tab.
+Use the dropdown arrows to see the mic and speaker devices available on your computer.
+Select your preferred device.
+Click Play a Test Sound to test your audio settings. 
+
+
+ 
+Last Modified By
+Stephanie Griffith, 3/10/2022 4:25 PM
+Title
+Dialer In Your Chrome Browser
+URL Name
+Dialer-in-your-Chrome-Browser
+Salesloft Knowledge
+Dialer + Messenger
+Advanced Dialer Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

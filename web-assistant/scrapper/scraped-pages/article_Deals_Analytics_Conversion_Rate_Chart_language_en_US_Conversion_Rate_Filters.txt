@@ -1,0 +1,146 @@
+DEALS
+Deals Analytics Conversion Rate Chart
+
+Dec 21, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+From your Deals Analytics you can see the Conversion Rate Chart. This chart shows what percentage of deals are going from discovery-to-demo and from demo-to-close stages. When you look into this data, you can highlight coaching opportunities for reps who may fall below the typical average conversion rate or celebrate those who are reaching their goals.
+
+To access the Conversion Rate Chart, go to the Deals Product Tab in the top navigation. Then, select the Analytics tab. Inside the Deals Analytics section, you will select the Conversion Rate tab. 
+
+
+Things to Note: In order to view the Deals Analytics Conversion Rate Chart, you must have the View Deals Analytics permission enabled for your role. This permission is enabled for Salesloft admins by default.
+
+In this article, you will learn about the components of the Deals Analytics Conversion Rate Chart, including: 
+
+Conversion Rate Filters
+Conversation Rate Chart
+Conversion Rate Table
+Conversion Rate Filters
+
+The Conversion Rate filters allow you to select the data sets you want to view. The available filters include: 
+
+Closed Date Filter
+Owner Filter
+Record Type Filter
+
+Let's explore each filter. 
+
+Closed Date Filter
+
+The Closed Date filter will filter on the actual date the Opportunity was closed. Below are the options for the filter:
+
+The Month
+This Calendar Quarter
+This Fiscal Quarter
+This Calendar Year
+This Fiscal Year
+Last Month
+Last Calendar Quarter
+Last Fiscal Quarter
+Last Calendar Year
+Last Fiscal Year
+Custom Date Picker
+
+ 
+
+ 
+Owner Filter
+
+The Owner filter lets you filter based on the Opportunity owner. This filter also offers a multi-select option with Owners associated to groups.
+
+User the dropdown to select to view All Users, Owners in Specific Groups, or multiple groups.
+ 
+
+ 
+Record Type Filter
+
+The Record Type filter lets you filter based on the type of record Opportunities may be labeled. This filter will show the stages and data associated with that given record type.
+ 
+
+Conversation Rate Chart
+
+Directly below your Analytics filters, you will see the chart for conversion rates. This chart shows conversion rates from stage-to-stage, meaning how many deals went from stage A → B → C and so on.
+
+In the Conversation Rate Chart, you will see the following details:
+
+Y-Axis: The Opportunity Count
+X-Axis: Stages for the Record type that is selected
+Legend: The different values that are displayed on the chart. Each value will be represented by a different color in the chart. The values include: 
+Lost in This Stage (red)
+Converted to Next Stage (blue)
+Closed Won (green)
+Totals the amount of Opportunities: Number above each bar
+Between each column, there will be a gray overlay that displays the conversion rate from stage to stage
+
+ 
+
+ 
+Hover States
+
+For each section of data, hover over the section to see the number of deals and the value of said deals (amount).
+ 
+
+Conversion Rate Chart Drill Down
+
+Click on a specific data point on the chart to generate a modal that includes the list of Opportunities that were referenced in the hover display.
+
+This list will show the following details:
+
+Name of the Opportunity
+Close date
+Amount
+Time in stage
+Number of gaps associated with the deal
+
+
+From the modal, you can click to view any of the individual Opportunities in the list. This will take you to the Deal view of the opportunity that was selected in the modal. Here, you can make field updates and changes on the Opportunity all from within the modal. 
+
+ 
+Conversion Rate Table
+
+Below the chart, you will see a table that shows all of the reps and their individual conversion rate data. This is the Conversion Rate Table. 
+
+The first row of the table shows the column header. Each column header may be used to sort the list. Below the column headers, you will see the Total row that shows the sum of all data per column in the table. 
+ 
+
+
+The table is split into columns for each of the stages represented in the chart from above.
+
+Each stage (except for Closed Won Stage) has a Count and Conversion Percentage. The Count is the number of Opportunities while the Conversion % is the percentage converted Opportunities. 
+
+The Closed Won Stage is a little unique. Instead of the Conversion %, the Closed Won Stage shows the Win % as the second column. This compares the number of deals to the number in the very first column. So essentially you had 25 closed one deals compared to the 100 deals that entered the sales cycle which would be a 25% win percentage.
+
+The table also has markers, or icons, that define certain thresholds. These will display on users conversion rates that are lower than the team average. The possible thresholds include:
+
+Green Threshold	This will display next to the user who has the highest conversion rate in each column.	
+Yellow Threshold	The yellow icon are for those conversion rates that are more than 1 standard deviation* away from the average.	
+Red Threshold	The red is when someones conversion rate is more than 2 standard deviations* or more away from the average.	
+
+* The standard deviations will be specific to the customer's data based on how the average conversion rate percentages are distributed.
+
+Conversion Rate Table Drill Down
+
+By selecting any of the rep's names in the table, you will be directed to the Deals Summary Dashboard for that particular rep. 
+
+Things to Note: You must have Deals Summary for Frontline Managers view enabled to see the Deals Summary page of any user besides yourself. 
+
+ 
+Last Modified By
+Stephanie Griffith, 12/21/2023 3:31 PM
+Title
+Deals Analytics Conversion Rate Chart
+URL Name
+Deals-Analytics-Conversion-Rate-Chart
+Deals
+Salesloft Knowledge
+Deals Admins
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

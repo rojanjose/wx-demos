@@ -1,0 +1,189 @@
+PEOPLE AND ACCOUNTS
+View and Edit Person Details
+
+Jul 21, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Person Details panel shows all field information on the Person Profile Page. These details include standard and custom fields. The panel also offers smart features to help in your communication efforts. 
+
+Information may be updated by editing fields in the Person Details panel or clicking the Edit button to open the Person Details Page.
+
+In this article, you will learn about the features in the Person Details panel, including: 
+Field Edits from the Person Details Panel
+Search Person Details
+Person Details Email Address
+Person Details Phone Number
+Automatic Time Zone Population
+View Blank Person Fields
+Edit Person Details Page
+Available Person Details Fields
+Field Edits from the Person Details Panel
+To edit fields directly in the Person Details panel, follow these steps:
+Go to a Person Profile page and find the Person Details Panel.
+Search or locate the field you want to edit.
+Hover over the field and click to open the field editor. Either a text box or non-text edit (like a calendar or dropdown menu options) will appear.
+Once changes are made, press the "Return"/"Enter" key on your keyboard or click outside the edited field to save your changes. A notification will pop up confirming the field change. 
+ 
+
+ 
+If your team’s field configuration has been set up, the contact information fields will be pulled from the CRM record upon import. Also, the fields can be completed from a CSV import by assigning the Contact fields.
+Search Person Details
+The Person Details panel shows all fields related to the Person that contain data. Use the search bar to find specific information you may need related to the Person.
+
+To start searching, enter at least 2 characters in the available text box. Click View Blank Fields  to include fields that do not have information in your search.
+
+ 
+Person Details Email Address
+The email address seen in the Person Details panel can actually perform multiple functions. First, obviously, it shows you the Person’s email address. You can click the email address to send a one-off email. 
+
+Second, you can copy the email address. Hover over the area where an email is recorded in the Person Details panel. The option to "Copy" will appear on that line. When you click the "Copy" icon, the email address will be copied and you can paste it in any application.
+ 
+
+ 
+Person Details Phone Number
+Click the phone number to complete a one-off phone call with the Dialer.
+
+Copy phone number: Hover over the Person Details panel phone number. The option to "Copy" will appear on that line. When you click the "Copy" icon, the number will be copied and you can paste it in any application.
+Automatic Time Zone Population  
+If you have ever made a phone call only to realize that you called someone after business hours, you know the importance of an up-to-date time zone field.
+
+Time zones are automatically populated based on the contact information that is input when a Person is created or imported in Salesloft. The time zone is automatically detected based on City, State, and Phone Number fields. If the time zone is incorrect, you may edit it by using the dropdown menu. 
+
+Sometimes contact information may be limited. You may be missing the Person's phone number or portions of their address. This could impact the time zone from populating automatically. 
+
+The list below describes what contact information is necessary for time zones to automatically populate:
+ 
+Phone Number	City	State	Country	Results. Will the timezone automatically populate?
+✓	 	 	 	Yes
+ 	✓	 	 	No
+ 	 	✓	 	No
+ 	 	 	✓	No
+ 	✓	✓	 	Yes
+ 	 	✓	✓	No
+ 	✓	✓	✓	Yes
+
+Things to Note:
+The phone number rule only applies to the Continental United States numbers based on the area code. Timezone will pull based on the US area code.
+For People located outside of the Continental United States, please be sure to include a phone number, city, state, and country in the contact information fields. A person's timezone will be automatically determined by the information provided for city and country.
+Both City and Country fields need to be present and need not be abbreviated. For example, that value would need to be Tokyo, Japan and not Tokyo, JP.
+View Blank Person Fields
+Blank fields are fields that do not have data. Since there is nothing to show, these fields are hidden by default.
+
+At the bottom of the Person Details, you will see a View (number) Blank Fields. Click the View button to expand the contact details list and view all of the blank fields.
+
+To collapse the list, hit Hide (number) Blank Fields.
+
+ 
+Edit Person Details Page
+While the Person Details panel offers a quick glance of a Person's data, the Person Details page allows you to view all of that data and edit existing additional fields.
+
+As long as the fields are mapped, any data imported will be added to their equivalent fields. When any of the fields are updated and bidirectional sync is enabled for your team, updated fields will also update the Salesforce Lead or Contact record. 
+
+To access the Person Details page and edit any information, follow these steps:
+Go to the Person Details panel on the Person Profile Page. 
+Select the Pencil icon in the upper right corner of the panel. You will be directed to the Edit Person Details page. 
+Find the section and appropriate field. Type the updated information in the text box.
+Once your information is completed, click the Save button in the upper right or bottom left of the page.
+If all the information looks good, follow the breadcrumb link to get you back to the Person Profile page. The breadcrumb link is the Person’s name in the upper left corner of the Person Details page.
+ 
+
+ 
+Available Person Details Fields
+There are a lot of different groups of fields related to a Person that you will find in the Person Details. 
+
+The standard contact information fields contain the basic information about the Person and how to get in touch with them. These are the primary details you want when reaching out to any prospect or customer. 
+
+Contact Information
+The standard contact information falls into three different sections of the Person Details page: 
+Name
+First Name
+Last Name
+Job Title
+Job Seniority
+Email
+Phone 
+Mobile
+Office
+Home
+Person Custom Fields
+ 
+
+Custom fields are additional field types that your team admin can create. With custom fields in place, you can view the specific data that relates to the Salesloft Person.
+
+For example, maybe you need to reference a specific CRMfield when talking to a potential customer. After an admin creates and maps that custom field, you can view that information after the Person has been imported.
+
+ 
+
+A team admin can add custom fields inside the Person Field Configuration. The fields will appear on the Person Details panel in the order displayed in the Field Layout Settings. 
+
+ 
+
+Custom fields can be picklist, text, or date fields. Any custom field that contains a URL can be accessed with one click, or copied with one click via these icons. Hover over custom fields that include phone numbers to call or copy the phone number.
+
+ 
+
+Personal Links
+Personal links offer quick access to sources outside of Salesloft. You can think of them like the links that offer that personal touch. 
+
+All of the Person links will be listed under the Personal Links section of the Person Details page. When the fields are completed, the links will appear as icons at the bottom of the Person Information Panel.
+
+The Personal Links section contains the following fields:
+Personal Website
+Personal LinkedIn URL
+Personal Twitter Handle
+Location Details
+Location Details inform you about the whereabouts of the Person. 
+
+All of the location-related fields will be listed under the Location Details section of the Person Details page. The Location Details section contains the following field types:
+City
+State
+Country
+Time Zone: Time zone is automatically detected based on City, State, and Phone Number fields. If the time zone is incorrect, you may edit it by using the dropdown menu. 
+Company Information 
+The Company information shows information that is related to the Company the Person works for. If a Person is linked to a Salesloft Account, that Account information will fill in the Company category.
+The company-specific information includes: 
+Linked Account: a link that will take you to the Account Profile Page
+Company Name
+Company Website
+Company Industry
+Separate from the Company category, there is the Work Location category. The Work Location category includes: 
+Work City
+Work State
+Work Country
+Import History
+
+The Import History shows a list of import names based on when the Person was imported into Salesloft. 
+
+Typically, you will only see one listing below Import History, but if multiple Salesloft users have imported the Person from different campaigns or CSV files, you will see a list of all of those imports below the history. 
+Person Owner
+Typically the user who imports or adds the Person to Salesloft. If someone is the Salesloft owner of a Person record in Salesloft, that Person will appear under the owner's People list view by default. To learn more about the Salesloft owner, check out the Understanding Salesloft and Salesforce Ownership article. 
+
+Things to Note: You do not need to own the Person in order to communicate with them.
+
+The Person Owner may be edited. To edit the Person Owner, follow these steps:
+Click Edit in the upper corner of the Person Details panel.
+Find and click the Person Owner field.
+Search and select the updated Person Owner. 
+ 
+ 
+ 
+ 
+Last Modified By
+Briana Morgan, 7/21/2023 8:36 PM
+Title
+View and Edit Person Details
+URL Name
+View-Edit-Person-Details
+Salesloft Knowledge
+People And Accounts
+People
+People Page
+Person Profile Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

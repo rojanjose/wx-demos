@@ -1,0 +1,134 @@
+Forecast Segments
+
+May 18, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft’s Forecast Segments allow you to filter opportunities based on the data that is most important to the forecast you’re submitting.
+
+ 
+
+As a manager who forecasts new business opportunities, it’s important that you’re able to view all the opportunities that equal new business. Similarly, a Customer Success Manager may want to view a Forecast Rollup of Renewal opportunities. With Forecast Segments, admins can create Forecast Segments that specify the criteria by which you can Forecast opportunities appear in a Forecast Rollup or Forecast Pipeline (e.g. Renewals, Churn, Upgrades, etc.).
+
+ 
+
+In this article, we’ll cover the key components of Forecast Segments, including:
+
+Creating a Forecast Segment (Admins Only)
+Submitting a Forecast Segment Based on Your Role
+Editing a Forecast Segment
+Deleting a Forecast Segment
+ 
+Creating a Forecast Segment (Admins Only)
+
+Admins can create Forecast Segments and specify the criteria by which Forecast opportunities appear in a Forecast Rollup/Forecast Pipeline.
+
+ 
+
+To create a new segment, take the following steps:
+
+In Deals, navigate to your Admin Settings.
+Go to General Settings, then Deals Forecast.
+The Segments section is below the section for Forecast Types.
+On the Segments page, click the Create a Segment button.
+ 
+
+ 
+Start by filling in the Segment Name.
+Next, select an amount from the Segment Amount Field section. Click the dropdown to make your selection.
+ 
+
+ 
+
+ 
+Finally, specify your segment’s criteria. These are the available fields on which to build criteria:
+Record Type
+Opportunity Types
+Standard and Custom Picklist Fields
+Exact Match-Free Text Fields
+Currency Fields (Standard and Custom)
+Things to Note: For each field type, there may be different operators that appear depending on the type of field.
+ 
+
+ 
+Once you’ve set your criteria, choose whether you want to Enable the segment after saving. Enabled segments will be marked Active.
+ 
+
+ 
+You’re good to go!
+ 
+Submitting a Forecast Segment Based on Your Role
+
+From the Forecast Segment tab, you can view relevant opportunity information and submit a Forecast from the same page. The Forecast Segments are visible based on your role and the permissions you have. 
+
+ 
+
+Non-admins with the View All Opportunities role permission assigned can see all segments and users in the hierarchy. Non-admins without View All Opportunities role permission assigned can only see the segments they are visible in via the Hierarchy Visibility admin feature.
+
+ 
+
+Things to Note: 
+
+Users can only submit forecasts for Segments they are visible in via the Hierarchy Visibility.
+Admins can see all Forecast Segments and users within the hierarchy.
+ 
+
+To submit a Forecast from a Forecast Segment, follow these steps:
+
+Click the Deals product tab.
+Select Forecast from the top menu options.
+Choose the Segment you would like to submit a Forecast for.
+Review the opportunity data displayed, then select Submit Forecast to enter and submit your Forecast number.
+ 
+
+ 
+
+Editing a Forecast Segment
+
+To edit a Forecast Segment, proceed as follows:
+
+Click the Edit button. This will take you to the Segments page.
+On the Segments page, click the arrow beside the segment name and select Edit from the available options.
+ 
+
+ 
+
+ 
+Change the Segment Name or the specified Criteria.
+Choose whether to Enable segment after saving by flipping the toggle (when the toggle is flipped to the right, the segment is ENABLED).
+When you’re satisfied with your changes, click Save.
+ 
+
+ 
+
+Deleting a Forecast Segment
+
+If you want to delete a Forecast Segment, proceed as follows:
+
+On the Segments page, click the arrow beside the segment name and select Delete from the available options.
+ 
+
+ 
+A prompt will appear asking you to confirm that you want to delete the segment. To continue, check the boxes beside All forecast submissions will be deleted and All teams will lose the ability to access these segments.
+Things to Note: If you are at all uncertain about deleting the segment, do NOT proceed. Deleting a segment cannot be undone, and deleted segments cannot be recovered.
+Click Delete.
+Once the segment has been deleted, you will receive a pop-up confirmation.
+You’re good to go!
+ 
+ 
+ 
+ 
+Last Modified By
+Briana Morgan, 5/18/2023 2:54 PM
+Title
+Forecast Segments
+URL Name
+Forecast-Segments
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

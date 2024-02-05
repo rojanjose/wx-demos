@@ -1,0 +1,72 @@
+FORECAST
+Forecast Dashboard Filters
+
+Oct 27, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Forecast Dashboard displays your team’s goals and forecast metrics. In order to view a precise data set, you may want to refine the metrics on this page to reflect a specific time period or based on the size of your team, .
+
+You can use the Forecast Dashboard filters to refine the data shown on the Forecast Dashboard based on the Deal Owner and the Deal Close Date. 
+
+
+In this article, you will learn about the Forecast Dashboard filters, including:
+
+Close Date Filter
+Owner Filter
+Close Date Filter
+
+The Deal Close Date is the date or time frame in which an opportunity is expected to close. You can use the Close Date filter to find opportunities that are expected to close within the following time frames:
+
+This Month
+Next Month
+This Calendar/Fiscal Quarter
+Next Calendar/Fiscal Quarter
+This Calendar/Fiscal Year
+
+Things to Note:
+
+By default, the Forecast Dashboard shows your forecast metrics for This Month.
+The Dashboard will only include data for the current time period. 
+The filter options will include Calendar year OR Fiscal year based on how your team's settings are configured in Salesforce.
+If you use the standard fiscal year then the filters will show "Calendar."
+If you build a customer fiscal year then your filters will show "Fiscal."
+Owner Filter
+
+An Owner in Salesloft is the person who is working on a particular deal.
+
+Your default experience will depend on where you fall within your organization's hierarchy.
+
+Manager's with direct reports will see their view and their direct reports.
+Users or reps within the hierarchy will only see their personal forecast
+Users with access to Forecast who are not included in hierarchy will see the top of the hierarchy 
+
+
+The Owner filter allows you to view other owner's forecast or different variations of the hierarchy. When you click the Owner filter dropdown, you can select from the following options:
+
+Search: type the name of a specific user to view their forecast. 
+You (default): Shows your forecast.
+Users in your Hierarchy: Lists the users included in your hierarchy. You can select people within this hierarchy to view their forecast in the event you need to learn about a specific forecast or submit a forecast on behalf of a user. 
+
+
+Things to Note: When you filter by a Specific User, you will see the data for that user, as well as their direct and indirect reports. You cannot deselect the specific user’s direct and indirect reports.
+
+ 
+Last Modified By
+Stephanie Griffith, 10/27/2023 2:44 PM
+Title
+Forecast Dashboard Filters
+URL Name
+Forecast-Dashboard-Filters
+What's New
+Forecast
+Forecast Dashboard
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

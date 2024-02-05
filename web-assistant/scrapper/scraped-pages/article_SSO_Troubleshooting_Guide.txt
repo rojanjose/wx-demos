@@ -1,0 +1,58 @@
+ADMIN GUIDES
+SSO Troubleshooting Guide
+
+Sep 16, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Below are some common problems and alerts you may encounter with Single-Sign On, along with some tips and resources to help you troubleshoot, including:
+Relay State is not required
+ACS Url in request [...] doesn't match configured ACS Url [...]
+Sorry, you can't access Salesloft because you are not assigned this app in Okta
+There was an error while trying to parse your metadata file
+User does not exist in Salesloft
+Can not read name_id from SAML response
+SAML Authentication Unsuccessful
+Invalid SAML Response
+Relay State is not required
+If you have an existing Relay State, then you may leave it as is.
+
+If you are configuring SAML/SSO for Salesloft for the very first time, it is advised to leave the Relay State blank.
+ACS Url in request [...] doesn't match configured ACS Url [...]
+This error message is due to the RelayState. RelayState is not required in the ACS URL.
+
+If you previously had a RelayState in the ACS URL, you may need to remove it.
+Sorry, you can't access Salesloft because you are not assigned this app in Okta
+This error may occur when you click the Test Login.
+
+The error means you have not assigned this application to your profile during setup in Okta. Go back to this step and assign the app, and then try again.
+There was an error while trying to parse your metadata file. Please try again.
+Typically this happens when you uploaded the wrong file or file type, such as a CSV. Please check that you are uploading the metadata XML file you downloaded from Okta. This could also happen if your metadata file is corrupted; when this happens, you can usually re-download a fresh copy of the metadata file and try again.
+User does not exist in Salesloft
+The email address provided by the identity provider as the name_id must match the login email address of the user in Salesloft. This error either indicates that the user does not have a Salesloft account, or the account was made with a slightly different email address.
+Can not read name_id from SAML response
+Salesloft requires the user's email address in the name_id attribute.
+
+Check the settings in the identity provider to ensure that this attribute is included.
+SAML Authentication Unsuccessful
+This indicates that the identity provider rejected the login attempt. This can be for any number of reasons, but it is likely caused by some mis-configuration of the identity provider, like having an incorrect ACS URL for example.
+Invalid SAML Response
+This indicates that the login request fails Salesloft's validation checks. The specific validation error can be seen by using the "Test Login" button on the SAML settings page. Some common validation errors are listed below:
+"Invalid Signature on SAML Response" - The certificate that was used for this login attempt did not match the certificate that was uploaded to Salesloft in the SAML metadata file. Check the certificate, upload a new metadata file, and try again.
+"Salesloft is not a valid audience for this Response - Valid audiences: Salesloft" - Check the spelling of "Salesloft" as the Identifier or Entity ID in your Identity Provider. Capitalization is important.
+Last Modified By
+Stephanie Griffith, 9/16/2021 8:43 PM
+Title
+SSO Troubleshooting Guide
+URL Name
+SSO-Troubleshooting-Guide
+Salesloft Knowledge
+Admin Guides
+Single Sign-On
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

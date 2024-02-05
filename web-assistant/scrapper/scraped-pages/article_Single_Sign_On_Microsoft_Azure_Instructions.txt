@@ -1,0 +1,66 @@
+ADMIN GUIDES
+Single Sign-On: Microsoft Azure Instructions
+
+Sep 28, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+In order to set up SSO for Microsoft Azure, we need to add a new application to Azure AD, configure the Salesloft application with Microsoft Azure, and upload the metadata to Salesloft.
+
+Things to Note: In 2021, Microsoft Azure released a Preview Mode. The majority of our Single Sign-On instructions still show the old app gallery experience, however, some steps will show the Preview Mode as well. 
+
+Follow the instructions listed below to configure your Microsoft Azure SSO.
+
+1. Click Azure Active Directory.
+
+2. Click Enterprise applications.
+ 
+
+3. Click + New application at the top of the panel.
+
+4. Select Non-gallery application.
+ 
+Preview Mode Experience: Click on + Create your own application.
+ 
+5. Name it "Salesloft" and click the Add button at the bottom.
+
+Preview Mode Experience: Name it "Salesloft" and select "Integrate any other application you don't find in the gallery", then click the "Create" button.
+
+6. Select Single sign-on from the navigation panel.
+ 
+
+7. Set the Single Sign-on Mode to SAML-based Sign-on.
+
+8. Set the following:
+Identifier (Entity ID) to "SalesLoft"
+Things to Note: The second L in Salesloft must be capitalized as it is shown above or the Identifier (Entity ID) will not work.
+ 
+Reply URL: https://accounts.salesloft.com/auth/saml-callback
+9. Set the User Identifier to user.mail.
+
+10. Copy the App Federation Metadata URL. 
+ 
+
+11. In your web browser, navigate to the url that you copied.
+
+12. Click File and then Save As to save the file. You can name it whatever you like as long as it has a .xml extension.
+
+13. Go back into the Salesloft Single-Sign On Settings, and follow the instructions to Enable Single-Sign On.
+
+Things to Note: The Salesloft application will need to be assigned to users inside Azure AD before it can be used for SSO.
+Last Modified By
+Raequel Sank, 9/28/2021 8:28 PM
+Title
+Single Sign-On: Microsoft Azure Instructions
+URL Name
+Single-Sign-On-Microsoft-Azure-Instructions
+Salesloft Knowledge
+Admin Guides
+Single Sign-On
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

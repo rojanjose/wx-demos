@@ -1,0 +1,28 @@
+EMAIL
+Why do I get an Open email notification when I look at an email in my Sent folder?
+
+Apr 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+If you view a Salesloft email in your Sent folder, you could potentially trigger a false Open. Salesloft does not access your Sent folder for security purposes. Since the Sent folder is not recognized, checking your Sent mail activates the "Opens" pixel, and registers an email open. 
+
+To prevent this from occurring, it is best to view the email in your Salesloft account. However, there are a few preventives.
+If you are an Outlook/Office365 user, your Salesloft admin can block views by IP range in the Salesloft settings.
+If you use Gmail, most of the time we can prevent faux Opens even if you are viewing the email in your Sent folder due to using the Salesloft Chrome Extension (via the Loft It or in the actual platform). It is possible to still receive notifications for self views due to Gmail using a Google image proxy. Since Salesloft cannot control the Google image proxy and how it registers the views, this will likely occur intermittently.
+Last Modified By
+Raequel Sank, 4/28/2023 2:47 PM
+Title
+Why do I get an Open email notification when I look at an email in my Sent folder?
+URL Name
+Why-do-I-get-an-Open-email-notification-when-I-look-at-an-email-in-my-Sent-folder
+Email
+Salesloft Knowledge
+Email FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

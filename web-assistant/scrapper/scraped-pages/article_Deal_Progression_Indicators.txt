@@ -1,0 +1,109 @@
+DEALS
+DEAL MANAGEMENT
+Deal Progression Indicators
+
+Sep 14, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+When working to close a deal, one of the top questions on your mind is most likely "Is the deal moving forward?" You may flip through previous activities and notes to make an assumption about whether or not you're making progress towards a close. 
+
+Progression Indicators take the guess work out of analyzing your deal's progress by surfacing recent data that suggest how whether a deal is developing in a positive or negative way.
+
+The Progression Indicators appear throughout your Pipeline and Deal Views. A few key indicators on the recent progression of a deal include: Recent changes to the deal amount, Close date changes, Stage changes
+
+In this article, you will learn about how to use and understand Progression Indicators found in Deals, including: 
+Pipeline View Progression Indicators
+Deal View Progression Indicators
+Pipeline View Progression Indicators
+Progression Indicators are visible on the Pipeline View as colored arrows for the Amount, Close Date, and Stage Changes columns. These arrows will vary based on the data being displayed and will show any changes that have happened in the past 7-days on deals for the following information:
+Recent changes to the deal amount
+Close date changes
+Stage changes
+When you see an arrow, hover over it to view additional information about the data being surfaced. 
+Pipeline View - Amount Column
+Deal Amount changes will be visible by up or down arrows. Salesloft surfaces recent amount changes on an opportunity in the past 7 days. The arrows represent the following findings: 
+Up Arrow: A green up arrow means the amount had increased in value over the last 7 days. 
+Down Arrow: A red down arrow means the amount has moved down in the last 7 days. 
+
+When you hover over the progression indicator, you can learn the details about the change, including: 
+The new amount value
+The total change from the beginning of the 7-day rolling period
+If an amount goes up in value, it will display green with an arrow facing up
+If an amount goes down in value, it will display red with an arrow facing up
+Who made the amount change
+When the amount was changed
+ 
+ 
+Pipeline View - Close Date Column
+Your Close Date typically has two phases – the "proposed" Close Date and the actual Close Date. The propose Close Date is your assumption for when the deal will close. While the actual Close Date is the date the close happens.
+
+Changes to the Close Date are also an indicator of your deal's progress. In the Close Date column, recent close date changes in the past 7 days will be surfaced on an opportunity to show you if date changes have made an impact on your deal. The arrows that appear in the Close Date column representing the Progression Indicators mean the following: 
+Arrow Facing Left ← The green arrow means the close date has moved forward in time, or earlier than anticipated, (i.e. from May 15th to May 10th).
+Arrow Facing Right → The red arrow means the closed date has been pushed out to a later date.
+When you hover over the progression indicator, you can learn the details about the change, including: 
+The new close date value
+The change in days at the beginning of the 7-day rolling period
+Who made the amount change
+When the amount was changed
+ 
+Pipeline View - Stage Column
+The Stage column shows the assigned stage of the deal. The stage is selected by the rep or manage from a list of options. Typically, the stage informs you where the deal is in your sales process.  
+
+Progression Indicators will highlight stage changes found in the column on the Pipeline View. The arrow indicators will surface recent Stage changes on an opportunity in the past 7 days. The arrows represent the following findings: 
+Green arrow facing right → for when the stage moves forward in value
+Red arrow facing left ← if the amount moves down in value
+When you hover over the progression indicator, you can learn the details about the change, including: 
+The new close date value
+The change in days at the beginning of the 7-day rolling period
+Who made the amount change
+When the amount was changed
+ 
+Deal View Progression Indicators
+Progression Indicators also appear inside the individual Deal View. Here, you can drill into more information about a specific deal and gain further insight about how the deal is progressing (or maybe not progressing). 
+
+While the Pipeline View shows the Progression indicators as colored arrows, the Deal View offers a written overview inside the Deal Insights Panel. This information will appear among other data on the deal insights panel: Deal Engagement Score (if the feature is enabled), 7-day Summary, Key Factors for Deal Engagement Score. 
+
+Things to Note: These Progression Indicators will show regardless of whether a customer has DES (Deal Engagement Score) enabled in their account OR if the deal didn’t qualify for DES (i.e. they are not in the new business deal criteria). 
+
+The Deal Insights panel surfaced the following Progression Indication information on the Deal View page: 
+How long a deal has been in the current stage
+Number of days until the next meeting
+Number of days since the last meeting
+How many close date pushes have there been
+ 
+The Specific Progression Indicators
+There are four (4) progression indicators that can appear inside the Progression Indicators section on the Deal View:
+Progression Indicator #1: Number of Days in current stage
+This will show the N number of days that a deal has been in stage_name of the current stage.
+Progression Indicator #2: Number of Days until next Meeting
+This will show the N number of days until the next scheduled meeting.
+If there is no meeting Scheduled, the indicator should say that there is no next meeting scheduled.
+In the parentheses, you will see the date of the next scheduled meeting.
+Progression Indicator #3: Number of days since last completed meeting
+This will show the N number of days since the last completed meeting.
+In the parentheses, you'll see the date of the last completed meeting.
+If there has never been a meeting, then it will say "0 completed meetings."
+Progression Indicator #4: Close Date Pushes
+This will show the N number of close date pushes for a deal.
+Close Date Pushes sums up the total amount of close date pushes since the deal has been created.
+Close date pushes indicate that the close date was pushed further out into the future.
+In the parentheses, you'll see the previous close date with a strikethrough and the new close date for the deal.
+If there are no close date pushes, then you will see 0.
+Last Modified By
+Stephanie Griffith, 9/14/2021 5:43 PM
+Title
+Deal Progression Indicators
+URL Name
+Deal-Progression-Indicators
+Deals
+Salesloft Knowledge
+Deal Management
+Pipeline Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

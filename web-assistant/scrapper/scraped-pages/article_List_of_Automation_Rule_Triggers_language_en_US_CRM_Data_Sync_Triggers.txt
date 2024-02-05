@@ -1,0 +1,427 @@
+ADMIN GUIDES
+List of Automation Rule Triggers
+
+Aug 14, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Automation Rules use triggers to set each rule into motion. The Automation Rule trigger is the action or activity that causes Salesloft to start performing the rule. Identifying the correct trigger is an important part of creating an automation rule, since the trigger determines when your rule occurs. 
+
+Salesloft triggers are organized inside trigger categories. These categories define the type of events that teams try to create. Each time you construct an Automation Rule, you will start by choosing a trigger category. Selecting a category will reveal the specific triggers that apply to the category's label. 
+
+
+
+
+This article contains each trigger category, all of the triggers that fall under that category, and an explanation of each trigger: 
+
+Person Updates Triggers
+Account Updates Triggers
+Opportunities Triggers
+Engagement Triggers
+CRM Data Sync Triggers
+Cadence Progression Triggers
+Meetings Triggers
+Find Trigger Option
+
+ 
+
+After your trigger is selected, you will define the Automation Rule Criteria and select the rule's action.
+
+ 
+
+Person Updates Triggers
+
+ 
+
+Trigger
+	
+Definition
+	
+Common Use Case
+	
+Things to Note
+
+
+
+When a Person changes in Salesloft
+
+	
+
+Looks for a change in any Person field in Salesloft. This also includes updates to any CRM fields that are mapped to a Person field.
+
+	
+
+To start a rule based on a field that meets certain criteria, such as a Cadence stage or an industry.
+
+
+ 	
+
+When this trigger is selected, an info message will appear below the trigger name with recommendations on how to avoid frequent triggering or automation rule looping (when the rule continues to fire). Hover over and select the i information icon for instructions. 
+
+This event looks for any change on the Person record, which means it is not limited to specific field changes defined in the the criteria.
+
+For example, if a rule looks for “Industry equals Electronics” and a Person’s title changes from VP to CEO, but they already had a value of “Electronics” in the Industry field, this rule will fire because the title field triggered a change, and the Industry field still meets the criteria.
+
+When a Person is created in Salesloft, that action will also trigger any rules that have the "When a Person changes in Salesloft" trigger.
+
+
+
+
+When a Lead is converted to a Contact
+
+	
+
+Fires when a Lead is converted into a Contact with an associated Account.
+
+
+ 	
+
+To remove a Person from all Cadences when someone in your CRM has successfully converted the Lead into a working Contact and no longer needs to put them on a communications Cadence.
+
+	 
+
+ 
+
+Account Updates Triggers
+
+ 
+
+Trigger
+	
+Definition
+	
+Common Use Case
+	
+Things to Note
+
+
+
+When an Account changes in Salesloft
+
+	
+
+Looks for a change in any Account field in Salesloft.
+
+This also includes any updates from your CRM fields that are mapped to an Account field.
+
+	
+
+Start a rule based on a field that meets certain criteria, such as a Person stage or an industry.
+
+
+ 	
+
+This rule will run when any change is made to the Account, which means it is not limited to specific field changes defined in the the criteria.
+
+See the When a Person changes in Salesloft rule for more information.
+
+Opportunities Triggers
+
+ 
+
+Trigger
+	
+Definition
+	
+Common Use Case
+
+
+
+When an Opportunity changes in Salesloft
+
+	
+
+Fires when an Opportunity updates or has changed to a specific Opportunity stage. Criteria includes:
+
+Opportunity Amount
+Opportunity Close Date
+Opportunity Created Date
+Last Updated Date
+Probability
+Stage
+
+ 	
+
+Available actions when an Opportunity changes:
+
+Send Slack messages
+Adds People Related to this Opportunity to a Cadence
+Removes People related to this Opportunity from all Cadences
+
+ 
+
+Engagement Triggers
+
+ 
+
+Trigger
+	
+Definition
+	
+Common Use Case
+
+
+
+When a Success is recorded for a Person
+
+	
+
+Fires when the Success button is clicked on a Person.
+
+	
+
+To remove a Person and all other people on that Person’s Account from all Cadences, since the communications process has already been successful.
+
+
+
+
+When a Person replies to an Email
+
+	
+
+Fires when a prospect replies to an email sent through Salesloft.
+
+
+ 	
+
+To remove all People at an Account from all Cadences across the team, which prevents team members from continuing to contact other prospects at that Account.
+
+
+
+
+When a Person clicks on a link in an Email
+
+	
+
+Fires when a prospect clicks a URL link in an email sent through Salesloft.
+
+
+ 	
+
+To remove an interested Person from all Cadences and instead add them to a new "high interest" Cadence that's specifically tailored to following up with interested prospects with more personalization.
+
+
+
+
+When a Call is logged for a Person
+
+	
+
+Fires an action when a call is logged.
+
+	
+
+Admins can add criteria for Dispositions that equal "Connected," then "Set Person Fields" to update the Person's stage.
+
+
+
+
+When a Hot Lead is created
+
+	
+
+Fires when a Salesloft Hot Lead is created.
+
+	Adding a Person to a "Hot Lead Cadence" that will automatically send an email and engage the Person.
+
+
+When stats for an Email change
+
+	
+
+Fires when a Person views, replies, or clicks a link in an email.
+
+	
+
+To remove an interested Person from all Cadences and add them to a new "high interest" Cadence that's specifically tailored to following up with interested prospects with more personalization.
+
+ 
+
+CRM Data Sync Triggers
+
+ 
+
+Trigger
+	
+Definition
+	
+Common Use Case
+	
+Things to Note
+
+
+
+When a Lead is not found in Salesloft
+
+	
+
+Searches for the Lead’s email address to match a Person in Salesloft.
+
+	
+
+To automatically import and create a new Person in Salesloft.
+
+	
+
+If you are using a rule based on a Lead not found in Salesloft, the first rule you should set is to "Create a Person." This creates the Person in Salesloft, and you can then set additional fields or take more actions.
+
+
+ 
+
+
+When a Contact is not found in Salesloft
+
+	Searches for the Contact’s email address to match a Person in Salesloft.	To automatically import and create a new Person in Salesloft.	If you are using a rule based on either a Contact not found in Salesloft, the first rule you should set is to "Create a Person." This creates the Person in Salesloft, and you can then set additional fields or take more actions.
+
+
+When a Person is not found in my CRM
+
+	
+
+Uses the Person’s email address in Salesloft to search for a matching CRM record.
+
+	
+
+To automatically create a new Lead or Contact in Salesforce.
+
+	This rule is best for making sure your CRM and Salesloft records are aligned. 
+
+There are 4 actions that trigger this rule: 
+1. Initial import
+2. When a new activity is logged
+3. When a failed activity is retried
+4. When a user clicks "Link to CRM" on the Person record
+ 
+
+ 
+
+Cadence Progression Triggers
+
+ 
+
+Trigger
+	
+Definition
+	
+Common Use Case
+
+
+
+When a Person completes the first Step of a Cadence
+
+	
+
+Fires when a Person completes the first step of a Cadence. This rule does not include People who were “Skipped,” “Removed,” or “Moved to another Step.”
+
+	
+
+To update the Person stage field in both Salesloft and Salesforce so all members of a sales team know when a prospect is being actively worked.
+
+
+
+
+When a Person is added to a Cadence
+
+	
+
+Fires when a Person is successfully added to a Cadence, regardless of the Cadence steps.
+
+	
+
+To add tags to a Person, remove tags from a Person, or set Person fields when a Person has been added to a Cadence.
+
+A Person can be added to any Cadence step. If a Person is added to several Cadences at a time, the rule will be triggered one time only.
+
+
+
+
+When a Person is removed from a Cadence
+
+	
+
+Fires when a Person is removed from a Cadence, either manually or from a different Automation Rule.
+
+	
+
+To update the Person stage to a “Removed” status.
+
+ 
+
+Meetings Triggers
+
+ 
+
+Trigger
+	
+Definition
+	
+Common Use Case
+
+
+
+When a Person books a Meeting
+
+	
+
+Fires when a Person sets a date on the user's calendar for a meeting.
+
+	
+
+Admins can create workflows, such as removing a Person from Cadences, marking them as a Success, or sending a Slack message when a meeting is booked.
+
+
+
+
+When an External Meeting is Synced
+
+	
+
+Fires when a meeting is logged in Salesloft via Calendar Sync.
+
+	If your goal is to book a meeting with prospects, Remove the Person and/or Account from existing Cadences since the logged meeting means you accomplished the Cadence goal. 
+
+
+When Meeting is Canceled
+
+	
+
+Fires when an entire meeting is canceled (i.e. organizer deletes the calendar event entirely).
+
+	Add the Person to a Cadence to rebook the meeting and make sure you stay engaged. 
+
+
+When Meeting is marked as Not Attended
+
+	
+
+Fires when a Salesloft user manually marks a "no show" on a Salesloft meeting from their homepage.
+
+	Add the Person to a Cadence in order to get your communication back on track. 
+
+ 
+
+Find Trigger Option
+
+The final Trigger category opens a search for you to select a trigger. Find Trigger is best if you are unsure which trigger category fits the Automation Rule you wish to build. 
+
+You may use the dropdown or type ahead to search for an appropriate trigger. All of the available triggers can be found in the search. 
+ 
+
+ 
+Last Modified By
+Briana Morgan, 8/14/2023 2:10 PM
+Title
+List of Automation Rule Triggers
+URL Name
+List-of-Automation-Rule-Triggers
+Salesloft Knowledge
+Admin Guides
+Automation Rules
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

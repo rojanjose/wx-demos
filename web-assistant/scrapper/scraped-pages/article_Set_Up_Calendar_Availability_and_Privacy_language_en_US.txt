@@ -1,0 +1,46 @@
+USER GUIDES
+MEETINGS/CALENDAR
+Set Your Working Hours
+
+Dec 19, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Working Hours refer to your working availability, i.e. the days and times that you are available. Adding your working hours to your calendar allows prospects, stakeholders, and even your team to see your availability and determine when to schedule time with you.
+
+ 
+
+The Availability and Scheduling settings allow you to set your working hours and manage how your prospects and team members see your calendar availability and schedule meetings with you. 
+
+ 
+
+To access the Availability and Scheduling settings and set your working hours, follow these steps:
+
+Click your name in the upper right corner to open your settings.
+Select Calendar under the Personal Settings.
+Go to the Availability and Privacy tab.
+Click Edit in the Working Hours tile. This will open the Edit Working Hours window. 
+From this window, check the box beside each day of the week you would like to set working hours for. Once the box is checked, you can click the time or the clock icon to edit the time and set your availability for that day. 
+Hit Save.
+
+ 
+
+ 
+The Availability and Scheduling settings also allow you to set up scheduling preferences. To learn more about scheduling preferences, check out our Set Up Scheduling Preferences article. 
+Last Modified By
+Raequel Sank, 12/19/2023 6:02 PM
+Title
+Set Your Working Hours
+URL Name
+Set-Up-Calendar-Availability-and-Privacy
+Salesloft Knowledge
+Meetings/Calendar
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

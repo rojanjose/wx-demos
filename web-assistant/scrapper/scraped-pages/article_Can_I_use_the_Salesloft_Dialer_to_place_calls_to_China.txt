@@ -1,0 +1,36 @@
+DIALER + MESSENGER
+Can I use the Salesloft Dialer to place calls to China?
+
+Oct 20, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Due to strict carrier regulation changes, Salesoft will no longer be able to support outbound calls to Mainland China. This change will be effective as of Thursday, November 30, 2023.
+
+In the weeks leading up to this change, local network operators may block calls from Salesloft to Mainland China without warning.
+
+
+To avoid disruption with service to Mainland China, we recommend you migrate any existing voice connectivity traffic to Mainland China off of Salesloft immediately.
+
+Here are some other steps you can take to support your ongoing sales efforts in China:
+
+1. Create Cadences that run email or social steps instead of phone for Cadences that hit customers or prospects in Mainland China. 
+2. Use a phone line outside of Salesloft to call customers in Mainland China. You can log the call from the Person's profile page to keep call notes and log the activity for your records. 
+
+Last Modified By
+Stephanie Griffith, 10/20/2023 8:46 PM
+Title
+Can I use the Salesloft Dialer to place calls to China?
+URL Name
+Can-I-use-the-Salesloft-Dialer-to-place-calls-to-China
+Dialer + Messenger
+Salesloft Knowledge
+Dialer FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

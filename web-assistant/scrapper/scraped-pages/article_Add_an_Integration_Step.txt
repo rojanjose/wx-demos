@@ -1,0 +1,70 @@
+CADENCES + TASKS
+Add an Integration Step
+
+Apr 25, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Integration steps bring Salesloft's most powerful integrations into your consistent sales process.
+
+Currently Salesloft offers the following integration steps. Click the link to learn more about the each integration step:
+ZipWhip: send out text messages to your prospects.
+Sendoso: send direct mail, swag, gifts, notes, and anything else you may want delivered to your prospects.
+LinkedIn Sales Navigator: take one of the following four LinkedIn actions within your Cadence.
+Research: Read up on your prospect’s recent LinkedIn news or activities so you are familiar with your prospect and their company prior to your interactions.
+Introduction:  Get introduced to a prospect through a mutual connection.
+Connection Request:  Send a LinkedIn invitation to another person.
+InMail: Message the prospect via LinkedIn InMail.
+Things to Note: Integration steps are not included as "other steps" in the Salesloft analytics. The calculation for "Complete steps" includes all steps, including integration steps. 
+
+In this article, you will learn about adding integration steps to a Cadence, including: 
+Add an Integration Step
+Integration Step Best Practices
+Integration Step Details on the Cadence Overview Page
+Add an Integration Step
+To add an integration step to your Cadence, follow these steps:
+From your Cadence’s overview page, add a Cadence step.
+In the Create Step box, select the icon of the integration step you would like to add.
+Things to Note: Reach out to your team admin if you do not see the integration you would like to add. The integration may need to be enabled. 
+Enter the Day you would like the step to run.
+Hit Next.
+Give your step a name to let you know what the purpose of this step will be. 
+Add any instructions you would like listed.
+Click Add & Create Another to continue adding steps to your Cadence or Add Step to add the step and close the add step window.
+ 
+ 
+ 
+Integration Step Best Practices
+There are a lot of unique pieces within a Cadence, like if you use integrations within your Cadences, the types of integration steps you use, or even what you deem a success. 
+
+That being said, there are certain tactics that we at Salesloft have seen consistent enough success with that you can put in place while creating your Cadences.  
+
+LinkedIn Sales Navigator Steps from Cadence Frameworks
+
+There are a number of LinkedIn Sales Navigator steps in the various Cadence Frameworks. You can start a Cadence with these pre-built Frameworks. Check them out in the List of Cadence Frameworks article. 
+Integration Steps with LinkedIn Sales Navigator Research 
+Not every LinkedIn Sales Navigator interaction has to be a direct connection request or InMail. Use LinkedIn Sales Navigator research steps as a reminder to view that person’s profile and take note of any recent activity. The profile view itself can be a helpful light social touch to stay top of mind with your buyer.
+Integration Step Details on the Cadence Overview Page
+Once the step is added, you will see it on the Cadence Overview page as its own Cadence Step details panel. 
+ 
+The Integration step includes the following details: 
+Step Name: Designated name of the step. 
+Instructions: Written out instructions on what should take place for your other step.
+ 
+ 
+Last Modified By
+Stephanie Griffith, 4/25/2023 8:28 PM
+Title
+Add an Integration Step
+URL Name
+Add-an-Integration-Step
+Salesloft Knowledge
+Cadences + Tasks
+Create A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

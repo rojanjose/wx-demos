@@ -1,0 +1,160 @@
+CRM
+How to Install Insight from Salesloft
+
+Mar 7, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Insight from Salesloft dashboard package contains a lot of useful reports, dashboards, and fields that you can download into your team's Salesforce instance.
+
+To help simplify the download process, we have put all the install instructions into this one article. 
+
+In this article, you will learn how to install Insight from Salesloft, including: 
+Important Things to Know Before You Install Insight
+Install Insight from Salesloft
+Salesforce Lead Conversion Field Mapping
+Salesloft Field Configuration for Insight from Salesloft
+View and Edit the Insight from Salesloft Dashboard
+Update the Insight from Salesloft Package
+If you run into any issues with the download, please check out our Insight from Salesloft Troubleshooting article. 
+Important Things to Know Before You Install Insight
+The package installs a series of reports and dashboards that we have designed. There are dashboards for both Classic and Lightning views. You have the ability to customize each report, dashboard layout, and dashboard components after the installation to fit your team's needs.
+
+Here are the requirements and things you must know prior installing Insight from Salesloft:
+Insight from Salesloft may be installed to the following Salesforce editions:
+Enterprise
+Professional*
+*Things to Note: The Professional edition of Salesforce limits users to create five flow definitions in their Salesforce Org. Please see the Flows Definitions for more information. 
+Unlimited
+You must be a Salesloft admin as well as a Salesforce admin (or at least have permissions to create custom fields in Salesforce) to install the dashboard package successfully.
+As an admin, log into your Salesloft and Salesforce accounts in the Chrome internet browser.
+Select how to restrict dashboard access. The options include restricting to:
+Admins only
+All users
+Specific user profiles.
+The dashboard package will create 27 additional fields in your Salesforce instance. Salesforce allows a finite number of custom fields on the activity object. Before you install the dashboard package, verify you have not reached your activity field limit. Here's a breakdown of the 27 total fields created for each dashboard package:
+Lead: 4 fields
+Contact: 4 fields
+Account: 2 fields
+Activity: 14 fields
+Opportunity: 3 fields
+Install Insight from Salesloft
+To download and install Insight follow the instructions below:
+
+Things to Note:
+If you have previously downloaded Salesloft's former dashboard package and would like to install Insight from Salesloft, follow the How to Update Salesforce Dashboards guide. Failure to follow these steps may result in errors within your Salesforce instance or loss of historical data. 
+If you are not a Salesforce admin, please contact your company’s Salesforce admin, create a temporary Salesloft admin account for them, and have them follow these instructions to install the dashboard. You can then deactivate their Salesloft account once the installation is complete. 
+1. Click one of the following links to install the dashboard, depending on which Salesforce environment you're connecting to your Salesloft account:
+Install into Production
+Install into Sandbox
+2. If you are not already logged in with your Salesforce username and password, you will be asked if you have a Salesforce username and if you are a Salesforce admin.
+
+3. On the confirm installation page, read and agree to the terms & conditions. Click Install. Once you hit install, fields will be created on the activity level and the dashboard will be created with the previously listed reports.
+
+4. Select Install for All Users on the Package Installation Details page to ensure all users have permissions to write into the custom activity fields that will be created by this process. Otherwise, they will get errors notifying of failing Salesforce activities.
+ 
+
+5. Confirm package was successfully installed by accessing the newly created dashboard. Things to Note: The dashboard may not hold any data upon initial creation.
+
+6. Once the package has been installed, you will need to configure the Salesforce Field Mapping. Keep scrolling to learn how to map your Salesforce Fields. 
+Salesforce Lead Conversion Field Mapping
+The Salesforce Field Mapping determines the behavior of fields when a Lead is converted writes them to the Contact and Opportunity. Follow these steps:
+Select Setup in the upper right corner. 
+On the left side panel, go to Object Manager, then Leads, and select Fields & Relationships.
+From he Lead Fields page, click Map Lead Fields.
+On the Lead Conversion Field Mapping page, select Contact from the top tab.
+Map the follow fields:
+Most Recent Cadence - Cadence Name
+Most Recent Cadence - Next Step Due Date
+Most Recent Cadence - Last Completed Step
+Select the Opportunity tab on the top row and map the following:
+Most Recent Cadence - Cadence Name
+Most Recent Cadence - Last Completed Step
+Click Save.
+Salesloft Field Configuration for Insight from Salesloft
+Once the Salesforce downloads and Lead conversion mapping have been completed inside Salesforce, you will need to make sure the correct fields are mapped in Salesloft. Mapping the fields will make sure the information that will fill the report is pushed into Salesforce. 
+
+You'll map Activity, Person, Account, Opportunity fields. For steps on how to complete the field mapping, check out our Field Configuration Overview article.
+
+We've listed out the specific fields you need to map for the purpose of the Insight from Salesloft dashboard package below. 
+Activity Field Mapping
+Map the Activity Field Configuration. These fields will contribute directly to the dashboard package and provide you with the best data, so you want to map them to ensure they'll sync:
+ 
+Salesloft Activity Field	Salesforce Field API Name
+Cadence Name	Salesloft1__Salesloft_Cadence_Name__c
+Call Disposition	Salesloft1__Call_Disposition__c
+Call Duration	CallDurationInSeconds
+Call Sentiment	Salesloft1__Call_Sentiment__c
+Clicked Count	Salesloft1__Salesloft_Clicked_Count__c
+Email Template Title	Salesloft1__Salesloft_Email_Template_Title__c
+Replies Count	Salesloft1__Salesloft_Replies_Count__c
+Viewed Count	Salesloft1__Salesloft_View_Count__c
+Step Day	Salesloft1__Salesloft_Step_Day__c
+
+Things to Note: Certain fields are formula fields so, they do NOT need to be mapped, including:
+Active Lead (Lead object)
+Active Contact (Contact object)
+Active Account (Account object)
+Salesloft Type (Activity Object)
+Salesloft Unique Click Count (Activity Object)
+Salesloft Unique Reply Count (Activity Object)
+Salesloft Unique View Count (Activity Object)
+ 
+ 
+Person Fields
+We recommend mapping the three (3) person fields including in the Insight package:
+ 
+Salesloft Person Field	Salesforce Field API Name
+Most Recent Cadence - Cadence Name	Salesloft1__Most_Recent_Cadence_Name__c
+Most Recent Cadence - Last Completed Step	Salesloft1__Most_Recent_Last_Completed_Step__c
+Most Recent Cadence - Next Due Date	Salesloft1__Most_Recent_Cadence_Next_Step_Due_Date__c
+ 
+Account Field
+We recommend mapping the Account Domain field that is included in the Insight package. This formula ensures that a valid and unique Domain populates on for all Accounts created from Salesforce. Domain is the unique identifier when creating Accounts in Salesloft. 
+
+Salesloft Account Field
+
+	
+
+Salesforce Field API Name
+
+
+
+
+Domain
+
+	
+
+Salesloft1__Salesloft_Domain__c
+
+Opportunity Fields
+None of the custom fields included in the Insight from Salesloft package should be mapped to Salesloft. 
+View and Edit the Insight from Salesloft Dashboard
+Once the dashboard package has been installed and the activity fields are mapped, you may view and edit the dashboard package to best fit your team. Log into Salesforce and click on the Dashboards tab. You may need to navigate to the drop-down menu labeled Find a dashboard to select Salesloft Dashboard Package.
+
+Click on each individual report or dashboard component to customize them based on your company's needs. For example, your company may have a Sales and SDR team. You may want to duplicate the dashboard and filter to show only the Sales or SDR team.
+
+Whenever you make changes, click Save. 
+Update the Insight from Salesloft Package
+Your team may need to update the Insight from Salesloft package in the event of a new package version. The process to update a package is very similar to the initial install, but the view is slightly different. Follow these steps to update the Insight from Salesloft package: 
+Click on the new install link.
+You will then see the Upgrade Insight From Salesloft Package. Select Install for All Users.
+Click Upgrade. The dashboard will upgrade. 
+ 
+Last Modified By
+Stephanie Griffith, 3/7/2023 12:59 PM
+Title
+How to Install Insight from Salesloft
+URL Name
+How-to-Install-Insight-from-Salesloft
+Salesloft Knowledge
+Salesforce
+CRM
+Insight For Salesforce
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

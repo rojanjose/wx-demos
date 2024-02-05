@@ -1,0 +1,75 @@
+DIALER + MESSENGER
+ADVANCED DIALER GUIDES
+Inbound Calling
+
+Aug 3, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Callbacks from prospective customers can be vital to your sales process. An inbound call lets you know the customer is interested in what you're selling and ready to hear more. So you definitely don't want to potentially miss that call. Plus, when you receive an inbound call, it wouldn't hurt to log the activity and notes for your records.
+
+This is why Salesloft has two methods for you to receive inbound calls from People you have previously called via the Dialer:
+You can answer calls from your designated forwarding number.
+Accept inbound calls directly from your Chrome browser by installing Salesloft's Google Chrome Extension.
+To receive inbound calls in-app with the Chrome notification, you must follow these rules: 
+You must be logged into your Salesloft account.
+Your Chrome browser must be live. You may exit out of the Chrome browser, but if you “Quit” or shut down Chrome you will not receive inbound calls. 
+If you have entered a custom caller ID in your Calls Settings, you will not receive the inbound call in your Chrome browser. The call will be directed to the phone listed in the Custom Caller ID field.
+If you do not answer an inbound call, the call will follow your Inbound Call Settings. The call will either be directed to your forwarding number or the Person will leave a voicemail in Salesloft. The inbound call will show under your logs as a completed call with a voicemail recording. You can update the log status to "no answer." 
+In this article, you will learn all about inbound calls, including: 
+Getting Started with Inbound Calling
+Answer an Inbound Call
+Open an Inbound Call on CRM Link
+Log an Inbound Call
+If you run into any technical problems with the Dialer, check out our Dialer Troubleshooting Guide for more help. 
+Getting Started with Inbound Calling
+To start with Inbound Calling, make sure Inbound Calling is enabled from your Dialer settings.
+
+Inbound calling requires the Salesloft Google Chrome Extension. If you have not downloaded the Chrome extension, you may download it anytime by going to the Downloads page from your Salesloft Settings.
+
+Once the extension has been downloaded, make sure the Chrome notifications are allowed.
+
+Finally, your microphone must be enabled within the extension in order to accept the incoming call in Chrome. If you receive an inbound call, but the microphone has not been enabled, follow the steps to enable your microphone on an inbound call. 
+Answer an Inbound Call
+When a prospect returns your call, it will simultaneously ring within the Chrome browser and on the phone set as your forwarding number.
+
+An incoming call notification will display in the top right corner of your computer screen alerting you to the inbound call. The notification will include the prospect’s name, job title, and Account. And, just like receiving a call on your phone, incoming call notifications will play a ringtone on your computer.
+ 
+To pick up the call via your computer, you will need to “Accept” it. This helps with prioritization if you are in the middle of an outbound call — you are able to choose whether to continue with the outbound dial or to snag that return call you’ve been hoping for.
+
+To accept the call, follow the steps below:
+When you see an inbound call notification, click the Options dropdown then select Accept. You can also choose to Close the call on the Chrome notification, and the call will continue to ring on your forwarding number.
+When you accept the call, complete your call as normal. The Dialer Everywhere window will appear in a separate Google tab. 
+Open an Inbound Call on CRM Link
+When an inbound caller has a CRM link associated with their Salesloft Person record, Salesloft will open the Dialer on the page associated with the CRM link. For example, if the Person is linked to their Salesforce Contact, the Contact page will open in another tab. From that tab, the Dialer will open and you can take your call.
+
+If an inbound call is made while you are not logged into your CRM, you may still accept the call and manage the call by right clicking to open the Dialer window.
+
+In this instance, the CRM link will prompt you to log in before you can be redirected to the corresponding Lead or Contact page. After you log in and the page is open, the Dialer will automatically open as well.
+Log an Inbound Call
+Once an inbound call is accepted, the Dialer Everywhere box will appear. This allows you to log your call exactly like you would for an outbound call. Take notes, set dispositions and sentiments, and log the activity directly from the call log window.
+
+The logging function is not limited to calls accepted from your Google Chrome browser. If you choose to take an inbound call from your forwarding number, you can still log the call in Salesloft.
+
+All call activity will be posted in Salesloft. You can find the call record listed on The Calls Page. You may edit the notes of previous calls on this page.
+
+Things to Note:
+Calls must be logged on the Person Profile first in order for it to appear on the Calls page.
+You cannot edit dispositions and sentiments after a call has been logged.
+ 
+Last Modified By
+Raequel Sank, 8/3/2022 3:04 PM
+Title
+Inbound Calling
+URL Name
+Inbound-Calling
+Salesloft Knowledge
+Dialer + Messenger
+Advanced Dialer Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

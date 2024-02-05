@@ -1,0 +1,55 @@
+ADMIN GUIDES
+Invite Users
+
+Jul 17, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Whether your team is just getting started with Salesloft or you’ve recently hired team members, as a Salesloft admin, you can invite new users to the Salesloft party.
+A user must be invited before they can actually use the Salesloft platform. After an invite is accepted, your users can log into Salesloft and begin engaging with their buyers.
+
+Things to Note: Admins may add licenses as they are needed. When the number of active users exceeds the license limit on your contract, our Salesloft team will reach out to ensure these increases are reflected in your contract. If you have any questions or concerns about adding additional licenses, please contact success@salesloft.com.
+
+In this article, you will learn about managing user invites, including: 
+How to Invite Users to Salesloft
+The Invited Users Tab
+How to Invite Users to Salesloft
+To invite new users, follow these steps:
+Go to the Users Settings under your Team Settings.
+Select the Invite Users button in the upper right corner of the user management table. The Invite by Email window will appear.
+Type in or copy and paste the email address(es) of the users you wish to send Salesloft invites to.
+If you are adding multiple email addresses, separate each email address with a comma.
+Below the text box, you will see the total number of available seats. As email addresses are entered into the text field, the number will update to reflect how many invites you may still send. 
+If an email is invalid due to a lack of a domain or "@" symbol, an error message will appear in the email invite window. When an invalid email address is detected, the Send Invites button will be deactivated until the invalid email address is fixed or removed from the text field.
+Assign each user a setting by selecting the following:
+Role : Assigns each user a specific role. 
+Group: Assigns each listed user to a particular group.
+Hit Send Invites. A notification will pop up when invites have been successfully sent. Once the invites are sent, the invitees will appear in the Invited Users tab until the invite is accepted. After the invite is accepted, users will appear under the Active tab where you can Manage Users settings. 
+ 
+ 
+The Invited Users Tab
+The Invited tab shows a list of all email addresses you have previously sent Salesloft user invites to. 
+
+From this tab, you may cancel invites in the event that an email address no longer requires Salesloft access (or an incorrect email address was used).
+
+To cancel a Salesloft invite, follow these steps: 
+Go to the Users Settings under your Team Settings.
+Go to the Invited tab.
+Select the individual email address, or select the checkbox in the upper left corner of the column to select all of the email addresses. 
+A red button will appear to cancel the invites. Click Cancel Invites to complete the action. 
+Last Modified By
+Raequel Sank, 7/17/2023 4:52 PM
+Title
+Invite Users
+URL Name
+Invite-Users
+Salesloft Knowledge
+Admin Guides
+Team Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

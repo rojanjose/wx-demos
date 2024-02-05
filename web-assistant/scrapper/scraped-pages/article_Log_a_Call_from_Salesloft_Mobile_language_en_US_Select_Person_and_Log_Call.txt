@@ -1,0 +1,54 @@
+SALESLOFT MOBILE
+Log a Call from Salesloft Mobile
+
+Sep 28, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft Mobile allows you to log your call from your phone. This means you don't have to worry about forgetting what took place on the call if you're away from your desk. 
+
+As soon as the call is complete, you can log the call using the Calls tab in the Mobile app (as long as you aren't driving).
+
+The way you log your call will depend on whether the phone number you dialed is linked to a Person in Salesloft or not. We will walk through the process for both instances. 
+
+In this article, you will learn about how to log a call in Salesloft Mobile, including:
+Log a Call in Salesloft Mobile
+Select a Person and Log a Call 
+Log a Call in Salesloft Mobile
+If the number you dialed is linked to a Person in Salesloft, their name will appear in the Recent Calls list. To log a call, follow these steps: 
+In the Salesloft Mobile app, go to the Calls tab. 
+Find the call you would like to log. Click the plus sign icon on the far right. 
+The call details will appear along with the log box. Click in the Log your call notes... window and type any notes in the box. When you are done adding notes, tap your finger outside of the box to escape the keypad. 
+Add a disposition. Click the Disposition box. The disposition options will appear. Select a disposition or click Back to go back to the previous page. Once a disposition has been selected, it will take place in the box. 
+Add a sentiment. Click the Sentiment box. The sentiment options will appear. Select a sentiment or click Back to go back to the previous page. Once a sentiment has been selected, it will take place in the box. 
+Click Log. 
+Once the call is logged, the icon will change from the plus sign to the "i" icon for log information.
+ 
+ 
+Select a Person and Log a Call
+If the phone number is not associated with a Person in Salesloft, you will need to select a Person to tie that log to prior to logging the call. Follow these steps: 
+In the Salesloft Mobile app, go to the Calls tab. 
+Find the call you would like to log. Click the plus sign icon on the far right. 
+In the Call Details page, click Select a person to log this call.
+Search for a name. Select a Person.
+The call details will appear along with the log box. Now it will show the name of the Person you are logging to. 
+Click in the Log your call notes... window. Add a disposition and sentiment. 
+Click Log.
+ 
+ 
+Last Modified By
+Stephanie Griffith, 9/28/2021 6:03 PM
+Title
+Log a Call from Salesloft Mobile
+URL Name
+Log-a-Call-from-Salesloft-Mobile
+Salesloft Knowledge
+Salesloft Mobile
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,67 @@
+DEALS
+DEAL MANAGEMENT
+Deals To-Dos
+
+Jul 20, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Deal To-Dos act as your personal task reminder for your Deals. Items added as a To-Do can be checked off once the action is complete helping you keep track of accomplishments. 
+
+In this article, you will learn how to manage To-Dos in Deals, including: 
+View Your To-Dos
+Add a To-Do from the Pipeline View
+Complete a To-Do
+Edit a To-Do
+View Your To-Dos
+You can view your To-Dos from the following locations: 
+The Pipeline View: The To-Do column will show To-Dos created for each Deal. 
+Things to Note: This column may be hidden. 
+The Deal View: The Overview tab contains the To-Dos and your Summary of the Deal. 
+ 
+Add a To-Do from the Pipeline View
+To add a To-Do from the Pipeline View, follow these steps: 
+Go to the To-Do column of the Pipeline View.
+Hover over the cell where you want to add the To-Do. Click the blue plus sign in the bottom right corner of the cell. The To-Do panel will appear out of the right side of the screen. 
+In the To-Do panel, add the following: 
+Name the To-Do item, then hit the Enter key on your keyboard. 
+Select No Due Date to add a due date. A calendar dropdown will appear where you can select a date. 
+Opportunity (optional): The To-Do will link to the Deal you selected in the Pipeline View by default. If you would like to select a different Opportunity or Account for the To-Do, type it in the Opportunity field. 
+Owner: Sets it to a Salesloft user. You can select the Owner to assign the To-Do to a different user. 
+Person: Assigns the To-Do to a Contact.
+Additional Details: Any notes or reminders you want to have on the To-Do. 
+Delete: Change your mind? You can delete the To-Do from the list.
+Things to Note: If you add a To-Do, you must delete it to remove the To-Do, otherwise you will have an unnamed To-Do attached to the Deal. 
+Once the To-Do is complete, click outside the edit area within the To-Do side panel. 
+Click the arrow in the upper left corner of the To-Do side panel to close the panel and return to the Pipeline View. 
+You can also click the + icon in the upper right corner of the To-Do side panel to add a To-Do.
+Complete a To-Do
+To complete a To-Do, all you need to do is check the box and enjoy the satisfaction of removing an item from your list. 
+
+Completed To-Dos will still appear in the To-Do side panel, under the Closed section. 
+
+Things to Note: You can still edit the To-Do or uncheck it from the Closed list. 
+ 
+Edit a To-Do
+To edit a To-Do, follow these steps: 
+Click in the To-Do cell to open the To-Do side panel. 
+Select the To-Do you wish to edit. 
+Make your changes. Click outside of the edit area to save the updates. 
+Close the side panel by clicking the arrow in the upper left corner of the To-Do side panel. 
+ 
+Last Modified By
+Briana Morgan, 7/20/2023 5:33 PM
+Title
+Deals To-Dos
+URL Name
+Deals-To-Dos
+Deals
+Salesloft Knowledge
+Deal Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

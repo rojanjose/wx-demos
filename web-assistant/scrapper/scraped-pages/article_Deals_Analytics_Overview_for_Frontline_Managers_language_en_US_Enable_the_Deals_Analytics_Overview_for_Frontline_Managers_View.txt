@@ -1,0 +1,153 @@
+DEALS
+Deals Analytics Overview for Frontline Managers
+
+Aug 1, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Frontline Managers must stay on top of hundreds of deals at a time. These managers typically have 5-8 reps per team with 20-40 deals per rep, so they are likely working 100-320 deals per manager. That's a lot to juggle. 
+
+ 
+
+The Deals Analytics Overview for Frontline Managers enhances the standard version of the Deals Analytics Overview page with additional filters so managers can zero in on individual reps or team trends. With this addition, frontline managers can answer questions like, "How is my team performing?" or "How is my pipeline level trending?"
+
+ 
+
+In this article, you will learn about Deals Analytics Overview for Frontline Managers, including: 
+
+Enable the Deals Analytics Overview for Frontline Managers View
+Setting Goals for Groups and Individual Reps
+Deals Analytics Overview Filters
+
+ 
+
+Enable the Deals Analytics Overview for Frontline Managers View
+
+The Deals Analytics Overview for frontline managers view is exclusive to Salesloft users who have the permission. 
+
+ 
+
+If you are a Salesloft admin or have specific Filter Deals Summary permission assigned within your Roles and Permissions, you will have the ability to filter the Deals Analytics Overview. 
+
+ 
+
+Things to Note: 
+
+The Filter Deals Summary permission is enabled by default for Salesloft Admins. 
+The filter permission contains the Deals Analytics Overview’s previous name “Deals Summary.”
+
+ 
+
+When you go to the Deals Analytics Overview page, the first word of the Two Sentence Summary tile (should be You by default) will appear as a green, underlined link. 
+
+ 
+
+ 
+
+ 
+
+With the permission in place, the tiles and page layout will appear the same as the standard Deals Analytics Overview. To learn more about the tiles and the data they contain, check out the Deals Analytics Overview Dashboard article.
+
+ 
+
+Setting Goals for Groups and Individual Reps
+
+Goals set the targets within Deals Analytics Overview. 
+
+ 
+
+A team admin can set goals for individual reps and for groups in the Deals Admin Settings. 
+
+ 
+
+Things to Note:
+
+Only a team admin can set up Goals from the Deals Admin Settings. 
+Goals can only be set for groups that do NOT have child groups.
+If groups are enabled, you can only set goals for users that have been assigned to a group. 
+
+ 
+
+ To learn more about setting up your team's goals, check out the Deals Screen Settings article. 
+
+ 
+
+ 
+
+Deals Analytics Overview Filters
+
+When you have the Deals Summary filter permission enabled, the Deals Analytics Overview page defaults to the You filter. Click on the word You to open the Deals Analytics Overview filter menu. Within the menu, you can select the dropdown to see the filter options. The filters include: 
+
+You
+Specific User
+Group Filter
+
+ 
+
+You Filter
+
+The first of three filters we introduced for frontline managers is the You filter. When this filter is selected, your personal Deals Analytics Overview will appear. This is great for managers who are in a player-coach role and have a quota in parallel with being a people manager.
+
+ 
+
+Specific User Filter
+
+The second of three filters we introduced for frontline managers is the Specific User filter. This filter will show an individual rep's Deals Analytics Overview. You can choose from any user in your Deals org.
+
+ 
+
+Things to Note:
+
+User visibility is not limited based on any group management ownership.
+
+This is a single-select filter, and managers can only select one user at a time.
+
+ 
+
+ To select a specific user, follow these steps: 
+
+Go to the Deals Analytics Overview. In the Two-Sentence Summary, click the Deals Analytics Overview filter.
+In the dropdown, choose Specific User.
+Search or select a user from the dropdown menu. 
+Click Apply. The Deals Analytics Overview will alter to show that user's Deal Analytics Overview. 
+
+ 
+
+  
+
+Group Filter
+
+The third filter we introduced for frontline managers is the Group filter. This filter will show a group's Deals Analytics Overview data aggregated together and displayed in the tiles on the page. Additionally, when a group is selected, we will populate the page with the goal that is set on the group in the admin settings.
+
+ 
+
+Things to Note:
+
+The group view will not sum together the individual goals of reps within a group. Group goals must be set within Deals Admin settings.
+Only groups that do not have any child groups specified in their Salesloft hierarchy will appear.
+Only child groups that are under an existing parent group (but only if that parent group has child groups) will appear.
+This filter is single-select.
+
+ 
+
+ 
+
+ 
+
+Last Modified By
+Briana Morgan, 8/1/2023 7:58 PM
+Title
+Deals Analytics Overview for Frontline Managers
+URL Name
+Deals-Analytics-Overview-for-Frontline-Managers
+Deals
+Salesloft Knowledge
+Deals Admins
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

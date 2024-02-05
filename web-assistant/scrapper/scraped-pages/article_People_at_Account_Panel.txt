@@ -1,0 +1,112 @@
+PEOPLE AND ACCOUNTS
+ACCOUNT PROFILE PAGE
+People at Account Panel
+
+Sep 13, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The People at Account panel includes all of the People linked to that Account and contains additional details and actions that sellers can take on those People.
+
+This panel can be viewed on both the Account Profile Page and Person Profile Page. People listed in the panel are listed by the Person who was last contacted with the most recent at top of the list.
+
+In this article, we will explore the the People at Account panel, including: 
+People at Account Panel Details
+Create Person on Account
+People at Account Panel Actions
+View All People at Account
+Add to a Cadence from the People at Account Panel
+Call from the People at Account Panel
+Email from the People at Account Panel
+Remove a Person from the Account
+People at Account Panel Details
+You can learn a whole lot of information with a quick glance at the People at Account panel. Let's walk through the panel and take a look at each piece. We will start from the top and work our way down, explaining each detail within the panel.
+
+At the top of the panel, the total number of People linked to an Account is displayed. You will see the number in parentheses next to the panel title. 
+
+In the panel, each Person will be listed on their own tile that contains the following details:
+Person Name: First and last name of the Person. The name will link the Person record. Click the name to go to that Person's Profile Page . 
+Title
+Stage
+Person Icons: (e.g.: Bounced, Replied, Success)
+Last Contacted Date: If the Person has not been contacted yet, it will say "Never Contacted."
+Create Person on Account
+If the user has the Manage Accounts permission, the Create Person button will be displayed to add additional People to that Account.
+
+To add a Person from the People at Account Panel, follow these steps: 
+On the Person Profile or Account Profile page, find the People at Account Panel.
+Click Create Person. The Add New Person to Account module will appear. 
+From the module, search for the Person in Salesloft.
+When the Person's name appears, click the name to add them to the Account.
+If the Person does not already exist in Salesloft, follow these steps:
+On the Person Profile or Account Profile page, find the People at Account Panel.
+Click Create Person. The Add New Person to Account module will appear. 
+From the module, click Create new Person.
+Enter the name, email, and phone number of the Person. You will also see additional fields, including: 
+Related Account field: Sources existing Accounts in Salesloft to ensure it gets tied to the correct record. When creating a Person from the People at Account panel, this field will be pre-populated. 
+Job Seniority: Automatically populate based on inputs from Title field.
+Time Zone: Automatically populate based on inputs from the Location' field.
+Click Create and Add to Account.
+ 
+ 
+ 
+People at Account Panel Actions
+From the People at Account panel, you can take quick actions that will help you contact People in that very moment.
+One-off actions appear in the People at Account panel when you hover over a Person's name. You can take the following actions on a Person from this panel:
+Add to Cadence
+One-Off Call
+One-Off Email
+Remove Person from Account
+For walkthroughs of each one-off action, click the link or scroll down to learn more. 
+View All People at Account
+The People at Account list is set to display five People by default. When the number of People at the Account is greater than 5, the View All button will appear at the bottom of the panel.
+
+When you click View All, you will be redirected to a filtered list on the People page of the People on this Account. The yellow ribbon at the top of the People list will reflect which Account(s) the view is filtered to. 
+Add to a Cadence from the People at Account Panel
+ To add a Person to a Cadence from the People at Account panel, follow these steps:
+On the Person Profile or Account Profile page, go to the People at Account Panel.
+Find the Person you would like to add to the Cadence and hover over their name. The one-off actions will appear. 
+Click Add to Cadence. The Add to Cadence module will appear. 
+In the module, select the Cadence or Cadence step you want to add the Person to. 
+Click Add to Cadence. The Person will be added to that Cadence and the page will refresh. 
+Call from the People at Account Panel
+ To call a Person from the People at Account panel, follow these steps: 
+On the Person Profile or Account Profile page, go to the People at Account Panel.
+Find the Person you would like to call and hover over their name. The one-off actions will appear. 
+To the right of the Add to Cadence button, click the dropdown arrow.
+From the dropdown menu, click Call. The Dialer will appear in the bottom right corner, along with the Call Log box.
+Click Call to place your call. 
+Email from the People at Account Panel 
+ To send a one-off email to a Person from the People at Account panel, follow these steps:
+On the Person Profile or Account Profile page, go to the People at Account Panel.
+Find the Person you would like to email and hover over their name. The one-off actions will appear. 
+To the right of the Add to Cadence button, click the dropdown arrow.
+From the dropdown menu, click Email. The Email Compose pane will appear in the bottom right corner.
+Add text or content using the Insert button in the bottom right corner. Once your message is complete, hit Send or schedule a send. 
+Remove a Person from the Account
+To remove a Person from an Account while you are in the People at Account panel, follow these steps:
+On the Person Profile or Account Profile page, go to the People at Account Panel.
+Find the Person you would like to remove from the Account and hover over their name. The one-off actions will appear. 
+To the right of the Add to Cadence button, click the dropdown arrow.
+From the dropdown menu, click Remove from Account. The Remove Person module will appear.
+Confirm you wish to remove this Person from the Account by clicking Remove in the module. 
+Things to Note: Removing the Person from the Account will only remove them from the Account. They will still exist as a Person in Salesloft with any previous data still logged. 
+Last Modified By
+Stephanie Griffith, 9/13/2021 2:06 PM
+Title
+People at Account Panel
+URL Name
+People-at-Account-Panel
+Salesloft Knowledge
+People And Accounts
+People
+People Page
+Person Profile Page
+Account Profile Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

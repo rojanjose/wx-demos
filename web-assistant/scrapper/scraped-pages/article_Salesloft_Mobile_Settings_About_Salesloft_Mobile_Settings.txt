@@ -1,0 +1,110 @@
+SALESLOFT MOBILE
+Salesloft Mobile Settings
+
+Oct 25, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Your Salesloft Mobile Settings are nestled under the Settings tab in the app. 
+
+These settings are where you can manage everything in the app from your profile to push notifications. You can also check information in relation to your settings and the app itself.
+
+ 
+
+In this article, you will learn the pieces of the Salesloft Mobile Settings, including: 
+
+Profile Settings
+Mobile Push Notifications
+About Salesloft Mobile Settings
+Manage Salesloft Mobile Theme
+Profile Settings
+
+The Profile settings contain mobile app information related to you and your Salesloft account. 
+
+From the Profile settings, you can: 
+
+View your Salesloft user name and email address
+Update the cell phone number that is associated with your Salesloft Mobile account
+Update Caller ID list
+Log out of Salesloft Mobile
+
+ 
+
+ 
+
+Mobile Push Notifications
+
+Push notifications for the mobile app will notify you when prospects and customers engage so you can take action immediately. You can see what kind of notifications are available and manage which actions will produce a notification in the Mobile Settings page (aka the You tab).
+
+ 
+
+The available notifications include the following: 
+
+Email Views
+Email Clicks
+Email Replies
+Live Website Tracking
+Hot Leads
+Messages
+Meetings Booked
+
+Things to Note: By default, email views are set to Off.
+
+In order to receive app notifications, allow the app to send push notifications when prompted on the Salesloft home screen when you log in to the app.
+
+ 
+
+If you don't allow the initial prompt or change your mind about push notifications, you can enable or disable notifications from the mobile app by following these steps:
+
+From the Salesloft Mobile app, go to the Settings tab. 
+Select Notifications.
+Toggle the Enable Push Notifications button on (blue) or off based on whether you would like to receive notifications or not. 
+
+If you would like to pick and choose notifications, go to your Notifications settings and toggle on/off the notifications you prefer to receive. 
+ 
+
+ 
+
+About Salesloft Mobile Settings
+
+The final setting within your Mobile Settings is the About tab. This is where you can learn the version and build of the Salesloft Mobile app. 
+
+This page will come in handy for updates to the app when you need to know what version you are on. 
+
+ 
+
+ 
+
+Manage Salesloft Mobile Theme
+ 
+The Theme setting allows you to manage the app's display. By default, Salesloft mobile's display includes bright hues. You can use the Theme setting to enable Dark mode, which changes the display on your Salesloft mobile app from bright to dark.
+ 
+Things to Note: The Theme and Dark Mode settings are not available in Salesloft's web app settings.
+ 
+To enable Dark Mode, follow these steps:
+ 
+Click the gear icon to open your Salesloft Mobile Settings.
+Select Theme.
+Use the Dark Mode toggle to enable Dark Mode. Your display will instantly darken. 
+
+ 
+
+ 
+ 
+Last Modified By
+Raequel Sank, 10/25/2023 5:30 PM
+Title
+Salesloft Mobile Settings
+URL Name
+Salesloft-Mobile-Settings
+Salesloft Knowledge
+Salesloft Mobile
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

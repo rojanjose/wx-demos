@@ -1,0 +1,111 @@
+ADMIN GUIDES
+Manage Conversations Storage
+
+Jan 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Managing storage for an entire team can be time consuming, and with so many Conversations recordings to review, deciding which to save and which to delete can be a tedious process. 
+
+Conversations Auto-Delete simplifies storage management by allowing recordings to be automatically deleted based on the Auto-Delete criteria that you, as an admin, set for your team. 
+
+Things to Note: Deleting recordings is a permanent action. Recordings that have been deleted may not be recovered. 
+
+Once you enable Conversations Auto-Delete and set Auto-Delete criteria for your team, the automatic deletion process will occur daily at 1:00AM EST. Additionally, Conversations Auto-Delete can be enabled and disabled as often as you see fit for your team, allowing you to control the storage management process for your team. 
+
+In this article, we will walk through everything you need to know about Conversations Auto-Delete, including:
+Conversations Auto-Delete Criteria
+Enable Conversations Auto-Delete
+Disable Conversations Auto-Delete
+Conversations Auto-Delete FAQs
+Conversations Auto-Delete Criteria
+When you enable Conversations Auto-Delete for your team, you can set Auto-Delete criteria by which recordings will be automatically deleted. The Auto-Delete criteria that you set is essentially an expiration age that determines when recordings will expire– based on their creation date– and be automatically deleted.
+
+For example, if you set the Auto-Delete criteria at 120 days, any recording that is more than 120 days old will be automatically deleted at 1:00 AM EST. This process will continue daily, deleting your team’s recordings as they reach their 120-day expiration. You can, however, disable Conversations Auto-Delete at any point to stop the automatic deletion process. 
+If you have recordings saved within playlists, you can also choose to save them from being automatically deleted.
+Enable Conversations Auto-Delete
+As an admin, you can enable, or turn on, Conversations Auto-Delete and set Auto-Delete criteria for your entire team.
+
+To enable Conversations Auto-Delete for your team, follow these steps:
+
+1. Navigate to your settings.
+2. Scroll to the Communication section on the left menu panel and select Conversations.
+3. Choose Manage Storage from the Conversations tabs.
+4. Click Edit.
+Things to Note: Conversations Auto-Delete is disabled by default.
+
+5. Choose Auto Delete is enabled and old recordings will be deleted to enable Conversations Auto-Delete and set your Auto-Delete criteria.
+
+6. Set your Auto-Delete criteria.
+7. Check the box to agree that your recordings will be automatically deleted.
+
+Things to Note: Deleting recordings is a permanent action. Recordings that have been deleted may not be recovered. 
+
+8. Click Save.
+
+Once you click Save to enable Conversations Auto-Delete, the Auto-Delete criteria that you set will appear on the Manage Storage page. 
+Disable Conversations Auto-Delete
+Conversations Auto-Delete can be turned off and on as often as you see fit for your team.
+
+To turn off and disable Conversations Auto-Delete for your team, follow these steps:
+
+1. Navigate to your settings.
+2. Scroll to the Communications section on the left menu panel and select Conversations.
+3. Select Manage Storage from the Conversations tabs.
+4. Click Edit.
+5. Choose the Disable is disabled option.
+6. Click Save.
+
+Once you disable Conversations Auto-Delete, Auto-Delete Disabled should appear on the Manage Storage page.
+ 
+Conversations Auto-Delete FAQs
+Can I recover any recording that was deleted?
+Deleting recordings is a permanent action. Once a recording has been deleted, Salesloft removes it from the database along with any metadata related to it.
+
+How can I stop or prevent the process from running?
+The automatic deletion process runs daily at 1:00 AM EST. As an admin, you can enable and disable Conversations Auto-Delete as often as you’d like. As long as you disable Conversations Auto-Delete before 1:00 AM EST, your recordings will not be deleted.
+
+To disable Conversations Auto-Delete, check out the Disable Conversations Auto-Delete section.
+
+If there is a specific recording that I want to keep, how can I prevent it from being removed?
+If you want to keep a recording that is outside of the Auto-Delete criteria, you can add it to a playlist and click the Recordings included in a playlist option on the Edit Auto-Delete window.
+
+For more information on adding recordings to a playlist, check out the Recordings Actions Guide.
+
+Can I see which recordings will be deleted?
+Conversations Auto-Delete does not create a separate list containing recordings that are scheduled to be deleted. 
+
+To determine which recordings will be deleted, you can compare the Auto-Delete criteria set for your team to the creation date of the recording in question. If a recording’s creation date falls within the date range set for your team’s Auto-Delete criteria, the recording will be automatically deleted at 1:00AM EST.
+
+Can I pick the date and time for Conversations Auto-Delete to run?
+Once it is enabled, Conversations Auto-Delete runs daily at 1:00 AM EST. You can not pick the dates for Auto-Delete to run, but you can disable it manually.
+
+To disable Conversations Auto-Delete, check out the Disable Conversations Auto-Delete section.
+
+Will Conversations Auto-Delete remove Calls located in the Dialer section?
+Conversations Auto-Delete will remove Dialer calls from Conversations, however, the Dialer call will still be accessible throughout Salesloft.
+
+If a Dialer call has been removed from Conversations, you can still access the Dialer call recording (Twilio link) from the following:
+Calls tab
+Person record
+Account record
+Deals Timeline (when applicable)
+Also, the CRM call task (when configured) will still live in the CRM with an active recording
+
+If you would like to permanently remove Dialer calls, please submit a request to our support team.
+Last Modified By
+Raequel Sank, 1/10/2023 8:35 PM
+Title
+Manage Conversations Storage
+URL Name
+Manage-Storage
+Salesloft Knowledge
+Admin Guides
+Communication Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

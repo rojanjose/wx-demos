@@ -1,0 +1,116 @@
+DEALS
+Deals Analytics Overview
+
+Oct 11, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Deals Analytics Overview dashboard enables frontline reps to view charts and take action insights specific to their personal pipeline and quota. 
+
+ 
+
+To access Deals Analytics Overview, go to the Deals product tab of the Salesloft platform. Select the Analytics tab. The Analytics tab will take you to the Deals Analytics Overview dashboard. This dashboard holds six tiles full of data relating to your Opportunities and Pipeline. 
+
+ 
+
+ 
+
+Before you can fully reap the rewards of Deals Analytics Overview, a team admin must configure your team's Goal Management Settings. These settings determine rep goals and define your organization's goal period. To learn more about these settings, check out the Goal Management Settings article. 
+
+ 
+
+Things to Note: The standard Deals Analytics Overview page dashboard does not include the ability to filter. That functionality is exclusive to users with the Filter Deals Summary permission. To learn more, check out the Deals Analytics Overview for Frontline Managers view.
+
+ 
+
+In this article, we will walk through each tile presented in the Deals Analytics Overview, including: 
+
+Two Sentence Summary Tile
+Projection Tile
+Weighted Pipeline Tile
+Closed Won Tile
+Pipeline Health Tile
+Pipeline by Closed Date Tile
+
+ 
+
+ 
+
+Two Sentence Summary Tile 
+
+At the top of the Deals Analytics Overview page, the Two Sentence Summary Tile provides an intro summary that lets you know where your sales projections are at for a given time period. Specifically, this tile says whether or not you are on target to hit your quota for a given goal period
+
+ 
+
+For more information on this tile, check out the Two Sentence Summary Tile article.
+
+ 
+
+Projection Tile
+
+The Projection Tile gives you a look into what Opportunities you are projected to close in the given goal period. This tile highlights your Projected Difference. The Projected Difference is the calculation that shows the Projected Amount minus the Goal amount.
+
+ 
+
+For more information on this tile, check out the Projection Tile article.
+
+ 
+
+Weighted Pipeline Tile
+
+The Weighted Pipeline Tile looks at what the weighted and unweighted pipeline coverage is for a given goal period. 
+
+ 
+
+For more information on this tile, check out the Weighted Pipeline Tile article.
+
+ 
+
+Closed Won Tile
+
+The Closed Won Tile shows how much you have closed in the given goal period. You can also see how you are trending toward your overall goal. The Close Won Tile even highlights the number of deals closed and the average deal size for those closed-won opportunities.
+
+ 
+
+For more information on this tile, check out the Closed Won Tile article.
+
+ 
+
+Pipeline Health Tile
+
+The Pipeline Health Tile shows a heat map of deal amounts plotted against the number of days or Deal Gaps in stage. The chart can be edited to display only Stages as well.
+
+ 
+
+For more information on this tile, check out the Pipeline Health Tile article.
+
+ 
+
+Pipeline by Closed Date Tile
+
+The Pipeline by Close Date Tile gives insight into two different chart views:
+
+The Weight Pipeline
+Pipeline by Stage
+
+ 
+
+For more information on this tile, check out the Pipeline by Closed Date Tile article.
+
+Last Modified By
+Stephanie Griffith, 10/11/2023 12:46 PM
+Title
+Deals Analytics Overview
+URL Name
+Deals-Analytics-Overview
+Deals
+Salesloft Knowledge
+Deals Analytics
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

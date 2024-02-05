@@ -1,0 +1,32 @@
+EMAIL
+Convert Personal Templates to Team Templates
+
+Apr 12, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Did you create a personal template that you want your whole team to use? Or maybe one of your reps composed a message that is rolling in the replies?
+
+You can convert one or many personal templates into team templates. Follow these steps:
+Select the box to the left of the template you would like to convert.
+The Template Actions will appear above the template list. Click the Convert (two arrows going in opposite directions) icon under My Templates.
+A popup will appear to convert the template and ask whether you would like to keep the stats for the template. Select Yes, keep stats or No, delete stats. After converting a personal template, if you choose to delete stats the template will still be visible in My Templates for future use. However, if you choose to keep the stats with the converted template, it will no longer be visible under My Templates.
+Hit Convert Template.
+You will then be prompted to keep the template stats or start fresh with new stats for the team.
+ 
+Last Modified By
+Stephanie Griffith, 4/12/2023 3:27 PM
+Title
+Convert Personal Templates to Team Templates
+URL Name
+Convert-Personal-Templates-to-Team-Templates
+Email Guides
+Email
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

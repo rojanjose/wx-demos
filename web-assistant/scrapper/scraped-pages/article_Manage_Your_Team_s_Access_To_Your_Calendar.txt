@@ -1,0 +1,45 @@
+USER GUIDES
+MEETINGS/CALENDAR
+Manage Your Team’s Access To Your Calendar
+
+Dec 19, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Inside your Calendar Personal Settings, The Team Permissions settings allow you to manage how your team interacts with your calendar.
+
+ 
+
+You can access the Team Permissions settings by opening your Personal Calendar Settings, then selecting the Team Permissions tab. From this tab, you can use the toggles to enable, or turn on, the following settings:
+
+ 
+
+Assign You as Meeting Owner: Allows your team to schedule time on your calendar and assign you as the meeting owner. If you do NOT want other users to make you a meeting owner, we recommend turning this setting OFF. 
+Things to Note: Enabling this setting may impact your ability to capture meetings in Conversations.
+See Event Details on Your Calendar: Makes meeting event info visible to other team members. If this setting is turned off, your team will not be able to see meeting details on your calendar, and instead, the scheduled event will be marked "Busy".
+Double-Book: Allows more than one meeting to be booked at a time. This means you may have overlapping meetings.
+Schedule a Meeting During Your Off-Hours: Allows your team to book meetings on your behalf outside of your working hours.
+
+
+
+Things to Note: When the toggle area is blue, the setting is ON. When the toggle area is gray, the setting is OFF.
+
+ 
+
+Last Modified By
+Stephanie Griffith, 12/19/2023 3:14 PM
+Title
+Manage Your Team’s Access To Your Calendar
+URL Name
+Manage-Your-Team-s-Access-To-Your-Calendar
+Salesloft Knowledge
+Meetings/Calendar
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

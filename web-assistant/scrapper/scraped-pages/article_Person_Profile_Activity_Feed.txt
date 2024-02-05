@@ -1,0 +1,218 @@
+PEOPLE AND ACCOUNTS
+Person Profile Activity Feed
+
+Feb 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+An individual Person Profile Page is built up of smart panels that contain a whole lot of information and actions you can take to improve your engagement. The activities panel, located in the center of the profile page, holds the Activity Feed. This feed offers a detailed look into all of the activities logged on this Person. 
+
+The activities panel contains an overview tab followed by tabs that allow you to see specific activities at a granular level. The activity feed also displays information on how the activities were completed. You have complete visibility into a Person's Salesloft history with insights on whether an activity was completed manually by you or another Salesloft user, through a Cadence, or an Automation Rule.
+
+The tabs at the top of the Activity Feed allow you to quickly access and view certain activities on one page. The tabs include Emails, Calls, Cadence, Notes, Tracking, and Reminders. These tabs are perfect for filtering by a specific type of action. For example,  you could review all of your calls logged to a Person or keep track of their Cadence activities. 
+
+In this article, you will learn all about the activities you can view and complete from the Person profile Activity feed, including: 
+Switch Between Person and Account Views
+Turn On the Activity Feed Compact View
+View the Person Activity Feed
+View a Person's Logged Emails
+View a Person's Logged Calls
+View a Person's Cadences
+View a Person's Tasks
+View a Person's Live Web Tracking Activity
+View Notes Logged to the Person’s Profile
+Manage Reminders
+Switch Between Person and Account Views
+Outside of an individual Person's activity history, knowing what activity has occurred with the Account linked to a Person may be a crucial part of your sales process. For this reason, the Activity panel allows you to filter the view in your Activity feed between Person Activities and the Account Activities. 
+ 
+The Account Activity view shows all activities (Cadence steps, emails, calls logged) that have occurred within that particular Account. This means any activity with any Person associated with the Account who has been contacted by any Salesloft user will appear. 
+ 
+Things to Note: The Person must be linked to an Account in Salesloft. If they are not linked to an Account, the View Account option will not appear. 
+ 
+To switch the Activity feed view on the Person view to the Account Activity, follow these steps:
+Go to the Person's Profile page.
+In the upper left corner of the Activity feed, find the Person/Account filter. It will default to the Person view. Click the button to open the dropdown menu. 
+Click Account to view the Account Activity history. When the filter is selected, the button will display Account.
+Turn On the Activity Feed Compact View
+By default, when you view email replies, notes, and calls, the full activity description is shown. This is known as the Expanded View of the activity since it shows more details like the entire email message or complete note. 
+
+If you would like to see less information in your activity feed, you can switch the Activity Feed to the Compact View. The compact view will show the first couple of lines of the activity. You can still click the activity to expand the details. 
+
+To turn on the compact view, select the cog icon in the upper right corner of the Activity Feed panel. Enable the Compact View option. This compact view setting will apply to all Person and Account profiles that you view.
+View the Person Activity Feed
+The first tab in the Activity feed displays recent activities relevant to the Person. Any activity, whether you add the Person to a Cadence, send an email, log a call, create Tasks, mark them as a success, etc., will appear in the recent activities.
+
+To learn more about the various activity types and actions you can take from the Activity feed, check out the Logged Activities Inside the Activity Feeds article. 
+
+The Activity tab is divided into sections based on the types of activities you have available:
+Pinned: Notes, emails, and calls that are saved to the top of the activity feed.
+Upcoming: Activities that are scheduled to be completed at a later time. 
+Past: Activities that have been previously logged to the Person.  
+ 
+Pinned
+The Pinned section of the Activity feed will only appear when a note, call, or email has been pinned by a Salesloft user. All users have access to view pinned activities and pin them, but only an admin or the user who pinned an activity can unpin it.
+
+In the Pinned section activities will be sorted by the activity date (most recent on the top). You can unpin the activity by hovering over the activity and selecting unpin option.  
+
+Once a note, call, or email is pinned, it will appear in both Pinned and Past sections of the Activity tab, as well as on the tabs dedicated to the specific activity. When expanded, pinned activities will have additional information on when and who pinned the activity. 
+
+Things to Note: Once an activity is pinned for the Person, it appears in the Pinned Activities section on the Person Profile and Account Profile. Once account activity is pinned, it appears in Pinned Activities section on the Account Profile only.  
+Upcoming 
+Upcoming Actions include Cadence steps and assigned Tasks that need to be completed or are assigned for a future date.
+
+If a Cadence Step appears under Upcoming Actions, hover over the Cadence step and click the Run button to open the Cadence Side panel for the step chosen. This will allow you to run that Cadence step directly from the Person Profile Page. When the side panel opens, the Person Profile Page will remain in the background while the step is being ran.
+
+The Upcoming Actions will show three tiles by default. If there are more actions in the future, you will see a View All button at the bottom of the Upcoming Actions. Click View All to see all actions that are due.  
+Past
+Past Activities include the activities that have been previously logged to the Person.  
+
+Inside the Past section, you can filter activities by activity type. Different activities are broken down into the following categories:
+Engagement: recommended to view the history of touches and interaction between seller and the prospect. 
+Cadences and Tasks: recommended to review the history of completed cadence steps and tasks. 
+Other: recommended to find specific activity, like Success, DNC, or EU Resident
+To use the filter, follow these steps: 
+On the Person Profile, go to the Past section of the Activity feed. 
+Click the Activities button to open the Activities filter. 
+Select your preferred filter. The filter follows "and" logic. This means if you select multiple filters, you will see multiple activity types. 
+Click Apply. The Activities shown in the Past view will switch to the filtered view. The Activities button will show the number of filters applied. 
+To remove the filter, click the X listed in the Activities filter button to clear this filter 
+ 
+View a Person’s Logged Emails
+The Emails tab allows you to view all emails sent to this Person along with their email engagement (open, click, reply metrics). You can even see a complete log of replies you have received from the Person. To get a more in-depth look at the email, click on an individual email. You will be taken to that email’s page with the complete email thread, metrics, and send information.
+
+You can send a one-off by clicking the Compose Email button in the top right corner of the tab.
+
+Email activities nestled under the Past section of the tab can be filtered to view specific types of email activities. To use the Email filter, follow these steps: 
+In the Activity Panel on the Person Profile, go to the Email. 
+Under the Past section, click the Emails button to open the Emails filter. 
+Select your preferred filter(s) from the following options: 
+Sent
+Replies
+Received (Inbound Sync)
+Click Apply. The activities shown in the Past view will switch to the filtered view. The Emails button will show the filter or number of filters applied. 
+To remove the filter, click the X listed in the Emails filter button to clear this filter 
+ 
+ 
+View a Person’s Logged Calls
+The Calls tab shows all of the calls made to this Person. Each call log includes any notes, the disposition, and sentiment of those calls. You can even access Call Recordings from the link below the call notes.
+
+At the top of the Calls tab, you will see the option to Expand All/Collapse All. These buttons allow you to expand all call logs in a single click. Once the view is expanded, you can view all of the details and notes logged to the call. You can select between Expand All or Collapse All. One option will be selected at all times. 
+
+Things to Note: The Expand All option will apply to the Calls and Notes tabs. 
+
+Call activities nestled under the Past section of the tab can be filtered to view specific types of call activities. To use the Call filter, follow these steps: 
+In the Activity Panel on the Person Profile, go to the Call. 
+Under the Past section, click the Calls button to open the Calls filter. 
+Select your preferred filter(s) from the following options: 
+Calls Logged
+Voicemails Received
+Click Apply. The activities shown in the Past view will switch to the filtered view. The Calls button will show the filter or number of filters applied. 
+To remove the filter, click the X listed in the Calls filter button to clear this filter 
+
+The Calls tab also lets you edit and log new calls.
+
+Things to Note: Editing call notes will only edit the notes, not the disposition and sentiment. Edited call notes will not be logged to Salesforce.
+
+To edit a call note, follow these steps:
+Find the call log in the Calls tab of the activities panel.
+Click Edit Call Note.
+Add your note in the text box.
+Click Save Note.
+ 
+If you ever forget to log a call with the Dialer, you can log the call from the Calls tab. Follow these steps:
+Navigate to the Calls tab in the activities panel on the Person’s Profile page.
+Click Log a Call in the top right corner of the tab.
+Enter your call notes, disposition, and sentiment.
+Log the call by hitting Log or Success.
+View a Person’s Cadences
+The Cadences tab shows all the Cadences this Person is or has been on, including Cadences of your teammates. Here you can also take certain Cadence actions, like adding the Person to a Cadence.
+
+To add someone to a Cadence, select the Add to Cadence button in the top right corner of the panel.
+  
+View a Person's Tasks
+Tasks are one-off actions assigned to a Person inside Salesloft. The Tasks tab shows Upcoming and Past (completed) tasks related to the Person's Profile. 
+
+Hover over Tasks listed in the Upcoming Tasks section to complete the task or view additional task actions.
+ 
+ 
+
+From the Task tab on the Person Profile page, you also have the option to create a new task. This way, if you are viewing your tasks list to the Person and realize it's time to reach out again, you can assign yourself the task on the spot. 
+
+To create a task from the Person Profile page, follow these steps: 
+Go to a Person's Profile Page. In the Activity Feed, select the Tasks tab. 
+Click Create Task in the upper right corner of the Task panel. The Create Task module will appear. 
+Complete the following details in the Create Tasks Module: 
+Subject
+Task type: Select a General, Call, or Email tasks. 
+Related Person: Will be set to the Person whose Profile Page you are viewing.
+Due Date
+Assignee: Salesloft user that will complete the Tasks. Your name will appear by default. You have the option of selecting another Salesloft user or team member to complete the task. 
+Notes (optional)
+Click Create Tasks. The Tasks will now appear in the Upcoming Tasks section. 
+
+
+View a Person's Live Web Tracking Activity
+When Live Website Tracking has been enabled for your team, the Live Web Tracking tab will appear in the activities panel on the Person’s Profile page. From here, you can see a timeline of the Person’s past and current Live Website Tracking activity.
+ 
+View Notes Logged to the Person’s Profile
+The Notes tab does exactly what the name says, it allows you to log notes on the Person’s record in Salesloft. When you log a note you can quickly reference it from the Notes tab, or view it under recent activity. 
+
+The sky is really the limit when it comes to the notes you take. Take down t-shirt size for swag sends, document a common topic of interest you can bring up, or log your interaction with the Person.
+
+At the top of the Notes tab, you will see the option to Expand All/Collapse All. These buttons allow you to expand all call logs in a single click. Once the view is expanded, you can view all of the details and notes logged to the call. You can select between Expand All or Collapse All. One option will be selected at all times. 
+
+Things to Note: The Expand All option will apply to the Calls and Notes tabs. 
+
+To log a note, follow these steps:
+Click the Notes tab from the activities panel on the Person’s Profile page.
+Select the Add a Note button in the top right corner of the panel.
+Type in your note.
+Click Create Note.
+
+If your note is no longer applicable to your sales process, you can delete the note. To delete the note, follow these steps:
+Click the Notes tab from the activities panel on the Person’s Profile page.
+Find your note and hover over it.
+Select the down arrow to open additional options. 
+Click Delete. A message will pop up to confirm the action. 
+Click Yes. The note will be deleted from your records. 
+Things to Note: Removing or editing notes in Salesloft will not be reflected in Salesforce. You will still find the original note listed below the activity history. 
+ 
+
+Notes Management: Who Can Access, Edit, and Manage Notes?
+Wondering who has access to view, create, edit, pin, or remove notes on the Person Profile Page? The answer depends on the user's role and level of permissions. The table below lists Salesloft's notes management permissions.
+
+Things to Note: The Person Record Owner is the Salesloft user who owns the Person Record and is responsible for the actions related to a Person in Salesloft. The Person Record Owner's name appears on the Person Profile Page.
+ 
+Action	User With Record View Permissions	Person Record Owner	Admin
+View all notes	Y	Y	Y
+Create a new note	Y	Y	Y
+Pin/Unpin my note	Y	Y	Y
+Pin/Unpin other user’s note	N	Y	Y
+Pin/Unpin inactive user’s note	Y	Y	Y
+Edit my note	Y	Y	Y
+Edit other user’s note	N	N	Y
+Delete my note	Y	Y	Y
+Delete other user’s note	N	Y	Y
+
+
+
+ 
+Manage Reminders
+The ability to create new reminders is no longer available. Any Reminders set for a due date in the year 2023 will be converted to a Salesloft one-off Task. These one-off tasks will maintain the same due date and information as when the reminder was created. We understand that your follow-ups are important and not everything is fit to go on a cadence. Try creating a Task today.
+ 
+Last Modified By
+Raequel Sank, 2/13/2023 3:27 PM
+Title
+Person Profile Activity Feed
+URL Name
+Person-Profile-Activity-Feed
+Salesloft Knowledge
+People And Accounts
+Person Profile Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

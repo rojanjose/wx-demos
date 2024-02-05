@@ -1,0 +1,68 @@
+USER GUIDES
+SALESLOFT CONNECT
+Update the Salesloft Chrome Extension
+
+Oct 11, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Like any application, the Salesloft Chrome Extension will occasionally need to be updated. Updates allow for new functionality, bug fixes, and app maintenance.
+
+ 
+
+In this article, you will learn how to update the Salesloft Chrome Extension, including:
+
+Conditions for Updating Salesloft Connect
+Update Salesloft Connect 
+Conditions for Updating Salesloft Connect
+
+The extension will be only updated when the following conditions are met:
+
+All Gmail tabs are closed or Gmail is opened in the Inbox view with the scroll position at the top of the page.
+All Salesforce tabs are closed. 
+
+The extension will not be updated if:
+
+A Salesloft user is composing an email.
+Any email is opened.  
+The user is in the Inbox view, but not on the first page or the page has scrolled down.
+The user is in anything other than the Inbox folder view.
+The extension side panel is opened.
+Any Salesforce tab is opened.
+
+When an update is available, Salesloft will check if the extension can be updated. In the case it cannot be updated during the working day, the update will be forced between 11 pm and 5 am in users' local time zones.
+
+Update Salesloft Connect
+
+For those instances when the extension is not updated automatically, you will be able to update the extension manually. To perform a manual Chrome extension update, follow these steps: 
+
+In the upper right corner of your Chrome browser, you will see a dot indication next to the Salesloft icon in the Chrome extension bar.
+Click the Salesloft icon. This will open a banner with the option to update the extension.
+Click Update Now.
+Once you select the option to update the extension, all opened Gmail and Salesforce tabs will be reloaded and the extension will update to the latest version.
+
+ 
+ 
+You may also be prompted to update the extension outside of Salesloft. For example, your Google calendar may inform you that the extension has been updated. 
+
+ 
+
+Last Modified By
+Raequel Sank, 10/11/2023 7:07 PM
+Title
+Update the Salesloft Chrome Extension
+URL Name
+Update-the-Salesloft-Chrome-Extension
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Understanding Salesloft Connect
+User Guides FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

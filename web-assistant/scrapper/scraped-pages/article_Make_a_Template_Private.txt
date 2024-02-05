@@ -1,0 +1,35 @@
+EMAIL
+Make a Template Private
+
+Apr 12, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Some templates may benefit your entire team and should then be shared among all users. Other templates may fit your specific use case or region and should only be used by you. This is why Salesloft allows you to make templates either public or private depending on your preference. 
+
+Things to Note: Template sharing and making templates private only applies to personal templates. Team Templates cannot be changed to Private once they have been created. 
+
+By default, your templates will be public and available to your entire team. If you would like to make a template private, use the Shared icon to edit the template sharing preferences.  
+Select the template.
+Click the Shared icon (lock).
+To make public templates private, click Private.
+A lock icon will appear to the left of the template name in your list view. To share currently private templates, repeat steps 1 and 2, then click Share.
+
+
+ 
+Last Modified By
+Stephanie Griffith, 4/12/2023 2:36 PM
+Title
+Make a Template Private
+URL Name
+Make-a-Template-Private
+Email Guides
+Email
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

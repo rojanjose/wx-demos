@@ -1,0 +1,95 @@
+ADMIN GUIDES
+Advanced Team Email Settings
+
+Sep 14, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The majority of the Team Email Settings are very simple to manage. However, some email settings require the assistance of someone with more technical know-how, like a member of your IT department, to ensure everything is properly configured to your team's existing tech. 
+
+In this article, you will learn about Salesloft's more advanced team email settings, including: 
+
+Email Deliverability Checklist
+DKIM Records Lookup
+Using Custom Tracking Domain
+Email Deliverability Checklist
+
+Setting up email exchange records can greatly reduce the risk of an email being flagged as spam.
+
+The Email Deliverability Checklist verifies whether or not your email domain has been set up with specific email exchange records.
+
+The checklist searches for the following email exchange records:
+
+Custom Tracking Domain
+SPF (Sender Policy Framework)
+DMARC (Domain-based Message Authentication, Reporting & Conformance)
+DMARC is set up by your team (aka the person controlling your domain). For more information, check out DMARC's website overview.
+DKIM (DomainKeys Identified Mail)
+
+Each time you view the Email Deliverability Checklist, Salesloft scans for the Custom Tracking Domain, SPF Record, and DMARC record based off your team's email domain. The DKIM record requires action from an admin to verify the record.  
+
+You can determine the state of your email deliverability health based on the status icons that appear next to each checklist item. The status options include:
+
+	 Configured
+	 Not Configured 
+	 Requires Action: Manual check required
+
+
+Things to Note: For more information on Email Deliverability, check out our Salesloft Email Deliverability Best Practices article. 
+
+DKIM Records Lookup
+
+DKIM records verify that your company owns your email domain by sending domain-specific, encrypted keys with each email sent. While other email deliverability checklist items use exchange records to check their status, DKIM doesn't follow these same rules since the encrypted keys are specific to your domain.
+
+In order for Salesloft to confirm your DKIM record, you (or an IT member) must enter your DKIM selector. You can find the selector in the DKIM-Signature header for messages signed with a DKIM key. The value shown after the s= is your selector. 
+
+For example, if your public key record is "selector1._domainkey.yourdomain," your domain selector is: would be "selector1."  When you add a DKIM Record Lookup, you would enter "selector1" in the selector section.
+
+Once you have found your selector, follow these steps to verify the DKIM record:
+
+Navigate to the Email settings under the Communication section of your Admin settings. 
+Scroll to the DKIM Record Lookup. 
+Enter your selector ID in the available text box.
+Things to Note: Ask your IT Department to provide the selector ID.
+Click Lookup DKIM. 
+Salesloft will check for the DKIM configuration. Once Salesloft fetches the DKIM status, the status turns green.
+
+Things to Note: The DKIM status will reset when you leave the team Email settings tab. Each time you access the team Email settings tab, the DKIM record status will be yellow, meaning you must verify the status.
+ 
+
+Using Custom Tracking Domain
+
+Salesloft uses shared tracking domains in order to track sent messages. This means the email tracking domain we use does not match up with the sender’s (your) domain. 
+
+Unfortunately, mismatched tracking and sender domains can significantly increase the risk of your email being reported as spam.
+
+However, setting up a custom tracking domain can greatly reduce the likelihood of your emails landing in a spam folder. Custom domain tracking replaces links that use the Salesloft default tracking domain with links that contain your url. 
+
+To setup a custom tracking domain for your team, follow these steps: 
+
+Decide what subdomain you would like to use. The format for subdomains follows this pattern: "text.yourdomain.com". For example, our subdomain could be sales.salesloft.com.
+Once you have decided your subdomain, contact Support so our support agents can set up the custom tracking domain. 
+Support will provide you with a CNAME reference using the subdomain you choose. 
+After you have your CNAME, reach out to your IT team or administrator to add the CNAME reference to your DNS record. 
+Once that is completed, inform our support team. Support will add the subdomain in Salesloft. 
+Send emails with your own domain and drastically decrease the potential of your messages going to spam. 
+
+For more information on how opens, clicks, and replies are tracked, check out our How are Opens, Clicks, and Replies Tracked? article. 
+
+Last Modified By
+Raequel Sank, 9/14/2023 8:25 PM
+Title
+Advanced Team Email Settings
+URL Name
+Advanced-Team-Email-Settings
+Salesloft Knowledge
+Admin Guides
+Email Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

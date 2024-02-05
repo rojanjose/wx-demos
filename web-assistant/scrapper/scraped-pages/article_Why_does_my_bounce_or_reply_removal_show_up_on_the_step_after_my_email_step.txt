@@ -1,0 +1,28 @@
+ANALYTICS + REPORTING
+Why does my bounce or reply removal show up on the step after my email step?
+
+Mar 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Inside the People Removed from a Cadence chart you may notice bounce or reply removals show up on the step after my email step, not along with the email step itself.
+
+When you run an email step, the step is "complete" as soon as you send the email. Which means that once you hit send, that Person moves to the next step in the Cadence. 
+
+A bounce or a reply will occur sometime after the email is sent. By this point, the Person has moved to the following Cadence step. This results in the bounce or reply reason being tied to where the Person is in the Cadence versus the step with the email. 
+Last Modified By
+Stephanie Griffith, 3/28/2023 6:00 PM
+Title
+Why does my bounce or reply removal show up on the step after my email step?
+URL Name
+Why-does-my-bounce-or-reply-removal-show-up-on-the-step-after-my-email-step
+Analytics FAQ + Troubleshooting
+Analytics + Reporting
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

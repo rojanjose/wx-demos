@@ -1,0 +1,98 @@
+RHYTHM
+Your Rhythm Workflow
+
+Jan 8, 2024•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft Rhythm is a signal-to-action engine that transforms buyer behavior into seller action. 
+
+Rhythm uses artificial intelligence (AI) to build each user a prioritized workflow which includes Cadence steps, One-off Tasks, and Deals To-Dos. This AI learns from successful outcomes, tracks buyer engagement, and monitors opportunity and Person data across Salesloft. With this information, Rhythm determines the probability that particular activities will lead to success.
+
+The tasks in your personalized workflow are listed in order of priority, allowing you to drive outcomes, move deals forward, and sell more efficiently. 
+
+Things to Note: Rhythm will begin rolling out to customers Summer 2023.
+
+In this article, we will discuss everything you need to know about Rhythm, including:
+
+Rhythm Workflow Page Layout
+Conductor AI
+Plays
+Rhythm Sidebar
+Rhythm Workflow Page Layout
+
+Rhythm is incorporated into the Salesloft homepage. It is the first thing you see when you log in to Salesloft.
+
+ 
+
+Analytics on Rhythm Workflow: Analytics based on Rhythm data 
+Focus Zones: Includes three focus zones
+Rhythm Focus Zone: lists tasks prioritized by Conductor AI
+Cadence Focus Zone: lists your active Cadences
+Close Focus Zone: lists Deals opportunity data
+Filters: Filter tasks by due date
+Live Feed and Meetings Sidebar: 
+Live Feed: Notifications about events and activities happening in real-time
+Meeting: Displays upcoming events   
+
+Things to Note: Opportunity data in the Close Focus is only available to Advanced and Premier customers, and Essentials customers who have synced opportunity data.
+
+Conductor AI
+
+Conductor AI is the artificial intelligence engine behind Rhythm that prioritizes tasks in your Rhythm workflow. 
+
+Rhythm uses Conductor AI to learn from the outcome of previous activities and buyer engagement. 
+
+Conductor AI compares its findings against our Buyer and Deal Priority Models to determine the likelihood that a particular activity will be successful, then uses those probabilities to prioritize tasks in your Rhythm Focus Zone. 
+
+ 
+
+
+To learn more about how Conductor AI works, check out our Conductor AI article.
+
+Plays
+
+Plays are actions that follow a Rhythm task, e.g.: when you click an email task, you may be directed to the Person’s profile page where an email window appears and prompts you to remind the Person about an upcoming meeting.
+
+These actions are designed to help you move seamlessly through your workflow and stay on top of sales activities.
+
+By default, there are three types of Plays:
+
+Meeting Reminder Play
+Meeting Follow-up Play 
+Email Follow-up Play 
+
+ 
+
+
+Admins can also set up Frameworks to configure Plays for your team. To learn more about Play Frameworks, check out the List of Play Frameworks article. 
+
+Rhythm Sidebar
+
+The Rhythm Sidebar allows you to execute Rhythm Tasks, Plays, and Cadence steps as you move throughout Salesloft. 
+
+When you click a task or Play in Rhythm, the Rhythm Sidebar expands on the right side of your window and displays the tasks in your workflow.
+
+You can access and complete tasks from the Rhythm Focus Zone, as well as from the Cadence and Close Focus Zones. 
+
+ 
+
+To learn more about what actions take place in the Rhythm Sidebar, check out the Rhythm Sidebar article. 
+
+Last Modified By
+Raequel Sank, 1/8/2024 7:39 PM
+Title
+Your Rhythm Workflow
+URL Name
+Your-Rhythm-Workflow
+Salesloft Knowledge
+Rhythm
+Rhythm Workflow
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

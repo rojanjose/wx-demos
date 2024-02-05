@@ -1,0 +1,82 @@
+FORECAST
+Manage Forecast Submissions Frequency
+
+Mar 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Sales Reps and Managers will submit their Forecast to provide the most up-to-date numbers to your business.
+
+The Forecast Submission Frequency Setting determines how often forecasts are supposed to be submitted by the team. You can also enable reminders and notifications to help hold your team accountable. 
+
+Things to Note: Setting up a submission frequency for your team is not required. 
+
+A team admin can set up the Submission Frequency from the Deals Forecast Settings. To access the page, go to Deals, select Admin, and go to the General Settings tab. Inside the General Settings, select Deals Forecast. The Submission Frequency will show green checkmarks next to any settings that have been configured. Click Edit to make any adjustments inside the Edit Forecast Submissions window. 
+
+
+
+In this article, you will learn how to manage the Submission Frequency settings for your team, including:  
+Edit Submission Due Dates
+Edit How Often Users Submit Their Forecast
+Edit Forecast Reminders
+Edit Overdue Notifications
+Edit Submission Due Dates
+The Submission Due Date determines which day of the week team members are expected to submit their Forecast. 
+
+This date will be visible in the upper right corner of the Forecast dashboard when users hover over the Due in # days line. 
+
+To edit your submission due date, follow these steps: 
+Go to the Deals Forecast Settings within your Deal Admin General Settings. 
+In the Forecast Submission section, click Edit. 
+Select a day of the week. You can select one day from a list of available days. 
+Enter a time of day.
+Select the Timezone when submissions are due.
+Click Save.
+Edit How Often Users Submit Their Forecast
+The Frequency setting specifies how often Forecasts should be submitted. 
+
+You can select the following Frequency options:
+Weekly
+Bi-Weekly
+Monthly
+ 
+
+Once the Due Date and Frequency are selected, team members will be able to get into a rhythm of Forecast Submissions. If your team decides that Forecasts are due by the call of business weekly on Thursdays, users can get into the habit of submitting their Forecast Thursday afternoon each week. 
+Edit Forecast Reminders
+Forecast Reminders will inform users that their Forecast Submissions that their due date is approaching. This can be particularly helpful to give your team advanced notice before submitting. 
+
+The reminder options include: 
+Select Reminder: (Default) No reminder will be sent. 
+One Day Before
+Two Days Before
+Three Days Before
+ 
+Edit Overdue Notifications
+Overdue Forecast Notifications alert team members when they have not submitted a Forecast by your selected time above.
+
+Since your business depends on keeping these numbers up-to-date, the amount of time before notifications are issued is relatively short. 
+
+The overdue notification options include: 
+Select Overdue Notification: (Default) No reminder will be sent.
+5 Minutes After Due Time
+10 Minutes After Due Time
+20 Minutes After Due Time
+30 Minutes After Due Time
+ 
+Last Modified By
+Briana Morgan, 3/10/2023 6:37 PM
+Title
+Manage Forecast Submissions Frequency
+URL Name
+Manage-Forecast-Submissions-Frequency
+What's New
+Forecast
+Forecast Admin
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

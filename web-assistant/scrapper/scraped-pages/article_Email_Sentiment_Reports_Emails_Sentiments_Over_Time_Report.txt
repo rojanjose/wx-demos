@@ -1,0 +1,256 @@
+ANALYTICS + REPORTING
+Email Sentiment Reports
+
+Dec 10, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Email Sentiments offer reliable metrics to understand email performance, e.g. positive replies and objection replies vs. opens and replies.  
+
+While measures like reply rate are helpful, they don’t really say what kind of replies are being received. By leveraging Email Sentiments, you have extra insight into what content is working best, which team member is getting the better replies and how to make improvements. 
+
+Salesloft offers specific reports that focus on Email Sentiments. The available reports include: 
+Email Sentiments by User Report
+Emails Sentiments Over Time Report
+In this article, you will learn about the Email Sentiments Report, including:
+Access the Email Sentiments Reports
+Email Sentiments by User Report
+Emails Sentiments Over Time Report
+Email Sentiments Reports Metrics
+Sort the Email Sentiments Reports 
+Access the Email Sentiments Reports
+Access the Email Sentiments Reports using one of the following methods:
+Email Reports Section of your Reports Tab
+You can access the Email Sentiments Over Time Report  by clicking View Report from the following panels: 
+Objection Emails Panel
+Positive Emails Panel
+When you access either report, you will see the name of the report you have accessed and a breadcrumb trail in the upper left corner. You can go back to the Analytics Overview by clicking Analytics. 
+Email Sentiments by User Report
+The Email Sentiments by User Report was specifically designed with set filters to show a breakdown of Email Sentiments and email performance for each user. The pre-set filters include: 
+View: Standard
+Display By: User
+Date: This Week
+User: Users in Specific Groups (includes whichever group or parent group and children group(s) assigned to the user)
+The data can be adjusted by using Analytics Filters. When you change any of these filters, you can save the page view to Create Custom Reports.
+
+Outside of the standard filter options, you can add additional filters to your report. The Email Sentiments by User Report's additional filters include: 
+Sent
+Delivered
+% Personalized
+% Opened
+% Replied
+Emails Sentiments Over Time Report
+The Email Sentiments Over Time Report was created with set filters to show a breakdown of Email Sentiments and email performance that happen each day. You may think it looks very similar to the Email Sentiments by User report, and you’d be correct since it shares more of the same parameters, with one key difference. This focuses on daily performance versus the performance of each rep.  
+
+The pre-set filters include: 
+View: Standard
+Display By: Day
+Date: This Week
+User: Users in Specific Groups (includes whichever group or parent group and children group(s) assigned to the user)
+The data can be adjusted by using Analytics Filters. When you change any of these filters, you can save the page view to Create Custom Reports.
+
+Outside of the standard filter options, you can add additional filters to your report. The Email Sentiments by User Report's additional filters include: 
+Sent
+Delivered
+% Personalized
+% Opened
+% Replied
+ 
+ 
+Email Sentiments Reports Metrics
+While the Email Sentiments Reports serve slightly different purposes, they display the same amount of data by default. 
+
+The first row of the report contains the total metrics based on your filter settings. Each email metric is visible in its own column. 
+
+The available columns (all shown by default) include: 
+
+User
+
+	
+
+The Salesloft team member.
+
+
+
+
+Sent
+
+	
+
+The total emails sent, which includes bounces.
+
+
+
+
+Delivered
+
+	
+
+Total number of emails delivered. This is the total number of emails sent minus the number bounced.
+
+
+
+
+% Personalized
+
+	
+
+The percentage of emails sent that have > 5% personalization score. The 5% reflects a minimum threshold for meaningful personalization that impacts reply rates.
+
+
+
+
+Average Personalization Score
+
+	
+
+The average of personalization scores across a set of emails.
+
+
+
+
+Positive
+
+	
+
+The count of positive replies
+
+
+
+
+% Positive
+
+	
+
+The percent of all emails delivered that are positive
+
+
+
+
+Total Objections
+
+	
+
+The count of objection replies
+
+
+
+
+% Objections
+
+	
+
+The percent of all emails delivered that are objections
+
+
+
+
+Objection - Not the Buyer
+
+	
+
+The number of not the buyer objections
+
+
+
+
+Objection - No Interest
+
+	
+
+The number of non interest objections
+
+
+
+
+Objection - Timing
+
+	
+
+The number of timing objections
+
+
+
+
+Objection - Competitor
+
+	
+
+The number of competitor objections
+
+
+
+
+Opened
+
+	
+
+Total number of emails sent from this user that have been viewed.
+
+
+
+
+% Opened
+
+	
+
+(Open Percentage) The percent of emails opens compared to those delivered. 
+
+
+
+
+Clicked
+
+	
+
+Total number of links that were clicked from emails sent.
+
+
+
+
+% Clicked
+
+	
+
+(Click Percentage) The percent of emails clicks compared to those delivered. 
+
+
+
+
+Replied
+
+	
+
+Amount of emails that received replies during this time period. This counts any email replies, regardless of if they were sent from a Cadence, Lofted, or one-off emails.
+
+
+
+
+% Replied
+
+	
+
+(Reply Percentage) The percentage measuring the number of emails that have been replied to divided by the total number of emails delivered, aka the Reply Ratio.
+
+Sort the Email Sentiments Reports 
+Each column header can also be used to sort the list.
+
+To sort the Emails report to fit your preference, follow these steps:
+Select the appropriate column header. The header name will turn blue.
+Use the arrow to the right of the header name to set the sorting direction. The arrow will point up or down (ascending or descending order) to reflect the order of the list. 
+Last Modified By
+Stephanie Griffith, 12/10/2021 8:39 PM
+Title
+Email Sentiment Reports
+URL Name
+Email-Sentiment-Reports
+Analytics Reports
+Analytics + Reporting
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

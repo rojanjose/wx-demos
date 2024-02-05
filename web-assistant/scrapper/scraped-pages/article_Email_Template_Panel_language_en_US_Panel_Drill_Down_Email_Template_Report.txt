@@ -1,0 +1,69 @@
+ANALYTICS + REPORTING
+Analytics Overview: Email Template Panel
+
+Jul 18, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Email Template panel provides a list of the top 10 performance of Templates across four metrics based on your Analytics Filters. 
+
+Taking these details into consideration, the panel aims to answer the following questions: 
+Which is the best performing template?
+Are specific templates declining in usage or effectiveness?
+Which group or user is most effective with a particular template?
+How frequent is an email template personalized?
+In this article, you will learn about the Email Template panel, including:
+The Email Template Panel
+Email Template Metrics and Calculations
+Panel Drill Down: Email Template Report
+The Email Template Panel
+The Email Template panel contains the following details from the top of the panel working our way down:
+Panel Name: Email Template
+Metrics: The Email Template is based on one of five sets of metrics. The metrics may be selected by clicking the blue link of the metric name in the Panel name. Click the link to open the dropdown menu and select one of the following metrics: 
+Replied (default)
+Opened
+Clicked
+Average (Avg.) Personalization
+Positive
+Total Objections
+ 
+ 
+View Report: (Drill down to more details) Takes you to the Email Template Report. The drill down report will sort by the email template in descending order. 
+Chart: A horizontal bar chart of up to 10 templates ranked in descending order
+Chart hover state: The hover state over each bar shows the total number of the drill down metric for the template. In the chart below, the hover state would should the total replies sent by the rep. 
+ 
+Email Template Metrics and Calculations
+Each panel contains primary and secondary metrics. These metrics are calculated in different ways. Check out the Analytics Metric Calculations for a complete list of metrics. 
+
+The Email Template panel includes the following metrics based on the associated calculations. 
+ 
+Metrics
+	
+Calculations
+
+Replied	Sum(Replies)
+Opened	Sum(Opened)
+Clicked	Sum(Clicked)
+Delivered	Sum(Emails Sent) - Sum(Bounces)
+Average Personalization	Average(Personalization Score)
+ 
+Panel Drill Down: Email Template Report
+This panel drills down into the Templates Standard Report, where you can see all the other steps completed.
+ 
+ 
+Last Modified By
+Briana Morgan, 7/18/2022 2:54 PM
+Title
+Analytics Overview: Email Template Panel
+URL Name
+Email-Template-Panel
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Overview Panels
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

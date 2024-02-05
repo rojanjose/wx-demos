@@ -1,0 +1,132 @@
+ADMIN GUIDES
+Manage Goal Settings
+
+Nov 16, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Goals are the targets your team is trying to achieve. To some, your organization’s goals may seem obvious (bring in more business, make more money, and so on), but teams need clearly defined target values in order to reach those higher outcomes.
+
+Managers should define group and individual goals that measure your team’s progress. Whether that be closed deals, pipeline, number of meetings, or total amount of activities, determining the specific metric in a specific timeframe can help you assess the productivity of your teams. 
+
+In Salesloft, your team’s goals can be assigned and updated from the Goals Settings page found in your Team settings. The Goals Settings page is available to all Salesloft admins by default and any user role with the Manage Goals permission enabled. 
+
+The Goals Settings page determines the goals that are referenced throughout the Salesloft platform. Once goals are added to the settings page, you can track a user’s progress inside Deals, to assist in Forecast or gauge deal progress, and Coaching, to assess performance and guide conversations between managers and reps.
+
+Things to Note: 
+
+The Goal Settings are the centralized location to edit your team’s goals. Goals can also be edited inside Coaching.
+Deals goals were previously edited from the Goal Management inside of Deals. Starting November 2023, Deals goals are also managed from the Goals Settings page. The Goal Management page inside Deals is due to sunset at the end of December 2023. 
+
+When it’s time to set goals across your team, you have a few options: set goals manually one at a time, edit goals in bulk, upload goals from a CSV. 
+
+In this article, you will learn about managing your team's goals from the Goal Settings page, including:
+
+Edit Goals in the Goals Table
+Set Goals for Multiple Users or Groups
+Goals Settings Page Layout
+Edit Goals in the Goals Table
+
+Goals should reflect the performer. Meaning, if you have a high performing rep or team, you want to set high goals for them, while a lower performing rep or team may need goals that set them up for continued success. 
+
+The Goal Table is where you specify goals for groups and individual reps. You can manually update an individual reps' goals for the current or future periods. Once a rep has a specified goal, the goal will update across Salesloft to reflect that goal.  
+
+Things to Note:
+
+Goals can be set for parent groups and all levels of groups. However, we do not recommend setting goals at the parent level. The child groups are summed up throughout the platform. 
+
+Goals for the past periods are not editable. 
+
+To update the goals table and add goals, follow these steps:
+
+Go to the Goal Settings page under your Team admin settings. 
+Select the Goal Metric you wish to edit. This will determine the goal you see in the table layout.
+Select a Timeframe. The columns in the table layout will adjust based on the timeframe you’ve selected. For example, if you select Weekly, you will see columns reflecting the weeks where you can add goals. 
+(Optional) Filter the Goal table. You can filter to view specific groups and user types.  
+Things to Note:
+The table defaults the following filters:
+Your assigned group and any children groups will be selected.
+All Users. Inactive users will appear in the list by default.  You can select to only view only Active or Inactive users inside the Users filter.
+Managers will be able to delete goals for the current and upcoming periods for the inactive users.
+In the "current" or "future" items, enter a number in the text box. As you enter text, a Save Changes button will appear in the upper right corner of the table. 
+Once you have added all Goals where you like, click Save Changes. A confirmation notification will appear. 
+
+Set Goals for Multiple Users or Groups
+
+For teams with a more uniform approach to goals, you can bulk edit goals with the same value. 
+
+To bulk edit goals for a group or multiple users at once, follow these steps:
+
+Go to the Goal Settings page under your Team admin settings. 
+Select your Goal Metric and Timeframe.
+In the Goals table, filter the view, if necessary. 
+Use the checkboxes on the left side of the table to select any and all users or groups that require a goal update. As you check the boxes, a Set Goals button will appear above the right corner of the Goals table. You will also notice that the number of users listed above the table will reflect either the number of users selected or the number of groups selected. 
+Click Set Goals. A Set Goals module will appear informing you of the timeframe and number of users and/or groups being edited.
+Select time period. This determines the time when this goal will apply. The time periods will adjust based on the time frame you’ve selected. 
+Enter a Goal Number
+(Optional) Click Set a recurring goal. This setting is for goals that persist for a lengthy period of time. For example, if you are entering quarterly goals, but a goal will exists for a year, you can set a recurring goal so that metric is entered for all future periods. 
+Inside Set a recurring goal, you need to determine how long the goal will be applied. Chose between the following options: 
+
+Never ends: goal will persist indefinitely.
+Add an end date: Selecting this option will provide a dropdown for you to select when the recurring goal will end. 
+Click Save. The goal will be applied in the table. 
+
+Goals Settings Page Layout
+
+The Goals Settings allow you to manage your Salesloft user's goals. The page itself includes various options to add goals and information pertaining to the goals being set.  
+
+Here's a walkthrough of the Goals Settings page:
+
+Import CSV: Option to import goals via a CSV file. 
+Goal Metric: Defines the metric that you will see in the table below. You will need to select each metric you wish to include as a goal for your team. Below the selected metric, you can see a Note that includes a definition of the metric. The metrics currently available for Goals include: 
+
+Accounts Touched
+Calls logged
+Closed won
+Emails Sent
+Meetings Attended
+Meetings Booked
+New Pipeline Added (Deals users)
+Opportunities Created
+People Added
+People Touched
+Success
+Total Activities
+Timeframe: The time period of a given goal. Goals can be set for the following timeframes:
+
+Weekly
+Monthly
+Quarterly
+Annually
+
+Things to Note: Quarter and Annual time is set to the calendar year, by default. 
+If your team uses the fiscal year, the time period will adjust when you enable CRM sync based on the calendar settings in your CRM. 
+The fiscal year setting is only captured during initial setup and cannot be modified later. 
+Goal Settings Filters: Refine the list of users in the Goals table.
+Search users: Located to the top-right of the Goals table, search to quickly find a user within the table based on their username or email.
+Number of Users: The amount of users visible inside the Goals table based on the filters. 
+Goals Table: Where you can view and manage goals. Table layouts will change based on the Goal metric and timeframe.
+Checkbox
+Name: Name of the group or user. Group names will appear in bold for distinction from user names. 
+Group
+Role
+Previous Time period
+Current Time Period
+Future Time Periods
+Last Modified By
+Stephanie Griffith, 11/16/2023 2:41 PM
+Title
+Manage Goal Settings
+URL Name
+Manage-Goal-Settings
+Admin Guides
+Team Settings
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,81 @@
+CRM
+Getting Started with Salesforce User Guide
+
+Oct 22, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesforce has become a primary hub for most companies’ customer management needs. 
+
+But, let’s be honest, the amount of data Salesforce provides can be a bit overwhelming to the average user. In order to maintain the most accurate and up-to-date information, you could find yourself spending a portion of your day updating fields and logging completed tasks. 
+
+Salesloft makes managing Salesforce a whole lot easier. By connecting your Salesloft and Salesforce accounts you can import Leads or Contacts and run your activities from the engagement platform that will take care of the logging for you. This way all of your data stays up-to-date and you spend a fraction of the time keeping up with your Salesforce account.
+
+In this article, we will break down the Salesloft and Salesforce integration, including:
+Connecting to Your Salesforce Account
+Install Connect for Salesforce
+The Connect for Salesforce Side Panel
+Email and Call from Salesforce Records
+Connecting to Your Salesforce Account
+Before you can take advantage of Salesloft's Salesforce integration, you must connect your Salesforce account to your Salesloft account. This is required in order for activities you log in Salesloft to sync to Salesforce as completed Tasks records.
+
+Things to Note: If you are unable to connect Salesloft to your Salesforce account, reach out to your Salesforce admin and make sure your Salesforce account includes the "API Enabled" permission. Salesloft uses the API to communicate with Salesforce on behalf of the Salesloft user; a Salesforce user without that permission will not be able to be linked. 
+
+To connect to your Salesforce account, follow these steps:
+
+1. Click the dropdown menu under your name and select Settings. Then select CRM.
+
+2. Click Connect. A dropdown menu will appear. 
+
+3. Select one of the following options based on the Salesforce instance you are connecting to: 
+Connect to Salesforce 
+Connect to Salesforce Sandbox
+Things to Note: Connecting to Salesforce Sandbox is best for testing connections prior to your team going live with Salesloft. We do not recommend reverting back to a Salesforce Sandbox once your team has connected to their live Salesforce accounts. 
+ 
+
+ 
+4. Based on the connection option you choose, you will be directed to your Salesforce login page. Log in to connect your Salesloft account to Salesforce.
+
+5. Once you are connected, you will see the Salesforce username you are connected to on your CRM Settings page. 
+ 
+
+ 
+If you would like to disconnect from the account you're currently connected to, click Disconnect. The connection will be removed and the CRM page will revert back to its original setting. 
+SLU: Personal Settings CRM (Video)
+Want to know how to set up your Salesloft CRM Settings, but prefer a video format? Visit Salesloft University to see the Connecting Your Salesloft Account to Your CRM video tutorial. 
+Install Connect for Salesforce
+Before you Loft emails, view Salesloft People information, and execute Cadences from your Salesforce account, you need to install the Salesloft Google Chrome Extension.
+
+You can download the Chrome extension from the Downloads page under your Salesloft Personal Settings or click the link here .  
+
+After the extension has been installed, you will gain access to Salesloft features within your Salesforce instance!
+The Connect for Salesforce Side Panel
+While there are many Salesloft actions you can take on Lead and Contact records using Salesloft Connect for Salesforce, a large portion of the functionality occurs within the Connect for Salesforce side panel. From the side panel, you can view Salesloft Person info and run Cadences.
+
+To access the Connect for Salesforce side panel, click on the Salesloft logo on the right-hand side of the page. The side panel will appear on the right side of your page.
+ 
+
+ 
+If you wish to close the panel, simply select the X in the upper right corner of the panel.  
+Email and Call from Salesforce Records
+Once the extension is installed, you will notice extra Salesloft buttons within your Salesforce records. Lead and Contact phone numbers and email addresses will be accompanied by Salesloft specific buttons so you can call and send one-off emails easily. 
+For more information on calling and emailing from within Salesforce, check out the following documentation: 
+Click to Call in Salesforce
+Loft an Email in Salesforce
+Last Modified By
+Stephanie Griffith, 10/22/2021 7:13 PM
+Title
+Getting Started with Salesforce User Guide
+URL Name
+Getting-Started-with-Salesforce-User-Guide
+Salesloft Knowledge
+Salesforce
+CRM
+Salesforce User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

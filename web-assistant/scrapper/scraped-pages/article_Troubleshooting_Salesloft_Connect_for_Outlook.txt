@@ -1,0 +1,51 @@
+USER GUIDES
+SALESLOFT CONNECT
+CONNECT FOR OUTLOOK
+Troubleshooting Salesloft Connect for Outlook
+
+Mar 29, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+When you integrate different software applications, it’s possible to run into technical issues between the two applications. Below are some common problems you might encounter with Connect for Outlook, along with some tips and resources to help you troubleshoot.
+
+Below are some common problems you may encounter with the Connect for Outlook extension, along with some tips and resources to help you troubleshoot, including:
+Can’t Install Salesloft Connect from Microsoft AppSource
+Buttons Disabled in Compose Window Only
+The Person Side Panel Won't Load
+Things to Note: These errors are specific to the Connect for Outlook extension. If you have questions about your Outlook email with Salesloft, check out the Email Troubleshooting articles for in the Email FAQ + Troubleshooting section.
+Can’t Install Salesloft Connect from Microsoft AppSource
+The users might not have access/permission to download apps. Verify with your IT team that you have permission to download apps.
+Buttons Disabled in Compose Window Only
+Connect for Outlook allows you to access templates and send emails (Loft It) from your Outlook. But if the Salesloft-specific icons appear greyed out and you can’t click them, they have been disabled.
+
+Within your version of Outlook, try the following solutions:
+Save the message as a draft, close the message, and reopen it.
+Remove other COM add-ins, specifically GlobalMeet and ToDoist.  
+Remove the Antivirus add-in.
+Check these additional resources to learn more:
+Microsoft Answers: Add-ins greyed out
+Stack Overflow: Outlook Add-in command button disabled when composing
+The Person Side Panel Won't Load
+If you cannot access the Person side panel in Connect for Outlook, it may be due to an out-of-date internet browser (Google Chrome, Internet Explorer, etc.).
+
+Even in a desktop application, the sidebar is still using a browser underneath to render the data. The user must have Internet Explorer (IE) 11 or Edge if they are on Windows. There is an IE11 version for Windows 7, Windows 8.1, and Windows 10.   
+
+Things to Note: Windows 8 will not work, it must be upgraded to 8.1.
+Last Modified By
+Stephanie Griffith, 3/29/2023 1:48 AM
+Title
+Troubleshooting Salesloft Connect for Outlook
+URL Name
+Troubleshooting-Salesloft-Connect-for-Outlook
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Connect For Outlook
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

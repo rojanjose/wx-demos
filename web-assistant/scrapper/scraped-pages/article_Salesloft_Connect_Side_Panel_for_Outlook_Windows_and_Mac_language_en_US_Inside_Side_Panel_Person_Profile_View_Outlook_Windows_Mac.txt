@@ -1,0 +1,170 @@
+USER GUIDES
+SALESLOFT CONNECT
+CONNECT FOR OUTLOOK
+Salesloft Connect Side Panel for Outlook - Windows and Mac
+
+Jul 17, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft Connect for Outlook gives you visibility into a Salesloft Person Profile from a side panel within Outlook. This way you don’t need to bounce back and forth between your email and the Salesloft platform.
+Open the Side Panel in Connect for Outlook - Windows/Mac
+Pin the Connect Side Panel - Windows/Mac
+Add a Person from Connect for Outlook - Windows/Mac
+Inside the Side Panel Person Profile View in Connect for Outlook - Windows/Mac
+Edit a Person’s Profile Information in Outlook - Windows/Mac
+CRM Record Selection - Windows/Mac
+Need help with an error? Check out the Troubleshooting Salesloft Connect for Outlook article. 
+
+If you are using the Office 365 version of Outlook, learn how to use Salesloft Connect for Outlook - Office 365 Online .
+Open the Side Panel in Connect for Outlook - Windows/Mac
+You can open the side panel in Outlook from a couple different locations. There are two available views of the side panel based on where you open the panel. 
+
+The first option is to open the panel while viewing an email. 
+
+To open the panel while viewing an email, click the Salesloft logo found in the toolbar.
+
+When you open the side panel while viewing an email, you will see the following in the side panel: 
+People tab: Contains Person information and actions
+Reminders tab: Manage reminders.
+Person Actions: Three-dot menu where you can mark a Person as a success and edit their profile information.
+The second option is to open the side panel while you are drafting an email. On the send bar, you will see the Salesloft logo. Click the logo to open the Salesloft Connect options. Select Open Salesloft to open the side panel. 
+ 
+If you open the side panel while you are drafting an email, the side panel will show the following tabs and information: 
+Person Profile view 
+Things to Note: You must have a recipient in the To column for Person information to appear. 
+Templates
+Snippets
+Pin the Connect Side Panel - Windows/Mac
+There are two options to keep the Connect Side Panel and the Person Profile up-to-date.
+
+First, you can click the Open Salesloft button each time you open a message within your inbox. This refreshes the side panel to view the current Person's information. 
+
+Second, you can pin the Salesloft Connect side panel in Outlook. By pinning the side panel, you ensure it always stays opened in your inbox, saving you the steps of re-opening the panel, and you can easily access important data. 
+
+Things to Note:
+You can only pin the side panel in Read mode.
+You cannot pin the side panel when composing a new email.
+This update is only available for Office 365 subscribers using Outlook 2016 or later on Windows, Outlook 2016 or later on Mac, or Outlook on the web.
+To pin the side panel, open the Salesloft Connect side panel and click the pin icon in the upper right corner. 
+ 
+Add a Person from Connect for Outlook - Windows/Mac
+In order to experience the benefits of Salesloft in your Outlook, the Person you are contacting must be added to Salesloft’s database (or else we don't have a record to log information to). If the Person is not in Salesloft, you can quickly add them directly from Outlook.
+
+Follow these steps:
+Select the Person’s email.
+The Salesloft Panel will display This Person was not found in Salesloft.
+Click the button Add to Salesloft.
+Enter the Person’s information and click Add.
+  
+You can add a Person to a Cadence from the Person Panel in Connect for Outlook. When you click the Add to Cadence button you can see separate lists of Personal and Team Cadences, search for Cadences, view Cadence steps, assign Cadences to other reps, and even add prospects to a specific step directly from Connect for Outlook.
+
+To add a Person to a Cadence from Connect for Outlook, follow these steps: 
+Open the Salesloft Side Panel in Connect for Outlook. 
+Go to the Cadences tab.
+Click Add to Cadence. 
+Select either My Cadences or Team Cadences. 
+(Optional) Search for the Cadence by name. 
+Select a Cadence or find the Cadence and click Show Steps. Select the step where you would like the Person to begin the Cadence. 
+Click Add to Cadence near the bottom of the panel. 
+Assign a Person to another Salesloft user's Team Cadence
+If you would like to hand a Person off to another team member, you can assign the Person to another teammate's Cadence. 
+
+Things to Note: Assigning only applies to Team Cadences. 
+
+To assign a Person to another teammate's Cadence, follow these steps: 
+Open the Salesloft Side Panel in Connect for Outlook. 
+Go to the Cadences tab.
+Click Add to Cadence. 
+Team Cadences. 
+Search and/or select the Team Cadence you want to use. 
+Under Assign to, click the drop-down menu. Scroll and select the teammate you wish to assign the Person to. 
+Click Add to Cadence near the bottom of the panel. 
+Inside the Side Panel Person Profile View in Connect for Outlook - Windows/Mac
+The Person Profile view allows you to see a Person’s Salesloft profile information from your inbox. 
+
+To look at the Salesloft profile of the Person you’re emailing, click the Salesloft icon in the email toolbar, then open Salesloft.
+
+The Person Profile view provides the following:
+Person’s Name
+Person’s Role
+Person’s Account
+Company URL
+Person Stats: Up-to-date metrics on your team’s engagement with this Person.
+ 
+The Person Profile is then split into tabs where you can update details and view previously completed actions. Let’s walk through each tab: 
+Person Profile Contact Info Tab in Outlook - Windows/Mac
+Below the Person’s profile information, you will see multiple tabs. The first is the Contact tab. The Contact tab shows the Person’s contact information.
+
+Things to Note: Contact information pulls from the completed fields of the Person’s Salesloft profile.
+
+In addition to viewing the contact info, you can take the following actions:
+Click available email addresses to send an email.
+Add Tags: Tags are labels or folders that you can use to organize groups of People in Salesloft. To add a tag, type the name of the tag in the text box and hit your enter key.
+Update the Cadence Stage: The Cadence stage keeps you up-to-date with where the Person is in the sales cycle. To update a Person’s stage, select the Cadence Stage dropdown menu and pick the stage you want.
+ 
+Person Profile Cadences Tab in Outlook - Windows/Mac
+The Cadences tab displays information about Cadences a Person is on as well as their Cadence history.
+
+In addition to viewing the Person’s Cadence history, you can also add the Person to a Cadence. Select the blue Add to Cadence button. Learn more about adding to a Cadence from Connect for Outlook below. 
+ 
+Person Profile Activity Tab in Outlook - Windows/Mac
+The Activity tab shows all of the email, call, and Cadence activity for this Person. This is a quick way to recap all previous interactions between you and the Person or between the Person and any other Salesloft user on your team.
+
+To view the previous activities, click the Activity tab.
+ 
+Person Profile Notes Tab in Outlook - Windows/Mac
+The Notes tab does exactly what the name says. It allows you to log notes on the Person’s record in Salesloft. When you log a note you can quickly reference it from the Notes tab, or view it under Recent Activity. Notes even log into your Salesforce activity history with the subject line “note” for seamless logging and clarity across the platforms.
+
+Click the Notes tab to view and add notes to this Person.
+ 
+Edit a Person’s Profile Information in Outlook - Windows/Mac
+If you receive an email that contains a new phone number or updated contact information, you can update that Person’s Salesloft profile directly from Outlook. Follow these instructions to edit profile information:
+Click the three-dot menu towards the upper right of the Person’s name.
+Select Edit.
+In the Edit Person tab, enter the updated information.
+Click Save Person. 
+CRM Record Selection - Windows/Mac  
+Logging email activity to alternative records (aka CRM Record Selection) gives you complete control over which Salesforce record an email will be logged to when you send an email from your Outlook.
+
+For more information on this feature, check out our complete explanation in the Salesloft Activity Logging article.
+
+Things to Note: This feature must be enabled by your team admin from the Salesforce Connector Settings. To enable logging to alternative records, reach out to your team admin to enable the feature.
+
+To log email activities to different Salesforce records from Outlook on Windows or Mac, follow these instructions:
+
+1. When you open an email, a grey bar will appear on the Connect side panel. The grey bar indicates which Who (Lead/Contact) and What (Account/Opportunity) record the email will be logged to in Salesforce.
+Regarding the Who: the Salesforce Lead or Contact record tied to the Person record in Salesloft will be selected by default.
+Things to Note: In the event that there is both a Lead and a Contact in Salesforce with that email address, we select the default Salesforce record (Contact or Lead) based on the "Linking People to Salesforce" selection the team admin has selected in their Salesforce Connector Settings.
+Regarding the What: if the Person is tied to a Salesforce Contact and that Contact is related to an open Opportunity in Salesforce, that Opportunity will be selected by default. In the event there are multiple open Opportunities, the most recently modified Opportunity will be selected as the default.
+ 
+ 
+2. To change either of these records, click the Edit button. The side panel will navigate to the Edit Log To page.
+ 
+
+3. To select an alternate Lead or Contact, click the link with the number of matches in the Name field to open the list of all Lead and Contact records in Salesforce tied to the email address.
+
+4. If none of the available options are the records you would like to log to, click the X on the right side of a dropdown to remove the current record. The name field will turn into an input field. Start typing the record you're looking for. Salesloft will search Salesforce for any records that match.
+
+5. To edit the Account or Opportunity information, click the link with the number of matches in the Related To field. This will open the list of all Account and Opportunity records in Salesforce related to the selected Contact. Things to Note: You are not allowed to select the Related To record if a Lead is selected in the Name field. 
+ 
+
+6. Once you confirm a Who and/or What record the first time for a Person, Salesloft will remember the record(s) and use them as the defaults, but you will still be able to edit and change which Who and What records you want future emails to that Person to log to subsequently.
+ 
+Last Modified By
+Raequel Sank, 7/17/2023 6:18 PM
+Title
+Salesloft Connect Side Panel for Outlook - Windows and Mac
+URL Name
+Salesloft-Connect-Side-Panel-for-Outlook-Windows-and-Mac
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Connect For Outlook
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

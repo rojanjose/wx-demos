@@ -1,0 +1,85 @@
+ANALYTICS + REPORTING
+Analytics Overview: Positive Emails Panel
+
+Jul 18, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Positive Emails panel gathers the number of email replies that have been assigned the Positive Email Sentiments. Seeing how often an email replies are perceived as positive offers insight into whether the emails you send truly resonate with your prospects and customers. 
+
+A steadily increasing number of positive emails is an indication that you have good email content which will hopefully lead to better engagement. On the other hand, a drop in positive emails over time suggests that you may need to work to improve your messaging. This could mean developing different templates with your marketing team or practicing better email personalization.
+
+In this article, you will learn about what you can gain from the Positive Emails panel, including:
+The Positive Emails Panel
+Positive Emails Panel Metrics and Calculations
+Panel Drill Down: Email Sentiments Over Time Report
+The Positive Emails Panel
+The Positive Emails panel contains the following details from the top of the panel working our way down:
+Panel Name: Positive Emails
+View Report: (Drill down to more details) Takes you to the Email Sentiments Over Time Report.
+Primary Metric: Positive - the total number of Positive Email Sentiments assigned. 
+Primary Metric Chart: Below the Positive metric, the chart shows the visual representation of the primary metric. 
+Secondary Metrics: Average Cadence Process Results
+% Total Objections
+% Positive
+Period Comparison based on date selection: To the right of any metric, you will see a small percentage in either green or red. This will show how your numbers have increased or decreased over time. 
+ 
+ 
+Positive Emails Metrics and Calculations
+Each panel contains primary and secondary metrics. These metrics are calculated in different ways. Check out the Analytics Metric Calculations for a complete list of metrics. 
+
+The Positive Emails panel includes the following metrics based on the associated calculations. 
+ 
+Metrics
+	
+Description
+	
+Calculations
+
+
+
+Positive
+
+	
+
+ The count of replies that were assigned the Positive Email Sentiment.
+
+	Sum (Positive Email Sentiments)
+
+
+% Total Objections
+
+	
+
+The percent of all emails delivered that are objections
+
+	Sum (Email Sentiment: Objection: Competitor + Objection: Not Interested + Objection: Not Buyer + Objection: Timing) over total emails delivered
+
+
+% Positive
+
+	
+
+The percent of all emails delivered that are positive
+
+	Positive email sentiments over total emails delivered
+ 
+Panel Drill Down: Email Sentiments Over Time Report
+This panel drills down into the Email Sentiments Over Time Report, where you can take a granular look into the sentiments assigned each day. 
+ 
+Last Modified By
+Briana Morgan, 7/18/2022 2:14 PM
+Title
+Analytics Overview: Positive Emails Panel
+URL Name
+Analytics-Overview-Positive-Emails-Panel
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Overview Panels
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

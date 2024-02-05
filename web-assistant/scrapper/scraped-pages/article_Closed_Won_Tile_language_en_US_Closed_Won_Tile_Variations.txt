@@ -1,0 +1,70 @@
+DEALS
+Deals Analytics Overview: Closed Won Tile
+
+Aug 1, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Closed Won Tile shows how much you have closed in the given goal period. You can also see how you are trending toward your overall goal. The Close Won Tile even highlights the number of deals closed and the average deal size for those closed-won opportunities.
+
+In this article, you will learn about the information provided within the Closed Won Tile, including:
+
+Inside the Closed Won Tile
+Closed Won Tile Variations
+
+ 
+
+Inside the Closed Won Tile
+
+Let's walk through each metric you will see in the Closed Won Tile and what it means: 
+
+ 
+
+Object	Definition	Calculation
+Tile Name	Closed Won Tile	N/A
+Closed Won Amount	The Closed Won tile gives reps a look into how much they have closed in the given goal period as well as how they are trending toward their overall goal.	The Closed Won amount is calculated by adding up the deal amounts that have been marked as Closed Won in the given goal period.
+Closed Won Trend	This is a historical trend of their Closed Won deals over the entirety of the goal period.	This takes a snapshot of each day and plots it on the chart. A user can hover to see the details of each data point.
+Deals	This is the number of deals that have been marked as Closed Won.	This looks at all deals marked Closed Won in the given goal period
+Average Deal Size	This is the average deal size of all deals that have Closed Won.	Total Closed Won Amount/# of Deals closed Won
+
+ 
+By hovering over the chart, you can view the date, closed-won amount, number of closed won deals, and the percentage of goal data.
+
+ 
+Closed Won Tile Variations
+
+​​​​The visible information is directly related to how your Goal Management admin settings. Charts and data may appear different based on your team and individual goals. 
+
+Below are the different variations for how these sentences may appear:
+
+Variation	Image
+Quarterly Goal Period	
+Monthly Goal Period	
+
+
+
+
+Annual Goal Period
+
+	
+
+
+No Goal Set	
+
+Last Modified By
+Briana Morgan, 8/1/2023 7:48 PM
+Title
+Deals Analytics Overview: Closed Won Tile
+URL Name
+Closed-Won-Tile
+Deals
+Salesloft Knowledge
+Deals Analytics
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

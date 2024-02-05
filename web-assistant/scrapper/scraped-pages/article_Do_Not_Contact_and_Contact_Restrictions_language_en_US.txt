@@ -1,0 +1,100 @@
+PEOPLE AND ACCOUNTS
+Do Not Contact and Contact Restrictions
+
+Dec 12, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Contact restrictions disable methods of communication for People in Salesloft. In other words, if someone says, "Never call me" or, "I don't check my email ever," you can block off that contact method, and keep your efforts on focused on their preferred communication style. 
+
+Salesloft has specific options for contact restrictions based on the type of communication that is restricted. 
+
+In this article, you will learn about the different contact restrictions options and features, including: 
+
+Do Not Contact
+Restrict Calls
+Restrict Emails
+Restrict Texts
+
+ 
+
+Want to add contact restrictions to a Person or an Account? Check out our Add or Manage Contact Restrictions article.
+
+Do Not Contact
+
+Marking a Person as Do Not Contact (aka DNC) inside Salesloft prevents any and all communication to that Person. 
+
+A Person can be marked as Do Not Contact by opting-out of email communications or when a Salesloft user (like yourself) manually edits the Persons contact restrictions to Do Not Contact per their suggestion. The manual change can happen from the People page or from the Person's Profile page. 
+
+Things to Note:
+
+Do Not Contact is the recommended alternative to deleting a Person since all of the data remains in Salesloft but you won't mistakenly reach out to the Person.
+Marking a Person as Do Not Contact inside Salesloft will not prevent them from being contacted from a third party such as Gmail or Outlook.
+
+ 
+
+
+If someone is marked as Do Not Contact, the following will apply: 
+
+Email is disabled, 
+Calling is disabled
+The Person cannot be added to any Cadence
+The Person is removed from all Cadences
+
+Salesloft's Do Not Contact list, located under Privacy Settings, ensures records are marked Do Not Contact and will not receive any Lofted email.
+
+If Do Not Contact has been selected by a Salesloft user or by the Person opting out of communication, the DNC label can be found on the People page, below the Status column. 
+
+Restrict Calls
+
+The restrict calls contact restriction removes the ability to call that Person. When calls are restricted, the following features will be disabled:
+
+The Call Quick Action button on the person's profile page
+The click-to-call functionality from the phone number in the contact info will no longer be a hyperlink.
+If this Person enters a call step in any Cadence, that step will be automatically skipped. 
+
+Once this restriction has been selected, the restriction label (yellow phone with a strikethrough) will appear on the Person's profile and status. 
+ 
+
+
+ 
+Restrict Emails
+
+The restrict emails contact restriction removes the ability to email that Person. When emails are restricted, the following features will be disabled:
+
+The Email Quick Action button on the person's profile page
+The email address in the contact info will no longer be a hyperlink, removing the click-to-email function
+If this Person enters an email step in any Cadence, that step will be automatically skipped. 
+
+Once this restriction has been selected, the restriction label (yellow envelope with a strikethrough) will appear on the Person's profile and status. 
+ 
+
+
+ 
+Restrict Texts
+
+The restrict texts contact restriction removes the ability to send SMS text messages through Salesloft to that Person. 
+
+Once this restriction has been selected, the restriction label (yellow chat bubble with a strikethrough) will appear on the Person's profile and status. 
+
+ 
+
+Last Modified By
+Raequel Sank, 12/12/2023 8:34 PM
+Title
+Do Not Contact and Contact Restrictions
+URL Name
+Do-Not-Contact-and-Contact-Restrictions
+Salesloft Knowledge
+People And Accounts
+People
+People Page
+People Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

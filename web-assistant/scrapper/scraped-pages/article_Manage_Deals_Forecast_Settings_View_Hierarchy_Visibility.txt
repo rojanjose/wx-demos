@@ -1,0 +1,65 @@
+FORECAST
+Manage Deals Forecast Settings
+
+Jul 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Forecast settings are managed inside your Deals Admin Settings. From this page, Admins can configure the Forecast experience to meet your business setup and forecasting process.  
+
+To access the page, a Salesloft Admin will navigate to Deals, select Admin, and go to the General Settings tab. Inside the General Settings, select Deals Forecast. 
+
+
+
+In this article, you will learn how to set up Forecast inside the Deals Forecast settings, including:
+Requirements Before You Begin with Forecast
+Configure Rollup Categories
+Set Up Forecast Submission Frequency
+View Forecasting Hierarchy
+Requirements Before You Begin Forecast
+In order to enable Deals Forecasting, you must be successfully synced to Salesforce.
+Your Salesloft CRM Main User Connector must have permission to see ALL the user objects in Salesforce.
+To create the Forecast Hierarchy, a Salesforce admin should set up the CRM Forecast Hierarchy as well as verify and update the Manager Field found on the User object in Salesforce.
+Configure Rollup Categories
+The first admin configuration setting sets up Forecast Rollup Metrics. 
+
+These settings influence what values appear throughout the Forecast page in the Team Rollup panel and the columns in the Hierarchy panel.
+
+To learn more about how to set up Forecast Rollup Metrics, check out our Forecast Rollup Metrics Settings article. 
+Set Up Forecast Submission Frequency
+The second admin configuration is the Forecast Submission Frequency. The submission frequency determines the day, time, and how often forecasts are supposed to be submitted by your team. 
+
+To learn more about Forecast Submission setup, check out our Manage Forecast Submissions Frequency article. 
+View Forecasting Hierarchy
+A visual hierarchy of your team appears on the Forecast page. The hierarchy shows which reps report to managers, which managers report to sales leaders, and so on. 
+
+The Role Hierarchy section of the Deals Forecast Settings provides the information of how Salesloft gathers the Forecast Hierarchy from Salesforce. 
+
+To set up the hierarchy, work with a Salesforce admin to configure the Hierarchy Settings in Salesforce. 
+
+This hierarchy pulls information from Salesforce’s Manager Field found on the user record. You can be added to, or even removed from, the forecast hierarchy based on your manager field configuration. Salesloft automatically pulls this field setup and displays it for users within the Forecast solution.
+
+Additionally, for Salesloft to generate a hierarchy for a user, the sync user (CRM Main User Connector) must have permission to see all the User objects in Salesforce. If a sync user doesn’t have access to this object, contact a Salesforce admin to adjust the permissions for the sync user. 
+
+Once your team begins to use Forecast, the Salesforce Hierarchy will need to be kept up-to-date to reflect your team’s current structure. 
+
+Things to Note: You have the ability to drill into eight (8) levels within the hierarchy table.
+
+For more information, check out this developer documentation about the Manager Field object. 
+Last Modified By
+Stephanie Griffith, 7/13/2023 2:48 PM
+Title
+Manage Deals Forecast Settings
+URL Name
+Manage-Deals-Forecast-Settings
+Forecast Admin
+Salesloft Knowledge
+Forecast
+What's New
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

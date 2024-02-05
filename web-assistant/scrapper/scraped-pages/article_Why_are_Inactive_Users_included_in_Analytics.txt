@@ -1,0 +1,26 @@
+ANALYTICS + REPORTING
+Why are Inactive Users included in Analytics?
+
+Mar 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Inactive users and deleted users still appear in analytics so you can see the source of where activities are attributed.
+
+Keeping inactive user's data is particularly helpful if a previously active user sent an email to a Person and the Person opens, clicks, or replies to the email months after they’ve been inactive. Your team can keep track of the original message and continue the call. 
+Last Modified By
+Stephanie Griffith, 3/28/2023 2:58 PM
+Title
+Why are Inactive Users included in Analytics?
+URL Name
+Why-are-Inactive-Users-included-in-Analytics
+Analytics FAQ + Troubleshooting
+Analytics + Reporting
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,89 @@
+ANALYTICS + REPORTING
+People Removed from a Cadence Chart
+
+Mar 29, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The second chart found in your Cadence Step Analytics is the When and why People leave the Cadence chart. Also known as the People Removed from a Cadence Chart, this chart highlights the steps when People are being removed from the Cadence and the reason they were removed. The data shown will be based on your filters. 
+
+The chart will help answer the following questions in relation to Cadence performance:
+Which step or part of my cadence is having the most impact?
+Where are people most likely to leave the cadence?
+In this article, you will learn about the People Removed chart, including: 
+The People Removed from a Cadence Chart
+Understanding the People Removed from a Cadence Chart
+Have questions about the People Removed from a Cadence Chart? Check out the Analytics FAQ + Troubleshooting section. 
+The People Removed from a Cadence Chart
+The Cadence Performance Chart contains the following details from left to right and then the top of the tile working our way down:
+When and why People leave the Cadence: Name of the chart
+Learn More: Takes you to this Knowledge Base article (you are already here!)
+Y-axis: Number of a Person was removed from a Cadence while running that Cadence step
+X-axis: Cadence Steps by Number
+Legend: Each type reason a Person may be removed from a Cadence. The removal reasons include the following: 
+Automation Rule
+Replied
+Bounced
+DNC - Person
+Meeting Booked
+Manual Removal
+Other
+Things to Note: "Other" may appear as a removal reason. Removals are split into Automated or Manual categories. The Removal reasons are the subcategories of those two types. "Other" removals are automated removals that do not fall into a designated subcategory. 
+Bar: Each bar's height show the number of people removed. The bar segment's color shows the removal reason. Clicking on the segment in the legend offers a special view of the data.
+ 
+Understanding the People Removed from a Cadence Chart
+When you look at the People Removed from the Cadence chart, you may wonder what the different variations of the chart mean.
+
+To help you interpret the data being shown, we've prepared types of charts to teach you how to read them.
+Best Case Scenario
+The ideal state of your People removed from the Cadence chart is to see fewer and fewer People remaining in the cadence. The chart should look like 1/2 of a sideways funnel (or a backwards hockey stick).
+
+As you progress through the Cadence, People are removed for good or bad reasons (replied to an email would be good, while marked as DNC would be bad). Either way, the removal is good because your Cadence is working to pinpoint communication. When a Person is removed, you can create a different process for next steps based on the reason they were removed.
+ 
+ 
+No People Removed
+When no People are removed from the Cadence, the chart will be blank. Honestly, it will look like it's broken or your data is not appearing.
+
+You may think that having zero People removed is a positive, but it's actually a point of concern. If People are not being removed from the Cadence, it's unclear what actions you should take next. 
+
+Conclusion: Have a talk with your team or manager about when the appropriate time is to remove someone from a Cadence. You can start with Cadence settings that will remove People or manually remove People to help you understand the process. 
+Skipped Steps
+If the Cadence has an unusual amount of skipped steps, the chart will show consecutive steps with no People being removed.
+
+In the example below, see how there is no change from steps 5 through 8. In an ideal Cadence, every step should have fewer and fewer people in the Cadence.
+
+ 
+Conclusion: Review those steps that are being skipped and why. If you are skipping because those steps don't work or can't be performed, it may be time for a new Cadence that doesn't include those steps. 
+High Bounce
+A high bounce removal chart will be obvious from the large amount of bounces in the first email step.
+
+This chart could mean that your team is using bad data when sourcing email addresses. Not all data providers are equal, and the source matters and varies tremendously based on industry, vertical, segment (comm/ent), etc.
+Conclusion: Do your research prior to sending out emails in a Cadence. Use an email validator to get an idea of the status of the email address. 
+Automation Rule
+A high number of removals when you are using or trying automation rules most likely means something is firing incorrectly this is what it could look like.
+
+ 
+Conclusion: Get ahead of this as soon as possible. Reach out to a team admin who can view your Automation Rule logs for failures. Then follow the Automation Troubleshooting Guide to solve any problems. 
+Manual Removal
+A high number of manual removals probably mean your Cadence process is not best for you or it's ineffective. You will notice multiple steps with a a large amount of manual removals when this is happening. 
+ 
+
+ 
+Conclusion: If manual removals are happening more than any other kind of removal, it is most likely time to have a talk between manager and rep. The best case scenario, is that the manager can coach the rep to execute the process better. While the worst case scenario would be a rep removing People because they added too many People and can't manage the Cadence. 
+ 
+Last Modified By
+Stephanie Griffith, 3/29/2023 2:17 PM
+Title
+People Removed from a Cadence Chart
+URL Name
+People-Removed-from-a-Cadence-Chart
+Salesloft Knowledge
+Analytics Reports
+Analytics + Reporting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

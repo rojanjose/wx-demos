@@ -1,0 +1,71 @@
+ADMIN GUIDES
+Manage Trust Hub in Salesloft
+
+Nov 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Regulations have been put in place to protect call recipients from spam calls. Since phone calls are an important channel in the sales process, it's necessary to stay compliant with federal regulations and follow call deliverability best practices.
+
+Dialer providers are using technologies similar to Trust Hub as a method to know their customers and route verified callers. Salesloft admins can use the Trust Hub area of the platform to obtain a Trust Score and verify their business for the STIR/SHAKEN regulation.
+
+Things to Note: Only US/domestic outbound dialer and SMS traffic from Salesloft (Twilio) purchased numbers require Trust Hub. International customers with no US numbers assigned do not need Trust Hub.  
+
+To access Salesloft's Trust Hub, a Salesloft admin (or user with the Manage Dialer permission) will go to the Dialer Settings under your Team Settings and select the Trust Hub tab. 
+
+In this article you will learn about the Salesloft's Trust Hub, including: 
+
+Knowing Your Trust Score
+Set Up Your Trust Hub Business Profile
+Trust Hub Profile Submission Status
+
+For additional information, check out our Call Deliverability Best Practices and STIR/SHAKEN Regulations Guide.
+
+Knowing Your Trust Score
+
+By registering for Shaken/Stir verification, your organization will opt into the trusted community of callers. Once you apply and are approved, you will receive a call verification score of A or B based on your registered number and usage. 
+
+If your organization does not comply with these new regulations, call delivery and connection rates may decrease due to unverified call traffic being filtered out. Also, your team is at a greater risk of being mislabeled as "spam"  which can significantly impact future call deliverability.
+
+Set Up Your Trust Hub Business Profile
+
+On the Trust Hub page, you can submit to be a part of the Shaken/Stir community on behalf of your company. This page contains fields that will complete the required details in the Trust Hub form.
+
+To set up your Trust Hub Business profile, follow these steps: 
+
+Go to the Team Dialer Settings.
+Select the Trust Hub tab. 
+Under the Business Profile section, fill out the available fields. 
+Click Submit. 
+After submitting, your information will be sent to our third party Dialer provider. Your Trust Hub page will be updated with a status of Pending and the Date/Time the submission was sent. Your submission will then be reviewed for either approval or rejection.
+Expect 7-10 business days for the application review.
+
+ 
+
+Trust Hub Profile Submission Status
+
+
+Once your team's profile submission is reviewed, SalesLoft will send an update to users with the 'Manage Settings for Dialer' permission that their application was either Approved or Denied via email notification and an update of the Trust Hub page in the Salesloft app.
+
+Approved customers will receive a verification score of A or B based on your number registration. The score can change over time depending on call behavior.
+
+Denied customers will need to resubmit the form based on feedback from our third party Dialer provider.
+ 
+
+Last Modified By
+Raequel Sank, 11/10/2023 6:20 PM
+Title
+Manage Trust Hub in Salesloft
+URL Name
+Manage-Trust-Hub-in-Salesloft
+Salesloft Knowledge
+Admin Guides
+Dialer Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

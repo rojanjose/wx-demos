@@ -1,0 +1,420 @@
+CRM
+Activity Sync for HubSpot
+
+Activity Sync for HubSpot introduces activity logging capabilities from Salesloft to a HubSpot CRM. For Salesloft customers using HubSpot as their CRM, Salesloft employs multiple mechanisms that kick in automatically to ensure that users get the maximum benefit when integrating with a CRM.
+
+May 11, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Activity Sync for HubSpot brings the following functionality to Salesloft:
+Salesloft People Link to HubSpot Contacts: When you create a Person in Salesloft or execute an activity on an unlinked Person, Salesloft automatically links to a HubSpot Contact with a matching email address. If no match is found, the Person remains unlinked.
+Navigate to HubSpot: Once a Salesloft Person links to a HubSpot Contact, Salesloft displays a HubSpot icon under the Person’s name. You can leverage this link to jump directly into the Contact record in HubSpot.
+ 
+
+ 
+Activities Log to HubSpot: No action is needed for this step. If applicable, you can see and manage any failed activities from the failed activity log.
+Things to Note:
+Activity Sync for HubSpot provides activity logging from Salesloft to HubSpot. All activities are logged to the Contact level in HubSpot, but not to the Account or Company Levels.
+HubSpot users will need the following permissions in order to successfully authenticate from Salesloft to HubSpot:
+Marketing: Lists
+CRM: View/Edit Contacts, Companies, and Deals
+For additional People and Account data syncing between HubSpot and Salesloft, learn more about the Salesloft and HubSpot integration on the Salesloft App Directory .
+
+In this article, you will learn all about Activity Sync for HubSpot, including:
+Administrative Setup for HubSpot 
+User Setup for HubSpot
+Managing Activities for HubSpot
+ 
+Administrative Setup for HubSpot
+To set up HubSpot Activity Sync, a team Admin must take the following steps:
+Set CRM Type : For the integration to work, you must designate HubSpot as a team’s CRM Type. A team can only have one CRM Type and cannot be integrated with both HubSpot and another CRM. Once you’ve set the CRM Type, any features or settings in Salesloft specific to bidirectional sync or other CRMs (e.g. Sync Management, and Opportunity Field Configuration) will be hidden.
+ 
+Activity Logging : Every Salesloft team can customize which Salesloft activities log to the CRM. By default, all activity types log to the CRM. Admins only need to intervene if there are any activity types that the team does NOT want to log to the CRM. You can manage these settings from the Activity Logging preferences on the CRM Sync Settings page.
+ 
+
+Things to Note: Activity Field Configuration is not necessary with Activity Sync for HubSpot. HubSpot does not allow users to create custom properties on their engagements (e.g. calls and emails).
+ 
+Linking People: Set this to Contact by clicking the Edit button to ensure Salesloft Activities sync successfully to Hubspot. If Do Not Link is selected, the activities logged in Salesloft won't log into Hubspot and the error Cannot find person in your CRM will appear in the Failed CRM Activity logs.
+ 
+User Setup for HubSpot
+Before any user can take advantage of Activity Sync for HubSpot, you must connect your HubSpot account to your Salesloft account. 
+
+Every user must establish a personal CRM connection in order for their activities to log to HubSpot. This is required in order for activities you log in Salesloft to sync to HubSpot.
+
+To establish your personal CRM connection, follow these steps: 
+Navigate to the Personal CRM Settings in Salesloft.
+Click Connect to launch an authentication flow into HubSpot.
+Authorize the connection between Salesloft and HubSpot. Once the connection is made, you will be taken back to your Salesloft Personal Settings.
+Things to Note: For most users connected to a CRM, it is recommended to leave the Custom BCC Address empty. For some HubSpot teams, there may be exceptions to this if they have Email/Reply logging disabled.
+ 
+HubSpot Activity Types
+Salesloft logs activities under their corresponding activity type in HubSpot. 
+
+All activities logged include the Timestamp (Date/Time activity was executed) and Owner (User that executed the activity). 
+
+The following activity types are included: 
+
+Calls
+
+Salesloft Activity Type
+
+	
+
+HubSpot Properties
+
+	
+
+Sample
+
+
+
+
+Calls + 
+
+Voicemails
+
+	
+
+Call Title
+
+	
+
+Call: Connected | Gatekeeper
+
+
+
+
+Call Body
+
+	
+
+Spoke to Ron and he indicated the DM wouldn't be in office for another week.
+
+
+
+
+Call Duration
+
+	
+
+125
+
+
+
+
+Call To Number
+
+	
+
+5125550000
+
+Things to Note: Call Title does not show up in the Activity Timeline on a Contact record or in most OOTB reports in HubSpot. It is only visible from the Calls list view and certain custom reports in HubSpot. For more information on custom reports, please contact Hubspot Support.
+ 
+Emails
+ 
+
+Salesloft Activity Type
+
+	
+
+HubSpot Properties
+
+	
+
+Sample
+
+
+
+
+Emails + Replies
+
+	
+
+Email Subject
+
+	
+
+Email: Salesloft + HubSpot
+
+
+
+
+Email Body
+
+	
+
+Hey Leslie -
+
+I wanted to talk to you about Salesloft's HubSpot integration. . .
+
+
+
+
+Email Direction
+
+	
+
+EMAIL
+
+ 
+Meetings
+ 
+
+Salesloft Activity Type
+
+	
+
+HubSpot Properties
+
+	
+
+Sample
+
+
+
+
+Meetings
+
+	
+
+Meeting Title
+
+	
+
+Meeting Booked: Salesloft Intro Call
+
+
+
+
+Meeting Body
+
+	
+
+Hi Leslie - looking forward to spending a few minutes reviewing our solution with you.
+
+
+
+
+Meeting Location
+
+	
+
+https://salesloft.zoom.us/my/5481612515
+
+
+
+
+Meeting Start Time
+
+	
+
+1/1/2022 10:00 AM
+
+
+
+
+Meeting End Time
+
+	
+
+1/1/2022 11:00 AM
+
+ 
+Notes
+ 
+
+Salesloft Activity Type
+
+	
+
+HubSpot Properties
+
+	
+
+Sample
+
+
+
+
+Notes
+
+	
+
+Note Body
+
+	
+
+DM out on maternity leave, but Ron filling in through end of month.
+
+ 
+Tasks
+Things to Note: 
+Team admins must set up Hot Leads from the Hot Leads settings page.
+Conversations, SMS Messages, and Tasks activity types cannot be disabled.
+ 
+
+Salesloft Activity Type
+
+	
+
+HubSpot Properties
+
+	
+
+Sample
+
+
+
+
+Other Steps + Integration Steps
+
+	
+
+Task Subject
+
+	
+
+Other: Snail Mail
+
+
+
+
+Task Body
+
+	
+
+Sent Leslie a box of chocolates
+
+
+
+
+Task Status
+
+	
+
+Completed
+
+
+
+
+Hot Leads
+
+	
+
+Task Subject
+
+	
+
+Hot Lead: Leslie Harper became a Hot Lead
+
+
+
+
+Task Body
+
+	
+
+Leslie Harper at DGS Enterprises became a Hot Lead, and was assigned to Darcy Groom.
+
+
+
+
+Task Status
+
+	
+
+Open
+
+
+
+
+SMS
+
+	
+
+Task Subject
+
+	
+
+Message
+
+
+
+
+Task Body
+
+	
+
+03:24:34 PM
+
+Darcy Groom: Hi Leslie - just checking in. How did the proposal look?
+
+ 
+
+03:44:56 PM
+
+Leslie Harper: Thanks Darcy, looks good. Sending to legal now.
+
+
+
+
+Task Status
+
+	
+
+Completed
+
+
+
+
+Salesloft Conversations (i.e. conference calls)
+
+	
+
+Task Subject
+
+	
+
+Recording: Salesloft + DGS Enterprises
+
+
+
+
+Task Body
+
+	
+
+dgroom@salesloft.com; kharper@dgsenterprises.com
+
+https://www.app.salesloft.com/app/conversation-intelligence/recordings/9b83058-d827394-12847-29dksle
+
+
+
+
+Task Status
+
+	
+
+Completed
+
+ 
+View Failing CRM Activity Log
+Both Administrators and Users can access the Failing CRM Activities log . Users can view their own failing activities, and Administrators can view all of Users’ failing activities.
+ 
+ 
+Last Modified By
+Briana Morgan, 5/11/2023 6:33 PM
+Title
+Activity Sync for HubSpot
+URL Name
+Activity-Sync-for-HubSpot
+Salesloft Knowledge
+CRM
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

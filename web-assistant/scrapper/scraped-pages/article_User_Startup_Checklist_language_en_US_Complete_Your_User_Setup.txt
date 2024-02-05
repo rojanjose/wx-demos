@@ -1,0 +1,108 @@
+GETTING STARTED
+User Startup Checklist
+
+Mar 23, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+When you accept your invitation to Salesloft  and log in to Salesloft for the first time, you will see a startup checklist. This checklist consists of 9 steps that guide you through setting up your Salesloft account.
+
+Each step on the checklist will appear with a 'plus' symbol beside it. You can click the plus symbol to complete the step. Once a step has been completed a checkmark will appear beside it. 
+ 
+
+In this article, we will walk through each step the User Startup Checklist. Each step will direct you to additional resources that include set up instructions. Use the checklist below to track your progress!
+Create Your Account
+Invite Your Team
+Install the Google Chrome Extension
+Connect Your Email Account
+Connect Your CRM Account
+Create Your First Email Template
+Add Your Email Signature
+Activate Cadence Dialer
+Create a Cadence
+Complete Your User Setup
+User Additional Resources
+Create Your Account
+The first step on the checklist is Create Your Account. Since you are logged in, this step is already complete and should have a green checkmark beside it. 
+
+If you would like to edit any of your account information, you can do so from your Personal Settings. To learn more about updating your account information, check out the Your Personal Settings article.
+Invite Your Team
+Team admins can invite additional users to join your team from the Users settings.
+
+To learn more about inviting users to your team, check out the Invite Users article.
+ 
+Install the Google Chrome Extension
+The Chrome Extension, also known as Salesloft Connect, is a plug-in that brings Salesloft’s features into your Google Chrome Browser, Gmail, and Salesforce to improve your sales process.
+ 
+To learn more about the Google Chrome Extension, check out the Download the Salesloft Chrome Extension article.
+Connect Your Email Account
+To set up your email client, you must connect to your email account. Select your email client from the list below. Each link provides instructions on how to connect your email based on your email client:
+Gmail: Follow the instructions listed in our Set Up Your Email Account - Gmail article.
+Outlook: Check out our Set Up Your Email Account - Outlook article. 
+Salesloft Mail: Check out the Set Up Your Email Account - Salesloft Mail article. 
+Connect Your CRM Account
+Salesloft currently integrates with Salesforce and Microsoft Dynamics. To learn how to connect to your CRM account, check out our Salesforce User Guide or Dynamics User Guide .
+
+Don't have a Salesforce or Dynamics account? The checklist encourages you to skip the step. However, if your team uses an alternative CRM, you may be able to log emails using the BCC function. Learn more about adding a BCC address in our Your Personal Settings article.
+Create Your First Email Template
+Email templates are ready-to-go email drafts that can be used whenever you need them. 
+
+To learn more about creating email templates, check out our Template Page Actions article. 
+Add Your Email Signature
+Your email signature needs to be a consistent sign-off. By adding your signature in Salesloft, your formatted signature will automatically conclude every email you send out.
+
+Things to Note: In the event that the copy and paste method results in a messed up signature due to hidden HTML code elements, use the in-app editor.  
+
+To learn more about setting up your signature, check out our Set Up Your Email Signature article.
+Activate Cadence Dialer
+The Activating the Cadence Dialer step allows you to set up the Salesloft Dialer. Setting up the Dialer allows you to add call steps to be added to your Cadences. 
+
+To learn more about setting up the Dialer, check out the Set Up the Dialer article.
+Create a Cadence
+Cadences are actionable steps that mimic your sales process. 
+
+Things to Note: If you are using Team Cadences, you may skip this step.
+
+To learn more about creating a Cadence, checkout the Create a Cadence article. 
+Complete Your User Setup
+Once you've completed every step in the checklist, you will see your Salesloft Home Dashboard.
+
+From the Salesloft Home Dashboard, you can explore all of the amazing things that Salesloft offers, including: 
+Conversations  
+Deals
+Coaching
+Things to Note: Conversations and Deals must be enabled by an admin. 
+
+Each of these features work together to enhance the sales process for the benefit of your team and your customers. 
+User Additional Resources
+Looking for more guidance on Salesloft? Check out the resources listed below. These resources include lessons and videos that show you how to use Salesloft in your role and how to become a Salesloft expert with strategies and additional tools: 
+Trainings and Lessons
+Sign Up for the next Fast Start Training
+Both Rep & Manager sessions available
+Salesloft End User Training
+Salesloft End User - Mini Video Lessons
+Salesloft Frontline Manager Training
+Salesloft for SDRs
+Salesloft for AEs
+Salesloft for Customer Success
+Salesloft Strategies
+Account-Based Strategy in Salesloft
+Cadence Strategy
+Salesloft Labs (free tools)
+ 
+Last Modified By
+Stephanie Griffith, 3/23/2023 3:05 PM
+Title
+User Startup Checklist
+URL Name
+User-Startup-Checklist
+Salesloft Knowledge
+Getting Started
+Set Up Salesloft
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

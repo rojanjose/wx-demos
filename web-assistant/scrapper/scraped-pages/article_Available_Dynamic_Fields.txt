@@ -1,0 +1,102 @@
+EMAIL
+Available Dynamic Fields
+
+Feb 17, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Dynamic fields help you to personalize your emails at scale. Rather than you repeatedly entering data about a Person or Account, dynamic fields allow you to personalize your emails by inserting profile information from a Person or Account Record.
+
+Where does the dynamic field get its information from? Dynamic field information pulls from individual Person or Account Profile page information in Salesloft. Any information imported from Salesforce or a CSV that has been mapped to a Salesloft field can be used in a dynamic field.
+
+If you want to learn how to add a dynamic field to an email, check out our The Email Window Toolbar article. 
+
+In this article, you will learn about the different types of dynamic fields that are available within Salesloft, including: 
+Person Tags
+Account Tags
+Custom Tags
+Time Tags
+My Tags
+Other Fields - Opt-Out Link
+Meeting Type Fields
+Person Tags
+Information related to an individual Person. Any information is pulled from the Person Detail fields. The fields listed include standard Salesloft Person fields as well as custom Person fields.
+
+Things to Note: A team admin will need to create and map a custom phone field. For more information, check out our article on Person Field Configuration.
+
+Most common Person tags include: 
+First Name 
+Last Name
+Company
+Title
+Account name or Company field: In the event that the Account name or the Company name are not filled, this dynamic field checks both the Account and Company name fields associated with the Person. As long as one of the fields contains a name, that information will be used in the dynamic field. 
+Account Tags
+Information related to an Account. Any information related to the Account is pulled from the profile information fields.
+
+Most common Account tags include:
+Account Name
+Industry
+Custom Tags
+Tags are not limited to the out-of-the-box profile information listed in Salesloft. You can also add to your emails with custom fields.
+
+Any field that is important to you can become a custom field (from account revenue to a favorite sports team). Custom fields are added by Salesloft admins in Field Configuration.
+Time Tags
+Time tags make setting meeting times simple. Rather than going into every email with a specific date, you time tag allows you to send emails consistently with a day of the week listed.
+
+The most common time tag is n days from now. Enter a number where the “n” is, and your dynamic tag will take care of the rest.
+
+The Time Tags include: 
+N days from now
+N business days from now
+N days ago
+N business days ago
+My Tags
+My Tags are best used in Team Templates. They place the sender’s information throughout the email.
+
+Most common my tags are: 
+My First Name 
+My Last Name
+My Name
+My Email Address
+My Meeting URL
+Other Fields - Opt-Out Link
+The Other section of your dynamic tags contains an opt-out link that you can add to your emails. The opt-out link removes the Person from further email communication. The link will appear in the email as follows:
+Text	Link
+Would you like to opt out?	http://opt-out-link/
+Meeting Type Fields
+Meeting type fields are available in the meeting defaults when composing your calendar invites. 
+
+These fields are visible when you are creating meeting types in the description box.  
+
+There are two groups of dynamic fields that are available for meeting details:
+
+Meeting Owner fields:
+{{MeetingOwner.first_name}}
+{{MeetingOwner.last_name}}
+{{MeetingOwner.name}}
+{{MeetingOwner.email_address}}
+{{MeetingOwner.meeting_location}}: Default location specified in the user's Calendar Settings
+{{MeetingOwner.meeting_url}}
+Person fields:
+{{first_name}}
+{{last_name}}
+{{name}}
+{{email_address}}
+{{company}}
+{{office_phone}}
+Last Modified By
+Raequel Sank, 2/17/2023 7:10 PM
+Title
+Available Dynamic Fields
+URL Name
+Available-Dynamic-Fields
+Email
+Salesloft Knowledge
+Email Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

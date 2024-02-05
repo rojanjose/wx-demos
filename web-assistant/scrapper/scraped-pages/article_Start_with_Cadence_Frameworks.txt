@@ -1,0 +1,131 @@
+CADENCES + TASKS
+Start with Cadence Frameworks
+
+Oct 20, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+If you're first getting started with Salesloft, the idea of creating a formalized, consistent sales process, or Cadence, may seem overwhelming. You may be wondering, where do I even begin?
+
+Cadence Frameworks help to take the guessing game out of your Cadence creation process. These Frameworks are designed Cadence flows that you can use as the outline of your Cadence. 
+
+Salesloft researched different types of Cadences and then studied which of the most commonly used Cadences lead to success. These findings ultimately helped us develop the Cadence Frameworks you can use today. Each Framework is full of Cadence best practices like when you should automate steps, which steps should you use, and when should you run a step. 
+
+In this article, you will learn how to use Cadence Frameworks, including: 
+Before You Use Cadence Frameworks
+Create a Cadence with Cadence Frameworks
+Inside the Cadence Framework Module
+Replace Steps
+Finish Your Cadence Set Up and Add Content 
+Want to see what Cadences are available as Frameworks? Check out the List of Cadence Frameworks.
+Before You Use Cadence Frameworks
+Cadence Frameworks lay out the process your Cadence will use. Before you start adding Frameworks to your Cadences, there are some important things you should know. 
+
+First, Cadence Frameworks can include the following step types:
+Emails
+Automated emails: If your team doesn't have Automated steps enabled under the Team emails settings, you can replace automated email steps when you implement Cadence Frameworks.
+Calls
+Other steps
+LinkedIn steps: Your team must have LinkedIn Sales Navigator enabled to use any Frameworks which include LinkedIn Sales Navigator steps. If you select a Framework using a LinkedIn Sales Navigator step but don't have LinkedIn Sales Navigator is not enabled on the team level, you will have the option to replace LinkedIn Steps with the Other Steps. 
+Things to Note: Enabling LinkedIn Sales Navigator does not require a LinkedIn Sales Navigator license. As long as the feature is enabled as a Salesloft Integration, you can select Frameworks with LinkedIn Sales Navigator steps. 
+Using Cadence Framework does not include content for the email steps. When you add a Framework that includes email steps, you will see a warning message that email steps are missing content. You can add the content from the Cadence Overview page. 
+
+You will not be able to add People to a Cadence that use Frameworks until content is added to all email steps.
+Create a Cadence with Cadence Frameworks
+To put a Cadence Framework into play, you must first create a new Cadence. This will give your Cadence the foundation it requires (like a name and settings). Once you have successfully created a new Cadence, you can add the Cadence Framework from the Cadence Overview page.
+
+To add a Cadence Framework, follow these steps: 
+Go through the steps to create a Cadence. Once you click Save, you will land on the Cadence Overview page. 
+On the Overview page, you will decide how you would like to proceed with step creation between these two options:
+Start from Scratch: Allows you to add steps on your own. This is best for creating your own specific Cadences. 
+Start with Framework: Allows you to select a Cadence Framework. 
+In the Cadence Frameworks module, you will see all of the available Frameworks. Select a Framework to view the layout. 
+Once you have found the Framework you would like to apply, hit the Use Framework button in the bottom right corner. The module will close and you will be navigated to the Cadence overview page with steps populated from the Framework.
+Review the Cadence steps! You may need to edit steps to include content or update instructions to your preferences. 
+Note the top of the Overview will contain errors for missing content.
+Call, Other, and LinkedIn step instructions will be generated from the Framework.
+Send settings for automated steps will be also defined by the framework.
+ 
+ 
+Inside the Cadence Framework Module
+The Cadence Framework Module holds a lot of valuable information about the Frameworks you will apply into your Cadences. Let's take a look at the information you will see in the Cadence Framework Module.
+
+Frameworks are grouped into different types of sales Cadences which can be used for prospect and customer connections. You can learn more about the Cadences in the List of Cadence Frameworks article. 
+
+Selecting a Framework from the list on the left will show a Framework preview, which includes:
+Framework Name and description
+Framework summary:
+Number of steps in the Cadence
+Cadence duration (in business days)
+Things to Note: Salesloft will not include Saturdays and Sundays in business days by default. 
+Automation (percent of automated steps to the total number of steps)
+Step Summary (labels for different steps types and the number of each step type included in the Framework)
+Cadence steps list
+Day the step will take place in relation to the Cadence
+Icon to represent the step type  
+Steps combined with the vertical line indicate multi-touch steps which should be executed together.
+Automated steps are tagged with the specific label.
+Replace Steps
+Some Cadence Frameworks steps may include types of actions that your team does not have access to or does not wish to use. For these instances, Salesloft gives you the option to replace the steps with a more standard step type. 
+
+Things to Note: Replacing steps will replace all steps that fit that type. You cannot select steps to replace. 
+
+Let's walk through Cadence Framework replacement options. 
+Replace Automated Email Steps with Manual Emails
+Teams with disabled automated steps will have an option to replace automated emails with regular email steps.
+
+When a user from a team with the disabled automated email steps selects to use a framework with automated emails steps, they will be suggested an option to replace automated email steps with manual emails. 
+
+By selecting the Replace option, the new Cadence will be created from the framework with the regular email steps. 
+ 
+Replace LinkedIn Sales Navigator Steps with Other Steps
+A lot of Cadence Frameworks include LinkedIn Sales Navigator integration steps. However, if your team does not use LinkedIn Sales Navigator (and its integration with Salesloft), these steps won't seem as useful. 
+
+For teams that do not have the LinkedIn Sales Navigator integration enabled in Salesloft, Cadence Frameworks will suggest to replace those steps with the other steps. With other steps in place, you can still get value out of the Cadence Framework and even execute LinkedIn steps from you personal account. 
+
+When you add the Cadence Framework, a module will appear asking if you would like to replace integration steps with other steps. Select Replace to create a Cadence with Other steps in place of the suggested LinkedIn steps. Your step instructions will be preserved for Other step. 
+
+Things to Note: The ability to replace steps will not be available when LinkedIn integration enabled.
+ 
+ 
+Replace Automated and Linkedin Sales Navigator Steps
+If team has automated steps and LinkedIn Sales Navigator integration steps disabled, Cadence Frameworks that contain both types of steps will suggest to replace the steps in one bulk action. 
+ 
+Finish Your Cadence Set Up and Add Content  
+While the Frameworks provide the suggested Cadence layout, they do not include content that will be sent to People. You will need to build and apply the content that is personalized for your business. 
+
+Once a Cadence Framework is selected, the steps will appear in your Cadence Overview. If any email content is included in the Cadence Framework, an alert message will appear that the top of the Overview page. The alert will tell you how many emails are missing content. 
+
+You will not be able to use or run the Cadence until all of the content has been added. Cadences missing content will show the alert icon on the Cadences Page to let you know content must be added. 
+
+To add email content to your Cadence that was created from a Framework, follow these steps: 
+From the Cadence Overview page, scroll to find an email step. The step will have a yellow alert icon (exclamation point). You can hover over the icon to learn what is missing. 
+Click the email title to open the Edit Email Variant window. This is where you will add your content. 
+You have a couple of options to add content here: 
+Insert a previously created template. 
+Create your own content on the spot by filling out the following: 
+Add a Name for the email being used
+Add a Subject line for when the email is sent. 
+Write in the email message. 
+Click Save. 
+Repeat the steps with any additional emails in the Cadence.
+ 
+
+Beyond adding content, you can edit Cadence steps once the framework is in place. To learn more, check out our Edit an Existing Cadence article. 
+ 
+Last Modified By
+Stephanie Griffith, 10/20/2021 1:06 PM
+Title
+Start with Cadence Frameworks
+URL Name
+Start-with-Cadence-Frameworks
+Salesloft Knowledge
+Cadences + Tasks
+Create A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

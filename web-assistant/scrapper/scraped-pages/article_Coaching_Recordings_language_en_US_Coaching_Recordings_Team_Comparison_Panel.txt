@@ -1,0 +1,125 @@
+COACHING
+Coaching Recordings
+
+Dec 12, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Coaching Recordings page is where managers and reps can focus on how well a rep is running recording meetings. 
+
+Things to Note: 
+Recordings are gathered from Salesloft Conversations. 
+The following recordings are not included in Coaching recordings because they do not include active speaker detection: 
+Dialer Calls: To coach calls made using the Salesloft Dialer, use the Coaching Calls page. 
+Google Meet
+Manually uploaded recordings
+Team averages calculated in Coaching Recordings are pulled from the data of everyone in your Salesloft team. This is different from the other pages in Coaching that pull averages from the Group. 
+The page is built of panels and charts that highlight various meeting recording activities and outcomes. If you notice from the Goal performance that a rep seems to be struggling with meeting performance, these charts can help pinpoint areas for improvement. Then, you can use your 1-1s to focus on best practices for hosting web meetings. 
+ 
+
+The Coaching Recordings page may prompt the following questions that can also be answered with data found on the page: 
+Is the seller employing the right balance of talking versus listening? (aka, How’s the rep’s talktime?)
+How is the seller qualifying problems?
+Does the seller appropriately identify next steps when wrapping up a meeting? 
+In this article, you will learn about the information found on the Coaching Recordings page, including:
+Coaching Recordings Filters
+Coaching Recordings Team Comparison Panel
+Coaching Recordings Trend Panel 
+Coaching Review Recordings Panel
+Coaching X-Ray Groups Panel
+Coaching Recordings Filters
+Filters are used across Salesloft Coaching to help refine the data being viewed. While most of the pages use the same filters (users and date), the Recording page includes additional filters. 
+Recordings filter: Filter by recordings where the user is the organizer or whether the user was an attendee. 
+Drill Down Search: In the Review Recordings, you can drill down into meetings using the following search criteria:
+All (default)
+Comments
+Title 
+Transcript
+ 
+Coaching Recordings Team Comparison Panel
+The Coaching Recordings page Team Comparison Panel is a bar chart that shows how efficient a rep is hosting their meetings. Using this chart, you can infer whether a rep’s recording behavior is in line with the rest of their peers. 
+
+
+
+The metrics used include recording data that offers insight into a rep’s recorded meeting efficiency. You can change which type of result is shown in the panel by selecting the result name and opening the dropdown menu. 
+
+The Results By panel offers the following metrics: 
+Talk Time %
+Avg Recording Duration
+The Team Comparison Panel exists inside the Summary, Emails, Calls, and Recordings Coaching pages with different metrics based on the specific activity being covered. To learn more about the information found inside the panel, check out the Coaching Summary Page’s Team Comparison Panel write up. 
+ 
+Coaching Recordings Trend Panel
+The Coaching Recordings Trend panel is a line chart that shows how many total recordings have taken place. Using this chart, you can see the number of recordings accomplished by the rep, and whether those numbers are trending upwards or downwards from the previous time period and that of their peers. 
+
+
+
+The Trend Panel exists inside the Summary, Emails, Calls, and Recordings Coaching pages with different metrics based on the specific activity being covered. To learn more about the information found inside the panel, check out the Coaching Summary Page’s Trend Panel write up. 
+ 
+Coaching Review Recordings Panel
+The Review Recordings Panel on the Coaching Recordings page allows you to drill into meeting recordings that include the rep. This panel is perfect for getting an in depth look into the specific types of meetings where the rep runs point or contributes. 
+
+
+
+The panel is split into tabs based on recording categories. Each recording category tab includes the name of the tab/metric, number of recordings included in that tab according to the time frame, and a period comparison to let you know if the number has increased or decreased since the previous time period. The recording categories shown include: 
+Talk Time under Team Average
+Talk Time over Team Average
+Duration under Team Average
+Duration over Team Average
+If recordings have been deleted or removed for whatever reason, the number of recordings listed  will not match the number of recordings shown next to the category name. In these cases, you will see a warning note at the top of the list of recordings explaining how many recordings are not available to view.
+
+Inside the tabs, you will see a list of recordings that fit the assigned metric category. The recordings are listed in order from most recent to least recent. Each recording listed contains the following details: 
+Meeting Title
+Talk time Percentage as a status icon
+Meeting Duration
+Salesloft user that owns the meeting
+Timestamp
+Hover Actions:
+Open in Conversations
+Copy Link
+Select a Recording in the list to view the following: 
+Recording player: View the recording
+Meeting details (platform, language, invitees, attendees)
+Meeting Owner
+Invitees
+Attendees
+
+ 
+
+Coaching X-Ray Groups Panel
+The X-Ray Groups panel allows you to view the top 10 most frequently used X-Rays, or keywords/phrases, within a selected date range. X-Rays are collections of words and phrases that help you and your team identify phrase patterns during calls. 
+
+The X-Ray Groups panel displays the following: 
+Top Ten X-Rays: The top ten most frequently used X-Rays, or keywords/phrases. By default, this panel lists the top ten X-Rays within all X-Ray groups.
+Mentions: The number of times each X-Ray was mentioned in any of your team's recordings
+You can hover over each X-Ray for a breakdown of the following:
+X-Ray Group: X-Ray Group that keyword/phrase belongs to
+Mentions: The number of times each X-Ray was mentioned in any of your team's recordings
+Recordings: The number of recordings that X-Ray was mentioned in
+
+
+ 
+
+
+Filter the X-Ray Group Chart by Language and Group
+
+By default, this panel displays the top 10 X-Rays within all X-Ray groups. You can use the dropdown beside All X-Ray Groups to filter by specific X-Ray groups and X-Ray Language. 
+
+You can also use the ellipses to exclude 'filler words', such as "um", from the chart. 
+Things to Note: As a Manager or admin, you can manage your team's X-Rays. Check out the Manage X-Ray Settings article for more information. 
+ 
+ 
+Last Modified By
+Raequel Sank, 12/12/2022 2:56 PM
+Title
+Coaching Recordings
+URL Name
+Coaching-Recordings
+Salesloft Knowledge
+Coaching
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

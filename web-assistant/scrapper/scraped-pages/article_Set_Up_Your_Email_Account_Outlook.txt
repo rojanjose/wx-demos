@@ -1,0 +1,93 @@
+EMAIL
+Set Up Your Email Account - Outlook & SMTP/IMAP
+
+Mar 29, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Email is the primary channel for most modern sales cycles. It serves as the backbone for sales communication by keeping you on your prospective customers' radar and allowing you to keep current customers in the know. 
+
+Salesloft improves your standard email sends with tracking capabilities, templates, and smart tools that will enhance your communication, increase overall efficiency, and make your sales process smarter. But before you start sending, you need to be sure your email account is set up properly.
+
+In this article, we will walk through setting up Salesloft to your Microsoft Outlook account:
+Connect to Microsoft Office365 (Oauth)
+Connect to Microsoft EWS
+Connect to Another SMTP/IMAP Server
+Connect to Your Calendar from the Personal Email Settings Page
+If you run into issues or would like to read more about SMTP protocols, visit the SMTP/IMAP Email Connection article found on our Email FAQ + Troubleshooting page.
+Connect to Microsoft Office365 (Oauth)
+Setting up your Office365 connecting may involve a little more setup from your Admin. If you run into any issues, please reference how to set up the Available Email Clients.
+
+To connect to your Microsoft Office365 account, follow the instructions below:
+
+1. Navigate to your Email Settings by clicking your name, going to Settings, and selecting Email on the left.
+
+2. Select Microsoft Office365 (Oauth) or click the Connect button on the right side of the Microsoft Office365 (Oauth) row. 
+ 
+
+ 
+3. You will be redirected to sign into your Office365 account. Enter the email address you want to connect to Salesloft and hit Next.
+ 
+4. (OPTIONAL) Connect your calendar.
+5. You're all set! 
+Connect to Microsoft EWS
+EWS (Exchange Web Services) is a native API built by Microsoft that allows server/client applications to integrate with Exchange Servers and Office 365. When Salesloft connects to Office365 or an Exchange Server through Microsoft’s EWS API, it provides a rich integration that supports many additional features around Email and Calendars.
+
+Things to Note: If Microsoft EWS is not appearing in your list of available email clients, reach out to your team admin. They may need to contact your team's success manager to enable the feature. 
+
+To connect to Microsoft Exchange ActiveSync or to Microsoft EWS via a Service Account, follow the instructions below:
+
+1. Navigate to your Personal Email Settings by clicking your name, going to Settings, and selecting Email on the left.
+
+2. Click Edit from the Email Client section.
+
+3. Select Microsoft Exchange, then hit Connect.
+ 
+
+
+ 
+3. You will be redirected to the Integrate your email account with Salesloft page. On this page, enter the following:
+Your email address
+Password
+Username
+Hostname
+ 
+
+4. Click Log In.
+5. (OPTIONAL) Connect your calendar.
+6. You're all set! 
+Connect to a SMTP/IMAP Server
+To connect to another SMTP/IMAP server, follow the instructions below:
+Navigate to your Email Settings by clicking your name, going to Settings, and selecting Email on the left.
+Select SMTP/IMAP Servers.
+Enter the name of the SMTP server, the SMTP port number, and the name of the IMAP server for your email account. If you don't know your server names or port number, you can get this information from your IT department or hosting company. Things to Note: The most common SMTP port number is 587.
+Once you've entered all your account information, click Verify and Save SMTP Settings. 
+If your account information is correct, you should see a box appear in the right corner of the window indicating that Salesloft is able to successfully connect to your mail server. Make sure you verify both your Incoming and Outgoing settings or else you may encounter errors while using Cadence.
+ 
+ 
+6. (OPTIONAL) Connect your calendar.
+7. You're all set! 
+Connect Your Calendar from the Personal Email Settings Page
+
+Once you connect your email, the Calendar Connection window will appear. You can connect your calendar and enable calendar sync from this window without having to leave the Personal Email Settings page.
+
+Things to Note: The Calendar Connection window does not eliminate the Calendar settings page. If you would prefer to connect your calendar from the Calendar Settings, hit Cancel, then select Calendar from the Personal Settings menu options.
+
+Once you successfully connect your email and calendar, a green check will appear beside each item as well as a note displaying the number of emails you are able to send each day. 
+ 
+Last Modified By
+Stephanie Griffith, 3/29/2023 4:45 PM
+Title
+Set Up Your Email Account - Outlook & SMTP/IMAP
+URL Name
+Set-Up-Your-Email-Account-Outlook
+Email
+Salesloft Knowledge
+Set Up Your Emails
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,92 @@
+USER GUIDES
+SALESLOFT CONNECT
+CONNECT FOR GMAIL
+Person Profile View in Gmail
+
+Oct 6, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft Connect for Gmail gives you visibility into a Salesloft Person Profile from the Connect for Gmail Side Panel. This way you don’t need to bounce back and forth between your email and the Salesloft platform.
+
+By default, the side panel, known as the Person Profile view, will display the first Person from the newest email in your inbox. As you navigate through your inbox, the side panel will automatically display the Person's Salesloft Profile.
+
+In this article, we will walk through the Person Profile View in Gmail, including: 
+Person Information and Quick Actions
+Person Profile Contact Tab
+Person Profile Cadences Tab
+Person Profile Activity Tab
+Person Profile Notes Tab
+Person Profile Tasks Tab
+Person Information and Quick Actions
+A Person' Profile displays all of the familiar information and actions available in Salesloft Person Profile Page.
+
+The top of the profile panel will show the Person standard information, including their name, Account, and Account website. As long as the Person and their Account are already in Salesloft, each line will appear as a clickable link. Click the link to view that information in Salesloft. 
+
+Next, you will see icon displays. Each icon represents a specific action you can take on the Person. Click the link of the icon listed below to learn more about the Person action.
+Link to/View CRM
+Create Tasks.
+Mark the Person as a Success.
+Click the pencil icon to edit the Person's information.
+Create Reminders by clicking the bell icon.
+Book a Meeting
+ 
+Person Profile Contact Tab
+Below the Person’s profile information, there are multiple tabs to view. The first is the Contact tab. The Contact tab shows the Person’s contact information including email address, available phone numbers, and other standard information available for that Person.
+
+Things to Note: Contact information pulls from the completed fields of the Person’s Salesloft Profile. To edit contact fields in the Gmail side panel, click the pencil icon found in the Person Information section. 
+
+In addition to viewing the contact info, you can take the following actions:
+Click available email addresses to send an email. Hover over the email address and it will appear underlined. Click the link to open an email
+Click available phone numbers to make a call. Hover over the phone number and it will appear underlined. Click the link to open the Salesloft Dialer. 
+ 
+
+More details and actions may appear within the contact info section. Scroll down to view more items, including: 
+Update the Person Stage: The Person Stage keeps you up-to-date with where the Person is in the sales cycle. To update a Person’s stage, select the Person Stage dropdown menu and pick the stage you want.
+Add tags: Tags are labels or folders that you can use to organize groups of people in Salesloft. To add a tag, type the name of the tag in the text box and hit your enter key.
+Mark the Person as Do Not Contact . 
+Edit Custom Person Fields: You can edit customer Person fields in the Gmail side panel. Custom Person Fields are additional fields created by your Salesloft team admin. Any available custom fields can be found at the bottom of the Contact tab. The following custom fields types can be updated: Picklist, Date and Text fields.
+Things to Note: Editing fields in the side panel respects the Edit People Permission. 
+ 
+Person Profile Cadences Tab
+The Cadences tab displays information about Cadences a Person is on as well as their Cadence history.
+ 
+In addition to viewing the Person’s Cadence history, you can also add the Person to a Cadence. Select the green Add to Cadence button. Search from My Cadences or Team Cadences in the Add to Cadence pop-up window. Select the Cadence you want. If the Cadence uses AB testing, you can select the email variant you would like that Person to receive. 
+
+Things to Note: For Team Cadences, you will be able to filter and search Cadences by Group content. 
+
+If your team has group content assignment enabled, your team content will default to content assigned to any groups you're assigned to. 
+
+You can take actions on People who are active in a Cadence from the side panel, including changing the Person’s Cadence due date and removing the Person from the Cadence.
+New Due Date: Select the purple Calendar icon and pick a new date to pause the Person on a Cadence.
+Remove: Remove a Person from a Cadence by selecting the red Remove icon.
+Person Profile Activity Tab
+The Activity tab shows all of the email, call, and Cadence activity for this Person. This is a quick way to recap all previous interactions between you and the Person or between the Person and any other Salesloft user on your team.
+
+To view the previous activities, click the Activity tab.
+Person Profile Notes Tab
+The Notes tab does exactly what the name says — it allows you to log notes on the Person’s record in Salesloft. When you log a note, you can quickly reference it from the Notes tab, or view it under recent activity. Notes even log into your Salesforce activity history with the subject line “note” for seamless logging and clarity across the platforms.
+
+Click the Notes tab to view and add notes to this Person.
+ 
+Person Profile Tasks Tab
+Allows you to view all of the Tasks that have been created for this Person. 
+
+For more information on Tasks, check out the Tasks in Gmail article. 
+Last Modified By
+Stephanie Griffith, 10/6/2021 6:25 PM
+Title
+Person Profile View in Gmail
+URL Name
+Person-Profile-View-in-Gmail
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Connect For Gmail
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

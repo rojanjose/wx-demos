@@ -1,0 +1,104 @@
+ANALYTICS + REPORTING
+Team Standard Report
+
+Jun 28, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Team Report shows a detailed report of your team's Salesloft activities. Admins and users alike can quickly view the number of activities that have been completed.
+
+In this article, you will learn about the Team Report, including:
+Access the Team Report
+Team Report Add Filter Options
+Team Report Metrics
+Sort the Team Report
+Access the Team Report
+Access the Team Report from one of the following methods:
+The Activities: Cadence and One-Off Panel: Click the View Report link in the upper right corner of the panel. 
+The Team Standard View from your Reports Tab: Select the Standard Team View link found in the Team Section of the Reports Tab. You will be redirected to the Team Report.
+When you access the report, you will see the name of the report you have accessed and a breadcrumb trail in the upper left corner. This can take you back to the Analytics Overview by clicking Analytics. 
+Team Report Add Filter Options
+The Team Report data can be adjusted by using Analytics Filters. When you change any of these filters, you can save the page view to Create Custom Reports.
+
+Outside of the standard filter options, you can add additional filters to your report. The Team Report's additional filters include: 
+Total Activities
+Successes
+Meetings Booked
+Sent
+% Personalized
+% Opened
+% Replied
+Calls Logged
+ 
+Team Report Metrics
+The first row of the report contains the total metrics based on your filter settings.
+
+Each performance metric is visible in its own column. The columns include: 
+Name	First and last name of the Salesloft user.
+Group Name	The Salesloft team member's group assignment. If they are not assigned to a group, N/A will display.
+Total Activities	Emails Sent + Calls Logged+ Other Steps + Integration Steps 
+Activities Per Day	(Emails Sent + Calls Logged+ Other Steps)/Count(Days) 
+Successes	Number of times the user has marked a Person as a Success. 
+Lead Lifetime	Lead Lifetime looks at the elapsed time to achieve a success. The table will show the average number of days it took for a Person to reach success from the moment they were imported into Salesloft.  
+Meetings Booked	
+
+Number of meetings booked through the Salesloft Calendar feature within the platform.
+
+Things to Note: Meetings booked data is only available starting on October 22, 2018.
+
+
+Effectiveness Score	
+
+Shows how many activities (calls, emails or other steps) it takes to get a single success.
+
+
+Email Touches Per Success	How many email steps it took to get a success. 
+Call Touches Per Success	How many call steps it took to get a success. 
+Other Touches Per Success 	How many other steps it took to get a success. 
+Sent	Number of emails sent to the Account.
+Delivered	Total number of emails delivered. This is the total number of emails sent minus the number bounced.
+Bounced	Number of emails bounced.
+%Bounced	Percentage of emails the user has sent resulting in a bounced email. 
+Personalized	Number of emails that were personalized. 
+% Personalized	The percentage of emails sent that have > 5% personalization score. The 5% reflects a minimum threshold for meaningful personalization that impacts reply rates.
+Average Personalization Score	The average of personalization scores across a set of emails.
+Opened	Number of times an email sent from the user resulted in an open or view.
+%Opened	Percentage of emails sent from the user that resulted in an open or view out of the total number of emails sent.
+Clicked	Number of times an email sent from the user resulted in a click.
+%Clicked	Percentage of emails sent that resulted in a link being clicked.
+Replied	Number of emails sent that resulted in a reply. This counts any emails replied, regardless of if they were sent from a Cadence, Lofted, or one-off emails.
+%Replied	Percentage of replied emails based off of the total number of emails sent.
+Calls Logged	Number of calls logged from the Cadence.
+Connected Calls	Number of calls logged with the disposition Connected by the user.
+% Connected Calls	The percent of calls logged that have the disposition of Connected Call. The calculation is Connected Call Rate = Connected Calls/Calls Logged.
+Things to Note: Connected Calls is the standard disposition of "Connected".
+Pos. Calls	Total number of calls labeled with the disposition Connected and sentiments Interested, Timeline 6-12 Months, or Demo Set.
+% Pos. Calls	The percentage of Positive Calls divided by the total Connected Calls.
+Voicemails	Number of Calls logged with the Disposition Left Voicemail.
+Integration Steps	These are the total completed integration steps across all integrations, such as LinkedIn, Sendoso, etc.
+Other Steps	These are the completed other steps. If users don't have LinkedIn Sales Navigator, this can often represent their LinkedIn steps.
+Sort the Team Report
+Each column header may be used to sort the list.
+
+
+
+To sort the Team report to fit your preference, follow these steps:
+Select the appropriate column header. The header name will turn blue.
+Use the arrow to the right of the header name to set the sorting direction. The arrow will point up or down (ascending or descending order) to reflect the order of the list.
+ 
+Last Modified By
+Briana Morgan, 6/28/2022 2:23 PM
+Title
+Team Standard Report
+URL Name
+Team-Standard-Report
+Salesloft Knowledge
+Analytics Reports
+Analytics + Reporting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

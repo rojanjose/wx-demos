@@ -1,0 +1,129 @@
+SALESLOFT MOBILE
+Getting Started with Salesloft Mobile
+
+Oct 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft Mobile uses the power and range of your wireless network, combined with the controls and settings of the Salesloft Dialer. This combination allows you to call from a dedicated Salesloft number and log activity wherever you are.
+
+The addition of the Salesloft Mobile app involves some setup on your mobile phone. Just like any phone-based app, Salesloft Mobile requires a mobile app download and initial login before you can start using the application. 
+
+Things to Note:
+
+When using Salesloft Mobile, follow state driving laws related to phone use. Please, don't take notes while driving.
+The Salesloft Mobile app is currently unavailable in mainland China.
+Salesloft Mobile inherits the language set in your Salesloft web app. 
+
+In this article, we will walk through the set-up guide for Salesloft Mobile, including
+
+How Salesloft Mobile Works
+Salesloft Mobile Compliance
+How to Download Salesloft Mobile
+Log In to the Mobile App
+Set Up Salesloft Mobile
+How Salesloft Mobile Works
+
+When you make a call using Salesloft Mobile, the app will place two calls, similar to Pass Through Calls. Through the magic of mobile networks, these connections occur in sequential order as soon as you hit "Call."
+
+Things to Note: 
+
+Salesloft Mobile uses your mobile network. If you don't have cell service, you won't be able to make a call.
+You must have a Salesloft provisioned number in order to use Salesloft Mobile. 
+
+The first call is to your assigned Salesloft phone number. By calling your assigned number, Salesloft bridges the call from your cellphone through the Salesloft Dialer. This gives you the benefits of your cellular network. The second call is to the Person you are calling. 
+
+Salesloft Mobile Compliance
+
+Here are the other important things you need to know before using Salesloft Mobile: 
+
+Standard voice and messaging rates apply. This means if you have a cell phone plan based on minute usage, you will be charged per minute.
+
+If you are making international calls from the mobile app, additional charges may apply if your phone plan doesn't cover international calls. Consult your phone provider for more information.
+
+The following features are unavailable for Salesloft Mobile: 
+
+Custom Caller ID: Your assigned number will appear on the Caller ID when dialing from Salesloft Mobile. Custom Caller IDs set up in your Settings will not appear when using the mobile app. 
+Drop in Voicemail
+Call recording: Calls made with the mobile app are not recorded
+Live Call Studio: Calls made with the mobile app are not available in Live Call Studio
+How to Download Salesloft Mobile
+
+Salesloft Mobile is available for iOS and Android v. 8.1. See the setup instructions for your preferred mobile carrier below:
+
+ 
+
+iOS Apple Store
+
+To download Salesloft Mobile, follow these steps: 
+
+Go to the Apple App Store. 
+Search for Salesloft or Salesloft Mobile.
+Click Get to download the app. While the app is downloading or updating, its icon appears on the Home screen with a progress indicator.
+
+ 
+
+ 
+Android Google Play Store
+To download Salesloft Mobile, follow these steps:
+Go to the Google Play Store.
+Search for Salesloft or Salesloft Mobile.
+Select Install.
+
+ 
+
+ Log In to the Mobile App
+
+When you open the app, you will see an opening screen. From this page, click the prompt that says Login to Salesloft.
+ 
+
+
+The page will redirect to the login screen where you may log in to the app using your Salesloft login credentials. This page appears the same as the login page you use in the desktop app. Since you use the same log in credentials, any SSO setup associated to your team may be used to login as well.
+
+Things to Note: If your team has SSO enabled, you will need to sign into that SSO on Safari first before you sign in to the Salesloft Mobile app. 
+
+To log in to the app, follow these steps:
+
+1. Open the Salesloft Mobile app. You will go to the login screen. 
+
+2. Click Login to Salesloft. A pop up notification will appear asking to use Salesloft to login. Click Continue. You will be directed to the login credentials sight. 
+
+
+3. Enter your login credentials in the available text boxes. 
+ 
+
+4. Click Sign In. 
+
+5. A pop up may appear asking you to authorize your use of Salesloft Mobile. Click Authorize. 
+Set Up Salesloft Mobile
+
+Once you log into Salesloft Mobile, you can explore the Salesloft Mobile App functionality.
+
+Go to the Salesloft Mobile Settings (gear icon) to manage your phone notifications and view your profile information. 
+
+Before you can make calls, you will be required to enter your mobile number into the app. This allows Salesloft to know this phone is authorized to sync calls from that phone.
+
+
+When you add your mobile number, you have the opportunity to place a test call. We recommend that you place the test call to make sure your phone is working properly.
+ 
+
+
+Once your number is added, you may place calls from the mobile app. 
+
+Last Modified By
+Raequel Sank, 10/13/2023 5:57 PM
+Title
+Getting Started with Salesloft Mobile
+URL Name
+Getting-Started-with-Salesloft-Mobile
+Salesloft Knowledge
+Salesloft Mobile
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,18 @@
+Forecast FAQ + Troubleshooting
+
+Why can’t I see the AI Forecast?
+
+110 Views•Apr 5, 2023•Knowledge
+What data is used for the AI Forecast model?
+
+119 Views•Mar 29, 2023•Knowledge
+Does AI Forecast use a global model or a team-specific model to create the AI Forecast number?
+
+104 Views•Mar 29, 2023•Knowledge
+My team data doesn’t meet the AI Forecast criteria, can we still see an AI Forecast number?
+
+84 Views•Mar 29, 2023•Knowledge
+4 Articles
+4
+Articles
+Contact Support

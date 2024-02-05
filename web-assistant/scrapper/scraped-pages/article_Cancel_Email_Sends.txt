@@ -1,0 +1,41 @@
+EMAIL
+Cancel Email Sends
+
+Apr 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Have you ever hit Send on email and then immediately caught a typo? It happens to the best of us. For moments like these, you can cancel pending and scheduled email sends from the Emails page. Cancelling a send will stop the email from sending.
+
+Pending messages include those emails that are in line to be sent soon. Typically, this means you have a relatively short window to cancel a pending send. If you're really worried and anticipate wanted to cancel emails often, we recommend asking your team admin to increase the email delay so you have a little more time. 
+
+Scheduled emails include sends that you program to send at a later set time. Scheduled sends can be configured on a one-off basis, in bulk from a Cadence, or even automated from a Cadence. 
+
+Whether the email is scheduled or pending, you can cancel an in-progress send from the Emails page. Follow these instructions to cancel an email: 
+
+1. Go to the Emails Page. 
+
+2. In the Emails list, find and select the email(s) you wish to cancel. When you select an email, options will appear at the top of the list. 
+ 
+ 
+
+3. Click Cancel Send. A message will appear to confirm the cancel.
+ 
+
+4. Click Cancel Send to confirm the action. The email status will update to Canceled. 
+Last Modified By
+Stephanie Griffith, 4/13/2023 2:43 PM
+Title
+Cancel Email Sends
+URL Name
+Cancel-Email-Sends
+Email
+Salesloft Knowledge
+Sending Emails
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,188 @@
+ADMIN GUIDES
+Manage Access and Visibility Settings
+
+Oct 6, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Access and Visibility settings allow you to manage which objects (Person Records, Account Records, Opportunity Records, Conversations Recordings) your team can access. 
+
+ 
+
+Some teams using Salesloft may wish to keep object access and content visibility open to everyone on the team as a way of promoting shared ideas workloads. Other teams may work with more confidential information that needs to be viewed by the owner and the owner alone. 
+
+ 
+
+Whatever your team's preference may be, you can manage which users can view and edit object records by assigning content visibility from the Access and Visibility settings. This control puts all required levers in place to protect and separate data between Salesloft users.
+
+ 
+
+In this article, you will learn about the Access and Visibility Settings, including: 
+
+Important Things for Admins to Know About Access and Visibility Settings  
+Object Access Settings
+Team Content Visibility Settings
+Recordings Visibility Setting
+Access and Visibility FAQ
+
+ 
+
+Important Things for Admins to Know About Access and Visibility Settings 
+Access Control permissions supersede Access and Visibility Settings. Admins can always choose to use roles and permissions to determine access to different Salesloft objects. 
+If the Access Setting for a Person record is set to Owned by User and a user is running a Cadence that includes a Person they are not the owner of, the user cannot run Cadence steps for this Person, even if they were previously assigned to them.
+Before enabling access restrictions for a Person record, we recommend granting users assigned to Cadence steps access to People records they do not own (either they should own the record or have "View All People" permissions).
+Salesloft will remove People from Cadences within a day if users running these cadences don’t have ownership of these People records.
+Team Admins and roles with the View All Opportunities permission enabled will override the Opportunity Record Object Access setting. Admins have the permission enabled by default. 
+Object Access only includes limitations to Opportunity visibility. It does not limit who can edit an opportunity.
+
+ 
+
+Object Access Settings
+
+The Object Access Setting lets you determine the level of access your team has to Person, Account, and Opportunity records. 
+
+Teams without a Deals license can pick two access options:
+
+Owned by Anyone: Users can view and manage all records on the team regardless of their owner.
+Owned by Themselves Only: Users can view and manage records owned by them only.
+
+ 
+
+Teams with a Deals license can choose from these access options:
+
+Respect Salesforce Access Settings: Users' access to opportunities will be based on your settings in Salesforce.
+Owned by Anyone: Users can view and manage all records on the team regardless of their owner.
+
+ 
+
+ 
+
+ 
+
+To set Object Access controls for your team, follow these steps: 
+
+Navigate to your Team Settings. 
+From the Team Settings options, select Access and Visibility. 
+Once you select Access and Visibility, you will land on the Object Access tab. From this tab, you will see a section for each of the object records. 
+Click Edit beside the object record you want to set controls for. This action opens the edit window. 
+From the edit window, set your object access preference.
+Click Save.
+
+ 
+
+ 
+
+When you click Save, Salesloft will update users’ access to object records based on your selections. Once Salesloft finishes updating users'’ access, an admin receives an email notification that Object Access has been updated.
+
+ 
+
+Team Content Visibility Settings
+
+When groups are assigned team content, an admin can determine how users filter by group for team Cadences, team templates, and team snippets. This default filter is their Visibility setting since they decide what content is visible.
+
+ 
+
+Users can filter team content by:
+
+Any Group: For managers who want their reps to be able to access content that has been assigned to their own group but also be able to navigate to content assigned to other groups in their organization.
+Their Group/Child Groups Only: For managers who want their reps to only view content assigned to their groups and applicable child groups.
+
+ 
+
+Once the Filtering Team Content Setting is applied, it applies team-wide.
+
+ 
+
+To configure this setting, follow these steps:
+
+Go to the Access & Visibility Settings under your Team Settings. 
+At the top of the page, select the Content Visibility tab. 
+Go to Team Content Visibility and click the Edit button. The Content Visibility module will appear. 
+Select one of the following options:
+Any Group
+Their Group/Child Groups Only
+Click Save. 
+
+ 
+
+For Content Visibility that is set to view Any Group, you can toggle on the Pre-populating the Group Filter setting. When this setting is enabled, users see their team content filtered to their group's content by default. They can then adjust their filters to view content outside of their group. 
+
+ 
+
+ 
+
+Recordings Visibility Setting
+
+The Recordings Visibility setting determines who can access your team’s Conversations recordings.
+
+ 
+
+By default, individual users can access Conversations recordings owned by anyone on your team. 
+
+ 
+
+As an admin, however, you can use the Recordings Visibility setting to limit which recordings your team can access.
+
+You can limit your team’s access to Conversations recordings based on the following permissions:
+
+Owned by Anyone: Individual users can access Conversations recordings owned by anyone on your team. 
+Things to Note: This is the default setting.
+Owned by Users in Their Group/Child Groups Only: Individual users can only access their own Conversations and Conversations recordings owned by their group. For example, a user from the East Coast AEs group hosts a meeting. Other East Coast AEs group users can access the recording in Conversations.
+Owned by Themselves Only: Individual users can only access their own recordings. 
+
+Things to Note: As an admin, you can access all recordings regardless of the access setting.
+
+To configure the Recordings Visibility setting for your team, follow these steps:
+
+Go to the Access & Visibility settings under your Team Settings. 
+At the top of the page, select the Recordings Visibility tab. 
+Click Edit in the Recordings Visibility section. This opens the Conversations Recordings Visibility window.
+From the edit window, select one of the following options:
+Owned by Anyone
+Owned by Users in Their Group/Child Groups Only
+Owned by Themselves Only
+Click Save. 
+
+ 
+
+Access and Visibility FAQ
+
+Q: How will the Deals, Cadence, and Conversations experience change if I set the Opportunity Record setting to Owned by Themselves?
+
+A: The Opportunity Record setting manages how users see opportunities inside Salesloft. When the Owned by Themselves setting is enabled, users will experience the following:
+
+Deals: Inside the Pipeline View, users will only be able to view Opportunities that they own. Any Deals owned by another user will not be visible.
+Cadence: If an opportunity is linked to a Person or Account in Salesloft, users will only see their own opportunities. 
+Conversations: Users will only have visibility into linked opportunities on the Recordings page when they own the opportunity. If an opportunity is linked that you cannot view, an error message will show you have Insufficient permissions to view that opportunity. 
+Things to Note: If a linked opportunity exists, you can’t link another opportunity.  
+
+ 
+
+Q: My team’s Object Access and Recordings Visibility permissions are set to Owned by Themselves only, but I have a user who needs access to all records and recordings.
+
+A: Access Control permissions supersede Access and Visibility Settings. With this in mind, you may have object access settings in the Access and Visibility Settings without the necessary permissions for a user to access recordings. 
+
+Check the Access Control permissions assigned to the user's role. By default, Access Controls are disabled for the standard user role. 
+
+If a user requires a specific permission to gain access to a feature, follow these steps: 
+
+Create a new user role. 
+Edit the new role to include the appropriate Access Control Permissions inside the Roles & Permissions Settings. 
+Assign the new role to any users that need to settings.  
+Last Modified By
+Stephanie Griffith, 10/6/2023 3:37 PM
+Title
+Manage Access and Visibility Settings
+URL Name
+Manage-Access-and-Visibility-Settings
+Salesloft Knowledge
+Admin Guides
+Team Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

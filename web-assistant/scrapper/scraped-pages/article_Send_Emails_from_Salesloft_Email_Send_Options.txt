@@ -1,0 +1,89 @@
+EMAIL
+Send Emails from Salesloft
+
+Jul 25, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft email offers the ability to execute your well-crafted sales messages at scale. This dynamic feature lets you manage your emails to optimize your sales process.
+
+Whether you want to send out a templated email to multiple People from a sequential Cadence or personalize a message to engage a prospect, Salesloft takes your daunting email tasks and turns them into well-executed communication. But how can you get the most out of this vital sales tool?
+
+In this article, you will learn how to send an email using Salesloft, including:
+Where Can I Send Email Messages from Salesloft?
+Autosave from One-Off Emails
+Email Send Options
+Where Can I Send Email Messages from Salesloft?
+Salesloft emails can be sent from multiple locations within the Salesloft platform. You can draft a message from wherever it makes the most sense for your sales process.
+
+If your sales process needs structure and consistency, you can use a Cadence to ensure that you reach out to prospects at the right time.
+
+On the other hand, if your sales style involves one-off email sends and a great deal of personalization, you can access emails from the People tab or an individual Person Profile page.
+From a Cadence
+Cadences allow you to systematically send emails to People through a consistent process.
+
+Check out our Cadence-specific articles to learn more about how to Create a Cadence and run a Cadence email step.
+The People Page
+The People Page provides a full list of the People who have been imported into Salesloft and allows you to take quick actions on selected individuals, including sending one-off emails.
+
+To send an email from the People tab, follow the instructions below:
+Navigate to the People tab.
+Search for the Person you would like to email if they are not already visible in your People list.
+Select the checkbox to the left of the Person’s name. Once a name has been selected, the Select People Actions will appear over the People list.
+Select the Email icon to Send a One-Off Email.
+A Person’s Profile Page
+Sending emails from a Person's Profile Page allows you to use the information in the profile to edit and personalize your email. You can quickly craft a message using a template or snippet and then personalize the email.
+
+To send an email from a Person Profile page, follow the instructions below:
+Go to the Person Profile page either from the search bar in the top navigation or from the People tab.
+There are a few options for composing an email within the Person Profile page:
+Person Quick Actions: Located directly under the Person’s name, select the email icon.
+Click the Email Address: From the Person Details and Contact Info panel , select the Person’s email address for the email window to appear.
+The Emails Activity Tab: From your Person Activities Panel located in the center of the Person Profile page, you will find an Email tab devoted specifically to emails sent to that individual. Access that tab and click + Compose Email in the upper right corner of the panel. 
+Autosave from One-Off Emails
+When you create a one-off email from the People Page , Person Quick Actions, or the Cadence People Tab your message will auto-save. This means if you close the email compose window for any reason, the message content is still saved on the Person's record. 
+
+Things to Note: 
+Only one message may be saved per Person.
+Autosaved messages will save content every three seconds while a message is being drafted. 
+If you copy and paste text into the Salesloft email window, the change will not be saved until you click the space bar or some other key in the email window after the paste action.
+To create an autosaved message from the Person Profile Page, follow these steps: 
+Go to the Person Profile page either from the search bar in the top navigation or from the People tab.
+Find the Person Quick Actions panel and click Email. The email compose window will open in the bottom right corner. 
+Compose your message. After three seconds, you will see Saved (time) appear at the top of the compose window. When the message saves, a Saved icon will appear next to the Email Quick Action. 
+Exit out of the window by clicking the X in the upper right corner to Save and Close. A notification will appear informing you that the message was saved. 
+ 
+
+To recover an autosaved message, follow these steps: 
+1. From the Person Profile page, go to the Person Quick Actions panel.
+2. Click the Saved button to the right of the Email Quick Action. 
+3. A notification will pop up, informing you that the email message has been recovered. The email window will open in the bottom right corner. 
+4. Complete your email and click Send. 
+
+If you do not wish to save your email, click the trashcan icon in the bottom right corner of the email compose window to delete your message and close the window. 
+ 
+Email Send Options
+Once your email is drafted and proofed, it’s time to send the message to your recipient. For one-off email sends you have two sending options:
+Send: No surprises right here, hitting send will deliver the email to your recipient with a simple push of a button.
+Schedule Sends: While you may be prepared to send an email at this very moment, there may be an ideal time for your prospect to receive the email. In fact, sending an email at the opportune time can increase reply rates. Luckily, Salesloft allows you to schedule your email sends. You have complete control and can schedule a whole batch, or individual emails to go out. Simply click on the calendar icon next to the send button and you can set the time.
+The schedule option also allows you to specify the timezone. Timezone is determined by the Person's contact info. When you schedule an email, you can use the default timezone or select a timezone from the dropdown menu.
+
+Things to Note: The timestamp on the activity feed for the scheduled email (on the Person Page) shows the time at which you clicked Schedule. The timestamp on the emails page shows the time the email is scheduled to be sent.
+
+ 
+Last Modified By
+Briana Morgan, 7/25/2023 5:28 PM
+Title
+Send Emails from Salesloft
+URL Name
+Send-Emails-from-Salesloft
+Email
+Salesloft Knowledge
+Sending Emails
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

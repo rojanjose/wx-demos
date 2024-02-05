@@ -1,0 +1,84 @@
+CONVERSATIONS
+Conversations Webex Integration Admin Guide
+
+Oct 13, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft's Conversations Webex Integration connects to Webex via API to provide a secure and stable recording experience. 
+
+Before your team can reap the reward from a connection between Salesloft and Webex, a team admin must set up the connection. 
+
+In this article, you will learn how to set up your team's Webex integration with Salesloft. We will walk through the following steps: 
+Confirm Cisco Webex Common Identity
+Enable Conversation Intelligence for Your Users
+Set Automatic Webex Recording (Optional)
+Prepare Your Team to Use the Conversations Webex Integration
+Confirm Cisco Webex Common Identity
+Your team must have a Cisco Webex Common Identity-backed account in order for this API to work. 
+
+Webex uses Common Identity as a type of account that enables teams to connect to the Webex API. If they don’t have this type of account, this API integration won’t connect at all.
+
+To make sure you have a Common Identity account, reach out to your Webex CSM of contact Webex Support and ask,  “What type of Webex account does my team have?”
+
+For more on the Common Identity, check out the Accounts and Authentication explanation in Webex's documentation.
+Enable Conversation Intelligence for Your Users
+Before users connect (or reconnect) their Salesloft accounts to their Webex accounts, a Salesloft admin must complete the following:
+Set up Conversation Intelligence under team settings in Salesloft.
+Things to Note: The Bot Behavior - Default Join Time setting is not relevant to set up for this integration.
+Enable Conversation Intelligence for users on the Users table in team settings.
+
+ 
+Beyond the admin setup, each user will still need to connect their calendar(s) to Salesloft accounts and set up Conversation Intelligence under their Personal Settings. Check out more in the Prepare Your Team to Use the Conversations Webex Integration  section below. 
+Set Automatic Webex Recording (Optional)
+Webex meetings must be recorded in order to be picked up by the Conversations Integration. Since that is required, you and your team will need to decide if your users will be responsible for hitting record, or if you want to set all calls to record by default. 
+
+Things to Note:
+Talk with your IT and Security teams prior to setting all meetings to default, since it may involve additional storage costs and recording governance concerns.
+When auto-record is enabled, the host of meeting cannot stop or pause the recording in live meetings.
+When setting up the meeting, the meeting type cannot be “Other teleconference service” or using another teleconferencing audio service outside of Webex’ audio.
+In Webex, admins can set meetings to auto-record for specific users.
+
+The auto-record feature will only work if the “Allow overage” is enabled and set to Unlimited Overage. The overage setting determines your recording storage. Auto-recording will only work when “Unlimited overage” is selected.  
+
+Things to Note: “Allow overage” is a contractual item and you’ll be charged extra for created overages. Your managing partner can help you with the contractual change and site settings.
+
+Once you’ve confirmed auto-recording is right for your team, you can setup automatic recording in Webex. To set up automatic recording for your team, follow these steps:
+Go to the Cisco Webex Control Hub .  
+In the left panel, under Management, select Users.
+Select the user to enable. A pop-up menu will appear.
+In the pop-up menu, select Meeting.
+Under Webex Meeting Sites, select the appropriate meeting site/URL.
+Click on the hyperlink menu item for Advanced User Settings and Tracking Codes.
+On the Advanced User Settings page, check the box for Automatically record all meetings under the User Settings.
+Click the Update button on the bottom right of the screen.
+ 
+Prepare Your Team to Use the Conversations Webex Integration
+Now that the admin setup is complete, it’s time to get your team onboard. For all user-related instructions, from setup to how to use the Webex Integration, check out the Conversations Webex Integration User Guide.
+
+If you want a simplified version of the user guide to share with your team, here’s a couple of quick templates that you can send to your users. 
+
+Conversations Webex Integration User Setup:
+(If you have previously used the Webex integration with Salesloft) Each user must disconnect and reconnect their email with their Salesloft account. Then, follow the same disconnect and reconnect steps with their Salesloft calendar connection.
+Each Salesloft Conversations user must oauth (i.e. authorize permissions) the Webex API connection from their Salesloft account
+How to Use the Conversations Webex Integration:
+Send out meetings with your Webex meeting link in the location or description field. 
+At the beginning of your day, check that your meetings are in the Conversations Scheduled tab. This will confirm that they will be brought into Salesloft.
+Double check that your meeting is recording! 
+Last Modified By
+Raequel Sank, 10/13/2021 12:33 PM
+Title
+Conversations Webex Integration Admin Guide
+URL Name
+Conversations-Webex-Integration-Admin-Guide
+Conversations
+Salesloft Knowledge
+Conversations Integrations
+Conversations Webex Integration
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

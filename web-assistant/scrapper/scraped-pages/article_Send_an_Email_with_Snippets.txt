@@ -1,0 +1,33 @@
+EMAIL
+Send an Email with Snippets
+
+Apr 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Snippets can be added to any email you send using Salesloft. You can compose a new email and include a quick snippet that contains a case study, or add a snippet containing information to a previously created template.  
+
+To insert a snippet into your emails, follow these steps:
+Open an email window to send an Email.
+In the lower right corner of the email window, select the + Insert button.
+At the top of the Insert window, select the Snippets tab.
+Choose My Snippets, Team Snippets, or you can search for a specific snippet.  
+Select the snippet.
+Hit Insert. The snippet will populate in the email where your cursor is located.
+Send your email. 
+Last Modified By
+Stephanie Griffith, 4/10/2023 8:30 PM
+Title
+Send an Email with Snippets
+URL Name
+Send-an-Email-with-Snippets
+Sending Emails
+Email
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

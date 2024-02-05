@@ -1,0 +1,404 @@
+ADMIN GUIDES
+Provision an International Number
+
+Sep 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Countries around the world are tightening up on Global Telecommunication Regulations. Sure, you may think to call someone internationally is as simple as clicking a button. But in our post-GDPR and CCPA world, each phone number you provision or use must follow a set of constantly evolving rules and regulations that vary from country to country. 
+
+Fortunately, Salesloft’s Dialer follows these regulations diligently. So numbers that have already been provisioned are good to go. Keep on dialing! 
+
+But if you’re provisioning a new international number, how can you be sure that it fits the bill?
+
+Regulation standards are kept through a phone number approval process. This process involves providing various levels of documentation to carriers or local enforcement agencies based on country regulations.
+
+In order to make this process as fast as possible (and get you dialing quickly), we need your help in gathering and providing the necessary identity documentation.
+
+When we receive your documentation, we’ll submit it all to our provider for review. Once approved, we can provide your team with the desired numbers.
+
+In this article, you will learn how the standard number provisioning process works and specific guidelines for the top 10 most popular countries to provision Salesloft numbers, including: 
+
+How to Provision an International Number
+United Kingdom
+Germany
+Australia
+Ireland
+France
+Spain
+Brazil
+Singapore
+Netherlands
+Sweden
+
+Don't see the country you're interested in provisioning a number from? Check out the Phone Number Regulatory Requirements documentation for more info. 
+
+How to Provision an International Number
+
+In order to make the process of provisioning an international number as fast as possible (and get you dialing quickly), we need your help in gathering and providing the necessary identity documentation. 
+
+Things to Note: On average, it takes 5 business days to provision international numbers. However, there are some numbers that might take longer due to additional local government restraints.
+
+Follow these steps to provision an international number: 
+
+Find the country you would like to provision a number from below or in the Phone Number Regulatory Requirements documentation.
+Things to Note: In rare instances, numbers in that area may not be available. If this occurs, we are put on a waiting list until the country's local government provides them with a number
+Gather the necessary information. For example, if you are applying for a German number, you will need to provide business information for proof of identity and proof of a local address.
+Contact Salesloft's support team with your number request. Provide the necessary documentation that specifies the city and country number you are seeking.
+Our Support team will take care of the number provisioning process with our third-party Dialer provider.
+Once your number has been provisioned, we will contact you.
+United Kingdom
+Country name	United Kingdom
+ISO code	GB
+Region	Europe
+Major carriers	T-Mobile, O2, Vodafone, 3, EE
+United Kingdom: Local Number Requirements for Businesses: 
+Information Required	Documentation Required	Acceptable Documentation
+ Business Address (may be anywhere in the world)	
+
+No documentation required
+
+	 
+
+ 
+
+Germany
+Country name	Germany
+ISO code	DE
+Region	Europe
+Major carriers	E-Plus, O2, Sipgate Wireless, Vodafone, Telekom
+Germany: Local Number Requirements for Businesses: 
+Information Required	Documentation Required	Acceptable Documentation
+ Business Name	Proof of Identity	Excerpt from the commercial register (Handelsregisterauszug) 
+
+
+ Business Address
+
+Must be within locality or region covered by the phone number's prefix; a PO Box is not acceptable where a local address is required.
+
+	
+
+Proof of Local Address 
+
+	
+Excerpt from the commercial register (Handelsregisterauszug) showing local address
+Trade license (Gewerbeanmeldung) showing local address
+
+ 
+
+Australia
+Country name	Australia
+ISO code	AU
+Region	Oceania
+Major carriers	Telstra, Optus, Vodafone
+Australia: Local Number Requirements for Businesses: 
+Information Required	Documentation Required	Acceptable Documentation
+
+
+Business Name 
+
+	No documentation required	 
+
+
+Business Address
+
+Must be within Australia; a PO Box is not acceptable where a local address is required.
+
+	
+
+No documentation required
+
+	 
+
+ 
+
+Ireland
+Country name	Ireland
+ISO code	IE
+Region	Europe
+Major carriers	Three, Vodafone, Eir
+Ireland: Local Number Requirements for Businesses: 
+Information Required	Documentation Required	Acceptable Documentation
+Business Name	
+
+No documentation required 
+
+	 
+
+
+Business Address
+
+Must be within locality or region covered by the phone number's prefix; a PO Box is not acceptable where a local address is required.
+
+	
+
+No documentation required
+
+	 
+
+ 
+
+France
+Country name	France
+ISO code	FR
+Region	Europe
+Major carriers	Orange, Bouygues Telecom, SFR, Free Mobile
+France: Local Number Requirements for Businesses: 
+Information Required	Documentation Required	Acceptable Documentation
+Business Name	
+
+Proof of Identity 
+
+	 Excerpt from the commercial register (Extrait K-bis) showing name of Authorized Representative
+
+
+Business Address
+
+Must be within locality or region covered by the phone number's prefix; a PO Box is not acceptable where a local address is required.
+
+	
+
+Proof of Local Address
+
+	
+Excerpt from the commercial register showing local address
+Utility bill
+Tax notice
+Rent receipt
+Title deed
+
+
+
+Business Registration Number
+
+	
+
+Proof of Business Registration Number 
+
+	Excerpt from the commercial register (Extrait K-bis)
+
+
+Name of Authorized Representative
+
+	
+
+Proof of Identity*
+
+	
+Government-issued ID
+Passport
+Residence permit
+
+* If you cannot secure the proof of identity of the authorized representative shown on the K-bis, the company can execute a Power of Attorney signed by the authorized representative shown on the K-bis. If a Power of Attorney is used, you will need to submit a copy of the executed Power of Attorney and proof of identity of the person authorized to act on behalf company in the Power of Attorney. 
+
+Spain
+Country name	Spain
+ISO code	ES
+Region	Europe
+Major carriers	Movistar, Vodafone, Orange, MasMovil.
+Spain: Local Number Requirements for Businesses: 
+Information Required	Documentation Required	Acceptable Documentation
+Business Name	
+
+Proof of Identity
+
+	 Business registration
+
+
+Fiscal Identification Number
+
+	
+
+No documentation required
+
+	 
+
+
+Business Address
+
+Must be within locality or region covered by the phone number's prefix; a PO Box is not acceptable where a local address is required.
+
+	
+
+No documentation required
+
+	 
+
+ 
+
+Brazil
+Country name	Brazil
+ISO code	BR
+Region	South America
+Major carriers	Oi, NEXTEL, CTBC, TIM, Vivo, Claro
+Brazil: Local Number Requirements for Businesses:  
+Information Required	Documentation Required	Acceptable Documentation
+Business Name	
+
+Proof of Identity
+
+	Excerpt from the commercial register 
+
+
+Business Address
+
+Must be within Brazil
+
+	
+
+Proof of Brazilian Address
+
+	
+Excerpt from the commercial register showing Brazilian address
+Utility bill
+Tax notice
+Rent receipt
+Title deed
+
+ 
+
+Singapore
+Country name	Singapore
+ISO code	SG
+Region	Asia
+Major carriers	SingTel, StarHub, M1, TPG Telecom, Circles
+Singapore: Local Number Requirements for Businesses: 
+
+ 
+
+Information Required	Documentation Required	Acceptable Documentation
+
+
+Business Name
+
+	
+
+Proof of Identity
+
+	Business registration
+
+
+Business Registration Number
+
+	
+
+Proof of Business Registration Number
+
+	Business registration
+
+
+Billing Address
+
+May be anywhere in the world
+
+	
+
+No documentation required
+
+	 
+
+
+Service Address
+
+If different
+
+	
+
+No documentation required
+
+	 
+
+
+Email Address
+
+	
+
+No documentation required
+
+	 
+
+ 
+
+Netherlands
+Country name	Netherlands
+ISO code	NL
+Region	Europe
+Major carriers	T-Mobile, Vodafone, KPN, Tele2
+Netherlands: Local Number Requirements for Businesses: 
+Information Required	Documentation Required	Acceptable Documentation
+Business Name	
+
+Proof of Identity
+
+	Excerpt from the commercial register (KvK) 
+
+
+Business Address
+
+Must be within locality or region covered by the phone number's prefix; a PO Box is not acceptable where a local address is required.
+
+	
+
+Proof of Local Address
+
+	 Excerpt from the commercial register (KvK) showing a local address
+
+
+Netherlands VAT number
+
+	
+
+No documentation required
+
+	 
+
+ 
+
+Sweden
+Country name	Sweden
+ISO code	SE
+Region	Europe
+Major carriers	Tele2, Lycamobile, Gotalandsnatet, Mundio Mobile, Telia
+Sweden: Local Number Requirements for Businesses:  
+
+ 
+
+Information Required	Documentation Required	Acceptable Documentation
+Business Name	
+
+No documentation required
+
+	 
+
+
+Business Address
+
+Must be within Sweden
+
+	
+
+Proof of Swedish Address
+
+	
+Business registration showing Swedish address
+Utility bill
+Tax notice
+Rent receipt
+Title deed
+Last Modified By
+Raequel Sank, 9/10/2023 9:39 PM
+Title
+Provision an International Number
+URL Name
+Provision-an-International-Number
+Salesloft Knowledge
+Admin Guides
+Dialer Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

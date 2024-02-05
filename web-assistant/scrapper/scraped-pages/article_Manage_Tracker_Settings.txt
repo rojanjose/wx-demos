@@ -1,0 +1,89 @@
+ADMIN GUIDES
+Manage Tracker Settings
+
+Sep 15, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Tracker Settings page is where you can create, edit, and manage Tracker Groups. 
+
+Trackers are keyword identifiers that you can use to scan Conversations transcriptions. As an admin, you can create Tracker Groups to define the parameters that Trackers use to identify keywords and phrases in your transcriptions.
+
+To access the Tracker Settings, go to your Communication settings, select Conversations, then select the Tracker Settings tab.
+
+Things to Note:
+
+Trackers only apply to meetings captured after the Tracker Group was added. Tracker Groups will not appear in the Tracker Panel for meetings captured prior to the group being added. 
+
+
+In this article, you will learn about Conversations Tracker settings, including:
+
+Create A Tracker Group
+Set Parameters For A Tracker Group
+Disable A Tracker Group
+Create A Tracker Group
+
+To create a new Tracker Group, follow these steps:
+
+Navigate to the Tracker Settings tab.
+Click Add Tracker Group.
+Enter the name of your tracker group in the text box.
+Click Add.
+
+ 
+
+Set Parameters For A Tracker Group
+
+Once a tracker group has been created, you will need to set parameters around which words a Tracker Group will detect and which users will be detected using them.
+
+Things to Note: 
+
+Trackers and Tracker Groups can be created in Dutch, English, French, German, Italian, Spanish
+You can add as many tracker groups as you may anticipate needing upon enabling Conversations.
+
+To set parameters for a tracker group, follow these steps:
+
+Navigate to the Tracker Settings tab.
+Scroll to find your Tracker group. You can also search the list by tracker group name.
+Click the tracker group name. The Edit Tracker Group window will appear.
+From the edit window, complete the following fields:
+Edit Tracker Group Name: Change the name of your Tracker Group.
+Search Phrases When Said By: Allow Tracker Groups to identify Trackers used by anyone, people in your organization, or people outside your organization.
+Tracker Terms: Words or phrases that fit within a Tracker Group. These are the words and phrases that a Tracker Group will scan a transcription to find. Click the enter key to add the term to the Tracker group. To delete a word or phrase, hover your mouse over the term and click the X.
+Things to Note: When adding Tracker Terms, we recommend using actual words. Using filler words such as, "um" or "uh", may lead to inconsistencies due to not being picked up by the transcription provider. 
+Once all of your words are added, click Save. 
+
+Disable A Tracker Group
+
+If a Tracker Group is no longer applicable, you may disable it from your team’s use. 
+
+To disable, or turn off, a Tracker Group, follow these steps:
+
+Navigate to the Tracker Settings tab.
+Find your tracker group name in the list or search for your tracker group name.
+To the right of the group name, click the toggle button from on to off.
+To re-enable the tracker group, select the blue Enable button.
+
+ 
+
+ 
+
+
+ 
+Last Modified By
+Raequel Sank, 9/15/2023 8:24 PM
+Title
+Manage Tracker Settings
+URL Name
+Manage-Tracker-Settings
+Salesloft Knowledge
+Admin Guides
+Communication Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

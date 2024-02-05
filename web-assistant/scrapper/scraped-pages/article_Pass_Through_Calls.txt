@@ -1,0 +1,67 @@
+DIALER + MESSENGER
+Pass Through Calls
+
+Feb 2, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Call Pass Through initiates your calls in the Salesloft platform, and takes the actual call from a second phone line. You can use a landline, like your office phone, or a cell phone. 
+
+Salesloft's call Pass Through is an alternative option to using the in-app Dialer. Pass Through's primary function is to solve call connectivity issues caused by a weak internet connection. As great as it is to have a Dialer within your browser, sometimes you may prefer the mobility of a cell phone or the familiarity of your desk phone. Pass Through callings allows you to make calls beyond your computer. 
+
+In this article, you will learn about Salesloft's Pass Through calling function, including: 
+Before You Set Up Call Pass Through
+Add a Pass Through Number
+Make a Call Using Pass Through 
+Before You Set Up Pass Through
+There are some important things to be aware of prior to setting up a Pass Through line:
+ 
+Additional charges may apply. Due to the nature of the call with a call being made to your preferred phone and then to the person you are calling, Twilio recognizes two calls taking place and your call rate will be doubled.
+We recommend you use pass through as a last resort. For example, if you have a weak internet connection that is not able to connect to a call, the Pass Through option will allow you to continue using the Dialer.  
+Numbers with extensions are currently not supported.
+Add a Pass Through Number
+You can set up Pass Through Calls by adding a Pass Through number in your personal settings. When you add a Pass Through number, the calls you make using the Salesloft Dialer will be directed to your Pass Through number.  
+
+To set up a Pass Through number, follow these steps:
+
+1. Navigate to your Settings.
+
+2. Select Calls from the Personal Settings menu.
+
+3. Enter the number of the phone you prefer to make calls from in the Pass Through Number box.
+Things to Note: Use the proper number formatting when adding your Pass Through number. 
+
+4. Hit Save.  
+Make a Call Using Pass Through
+Once you've added a number to enable Pass Through dialing, you can begin using it immediately while running call steps or making one-off calls.
+
+To make a call using a Pass Through line, follow these steps: 
+
+1. Open the Dialer. If you have enabled pass through dialing, it'll always be turned on by default. You can toggle pass through dialing on and off by clicking the Pass Through icon on the dial pad.
+
+2. Enter a phone number and hit Call. The Pass Through number you entered in your phone settings will ring and you'll see an alert at the top of your screen in Salesloft.
+
+3. Answer your pass through phone and press 1 on the receiving phone's dial pad. Salesloft will then complete the call by dialing your prospect.
+
+4. Complete your call as normal.
+ 
+ 
+ 
+Unable to make a passthrough call Vidyard
+ 
+Last Modified By
+Raequel Sank, 2/2/2023 3:14 PM
+Title
+Pass Through Calls
+URL Name
+Pass-Through-Calls
+Salesloft Knowledge
+Dialer + Messenger
+Phone Calls With The Dialer
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

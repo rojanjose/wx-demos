@@ -1,0 +1,77 @@
+DEALS
+Manage Deal Engagement Score
+
+Oct 11, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+As a sales manager, you have multiple closers that report to you, each with their own book of business. This means that your collective book of business could be dozens, even hundreds, of open opportunities.
+
+Since just a handful of deals can make or break each rep’s quarter AND your company’s quarter, you need to prioritize which deals you should direct your focus. 
+
+The Deal Engagement Score helps you to prioritize, sort, and organize your team’s entire book of business. The score is visible throughout Deals. You can quickly assess which deals are "in the green" and which require more attention. 
+
+Things to Note: This feature will slowly roll out to customers starting June 16, 2021.
+
+There will be a few admin settings specific to the Deal Engagement Score. They can be accessed by going to the Admin settings within Deals. Then, select the Opportunities and go to the Screen Settings tab.
+
+In this article, you will learn how to set up and manage the Deal Engagement Score for your team, including: 
+
+Enable the Deal Engagement Score
+Select Record Types and Opportunity Types
+
+Have questions about the Deal Engagement Score? Check out the Deals FAQ + Troubleshooting for answers to common questions. 
+
+Enable the Deal Engagement Score
+
+Before you can see the Deal Engagement Score, you must turn the feature on for your team. 
+
+To do this, you will enable the Engagement Score in your Deals Admin settings. Follow these steps to enable the Deal Engagement Score: 
+
+From the Admin settings in Deals, go to the Screen Settings tab.
+On the left side, select the Opportunities. 
+Click Enable Engagement Score.
+
+ 
+
+Select Record Types and Opportunity Types
+
+Once the engagement score is enabled, you will see a table for the Record Types and Opportunity Types the score will calculate. These types define the criteria that is included in the Deal Engagement Score. 
+
+Things to Note: The Deal Engagement Score is specifically built for New Business Deals. For more information, check out the Deals FAQ and Troubleshooting section of the Knowledge Base.
+
+Record and Opportunity types in Salesforce let you offer different business processes, picklist values, and page layouts to different users. You might create record types to differentiate your regular sales deals from your professional services engagements and offer different picklist values for each. 
+
+If you are unsure of what Record and Opportunity types represent your new business opportunities, contact your team's Salesforce admin (or anyone in your organization who has familiarity with your Salesforce setup).
+
+When you initially setup the Deal Engagement score, you will need to select the the record types and opportunity types that will apply to your deals. They will be presented in a modal that will specify the Record Types and Opportunities that reflect new business. This will be specific to the your Salesforce setup. 
+
+To set up the criteria, follow these step: 
+
+Below the Record Type and Opportunity Type table, click Edit Criteria.
+Add a single record type or multiple record types by clicking the Add Record Type.
+Once the criteria is finalized, a user will click Enable.
+
+After the Admin settings are finalized, there will be gap of time until scores show up while Salesloft computes the scores.
+
+Things to Note: The wait time should not have exceed more than 1 hour. The same wait time will apply  when you update or edit criteria at a later time. 
+
+Once scores are computed, they will appear in the Pipeline and Deals Views. 
+
+Last Modified By
+Stephanie Griffith, 10/11/2023 12:51 PM
+Title
+Manage Deal Engagement Score
+URL Name
+Manage-Deal-Engagement-Score
+Deals
+Salesloft Knowledge
+Deals Admins
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

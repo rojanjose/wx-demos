@@ -1,0 +1,127 @@
+DIALER + MESSENGER
+Log a Call
+
+Jan 18, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Hanging up your phone call is actually the second to last step of your sales call. Your sales activities, including phone calls, need to be logged. Logging a call records notes taken during the call, and creates a record of the call itself in Salesloft (and your CRM). These logs allow you to reference notes during follow-up calls and pull metrics and reports.
+ 
+
+To log a call, you will select the Log Call tab inside the Dialer. The log tab is where you can add notes and set the disposition and sentiment of a call. 
+ 
+
+When you are running a call step or placing a one-off call, the Dialer Log box will appear, allowing you to take notes on the call and save your call activity.
+ 
+
+Things to Note: Calls may only be logged to leads or contacts that have been imported to Salesloft. Once they are imported, they are referred to as a Salesloft Person. Their Person record will hold all of their logged information. Learn more in our Import into Salesloft article. 
+ 
+
+In this article, you will learn how to log calls using the Salesloft Dialer, including:
+Where to Log a Call
+Dispositions and Sentiment Logs
+The Log Button
+Log and Complete
+Complete Only
+Log Only
+The Success Button
+Why does the “Log & Complete" button change to "Log" when I call from a Cadence step?
+Where to Log a Call
+
+You will log calls inside the Log tab. The Log tab may be visible inside the Dialer or as a pop-up outside of the Dialer based on your Dialer Settings. 
+
+If your Dialer is set to Use Popped out Call Logger, the Log window will not appear until your call has started. The Log window will be titled with the name of the Person you are calling. If you are calling a number that is not associated with a Salesloft person, the top bar will be blank. While you are actively on a call, a Live icon will appear in the top bar of the popped-out log as well. 
+ 
+
+ 
+
+The Log tab is where you will take call notes and set any log information that applies to your call. Let's walk through each feature within the Log tab:
+
+Call Instructions (Cadence Steps Only)
+Call Notes: This is a box to take any notes during or about your call.
+Disposition : (May need to scroll) Here you can record the result of making the phone call, e.g. "connected" or "no answer."
+Sentiment: (May need to scroll) If you're able to connect with a prospect, sentiment allows you to record the outcome of the conversation, e.g. "company-bad fit" or "demo scheduled."
+Alternative Fields: These are call activity fields your team admin has added to the Call Log Box. You may edit the fields so the information is logged into Salesloft (and Salesforce) for additional data reporting. 
+Call Sessions
+Log Options: Logging options will vary if you are logging a one-off call versus a call within a cadence.It's important to remember to log your calls before moving on to further steps in order to save your notes.
+ 
+Disposition and Sentiment Logs
+The Dispositions and Sentiments allow you to log and keep track of the quality of your calls. 
+
+From the log tab, you select Dispositions and Sentiments from their respective dropdown menus. 
+
+The top of the dropdown shows your three most frequently used Dispositions and Sentiments. After a selection is made at least five times, it will appear as an option under Frequently Used at the top of the list.
+
+Things to Note: A maximum of three options will appear in Frequently Used.
+
+The rest of your Dispositions and Sentiments will appear alphabetically below the Frequently Used options. 
+Automatically Suggested Disposition
+Based on certain call actions, Salesloft will offer a disposition suggestion. 
+
+One of the following dispositions will be suggested if a call ends with the applicable result:
+No Answer: The call is not picked up on the recipient's end. 
+Busy: The call receives a Busy signal.
+Left Voicemail: The user uses our voicemail drop capability to leave a voicemail.
+The suggestion will appear once the call is hung up. You can change the disposition if another option is better suited for the log. 
+
+Things to Note: These dispositions will only be suggested when your team uses Salesloft's default dispositions. Custom or edited dispositions will not be suggested. 
+The Log Button
+The Log button will save your notes, disposition, and sentiment. This information will be saved on your call step and on your contact's individual page in Salesloft. Integrating with your CRM? This information will also automatically sync over as a completed task in task details!
+
+The Log button can be found when you are logging one-off calls or Tasks.
+Log and Complete
+The Log and Complete button will save your notes, disposition, and sentiment, just like the Log button from a one-off call. The Log and Complete button, unlike the Log button, is used when you are running a Phone step in a Cadence. 
+
+The Log and Complete feature will log the Call info and complete the cadence step. This will open the next step in the cadence so you can run that step. 
+
+You can find the Log and Complete button when you run a Phone step in a Cadence.
+Complete Only
+Use Complete Only if the call was not actually made but you want to move to the next step in your cadence. For example, let’s say you have someone on a cadence call step, but you receive an email from them earlier that day. You no longer need to call them since you made the connection earlier in the day, but still want them on your cadence. Since there is not a call to log, you can mark the call as Complete Only.
+
+You can find the Complete Only button when you run a Phone step in a Cadence. When calling from a cadence Phone Step, select the down arrow next to Log and Complete. Then, from the drop down menu, choose the Complete Only option. 
+ 
+Log Only
+Use Log Only when you make a call but want to keep the person on that cadence step.
+
+If you call someone, but get stopped by a gatekeeper or they ask you to call back later, you want to log that a call took place for your records, but you don’t want to complete them to the next step in your cadence until you’ve had a conversation with the person.
+
+You can find the Log Only button when you run a Phone step in a Cadence. Select the arrow to the right of Log and Complete. Then, from the drop-down menu, choose the Log Only option. 
+
+ 
+The Success Button
+The Success button will log if that step helped you achieve your desired outcome.  For example, is the goal of your cadence to book a demo?  If this goal was reached during the call, you can go ahead and hit the Success button, which will help populate your analytics.
+
+The Success button is available in each variation of the Log tab – whether you run a Phone step in a Cadence, one-off calls, Tasks, and the Dialer anywhere in Chrome ​​​​​. 
+
+ 
+ 
+Why does the “Log & Complete" button change to "Log" when I call from a Cadence step?
+Clicking the Call button on the Quick Actions panel turns a phone step that is being run into a one-off Call and changes the Log & Complete button to a Log button.
+
+To return to the Cadence step, click on the Cadence panel. The Log button should revert to Log & Complete.
+ 
+
+ 
+
+
+
+
+
+ 
+Last Modified By
+Briana Morgan, 1/18/2023 4:03 PM
+Title
+Log a Call
+URL Name
+Log-a-Call
+Salesloft Knowledge
+Dialer + Messenger
+Phone Calls With The Dialer
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

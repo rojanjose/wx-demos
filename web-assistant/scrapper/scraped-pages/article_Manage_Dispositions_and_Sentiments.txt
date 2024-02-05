@@ -1,0 +1,136 @@
+ADMIN GUIDES
+Manage Dispositions and Sentiments
+
+Oct 27, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+There are two important things you want to know when a call is logged: (1) what happened during the call and (2) the outcome of the conversation. Salesloft uses the Disposition and Sentiment fields to specify that exact information.
+
+Most of your team-wide Disposition and Sentiment management will take place in the Dispositions & Sentiments tab located under the Communications section of your Admin Settings. 
+
+In this article, you will learn how to set and manage your team's call Disposition and Sentiments, including
+
+Permission Settings for Disposition and Sentiments
+Require Dispositions and Sentiments to be Logged
+Standard Dispositions and Sentiments
+Add a New Disposition or Sentiment
+Delete a Disposition or Sentiment
+SLU: Team Communication: Dispositions and Sentiments Settings (Video)
+
+ 
+
+Permission Settings for Disposition and Sentiments
+
+All teams start with the standard Dispositions and Sentiments. Roles with the Dispositions & Sentiments permission can edit or create Dispositions and Sentiments. 
+
+The Salesloft admin role has the Disposition and Sentiments permission enabled by default. 
+
+Require Dispositions and Sentiments to Be Logged
+
+Dispositions and Sentiments are not required for users by default, which means they can be skipped (or easily forgotten). But failing to log these fields prevents you from gathering insights into your team’s call behavior, which can negatively impact call performances.
+
+So, admins can make Dispositions, Sentiments, or both required on a call step or one-off call. Once call Dispositions and/or Sentiments are required, we will indicate for your users to set the field during call step or one-off call.
+
+Things to Note: When running a call step within a cadence, Dispositions and Sentiments are only required when someone is logging a call or "logging & completing. The "complete only" button will not require these fields since it does not log a call.
+
+To require your users to log Dispositions and/or Sentiments on a call, follow these steps:
+
+From your Team Settings, go to the Dispositions & Sentiments tab.
+Choose the tab for Dispositions or Sentiments.
+Click the checkbox to require the field be logged. 
+
+ 
+
+ 
+Standard Dispositions and Sentiments
+
+Salesloft provides standard Dispositions and Sentiments when you start with your Salesloft account. These Dispositions and Sentiments are based on the most common outcomes that occur during sales calls.
+
+The standard Dispositions and Sentiments contribute to Salesloft's call analytics. The call analytics help to see whether or not your team is having positive conversations based off of certain Sentiments.
+
+Things to Note:
+
+If you delete a standard Disposition or Sentiment from Salesloft, and add a Disposition or Sentiment with the same name at a later time, the analytics will populate moving forward for Connected Count, Left Voicemail Count, and Positive Conversation Count.
+Dispositions and Sentiments are case sensitive. If you delete a standard Disposition or Sentiment and replace it with a custom one with the same name, you must ensure the first letter is uppercase and that it is spelled correctly.
+
+
+The standard Dispositions include: 
+
+Busy
+Connected 
+Left Voicemail
+No Answer
+Not in Service
+Rejected
+Wrong Number
+
+Things to Note: The standard disposition for Connected directly contributes to the Connected Calls metric inside Salesloft Analytics. Removing this disposition prevent that metric from populating. 
+
+The standard Sentiments include: 
+
+Company - Bad Fit
+Contact - Bad Fit
+Customer
+Demo Scheduled
+Existing Opp
+Gatekeeper - No Contact with Prospect
+Interested 
+Meeting Scheduled
+No Interest
+Reassigned to Partner
+Referred to Another Contact
+Rescheduling
+Timeline 6-12 Months 
+
+Things to Note: The standard sentiments Demo Scheduled, Interested, and Timeline 6-12 months directly contribute to the Positive Calls metric inside Salesloft Analytics. Removing this disposition prevent that metric from populating. 
+
+Add a Disposition or Sentiment
+
+Your Dispositions and Sentiments need to fit your business process. So, Salesloft provides the ability to delete and create custom Disposition(s) and Sentiment(s).
+
+To add a new Disposition or Sentiment, follow these steps:
+
+From your Team Settings, go to the Dispositions and Sentiments tab.
+Select Dispositions or Sentiments at the top of the page.
+Click the + Add button at the top of the list of dispositions or sentiments.
+Type the name of your new disposition or sentiment.
+Hit Save.
+
+ 
+
+ 
+Delete a Disposition or Sentiment
+
+To delete a Disposition or Sentiment:
+
+From your Team Settings, go to the Dispositions and Sentiments tab.
+Select Dispositions or Sentiments at the top of the page.
+Find the label you would like to remove. Hit the red Delete button to the right of the name.
+A warning message will pop up to be sure you want to delete the item. Select Delete.
+
+As a safety feature, you cannot delete the last remaining Disposition or Sentiment on either page, and the delete button will disappear when only one remains.
+
+ 
+
+SLU: Team Communication: Dispositions and Sentiments Settings (Video)
+
+Want to know about team Dispositions and Sentiments Settings, but prefer a video format? Visit Salesloft University to see the Team Communication: Dispositions & Sentiments Settings video tutorial. 
+
+Last Modified By
+Stephanie Griffith, 10/27/2023 12:23 PM
+Title
+Manage Dispositions and Sentiments
+URL Name
+Manage-Dispositions-and-Sentiments
+Salesloft Knowledge
+Admin Guides
+Dialer Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

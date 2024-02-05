@@ -1,0 +1,77 @@
+CONVERSATIONS
+Conversations Playlists Tab
+
+Jan 9, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Conversations playlists allow you to create and view collections of recordings. Similar to cataloging books in an actual playlist by genre or creating your own music playlist (for a more relevant reference), you can store recordings in playlists dedicated to the type of call, a rep's strong calls versus poor calls, or whatever naming convention you choose. 
+
+To access your playlist, select the Playlists tab on the Conversations toolbar. When you open the Playlists tab, all recordings are visible until you select a specific playlist.
+
+Things to Note: Your entire team's playlists will be visible. 
+
+In this article, you will learn about the Playlists tab and its actions, including: 
+View Your Playlist
+Create a Playlist
+Edit a Playlist Name
+Delete a Playlist
+View Your Playlist
+Let's break down the Playlists tab:
+Playlist Side Panel: The left panel contains your team's playlists.
+Create a New Playlist: Create a new playlist by selecting the plus symbol in the upper right corner of the Playlists panel. 
+Recordings: Once you select a playlist, the recordings specific to that playlist will appear in the center of the page. In the upper left corner of the recordings list, the Showing number will let you know how many recordings are listed on the page and the total number of recordings in that playlist. Recordings include the following formats:
+Full Recording with Video: Represented by the video camera icon, includes the full video recording. 
+Clips: Represented by the scissors icon, includes previously created clips that have been added to the playlists via the Manage Playlist action. 
+Dialer Call: Represented by the phone icon, pulls in Conversations recordings from the Salesloft Dialer. 
+ 
+Create a Playlist
+Before you can collect all of your recordings in a playlist, you need to create the playlist. 
+
+Things to Note: New playlists must be created from the Playlists tab.
+
+To create a new playlist, follow these steps: 
+Go to the Playlists tab in the Conversations page. 
+Select Add New from the upper right corner of the playlist list. 
+A text box will appear. Type the name of your new playlist. 
+Click Create.  
+
+ 
+If the playlist you add has the same name as an existing playlist, you will see the following error message: 
+
+Once the playlist has been created, you can add recordings to the playlist from:
+the menu dropdown on the Recordings tab.
+the menu dropdown on the In Progress tab.
+the menu dropdown on the Meeting Details page.
+the menu dropdown on the recording from the Playlists tab.
+Things to Note: Items can be in more than one playlist.
+Edit a Playlist Name
+To edit the name of a playlist, follow these steps: 
+Go to the Playlists tab in the Conversations page. 
+From the playlists panel on the left, find the playlist you would like to edit. Click the ellipses to the right of the playlist name. A dropdown menu will appear.
+Click Edit Playlist. The Edit Playlist module will appear. 
+Edit the playlist name in the text box. 
+Click Save. The name will change and a popup message will appear that says Playlist name updated.
+Delete a Playlist
+To delete a playlist, follow these steps: 
+Go to the Playlists tab in the Conversations page. 
+Find the playlist you want to delete in your playlist list. 
+Select the ellipses icon to the right of the playlist name. 
+Click Delete. 
+A window will appear to confirm whether you want to delete the playlist or not. Click Delete.
+Last Modified By
+Raequel Sank, 1/9/2023 4:01 PM
+Title
+Conversations Playlists Tab
+URL Name
+Conversations-Playlists-Tab
+Conversations
+Salesloft Knowledge
+Conversations Pages
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

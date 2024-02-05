@@ -1,0 +1,138 @@
+PEOPLE AND ACCOUNTS
+ACCOUNTS PAGE
+Account Page Filters
+
+Dec 6, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+As your Salesloft usage increases, the number of Accounts that are visible on The Accounts Page Layout will also increase. And while it's great to have that list readily available, seeing that many Accounts could be overwhelming and difficult to sift through. 
+
+Salesloft makes it easy to refine your list of Accounts to a selective group using the filters. This way you can view the Accounts that matter most to you in the order you prefer to see them.
+
+In this article, we will explain each Account filter action that is available, including: 
+Things to Note About Account Filters
+Account Owner
+CRM Owner Filter
+Add Filter
+Account Stage
+Account Tier
+Account Tags
+Last Contacted Date
+Archived Accounts
+Custom Field Filters
+Date Added
+Time Zone
+Things to Note About Account Filters
+
+Accounts Empty State
+When you view the Accounts page prior to importing Accounts, if there is no data to be found, Salesloft will show an "empty state" message. The empty state message will prompt you to adjust your Time Range filter to bring in more results. Clicking the Learn More button will bring you to this article
+Account Page Filter Logic
+The Account page filters follow "and" logic. This means if you select multiple filters at once, any Accounts that appear contain all of the filters applied. 
+Account Owner
+The Account Owner is the Salesloft user who owns the Account. The owner defaults to the user who imported the Account unless reassigned.
+
+Things to Note: The Account Owner can be edited from the Account Details page. 
+
+Filtering by owner allows you to view which Accounts are owned by yourself and/or different users on your team. 
+
+You can filter Accounts by owner using one of the following options:
+Search Owner: Text box to type in a specific user's name to filter by. 
+All Users: Includes Accounts owned by all users in the filter. 
+Active Users: Filters Accounts by only active Salesloft users on your team. 
+Inactive Users: Filters Accounts by users whose accounts have been deactivated. 
+No Owner: Filters Accounts based on those that do not have an owner assigned to them. 
+You: Filters Accounts to show only the Accounts that you own. 
+Specific Active Users: The dropdown menu continues to show each user on your Salesloft team. Select a user's name to view their Accounts. 
+ 
+CRM Owner Filter
+The CRM Owner filter refines your list of Accounts based on the user assigned to the linked Account record in your CRM. Use this to confirm that the CRM Owner and Salesloft Owner are the aligned or, use the No CRM Owner option to spot gaps in sales coverage.
+
+Things to Note: Only users who have been linked to a CRM user in the CRM User Management will appear as filter options. 
+Add Filter
+From the Account page, you can select the filters you would like applied to your Account list. To the right of the Account Owner filter, you will see the Add Filter button. Click Add Filter to view a dropdown menu of the available filter options. You can search for a specific field filter using the textbox at the top of the menu or scroll and select from one of the standard filters including: 
+Archived
+Last Contacted
+Stage
+Tag
+Tier
+When you choose one of the filters, it will appear as a button on the filter row. Once the filter is added to the row, you can apply the filter. 
+
+To remove the filter from the row, select the X in the filter button. 
+Account Stage
+The Account Stage lets you know where this Account is in the sales process. As a user, you may edit the stage of an Account from the Account Profile page.  
+
+A team admin configures Account Stages in the Stage Settings. Any stages that are created by the admin will show up as filter options. 
+
+In the Account Stage filter, use the dropdown menu to filter by a stage. To find the stage you wish to filter by, scroll through the list or use the Search Stages text box at the top of the menu.
+
+Once a stage is selected, the Account list will populate with the filter settings. 
+Account Tier
+Account Tiers create prioritization and strategy for your Accounts. A team admin will set the tier levels in your Account Field Configuration. Once the tiers are set, they can be mapped to your CRM and/or edited from the Account Details page. 
+
+In the Account Tier filter, use the dropdown menu to filter by a tier. To find the tier you wish to filter by, scroll through the list or use the Search Tiers text box at the top of the menu.
+
+Once a tier is selected, the Account list will populate with the filter settings. 
+ 
+Account Tags
+Account tags act like Account labels or buckets of similar Accounts. Once a tag is applied, you can filter Accounts to see (and compare) which Accounts contain that tag. 
+
+Account tags can be created, removed, or edited from the Account Page actions or the Account Profile page. 
+
+From the Account Tag filter, use the dropdown menu to filter by tags. To find the tag you wish to filter by, scroll through the list or use the Search Tags text box at the top of the menu.
+Last Contacted Date
+The Last Contacted Date filter shows when a Salesloft user on your team last reached out to a Person associated with an Account. This filter keeps you informed about whether or not you are engaging with Accounts enough. 
+
+You can filter Accounts by the following Last Contacted options:
+Today
+This Week
+This Month
+More Than 7 Days Ago
+More Than 14 Days Ago
+More Than 30 Days Ago
+Never Contacted
+Custom Dates: For Custom Dates, you can choose both a Start and End date, just a Start Date, or just an End Date.
+ 
+Archived Accounts
+If you (or a team member) have previously archived any Accounts, this filter allows you to still view that data.
+
+To view archived Accounts, select the Archived filter. When the menu appears, click Include Archived. Any archived Accounts will now appear in your list.  
+Custom Field Filters
+Custom fields allow you to incorporate Account data that is specific to your business needs. Using these fields as filters lets you quickly and intuitively find the Accounts you need to focus on in the Accounts List. 
+
+Things to Note: Custom fields must be created by a team admin in your CRM Account Field Configuration. 
+
+To filter by a custom field, follow these steps: 
+From The Accounts Page, select the Add Filter button. A menu will appear with the available filters. 
+After the Standard Fields, you will see a list of all available Custom Fields. Search or scroll to find the field you would like to filter by. Select the Custom filter.
+Modify the field operator if necessary. The field operator defines the filter logic for custom string field types. When a custom field contains numerical values, users can choose the operator necessary to create the grouping they are looking to create. Use the value Is Exactly to filter custom fields that have text inputs. The available operators include: 
+Is Exactly
+Greater Than
+Less Than
+Between
+Enter the filter you want to see. 
+Hit Apply. The filter will be applied to your list view. You can see the filter above the list. Hover over the filter and click the X to clear the filter value. 
+Date Added
+The Date Added filter shows you the date that the Account record was created.
+Time Zone
+The Time Zone filter shows the Account record's time zone as listed on the Account Profile Page. 
+
+When you select the Time Zone filter, a list of available time zones will appear. Check the box beside one or multiple time zones to select and optimize your search.
+ 
+Last Modified By
+Raequel Sank, 12/6/2022 2:26 PM
+Title
+Account Page Filters
+URL Name
+Account-Page-Filters
+Salesloft Knowledge
+People And Accounts
+Accounts
+Accounts Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

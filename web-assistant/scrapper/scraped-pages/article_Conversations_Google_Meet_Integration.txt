@@ -1,0 +1,128 @@
+CONVERSATIONS
+Conversations Google Meet Integration
+
+Jan 9, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Conversations Google Meet integration connects to Google Meet via API. Once the connection has been made, meetings can be recorded using Google Meet and made available in Salesloft for review, annotation, analysis, and further insights.
+
+Things to Note: This integration will follow the rules around domains and alternate email addresses set up in the Conversation Intelligence team settings.
+
+In order to capture a recording in Salesloft Conversations, you will turn on recording from your Google Meet video player controls. Meetings will also be captured when they are scheduled on your calendar and your calendar is connected to your Salesloft account.
+
+In this article, you will learn how to setup and use Salesloft's Google Meet integration, including: 
+Conversations Google Meet Integration Notes and Requirements
+Set Up the Conversations Google Meet Integration
+How to Format Google Calendar Invites
+Capturing Google Meet Recordings
+Conversations Google Meet Integration Troubleshooting
+Conversations Google Meet Integration Notes and Requirements
+To use the Conversations Google Meet integration, Salesloft user must have an edition of Google Meet that allows you to record meetings. Meeting recording is possible with the following Google Workspace editions:
+Essentials
+Business Standard
+Business Plus
+Enterprise Essentials
+Enterprise Standard
+Enterprise Plus 
+Education Fundamentals (available to users with a 'teacher' license)
+Education Plus (available to users with a 'teacher' or 'student' license)
+Things to Note: A Google Workspace administrator who manages Google Meet for your organization may need to allow meeting recording for the team.
+
+Each Salesloft user must connect to Google Meet in their individual Salesloft instance to use the integration. 
+
+Please be aware of the following when using the Conversations Google Meet integration: 
+No Bots: The Google Meet integration is an API integration, meaning there will not be a bot joining the meetings similar to other Salesloft Conversations integrations. 
+Internal meetings will not be captured, even if they’re recorded.
+The recording will stay on the In Progress tab with the status “The Bot should join any moment now,” until the meeting is over and we receive the video from Google Meet. 
+On average, recordings can remain under the In Progress for approximately 30-45 minutes after the meeting has ended, before it moves to the Recordings tab.
+Users will be able to take live notes during the meeting. The notes will appear with timestamps in the Live Notes section of the recording once the meeting has been processed.
+Set Up the Conversations Google Meet Integration
+As mentioned above in the requirements, each Salesloft user must enable and connect the Google Meet integration to their Salesloft account. This will allow recorded meetings to be captured in Conversations. 
+
+The set up the Conversations Google Meet Integration, follow these steps: 
+
+1. Navigate to your Personal Settings in Salesloft by clicking your name in the upper right corner of the platform and selecting Settings from the menu.  
+
+2. From the Personal Settings menu options, select Conversations. 
+
+3. Scroll to the Google Meet tile and select Connect. You will be directed to a Google sign-in page. 
+
+3. On the Google Sign-in page, select the account that will be connected to Salesloft, typically this will be your work email address.
+
+
+4. Review the authorization page, and click Allow. This step authorizes the connection between Salesloft and Google.
+
+5. Once your Google account is connected, you should see a green checkmark with Connected as (email address) in the Google Meet tile. You may disconnect the integration at any time by clicking the red Disconnect Google Meet button now found where the Connect option was. 
+How to Format Google Calendar Invites
+In order for meetings to be captured into Conversations, you must send meeting links from Google Calendar Invites using a certain format. Specifically, you need to add your Google Meet link to the invite by selecting the Add Video Conferencing option when you create a Google Calendar invite.
+
+
+Things to Note:
+Including the meeting link in the location and/or description fields will not trigger Conversations to capture the meeting.
+When meetings are created from a Google Calendar, meeting participants in the same organization as the meeting organizer are automatically granted access to the recording.
+
+You can successfully create these style of meetings that will allow you to use the Conversations Google Meet integration in one of two ways:
+Create the invite from your Google Calendar. 
+ 
+Create the invite from Google Meet: Click the New meeting button and select the Schedule in Google Calendar option from the dropdown menu.
+Capture Google Meet Recordings
+The process of bringing the meeting recording from the meeting platform into Salesloft is known as "capture" or "capturing the meeting." Meetings will be captured as long as the following criteria is met: 
+Your Google Calendar Is Connected to Salesloft
+Google Meet Is Authorized on Your Salesloft User Profile
+The Meeting Is Not an Internal Meeting
+You Click Record on the Google Meet
+When capturing meetings from Google Meet, this process is split into three important steps:
+Enable the recording in Google Meet
+During the meeting recording 
+After the meeting
+Things to Note: Your recording notifications and controls will all be managed inside the Google Meet user interface. You cannot manage recording from Salesloft.
+
+Enable the recording in Google Meet
+In order for Conversations to capture your Google Meet meeting, you must click RECORD in Google Meet. When a recording is initiated from the Google Meet screen share platform, that triggers Salesloft Conversations a new Meeting needs to be processed .
+
+To record a meeting in Google Meet, the meeting must have been scheduled on your calendar using the calendar formatting listed above. Then, you must enable recording inside of Google Meet. You can record a meeting in Google Meet when you are the organizer (creator) of the meeting OR you’re in the same organization as the organizer.
+
+During the meeting recording
+During the meeting, you can stop and resume recordings by using the Google Meet app’s video player controls. This way you can pause recording while any sensitive or confidential information is shared. Once the video is processed, Salesloft will stitch the recorded parts of the video together and deliver it as one Conversations recording.
+
+The following people will be notified when a recording starts or stops, but can’t control the recording:
+People outside of your organization
+Mobile app users
+People who dial in using a phone 
+Things to Note: You can’t record a meeting if you join the meeting only to present, such as from a laptop while already in a video conference room. Join the video meeting first, start your presentation and then record.
+
+After the meeting
+Once the meeting is complete, An email with the recording link is sent to the meeting organizer and the person who started the recording. Recordings are automatically placed into the meeting organizer's Google Drive in  the Meet recordings folder.
+
+Things to Note: If the organizer changes or if the meeting occurs outside of the scheduled calendar time, the recording link is sent to the original event creator.
+
+The recording file link is also added to the Google Calendar event, as long as the recording starts at the scheduled meeting time.
+
+Once meetings are processed in Salesloft Conversations, the Recordings include the active speaker and anything that’s presented.
+ 
+Conversations Google Meet Integration Troubleshooting
+Why can't I control recording from the Google Meet Mobile app?
+Recording is only available with the computer version of Meet. Mobile app users are notified when the recording starts or stops but cannot control the recording.
+
+
+Why don't I see the names of speakers in my transcript for Google Meet recordings?
+Google Meet does not currently provide the names of meeting attendees or ASD (Active Speaker Detection) via their API. ASD is what allows Conversations to include talk times and speaker identification in your transcripts.
+
+Because Conversations relies on the files sent from Google Meet's API to process your meeting's transcript, Conversations does not have access to the names of speakers from your Google Meet meetings. As a result, Conversations cannot separate your Google Meet meeting transcripts by speaker, and speaker talk time cannot be shown with the recordings.
+Last Modified By
+Raequel Sank, 1/9/2023 4:21 PM
+Title
+Conversations Google Meet Integration
+URL Name
+Conversations-Google-Meet-Integration
+Conversations
+Salesloft Knowledge
+Conversations Integrations
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

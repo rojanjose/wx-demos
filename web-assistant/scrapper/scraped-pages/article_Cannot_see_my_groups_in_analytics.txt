@@ -1,0 +1,26 @@
+ANALYTICS + REPORTING
+Why can't I see my Groups in Analytics?
+
+Mar 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The ability to view Groups and other individual teammates is managed by the Filter by Teammates permission. This permission is enabled for the Salesloft admin role and disabled for the Salesloft user role by default. 
+
+If you would like to see Group analytics, but are assigned the default Salesloft user role, reach out to a team admin. They will need to create a new role with the Filter by Teammates permission enabled. Once that permission is created, they can assign that role to you and you will be able to view Group analytics.  
+Last Modified By
+Stephanie Griffith, 3/28/2023 3:04 PM
+Title
+Why can't I see my Groups in Analytics?
+URL Name
+Cannot-see-my-groups-in-analytics
+Analytics FAQ + Troubleshooting
+Analytics + Reporting
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

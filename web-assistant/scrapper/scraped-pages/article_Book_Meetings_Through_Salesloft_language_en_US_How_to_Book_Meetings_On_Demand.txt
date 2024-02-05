@@ -1,0 +1,148 @@
+USER GUIDES
+MEETINGS/CALENDAR
+Book Meetings Through Salesloft
+
+Dec 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft’s meetings allow you to utilize your calendar within your engagement platform. Whether you send meeting links via an email or book a meeting on demand, you have the control to send calendar invites to the Salesloft People you need to connect with.  
+
+In this article, you will learn about meeting booking processes, including: 
+
+How to Book Meetings on Demand
+The Book a Meeting Module
+Crediting Meetings Booked from a Cadence
+How a Person Books a Meeting 
+Booked Meeting Notifications
+How to Book Meetings On Demand
+
+Book Meetings on Demand allows you to schedule a meeting in seconds from the Person Profile page. This way you get to follow a scheduling process as simple as using a calendar app, with the added bonus of keeping track of all meetings in Salesloft.
+
+Things to Note: The user who is assigned to the meeting will be shown as Organizer on the calendar invite, even if the event was scheduled by another team member.
+
+To book a meeting on demand, follow these steps: 
+
+1. Go to the Profile page of the Person you want to send the meeting invite to.
+
+2. Click Book a Meeting from the Quick Actions or the Activity Feed.
+
+3. The Book a Meeting module will appear. Inside the module, follow these steps listed in Book a Meeting Module section below.
+
+ 
+
+ 
+
+4. After the invite is sent, the Person will see the meeting on their calendar. An email will be sent to the Person informing them about the meeting invite.
+
+The Book a Meeting Module
+
+You will set your meeting details and send the invite from the Book a Meeting module. 
+
+Things to Note: You can select an alternative CRM record to log to when booking a meeting on demand. To learn more, check out our CRM Record Selection article. 
+
+To book a meeting from the module, follow these steps: 
+
+1. Select a Meeting Type in order to populate meeting details automatically. You can choose from one of the following: 
+
+Standard Meeting Types
+Round Robin Meeting Types: Once the Round Robin meeting type is selected, the Meeting Owner will be defined automatically based on the Round Robin queue.
+Things to Note: To ensure fair distribution, the user who scheduled the meeting will not be able to manually update the Meeting Owner.
+
+ 
+
+ 
+
+2. Use the Select a Calendar feature to assign the meeting to anyone on your team who has their calendar set up in Salesloft.
+
+Things to Note:  When you have the Microsoft Teams meeting link enabled and you book a meeting on behalf of another Salesloft user, your meeting link will be sent in the invite. This means, you must join the meeting in order for the Microsoft Teams link to work. This meeting link is auto-generated at the time of creation and is attached to the user who books the meeting. 
+
+3. Confirm your Meeting Details. Each detail may be edited using the available text box. The details include the following: 
+
+Title: Title of the meeting 
+Duration: Length of the meeting in minutes
+Location: Video conferencing link. If you set up your Video Conferencing Settings, your preferred meeting link will automatically appear. Check out the Meeting Links in Your Calendar Invite article for more information.
+Description: The description allows you to apply different font style to the meeting description and use numbered or bulleted lists to make the text comprehensible and easy to read. The description box will expand to fit your text as you add to it. 
+
+ 
+
+4. The Attendees section is where you will add guests. When you create a meeting, the Person you are booking the meeting with will appear as the Main Guest. You can add team members and other guests by typing in their email address to invite them to the meeting.
+
+If you invite a Salesloft user who has their Calendar setup, you will be able to view their calendar inside the module. Salesloft will also auto-suggest email addresses when you add team members who are Salesloft users to the meeting. Once you enter at least 2 letters in the Attendees section, matching results will appear in a list below the field. Select the invitee from the suggested list or add the invitee by manually typing their full email.
+
+After an email address has been added, that guest will be added to the Attendees list. The Attendees list contains the following details: 
+
+Circle icon: To the left of the attendee's email address, the circle icon will be in the color that  indicates the color of that attendee's events on the calendar.
+Attendee's email address
+Attendees meeting role: Below the email address, designates if the attendee is the Meeting Owner, Organizer, Main Guest, or Guest of the meeting. 
+Eye Icon: To the right of the attendee's email address, click the eye icon hide or show that attendees calendar in the Book a Meeting module. 
+Things to Note: Calendar's will be visible for calendars you have access to, which typically include members of your Salesloft team who have their Calendar set up. If you do not have access to a calendar, the eye icon will be grey. When you hover over the grey eye icon you will see the You do not have access to this Calendar message. 
+
+ 
+
+5. Once a required time slot is selected and all meeting details are filled in, click the Book Meeting button. The invite will be sent to the prospect.
+
+Crediting Meetings Booked from a Cadence
+
+Booking a meeting is a common goal for many Cadences since it shows the effectiveness of your prospecting activities.
+
+While knowing the total number of meetings booked per user is helpful, it's even more advantageous to know what action came before a meeting was booked, specifically, is it a one-off action or are Cadences prompting meetings? If Cadences lead to booked meetings, you want to know which Cadence generates the most meetings and could other Cadences use some edits to improve their record?
+
+Salesloft uses Meetings Attribution to give credit to the actions that create booked meetings. Meeting Attribution looks at the various meeting types (adding Calendar links, syncing your calendar, .etc), and notices if a Cadence step occurred before the meeting was booked. When this happens, the most recently run Cadence will be recognized as the source of the booked meeting. 
+
+To learn more about Meeting Attribution, check out the How Does Salesloft Attribute Meetings and Opportunities? article. 
+
+Things to Note: You may notice an uptick in meetings booked under your Cadence metrics. This is due to more meetings being attributed to Cadences. Way to go!
+
+How a Person Books a Meeting
+
+Apart from setting up and sending invites, you may be wondering how meetings actually get booked. 
+
+When a Person receives a meeting link that you have inserted into an email, they will click the link to book time on your calendar. Let’s walk through the steps a recipient will take to book a meeting:
+
+1. When a Person clicks a meeting link, they'll be taken to a calendar view.
+
+2. The Person will select a date for the meeting. Available dates will be in black with blue dots below the date that represents the number of meeting slots that are available. Unavailable dates will be greyed out.
+
+3. After they choose a date, any available time slots will appear to the right of the calendar. Select a time slot.
+
+4. Click Next.
+
+5. The Person will enter their contact information. The contact information will appear in Salesloft when the meeting is confirmed. The following fields are required: Name, Email, and Account.  
+
+Things to Note: When a person not in Salesloft books a meeting through the meetings calendar, a new Salesloft Person will be created. Salesloft will use the Person's email address to verify whether they are a Person in Salesloft. 
+
+6. Click Confirm. If they need to make any changes, click Change Meeting Date. 
+ 
+
+ 
+
+7. A confirmation message will appear. The Person will also receive an email confirming the meeting. 
+
+8. The meeting will appear on the Person Profile page in Salesloft. It will also log the task in your CRM as a closed activity task or an event (depending on your team's Activity Logging Settings). 
+
+ 
+Booked Meeting Notifications
+Once a meeting is booked, you will receive notifications inside of Salesloft informing you of the booked meeting. These notifications will appear in your Live Feed which can be viewed from your Home Actions Dashboard or by clicking the Live Feed icon in the upper navigation bar. 
+
+You can also select to have notifications appear as Chrome Notifications or in the Salesloft Mobile app. 
+
+Viewing booked meeting notifications is particularly beneficial for teams where reps may book meetings on behalf of another peer. For example, if an SDRs books meetings on behalf of their Account Executives, the AE's can be constantly aware of when a new meeting is booked on their calendar and keep track of Prospects' responses.
+ 
+Last Modified By
+Raequel Sank, 12/13/2023 3:57 PM
+Title
+Book Meetings Through Salesloft
+URL Name
+Book-Meetings-Through-Salesloft
+Salesloft Knowledge
+Meetings/Calendar
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

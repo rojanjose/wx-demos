@@ -1,1 +1,11 @@
 .env
+
+scraped-pages-innerHTML*
+scraped-pages-full-html*
+
+scrape-innerHTML*.log
+*log
+
+node_modules/
+
+*test_data*

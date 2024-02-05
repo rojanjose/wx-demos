@@ -1,0 +1,81 @@
+DEALS
+Deals Analytics Overview: Projection Tile
+
+Aug 1, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Projection Tile gives you a look into what Opportunities you are projected to close in the given goal period. This tile highlights your Projected Difference. The Projected Difference is the calculation that shows the Projected Amount minus the Goal amount.
+
+ 
+
+In this article, you will learn about the information provided within the Projection Tile, including:
+
+Inside the Projection Tile
+Projection Tile Metrics
+Projection Tile Variations
+
+ 
+
+Inside the Projection Tile
+
+The chart offers insight into how you have been trending toward your overall goal throughout the goal period. If data points are above the line, you're projected to exceed your goal. If the data points are below the line, you are not projected to meet your goal.
+
+ 
+
+Hover over the chart to learn the trend data. This will specify the date, projection, and projected difference.
+
+ 
+
+ 
+Projection Tile Metrics
+
+Let's walk through the different parts of the Projection Tile and explain what they mean: 
+ 
+
+Object	Definition
+Tile Name	Projection Tile
+Projection Number	This is the projection of what a rep won will close in the given goal period.
+Projected Trend Difference	This is a historical trend of their projection.
+Project Difference	This is the difference between their goal and the projection.
+Goal	This is the goal set for the rep by the admin.
+
+ 
+
+Projection Tile Variations
+
+The visible information is directly related to how your Goal Management admin settings. The variations are as follows: 
+
+ 
+
+Quarterly Goal Period	
+
+
+Monthly Goal Period	
+
+
+Annual Goal Period	
+
+
+No Goal Set	
+
+ 
+ 
+ 
+Last Modified By
+Briana Morgan, 8/1/2023 6:34 PM
+Title
+Deals Analytics Overview: Projection Tile
+URL Name
+Projection-Tile
+Deals
+Salesloft Knowledge
+Deals Analytics
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

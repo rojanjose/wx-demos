@@ -1,0 +1,26 @@
+EMAIL
+Email Access Denied
+
+Mar 24, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft has lost connection to your email’s inbox. This is usually a result of an email password change.
+
+To resolve this issue, go to your email settings page and re authorize your email account connection.
+Last Modified By
+Stephanie Griffith, 3/24/2023 4:42 PM
+Title
+Email Access Denied
+URL Name
+Email-Access-Denied
+Email
+Salesloft Knowledge
+Email FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

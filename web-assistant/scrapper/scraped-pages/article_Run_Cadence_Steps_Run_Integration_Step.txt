@@ -1,0 +1,233 @@
+CADENCES + TASKS
+Run Cadence Steps
+
+Jan 9, 2024•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft Cadences make it simple to execute your sales process efficiently. After you Create a Cadence and add people to your Cadence, you can carry out your sales tasks by seamlessly running through your Cadence steps. 
+
+Cadence steps run from the Cadence Side Panel. For a complete walkthrough of the side panel and instructions on how to take different actions from the panel, check out our Cadence Side Panel article. 
+
+In this article, you will learn how to run Cadence steps, including:
+
+Run an Email Step
+Run a Phone Step
+Run an Other Step
+Run an Integration Step
+Run A Cadence Step from the Cadence Focus Zone
+Run A Cadence Step from the Rhythm Sidebar
+Cadence Next Step Suggestions
+Run an Email Step
+
+Your Cadence email steps allow you to send a series of templated emails to individual recipients.  
+
+To run your email step, follow these instructions:
+
+To get started, Start Your Cadence.
+The workflow side panel pane will appear. Sort your list as you'd like using the sorting features at the top. 
+Select Run Step next to the email step from the Cadences To-Do List. Salesloft will redirect you to the profile page of the first person listed on the step.
+The Email Window will appear in the bottom right corner, to the left of the side panel. The email window contains the following:
+At the top left of the email window, you will see arrows surrounding a "number out of total people in the Cadence step" (for example "< 1 of 5 >"). Use the arrows to view each email and make personalized edits for bulk email sends (Send All or Schedule All).
+At the top right of the email window, you can collapse, expand the message box, or close it. 
+Edit the message.
+Use the information in the person’s profile or integrations to add a personal touch to your email.
+Messages will be auto-saved after 3 seconds.
+Select the Discard Changes button to revert back to your original template.
+Send your Email. Emails sent from a Cadence will log in Salesloft and Salesforce. From your Cadence you have a number of sending options:
+Send & Edit Next: will send the email, log it and open the email for the following person in your Cadence list.
+Clock Icon: Allows your to schedule the send to the Person. Edit your email and send at a later time. Inside the Schedule Send menu, you will find: 
+Send Email: Let's you pick from default time amounts: 
+In 1 Hour
+In 4 Hours
+In 12 Hours
+Send at a Custom Time: Select a Date and time to send emails. This is best for sending emails at a later date. If you select one of the times listed under the Send Email section, the Time slot will adjust to the select email send time. If you select a date, the Send Email check will disappear and the Send at a Customer Time option will take over. 
+Time Zone
+Your Time Zone: Scheduled emails send at the designated time according to your set time zone. 
+Person's Time Zone: Salesloft detects when to send the scheduled email based on the Person's time zone.
+Schedule
+Cancel
+Schedule All: (Will only appear when you have multiple People running the Cadence step) Schedule your emails to be sent in bulk. Select from the follow details in the Schedule Send All module. Once an option is selected, the Schedule to Send information at the bottom of the module will confirm when the emails are scheduled to start sending. Select Schedule to complete the action.
+Send Email: Select a time when your emails will begin to send. This is best for sending bulk emails on the current day.
+Now: Send your emails in bulk immediately.
+In 1 Hour
+In 4 Hours
+In 12 Hours
+Send at a Custom Time
+Time Zone
+Send First # Emails: Allows you to send a certain number of the emails listed in the step. For example, let's say you have 20 emails total running the Cadence email step, but you only want to schedule emails to your Tier 1 Accounts, follow these steps to send a select number of emails at a time:
+Sort the Cadence List by Tier so People listed in Tier 1 Accounts appear at the top of the Cadence list.
+Count how many names are in the Tier 1 section. For this example, we will say there are 5 People in Tier 1. 
+In the Schedule All module, enter the number 5 in the Send First # Emails section. 
+Hit Schedule. The Emails will be scheduled to send to the 5 People at the top of your Cadence list. Everyone else will remain in the Cadence list with the step still due. 
+Go to your next step.
+If you sent one email, your Cadence will open the email step for the next Person in the Cadence list.
+If you send all or completed the step for the last Person in the Cadence list, you will see Cadence Suggestions . 
+
+ 
+
+Autosaved Cadence Emails
+
+Email content autosaves when you run a Cadence Email Step. This will save you the pain of spending time personalizing emails, but losing all that content is you accidentally close the email pane or your computer reboots out of nowhere (these things happen). 
+
+When you begin to personalize a Cadence email, the content will autosave every three seconds. If you exit out of the window, your content will be saved to the Cadence. By hitting the X button in the email window, you will see a notification message pop up informing your that the email has been saved to the Cadence.
+
+Next time you open that Cadence email step to the Person, you will find your saved message ready to go. 
+
+Change your mind? Click Discard Changes to revert back to the original template. Or click the trashcan button to delete all changes to the Cadence and close the email window. 
+
+ 
+SLU: Running an Email Step In Salesloft (Video)
+
+Want to know how to run an Email step, but prefer a video format? Visit Salesloft University to see the Running an Email Step In Salesloft video tutorial. 
+
+Run a Phone Step
+
+Managing a call task can be a messy struggle. First you dig for contact information, then you have to try to track down and keep up with a notepad for call notes, and, finally, you hope above everything else that you don't have to leave a dreaded, unprepared voicemail. 
+
+Fear not, all of these chaotic tasks are easy to manage and execute from your Cadence phone steps.
+
+Running a phone step is similar to running an email step. To run your phone step, follow these instructions:
+
+Start your Cadence. 
+The workflow side panel pane will appear. Sort your list as you'd like using the sorting features at the top. 
+Select Run Step next to the phone step from the Cadences To-Do List. Salesloft will redirect you to the profile page of the first person listed on the step. The Dialer will appear on the bottom right corner of the screen with the Person's name and phone number already entered.
+Make your call. During the call you can add any notes inside the Dialer Log box. Hopefully the Person answers and you can have a conversation. If not, drop a voicemail or simply hang up. 
+Beneath the Log Call Notes box, select your Disposition & Sentiment.
+Things to Note: If the Disposition and/or Sentiment fields are mandatory for your team, you will see a red asterix * to the left of the field name. The field must be completed before you can log the call. 
+Select the appropriate log option:
+Log and complete: Saves your call activity to Salesloft and Salesforce, moves your prospect to the next step in the Cadence, and queues the next person on the call step.
+Log only: Saves your call activity to Salesloft and Salesforce but leaves your prospect on the current call step, then queues the next person on the call step.
+Complete only: Moves your prospect to the next step in your Cadence without saving your call notes, then queues the next person on the call step.
+Success: Logs your call activity as a successful touch, moves your prospect to the next step in the Cadence, and queues the next person on the call step
+Minimize the log pane and move on to the next call using the steps above. You can always return to the log pane to save your call later.
+Repeat steps 3-6 for every person in your list. You will move through each contact card individually until the Cadence list is completed.
+If you logged a single call, your Cadence will open the phone step for the next Person in the Cadence list.
+If you completed the step for the last Person in the Cadence list, you will see Cadence Suggestions . 
+
+ 
+
+SLU: Running a Phone Step In Salesloft (Video)
+
+Want to know how to run a Phone step, but prefer a video format? Visit Salesloft University to see the Running a Phone Step In Salesloft video tutorial. 
+
+Things to Note: Clicking the Call button on the Quick Actions panel turns a phone step that is being run into a one-off Call and changes the Log & Complete button to a Log button. To return to the Cadence step, click on the Cadence panel. The Log button should revert to Log & Complete. For more information, see our Log a Call article.
+ 
+
+Run an Other Step
+
+While phone and email may be the primary components of your sales process, alternative touch points and methods can be used within your Cadence. That's why we have created the Other Step.
+
+The sky is the limit with other steps: add a social touch, send baked goods or swag, or research the account you’re prospecting. Whatever you want to add to your process outside of the standard email and call steps can go into your other step.
+
+To run your other step, follow the steps below:
+
+Select Preview and Run next to the other step on your Cadences To-Do List or Run Step next to the Other step listed in your side panel.
+The profile page of the first person in your Cadence list will appear along with the Other Step Log Box that contains instructions for your other step in the bottom right corner.
+Complete your other step.
+Log your other step like you would check a list off after you’ve completed the action. If you are connected to your Salesforce account, the other step will log there as well. You can execute your other step in two ways:
+Log and Complete: Save your activity on an individual and move you to the next person on the other step.
+Complete All: To complete all Cadence actions in bulk.
+Go to your next step.
+If you completed the step for one Person, your Cadence will open the email step for the next Person in the Cadence list.
+If you completed all or completed the step for the last Person in the Cadence list, you will see Cadence Suggestions . 
+
+ 
+
+SLU: Running an Other Step In Salesloft (Video)
+
+Want to know how to run an Other step, but prefer a video format? Visit Salesloft University to see the Running an Other Step In Salesloft video tutorial. 
+
+Run an Integration Step
+
+Integration steps bring Salesloft's most powerful integrations into your consistent sales process. 
+
+Currently Salesloft offers the following integrations steps. Click the link to learn more how to run each integration step:
+
+ZipWhip: send out text messages to your prospects.
+LinkedIn Sales Navigator: take one of the following four LinkedIn Sales Navigator actions within your Cadence. 
+Research: Read up on your prospect’s recent LinkedIn news or activities so you are familiar with your prospect and their company prior to your interactions.
+Introduction:  Get introduced to a prospect through a mutual connection.
+Connection Request:  Send a LinkedIn invitation to another person.
+InMail: Message the prospect via LinkedIn InMail.
+Run A Cadence Step from the Cadence Focus Zone
+
+The Cadence Focus Zone allows you to view your cadences and run cadence steps from the Salesloft homepage. 
+
+ 
+
+To run a cadence step from the Cadence Focus Zone, follow these steps:
+
+Navigate to your Salesloft homepage and click the Cadences Focus Zone tab.
+From the Cadences Focus Zone, you will see a list of cadence steps. 
+Hover over the task icon for the step you would like to run. Click the dropdown that appears.
+Click the play button to complete the task. 
+Once you have completed the task, you can continue running cadence steps from the Cadence Focus Zone, or from the Rhythm Sidebar.
+
+Run A Cadence Step from the Rhythm Sidebar
+
+The Rhythm Sidebar allows you complete cadence step tasks from anywhere inside Salesloft.
+
+ 
+
+To run cadence step tasks from the Rhythm Sidebar, follow these steps:
+
+From the Rhythm Sidebar, click the focus zone dropdown and select Cadence Focus Zone.
+Click the play button beside a cadence step. This will open a list of tasks.
+Hover over the task tile then click the play button to complete the task. 
+Complete the task.
+
+ 
+
+ 
+
+Cadence Next Step Suggestions
+
+When you log the last Cadence Step for a Person assigned to that step, you've successfully completed those set of assignments for the day (yay!) While you may want to stand up for a minute, you may also be wondering, "What should I do next?"
+
+After the last Cadence Step is completed, your Cadence Side Panel will offer suggestions for where you want to go next. These options include: 
+
+Return to Cadence Overview: Takes you to the Cadence Overview page of the Cadence step you completed.
+Return Home: Takes you to your Salesloft Home Dashboard.
+Run Next Step: Takes you to the next step in the same Cadence with People due. 
+Return to Steps List: Goes back to the Cadence Step list in your Cadence Side Panel.
+
+The first two options in the list above will appear in all suggested next step views. The final two options will appear based on certain criteria. Let's take a look into Run Next Step and Return to Steps Lists:
+
+Run Next Step
+
+When you've completed a Cadence Step, and have actions due on a different step in the same Cadence, you will see the Run Next Step suggestion. The view will show the step you completed and list the next step details (Day, Step number, Step type, and Cadence Name). 
+
+Salesloft will only suggest the next step when you are running steps within one Cadence or Account based on how your Cadence list is grouped.
+
+Things to Note: The Cadence suggestion will recommend the first step in the group. So, if you completed a step 2 of your Cadence, and still have due items in step 1 of the same Cadence, the suggestion will recommend you to run step 1 of that Cadence.
+
+
+
+Return to Steps List
+
+When all steps in the specific Cadence or the steps for a specific Account are completed, Salesloft will not present the next step to run option (because you're all done with this Cadence!).
+
+If you know you have additional Cadence steps due in a different Cadence or Account, use the Return to Steps List suggestion to go back to the Cadence Step list in the Cadence Side Panel. This is the same list you can access by hitting the back arrow at the top of the Cadence Side panel. 
+
+From the step list, you can select the next Cadence or Account you want to run, and continue running Cadence steps. 
+
+ 
+ 
+Last Modified By
+Raequel Sank, 1/9/2024 9:33 PM
+Title
+Run Cadence Steps
+URL Name
+Run-Cadence-Steps
+Salesloft Knowledge
+Cadences + Tasks
+Run A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

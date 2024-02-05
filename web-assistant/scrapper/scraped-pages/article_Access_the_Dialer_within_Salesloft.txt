@@ -1,0 +1,60 @@
+DIALER + MESSENGER
+Access the Dialer within Salesloft
+
+Feb 15, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft’s Dialer allows you to make calls directly from our platform. Seamlessly work through a series of phone calls, record them for training purposes, and log all of your information from one substantial dialer.
+
+Making a call is as simple as hitting the “Call” button in the Dialer, having a conversation with the person on the other end, and hanging up.
+
+In this article, you will learn how to access the Dialer and make calls from Salesloft, including: 
+The Dialer from the Top Navigation
+Call from Quick Actions
+Click a Person's Phone Number to Call
+Calls from a Cadence 
+ 
+The Dialer from the Top Navigation
+Your Salesloft Dialer is always accessible in the top right of the navigation panel within the Salesloft platform.
+Click the Dialer icon and the Dialer will pop up in the bottom right corner of your window.
+Enter the phone number manually or search for the Person using the Person tab in the Dialer to find the contact information of the Person you want to call.
+Things to Note: The Call Log box will pop out or be inside the Dialer based on your Dialer Settings. You can change the view of your Dialer by clicking the Settings tab inside the Dialer. 
+ 
+Call from Quick Actions
+For quick, one-off calls to specific people you can run your calls directly from the Person Quick Actions found on a Person Profile page within Salesloft.  
+Navigate to the Person's Profile page.
+In the left panel, scroll to Quick Actions. Here you should see a blue phone icon. Don’t see the phone icon? Check the Person’s contact information to make sure they have a phone number listed and edit the profile to add a number.
+Click the blue phone icon to call. The Dialer will appear in the bottom right corner of your window, and the phone number will already be dialed. Once the phone starts ringing, you will see the Call Log box appear to the left of the Dialer.
+Click a Person's Phone Number to Call
+The Details panel can be found on the Account and Person profile pages. Inside the panel, you'll find available contact information for that Account or Person.
+
+When a phone number is listed in the panel, you can perform a one-off phone call by clicking on the phone icon to the right of number in order to call the Person. 
+
+Once you click the phone icon in the Contact Info panel, the Dialer will appear in the bottom right corner of your window. When you click from a Person's details, the Person's name and number will already be entered into the Dialer and the call will begin. 
+
+Things to Note: The phone icon you click to make calls from the Details panel will only be visible when a valid phone number has been saved. 
+
+Inside the Dialer, you may take notes and Log the Call once it is finished. 
+Calls from a Cadence
+A Salesloft Cadence allows you to work through a series of call steps that are designed to keep you on task and proficient. 
+ 
+
+Learn more about how to create a Cadence with phone steps as well as how to run a phone step in a Cadence. 
+ 
+Last Modified By
+Stephanie Griffith, 2/15/2022 6:38 PM
+Title
+Access the Dialer within Salesloft
+URL Name
+Access-the-Dialer-within-Salesloft
+Salesloft Knowledge
+Dialer + Messenger
+Phone Calls With The Dialer
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

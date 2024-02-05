@@ -1,0 +1,76 @@
+EMAIL
+Reply In-App to an Email
+
+Sep 17, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Hopefully, your email communication is the start of a conversation and does not stop after you send that first email. In order for this conversation to flow, you must be able to quickly reply to email responses. 
+
+Salesloft allows you to reply to an email from the Salesloft platform. This way, you can spend your day completing tasks in Salesloft, and then answer emails as they are received.
+
+In this article, you will learn about how to reply to emails using Salesloft, including: 
+Reply in an Email Thread
+Reply and Create a Person
+Reply from the Person Profile Page 
+Reply in an Email Thread
+Whether you are responding to a prospect or following up on a previously sent email, you don't have to leave Salesloft to continue your email thread. Simply reply to the email from the individual message. 
+
+Replies will take place from the individual email view. This view shows the threaded content from previous emails. 
+
+Things to Note: The email recipient must be a Person in Salesloft in order to use reply in-app. If they are not, create the Person in Salesloft and then reply. 
+
+To reply to the email, follow these steps:
+View the individual email thread. You can access the thread from one of these methods:
+Find the reply in your Live Feed. Click the email's subject link.
+Go to The Emails Page. Select the email.
+Go to The Person Profile Page. Select the email from the Person Activities Panel .
+Click one of the following icons in the upper right corner of the email:
+Reply: Replies to the individual Person.
+Reply All: Includes any CC or BCC'd individuals when you reply. 
+The email compose window will appear in the bottom right corner. Compose your email.  
+Click Send.
+ 
+Reply and Create a Person
+If the Person you would like to respond to does not exist as a Person in Salesloft, you will need to create the Person before sending the email. 
+
+Why? Salesloft is built to send emails and associate the email activity to a Person record in Salesloft. 
+
+When you send emails from Salesloft, the need to create People before replying should not happen often. However, let's say you send an email to a prospect that is forwarded to someone else in their organization. If that other individual answers the email, you will need to create them before responding.
+
+Things to Note: In order to create a Person when replying, the Manage People permission must be enabled. If you don't have the ability to create a Person before you reply in-app, reach out to your team admin about editing your permission set. 
+
+To create a Person and reply to an email, follow these steps:
+From the email message, click Reply or Reply All. 
+A Create Person to Reply to Email module will appear. Fill out the Person details. 
+Click Create Person and Reply. 
+  
+Reply from the Person Profile Page
+The activities panel on the Person Profile page dates logs of the actions that have occurred with that specific Person, including replied emails. 
+
+In addition to viewing a reply from a Person, you can also reply to an email thread yourself from the activities panel. 
+
+To reply to an email from the activities panel on the Person Profile page, follow these steps: 
+Select a Person to go their Person Profile Page. 
+In the center panel (the activities panel), find your replied emails, which will be designated by the green arrow, in one of the following tabs: 
+Activity tab
+Emails tab
+Below the email, click Reply.
+The email window will appear in the bottom right corner. Type your message and send the email. 
+ 
+Last Modified By
+Stephanie Griffith, 9/17/2021 5:31 PM
+Title
+Reply In-App to an Email
+URL Name
+Reply-In-App-to-an-Email
+Email
+Salesloft Knowledge
+Sending Emails
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

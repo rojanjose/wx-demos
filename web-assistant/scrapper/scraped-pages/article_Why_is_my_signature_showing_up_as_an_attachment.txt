@@ -1,0 +1,30 @@
+EMAIL
+Why is my signature showing up as an attachment?
+
+Oct 4, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Images in your signature appearing as attachments are often caused by Microsoft Office365 or Outlook email servers. If these servers don’t accept the images, they appear as attachments. 
+
+One potential workaround, would be hosting or linking images so that your email server will accept the image. You can learn more about hosted/linked images and how to create them here . 
+
+Once the embedded link is created, you can edit the image’s source to the new link. Then, send a test email to a personal email(ex. Yahoo/Gmail) to verify the images are embedding properly and make sure that the email is formatted properly.
+
+Last Modified By
+Stephanie Griffith, 10/4/2023 1:56 PM
+Title
+Why is my signature showing up as an attachment?
+URL Name
+Why-is-my-signature-showing-up-as-an-attachment
+Email
+Salesloft Knowledge
+Email FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

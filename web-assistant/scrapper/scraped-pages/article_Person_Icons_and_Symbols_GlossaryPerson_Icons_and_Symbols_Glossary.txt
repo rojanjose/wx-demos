@@ -1,0 +1,59 @@
+PEOPLE AND ACCOUNTS
+Person Icons and Symbols Glossary
+
+Jul 29, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Person icons and symbols appear throughout Salesloft to alert you of an individual's status
+
+In this article you will find a complete list of all the icons and symbols that may be associated to Salesloft People, where you'll find them in the platform, and what they mean. 
+ 
+Icon Name
+	
+Icon  
+	
+Description
+
+Bounced		A previous email to this Person resulted in a bounce back.
+Call stats		The number of calls made to the Person and logged.
+Do Not Contact		This Person has opted out of messaging or been marked as Do Not Contact. Users may not communicate with this Person via Salesloft.
+Emails Clicked stat		Shows the number of emails with links that were clicked. 
+Emails Sent stat		Shows the number of emails sent to this Person.
+Emails with Opens stat		Shows the number of times an email sent to this Person has been viewed.
+Emails with Replies stat		Shows the number of times this Person has replied to emails.
+European Union (EU) Resident		This Person has been marked as an EU Resident. Tracking functionality may be disabled for EU Residents. Learn more in the Manage Privacy Settings article.
+New		This Person was recently added to Salesloft. The dot will remain in the Person list until an activity is logged to the Person.  
+Has Replied		This Person has previously replied to a Salesloft email.
+LinkedIn profile page		Opens the Person's LinkedIn profile.
+Marked as Success		This Person has been marked as a success.
+Out Of Office (OOO) Detection		Appears when an out of office message is detected for that Person.
+Red Mail Icon		This Person does not have an email address listed in their profile.
+Red Phone Icon		This Person does not have a phone number listed in their profile.
+Restrict Calls		Prevents calls to this Person through Salesloft. Call steps will automatically be skipped.
+Restrict Emails		Prevents emails to this Person through Salesloft. Email steps will automatically be skipped.
+Restrict Texts		Prevents texts to this person through Salesloft.
+Star		The star icon flags this Person as important.
+Inbound Email		 An inbound email was sent from the Person. 
+View Company URL		Opens the company’s website.
+View in Salesforce		People connected to the Salesforce record. If the Person is not connected to their CRM, the icon will not appear.
+View Twitter		Opens the Person's twitter page.
+ 
+Last Modified By
+Stephanie Griffith, 7/29/2022 1:42 PM
+Title
+Person Icons and Symbols Glossary
+URL Name
+Person-Icons-and-Symbols-GlossaryPerson-Icons-and-Symbols-Glossary
+Salesloft Knowledge
+People And Accounts
+People
+People Page
+People Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

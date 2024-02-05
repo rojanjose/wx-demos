@@ -1,0 +1,69 @@
+PEOPLE AND ACCOUNTS
+IMPORTS INTO SALESLOFT
+View Your Import History
+
+Sep 15, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Your import history shows you a complete list of all the previous imports you’ve completed. From the Import History page, you can search for an import, undo imports, and view import information, including:
+
+Number of Imports that have been completed
+Import Name: This is a clickable link. When you click the link you will be redirected to the People page. The People listview will be filtered to include the People who were added to Salesloft from that import. 
+Number of People imported
+Date and time of the import 
+
+If you click on the specific import, you will see a filtered list view of the People from that import.
+
+In this article, you will learn about the View Your Import History actions, including: 
+
+Access Your Import History
+Undo an Import in Bulk
+Access Your Import History
+
+To access your import history, follow these steps:
+
+Go to the People Page .
+Click Create People.
+Select View Import History. You will be directed to the Import History page. 
+Search and select the import you wish to view. That import will appear as a filtered list view back on the People page. 
+
+ 
+
+Undo an Import in Bulk
+
+Click on the wrong list? Don't worry, we've got your back! You can undo the list and remove all the People from Salesloft.
+
+To undo a bulk import, follow these steps:
+
+From the People page, click the Create People button.
+Select View Import History. You will be directed to the Import History page.
+Find the import list and select the circled minus sign icon that represents the Undo button on the right side of the row.
+A pop up will appear to confirm the action. Confirm that you would like to undo the import. If People have been added to Salesloft from multiple imports, the pop up will ask if you would delete those People entirely from Salesloft. You can select one of the following options: 
+Cancel: Cancels the action, will not delete the import.
+Delete: Deletes the import and the People included in the import. 
+No, Don't Delete Them: Will delete the import but keep the People who were imported at a different time. 
+ 
+SLU: Undoing an Import(Video)
+
+Want to know how to undo an import in Salesloft, but prefer a video format? Visit Salesloft University to see the Undoing an Import video tutorial. 
+
+Last Modified By
+Raequel Sank, 9/15/2023 3:07 PM
+Title
+View Your Import History
+URL Name
+View-Your-Import-History
+Salesloft Knowledge
+People And Accounts
+People
+Imports Into Salesloft
+People Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

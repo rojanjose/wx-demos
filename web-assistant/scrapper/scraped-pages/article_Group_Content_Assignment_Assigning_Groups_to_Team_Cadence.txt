@@ -1,0 +1,132 @@
+ADMIN GUIDES
+Group Content Assignment
+
+Feb 9, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Group Content Assignment determines the default view of content shown.
+
+When users view Team content, content assigned to their group (and child groups) will be visible. Users may adjust their filters to access and view content outside of their group based on the Filtering Team Content setting.
+
+For example, when a user assigned to a group goes to the Team Cadences page, they won’t see all of the team Cadences that have been created. They will only see the team Cadences that have been assigned to their group.
+
+Things to Note:
+Content Assignment only applies to Team content – Team Cadences, Team Templates, Team Snippets.
+This feature sets default views of content and assignments to specific groups in Salesloft. It does not include data fencing, or access control (access permissions), or restrictions to content.
+Visibility is based on group visibility, not ownership.
+In this article, we will go over how to assign team content throughout the Salesloft platform, including:
+Assigning Groups to a Team Cadence
+Bulk Group Assignment from the Cadences Page
+Assigning Groups to a Team Template
+Bulk Group Assignment from the Templates Page
+Assigning Groups to a Team Snippet
+Bulk Group Assignment from the Snippets Page
+Assigning Groups to a Team Cadence
+Individual team Cadences may be assigned to groups any time they are created or edited. 
+
+Things to Note: Assigning team Cadences to a group requires the same permissions as editing team cadences:
+Team Cadences: Create & Edit
+Team Cadences: Edit Only
+To assign groups while you are creating a team Cadence, follow these steps: 
+Create a Cadence or access an existing Team Cadence and go to the Cadence Settings tab. 
+In the Cadence Settings, scroll to your Sharing Settings. There you will see the Groups option. 
+Things to Note: Groups will only appear if the Cadence Type is labeled Team Cadence.  
+Search for groups in the text box, or select the text box to open the groups dropdown menu. 
+Check any groups you would like to assign the team cadence to.
+As you select a group, the group tiles will appear.
+If you select a parent group, both the parent group and each child group will be select. 
+To remove a group, go to the group tile and click the X. 
+Once all of the applicable groups have been selected, click outside of the dropdown to close the menu. Click Save at the bottom of the Cadence Settings page. 
+ 
+ 
+Bulk Group Assignment from the Cadences Page
+The Cadences Page is where you will assign multiple team Cadences to a group or groups. 
+
+Things to Note: Assigning team Cadences to a group requires the same permissions as editing team cadences:
+Team Cadences: Create & Edit
+Team Cadences: Edit Only
+
+To assign groups the team Cadences from the Cadences Page, follow these steps: 
+Go to The Cadences Page.
+Click the Team Cadences tab . 
+If necessary, filter and sort your team Cadences. 
+Select the team Cadence(s) you wish to assign groups to. As you select Cadences, the Assign to Groups option will appear at the top of your list. 
+Click the Assign to Groups button. The Assign Cadences module will appear. 
+From the module, search or select the dropdown find your groups. Select any group(s) you wish to assign the team Cadence(s) to.
+Once you have selected your groups, hit Save. Now, your Cadences list will include the groups. 
+ 
+ 
+Assigning Groups to a Team Template
+Individual team Templates may be assigned to groups any time they are created or edited. 
+
+Things to Note: Assigning team templates to a group requires the same permission as editing team templates: Manage Team Templates. 
+
+To assign groups while you are creating a team template, follow these steps: 
+Go to the Templates page and add a team template.  
+Draft your template message. 
+At the bottom of the Create Template module, you will see the Groups text field. Search for a group in the text field or click the box to open the groups dropdown menu. 
+Select the group(s) you would like to assign the team template to. If more than one group is selected, you will see a tile with the number of groups appear. 
+Click Save. 
+ 
+Bulk Group Assignment from the Templates Page
+The Templates Page is where you will assign multiple team Templates to a group or groups. 
+
+Things to Note: Assigning team templates to a group requires the same permission as editing team templates: Manage Team Templates. 
+
+To assign groups the team templates from the Templates Page, follow these steps: 
+Go to the Templates Page.
+Click the Team Templates tab. 
+If necessary, filter and sort your team templates. 
+Select the team template(s) you wish to assign groups to. As you select templates, the select template actions will appear at the top of your list. 
+Click the Assign to Groups button. The Assign Templates module will appear. 
+From the module, search or select the dropdown find your groups. Select any group(s) you wish to assign the team template(s) to.
+Once you have selected your groups, hit Save. Now, your template list will include the groups. 
+ 
+ 
+Assigning Groups to a Team Snippet
+Individual team snippets may be assigned to groups any time they are created or edited. 
+
+Things to Note: Assigning team snippets to a group requires the same permission as editing team snippets: Manage Team Snippets. 
+
+To assign groups while you are creating a team snippet, follow these steps: 
+Go to The Snippets Page and create a new team snippet . 
+Draft your snippet. 
+On the right side of the Create Snippet module, click the Settings tab to go to the Snippet Assignment. 
+In the Assigned To text box, search for a group in the field or click the box to open the groups dropdown menu. 
+Select the group(s) you would like to assign the team snippet to. If more than one group is selected, you will see a tile with the number of groups appear. 
+Click Save. 
+ 
+ 
+Bulk Group Assignment from the Snippets Page
+The Snippets Page is where you will assign multiple team Snippets to a group or groups. 
+
+Things to Note: Assigning team snippets to a group requires the same permission as editing team snippets: Manage Team Snippets. 
+
+To assign groups the team snippets from the Snippets Page, follow these steps: 
+Go to The Snippets Page.
+Click the Team Snippets tab. 
+If necessary, filter and sort your team Snippets. 
+Select the team Cadence(s) you wish to assign groups to. As you select snippets, the Assign to Groups option will appear at the top of your list. 
+Click the Assign to Groups button. The Assign Snippets module will appear. 
+From the module, search or select the dropdown find your groups. Select any group(s) you wish to assign the team snippet(s) to.
+Once you have selected your groups, hit Save. Now, your Snippet list will include the groups. 
+ 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 2/9/2022 6:46 PM
+Title
+Group Content Assignment
+URL Name
+Group-Content-Assignment
+Salesloft Knowledge
+Admin Guides
+Team Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

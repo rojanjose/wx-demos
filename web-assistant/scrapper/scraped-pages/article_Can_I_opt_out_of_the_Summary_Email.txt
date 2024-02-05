@@ -1,0 +1,32 @@
+ANALYTICS + REPORTING
+Can I opt out of the Summary Email?
+
+Mar 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Each user can opt out of the Weekly Summary Email individually by following these steps:
+Inside Salesloft, click your name in the upper-right corner of the platform and select Settings. You will land in your Personal Profile settings.
+In your Profile settings, scroll down the page to the Weekly Summary Email.
+Turn the Weekly Summary Email toggle off to opt out of the emails. If you would like to enable the email, toggle this setting on. 
+Click Save Profile at the bottom of the page. 
+ 
+The link to the Profile Settings page is also at the bottom of each email. You can access it by clicking Update your email preferences.
+
+Things to Note: The Weekly Summary Email is managed at the user level. Team Admins cannot disable the email for their users. 
+Last Modified By
+Stephanie Griffith, 3/28/2023 10:27 AM
+Title
+Can I opt out of the Summary Email?
+URL Name
+Can-I-opt-out-of-the-Summary-Email
+Analytics FAQ + Troubleshooting
+Analytics + Reporting
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

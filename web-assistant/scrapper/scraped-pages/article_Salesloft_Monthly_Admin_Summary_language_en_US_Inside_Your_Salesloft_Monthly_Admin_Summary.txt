@@ -1,0 +1,83 @@
+ADMIN GUIDES
+ADMIN ESSENTIALS
+Salesloft Monthly Admin Summary
+
+Apr 27, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Salesloft Admin Summary email goes out to Salesloft Administrators (Admins) on the first day of every month. The email has been specifically designed to provide admins with visibility into their team’s adoption of Salesloft and help trigger relevant actions to increase team usage across the platform. 
+
+Things to Note: All Salesloft users assigned the default Admin role will be opted into this email starting May 1, 2022 by default.
+
+Your Monthly Admin Summary email arrives your inbox using the email address from your Salesloft profile. From the email, you can click and go directly to Salesloft to manage cadences, to the Dialer, and/or manage users.
+
+
+
+In this article, you will learn about Salesloft's Monthly Admin Summary email, including: 
+Why am I receiving this Monthly Admin Summary Email?
+Inside Your Salesloft Monthly Admin Summary
+How can I opt out of the Monthly Admin Summary Email?
+Why am I receiving this Monthly Admin Summary Email?
+The monthly admin summary email is sent out to Salesloft administrators — Salesloft users assigned the default Admin role . This email is only available to users with the admin role in Salesloft. Admins will be able to opt-in and opt-out through their profile settings.
+
+The email will be sent on the first day of each month and calculates usage as of the last day of the prior month.
+ 
+Things to Note: Prior to May 1, 2022, Salesloft sent admins an email that gave a brief glimpse into your account's activities. The email contained the subject line "SalesLoft updates for the week of (date)"  That email has been modified to the Monthly Admin Summary email. The previous version will no longer will available after the updated release. 
+Inside Your Salesloft Monthly Admin Summary
+Admins who are opted into the email will receive an email similar to below to the email listed in their Salesloft account.
+
+The Monthly Admin Summary email includes the following details: 
+Time Period
+Team Name
+Cadence Adoption: What is your cadence, automation rules, and tags use
+Cadences
+Team Cadences
+Automation Rules
+Templates 
+Team Templates
+Tags
+Links
+Learn More
+Manage Cadences: takes you to your Cadence & Tasks admin settings. 
+View Team Cadences: Takes you to your account's Team Cadences. 
+Dialer Use: How much are your dialer numbers being used
+Phone Numbers
+Members without Phone Numbers
+Links
+Learn More
+Manage Dialer: Takes you to your Team Dialer Settings. 
+Users: What are your users, inactive users and admin users counts for billing purposes
+Users
+Inactive Users
+Users Added Last Month
+Admin Users
+Non-Admin Users
+Links
+Learn More
+Manage users and admins: Takes you to the Users admin settings page. 
+How can I opt out of the Monthly Admin Summary Email?
+Each admin can opt out individually by following these steps:
+Inside Salesloft, go to Settings, by clicking your name in the upper right corner of the platform and selecting Settings. You will land in your Personal Profile settings.
+In your Profile settings, scroll down the page the the Monthly Admin Email.
+Turn the Monthly Admin Email toggle off to opt out of the emails. If you would like to enable the email, toggle this setting on. 
+Click Save Profile at the bottom of the page. 
+The link to the Profile Settings page is also at the bottom of each email. You can access it by clicking, update your email preferences.
+Last Modified By
+Stephanie Griffith, 4/27/2022 8:49 PM
+Title
+Salesloft Monthly Admin Summary
+URL Name
+Salesloft-Monthly-Admin-Summary
+Set Up Salesloft
+Admin Guides
+Salesloft Knowledge
+Admin Essentials
+Getting Started
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

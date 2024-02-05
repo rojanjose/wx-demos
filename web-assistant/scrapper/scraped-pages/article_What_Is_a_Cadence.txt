@@ -1,0 +1,90 @@
+CADENCES + TASKS
+What Is a Cadence?
+
+Sep 13, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+A Salesloft Cadence is a repeatable series of steps, or sequence, that mimics your sales process to create a consistent workflow. Your Cadences in Salesloft allow you to seamlessly execute your activities in a way that fits your work rhythm (or cadence...get it?). 
+
+Cadences can be used for a variety of different purposes. You may create a Cadence to book meetings with VPs of organizations or invite customers to a conference. Maybe you have a process for following up with a hot lead or even a potential new hire. As long as you are trying to reach out to multiple people with a multi-step process, you can make a Cadence for that.
+
+Building Cadences may seem complicated or intimidating, but some of the best Cadences are created by simply laying out your day-to-day actions. Cadences let you arrange the tasks you would perform with each prospect or customer over and over to turn them into a consistent process. Then as you use this process, you can learn which actions perform well and which fail miserably.
+
+Just like conducting an experiment, your Cadence building can go through steps in order to gain results. Whether you are new to Salesloft or looking for a refresher, there are three steps that we've learned SDR Managers and Sales Operations roles most often take when building Cadences. We have summed this up as the Create, Evaluate, Iterate model.
+
+In this article, you will learn about the process to build and maintain successful Cadences, including: 
+Create the Initial Cadence
+Evaluate the Cadence
+Iterate on the Cadence
+Cadence Best Practices
+Create the Initial Cadence
+The first part of the Cadence creation process is to build the Cadence itself. Since every sales process is different, Salesloft allows you to create and customize your Cadences to your preferences.
+
+Cadences consist of steps laid out over a series of days. There can be Email, Phone, Other, and/or Integration steps in a Cadence. Each step will be a specific type of action you will take to engage a Person.
+
+When building the Cadence, you will want to consider the goal you are trying to accomplish. Then, decide what the best order of actions for you (or your team with Team Cadences). This means, strategically planning which steps should take place on what day. Planning could involve leveraging research and sales engagement consultants for overall approach and personalization for the customer.
+
+To Create a Cadence, you will need to Add the Cadence from the Cadences Page. This creates the Cadence structure. Then you will add the settings for your Cadence, like the name, type of Cadence, and priority level. Here are some Cadence naming tips:
+Create a consistent Cadence naming convention that includes the year (e.g. 2021 - Q2- Outbound)
+Update soon-to-be-archived Cadence names with OLD in the name
+As soon as you hit Save, you will be directed to the Cadence Overview page. The space will have two available options: 
+Start from Scratch: Allows you to add steps on your own . This is best for creating your own specific Cadences. 
+Start with Cadence Frameworks: Allows you to select a Cadence Framework. 
+Once the steps are added to the Cadence, you can add People to the Cadence and begin running your Cadence Steps. 
+Evaluate the Cadence
+You may think that the best Cadences are the ones that stand the test of time, but that's actually not the case. Your Cadences should be evaluated regularly so you can make sure they are driving outcomes, like Meetings Booked or Opportunities Created, on both the overall cadence level and step level.
+
+Your Cadences are like a good and sturdy pair of blue jeans (go with me on this one) – they're functional, durable, and stand out in a crowd. Now, even the best jeans need to be washed once and while, similar to scrubbing your Cadences to make sure they are fresh. And if that day comes when you have a bad hole in your jeans, or they've spent too much time unused in the bottom of the drawer, it's probably time to get rid of them. 
+
+We recommend that teams review Cadence each month or quarter, and create new ones where necessary. You can check out review which Cadence used recently and evaluate its performance, to see where success has occurred and where potential changes could be made.
+
+Here's a report you can create in Salesloft Analytics to review Cadences that are not being used: 
+Go to your Analytics Reports and select the Cadences Standard Report.
+In the Cadence report, filter the report  to look for Cadences between the last month or quarter. Example: 2020 - May 8th, 2021. 
+Take a look at the People Added column as well as the Owner column.
+Archive all Team Cadences with 0 People added in that date range. 
+Reach out to reps who have Personal Cadences needing archiving.
+Iterate on the Cadence
+Once you have evaluated the performance of your Cadences, you should aim to improve them through iteration. Iterating means using your prior Cadence learnings and implementing changes to achieve your sales goals faster.
+
+Iterating can take a few different forms:
+Create a new Cadence: Using the previous cadence as a template, keep the practices that worked well, make changes where opportunities were identified, and experiment with new techniques.
+Edit existing Cadences
+Continue to compare the newest cadence to its predecessor to see if the overall yield was higher or lower. Consider outside factors, like seasonality and new markets, where it makes sense.
+Cadence Best Practices
+
+The create, evaluate, iterate process is recommended for teams and reps in any organization. Here are some additional best practices you can apply based on your role in your organization: 
+
+
+Best Practice for Managers and Sales Operations
+Compare actively used Cadences to see which ones have the highest conversion for Meetings Booked or Opportunities Created.
+View Active Cadences from the The Cadences Page.
+Filter by  Active People = Includes. This will filter down the list to only show cadences that have people in progress on the cadence.
+Sort by Meeting Rate or Opportunity Rate Descending. This will sort the list with the highest performing cadences at the top of the list by the metric chosen.
+Identify the top performing Cadences, as well as the bottom performing cadences. 
+Click into the top performing cadences to see what is working well for your team. 
+Click into the bottom performing cadences to evaluate/update the cadence structure, or move those people to a higher performing cadence.
+Best Practice for Sellers
+Estimate how many people need to be added to a Cadence in order to meet quota for Meetings Booked or Opportunities Created.
+Start with aclear goal for what you are responsible for delivering  (ex: Book 20 Meetings)
+View the Cadence Overview Metrics on the Cadence Overview page for the cadence you are using to meet your number. Ideally, you want to have used this Cadence in the past so that the Meeting Rate and Opportunity Rate has accumulated and can be considered fairly reliable. Our internal reference point would be at least 100 people ran through the Cadence.
+View the rate for your chosen metric (ex: 10% Meeting Rate)
+Calculate how many people that would need to be added and ran through the cadence in order to meet quota (20/.10 = 200)
+From there, it would be reasonable to expect to add at least 200 people to your cadence in order to book 20 meetings. Be sure to have them start the cadence in waves, so you can stick to the due dates of the cadence and ensure the prospects receive consistent communication.
+Last Modified By
+Stephanie Griffith, 9/13/2021 5:40 PM
+Title
+What Is a Cadence?
+URL Name
+What-Is-a-Cadence
+Salesloft Knowledge
+Cadences + Tasks
+Create A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

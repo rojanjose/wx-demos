@@ -1,0 +1,48 @@
+DEALS
+Deals Troubleshooting
+
+Apr 22, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Deals (formerly Costello) syncs data with Salesforce. Due to the nature of these syncs, errors may occur when you attempt to transfer information. 
+
+Most errors are a result of validation rules in Salesforce and can be quickly fixed once you see what is actually causing the error.
+
+In this article, we will address the most common error messages you may run into with Deals and possible fixes, including: 
+Insufficient Access Rights
+Validation Rules
+TotalRequests Limit Exceeded
+Don't see your error message? For additional Salesforce error messages, check out our Salesforce Troubleshooting Guide. 
+Insufficient Access Rights
+This error means that you likely do not own the object you're trying to update in Salesforce. You must update the owner before you can make changes.
+Validation Rules
+Validation rules verify that the data entered in a record meets the specific Salesforce standards before the record can be saved. If the data does not meet those standards, you may run into a validation rule error. 
+
+For example, if you forget to fill a mandatory field in a description, a validation rule error may occur. 
+
+Since validation rule errors depend on your team's Salesforce instance, we recommend you check the error message for further instructions. The error message will include what data point is causing the validation rule error. 
+TotalRequests Limit Exceeded
+This error is related to your Salesforce's API usage limits. Your instance limits are shared among all of the apps you have connected to Salesforce. No updates can be made in Costello if you don't have API calls available.
+
+Sometimes just waiting a few hours can free up your API limits since Salesforce measures API calls on a trailing-24-hour-window basis.
+
+If you get this error, try the following solutions: 
+Check if another system is heavily using it.
+Increase your credits by adding more Salesforce users (each user gets another amount of API calls per day) or buying more API credits.
+Last Modified By
+Stephanie Griffith, 4/22/2021 1:31 PM
+Title
+Deals Troubleshooting
+URL Name
+Deals-Troubleshooting
+Deals
+Salesloft Knowledge
+Deals Overview
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

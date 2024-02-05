@@ -1,0 +1,55 @@
+EMAIL
+Insert a Template
+
+Sep 20, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Templates make it very easy to send an email message with previously created content. You can use templates in two core components of the Salesloft platform. 
+
+In this article, you will learn how to use templates, including: 
+Templates in a Cadence
+Inserting Templates into an Email
+Templates in a Cadence
+Put your templates to work within your consistent sales process. By adding templates to your Cadence emails, you ensure that your messages are well crafted with the added benefit of being able to track any metrics the template will accumulate.
+
+To add a template to your Cadence, start by creating a Cadence, then follow these steps:
+Add an Email Step. Stop when you get to the Create Email Step Module (aka the Email Editor window). 
+Select the Insert Template button. The Insert a Template module will appear.
+From the module, you can search for a template using the following methods:
+Select My Template or Team Template tabs at the top of the module.
+Search for a specific template by name.
+Search for templates by tags.
+Select a template by clicking the template name on the left of the module. You can view a preview of the selected template in the Preview panel on the right of the module. 
+Click Insert once you find the template you want to use in your email.
+Click Add Step to finish adding to the Cadence or Add & Create Another to add another step.  
+ 
+Inserting Templates into an Email
+Anywhere you can Send Emails from Salesloft (from the platform, Salesforce, Gmail, or Outlook), you can access your templates.
+
+Things to Note: The steps to insert a template in one of our extensions may be different than the in-app setup. Please see the appropriate guide to learn the process in Salesforce, Gmail, or Outlook.
+
+To use a template within your email in Salesloft, follow these steps:
+Open an email window.
+In the bottom right corner of the email window, select + Insert. 
+From the Insert Options menu, select Templates.
+The Insert a Template module will appear. Select a personal or team template. You can also search for a specific template.
+Select the template you would like to use. Once the template is selected, it will populate in your email.
+Double check your dynamic field information (if applicable) and hit Send. 
+ 
+Last Modified By
+Stephanie Griffith, 9/20/2021 3:06 PM
+Title
+Insert a Template
+URL Name
+Insert-a-Template
+Email
+Salesloft Knowledge
+Email Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

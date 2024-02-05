@@ -1,0 +1,72 @@
+CONVERSATIONS
+Microsoft Teams API Integration
+
+Aug 11, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Microsoft Teams API Integration captures your Microsoft Teams meetings in Salesloft Conversations via an API (application program interface). 
+
+Meeting capturing refers to meetings being recorded, then made available in Salesloft Conversations. By using the Microsoft Teams API Integration, you can record your meeting in Microsoft Teams, and once it ends, the recording file is shared with Salesloft Conversations via an API– eliminating the need for the Conversations Bot. 
+
+Once in Salesloft Conversations, you and your team can review the recording, take notes, create clips, and so much more.
+
+Things to Note: The Microsoft Teams API Integration is available to Conversations users who have either a Microsoft 365 Business Basic or Microsoft 365 Business Standard account.
+
+In this article, we will walk through setting up the Microsoft Teams API Integration, including:
+
+Microsoft Teams Permissions and Admin Consent
+Set Up the Microsoft Teams API Integration
+Tips for Capturing Microsoft Teams Meetings Via the API Integration
+
+
+Experiencing issues with the Microsoft Teams API Integration? Check out the Conversations FAQ & Troubleshooting Knowledge Base. 
+
+Microsoft Teams Permissions and Admin Consent
+
+To set up the Microsoft Teams API Integration, you must have certain permissions enabled and consent to the connection between Salesloft and Microsoft Teams.  
+
+To ensure that your meetings are successfully captured via this integration, be sure that an admin reviews the Microsoft Teams API Integration Admin Guide.
+
+Set Up the Microsoft Teams API Integration
+
+With the Microsoft Teams permissions enabled , you can set up the Microsoft Teams API Integration in your Salesloft account.
+
+To set up the Microsoft Teams API Integration, follow these steps:
+
+Navigate to the Conversations settings under your Personal settings.
+Find the Microsoft Teams tile and click Connect. You will be directed to your Microsoft account.
+Sign in to your Microsoft account, then click Next. 
+Review the App Approval page, enter your reason for requesting the app, then click Request Approval. Your Microsoft Teams admin will be notified and directed to steps on how to accept your request.
+Once your admin accepts the app request, repeat steps 1-3. When the integration is successfully enabled, a green check labeled Connected will appear in the Microsoft Teams tile.
+
+ 
+
+Tips for Capturing Microsoft Teams Meetings Via the API Integration
+
+The Microsoft Teams API Integration makes it easy to capture your Microsoft Teams meetings in Salesloft Conversations. To successfully use this integration, here are a few things you should consider:
+
+Hit Record in Microsoft Teams
+Be sure to hit record when your Microsoft Teams meeting begins to ensure your meeting is captured in Conversations
+Meeting Roles & Ending the Meeting
+Organizers, Co-organizers, and Presenters all have the ability to start and stop recording in Microsoft Teams. The Microsoft Teams API Integration will only capture meetings in Salesloft once the meeting has ended. To ensure that your meeting is successfully captured in Conversations, be sure that everyone on the call with recording permissions leaves the meeting. 
+Conversations Meeting Capturing Rules
+Only meetings that meet the Conversations Meeting Capturing Rules will be captured in Conversations. If your meeting does not fit the capturing rules, you can obtain a copy of the recording file and manually upload it into Conversations.  
+ 
+Last Modified By
+Raequel Sank, 8/11/2023 8:51 PM
+Title
+Microsoft Teams API Integration
+URL Name
+Microsoft-Teams-API-Integration
+Conversations
+Salesloft Knowledge
+Conversations Integrations
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

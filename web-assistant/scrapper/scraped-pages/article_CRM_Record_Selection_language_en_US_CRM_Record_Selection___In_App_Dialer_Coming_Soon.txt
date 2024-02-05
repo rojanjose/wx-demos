@@ -1,0 +1,142 @@
+CRM
+CRM Record Selection
+
+May 11, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+CRM Record Selection allows users to log activity to alternative records, giving you complete control over which Salesforce record an activity will be logged to. 
+
+Things to Note:
+This feature must be enabled by your team admin from the Salesforce Connector Settings. To enable logging to alternative records, reach out to your team admin to enable the feature. 
+Activity logs may also be made to custom objects. Please contact your Salesloft Success Manager for more information.
+In this article, you will learn about CRM Record Selection, including: 
+What Is CRM Record Selection?
+Enable CRM Record Selection
+CRM Record Selection - In-App Dialer
+CRM Record Selection - Meetings Booked on Demand
+CRM Recording Selection and API Calls
+What Is CRM Record Selection?
+Salesloft logs an activity to a Salesforce Lead or Contact record based on their particular email address by default. However, for certain instances, you may need to log that Salesforce data to a different record or even on an alternative object. This is where CRM Record Selection comes into play. 
+
+Let's say you have multiple opportunities that relate to a Person, but only one is relevant for a particular activity. Logging to an alternative record allows you to choose the exact Salesforce record where that activity will log. This will ensure your activity history is recorded into Salesforce in whatever manner that you and your organization prefer.
+
+CRM Record Selection relies on defining the "Who" and "What" in Salesforce:
+Who: The Salesforce Lead or Contact record tied to the Person record in Salesloft will be selected by default.
+What: If the Person is tied to a Salesforce Contact and that Contact is related to an open Opportunity in Salesforce, that Opportunity will be selected by default. In the event there are multiple open Opportunities, the most recently modified Opportunity will be selected as the default.
+Enable CRM Record Selection
+CRM Record Selection must be enabled for your team to log activities to alternative Salesforce records. The feature is managed from the CRM Record Selection tab located in your CRM Sync page of your admin settings. 
+
+Things to Note:
+Only team admins have access to the CRM Sync settings, which includes the CRM Record Selection tab.
+Logging to alternative records is available in the Salesloft application, using Salesloft Connect for Gmail, Salesloft Connect for Outlook - Windows for Desktop and Mac, and Salesloft Connect for Outlook - Office 365 Online.
+Enabling this feature increases the number of API calls made to Salesforce.  
+Once this feature is enabled, your team may choose the Lead, Contact, Account, or Opportunity record that the activity will log to. 
+
+To enable CRM record selection, follow these steps: 
+Navigate to CRM Sync in your Admin Settings.
+Go to the CRM Record Selection tab. 
+When the feature is off, the toggle will appear gray and the text will say Manual CRM Record Selection is disabled.
+Click the toggle to enable the feature. The button will change from gray to blue and Manual CRM Record Selection will be enabled. 
+CRM Record Selection - In-App Dialer
+To log call activities to different Salesforce records, follow these instructions:
+
+Things to Note: CRM Record Selection for calls applies to the in-app Dialer only.
+
+1. Start a call by open the Dialer from a Person Profile page or from a Cadence. This will open the Dialer and the Call Log box. 
+
+2. A grey bar will appear at the top of the Call Log box. This bar will let you know where in Salesforce the email is going to log.
+ 
+
+ 
+3. There are two options to access the Edit Log To window:
+Click the Edit button on the far right of the grey bar.
+Select the Log To button on the bottom toolbar.
+4. The Log To pop-up window will populate any Salesforce matches tied to the record. The records will be divided between the following options:
+Name: Shows any Lead or Contact records tied to the email address.
+Related To: Shows any related Account or Opportunity records tied to the email address.
+5. Click the X on the right side of a dropdown to remove the current record. Removing the record allows you to search for any Salesforce record to link to. Search and use the dropdown to find the record you're looking for.
+
+6. Select the record you want. 
+
+7. Click Confirm. Salesloft will remember the record(s) and use them as the defaults for future messages to this Person (unless they are edited again).
+
+8. Complete the rest of your call notes and Log a Call. The activity history for that Person will indicate which Salesforce record a call logged in the Salesloft application was associated with.
+CRM Record Selection - Meetings Booked on Demand
+CRM Record Selection for meetings allows you to control where your meetings will be logged in Salesforce. 
+
+CRM Record Selection for meetings is available when the CRM Record Selection setting is enabled on the team level.
+
+Things to Note: CRM Record Selection for meetings only applies to meetings booked on demand. It does not apply to insert availability. 
+
+When you go to book a meeting, the grey bar at the top left of the module indicates which Who (Lead/Contact) and What (Account/Opportunity) record the meeting will be logged to in Salesforce.
+
+To edit the records selection, follow these steps:
+
+1. Go to the Profile page of the Person you want to send the meeting invite to and click Book a Meeting from the Quick Actions or the Meetings tab in the Activities panel. The Book a Meeting module will open. 
+
+2. In the upper left corner of the module, click the Edit button in the Logging Activity section. This will jump to the Edit Log To options in the side panel.
+ 
+
+ 
+3. Pick the correct "Who" for the record to log to (if applicable). Select the link with the number of matches in the Name field. This will open the list of all Lead and Contact records in Salesforce tied to the email address.
+
+4. Choose the "What" from the Related To field. Click the link with the number of matches in the Related To field. This will open the list of all Account and Opportunity records in Salesforce related to the selected Contact.
+Things to Note: You are not allowed to select the Related To record if a Lead is selected in the Name field.
+5. Once the correct records are listed, click Confirm.
+ 
+
+ 
+The activity history for that Person will also indicate which Salesforce record a meeting was logged to.
+CRM Record Selection and API Calls  
+The nature of CRM Record Selection requires additional usage of Salesforce API calls. The following is a summary of this additional usage:
+When a user enters a specific email address into a compose window in Gmail for the first time	
+
+1 API call is used to find the matching Lead/Contact
+
+If a Contact is found, 2 additional API calls are used to find related Accounts & Opportunities
+
+When a user opens the Log To Alternative Record pop-up window	
+
+If the default record is a Lead
+
+1 API call is used to find matching Leads/Contacts with the recipient's email address
+
+If the default record is a Contact
+
+1 API call is used to search for matching Leads/Contacts with the recipient's email address
+2 API calls are used to find related Accounts & Opportunities
+
+When a user searches for a Person in the pop-up window	
+
+1 API call is used to search for matching Leads/Contacts
+
+
+When a user selects a Contact from their Person search results	
+
+2 API calls are used to find related Accounts & Opportunities
+
+
+When a user searches for a related record (Account, Opportunity, Custom Object)	
+
+1 API call is used to find matching records
+
+
+ 
+Last Modified By
+Briana Morgan, 5/11/2022 2:40 PM
+Title
+CRM Record Selection
+URL Name
+CRM-Record-Selection
+Salesloft Knowledge
+Salesforce
+CRM
+Salesforce User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,49 @@
+GETTING STARTED
+Accept Your 'Welcome to Salesloft' Email Invitation
+
+Mar 23, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Woohoo! You've received an invitation to join Salesloft.
+
+Your Salesloft admins invite individuals to join their Salesloft team. Accepting this invitation, allows you to join your Salesloft team and set up your account. 
+
+Things to Note: Your invitation to join Salesloft lasts for 24 hours. If your account is not activated within 24 hours of receiving the invitation, you will need to contact Salesloft support to reset your token.
+To accept your invite and set up your Salesloft account, follow these steps:
+
+1. Locate the Salesloft invitation in your email inbox. The email will come from Salesloft, i.e. Salesloft is the sender, and the subject line will be "You have been invited to join a Salesloft team".  
+ 
+Things to Note: If you don't see the email at first, check your spam folder.
+ 
+
+
+2. Open the email and click Set Up Your Account. This link will direct you to the Create Your Salesloft Account page.
+
+3. On the Create Your Salesloft Account page, type in your preferred password to create your password. Re-enter the password in the final text box to complete the login.
+Things to Note: Your first name, last name, Job Role, and email address are entered by the team admin who sent your invite. If you would like to update your name or Job Role, you can do so when you sign into Salesloft and access your Profile Settings. If your email address was entered incorrectly, please contact support and request to update your email address.
+
+5. Click Submit. You've officially created your Salesloft account! At this point, you will be logged out and directed to the Salesloft Sign-In page where you can sign-in and access your account. 
+
+ 
+
+
+Now that you've created your Salesloft account, you will need to walk through some additional steps to continue setting it up. Check out the User Startup Checklist article for additional information on setting up your account.  
+ 
+If you're having trouble signing into your newly created Salesloft account, check out our Getting Started FAQ & Troubleshooting section for helpful articles about troubleshooting sign-in issues. You may also try resetting your password. 
+Last Modified By
+Stephanie Griffith, 3/23/2023 3:05 PM
+Title
+Accept Your 'Welcome to Salesloft' Email Invitation
+URL Name
+Accept-Your-Welcome-to-Salesloft-Email-Invitation
+Salesloft Knowledge
+Getting Started
+Set Up Salesloft
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

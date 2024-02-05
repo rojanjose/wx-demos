@@ -1,0 +1,76 @@
+ANALYTICS + REPORTING
+Analytics Overview: Cadence Process Panel
+
+Jan 6, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Cadence Process panel provides a quick insight into the Cadence steps and People added based on your Analytics Filters. 
+
+The panel looks at the total completed steps, the total skipped steps, overdue steps, and new People added to Cadences. 
+
+Taking these details into consideration, the panel aims to answer the following questions: 
+Are we growing our activities and efforts within Cadences?
+Are we adhering to Cadence design?
+Are we executing Cadences as planned?
+Are we adding enough People to our sales funnel?
+In this article, you will learn about the Cadence Process panel, including:
+The Cadence Process Panel
+Cadence Process Metrics and Calculations
+Panel Drill Down: Process Standard Report
+The Cadence Process Panel
+The Cadence Process panel contains the following details from the top of the panel working our way down:
+Panel Name: Cadence Process
+View Report: (Drill down to more details) Takes you to the Process Standard Report.  
+Primary Metric: Total Completed Steps
+Primary Metric Chart: Below the Total Completed Steps, the chart shows the visual representation of the primary metric. 
+Secondary Metric: Average Cadence Process Results
+Skipped Steps %
+Overdue Steps %
+On-Time Steps %
+People Added
+Period Comparison based on date selection: To the right of the metrics, you will see a small percentage in either green or red. This will show how your numbers have increased or decreased over time. 
+ 
+Cadence Process Metrics and Calculations
+Each panel contains primary and secondary metrics. These metrics are calculated in different ways. Check out the Analytics Metrics List for a complete list of metrics. 
+
+The Cadence Process panel includes the following metrics based on the associated calculations. 
+ 
+Metrics
+	
+Description
+	
+Calculations
+
+Total Completed Steps	This is different from total activities as this only includes steps or activities completed in a Cadence.	
+Sum (completed steps)
+Skipped Steps	If a Person has multiple skipped steps in a Cadence, each step is counted.	
+Sum (skipped steps)
+Overdue Steps	A step is counted as overdue if date the step is marked as complete is after the original due date.	
+Sum (overdue steps)
+
+
+New People Added
+
+	 	
+Sum (new People added)
+ 
+Panel Drill Down: Process Standard Report
+This panel drills down into the Process Standard Report, where you can see all the other steps completed.
+ 
+Last Modified By
+Briana Morgan, 1/6/2023 8:49 PM
+Title
+Analytics Overview: Cadence Process Panel
+URL Name
+Cadence-Process-Panel
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Overview Panels
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

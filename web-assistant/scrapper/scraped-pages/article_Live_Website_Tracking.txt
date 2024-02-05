@@ -1,0 +1,72 @@
+PEOPLE AND ACCOUNTS
+Live Website Tracking
+
+Dec 13, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Live Website Tracking lets you track your prospects’ and customers’ activity and interactions with your web pages in real time to ensure you’re striking while the iron’s hot and engaging the right people at the right time!
+
+By increasing your awareness of your prospects’ browsing behavior within designated websites, you can preemptively determine the questions or concerns they may bring up during the sales process and prepare to address those points.
+
+After a team admin Enables Live Website Tracking, links sent in emails from Salesloft and clicked by the recipient will trigger the view tracking of your web pages. You can view the tracking activity in real time from the Live Website Tracking dashboard as long as your admin has enabled the dashboard and granted permissions to view it. The dashboard will then display each person’s browsing activity either in a card or list view format.
+
+Things to Note: If you click a link that was meant for a prospect at one point, your activity may be linked to that Person. Download the Salesloft Chrome Extension to prevent any tracking of your own site views.
+
+In this article you will learn how to set up and use Live Website Tracking, including:
+View the Live Website Tracking Dashboard
+How Does LWT Affect Website Load Times? 
+View the Live Website Tracking Dashboard
+The Live Website Tracking dashboard will show users the prospect who are currently viewing your designated websites and how long they visit the site. Whenever a person clicks on a link with a live website tracker, an activity card will appear on the dashboard as long as they are accessing the website.
+
+People who are currently viewing a website will appear on the dashboard with the "Live" icon. The “Live” icon/visited status indicates that the prospect has been on your website in the past 10 seconds. After the person closes the browser window or tab of your website, their activity card/list item on your tracking dashboard will disappear within 15 minutes of them closing the window or tab.
+
+Things to Know: If the Person has your website open on their browser window or tab, but is not actively viewing your website (i.e. they’ve got a different website open in another browser window or tab), their activity card/list item will still remain on your tracking dashboard. The "Live" icon will disappear after the Person has been on the site for more than 10 minutes. It will reappear and disappear every 5 minutes as long as the website remains open.
+
+To access and view the Live Website Tracking dashboard, follow these steps:
+
+1. Click the tracker icon from the side navigation panel. 
+
+2. Select your View Mode. You can also filter the viewed items by those people owned by you in your team’s Salesloft instance.
+Card View: Displays activity cards that include the person's name, the amount of time they've visited the website, call, and email buttons for quick actions.
+ 
+
+ 
+List View: Shows the person's name, title, account, Salesloft Owner, stage, visiting status, and duration of time on the website. 
+ 
+
+ 
+3. Click the card/list item to view the following within the dashboard:
+Person's CRM link
+Person's LinkedIn profile link
+Quick actions Call button
+Quick actions Email button
+List of  specific URLs and web pages they’ve visited during that session.
+ 
+
+ 
+4. Click on the Person’s name on the activity card/line item to quickly navigate to their Salesloft profile page. The Person Activities Panel contains the Tracking tab that displays a timeline of their past and current Live Website Tracking activity.
+How Does LWT Affect Website Load Times?
+Salesloft uses a use a globally distributed Content Delivery network (CDN) to serve the Live Website Tracking code. CDN is an advanced form of caching and delivering code quickly based on location of the person loading the code on a site. This allows the code to be physically very close to your customers computer which speeds up delivery time.
+
+On top of the CDN we use the async attribute for our script, which tells chrome to not block anything loading on your page while its doing anything for our code.
+
+Because of the async attribute, in the unlikely event that the time to serve our code increases dramatically, it would not affect the perceived load time, or time to interactive of your page at all.
+Last Modified By
+Stephanie Griffith, 12/13/2021 5:30 PM
+Title
+Live Website Tracking
+URL Name
+Live-Website-Tracking
+Salesloft Knowledge
+People And Accounts
+People
+People Page
+People Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

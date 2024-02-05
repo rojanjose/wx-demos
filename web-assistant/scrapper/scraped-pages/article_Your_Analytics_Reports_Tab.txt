@@ -1,0 +1,66 @@
+ANALYTICS + REPORTING
+Your Analytics Reports Tab
+
+Dec 19, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Reports Tab is the home for all of your Salesloft reports.
+
+You can think of the reports tab like your personal report organizer that organizes standard and custom created reports into different sections. Each section has a standard report that can be used as a template for custom reports. 
+
+Within each section you will also see any custom reports. Each section can hold an unlimited number of custom reports. 
+
+In this article, you will learn about using the Analytics Reports Tab, including: 
+Reports Sections and Information
+How to Use the Reports Tab
+Available Sections
+Reports Sections and Information
+The Reports Tab is made up of different sections. Sections are groups of analytics reports based on different categories. View the available sections below. 
+
+Each report section will include the following details:
+Section Name
+Section Description: Includes suggestions for Salesloft reports that can be created for this section.
+Standard Report View: Link to the Standard Reports. Standard reports contain default filters, no sorting, and all available columns per report. 
+Create Custom Reports: You will have the ability to create an unlimited number of custom reports and export these customized results.
+ 
+How to Use the Reports Tab
+When you would like to view a report, follow these steps: 
+Go to Analytics Page. You will land on the Overview Tab by default.
+Click the Reports Tab.
+Find the relevant report section.
+Click on report name to open the selected report.
+ 
+Available Sections
+The Reports Tab currently holds the following sections:
+Cadence Reports: Compare cadences by successes, meetings booked, reply rates, on-time steps, avg. personalization and effectiveness score.
+Team Cadences by User Reports: Compare team Cadences by successes, meetings booked, reply rates, on-time steps, avg. personalization and effectiveness score.
+Team Reports: Compare user performance by total activities, activities per day, lead lifetime, effectiveness score, and personalization.
+Accounts Reports: Analyze efforts and results by touches (including calls, emails, and LinkedIn), last touched, successes, and meetings booked.
+Email Reports: Analyze personalization, reply rate, open rate, and bounce rate personalization by user, day of week, and hour of day.
+Meetings Report: Analyze meetings booked, meetings attended, and no-show meetings by user, account, and date.
+Template Reports: Compare personalization, reply rates, and bounce rates by template, user, date, and month.
+Call Reports: Analyze calls logged, calls dialed, call duration, and Connected Call rate by user, date, and hour of day.
+Call Sentiment Reports: Analyze custom and standard sentiments, including positive sentiments by user, day, and hour of day.
+Call Disposition Reports: Analyze custom and standard dispositions, including positive dispositions by user, day, and hour of day.
+Process Reports: Compare meetings booked and opportunities created by user, date, week, and month.
+To learn more about each report, check out the Analytics Reports section of the Knowledge Base. 
+ 
+ 
+ 
+Last Modified By
+Briana Morgan, 12/19/2022 9:14 PM
+Title
+Your Analytics Reports Tab
+URL Name
+Your-Analytics-Reports-Tab
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Essentials
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

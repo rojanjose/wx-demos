@@ -1,0 +1,28 @@
+ADMIN GUIDES
+My User's Conversations Trial Has Expired, But The Conversation Recordings Toggle is still enabled. What Does The User Still Have Access To?
+
+Aug 9, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Conversations Recording toggle simultaneously grants access to conference recording and call recording. When the trial ends, your user will no longer have access to Conversations to view and manage recordings; however, they will be able to record calls.
+
+ 
+
+Last Modified By
+Raequel Sank, 8/9/2023 10:28 PM
+Title
+My User's Conversations Trial Has Expired, But The Conversation Recordings Toggle is still enabled. What Does The User Still Have Access To?
+URL Name
+My-User-s-Conversations-Trial-Has-Expired-But-The-Conversation-Recordings-Toggle-is-still-enabled-What-Does-The-User-Still-Have-Access-To
+Admin Guides FAQ + Troubleshooting
+Admin Guides
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

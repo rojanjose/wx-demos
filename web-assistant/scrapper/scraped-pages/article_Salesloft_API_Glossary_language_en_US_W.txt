@@ -1,0 +1,151 @@
+INTEGRATIONS
+API
+Salesloft API Glossary
+
+Jun 2, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z
+A   
+Access Token
+An access token is an artifact that applications use to make secure calls to an API. They act on behalf of a user. This user is the owner of the data that the application is accessing. Access tokens are secure because they expire, whereas API Keys do not.
+API (Application Program Interface)
+APIs are the building blocks of integrations. They are used by companies to expose a set of data from a  resource so that prospective users can pull, edit, or create material. 
+
+APIs are utilized when users make requests to a resource. Developers build these requests by following the API contract found in our Salesloft API documentation. The API contract tells the developer how they can make a request and what they should expect back in response.
+
+To put it simply, an API is kind of like a waitress at a restaurant. The waitress is responsible for taking your order (request) and giving it to the chef (server) to complete your order. Once done, the waitress will then take your order back to you (response). 
+
+Standard API methods include GET (Fetch), POST (Create), and PUT (Update).
+ 
+API Key
+An API key is a confidential artifact that a data controller will generate for a customer who uses their application. An integration can then use this API key to make requests to the data controller’s API and retrieve the customer’s data. The API key will inherit the permissions of the user who generated it. API Keys can be revoked but do not expire, so they should be used sparingly. 
+Authentication
+Authentication is the process of verifying the identity of a user so that an application can access a data controller’s APIs. 
+
+There are two methods of authentication, OAuth 2.0 and API Keys. 
+OAuth 2.0 is the most secure authentication method, especially when allowing a third party to access your team’s data. In the OAuth method, users authenticate themselves by logging into the data controller’s application. 
+Since API keys are generated while a user is logged in, they do not require someone to login. API keys should only be used when a customer wants to give a team-owned application access to their Salesloft data.
+Authorization
+Authorization is the second step in the OAuth authentication process. This is when a user authorizes an integration or application to access their data and gives them the ability to retrieve an Access Token. The integration can then use this access token to request data from the data controller on behalf of the authorized user. The OAuth authorization step requires a user to click an “Authorize” button in a browser or app.
+B  
+Backend
+The backend of an application is the part of a website or app that you do not see. It typically contains all the logic and code that empowers the user’s experience. In Salesloft, a backend application or a Connect App is any integration that does not utilize a Salesloft Iframe. In most cases, the authentication process begins in another application. 
+C  
+Client ID
+The Client ID is an “id”/unique identifier used to identify your application to the server(Salelsoft).
+D
+E  
+Endpoint
+
+An endpoint is where a given resource or object can be accessed in a data controller’s API. An endpoint consists of the URL, the resource, and the API method for that resource. 
+
+F  
+Filtering
+
+Filtering is when an API user sets  parameters or search criteria to make it easier to find records. Ex. Searching for a Person by using their email address. In this example, the email address is the filter. 
+
+Frontend
+
+Generally speaking, the frontend of an application is the visual part of a website or mobile app that a user interacts with. It’s the buttons, the widgets, the wizards, etc. In Salesloft, a frontend application is any integration that has digital real estate in Salesloft using an IFrame. 
+
+G
+H
+I  
+IFrame
+The Salesloft IFrame is the container that includes our partner’s digital experience. When you log into Salesloft, the IFrame is represented by individual square structures showing you the frontend integrations you have turned on. It allows a user to see the logos and buttons of an integration that a customer has enabled. Behind the scenes, Salesloft is giving the integration partner the information about the page so that the application knows what to display on the page. Salesloft IFrame integration points can be found here.
+
+Example. At page load, the Salesloft Iframe tells Integration A that this page is about Company B. Now the integration knows to load Company B’s information in the IFrame. 
+ 
+J  
+JSON (JavaScript Object Notation)
+
+.JSON is the standard language used by APIs that pairs the API Key with a value. You can view these pairings inside the code base. The left side of the colon is the key, and the right side is the value. Value can have various types like integer (number), string (text), data, boolean (true or false) or array.
+
+Example:
+
+ 
+K
+L
+M
+N
+O  
+OAuth 2.0
+
+OAuth 2.0 is the current industry standard for authorizing third parties to access the data a customer has stored with a data controller. 
+
+Example: Customer A has 100 Person records stored in Salesloft’s platform. They want to allow Integration B to access their people records because Integration B has the capability to find mobile numbers and add them to Salesloft Person records. In the OAuth flow, customer A would authorize Integration B to get an access token so that Integration B can start pulling and adding phone numbers to the People records.
+
+Object or Resource
+
+An object or a resource describes a set of related data points. In Salesloft, the Person Object includes data like the First Name, Last Name, Email Address, and Phone Number. While the Account Object consists of the Account Name and Domain.
+
+P  
+Paging
+
+Paging is the most common polling method used by API users. A page is a collection of API records that an application receives when they request data. In Salesloft’s case, a page can have one record or 100 records. When paging, the API user processes page 1, and if there’s more data, they request page 2. They do this until all the data has been processed, stored, etc. 
+
+This method is considered easy for the developer building the application, but it can be harmful to the data controller’s database. Requests for a high number of pages (higher than 100), can put a strain on the data controllers system. 
+
+API users should consider using the cursor-based polling method for endpoints that have a lot of records that are constantly being updated.
+
+Polling
+
+Polling is the most common API delivery system used to check for changes in data while keeping API cost low. It consists of making requests to an endpoint to GET, POST, and PUT data. Salesloft’s standard method for making API calls, especially when syncing data with a system of record like CRM, is cursor-based polling.
+
+Q
+R  
+Rate Limit
+
+The Rate Limit is a limitation on the number of API calls that an integration or application can make. A data controller might set a rate limit by minute, hour, or day. At Salesloft, a team is given an allowance of 600 cost per minute. All enabled integrations share this rate limit. 
+
+Redirect URI
+The Redirect URI is provided by the third-party application you are trying to integrate with Salesloft. This tells the server (Salesloft) where to send the user after they have authorized the application to pull their Salesloft data (during the authorization step of the OAuth flow). 
+Refresh Token
+
+A refresh token is an artifact that an application can use to request a new access token without forcing the user to log in again. They have longer lifespans that an access token. 
+
+S  
+Scopes
+
+A scope defines the rules and permissions of resources in an application. It is typically composed of an object name and permission. 
+
+Example: People: Update
+
+In this example, this scope will give an application to update People. Scopes are different from user permissions. While an application might have the ability to update people, the user who authorized the application might not, and vice versa. 
+
+
+Scopes keep applications from requesting data that is outside of their parameters and give users visibility into what data the application will be accessing. An API user chooses the scopes of the application during development. The user then sees those scopes when it authorizes the application during the OAuth flow.
+
+Secret
+The “password” between your application and the authorization server(Salesloft). 
+T
+U
+V
+W  
+Webhook
+
+A webhook is an API delivery system. Webhooks  are used to deliver information about an event in the system of the  company that controls and stores the data (also known as the data controller). Most companies identify Webooks as events, like  Account Created, Account Deleted. When an API user subscribes to a webhook, the data controller delivers the API resource (data set) to the destination that the user requested. 
+
+For example, if an API user subscribes to an “Account Deleted” Webhook event, the data controller will deliver the data set about that event whenever an Account is deleted. 
+
+X
+Y
+Z
+Last Modified By
+Stephanie Griffith, 6/2/2023 8:28 PM
+Title
+Salesloft API Glossary
+URL Name
+Salesloft-API-Glossary
+API
+Integrations
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

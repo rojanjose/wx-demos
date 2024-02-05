@@ -1,0 +1,91 @@
+CONVERSATIONS
+Conversations Admin Checklist
+
+Mar 31, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Conversations captures recordings so you and your team can analyze and review meetings. This functionality allows team managers to showcase success stories to your organization, share examples for faster onboarding, and improve call coaching with live notes and recording reviews. 
+
+To get you and your team set up for Conversations success, we've put together this Conversations admin checklist. Each step in this checklist will direct you to additional resources for set up instructions. Use the list below to track your progress!
+
+In this article, you will learn the recommended steps to set up Conversations as a team admin, including:
+Enable Conversations for Users
+Configure Your Team’s Meeting Platform
+Set Team Bot Behavior
+Add Do Not Record Domains
+Create Note Tags
+Add X-ray Groups
+Setup Team Playlists
+Send Out the Conversations User Checklist
+Enable Conversations for Users
+Step 1: As an admin, you will need to turn Conversations on for your team. To turn on Conversations, follow the instructions outlined below:
+Navigate to your Team Settings.
+Select Users.
+Select the toggle beneath Meeting Recording to choose which users you would like to enable Conversations for. When the toggle turns blue, Conversations has been enabled.
+
+Things to Note:
+Enabling Conversations means that the user's meetings can be captured and viewed in the Conversations tab.
+If a Salesloft user does not have Conversations enabled, they can still view meetings captured for other Conversations users. 
+To learn more about enabling Conversations for your team, check out the Set Up Conversations article. 
+Configure Your Team’s Meeting Platform
+Conversations integrates with a variety of meeting platforms. Before your team starts using Conversations, you will want to be sure that your meeting platform(s) is set up for your organization. 
+
+Work with your IT team and review your meeting platform. Here are some items you may want to consider:
+Do you want to set default recordings? This will guarantee recordings can be added to Conversations, but may lead to storage fees or security risks. 
+Will meeting wait rooms be enabled? 
+Will you require passwords on team member's meetings?
+Set Team Bot Behavior
+The Bot Settings determine how the Conversations bot interacts within your team’s instance. The Bot Settings include the following sections: 
+Bot Name: Determines how the bot will appear as an attendee during meetings. 
+Bot Behavior: where you can configure how and when the bot will join your team's meetings. The bot behaviors include join behaviors and join time. 
+Bot Detects Alternate Emails: Shows the email addresses associated to each Conversations user on your team. 
+For a detailed walk-through and setup instructions of the Bot Settings tab, check out the Manage the Conversations Bot article. 
+Add Do Not Record Domains
+Conversations is a very collaborative tool. With that in mind, there may be some meetings that should not be captured by Conversations first (think meetings with investors or lawyers). 
+
+Admins can add do not record domains to keep Conversations out of those confidential calls. 
+
+To learn how to manage the do not record list, check out the Set Domains as Do Not Record article. 
+Create Note Tags
+Note Tags are labels your team can add to any comments made during the meeting. Once recordings are tagged, you can filter recording lists by a specific tag, to search and review the meetings with that tag.
+
+Only an admin can create the tags your team will use. So, consider the categories that your team would like to review the most. Some common starter ideas include:
+"competitor mentioned"
+"success" 
+"needs review" 
+Then, check out Manage Conversations to learn how to add and edit Note Tags. 
+Add Tracker Groups
+Tracker groups define words or phrases Conversations will search for during a call. Managers can use tracker groups as an additional coaching tool to make sure a subject of importance is mentioned, or to help a rep get rid of a pesky crutch word habit.
+
+As an admin, you decide the words and phrases to zero in on with tracker groups. For example, my manager would create a tracker group that includes "so" and "and" because that's how I start way too many of my spoken sentences. The tracker group would help increase my awareness and, hopefully, improve my way of speaking. 
+
+To learn how tracker groups are created, check out the Manage Tracker Settings article. 
+Setup Team Playlists
+Conversations playlists are collections of recordings saved in a view. Anyone on your team can create or view a playlists. However, to keep playlists collaborative, you may want to go ahead and create some standard playlists for your team. Here are some playlists suggestions: 
+Playlists to train new reps on the parts of your Sales process from Qualifying to Close.
+Rep specific playlists to track progress. 
+Playlists for wins vs losses.
+To learn more about playlists, check out the Conversations Playlists Tab article.  
+Send Out the Conversations User Checklist
+Good news! Your part in setting up Conversations as an admin is almost complete. Now, it's your team's turn to set up their own instances. 
+
+Once you've completed the steps above, send each Conversations-enabled user the Conversations User Checklist. 
+
+Here, they will walk through the set up instructions as a user. You can also follow these steps for your own Salesloft instance. You will also find a daily Conversations checklist with the recommended steps for Conversations success.
+Last Modified By
+Stephanie Griffith, 3/31/2023 6:51 PM
+Title
+Conversations Admin Checklist
+URL Name
+Conversation-Intelligence-Admin-Checklist
+Conversations
+Salesloft Knowledge
+Conversations Essentials
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

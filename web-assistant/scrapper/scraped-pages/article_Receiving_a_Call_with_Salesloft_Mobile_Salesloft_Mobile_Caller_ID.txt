@@ -1,0 +1,56 @@
+SALESLOFT MOBILE
+Receiving a Call with Salesloft Mobile
+
+Sep 28, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft can receive incoming calls outside of the Salesloft platform. With Salesloft Mobile, you can receive that call and log that activity even if you're away from your desk. 
+
+In this article, you will learn about receiving calls with Salesloft Mobile, including: 
+Inbound Calls and Salesloft Mobile
+Salesloft Mobile Caller ID
+ 
+Inbound Calls and Salesloft Mobile
+By default, returned or inbound calls are directed to the forwarding number you assign in your Dialer settings. If that forwarding number is set as your mobile number, any inbound calls will go to your mobile device. 
+
+Things to Note: If you have enabled Inbound Calling in your Chrome browser, the call will appear on your computer and your forwarding number simultaneously. You may answer on whichever device is most convenient for you. 
+
+With Salesloft Mobile, you can answer the call as you normally would. Once the call is complete it will be listed under the Recent Calls tab in the Salesloft Mobile app. There, you can log any call details (please, don't log notes while driving and abide by your area's local driving laws).
+Salesloft Mobile Caller ID
+Users with Salesloft Mobile will be able to see the Caller ID information (name and Account of a prospect) on your forwarding number. Afterwards you can use this information to log the call right from the mobile app. 
+
+Things to Note:
+Salesloft Caller ID will be overridden if the contact information for the person calling is saved directly to the user's contacts on their phone.
+If the phone number matches with more than one Person in Salesloft, it will display "A Person in Salesloft."
+ 
+In order to gain access to this feature, you must allow Salesloft Mobile to access Caller ID in your Apple Settings. Follow these steps to enable Caller ID on your phone: 
+
+1. Open your Apple Settings.
+
+2. Select Phone.
+ 
+3. Click Call Blocking & Identification.
+ 
+4. Under "Allow these apps to block calls and provide Caller ID:" toggle on the Salesloft Mobile option.
+ 
+Once the feature is enabled, any Person you have contacted within the past two weeks will be synced and their Caller ID will populate when they call.
+
+The Caller ID will sync to the most recent information from your Salesloft account. However, you can manually update the CallerID list in the Salesloft Mobile Settings page. 
+ 
+Last Modified By
+Stephanie Griffith, 9/28/2021 6:00 PM
+Title
+Receiving a Call with Salesloft Mobile
+URL Name
+Receiving-a-Call-with-Salesloft-Mobile
+Salesloft Knowledge
+Salesloft Mobile
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

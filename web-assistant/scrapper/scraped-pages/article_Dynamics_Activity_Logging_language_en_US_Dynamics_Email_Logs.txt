@@ -1,0 +1,170 @@
+CRM
+Dynamics Activity Logging
+
+Sep 15, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Microsoft Dynamics 365 treats emails and calls as separate entities. Keeping this in mind, Salesloft lets teams decide whether their call and email activities will log as a general task type or as an email/call in Dynamics. 
+
+Using the email/call type in Dynamics allows your team to differentiate email and call specific activity for prospect tracking and reporting purposes.
+
+Dynamics activity types within Salesloft enable the reliable synchronization of activity data between Salesloft and Dynamics.
+
+In this article, we’ll discuss important aspects of Dynamics Activity Logging, including:
+Dynamics Activity Logging Included Features
+Select Dynamics Activity Logging Preferences
+Dynamics Email Logs
+Dynamics Call Logs
+Dynamics Other Step Logs
+Messenger Logs
+Salesloft Note Logs in Dynamics
+Meeting Logged as a Task
+Meeting Logged as an Appointment
+Duplicate Events Synced with "Meeting Booked"
+Conversation Intelligence Logs in Dynamics
+Warning Messages for Dynamics Activity Logging
+Dynamics Activity Logging Included Features
+Dynamics activity logging helps identify your team's call and email activities in Dynamics. Logging activities to the specific call or email type allows you to create more detailed reports that show which type of activities have been completed. 
+
+Other functions that come with this features include: 
+Email Reply Logging and Voicemail Logging preferences can be enabled.
+All standard field types are supported .
+Additional custom fields are supported for all field types (Boolean, Picklist, String, Integer, Datetime).
+In Activity Field Configuration you can create new additional fields specifically for Email and Call logging activities. 
+Field mapping maintenance (clearing field mappings when switching logging preferences).
+Things to Note: Dynamics activity logging and the features listed above are only available for Microsoft Dynamics customers.
+Select Dynamics Activity Logging Preferences
+By default, any activity logged in Salesloft also logs to your CRM. You can edit or disable this setting at any time.
+
+The Dynamics Activity Logging panel shows which logging settings are currently turned on for your team. 
+
+To set your Activity Logging preferences, follow the instructions below:
+Navigate to CRM Sync in your Team Settings. You will land on the CRM Sync Settings tab.
+Go to the Activity Logging panel and select Edit. You will be redirected to the Activity Logging page. This page contains the available logging options for your CRM type. The options are grouped into the following sections:
+Email and Reply Logging
+Log as Task
+Log as Email
+Call and Voicemail Logging
+Log as Task
+Log as Phone Call
+Meeting Logging
+Log Meeting as an Appointment
+Log Meeting as a Task
+Note Logging
+Step Logging
+Select the checkbox for the activities you wish to log or deselect a checkbox to disable activity logging. 
+Click Save. A popup notification will inform you that the Activity Logging (was) Updated.
+Dynamics Email Logs
+After an email is sent from Salesloft or sent from Gmail or Outlook using the Loft It button, the log will appear under the activity history of the Lead or Contact and the Account.
+
+Email logs will be recorded with the subject line "Email: (Subject line of the email)."
+ 
+
+ 
+ 
+When you enter the activity details, you will find the body of your email message in the comments. Other activity-related data will be filled out according to your Activity Field Mapping Settings .
+Dynamics Call Logs
+Calls that are logged from the Dialer will appear under the activity history of the Lead or Contact and the Account.
+
+Call logs will be recorded with the subject line "Call: (Call Disposition)|(Call Sentiment)."
+ 
+ 
+ 
+When you enter the activity details, you will find any notes that were logged from the call in the comments. Other activity-related data will be filled out according to your Activity Field Mapping Settings.
+Dynamics Other Step Logs
+Any other steps not previously listed are logged under the activity history along with your emails and calls any time another step is logged from a Cadence. 
+
+Things to Note: Other steps that are Complete Only will not be logged. 
+
+Other steps are logged as "Other: (Step Name)."
+
+
+
+Any notes logged in the Other step log box will appear in the comments in the activity details.
+Messenger Logs
+Each time a message is sent or received via the Salesloft Messenger, a new activity is created. As you and your prospect continue the conversation, the texts will be added to that activity. If there is a one-hour break in the conversation, a new message (sent or received) will generate a new activity. These activities are visible from the activity feed on a Person’s profile page.
+ 
+
+Activities are then synced with CRM activities according to the user's specified field configuration.
+ 
+Salesloft Note Logs in Dynamics
+Salesloft allows you to log single notes on a Person record. Any time a note is taken, it will be logged in Dynamics under the activity history on that Dynamics object. When logs are made to a Dynamics Contact, the log will also roll up to the Dynamics Account. 
+
+Notes will be logged with the subject line "Note" and note details will appear in the Comments in the activity details.
+Meeting Logged as a Task
+Whenever you Book Meetings Through Salesloft, whether you send a Person a meeting invite or they select a meeting time from a calendar link, the meeting will appear on the Person Profile page in Salesloft. By default, the meeting will also log to Dynamics as a closed activity task. 
+
+Things to Note:
+Meetings will log as tasks unless otherwise designated in the Dynamics Activity Logging settings.
+If a meeting is rescheduled or canceled, Salesloft will not reflect the changes. Once an event has been created, Salesloft does not track or maintain any further updates on the event.
+Dynamics Meeting Booked tasks will log with the subject, like "Meeting Booked: (Meeting Title)." Additional field information may be logged as well based on your team's Activity Field Configuration. The specific fields for a booked meeting include: 
+Meeting Booked By
+Meeting Type
+Meeting Logged as an Appointment
+When your team logs meetings to Dynamics as appointments in the Dynamics Activity Logging Settings, all meetings will be logged to Dynamics as appointments. Logging meetings as tasks will automatically stop.
+
+The following meeting details will be logged to standard Appointment fields:
+Subject
+Description
+Location
+Assigned To
+Meeting Start/End
+All attendees will be logged to Dynamics in case an attendee email matches the email of the Salesloft user with a connected CRM, or it matches the email of the Salesloft Person with a related CRM record. In addition, these attendees will be logged with "Hasn't Responded" status.
+Duplicate Events Synced with "Meeting Booked"  
+Salesloft adds the prefix "Meeting Booked" when events sync to Dynamics so that Salesloft events can be easily filtered out in the reports (for example: Meeting Booked: Discovery Call).
+
+If your team has event sync enabled in Dynamics, Dynamics recognizes this event as a new event since the original title of the event was modified. It then syncs the event back to the user’s calendar.  This logic may cause some users to see duplicate meetings with additional “Meeting Booked” prefixes on their calendars.
+
+In order to avoid this situation we recommend disabling or modifying the event sync setting in Dynamics. If you have calendar sync enabled, Salesloft will still capture and log the meeting event as long as the Person (attendee) is syncing with a Lead or Contact in Dynamics.
+
+Alternatively, you can modify your CRM Sync and personal Calendar Sync settings in Salesloft. Learn how to Set Up Calendar Sync here.
+Conversation Intelligence Logs in Dynamics
+Processed Conversations meeting recordings will log as tasks in Dynamics. The tasks will log to Leads and Contacts if the record is linked between Salesloft and Dynamics. 
+
+Things to Note: Calls made through the Salesloft Dialer that are recorded within Conversation Intelligence will log to Dynamics as a Call. 
+
+If there are multiple people on the invitees list, the completed task will log to all the people who are on the invitees list of the calendar invite, as long as the invitee exists in Dynamics already.
+
+To ensure that your Conversations meeting recordings push to Dynamics as intended, be sure that the Subject, Date, and Description are always included in your meeting invites. Additionally, a team admin may map the following fields in your Activity Field Configuration:
+Meeting Date
+Meeting Name
+Meeting Assigned To
+Meeting Duration
+Meeting Start Time
+Meeting Recording URL
+Things to Note: Mapping these fields is optional, but can be done to ensure that your meetings are pushed to Dynamics.
+
+Admins can use the Meeting Recording URL as a unique identifier when pulling reports-related CI activity data.
+
+Conversation Intelligence recordings will log to Dynamics under the subject line Recording: (Name of the Recording). The comments section will include a list of the invitees as well as the meeting recording URL.
+ 
+Warning Messages for Dynamics Activity Logging
+If you decide to switch from the general tasks type to the specific email/call types, Salesloft clears un-needed activity field mappings and provides a warning when activity logging preferences are changed. This way, admins can confidently manage their activity logging preferences without much manual intervention. 
+
+When you switch preferences, warning messages appear for activity mapping changes. For example, if you turn off Email Logging, you will receive a message warning you that reply logging will also be disabled. Click Disable Logging to complete the action.
+ 
+
+When you change from Call-Call logging to Call-Task logging, you will receive a message warning you that field mappings specific to call logging will be removed. This will result in field mappings and additional fields being cleared to allow for the admin to create new mappings based on new activity logging preferences.
+
+Things to Note:
+The same type of warnings you are about to view also apply when call-task logging/email-task logging is changed to call-call/email-email.
+Historical data will NOT be affected in any way. 
+ 
+Last Modified By
+Briana Morgan, 9/15/2022 1:36 PM
+Title
+Dynamics Activity Logging
+URL Name
+Dynamics-Activity-Logging
+Salesloft Knowledge
+CRM
+Dynamics
+Dynamics User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,41 @@
+ADMIN GUIDES
+Manage Video Conferencing
+
+Jul 18, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+When reps book a meeting through Salesloft, you can set up your meeting invite  to include a link to the meeting platform of your choice within the event location or description boxes.
+
+The Video Conference Setting lets you determine which meeting link will appear in your invites. 
+
+
+To manage the Video Conference setting, following these steps: 
+
+Go to the Meetings Settings in your Team Settings. 
+Select the Video Conference tab.
+Click the toggle for your team’s video conference type. When the toggle is blue, the video conference setting is enabled.
+
+You may select between the following video conference options: 
+ 
+
+Google Meet: (Only for Google Calendar Users) Enabling the toggle will add Google Meet links to all calendar invites. Your users will not need to enable anything on their end.
+Microsoft Teams: (Only for Microsoft 365 users) Microsoft Teams links will automatically be added to all calendar invites. Individual users do not need to do anything.
+Zoom for Meetings: Allows users to add a Zoom link to their meetings. When this is enabled, Zoom for Meetings appears on the user Profile Settings page. When enabled, Zoom will appear in the meeting descriptions under the location dropdown.
+Last Modified By
+Stephanie Griffith, 7/18/2023 8:30 PM
+Title
+Manage Video Conferencing
+URL Name
+Manage-Video-Conferencing
+Admin Guides
+Communication Settings
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

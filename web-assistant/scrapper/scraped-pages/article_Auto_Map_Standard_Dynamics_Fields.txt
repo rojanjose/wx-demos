@@ -1,0 +1,302 @@
+CRM
+Auto-Map Standard Dynamics Fields
+
+Mar 23, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+From mapping default and standard fields to creating custom fields, a large portion of time as a new Salesloft customer can be spent setting up your team's instance between your CRM and Salesloft. 
+
+Fortunately, Salesloft created a feature that auto-maps standard fields to decrease your set up time.
+
+Things to Note:
+IMPORTANT - ORDER MATTERS: If you or any admin on your team starts mapping fields BEFORE you select Dynamics as the CRM Type, you WILL NOT be able to take advantage of the auto-mapping. Our system will see fields mapped and will respect them.
+Due to the reason above, auto-mapping will not impact current customers with any field mappings. All current field mappings will be respected and stay intact.
+If you are a customer that has never had CRM Sync enabled, you can auto-map fields using the CRM Type setting. The auto-map feature will map standard fields in an inbound from CRM to SL direction. You can edit this mapping's direction or remove the mapping, if needed.
+
+In this article, you will learn how fields are auto-mapped and the fields included in auto-mapping For Dynamics, including:
+Auto-Map Standard Dynamics Fields
+Auto-Mapped Person Fields: Dynamics Lead Fields
+Auto-Mapped Person Fields: Dynamics Contact Fields
+Auto-Mapped Dynamics Account Fields
+Auto-Mapped Dynamics Opportunity Fields
+ 
+Auto-Map Standard Fields 
+To auto-map standard fields from Salesloft, follow these steps: 
+In Salesloft, click your name in the upper right corner to your  and select your Team settings. Then go to the CRM Sync settings.
+Choose Dynamics as your CRM Type.
+A window will pop up asking you to confirm the CRM Type. Click Confirm. Once you select a CRM Type, the field options will be greyed out. 
+Connect Salesloft to your Dynamics instance.
+Connect Salesloft to your CRM Main Connector account.
+Navigate to the Field Configuration Page to see your Auto-Mapped Standard Fields and verify the mapping is exactly how you want it to be. The fields direction will be set to import information from Dynamics into Salesloft. If you want to edit the field or the direction, make those changes on the Field Configuration page. 
+ 
+Auto-Mapped Person Fields: Dynamics Lead Fields
+Dynamics customers using Salesloft have the option to auto-map standard fields. To learn how to enable field auto-mapping check out the CRM Field Configuration article. 
+
+Things to Note: DO NOT manually map any fields if you would like to use the auto-map feature. If any fields have been previously mapped, auto-mapping will not be applied to your instance, and you will have to map all of your own fields. 
+
+Fields will be mapped using the CRM into Salesloft direction option. If you want to change the direction, you can edit the field. Field edits can also include changing the field that is mapped or deleting the field entirely
+
+The following Lead fields will be included in the auto-mapping feature: 
+ 
+Salesloft Field Name	Dynamics Field Label	Dynamics Field Name (API Name)	Direction
+City	City	address1_city	SL←CRM
+Company Name	Company Name	companyname	SL←CRM
+Company Industry	Industry	industrycode	SL←CRM
+Company Website	Website	websiteurl	SL←CRM
+Country	Country	Country	SL←CRM
+Email Address	mapped by default to emailaddress1	mapped by default to emailaddress1	SL←CRM
+First Name	First Name	firstname	SL←CRM
+Home Phone	Home Phone	telephone2	SL←CRM
+Last Name	Last Name	lastname	SL←CRM
+Mobile Phone	Mobile Phone	mobilephone	SL←CRM
+Owner CRM ID	Owner ID	_ownerid_value	SL←CRM
+Phone	Business Phone	telephone1	SL←CRM
+State	State/Province	address1_stateorprovince	SL←CRM
+Title	Job Title	jobtitle	SL←CRM
+ 
+Auto-Mapped Person Fields: Dynamics Contact Fields
+The following Contact fields will be included in the auto-mapping feature: 
+ 
+Salesloft Field Name	Dynamics Field Label	Dynamics Field Name (API Name)	Direction
+Account Crm Id (Contact)	Company Name	_parentcustomerid_value	SL←CRM
+City	City	address1_city	SL←CRM
+Company Website	Website	website	SL←CRM
+Country	Address 1: Country/Region	address1_country	SL←CRM
+Email Address	Email	mapped by default to emailaddress1	SL←CRM
+First Name	First Name	firstname	SL←CRM
+Home Phone	Home Phone	telephone2	SL←CRM
+Last Name	LastName	lastname	SL←CRM
+Mobile Phone	MobilePhone	mobilephone	SL←CRM
+Owner Crm Id	Owner	_ownerid_value	SL←CRM
+Phone	Business Phone	address1_telephone1	SL←CRM
+State	State/Province	address1_stateorprovince	SL←CRM
+Title	Job Title	jobtitle	SL←CRM
+ 
+Auto-Mapped Dynamics Account Fields
+The following Account fields will be included in the auto-mapping feature: 
+ 
+Salesloft Field Name	Dynamics Field Label	Dynamics Field Name (API Name)	Direction
+City	Address 1: City	address1_city	SL←CRM
+Country	Address 1: Country/Region	address1_country	SL←CRM
+Description	Description	description	SL←CRM
+Domain	Website	websiteurl	SL←CRM
+Industry	Industry	industrycode	SL←CRM
+Name	Account Name	name	SL←CRM
+Owner Crm ID	Owner	_ownerid_value	SL←CRM
+Phone	Main Phone	telephone1	SL←CRM
+Postal Code	Address 1: ZIP/Postal Code	address1_postalcode	SL←CRM
+State	Address 1: State/Province	address1_stateorprovince	SL←CRM
+Street	Address 1: Street	address1_line1	SL←CRM
+Auto-Mapped Dynamics Opportunity Fields
+Salesloft automatically maps 10 fields for customers. See below for a list of fields that will map automatically.
+
+As with all auto-mapped fields, these fields are all mapped inbound by default, so if your team would like to make any field map bidirectionally, or to map any fields not included in our auto-mapped fields, go to the Opportunity Field Configuration in Salesloft to manage that configuration.
+ 
+
+Auto-Mapped Opportunity Fields for Dynamics
+
+
+
+
+Salesloft Field
+
+	
+
+Dynamics Field Label
+
+	
+
+Dynamics Field Name (API name)
+
+	
+
+SL ⇋ CRM
+
+
+
+
+Account Crm Id
+
+	
+
+Account
+
+	
+
+_parentcustomerid_value
+
+	
+
+←
+
+
+
+
+Amount
+
+	
+
+Total Amount
+
+	
+
+totalamount
+
+	
+
+←
+
+
+
+
+Close Date
+
+	
+
+Actual Close Date
+
+	
+
+actualclosedate
+
+	
+
+←
+
+
+
+
+Created By Crm Id
+
+	
+
+Created By
+
+	
+
+_createdby_value
+
+	
+
+←
+
+
+
+
+Created Date
+
+	
+
+Created On
+
+	
+
+createdon
+
+	
+
+←
+
+
+
+
+Last Updated Date
+
+	
+
+Modified On
+
+	
+
+modifiedon
+
+	
+
+←
+
+
+
+
+Name
+
+	
+
+Topic
+
+	
+
+name
+
+	
+
+←
+
+
+
+
+Owner Crm Id
+
+	
+
+Owner
+
+	
+
+_ownerid_value
+
+	
+
+←
+
+
+
+
+Probability
+
+	
+
+Probability
+
+	
+
+closeprobability
+
+	
+
+←
+
+
+
+
+Stage
+
+	
+
+Sales Stage
+
+	
+
+salesstage
+
+	
+
+←
+
+Last Modified By
+Raequel Sank, 3/23/2022 1:19 PM
+Title
+Auto-Map Standard Dynamics Fields
+URL Name
+Auto-Map-Standard-Dynamics-Fields
+Salesloft Knowledge
+CRM
+Dynamics
+Dynamics Admin Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

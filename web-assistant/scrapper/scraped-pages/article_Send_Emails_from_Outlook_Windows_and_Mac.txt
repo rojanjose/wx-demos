@@ -1,0 +1,98 @@
+USER GUIDES
+SALESLOFT CONNECT
+CONNECT FOR OUTLOOK
+Send Emails from Outlook - Windows and Mac
+
+Dec 13, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Installing Salesloft Connect for Outlook - Windows and Mac allows you to leverage Salesloft email and templates from your account. This means that you can send emails from Outlook that will log and track messages (if you choose) just like sending them from the Salesloft platform. 
+
+Things to Note: You cannot send emails until you add a recipient’s email address in the “To” row.
+
+In this article, you will learn how to send Salesloft email messages directly from Gmail, including:
+Loft an Email to Send in Connect for Outlook - Windows and Mac 
+Add a Salesloft Template or Snippet in Connect for Outlook - Windows and Mac
+Insert Availability in Connect for Outlook - Windows and Mac
+Using Email Sentiment in Salesloft Connect for Outlook - Windows and Mac
+Loft an Email to Send in Connect for Outlook - Windows and Mac  
+The “Loft It” feature in Outlook sends your email, logs the email in Salesloft (and your CRM), and allows you to track your email metrics. 
+
+Things to Note: If you do not wish for the email to be tracked, you can use the normal Outlook Send button to send without syncing it to Salesloft.
+
+To send Salesloft emails from Outlook, you will need to select the Loft It option. Follow these steps to “Loft” your email from Outlook:
+Open a new message.
+Once your message is ready, hit Loft It, designated by the Salesloft icon, on your toolbar. The Loft It feature allows the email to be tracked for opens, clicks, and replies via the Salesloft platform.
+ 
+Add a Salesloft Template or Snippet in Connect for Outlook - Windows and Mac
+Installing Connect for Outlook allows you to leverage the power and features of Salesloft including adding previously created templates or snippets to your emails. Quickly add a template while your composing an email so you use the same consistent messaging, with the added benefit of tracking metrics.
+
+To add a Template or a Snippet to your Outlook emails, follow these steps:
+Open a new message.
+Click the Insert icon in the toolbar.
+Select either Templates or Snippets from the drop down menu
+The Connect for Outlook side panel will appear. From here you can access both Personal and Team Templates and Snippets via the side panel.
+Search for the Template or Snippet you want.
+Insert any Template or Snippet into a new email or reply. Dynamic tags populate automatically with the corresponding recipient’s information.
+Insert Availability in Connect for Outlook - Windows and Mac
+Insert availability streamlines the process of meeting scheduling between you and your buyer by letting you suggest time blocks as proposed meeting times. Not only can you send and book meeting invites, you can also coordinate internal schedules from within your email. 
+
+Connect for Outlook brings Salesloft's Insert Availability function into your Outlook inbox. 
+
+To insert meeting availability times using Connect for Outlook - Office 365, follow these steps:
+Open a new message.
+Click the Salesloft icon in the bottom right corner. 
+From the dropdown menu, click Open Salesloft. The Salesloft Connect side panel will appear.
+Select the Insert tab.
+Select Availability. The Salesloft Connect calendar will appear.
+Set your meeting availability. For detailed instructions, follow the steps 4-9 listed in the Book Meetings Through Salesloft article.
+Click Insert Times. Any availability blocks you have selected will populate in your email draft. 
+Loft your email to send. 
+
+Things to Note: Insert availability feature is only supported for the below Outlook version: 
+Office 2013 on Windows* (one-time purchase) : Build 15.0.4855.1000 or later
+Office 2016 or later on Windows* (one-time purchase): Build 16.0.4390.1000 or later
+Office on Windows (subscription): Version 1602 (Build 6741.0000) or later
+Office on Mac (subscription): 15.20 or later
+Office on the web: January 2017
+Office Online Server: Version 1608 (Build 7601.6800) or later
+Users with earlier versions will see the following message  when they select Availability in the sidebar: 
+Using Email Sentiment in Salesloft Connect for Outlook - Windows and Mac
+Email Sentiments are qualitative descriptions assigned to your email replies that provide insight into how your message performed. 
+
+An Email Sentiment will be suggested by Salesloft’s Machine Learning algorithm when you open a Lofted email response from a prospect.  The pre-selected sentiment will appear at  the top portion of the response. You can see learn more about the Available Email Sentiments in our Knowledge Base article. 
+
+Things to Note: Email Sentiments only appear for replies to Lofted emails - aka emails sent from the Salesloft platform OR using the Loft It button in Salesoft Connect. 
+
+Each suggested Sentiment contains a brief explanation of why the model assigned the specific sentiment and a Confidence Level. You can view the explanation by hovering over the i icon to the right of the Email Sentiment. The Confidence Level lets you know how sure the model is about the selection so you can also feel confident in that selection. 
+
+You can (and should) review the suggested Email Sentiment when it appears. The Machine Learning algorithm is good, but it can still learn. So, if you see an Email Sentiment assigned that doesn’t match the actual sentiment of the message, the best thing you can do is teach the Machine Learning algorithm by selecting a more appropriate Email Sentiment. 
+
+Things to Note: Any Salesloft user cc’d on the email reply can edit the sentiment. For example, a manager cc’d on emails sent by newer reps can make sure that the Email Sentiment is most accurately showing the rep’s performance..  
+
+When you select a different Email Sentiment, you are editing the Email Sentiment. To edit the Email Sentiment inside Outlook for Windows and Mac, follow these steps: 
+Open your email reply. 
+Open the Connect for Outlook side panel.
+Find the Email Sentiment at the bottom Connect for Outlook side panel. Review the explanation and confidence level. 
+Click the name of the Email Sentiment to open the dropdown menu. 
+Select the Email Sentiment that is appropriate for your email reply. 
+Your new Email Sentiment will be saved and sent to Salesloft Analytics and changes are reflected in charts and reports. 
+ 
+Last Modified By
+Stephanie Griffith, 12/13/2021 11:56 AM
+Title
+Send Emails from Outlook - Windows and Mac
+URL Name
+Send-Emails-from-Outlook-Windows-and-Mac
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Connect For Outlook
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

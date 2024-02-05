@@ -1,0 +1,117 @@
+USER GUIDES
+SALESLOFT CONNECT
+Troubleshoot Salesloft Connect
+
+Oct 31, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Experiencing issues with Salesloft Connect? This guide provides troubleshooting techniques to help fix any issue you may be experiencing.
+
+ 
+
+In this article, we will walk through a checklist to help you troubleshoot any issue you may be experiencing with Salesloft Connect:
+
+ 
+
+Update Google Chrome and Salesloft Connect
+Check your Salesloft Login
+Connect your email to Salesloft
+Clear your Cache
+Disable other extensions
+Reboot Salesloft Connect
+
+ 
+
+Things to Note: If you have completed the steps listed in this checklist and are still experiencing issues with the extension, please contact our support team.
+
+Update Google Chrome and Salesloft Connect
+
+We are constantly updating Salesloft Connect to remain in compliance with Google’s most recent updates.
+
+ 
+
+If you have an outdated version of Chrome, the extension may no longer comply with that edition. To update Google Chrome, check out Google’s Update Google Chrome page. 
+
+ 
+
+To ensure you are using the latest version of Salesloft Connect or update the extension, check out our Update Salesloft Connect article. 
+
+Check your Salesloft Login
+
+Salesloft Connect requires you to log in to Salesloft via the extension. Logging in to Salesloft via the extension ensures that Salesloft and Google Chrome connect properly. 
+
+ 
+
+To ensure you are logged in to Salesloft via the extension, click on the Salesloft Connect icon in your Google Chrome menu bar. If you see a list of Salesloft Connect settings, you are logged in. 
+
+
+If you are not logged in to Salesloft via the extension, you will see a log-in screen.
+
+Connect your Email to Salesloft
+
+The Chrome extension links to the email address that is connected to your Salesloft account. 
+
+ 
+
+When you log in to Salesloft via the extension, be sure to use the same email listed in your Salesloft account.
+
+ 
+
+If you are logged in with an alternative email address, log out of that account, then log using the email that is linked to Salesloft and refresh your browser.
+
+ 
+
+To check which email is linked to your Salesloft account, follow these steps:
+
+Open the Salesloft web app, then navigate to your settings.
+Select Calendar under the Personal settings.
+From the General tab, you will see an email address listed under Your Calendar. This is the email address linked to your account. 
+
+ 
+
+To update, or manage the email address(es) linked to your Salesloft account, check out our Set Up Your Emails knowledge base to learn more about managing your email based on your email client.
+
+Clear your Cache
+
+If you are experiencing issues with Salesloft Connect, you may need to refresh your browser. You can refresh your browser by clearing your cache.
+
+Disable other Extensions
+
+Other Chrome extensions may be impeding Salesloft’s functionality. From your Chrome extension menu, disable or remove other extensions that may block Salesloft’s access.
+
+Reboot the Salesloft Chrome Extension
+
+Sometimes networks can get out of sync and need a quick jolt to get them back on the right track. If your extension is lagging and needs a reboot, you can disable and re-enable the extension.  
+
+ 
+
+To reboot the extension, follow these steps:
+
+ 
+
+Right-click the Salesloft icon in the Extensions bar and select Manage Extensions.This will open the Extensions Manager in a separate browser window.
+From the Extensions Manager, click the toggle to disable, or turn the extension off. When the toggle area is gray, the extension is disabled.
+Wait for a few moments, then click the toggle area again to enable, or turn the extension on. When the toggle area is blue, the extension is enabled.
+Once the extension has been rebooted, you will need to reload any Gmail, Salesforce, or Salesloft tabs that you have open. 
+
+
+ 
+
+Last Modified By
+Stephanie Griffith, 10/31/2023 2:42 PM
+Title
+Troubleshoot Salesloft Connect
+URL Name
+Update-and-Troubleshoot-the-Salesloft-Chrome-Extension
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

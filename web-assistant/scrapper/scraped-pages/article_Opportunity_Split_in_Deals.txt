@@ -1,0 +1,70 @@
+DEALS
+Opportunity Split in Deals
+
+Oct 21, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Closing a deal often requires contribution across your team, whether you’re obtaining a new client or processing a renewal. Your team structure may even include compensation for team involvement in a deal. 
+
+When dividing revenue between contributing team members, Opportunity Splits make it possible to divide revenue.
+
+An Opportunity Split is a Salesforce setting that, once enabled by an admin in Salesforce, can also be enabled by an admin in Salesloft. Once enabled, Opportunity Splits show the split percentage and amount for a given deal in the Pipeline Health Details tile. The Opportunity Split amount is a percentage of ownership across contributing team members that adds up to 100%.
+
+With Opportunity Splits in Salesloft, you can also roll your individual sales credits into quota and pipeline reports for the entire team!
+
+In this article, we will walk you through setting up Opportunity Splits, including:
+Enable the Opportunity Split Setting
+View Opportunity Splits in the Pipeline Health Tile
+Opportunity Split Manager View
+Enable the Opportunity Split Setting 
+Once Opportunity Split has been enabled in Salesforce, you can enable Opportunity Split for your team in Salesloft.
+
+To turn Opportunity Splits on for your team, follow these instructions:
+Go to the Deals product tab.
+Select the Admin tab.
+Select General Settings, then click Salesforce Sync.
+Scroll to the Opportunity Split tile and use the toggle to enable the Opportunity Split setting. When the toggle area is blue, Opportunity Split has been enabled.
+Once Opportunity Split is enabled, every opportunity that has a split will appear in each agent’s Pipeline Health Details view on Deals Summary page.
+
+View Opportunity Splits in the Pipeline Health Tile
+Opportunity Splits are broken down by a percentage of ownership across contributing team members that adds up to 100%. 
+
+Let’s walk through an example of how Opportunity Split data is collected and presented in the Pipeline Health Details view.
+
+Let’s say you are marked as a 50% split owner of a $120,000 deal. When the deal is marked as Closed Won, your Pipeline Health Tile Details will show the total deal amount and the Opportunity Split percentage that you will receive. 
+ 
+Opportunity Split Manager View
+As a Sales Manager, your available filters on the Deals Summary page can change the way that Opportunity Splits are presented in the Pipeline Health Details view. 
+
+Let’s walk through how your filters on the Deals Summary page impact the Opportunity Split data in the Pipeline Health Details view. 
+
+Say you’re filtering the Deals Summary page by Group A. Group A contains 3 reps. When an opportunity is split between all of the team members in Group A, the Pipeline Health Details view will show the total deal amount for a given deal. 
+Total Deal Amount: $100,000
+Rep 1 (Group A): 50% ($50,000)
+Rep 2 (Group A): 25% ($25,000)
+Rep 3 (Group A): 25% ($25,000)
+The Pipeline Health Details view will show: $100,000
+
+Now, if you filter by Group A and your opportunity includes team members from different groups, the Pipeline Health Details will only show the Opportunity Split for the contributing team members in Group A.
+Total Deal Amount: $100,000
+Rep 1 (Group A): 25% ($25,000)
+Rep 2 (Group A): 25% ($25,000)
+Rep 3 (Group B): 50% ($50,000)
+The Pipeline Health Details view will show: $50,000 (50% split of $100,000)
+Last Modified By
+Raequel Sank, 10/21/2022 8:47 PM
+Title
+Opportunity Split in Deals
+URL Name
+Opportunity-Split-in-Deals
+Deals
+Salesloft Knowledge
+Deals Analytics
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

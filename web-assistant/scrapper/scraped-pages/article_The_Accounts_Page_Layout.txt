@@ -1,0 +1,179 @@
+PEOPLE AND ACCOUNTS
+ACCOUNTS PAGE
+The Accounts Page Layout
+
+Mar 10, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Accounts in Salesloft are the equivalent to Accounts in your Salesforce instance. Your Salesloft Accounts are the businesses or companies you want to sell to and engage with throughout the sales process.
+
+The Accounts page allows you to view all of your Accounts at a glance, create new Accounts, and archive Accounts. Here you can view the Account name and domain, how many people you have in your Salesloft database at that company, Account stage, tags, stats, the date the Account was last contacted, the owner, and the date the Account was added.
+
+To access the Accounts page, select the account icon that looks like a building from the side nav.
+
+In this article, we will walk through the Account page layout and explain each piece of the page, including:
+Saved Account Views
+Account Filters
+Account Search
+Account Exports
+Add a New Account
+Accounts List
+Understand the Activity Last 30 Days Column
+Sort Accounts
+Select Account Actions
+Saved Account Views
+Filtering your Accounts list allows you to view Accounts that contain specific criteria. When you use filters to set a certain view, you can save the filtered list. This way you can easily access a view without having to recreate the same filter each time you access the Accounts page.
+
+To save a filtered view, follow these instructions:
+1. Go to the Accounts page.
+
+2.Filter the list. 
+
+3. As you change the filters, a Save As button will appear in the upper left corner of the Accounts page. Click Save As. 
+4. Enter the new name of your view. Hit Save.
+5. Once the view has been created you can access it by selecting the name in the top left corner of the Accounts page. A dropdown will appear with your saved views listed. Select your view.
+ 
+Account Filters
+Account filters allow you to drill down the list of Accounts you are viewing based off of certain criteria. The filters are broken down into the following categories:
+Owner (appears by default)
+Add Filter: Click this button to select additional filters
+Standard Fields
+Archived
+CRM Owner
+Industry
+Last Contacted 
+Stage
+Tag Tier
+Custom Fields
+To learn more about the filter options, check out our Account Page Filters article. 
+Account Search
+Allows you to search for a specific company or group of Accounts. To use the search bar, follow these steps:
+In the search bar, enter the name of an Account or URL to define your search.
+Hit the enter key.
+Your Account list will then display the search results. The filter bar will appear, defining the search criteria that fits the current list view.
+To clear your results, select Clear from the filter bar.  
+ 
+ 
+Account Exports
+If you’d like to share Account metrics outside of Salesloft, you may do so by exporting the Accounts. Exports are typically used for data auditing, data cleanup, offboarding, etc.
+
+Exporting will create a CSV file based off of your Account list. If the Accounts have been filtered, the export will comply with the filter’s rules.
+
+Things to Note: The Account Exports option appears for Salesloft users who have the Export Accounts permission enabled for their role. If you do not see if the Export button in the upper right corner of the Accounts page, reach out to your team admin to make sure the feature has been enabled for your role. 
+
+To export Accounts, follow these steps:
+
+1. From the Accounts page, filter and sort your list.
+
+2. Click Export in the right corner of the page. An Export Accounts popup will appear asking if you want to export based on the current filter.
+
+
+
+3. In the popup, click Export. A notification will inform you that the export will be delivered to your email.
+
+4. Open the email from your inbox and click the link to download the export.
+
+
+
+The CSV download will contain the following fields from the Account record in Salesloft:
+Account Name
+Domain
+Street
+City
+State
+Postal Code
+Country
+Industry
+Phone
+Founded
+Revenue Range
+Do Not Contact
+Archived At
+People
+Account Stage
+Account Tier
+Owner Id
+Owner
+Owner Crm
+Account Created On
+Updated At
+Fields Updated At
+Import Id
+Last Contacted
+Last Contacted Mode
+ 
+Add a New Account
+ To manually add a new Account to Salesloft, follow these steps: 
+From the Accounts page, click Create Account on the right side of the page. The Add Account module will appear. 
+In the Add Account module, type in the Account name in the Name text box. Accounts that share similar names will appear as you enter the name.
+Things to Note: If you discover that the Account already exists in Salesloft, do not create a second Account. Adjust your filter and search for the existing Account. 
+Add the domain (website) in the Domain text box. 
+Things to Note: Name and Domain are required fields for Salesloft Accounts and must be entered before an Account can be created. 
+Click Create Account. The Account will save and be added to your Accounts list. 
+ 
+Accounts List
+The Accounts list is your comprehensive view of Accounts. From the Accounts list, you can quickly view basic Account information and select Accounts to take specific actions. You can also sort your list by selecting the column headers.
+
+Things to Note: If fields are missing information, they can be edited from the Account’s Profile page.
+
+Let’s take a look at the different data columns that are on display in the Accounts listview:
+Account Name: The name of the Account.
+Website: Website associated with the Account. This is also known as the Domain upon creating the Account. 
+People: Number of People associated with that Account.
+Stage: The Account’s most recent Account stage.
+Account Tier: The Account tier that has been applied to the Account.
+Activity Last 30 Days: A snapshot of recent activity that highlights meetings, prospect activity, and rep activity to give sellers and managers a high level view of what has recently occurred on each account.
+Tags: Labels attached to the Account. Selecting a tag will filter the list by that tag.
+Stats: Metrics affiliated with that Account based on the related Person activity. Each stat will be under an icon. The stats shown include:
+Calls Logged All-Time
+Emails Sent All-Time
+Emails Opened All-Time
+Emails Clicked All-Time
+Emails Replied All-Time
+Last Contacted: When communication with this Account was last attempted.
+Owner: Salesloft user who owns the Account. The owner defaults to the user who imported the Account unless reassigned.
+CRM Owner: Shows the user assigned to the linked Account record in your CRM. Use this to confirm that the CRM Owner and Salesloft Owner are the aligned or, use the No CRM Owner option to spot gaps in sales coverage.
+Date Added: When the Account was added to Salesloft.
+Understand the Activity Last 30 Days Column
+This column contains a bar graph for each Account of the activity that has occurred in the past 30 days. The activity is broken down into the following: 
+Meetings Booked: (Orange) Shows the number of meeting activity that has occurred on the Account. Meeting activity appears the day the meeting was booked for meetings that are upcoming or those that have occurred in the past.
+Prospect Activity: (Dark blue) Incoming activity that has been performed by a Person on the Account. Prospect Activity includes:
+Receiving an Email
+Replying to an Email
+Voicemails left to the seller (you)
+Rep Activity: (Light blue) Activity performed by Salesloft users to engage the Account. Rep activity includes: 
+Email sends (includes emails in scheduled status)
+Sending a text message
+Calls logged
+Hover over the graph to see the total counts for each category. 
+Sort Accounts
+You may sort Accounts by selecting the column headers. Account data will appear in ascending or descending order by clicking a column name. 
+Select Account Actions
+Salesloft allows you to do more with Accounts other than filter & sort, add new Accounts, and view information. When you select the checkboxes to the left of an individual or multiple Accounts, additional Account action items appear at the top of your Accounts list. Below is a list of the available actions:
+Update Owner
+Set Stage
+Edit the Tier
+Tags
+View list of People linked to the Account(s) 
+Archive
+Delete
+To learn more about each of these actions, check out our Select Account Actions from the Accounts Page article.
+ 
+Last Modified By
+Stephanie Griffith, 3/10/2022 3:15 PM
+Title
+The Accounts Page Layout
+URL Name
+The-Accounts-Page-Layout
+Salesloft Knowledge
+People And Accounts
+Accounts
+Accounts Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

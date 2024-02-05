@@ -1,0 +1,196 @@
+CRM
+Insight from Salesloft
+
+Dec 13, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Having all of your data kept in one central CRM is great, but without the right reports, your data is nothing but a number. Salesloft has created a Salesforce managed dashboard package called Insight from Salesloft (or Insight, for short).  
+
+Insight takes the data created in Salesloft and builds reports full of activity and Cadence data that will prove your team's productivity and connect the Cadences that lead to more revenue. This dashboard is designed to save your team time and effort by creating activity field types and reports all from one download.
+
+For download instructions, check out our How to Install Insight from Salesloft article. 
+
+In this article, you will learn about the Insight from Salesloft setup and management, including:
+Dashboards & Reports Included in the Download
+Fields Created from Insight from Salesloft
+Flow Definitions (Visual Flows & Process Builders)
+Salesforce Permission Sets
+
+For additional instructions about moving from a previous dashboard package to Insight from Salesloft, please follow the How to Update Salesforce Dashboards guide. 
+
+If you have any questions or would like help with the installation process, please email your success manager or contact support.
+Dashboards & Reports Included in the Download
+Insight from Salesloft contains two separate dashboards. Each dashboard holds a collection of reports that allow a quick view of your team's data.
+
+Things to Note: If you log meeting activity to Salesforce as Events, it may impact some of the reports listed below. Please see our Manage Meetings article to learn more.  
+
+Let's take an in-depth look at each dashboard and the reports they contain:
+Salesloft Activity Dashboard 
+This dashboard gives insights into your rep’s activities. You can filter this data by various date ranges (daily, weekly, months, etc.). By installing the dashboard you can quickly view all steps and activities performed by users and/or based on specific user roles. Insights about active and nonactive Leads, Contacts, and Accounts are also included in this dashboard. Finally, the dashboard reveals Account penetration, aka the number of Leads, Contacts, and Accounts your reps are currently working in Salesloft.
+
+The following reports are included in the Salesloft Activity Dashboard: 
+All Activities by Users: Every activity completed, broken down by type of activity. Hover over a section in the graph to see specific activity type data.
+All Activities by User Role: Same as above, but broken down by however you define a user role in your Salesforce instance.
+All Cadence Activities by Rep
+All Non-Cadence Activities by Rep
+Overdue Steps (Leads and Contacts): Total number of Cadence steps that are past their due date, based off most recent Cadence step field.
+Day 1 Steps Complete by User: Shows how many People you actually made contact with or who completed that first step.
+Steps Due Today by User (Lead and Contact): Number of steps each user should complete.
+All Calls by User: All calls made, broken up by disposition and sentiment (includes calls outside of a Cadence). 
+All Calls by Role: All calls made, broken up by disposition and sentiment (includes calls outside of a Cadence). 
+Active and Nonactive per User (Leads, Contacts, and Accounts): Number of active records owned by each user (where active means activity in the past 30 days).
+Active Account Penetration: Shows number of Contacts with activity within the last 30 days per Account (up to 100 Accounts in Lightning view and 20 Accounts in Classic view. To view more results, drill into the report).
+User Call Connect Rate by Disposition and Sentiment: Side-by-side comparison of the connection rates compared to the logged disposition and sentiment.
+Salesloft Outcomes & Results 
+This dashboard shows what is working in your sales process. The reports are designed to show which Cadences, messaging, and activities lead to overall sales success as measured by outcomes and Opportunity generation. This, in turn, will show the actual dollar amount (revenue) earned from your team's activities and Cadences.
+
+The Salesloft Outcomes & Results dashboard provides more insight into the following reports:
+Top Cadence by Opportunity Creation (Number of Opportunities Created): The package contains automation that pulls the Most Recent Cadence Name and the Most Recent Cadence Step Number field values on the Contact record and writes it to the Most Recent Cadence Name and the Most Recent Cadence Step Number fields on the Opportunity. This tells you which Cadence created that particular Opportunity. This will occur when any of the following events happen:
+An Opportunity is created as part of converting a Lead to a Contact
+An Opportunity is created from a Contact record
+A primary Contact role is added to a new or existing Opportunity. The Opportunity must have been created in the last 30 days.
+Populate the Salesloft Primary Contact lookup field on the Opportunity.
+Top Cadence Step by Opportunity Record Creation: Considers the total number of Opportunities created. Very similar to the Success button in Salesloft.
+Top Cadence by Opportunity Amount (Top Cadence Based on Pipeline Generation): Considers the total dollar amount from Opportunities created.
+Top Cadences by Closed Won Amount (Amount Opportunities won): Considers the total dollar amount from Opportunities with a Closed Won status.
+Top Cadence by Email Engagement: Based off reply rate of templates, which shows reply count divided by total number of emails sent.
+Non-Cadence Email Engagement by Template: Tracks the email engagement outside of Cadences based on reply metrics.
+Top Salesloft Email Template: Template with the highest reply rate, based on the number of email replies divided by the total number delivered.
+Top Cadences by Call Connection Rate: Looks at Cadence stats based on total connected call count and positive connections divided by the total number of calls.
+Meetings Scheduled per rep and by role: Two separate reports that show the number of calendar invites that have been set through emails sent with Salesloft.
+Call Time Leaderboard (Call Duration): Sum of duration of calls in minutes by user.
+Additional Opportunity Reports
+Two additional reports are included as part of the package to show Cadence Activities with Opportunities. These reports are not included on the dashboards by default.
+Salesloft Cadence Opportunity Influence: Measuring which Cadences Salesloft Users are using for Contacts that are in an open Opportunity. This is based on the Contact being a Opportunity Contact Role on an Open Opportunity.
+Open Opportunities with Cadence Activity: Measuring which Open Opportunities are being influenced by Salesloft Cadences. This is based on Cadences steps log to Contacts that are in an open Opportunity. This is based on the Contact being an Opportunity Contact Role on an Open Opportunity.
+Fields Created from Insight from Salesloft
+In addition to creating dashboards and reports, Insight from Salesloft creates the fields needed to view those reports in your Salesforce instance. These are the specific fields that will be used throughout the dashboard package. 
+
+All fields created in the dashboard package will be labeled as "Salesloft1_”. 
+
+Things to Note: This package only creates fields that are utilized in the dashboard package. Some activity fields are not created along with the dashboard install. For a list of fields that are not included, scroll below the following table. 
+
+After these fields are created, you will need to complete the field mapping in your Field Configuration so that all the activity logs will sync between Salesloft and Salesforce, which will update the reports.
+
+Insight creates the following fields:
+ 
+Name
+	
+Parent Object
+	
+Field Type
+	
+API Name
+
+Active Account	Account	Formula (Number)	Salesloft1__Active_Account__c
+Salesloft Domain	Account	Formula (Text)	Salesloft1__Salesloft_Domain__c
+Call Disposition	Activity	Text(255)	Salesloft1__Call_Disposition__c
+Call Sentiment	Activity	Text(255)	Salesloft1__Call_Sentiment__c
+Salesloft Cadence Name	Activity	Text(255)	Salesloft1__Salesloft_Cadence_Name__c
+Salesloft Clicked Count	Activity	Number(18, 0)	Salesloft1__Salesloft_Clicked_Count__c
+Salesloft Email Template Title	Activity	Text(255)	Salesloft1__Salesloft_Email_Template_Title__c
+Salesloft Replies Count	Activity	Number(18, 0)	Salesloft1__Salesloft_Replies_Count__c
+Salesloft Step Day	Activity	Number(18, 0)	Salesloft1__Salesloft_Step_Day__c
+Salesloft Type	Activity	Formula (Text)	Salesloft1__Salesloft_Type__c
+Salesloft Unique Click Count	Activity	Formula (Number)	Salesloft1__Salesloft_Unique_Click_Count__c
+Salesloft Unique Reply Count	Activity	Formula (Number)	Salesloft1__Salesloft_Unique_Reply_Count__c
+Salesloft Unique View Count	Activity	Formula (Number)	Salesloft1__Salesloft_Unique_View_Count__c
+Salesloft View Count	Activity	Number (18, 0) 	Salesloft1__Salesloft_View_Count__c
+Active Contact	Contact	Formula (Number)	Salesloft1__Active_Contact__c
+Most Recent Cadence - Cadence Name	Contact	Text(255)	Salesloft1__Most_Recent_Cadence_Name__c
+Most Recent Cadence - Next Step Due Date	Contact	Date	Salesloft1__Most_Recent_Cadence_Next_Step_Due_Date__c
+Most Recent Cadence - Last Completed Step	Contact	Number(18, 0)	Salesloft1__Most_Recent_Last_Completed_Step__c
+Active Lead	Lead	Formula (Number)	Salesloft1__Active_Lead__c
+Most Recent Cadence - Cadence Name	Lead	Text(255)	Salesloft1__Most_Recent_Cadence_Name__c
+Most Recent Cadence - Next Step Due Date	Lead	Date	Salesloft1__Most_Recent_Cadence_Next_Step_Due_Date__c
+Most Recent Cadence - Last Completed Step	Lead	Number(18, 0)	Salesloft1__Most_Recent_Last_Completed_Step__c
+Most Recent Cadence - Cadence Name	Opportunity	Text(255)	Salesloft1__Most_Recent_Cadence_Name__c
+Most Recent Cadence - Last Completed Step	Opportunity	Number(18, 0)	Salesloft1__Most_Recent_Last_Completed_Step__c
+Primary Contact	Opportunity 	Lookup(Contact) 	Salesloft1__Primary_Contact__c
+Call Duration in Minutes	Activity	Formula (Number)	Salesloft1__Call_Duration_in_Minutes__c
+Salesloft Connected Count	Activity	Formula (Number)	 Salesloft1__Salesloft_Connected_Count__c
+ 
+
+The following fields are NOT created with Insight from Salesloft. Check out the Recommended Activity Fields for more information on these fields. 
+Bounced
+Cadence External Identifier
+Call Duration (Things to Note: Call Duration is a standard Salesforce field. So it will appear in your Salesforce, but the package does not create it.)
+Call To
+Email Message Id
+Email Template Id
+Meeting Assigned To
+Meeting Booked By
+Meeting Date
+Meeting Duration
+Meeting Name
+Meeting Start Time
+Step Name
+Flow Definitions (Visual Flow & Process Builders)
+Insight has three flow definitions (two Process Builders and one Visual Flow) in Salesforce to help associate potential revenue to Cadences and steps based on the Contact and Opportunity fields.
+
+The flows take the value of Most Recent Cadence fields (specifically Cadence Name and Cadence Step) from the Contact and write that information to an Opportunity record that is created from that Contact.
+
+Based on your team’s Sales Process, only one Process Builder should be needed unless Opportunities are only created upon Lead conversion. In that case, all flows included can be deactivated.
+
+If you do not wish to include the Flow or Process Builders in your Salesforce org, please follow the deactivation instructions in the Insight from Salesloft Troubleshooting section below. 
+
+Things to Note:
+*For teams on the Professional Edition of Salesforce: The Insight from Salesloft managed package contains three flow definitions (2 Process Builders, 1 Flow). If your team is on the Professional edition and has more than 3 flow definitions created in your Org, you will not be able to install the Insight from Salesloft managed package while those extra flows exist. In order to install the package, delete existing flow definitions so that there are no more than two remaining in Salesforce.  
+The actions defined in the Process Builders are handled for Leads using Salesforce custom Lead field mapping. A Process Builder is required for this automation when creating an Opportunity from a Contact/Account, or adding a Primary Contact Role to an existing Opportunity. 
+The following Flows are included in the initial download of this package:
+ 
+
+Name	How was it built? 	Object	Benefit	Action
+Populate_Primary_Contact_ Opportunity_Field_from_Contact_Roles	Salesforce Lightning Process Builder	Opportunity	
+
+This Process uses the custom ‘Salesloft Primary Contact’ lookup field on the Opportunity to populate the Most Recent Cadence fields. 
+
+
+This should be used If your organization does not leverage Contact Roles, or  the ‘Primary’ Contact Role on Opportunities. 
+
+ 
+
+	
+Copies the 'Most Recent Cadence - Cadence Name' field value and 'Most Recent Cadence - Last Completed Step' field value from the Contact that is entered into the ‘Salesloft Primary Contact’ lookup field on the Opportunity. 
+Insight_fro_Salesloft_Update_Salesloft _Mos_Recent_Cadenc_Fields_on_Opportunity	Salesforce Lightning Process Builder	Opportunity Contact Role 	
+
+This Process populates the Most Recent Cadence fields on the Opportunity based on the ‘Primary’ Contact Role. 
+
+
+This should be used if your organization requires users to add a Primary Contact Role, and this Contact is who was being worked within a Salesloft Cadence. 
+
+	
+
+Copies the 'Most Recent Cadence - Cadence Name' field value and 'Most Recent Cadence - Last Completed Step' field value from the Opportunity Primary Contact Role. 
+
+ 
+
+
+Auto_Populate_PrimaryContact_ from_Contact_Role_Object 	Salesforce Cloud Flow Designer	N/A	This Visual Flow was deprecated with version 1.11 of Insight. In the Spring 2020 release, Salesforce exposed the Opportunity Contact Role object for use in Process Builder. We have leveraged this update to simplify our package and provide multiple options for associated Contacts with Opportunities for Cadence Attribution purposes thus no longer requiring this Flow. 	N/A
+Salesforce Permission Sets
+The Insight from Salesloft package includes two Salesforce Permission sets. These permission sets provide the correct Field Level Security in Salesforce to the custom fields included in the managed package in order for the package to function correctly. See details on each permission set below:
+ 
+Permission Set Name	 Purpose
+Salesloft Insights - User	Should be applied to all Salesloft users in Salesforce. This permission set opens up Read/Write access to the Activity custom fields included in the package.
+Salesloft Insights - Admin	Should be applied to Salesloft/Salesforce integration users in Salesforce. This permission set opens up Read/Write access to Lead, Contact, Account, Opportunity, and Activity custom fields included in the package.
+How to assign a Permission Set to Salesforce User(s):
+Assign a Permission Set to Multiple Users - Salesforce Help
+Assign Permission Sets to a Single User - Salesforce Help
+Last Modified By
+Raequel Sank, 12/13/2022 7:53 PM
+Title
+Insight from Salesloft
+URL Name
+Insight-from-Salesloft
+Salesloft Knowledge
+Salesforce
+CRM
+Insight For Salesforce
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

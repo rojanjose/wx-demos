@@ -1,0 +1,53 @@
+CADENCES + TASKS
+Understanding Cadence Assignee
+
+Sep 16, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Cadence Assignee is the user that has been assigned to complete steps in a Cadence for a Person record in Salesloft. This user will see their assigned steps in their Cadence to-do list and will ultimately carry out those Cadence actions. 
+
+In this article, we will walk through the concept of the Cadence Assignee and how to manage the Assignee, including: 
+Cadence Assignee for Personal Cadences
+Cadence Assignee for Team Cadences
+Manually Update Assignee in a Team Cadence
+Cadence Assignee for Personal Cadences
+For Personal Cadences, the Assignee will always be the person who owns the Cadence. This means that any People added to a personal Cadence will go through that user's Cadence to-do list.
+
+More often than not, this is the user who created the Cadence or the user who copied a Cadence to make it their own.
+
+If someone adds a Person to a personal Cadence, that Person will be assigned to the user who added them to the Cadence.
+Cadence Assignee for Team Cadences
+Team Cadences provide a unified workflow that's accessible to your entire Salesloft team. When a Person is added to a Team Cadence, the Person will be assigned to a specific user who will then carry out the Cadence tasks. 
+
+How is this Salesloft Cadence Assignee determined when adding a Person to a Cadence?
+
+Team Cadences allow a little more flexibility in designating a Cadence Assignee based on how the People are being added to the Cadence. The Cadence Assignee is determined using one of the following methods: 
+On Import: The Assignee is the user who imports the records (by default), or the user defined by the importing user from the Add People to Cadence window using the Assign to checkbox. When the checkbox is selected, you may use the dropdown menu to pick a specific user. (See below)
+Add to Cadence from the People page or Person's Profile Page: Assignee is the user who adds the records, or the user defined by the user name from the Add People to Cadence window using the Assign to checkbox.
+Via Automation Rule: Assignee is the Salesloft Owner.
+Manually Updating Assignee in a Team Cadence
+While the Cadence Assignee is typically determined when a Person is added to a Cadence, that user is not set in stone. Ideally, the Assignee will work through their Cadence steps with that Person through the sales cycle.
+
+However, for those instances where changes are made in your organization and a different user will be taking over Cadence actions, you may update the Cadence Assignee (aka edit the assigned user). 
+
+Things to Note: Updating Salesloft Owner DOES NOT update Cadence Assignee for People actively in Cadences.
+
+To update a Cadence Assignee from a Team Cadence, follow the instructions listed in our Complete Team Cadences Guide. 
+ 
+Last Modified By
+Stephanie Griffith, 9/16/2021 8:36 PM
+Title
+Understanding Cadence Assignee
+URL Name
+Understanding-Cadence-Assignee
+Salesloft Knowledge
+Cadences + Tasks
+Create A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

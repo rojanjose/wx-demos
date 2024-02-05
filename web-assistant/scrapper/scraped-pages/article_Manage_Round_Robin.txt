@@ -1,0 +1,111 @@
+ADMIN GUIDES
+Manage Round Robin
+
+May 19, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft's Round Robin feature allows you to divvy up meeting times between the members of your team. Round Robin sets up a meeting link that will use strict logic to prioritize the fair distribution of meetings.
+
+When a prospect navigates to a Round Robin calendar link, Salesloft shows the availability of the team member with the least recent scheduled meeting.
+
+For the first round of distribution, when no one in the group has meetings assigned to them,
+we will assign team members randomly until everyone gets their first meeting.
+
+In this article, you will learn all about Round Robin, including:
+Set Up Round Robin
+Round Robin FAQ
+Set Up Round Robin
+To set up Round Robin, follow these steps: 
+
+1. As an admin, go to the Meetings page listed beneath the Communication Settings.
+
+2. Below Meeting Types, click Create New Meeting Type.
+
+3. Enter the Meeting Type Name in the available text box. This will be the unique name of the meeting type. Prospects will not see this name in the calendar invite.
+
+4. Fill out the Meeting Defaults. Meeting Defaults will define what prospects will see in the calendar invite. The Meeting Defaults include:
+Title: Use Meeting Owner and Person dynamic fields to personalize the invite with the
+meeting owner and prospect’s data.
+Location: Use {{MeetingOwner.meeting_location}} for the Location fields so that each user can include their personal conference link in the invite.
+Things to Note: {{MeetingOwner.meeting_location}} is populated from the user’s Default Location in their Personal Calendar Settings.
+Please ensure that each team member who is included in Round Robin distribution has specified their Default Location in their Settings.
+Description
+Meeting Length
+5. Scroll to the Meeting Distribution section. Under Meeting Owner Assignment, select Round Robin Meeting. Round Robin meetings will be assigned automatically to users
+based on the distribution algorithm.
+ 
+
+ 
+6. Under Meeting Group, use the dropdown menu to select the Salesloft Group of people who will participate in the meeting distribution. By default, all users from the group are included in the distribution.
+Things to Note: The same group can participate in several meeting types using Round Robin distribution. Meetings will be distributed independently for each meeting type.
+7. To exclude team members from the distribution, open the Edit Meeting Group Members modal. Uncheck the users that do not need to be assigned to Round Robin meetings.
+ 
+8. Each Round Robin meeting type has a public calendar link. You can copy the link to clipboard and insert it into templates, snippets, emails, or any other content where you are going to use it.
+
+9. Save the meeting type. Now you are all set to start distributing this meeting in the Round Robin method across the team.
+Round Robin FAQ
+How is the Round Robin meeting type link generated?
+The Round Robin link is generated based off the team and meeting type names: https://meetings.salesloft.com/teamname/meetingtypename.
+
+For example, if the team name is "Salesloft," and meeting type name is "Demo Call," the link will be: https://meetings.salesloft.com/salesloft/demo-call
+
+If there is another meeting type with the name Demo Call, the meeting type name slug will 
+automatically be accompanied with an incremental number. So, if we use the previous example, a second meeting type would be "demo-call-1."
+ 
+Can users add a Round Robin meeting link directly from their email client (Gmail or Outlook)?
+
+The Round Robin meetings feature is a custom meeting type that you're only able to select from the Book a Meeting module inside the Salesloft platform. This meeting type is not available when scheduling a meeting using the Salesloft Connect extension directly in an email client like Gmail, Outlook for desktop, or Outlook Office 365.
+
+As a workaround, a team admin can copy/paste the meeting link from the Meeting Type Edit Page and create a Team Snippet or Team Template that any user can insert into emails outside of the app.
+
+
+ 
+What happens if a team member is out of office?
+If the next team member is out of office (OOO), and the system defines them as the next user in the queue, we will still show their availability to the prospect.
+
+If a team wants to avoid this situation, the team admin MUST temporarily exclude this user from
+the distribution. You can do this by editing the meeting type and unchecking the user in the Edit Meeting Group Members modal. 
+
+When the user returns, you may reenable them into Round Robin. After they are back in the distribution list, they will start getting meetings based on their position in the queue.
+ 
+What will happen if a user is removed from the group?
+When a user is moved to another group or unassigned from the group, they will be excluded from the distribution.
+
+What happens if a user is deactivated?
+Deactivated users will be excluded from the distribution automatically.
+
+What will happen when a new user is added to the group?
+A new user will not be added automatically to the distribution. Admins need to manually enable them using the Edit Meeting Group Members modal.
+
+What happens if a group is deleted?
+If an admin deletes a group, Round Robin meeting links associated with that group will become invalid.
+
+Admins will need to select a new group for the meeting type.
+
+What will happen when a user is turned off from the distribution and then turned on again?
+Salesloft will keep the previous history of that user’s meetings. Once they are reenabled in
+the distribution, they will start getting meetings based on their position in the queue.
+
+What will happen if user’s calendar is disconnected and this user is in Round Robin distribution?
+Users with disconnected calendars will be temporarily skipped until their connection is restored.
+
+Once their calendar connection is back, they will start getting meetings according to their position in the queue.
+ 
+ 
+Last Modified By
+Stephanie Griffith, 5/19/2022 3:07 PM
+Title
+Manage Round Robin
+URL Name
+Manage-Round-Robin
+Salesloft Knowledge
+Admin Guides
+Communication Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

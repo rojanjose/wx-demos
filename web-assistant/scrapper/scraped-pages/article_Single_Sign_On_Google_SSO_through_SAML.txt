@@ -1,0 +1,68 @@
+ADMIN GUIDES
+Single Sign-On: Google SSO through SAML
+
+Sep 28, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+To set up SAML for Google SSO, follow these steps:
+
+Things to Note: You must be a Google Admin in order to complete the setup.   
+
+1. Log into your Admin G-Suite Account.
+ 
+
+2. Navigate to Apps.
+
+3. Select SAML Apps.
+ 
+4. Hit the Yellow Plus (+) in the bottom right corner to add a new SAML app.
+
+5. Select Setup my own custom app.
+
+6. Download the IDP metadata file from Google, this is the file we need to upload to Salesloft. 
+Things to Note: The upload must be downloaded as an XML.
+7. Hit Next.
+
+8. Enter the Application Name: Salesloft.
+
+9. (Optional) Add Salesloft logo.
+
+10. Hit Next.
+
+11. Update the Service Provider Details with the following URL information.
+ 
+ACS URL: https://accounts.salesloft.com/auth/saml-callback
+Entity ID: SalesLoft
+Things to Note: The second L in Salesloft must be capitalized as it is shown above or the Entity ID will not work.
+ 
+Start URL: https://accounts.salesloft.com/auth/saml-callback
+Name ID: “Basic Information” “Primary Email”
+Name ID Format: “Email”
+12. Hit Next.
+
+13. Hit Finish.
+
+14. Select SAML Apps on the top Navigation bar. 
+
+15. Find your newly created SAML and select the three vertical dots to the right.
+
+16. Select Turn on for everyone or for the specific group you need.
+
+17. Go back into the Salesloft Single-Sign On Settings, and follow the instructions to Enable Single-Sign On.
+Last Modified By
+Raequel Sank, 9/28/2021 8:28 PM
+Title
+Single Sign-On: Google SSO through SAML
+URL Name
+Single-Sign-On-Google-SSO-through-SAML
+Salesloft Knowledge
+Admin Guides
+Single Sign-On
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

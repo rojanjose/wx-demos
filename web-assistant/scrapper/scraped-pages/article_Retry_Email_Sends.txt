@@ -1,0 +1,33 @@
+EMAIL
+Retry Email Sends
+
+Apr 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+If an email cannot send, it will return a Failed email status. Failed emails appear in the status list with a red warning icon, to highlight that a failure occurred. 
+
+In the event of an email failure, hover over the email status to learn the reason the email failed. Check out our Email FAQ and Troubleshooting section for instructions on how to correct common email failures. 
+
+Once the reason the email failed has been corrected, you can retry your email send. Retrying the send will attempt to send the email once again. To retry the send, follow these steps: 
+
+Go to the Emails page. Find the failed email or sort your Emails by the Failed status. 
+In the Emails list, find and select the email(s) you wish to retry When you select an email, options will appear at the top of the list. 
+Click Retry Send. The email status will update accordingly (ie: Retrying, Sent, etc). 
+Last Modified By
+Stephanie Griffith, 4/13/2023 4:16 PM
+Title
+Retry Email Sends
+URL Name
+Retry-Email-Sends
+Sending Emails
+Email
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

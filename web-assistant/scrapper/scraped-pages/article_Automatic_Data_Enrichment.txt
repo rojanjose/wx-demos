@@ -1,0 +1,74 @@
+ADMIN GUIDES
+Data Enrichment for Person Records
+
+Jun 6, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Prospecting can be a very research-heavy process, especially when it comes to locating relevant contact information. Salesloft’s Data Enrichment takes some of the guesswork and research out of prospecting by automatically pulling data into the Person record in Salesloft.
+
+Data Enrichment extracts, or pulls, the Title and Phone Number from a Person's email signature and brings that information into blank fields on their Person record in Salesloft. 
+
+Things to Note:
+Data Enrichment will be enabled by default. Admins can manage the setting in the Person Field Configuration settings. 
+Data Enrichment extracts information found in a Person's signature. 
+Salesloft's Data Enrichment can only extract signatures written in English (US and U.K).
+Data Enrichment will not recognize special characters. 
+Data enrichment will only populate blank fields. 
+In this article, you will learn about Data Enrichment, including:
+Admin Checklist to Enable Data Enrichment
+Data Enrichment in Action
+Admin Checklist to Enable Data Enrichment
+Data enrichment is designed to save valuable time. In order for information to smoothly update the proper fields, a Salesloft team admin can configure your Person Fields. 
+
+To set up Person fields for Data Enrichment, complete the following items: 
+Set your Person Field Configuration to map the following fields: 
+Title
+Mobile Phone
+Home Phone
+Office Phone
+Things to Note: Data Enrichment will only pull information from an email signature when the Title or Phone field(s) are blank)
+If a phone number is already populated, Salesloft will update the next relevant phone field.  
+Inside the Field Mapping, set the mapping direction for each field to bi-directional sync. 
+If the fields are mapped uni-directionally from CRM to SL and that field is blank in your CRM, the CRM will override the data enrichment info back to blank.
+From the Person Field Configuration Page, go to the Object Settings and confirm the Data Enrichment setting is listed as Blank Enrichment Enabled. 
+
+Once Data Enrichment is enabled, we recommend testing an email to make sure data is being correctly pulled. Here’s our suggested best practice for testing Data Enrichment: 
+Send a lofted email to a Person record with the aforementioned fields blank.
+Create yourself (or someone on your team) as a Person in Salesloft. Leave the title and/or phone fields blank.
+Send an email to the Salesloft Person Record.
+An email reply needs to come back from that person record with the information populated in the email signature.
+Reply to the email you sent yourself. 
+View the reply and go to your Person Profile page to see if the information has been populated
+ 
+Data Enrichment in Action
+Data Enrichment relies on the contact information in a Lofted Person's email signature to update the Person Profile Page. 
+
+Here's a look at the process:
+1. The Data Enrichment process begins when a lofted email is sent to a Person. Lofted emails can be sent from Salesloft, or the Salesloft extensions using the Loft It option. 
+ 
+
+ 
+2. When the Person replies, Salesloft will check the email signature for a Title and Phone Number:
+ 
+3. Salesloft updates the Person record via Data Enrichment. You can view the information and see a confirmation of the data enrichment on the Person Profile page:
+ 
+Last Modified By
+Stephanie Griffith, 6/6/2023 9:32 PM
+Title
+Data Enrichment for Person Records
+URL Name
+Automatic-Data-Enrichment
+Salesloft Knowledge
+Cadences + Tasks
+People Guides
+Admin Guides
+Field Configuration
+People And Accounts
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

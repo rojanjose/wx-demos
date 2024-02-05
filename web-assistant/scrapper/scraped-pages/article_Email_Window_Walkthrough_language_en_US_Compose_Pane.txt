@@ -1,0 +1,137 @@
+EMAIL
+Email Window Walkthrough
+
+Feb 7, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+When you send an email in Salesloft, whether from a Cadence or one-off message, the email window will pop up. From the email window you can compose, edit, and personalize your emails prior to sending them to their recipients.
+
+Things to Note: You have the ability to send preview emails when adding a Template or adding email step to Cadence. The preview email feature is more to ensure that if formatting and dynamic tags are populating correctly. Due to this, when adding an email step to a Cadence that is set to thread from a previous email, the email preview will not thread from other email subject lines in the Cadence. 
+
+The email window contains different icons and symbols you can select to perform certain actions. But the wide array of features and icons may have you wondering, "What does that button do?" or even "What should I do here?"
+
+In this article, you will learn all about the email window from top to bottom and all of its components, including: 
+Email Title Bar
+Email Send Details
+Email Toolbar
+Compose Pane
+Send Options and Insert Menu
+Email Title Bar
+The Email title bar spans the top line of your email window. It includes details about the email being sent and tools to manage the window itself. 
+
+The details found in the email title bar differ when you are working on an email in a Cadence step versus a one-off email. 
+Cadence Email Title Bar
+
+
+Email number in Cadence Step: At the top left of the email window, you will see arrows surrounding a "number out of total people in the Cadence step" (for example "< 1 of 5 >"). Use the arrows to view each email and make personalized edits for bulk email sends (Send All or Schedule All).
+Edited Emails: Number of emails that have been edited. Messages will be auto-saved after 3 seconds.
+Discard Changes dropdown: Select the Discard Changes button to revert back to your original template.
+Minimize Window: Collapses the Email editor window.    
+Pop out Window: Moves the window from the bottom right corner to the center of the page and expands the window. 
+Exit Window: Closes the Email editor window. 
+One-Off Email Title Bar
+Person’s Name: The email's recipient based on the Person contact name.
+Saved Email Details: Shows the last timestamp or date when the email content was saved.  
+Email Send Details
+Towards the top of your email, you will find the send details. Here you can control your email recipients, subject line, and CRM logging information. 
+ 
+To field: The first line of every email will contain the name and email address of the Person who will receive the email. If a Person has been imported into Salesloft with the name field completed, their name will show up in the To field followed by their email address.
+Things to Note: If two or more People are added to the To field, the email will log to the first Person listed. Email tracking functionality will also only apply to this Person as well. 
+Out Of Office Detection (appears when active): Denotes a Person has been marked as out of office. The status will show the date of return. 
+Things to Note: Out of Office Detection will not prevent you from sending an email. It's an informative status to make you aware this Person is not in office and is unlikely to respond until their return date. 
+CC/BCC: When composing emails in Salesloft, you can add CC or BCC recipients by clicking the CC/BCC link in the upper right-hand corner of the email window. You can enter multiple email addresses separated by a comma in the CC or BCC fields.
+Subject: Your email subject line will show up in the recipient’s inbox. You want to make your subject line inviting and (if possible) amusing to encourage the recipient to open the message. Enter your subject line in the Subject box near the top of your email window.
+Best Practice Tip: Add Dynamic Fields to your subject line by dropping the field into the body of your email and copy and paste the field into your subject line.
+CRM Record Log: Shows which CRM record the email will log to.  
+Edit CRM Record Selection: Allows you to change the CRM Record to the record of your choice. 
+Email Toolbar
+Emails in Salesloft give you the control to draft and edit your message with your own personal touch all from the Email Window. 
+
+While you can deliver that personalized touch using your words in the email message, you can also customize your email using the features laid out in the email window toolbar. 
+
+The toolbar includes two rows worth of actionable buttons. We have split each row for the purpose of our walkthrough.
+Email Toolbar Line 1
+ 
+Font Style: You can customize the font style in your emails. Each user can edit the font style, size, and color in their Salesloft emails whether the text is from snippets, templates, one-off emails, or even their email signature in their profile.
+Things to Note:     
+Salesloft admins are able to set a default font for the entire team. If there is a default team font style set, the individual user can override it when they set their own custom fonts in their snippets, emails, or templates. However, the Salesloft admin(s) can control if the user has the ability to customize font style in the Roles and Permissions settings (check with your admin about this).
+The same font options will appear when you Set Up Your Email Signature and create templates or snippets.
+Calibri and Century Gothic are not web-safe fonts. Using these fonts may affect your email recipient's ability to see your email/email signature content. 
+Font Size: Adjust the size of selected font within the email. 
+Text Color: Changes the color of the text. Click the icon to edit the color of the text to the most recent color used. Use the drop down menu to select an alternative text color. 
+Background Color: Highlights the text using the most recent color. Select the drop down menu to select an alternative background color.
+Bold: Changes font to the bold typeface.
+Italics: Changes font to an italic typeface.
+Underline: Underlines the text.
+Clear Formatting: If you have existing templates in a word processor, sometimes copying and pasting those into your Salesloft email can carry over some unwanted source code or funky fonts with it. Salesloft makes it easy to clear this up for clean, easy-to-read emails!
+Things To Note:
+When keeping some formatting in your email, be sure to send yourself a preview to ensure all of the formatting shows up the correct way.
+Alternative Clear Formatting Option: When you copy and paste text into your template that contains formatting, Salesloft will warn you and give you the option to remove the formatting. Click Clear Formatting to remove all formatting.
+Align Options: Edits the paragraph alignment of your text. 
+Email Toolbar Line 2
+A. Ordered List: Creates a numbered list.
+B. Unordered List: Creates a bullet point list.
+C. Increase/Decrease Indent
+D. Insert/Edit Link: Insert link into the text. A pop up window will appear. Enter the destination and the text that will contain the hyperlink.
+Things to Note: If you have selected text within the message, the Text to display should in the dialogue box. If not, add the phrase you would like to link.
+E. Insert/Edit Image: Insert an image or gif into your email. From the upload tab, drag and drop the image into the window OR select Browse for an Image. When you click Browse for an Image, you computer files will pop up.
+F. Attach file: Adds a file to your email. Salesloft supports .pdf, .png, .jpg and .docx, .xls, .xlsx, .ppt, and .pptx file types, with maximum of 10mb per email sent.
+G. Source Code: Opens the HTML code within the email editor. When the code view is open, the code view button will turn blue. Once your edits are complete, select the code view button to close the editor. 
+Things to Note: HTML editing must be enabled by a team admin. 
+H. Insert Meeting Link: Adds a meeting link to your email.
+I. Dynamic Fields: Adds a dynamic field to your email. Dynamic fields use information from a Person or Account to help add a personal touch to your emails. For a complete list of dynamic fields, check out our Available Dynamic Fields article. 
+Things to Note: If a dynamic field is added to an email template, but the field type is missing data, Salesloft will prompt you about the blank dynamic field prior to sending your email. This way you can avoid sending a message with "Hey {first name}."
+J. Integrations: Access available integrations.
+K. Track Opens: Track the number of times an email is opened (via pixel). When tracking is enabled, the icon will appear green.
+L. Track Clicks: Turns open tracking on for this email (via link-wrapping). When tracking is enabled, the icon will appear green. 
+Click-tracking takes the recipient’s message to a special URL momentarily that registers their click. Then the message is immediately redirected to the intended destination. Spammers sometimes use link redirects to trick people into thinking they're going to a specific webpage. For this reason, some spam filters penalize emails that are tracking clicks on links.
+If you are concerned about email deliverability or have existing poor email reputation your can improve the likelihood of email deliverability by turning off click-tracking.
+Compose Pane
+Writing and editing your email messages takes place in the Compose Pane. Email content can be typed into the compose pane (or inserted using a Template or Snippet). As a Salesloft best practice, typing your email works best for highly personalized, one-off messages. Use the Email Window Toolbar located above the email body to format your messages or add links, images, and dynamic tags.
+
+Salesloft emails and templates use UTF-8 character encoding. This tells the computer how to display the internally stored representation of letters. In other words, it will make text characters, symbols, and even emojis look the way they are supposed to in your message and not like a confusing mess.
+
+Things to Note:
+Copy and paste messages from a Word or Google doc may cause the following format errors:
+UTF-8 coding may break, resulting in varied text and line formatting. 
+1.5 line spacing vs the standard line spacing. This is due to the additional code being pulled from one text editor to the new one. 
+To avoid any text errors, enable plain text mode or using "Paste and Match Style" when pasting text from another source.
+ 
+Email Body: The body of your email will be laid out in the compose pane. Just like when you are creating an email from your regular email server, you can type your message in the box and edit the message or add content from the email toolbar. 
+Things to Note: Changes in the email body may contribute to your Personalization Score .
+Signature: Your email sign off. If you have saved an email signature in your Personal settings, the signature will automatically appear in the email window. 
+Opt Out (optional): This link allows email recipients to opt out of future communication and marks the Person as Do Not Contact . The opt out link will appear in emails when an admin has enabled the Global Opt Out or the Opt Out Dynamic Field has been added to your email. 
+ 
+Send Options and Insert Menu
+ 
+Send Options: Button to send the email to the recipient. The button may show different options based on what type of email is being sent. 
+Send: One-email send
+Send and Edit Next: (Cadence emails) Sends the current email and opens the next Cadence email step. 
+Send and Finish: (Cadence emails) Sends the current email and completes the Cadence step for all People. 
+Schedule: Schedules the email to this Person. 
+Schedule All (Cadence emails only) Allows you to schedule the Cadence email to start sending to all People in this Cadence at a later time. 
+Discard Changes: When you have edited the email, this button lets you delete any changes you have made and start over. 
+Delete and Close: Discards your email draft and closes the email window. 
+Things to Note: The alternative option would be to hit Exit in the top right corner of the email window. This will save the message you are working on and close the email. 
+Insert Menu: Add previously created content from the Insert menu in the bottom right corner or the compose window. When you select the item you would like to add to your message, a module will pop up so you can select your content or meeting availability.  If you would like to personalize or adjust any of the messaging in your template, you can edit the template after it has been selected within the email text box. From the Insert menu, you can add the following to you email:
+Availability: Adds specific meeting time slots to send to the email recipient.
+Template: Adds previously created email templates. Choose from My Templates or Team Templates, depending on the type of template you need. You may also search for a specific template.
+Snippet: Adds brief snippets of content into your email. Snippets act a lot like templates, but use bite-sized pieces of information and drop them into your emails. So if you write a personalized message you can add snippets full of additional information, like case studies or Knowledge Base articles.
+ 
+Last Modified By
+Stephanie Griffith, 2/7/2023 7:27 PM
+Title
+Email Window Walkthrough
+URL Name
+Email-Window-Walkthrough
+Email
+Salesloft Knowledge
+Sending Emails
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

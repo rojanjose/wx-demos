@@ -1,0 +1,53 @@
+CONVERSATIONS
+Inside Conversations
+
+Dec 20, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Conversations page is where you can view and manage your recordings.
+
+To access the Conversations page, go to the Conversations product tab from the top navigation.
+
+The Conversations page is broken down into tabs that store different meeting information. You can find the tabs all on one toolbar along with Conversations specific action items.
+
+In this article, you will learn each piece of the toolbar and what that component does, including:
+Recordings
+In Progress
+Scheduled
+Playlist
+My Clips
+Recordings
+The Recordings tab contains a list of all of your team's recordings. Each recording panel takes you to the Recording Detail Page.
+
+To learn more about the Recordings tab and the actions you can take from that tab, check out the Recordings Actions Guide.
+In Progress
+Shows meetings that are currently being recorded for anyone on your team.
+
+The In Progress meetings allow you to access the Live Notes page, where you can comment and view details on the meeting that is in progress.
+Scheduled
+Your Scheduled tab shows a list of meetings that the bot has recognized on your calendar and is due to record.
+Playlist
+Build personalized playlists to house similar groups of calls (i.e. your best calls, your worst calls, etc.).
+
+To learn more about the Playlist, including instructions on adding a new library, check out the Conversations Playlists Tab article.
+My Clips
+Shows your collection of clips created from recorded meetings.
+
+To learn more about My Clips, including instructions on creating and sharing clips, check out the Create and Send Clips article.
+Last Modified By
+Raequel Sank, 12/20/2022 7:03 PM
+Title
+Inside Conversations
+URL Name
+Inside-Conversation-Intelligence
+Conversations
+Salesloft Knowledge
+Conversations Pages
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

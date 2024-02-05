@@ -1,0 +1,116 @@
+CADENCES + TASKS
+The Cadences Page
+
+Oct 17, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Cadence page provides a simple view of all the Cadences available to you, whether they are your own personal Cadences, other user's Cadences, or team Cadences.
+
+To access the Cadences page, navigate to the rocket ship icon on the Salesloft Navigation bar.
+
+In this article, you will learn all about the Cadences page and the Cadence actions you can complete, including:
+
+Cadences Page Layout
+Cadences List
+Cadences Page Actions
+SLU: What is a Cadence? (Video)
+Cadences Page Layout
+
+The Cadences Page offers a variety of tools to manage your Cadences and the layout of the Cadences page. 
+ 
+
+
+The Cadences Page layout contains the following features: 
+
+Personal and Team Cadences: All users have two types of Cadences available to them. At the top of the Cadences page, select which Cadences you would like to view.
+Personal Cadences include all Cadences that you create yourself. You can also filter these Cadences to see Cadences created by other users on your team.
+Team Cadences are created by team admins and visible to the entire team. 
+Cadence Filters: The filter tool makes it easy to find a Cadence by refining your Cadence list to a specified group.
+Number of Cadences: The total number of cadences in the current view. 
+Pause All Cadences
+Create Cadence: By Creating your own Cadence you build out the systematic process you will execute that will function on your time.
+Search Cadences: For those times when you need quick access to a specific Cadence, search Cadences from the Cadences tab. 
+To search cadences, type the key word in the search bar located in the upper right corner of the Cadences Page. Click the enter key on your keyboard to perform the search. The results will populate, or you will see an empty state that prompts you to create a new Cadence. 
+Things to Note: Personal cadences and team cadences have two separate searches. You must be on the correct cadence type page in order to search cadences.
+Cadence List: The list of cadences created. 
+Cadences List
+
+The Cadence list is the detailed table view of Cadences on the Cadences page. From the Cadence list, you can quickly view Cadence data and select specific Cadences to make edits or drill down to more information.
+
+Each row of the Cadence list represents a different Cadence, while each column shows important meta-data about the Cadence. 
+
+The Cadence list is ideal for comparing Cadences to each other. We recommend reviewing Cadences regularly, to keep your process optimal. By looking at the data available in the Cadence list, you can see which Cadences are driving outcomes. Any strong Cadences can be copied and used as the foundation for newer Cadence workflows. Alternatively, if a Cadence is underperforming or not being used, you can archive the Cadence. 
+
+Inside the Cadences list, you will find the following details:
+
+Cadence Name: The first column of the Cadence list shows the Cadence's name.
+ You can edit the Cadence's name from Rename action or the Cadence Settings page. 
+By clicking on the name of the Cadence, you will be redirected to the Cadence Overview page. 
+A status icon may appear to the right of the Cadence name. This orange, exclamation point icon represents missing content in a Cadence that was created using a Cadence Framework. When this occurs, you will need to add templates to email steps in the Cadence. Select the Cadence to go to the Cadence Overview page where you can add templates and complete the Cadence setup. 
+Cadence Sorting: The Sort feature sets the order that you view your Cadence list. 
+Steps Due: The Steps Due column shows the number of People that are currently due to run a step in the Cadence.
+This will include steps that are due today and overdue steps. The number you see in this column will be the same as the number of steps to run in the side panel when you run a Cadence. 
+Viewing the Steps Due column helps to keep track of which Cadences require action. Also, if a Cadence has zero steps due, that may be a hint that the no one is using the Cadence.. Review the Cadence to make sure it is relevant for your use cases, or archive the Cadence (so it isn't cluttering up your list, but you can retain the data). 
+Active People: The number of People currently running in the Cadence. When you hover over the number, you will see the label Active People. The number is also a clickable link. If you click the number of Active People, you will go to the Cadence People Tab filtered by the Active People, or the In Progress filter.
+Total People: Refers to the total number of People who have been in the Cadence, current People and those who have completed the Cadence. The details of the Total people are very similar those on the Active People. When you hover over the number, you will see the label Total People. The number is also a clickable link. If you click the number of total People, you will go to the Cadence People Tab filtered by the Total People, or the All filter.
+Meeting Rate: The Meeting Rate shows the percentage of times People touched on the Cadence ultimately booked a meeting. People touched is defined as people added to a Cadence and contacted at least one time.
+For Cadences that are used to book meetings, the Meeting Rate can show you which Cadences are performing well.
+Things to Note: The Meeting Rate was incorporated into Salesloft in May 2021. For this reason, the Meeting Rate will only populate for Cadences that were created at that time and after. Cadences created prior to May 2021 will have a blank "–" listed in the column. 
+When you hover over the Meeting Rate you can see the metric rate calculation with the number of meetings attributed to the Cadence divided by the number of People touched. 
+Opportunity Rate: The Opportunity Rate shows the percentage of times People touched on the Cadence resulted in an Opportunity being created. Created Opportunities are determined by the last completed Cadence step in relation to when the Opportunity was created in Salesforce. People touched is defined as people added to a Cadence and contacted at least one time.
+Things to Note: The Opportunity Rate was incorporated into Salesloft in May 2021. For this reason, the Opportunity Rate will only populate for Cadences that were created at that time and after. Cadences created prior to May 2021 will have a blank "–" listed in the column. 
+When you hover over the Opportunity Rate you can see the metric rate calculation with the number of Opportunities created that have been attributed to the Cadence divided by the number of People touched. 
+Function: The Function column shows which Cadence Function has been assigned to the Cadence. The Cadence Function is a label you can assign on the Cadence settings page that lets you know what kind of Cadence this is. The out of the box options include:
+Inbound 
+Outbound
+Event
+Other
+Tags: Tags are a great way to label your Cadences. If you have previously added a tag to a Cadence, you can view the tag under the Cadence tags column.
+tags. Also, if you select a tag that is listed, your Cadence list will filter to only Cadences that have that tag. 
+Groups: (Team Cadences only) When a Cadence is assigned to a certain Group , it is visible to the group members. This is a great way to share content with specific groups rather than the entire team. Team admins can set group content visibility to determine if teams will only see their Group's content by default. 
+If the Team Cadence is assigned to multiple groups, you will see the number of groups listed. Click the number to view a dropdown list of the group names. 
+Click a Group name to filter the Cadence list by Team Cadences that have been assigned to that group. 
+Owner: The owner of the Cadence is the Salesloft user who oversees that particular Cadence. Typically, the owner is the user who creates the Cadence (unless they select a different owner in the Cadence Settings). 
+For personal Cadences, the owner is the user who will run the Cadence.
+For team Cadences, the owner is the user who manages the Cadence (like a manager or team admin).
+If you filter Cadences by owners, you can keep of track of the user that originally created the Cadence. 
+Last Updated: Date when the cadence was most recently edited. 
+Date Created: Date when the cadence was originally created. 
+Cadences Page Actions
+
+Your Cadence list found on The Cadences Page offers specific actions you can use to manage your Cadences like adding tags or archiving unused Cadences. 
+
+To access the actions on the Cadences Page, select the down arrow to the right of the Cadence’s name in the Cadence listview. 
+ 
+
+
+The Cadences Page actions include the following:
+
+Manage Tags: Tags are like labels or folders you can use to designate Salesloft records. 
+Copy: Personal Cadences (non-Team Cadences) can only be run by the Cadence's owner. If you know a teammate has had success with a particular Cadence, you can copy it and use that Cadence yourself.
+Rename: Edits the name of the cadence.
+Archive: Remove a cadence but retain the data. Archived cadences may be recovered if necessary.
+Make Private: (Personal Cadences only) Determine whether a cadence can be shared with other users or locked for private use. 
+Delete Cadence : Remove the Cadence from your Salesloft record. 
+SLU: What is a Cadence? (Video)
+
+Want an overview explanation of Cadences, but prefer a video format? Visit Salesloft University to see the What is a Cadence? video tutorial. 
+
+Last Modified By
+Stephanie Griffith, 10/17/2023 1:40 PM
+Title
+The Cadences Page
+URL Name
+The-Cadences-Page
+Salesloft Knowledge
+Cadences + Tasks
+Manage A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

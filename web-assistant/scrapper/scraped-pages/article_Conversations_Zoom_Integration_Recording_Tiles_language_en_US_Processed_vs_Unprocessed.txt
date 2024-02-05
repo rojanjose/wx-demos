@@ -1,0 +1,112 @@
+CONVERSATIONS
+Conversations Zoom API Integration Recording Tiles
+
+Jan 31, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+When Zoom sends over your recording files via the Conversations Zoom API Integration, Conversations sorts the file contents to locate relevant data, such as meeting date, time, audio, video... etc. The data is then published on a recording tile, and includes labels that let you know what was included in the recording file from Zoom. 
+
+Your Conversations Zoom API Integration recording tiles may include labels such as Audio, Video, Transcript, Processed, and Unprocessed on the recording tile.
+
+In this article, you will learn about the labels that may be listed on your recording tiles for meetings that were captured by the Conversations Zoom API Integration, including:
+
+Access Your Conversations Zoom API Integration Recording Tiles
+Processed vs Unprocessed
+Video, Audio, and Transcript Only
+Access Your Conversations Zoom API Integration Recording Tiles
+You can access your Conversations Zoom API Integration recording tiles from the Recordings tab. Follow these steps to locate the Recordings tab.
+Navigate to the Conversations product tab.
+Click the Recordings tab.
+Select +Add Filter, then choose Platform.
+From the Platform options, click Zoom.
+All of your Zoom recordings will appear in the Recordings area.
+Things to Note: By default, you will only see a list of your recordings. You can use the Owner filter to view recordings for your entire team, or by specific users or groups on your team.
+
+Now that you've accessed your Zoom recordings, you may notice that some recording tiles are labeled differently than recordings from other platforms. Check out the Processed vs Unprocessed section or the Access Your Conversations Zoom API Integration Recordings section below to learn more.
+Processed vs Unprocessed
+
+If a recording file matches the details of a meeting scheduled in your calendar, Conversations will match the data points and label the recording Processed. If a recording is labeled Processed, it is visible to you and your entire team.
+
+
+Conversations will label the recording Unprocessed if a recording file does NOT match the details of a meeting scheduled in your calendar. Recordings labeled Unprocessed are meetings that were recorded in Zoom but were NOT scheduled in your calendar.
+ 
+
+
+ 
+
+Other reasons a meeting might show as unprocessed include:
+
+The Zoom meeting is launched without a calendar event.
+The calendar event contains invitees with blocklisted domains (or public domains if the setting to block public domains was enabled).
+The calendar event only contains invitees with the internal organization’s domain.
+The Zoom meeting internal ID and/or the meeting link doesn’t match the link in the calendar. This can happen if the Zoom meeting is launched directly from Zoom without using the link from the scheduled event.
+The calendar event organizer and the Zoom meeting host are different users.
+Data is missing from the calendar event.
+
+
+Unprocessed recordings are only visible to the meeting owner (meeting host/ co-host in Zoom) and only contain the meeting's metadata, such as meeting title, duration, time, date… etc.
+
+An Unprocessed meeting's audio, video, and transcript will remain inaccessible until the meeting owner changes the meeting to Processed.
+
+Meeting owners can choose to remove an Unprocessed meeting from Salesloft, or manually change the Unprocessed meeting to Processed to make the meeting audio, video, and transcript available.
+
+Change a Meeting from Unprocessed to Processed
+
+Changing a meeting from Unprocessed to Processed allows you and your team to access the meeting's audio, video and transcript in Conversations. 
+
+To change an Unprocessed meeting to Processed, follow the instructions below:
+
+1. From the recording tile, click Process Recording.
+2. Select the Process radio button.
+
+Things to Note: Once a recording has been changed to Processed, it can not be reverted back to Unprocessed.
+ 
+
+ 
+3. Select Process.
+ 
+Remove an Unprocessed Meeting 
+
+If you choose to remove an Unprocessed meeting, the recording tile metadata will be removed from Salesloft. As the meeting host or co-host, you can still access the meeting's audio, video, and transcript in Zoom.
+
+To remove an Unprocessed meeting from Salesloft, follow the instructions below:
+
+1. From the recording tile, click Remove.
+2. Select Remove from the window popup to confirm that you would like remove the meeting from Salesloft.
+
+Things to Note: If you would like to review the audio, video or transcript in Conversations, you can download the recording from Zoom and manually upload it to Conversations. 
+
+Video, Audio, and Transcripts Only
+
+Recording files contain active speaker detection (ASD), which allows Conversations to make Video, Audio, and Transcripts available.
+
+If active speaker detection (ASD) is missing from the recording file, Conversations will not be able to provide speaker talk times for the recording, or speaker identification on the transcripts. If a recording file does not contain ASD, you will see a Video, Audio, and Transcript label on the recording tile. 
+
+
+Things to Note: 
+
+You can hover over the label, to get more clarity with the note.
+If ASD is missing from the recording file, you may see Speaker 1 and Speaker 2 on the transcripts instead of the speakers' names.
+"Recording not connected to CRM" Message
+ 
+
+If you receive this message, your recording is not yet connected to any CRM object in Salesloft (Person Record, Account Record, or Opportunity Record). Clicking Connect enables you to manually link a recording to one of those objects, creating a quick link and adding the recording to those pages.
+Last Modified By
+Briana Morgan, 1/31/2023 7:29 PM
+Title
+Conversations Zoom API Integration Recording Tiles
+URL Name
+Conversations-Zoom-Integration-Recording-Tiles
+Conversations
+Salesloft Knowledge
+Conversations Integrations
+Conversations Zoom Integration
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

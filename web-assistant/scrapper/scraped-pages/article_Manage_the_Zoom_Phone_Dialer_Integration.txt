@@ -1,0 +1,79 @@
+ADMIN GUIDES
+Manage the Zoom Phone Dialer Integration (COMING SOON)
+
+Sep 11, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Zoom Phone Dialer Integration allows users on your team to make Zoom Phone calls in Salesloft.
+
+ 
+
+Connecting Zoom Phone and Salesloft allows your team to access Zoom Phone functionality in Salesloft, which offers a more consistent call experience for your team and allows you a better look into the conversations your team is having with customers.
+
+ 
+
+As an admin, you can set up the Zoom Phone Dialer Integration for users on your team.
+
+ 
+
+In this article, you will learn about setting up the Zoom Phone Dialer Integration, including
+
+Change the Dialer Type Setting to Zoom Phone
+Authorize the Zoom Phone Integration
+Download the Early Access Version of Salesloft Connect V2 
+Change the Dialer Type Setting to Zoom Phone
+
+By setting up the Zoom Phone Dialer Integration for users on your team, you will replace the Salesloft Dialer with Zoom Phone in their instance.
+
+ 
+
+To replace the Salesloft Dialer with Zoom Phone, you will need to contact our Salesloft Support Team to change the Dialer Type Setting to Zoom Phone.
+
+ 
+
+To contact Salesloft Support, check out our Salesloft Support Guide. This guide will walk you through how to contact our team as well as provide information on response times and additional resources. 
+
+ 
+
+Once the Dialer Type has been changed to Zoom Phone, you can proceed with Authorizing the Zoom Phone Dialer Integration.
+
+Authorize the Zoom Phone Integration 
+
+The Zoom Phone Dialer Integration enables a connection between Zoom Phone and Salesloft. As an admin, you must authorize this connection for users on your team. 
+
+ 
+
+To authorize the Zoom Phone Integration, follow these steps:
+
+Navigate to the Team Dialer Settings.
+Sign in to Zoom phone. You will be directed to the Zoom Phone Authorization page. 
+Review the Authorization Notice and proceed with initiating the authorization process.
+Download the Early Access Version of Salesloft Connect V2 
+
+The Zoom Phone Dialer Integration is available in version 2 of the Salesloft Connect Chrome Extension. 
+
+ 
+
+Before your team can make Zoom Phone calls in Salesloft, you will need to download the early access version of Salesloft Connect V2. To download the early access version of Salesloft Connect V2, check out our Salesloft Connect V2 Early Access article. 
+
+Last Modified By
+Raequel Sank, 9/11/2023 4:07 PM
+Title
+Manage the Zoom Phone Dialer Integration (COMING SOON)
+URL Name
+Manage-the-Zoom-Phone-Dialer-Integration
+Admin Guides
+Dialer + Messenger
+Dialer Management
+Salesloft Knowledge
+Advanced Dialer Guides
+Set Up The Dialer
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

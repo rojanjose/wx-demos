@@ -1,0 +1,28 @@
+INTEGRATIONS
+LinkedIn Sales Navigator Connection Request Step Not Completing
+
+Mar 24, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+If you have previously connected with a Person on LinkedIn or have previously sent a connection request that is still in pending, you will not be able to complete LinkedIn Sales Navigator Connection Request Steps.
+
+When this happens, skip the Person to the next step in the Cadence. 
+
+Last Modified By
+Stephanie Griffith, 3/24/2023 9:29 PM
+Title
+LinkedIn Sales Navigator Connection Request Step Not Completing
+URL Name
+LinkedIn-Sales-Navigator-Connection-Request-Step-Not-Completing
+Integrations
+Salesloft Knowledge
+Integrations FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

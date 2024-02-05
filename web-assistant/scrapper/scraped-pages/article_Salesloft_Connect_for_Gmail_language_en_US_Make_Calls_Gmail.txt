@@ -1,0 +1,117 @@
+USER GUIDES
+SALESLOFT CONNECT
+CONNECT FOR GMAIL
+Salesloft Connect for Gmail
+
+Dec 8, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft’s Connect features let you access and perform Salesloft functions directly from the applications you use the most, like your email or CRM.
+
+Salesloft Connect for Gmail improves your sales process by allowing you to view your prospect’s Salesloft logged data and use Salesloft’s core functionalities directly from Gmail.
+
+In this article, you will learn all of the features available with Salesloft Connect for Gmail, including:
+How to Install Connect for Gmail
+Reminders in Your Gmail
+Salesloft Emails Within Your Gmail
+Log Email Activity to Alternative Records
+How to Make Calls in Gmail
+The Salesloft Connect Side Panel in Gmail
+Troubleshooting Salesloft Connect for Gmail
+SLU: Salesloft Connect for Gmail (Video)
+How to Install Connect for Gmail
+Before you can put Connect for Gmail into action, you need to Download the Salesloft Chrome Extension.
+
+After the extension has been installed, refresh your browser. You will see two tabs, Emails and Reminders, across the top of your Gmail inbox. A side panel will also appear on the right side of the browser window.
+
+Welcome to Connect for Gmail!
+
+
+Reminders in Your Gmail
+Salesloft Reminders allow you to stay on top of your one-off events and make sure you never miss a beat. With Connect for Gmail, you can view and complete reminders to stay on top of your non-Cadence tasks. You will find your reminders in a dedicated tab at the top of your inbox. 
+Viewing Reminders
+View a full list of your Salesloft Reminders in the Reminders tab located above your inbox. The tab is designated by the bell icon.
+
+When you select the tab, you will see your list of reminders, including the Person’s name, the subject of the reminder, and due date. Reminders may be listed out by day or month, or you can view all of your reminders.
+ 
+Completing Reminders
+Completing a reminder is just like checking an item off of your to-do list. Once a reminder has been completed, go to the Reminders tab and select the circle to virtually check off the reminder.
+Set a Reminder
+To set a reminder, follow these steps:
+Open the Person Profile View in Gmail in your Gmail.
+Click the Reminder icon (bell icon) below the Person's name in the side panel. 
+Enter a subject for the reminder (something like, "Reconnect post vacation"). 
+Select the Due Date from the calendar menu and add a time. 
+Add any notes for the reminder (if applicable). 
+Click Create Reminder. 
+ 
+Salesloft Emails Within Your Gmail
+Installing the Salesloft Google Chrome Extension allows you to leverage Salesloft email and templates from your Gmail account.
+
+To learn everything about sending Salesloft emails from within the Gmail interface, check out our Send Emails from Gmail article.   
+Log Email Activity to Alternative Records  
+Logging email activity to alternative records (aka CRM Record Selection) gives you complete control over which Salesforce record an email will be logged to when Lofting an email from Gmail.
+
+To log email activities to different Salesforce records from Gmail, follow these instructions:
+Select Compose to open a new email window. Make sure the Lofting toggle is enabled (blue).
+Enter the email address.
+A grey bar will appear beneath the Subject line of the email compose window. This bar will let you know where in Salesforce the email is going to log.
+Thing to Note: In the event that there is both a Lead and a Contact in Salesforce with that email address, we select the default Salesforce record (Contact or Lead) based on the "Linking People to Salesforce" selection the team admin has selected under Salesforce Connector Settings.
+There are two options to access the Edit Log To window:
+Click the Edit button on the far right of the grey bar.
+Select the Log To button on the bottom toolbar.
+The Log To pop-up window will populate any Salesforce matches tied to the record. The records will be divided between the following options:
+Name: Shows any Lead or Contact records tied to the email address.
+Related To: Shows any related Account or Opportunity records tied to the email address. 
+Click the X on the right side of each dropdown to remove the current record. Removing the record allows you to search for any Salesforce record to link to. Search and use the dropdown to find the record you're looking for. 
+Select the record you want. 
+Click Confirm. Salesloft will remember the record(s) and use them as the defaults for future messages to this Person (unless they are edited again).
+Send your message by hitting Loft It.  
+Make Calls in Gmail
+Salesloft’s Chrome extension lets you use the Dialer from wherever you work, including your Gmail. 
+
+To dial with Connect for Gmail, use one of the following options: 
+Click the Person's phone number in the side panel Profile information. 
+Right-click: Open the Dialer by right-clicking anywhere on the page or select the phone number and right click.
+The Salesloft Connect Side Panel in Gmail
+The Connect for Gmail Side Panel allows you to view and manage Salesloft data without leaving your Gmail inbox. 
+
+You can access the side panel by clicking the double arrow icon located on the right side of the Salesloft bar that appears when you install Connect for Gmail. The panel will open from the right side of the page. 
+
+The first time you open the side panel, you will see a welcome message inside the panel. Click Get Started to launch the Salesloft Connect Side Panel in Gmail. 
+ 
+
+The side panel includes three icons in the upper right corner. These icons will take you to different tab views in the panel. The tabs include: 
+Person Profile View in Gmail
+Live Feed
+Tasks in Gmail
+Troubleshooting Salesloft Connect for Gmail
+If you want the Salesloft Connect extension to show in your Gmail Inbox, the main email address for your Salesloft account must match the one that is connected in the Email settings on Salesloft platform.
+
+To ensure the match, go to your Email settings in Salesloft and see which email address is connected. Then check that the address is selected as the default in the Send mail as section in Gmail settings.
+
+Finally make sure that the same address is selected as your Google Account email in Google account settings.
+
+If you change any of the settings to meet these requirements, reload the Salesloft Connect extension by disabling and immediately enabling it from the chrome://extensions page.
+ 
+SLU: Salesloft Connect for Gmail (Video)
+Want to know learn about Salesloft Connect for Gmail, but prefer a video format? Visit Salesloft University to see the Salesloft Connect for Gmail video tutorial. 
+ 
+Last Modified By
+Stephanie Griffith, 12/8/2021 2:57 PM
+Title
+Salesloft Connect for Gmail
+URL Name
+Salesloft-Connect-for-Gmail
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Connect For Gmail
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

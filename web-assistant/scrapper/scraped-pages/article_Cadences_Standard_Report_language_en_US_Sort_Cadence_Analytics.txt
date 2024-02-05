@@ -1,0 +1,129 @@
+ANALYTICS + REPORTING
+Cadences Standard Report
+
+Sep 1, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Cadences offer a systematic method to manage and master your sales process. But consistent use of Cadences can leave you asking one very important question, "How are my Cadences performing?".
+
+The Cadence Report centralizes the important metrics about your Cadences in one convenient location. From the report, you can view a list of all Cadences, which you can filter and sort to your viewing preference. This visibility allows for comparison of Cadences so that you can see which campaigns are performing the best based on open rates, clicks, replies, and more in one list view.
+
+To access the Cadence Report, go to the Your Analytics Reports Tab. Find the Cadences section and select the Standard Cadence View. 
+
+In this article, you will learn all about the Cadences Report and its features, including:
+Cadence Analytics Overview
+Cadence Report Defaults
+Cadence Analytics Filters
+Sort Cadence Analytics
+Cadence Analytics Table
+Cadence Analytics Overview
+The Cadence Analytics show a detailed report of your team's Cadences. This way admins and users alike can report on the success of campaigns used by all team members and figure out which Cadences are most effective.
+
+The first row of the report contains the total metrics based on your filter settings.
+
+Each performance metric is visible in its own column. The columns include:
+ 
+Name	 The name of the Cadence. 
+Type	 Personal or Team Cadence. Team Cadences will appear as a blue hyperlink. Select the link to view the Team Cadence by User Dashboard. 
+Owner	 Salesloft user who owns the Cadence, typically the person who created the Cadence.
+Created	 The date a cadence was created.
+Successes	 Number of Successes marked on Cadences.
+Effectiveness Score	 Shows how many activities (calls, emails or other steps) it takes to get a single success.
+Email Touches Per Success	 How many email steps it took to get a success. 
+Call Touches Per Success	 How many call steps it took to get a success. 
+Other Touches Per Success 	 How many other steps it took to get a success. 
+Meetings Booked	
+
+ Number of meetings booked through the Salesloft Calendar feature within the platform. 
+
+
+Calls Logged	 Number of calls logged from the Cadence.
+Sent	 Number of emails sent from the Cadence.
+Bounced	 Number of emails sent from the Cadence resulting in a bounce.
+% Bounced	 Percentage of emails sent from the Cadence that resulted in a bounced email.
+Personalized	 Number of emails that were personalized. 
+% Personalized	 The percentage of emails sent that have > 5% personalization score. The 5% reflects a minimum threshold for meaningful personalization that impacts reply rates.
+Average Personalization Score	 The average of personalization scores across a set of emails.
+Opened	 Number of emails sent from the Cadence resulting in a view.
+% Opened	 Percentage of emails sent from the Cadence that resulted in an open or view.
+Clicked	 Number of emails sent from the Cadence resulting in a link being clicked.
+% Clicked	 Percentage of emails sent from the Cadence that resulted in a click.
+Replied	 Number of emails sent from the Cadence resulting in a reply.
+%Replied	 Percentage of emails sent from the Cadence that resulted in a reply.
+Completed Steps	 Actual number of steps completed based on the filter settings.
+Skipped Steps	 How often the filtered team members are skipping steps of their Cadence process.
+% Skipped Steps	 The number of steps skipped divided by the total number of steps.
+Overdue Steps	 The total overdue steps in Cadence. A step is counted as overdue after the step is marked completed. 
+% Overdue Steps	 Percentage of overdue steps divided by the total step count. 
+On-Time Steps	 The number of steps that have been finished on or before the due date.
+% On-Time Steps	 The percentage of steps that have been finished on or before the due date.
+LinkedIn Research	 The total completed LinkedIn steps.
+LinkedIn Completed Steps	 The completed LinkedIn steps that are research.
+LinkedIn Introductions	 The completed LinkedIn steps that are introductions.
+LinkedIn Connections	 The completed LinkedIn steps that are connections.
+LinkedIn InMail	 The completed LinkedIn steps that are InMail.
+Success Rate	 Percentage of People marked as a success in a Cadence.
+ 
+Cadence Report Defaults
+Ideally, your report would be full of awesome metrics. However, if you are new to Salesloft, or testing Cadences, or just haven't gotten the ball rolling, your metrics may show a lot of disheartening zeroes. 
+
+By default, your Cadence Report only shows Cadences with data for the previous seven days. This gives you a simple list that is more manageable to digest, and you avoid needing to scroll through entries of Cadences that have no data.
+
+Now, if there is no data to be found, Salesloft will show an "empty state" message. The empty state message will prompt you to adjust your Time Range filter to bring in more results. Clicking the Learn More button will bring you to this article (if you clicked that already, welcome!). 
+
+Things to Note: 
+All Cadences listed will contain results in at least one column (i.e., there will not be a full line of zeros).
+Cadences lacking any results for the specified date range will be excluded from the list and won't be displayed on the report. You can change your data range by using sorting and filtering options.
+ 
+Cadences Reports Filters
+The Cadence Report data can be adjusted by using Analytics Filters. When you change any of these filters, you can save the page view to Create Custom Reports.
+
+Things to Note: Leaving the Cadences Report screen will reset the filters back to their default settings. Save the view to keep the report filters. 
+
+Outside of the standard filter options, you can add additional filters to your report. The Cadence Report's additional filters include: 
+Name
+Type: The Cadence Type filter decides whether personal and/or team Cadences will appear in your Cadences Report view.
+Filtering Cadences by type provides possible answers to the following Cadence question: What are my team Cadence results for the selected date range?
+The default state is ALL Cadence types, including both team and personal Cadences.
+Function: The Cadence Function filter lets you view Cadences that have been assigned a Cadence Function. The Cadence Function defines the Cadences use case and is set during the Cadence creation process. The filter options include: 
+Outbound: denotes an outbound cadence, typically for sales purposes.
+Inbound: denotes an inbound sales cadence.
+Event: denotes a cadence used for an upcoming event.
+Other: denotes a cadence outside of the standard process. 
+Successes
+Meetings Booked
+Calls Logged
+Sent
+% Opened
+% Replied
+Sort Cadence Analytics 
+Each column header can also be used to sort the list. To sort the Cadences to fit your preference, follow these steps:
+Select the appropriate column header. The header name will turn blue.
+Use the arrow to the right of the header name to set the sorting direction. The arrow will point up or down (ascending or descending order) to reflect the order of the list.
+ 
+Cadence Analytics Table 
+All of your Cadences Report metrics are listed out in the Cadences Report table.
+
+Since there are so many metrics to view, you can scroll horizontally down the list of metrics in a clean and concise view.
+
+The Name column is known as a "freeze column." This means that it will remain anchored (or frozen) when you horizontally scroll through the rest of the analytics in the table. 
+
+Select the name of any Cadence to open the Cadence Step Analytics.
+ 
+Last Modified By
+Briana Morgan, 9/1/2022 2:57 PM
+Title
+Cadences Standard Report
+URL Name
+Cadences-Standard-Report
+Salesloft Knowledge
+Analytics Reports
+Analytics + Reporting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,111 @@
+ANALYTICS + REPORTING
+Analytics on the Rhythm Workflow Dashboard
+
+Dec 20, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The header of the Rhythm Workflow Dashboard contains three charts inside a green bar. These charts show your Rhythm Workflow Analytics. 
+
+ 
+
+The Analytics found on the Rhythm Workflow Dashboard show the number of actions you have completed and what outcomes you’ve achieved using Salesloft.
+
+ 
+
+The panels at the top of the page will differ depending on the Job Role you select inside your Profile Settings.
+
+ 
+
+Things to Note: The Job Role is self selected by each user within their Profile Settings. The Job Role is not the same as the Role assigned to users by an admin. 
+
+ 
+
+In this article, you will learn the different charts shown in the Analytics on the Rhythm Workflow Dashboard, including:
+
+Default Analytics in the Rhythm Workflow Dashboard
+Rhythm Analytics Charts for Account Executive
+Default Analytics in the Rhythm Workflow Dashboard
+
+The standard view for the Analytics found in the workflow dashboard will show you an overview of how much you have accomplished. 
+
+ 
+
+You will see the following charts:
+
+Today’s Rhythm: Shows your total number of prioritized tasks due today and overdue as well as the total number of tasks completed today.
+All Activities: Displays your total activities completed for the month as of today. It also shows a trend chart of your activities completed each day from the start of the month until today.
+Things to Note: Total Activities includes emails, calls, SMS convos, integration steps, and Other cadence steps. General tasks are not currently included.
+Opportunities Created: Reveals your total opportunities created for the month as of today. It also shows a trend chart of your cumulative opportunities created each day from the start of the month until today.
+
+ 
+
+Things to Note: You can hover over the information icon (i) in each panel to learn more about each metric.
+
+ 
+
+Users with the following Job Roles or setup will see the default view: 
+
+SDR/BDR
+Management
+Executive Leadership
+Customer Success
+Operations
+Other
+Account Executives without access to Deals will also see the default view. 
+
+  
+
+ 
+
+Things to Note: Opportunity sync must be configured to see the opportunities created panel for non-AE with Deals roles. If your team has not configured opportunity sync, you’ll instead see the following empty state:
+
+ 
+
+ 
+
+Rhythm Analytics Charts for Account Executives
+
+ 
+
+Users that have set their Job Role as Account Executives (AE) and have access to Deals in Salesloft can view pipeline specific data inside the Analytics header. This data can help see what you’ve accomplished within your Rhythm workflow, as well as your quarterly progress. 
+
+ 
+
+Account Executives will see the following:
+
+Today’s Rhythm: Lists the number of prioritized tasks (due today and overdue) as well as the total number of tasks completed that day. 
+Weighted Pipeline: Shows total weighted pipeline for the fiscal quarter as of today, including a trend chart of your weighted pipeline each day from the start of the quarter until today.
+Closed Won: Highlights your total closed won revenue for the fiscal quarter as of today, along with a trend chart of your cumulative closed won revenue each day from the start of the quarter until today.
+
+ 
+
+Things to Note:
+
+You can hover over the information icon (i) in each panel to learn more about each metric.
+The amount field must be mapped in Deals configuration to see the correct pipeline totals in the AE focused header.
+
+ 
+
+
+ 
+
+Last Modified By
+Raequel Sank, 12/20/2023 4:24 PM
+Title
+Analytics on the Rhythm Workflow Dashboard
+URL Name
+Analytics-on-the-Rhythm-Workflow-Dashboard
+Deals
+Analytics + Reporting
+Salesloft Knowledge
+Rhythm
+Rhythm Workflow
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

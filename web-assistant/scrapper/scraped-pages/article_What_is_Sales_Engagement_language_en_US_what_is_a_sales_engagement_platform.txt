@@ -1,0 +1,91 @@
+ADMIN GUIDES
+ADMIN ESSENTIALS
+What is Sales Engagement?
+
+Sales engagement refers to the series of activities that occur between a seller and their potential buyer, existing customers, or clients. These interactions range from calls, emails, and social media to monitoring video-recorded meetings and even tracking opportunities throughout your sales cycle. A sales engagement platform, like Salesloft, allows you to perform all of these activities and tracks the data from these interactions so you can analyze your actions and inform future selling initiatives.
+
+Jun 23, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+As a seller, your day-to-day revolves around customer interactions and conversions. You’re doing everything you can to engage your potential buyer using sales engagement. 
+
+Sales engagement refers to the series of activities that occur between a seller and their potential buyer, existing customers, or clients. These interactions range from calls, emails, and social media to monitoring video-recorded meetings and even tracking opportunities throughout your sales cycle.
+
+A sales engagement platform, like Salesloft, allows you to perform all of these activities and tracks the data from these interactions so you can analyze your actions and inform future selling initiatives.
+
+In this article, we highlight a few strategies for maximizing sales engagement, including:
+
+What Is a Sales Engagement Platform?
+Key Terms of Sales Engagement
+How Sales Engagement Affects the Sales Cycle
+Analytics in Sales Engagement
+What Is a Sales Engagement Platform?
+
+Having the right sales engagement platform can mean the difference between keeping clients invested and struggling to make a quota. An effective sales engagement platform improves team efficiency and effectiveness.
+
+Salesloft Integrations
+Analytics Essentials
+Create Custom Reports
+
+To enhance sales engagement, you can personalize your approach for each customer or client entering the cycle.
+
+Key Terms of Sales Engagement
+
+Regarding sales engagement, there are several key terms you should know. These terms include:
+
+Prospecting—The first step in the sales process, prospecting involves identifying potential customers and developing a system to communicate with and convert them.
+Create a Cadence
+Use a Cadence Framework to Build your Pipeline
+Relationship Management—Any system that allows you to track, monitor, and analyze the connections between sellers and customers.
+People Page
+Accounts Page
+Sales Enablement—A strategy that sets sellers up for success and helps them accomplish their goals or quotas.
+While sales engagement focuses on connecting with customers, sales enablement revolves around empowering the sales team by offering training sessions and even materials like email templates that will contribute to a rep’s success. at every step of the process.
+Set up Salesloft
+Set up the Dialer
+How Sales Engagement Affects the Sales Cycle
+
+Better sales engagement leads to higher closing rates. In 2009, with the advent of sales technology vendors, we also saw the birth of new sales engagement tools. These tools can drastically improve and enhance coaching and onboarding processes to help sales reps optimize their performance in an efficient and personable way — which, in turn, makes them more loved by potential buyers.
+
+Here are a few ways sales engagement can boost your sales process: 
+
+Simplified onboarding with pre-built content: Salesloft tools can create shared content that will be used across your team. Your reps don't need to stress about whether or not they build the right materials, and you can trust the information being shared with each user. 
+Cadence Frameworks
+Team Cadences
+Team Templates
+Consistent Communication with potential buyers:
+Cadences
+Tasks 
+Performance reviews and coaching: The best sales teams are constantly working to improve. Reviewing calls, checking email performance, and tracking deal progress can all help make your sales team stronger. 
+Live Call Studio
+Conversations
+Deals
+Analytics in Sales Engagement
+
+Analytics are crucial to understanding how your sales initiatives are performing. Understanding analytics can help you optimize your selling and drastically increase your sales engagement. 
+
+These analytics include useful insights into open rates and views, as well as content engagement and activity. 
+
+Your Analytics Overview
+Analytics Metrics Calculations 
+Create Custom Reports
+Last Modified By
+Briana Morgan, 6/23/2023 2:41 PM
+Title
+What is Sales Engagement?
+URL Name
+What-is-Sales-Engagement
+Salesloft Knowledge
+Admin Essentials
+Admin Guides
+Getting Started
+Support Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

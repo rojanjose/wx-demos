@@ -1,0 +1,83 @@
+EMAIL
+The Snippets Page
+
+Apr 11, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Snippets allow you to quickly insert reusable content, such as case studies or meeting information, into your emails. This not only saves time, but allows you to standardize your messaging and keep your content organized in Salesloft.  
+
+Snippets are available in the Salesloft platform as well as when creating emails in Gmail, Outlook, and Salesforce.
+
+If you’re wondering, “Should this content be a snippet” here are some things to consider about the content you wish to create: 
+Small: Snippets are short form text – a few words, a couple of sentences, or even a link or two. 
+Reusable: Once you create a snippet, you can use them over and over again.
+Editable: As your content or needs changes, so can your snippets.
+Snippets can be created, edited, and viewed from the Snippets page. To access the Snippets page, select the snippets icon that looks like a quotation mark in the left navigation bar. 
+
+In this article, we will walk through the pieces of the Snippets page. Select any of the links to learn more about the actions you can take from the Snippets page. 
+The Snippet Page Layout
+The Snippet Listview
+Snippet Actions
+SLU: Salesloft Snippets (Video)
+The Snippet Page Layout
+The Snippet Page offers a variety of tools to manage your snippets. 
+
+The snippet page layout contains the following features: 
+Personal and Team Snippets:  The top tabs allow you to select between the Personal and Team Snippets. 
+Personal Snippets: Snippets that are created and owned by you. 
+Team Snippets: Are created by a Salesloft admin (or user with team snippets permissions) to create common messaging, such as marketing content or objection handling, and make that content easily accessible across their organization.
+Snippet Filters: Filters trim your snippet list so you can view the snippets that suit your current needs. 
+Number of Snippets: The total number of snippets in the current view (according to your filters). When you select a snippet, the number will show how many snippets have been selected out of the total number of snippets (example 3 of 25 Snippets will show if you have checked the box next to 3 snippets on a full page.)
+Export Snippets: Select this button to create a CSV file with your snippet data. 
+Create Snippet: Add a new snippet. New snippets will be added to the listview and can be used inside emails. 
+Search Snippets: Search snippets in order to locate a certain snippet. You can search using a key word or phrase contained in the name or message of the Snippet. 
+To search snippets, type the key word in the search bar located in the upper right corner of the Snippets page. Click the enter key on your keyboard to perform the search. The results will populate, or you will see an empty state that prompts you to create a new snippet. 
+Things to Note: Personal snippets and team snippets have two separate searches. You must be on the correct snippet type page in order to search snippets.
+Snippet Listview: The list of snippets created.
+The Snippet Listview
+The Snippet Page hosts your list of personal and team snippets, also known as your snippet listview. Your snippet listview contains any snippets that have been created (that fit your filters). 
+
+
+
+Inside the snippet listview, you will find the following details:
+Snippet Checkbox: The box found before the snippet name. Select this box to view snippet actions. You can select one or multiple snippets. If you select the box at the top of the listview, all of the snippets seen on that page will be selected. 
+Snippet Name: Name of the snippet that is determined when you create the snippet. The snippet name is also a link. Click the snippet name to edit the snippet. When you edit a snippet, you can change the snippet name and/or the content of the snippet. 
+Snippet Sorting: You may sort snippets by selecting the column headers. Snippet data will appear in ascending or descending order by clicking a column name. 
+Preview: Shows the first words found in the snippet. If you snippet is short, the preview may show the entire snippet. Longer snippets will show some of the content followed by an ellipses to indicate there is more text. 
+Last Modified: Date the snippet was last edited. The last modified date could be the date the snippet was created. 
+Used: Number of times the snippet has been added and sent inside emails. 
+Groups: (Team Templates only) Shows any groups that the Team snippet has been assigned to. When you click the name of a group, the snippet list will filter to show only snippets assigned to that group. If the Snippet has been assigned to more than one group, you will see the number of groups. Click the number of groups to expand the groups list and see which groups have been assigned the snippet.
+Owner: The Salesloft user that has this snippet as a personal snippet. Typically the owner is the user that created the snippet, unless the snippet is reassigned. 
+ 
+Snippet Actions
+The Snippets page includes a number of actions you can take to edit and maintain the snippets you are viewing. 
+
+The snippet actions appear at the top of the list view when a snippet is selected. The snippet actions include the following:
+Update the Snippet Owner: Reassign snippets to a different user. 
+Copy: Duplicate an existing snippet.
+Convert Personal Snippet into Team Snippet: Make a snippet available to all users on your team or assigned group
+Archive: Remove a snippet but retain the data. Archived snippets may be recovered if necessary.
+Delete Snippets: Completely remove the snippet from Salesloft.
+Assign to Groups: (Team Snippets only – not pictured) Specify which groups have access to this snippet. 
+ 
+SLU: Salesloft Snippets (Video)
+
+Want to know learn about how to create snippets, but prefer a video format? Visit Salesloft University to see the Salesloft Snippets video tutorial. 
+
+Last Modified By
+Stephanie Griffith, 4/11/2023 3:17 PM
+Title
+The Snippets Page
+URL Name
+The-Snippets-Page
+Email
+Salesloft Knowledge
+Email Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

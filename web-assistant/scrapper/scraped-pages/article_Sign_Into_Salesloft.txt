@@ -1,0 +1,53 @@
+GETTING STARTED
+Sign Into Salesloft
+
+Jun 24, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Log In
+Whether you are signing in for the first time as a new Salesloft user or starting your day of reaching out to customers, you must be signed in to take any action with the Salesloft platform. 
+
+Logging into the platform also creates a layer of security for your data and the data of your customers. Sometimes that security may keep you from signing in (if you forgot your password).
+
+We want to be sure you can sign in to Salesloft easily so you can get moving with your day. 
+
+In this article, you will learn about signing in to Salesloft, including: 
+Sign In Options
+How to Sign In - Email Address and Password
+Experiencing issues when signing in? Check out our Login Troubleshooting Guide.
+Sign In Options
+Salesloft offers the following sign in options to access the platform:
+Email address and password (Default)
+Single Sign-On SAML
+Single Sign-On OpenID Connect
+How to Sign In - Email Address and Password
+When you are first invited to join a Salesloft team , the email address your team admin sends your Salesloft invite to is the same email address you will use as your sign in credential. After you initiate that invite, you will choose a password. 
+
+Once the email and password have been set, you will use those credentials to sign in to the Salesloft platform. 
+
+Things to Note: If your email address is associated with a team with SSO, you will be signed in to the Salesloft platform.
+
+To sign in to Salesloft using your email address and password, follow these steps: 
+Go to app.salesloft.com. If you aren't already signed in, you will go to the sign in page.
+Enter your email address and click Next.
+The Password field will appear. Enter your password in the text box.
+Things to Note: After clicking Next, the email address will not be editable. If you need to change the email address, click the Back button. 
+Click Sign in. 
+ 
+Last Modified By
+Stephanie Griffith, 6/24/2022 5:53 PM
+Title
+Sign Into Salesloft
+URL Name
+Sign-Into-Salesloft
+Salesloft Knowledge
+Getting Started
+Set Up Salesloft
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

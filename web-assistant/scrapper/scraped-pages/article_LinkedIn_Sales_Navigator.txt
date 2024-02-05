@@ -1,0 +1,212 @@
+INTEGRATIONS
+INTEGRATION PARTNERS
+LinkedIn Sales Navigator
+
+Oct 5, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+By partnering with LinkedIn Sales Navigator, Salesloft connects sales professionals to prospects and customers in rich, meaningful ways. The partnership will allow Salesloft customers to view and take action on LinkedIn Sales Navigator data directly from the Salesloft platform.
+
+Things to Note: Salesloft customers must have the Advanced or Advanced Plus plan to access the LinkedIn Sales Navigator integration features.
+
+In this article, you will learn about Salesloft's integration with LinkedIn Sales Navigator, including:
+
+What Are LinkedIn Sales Navigator Steps?
+Enabling LinkedIn Sales Navigator Steps
+Adding LinkedIn Sales Navigator Steps to a Cadence
+Authorizing the LinkedIn Sales Navigator Integration
+Running a LinkedIn Sales Navigator Research Step
+Running a LinkedIn Sales Navigator Introduction Step
+Running a LinkedIn Sales Navigator Connection Request Step
+Running a LinkedIn Sales Navigator InMail Step
+CRM Sync for LinkedIn Sales Navigator
+Accessing the LinkedIn Sales Navigator Panel
+Placing the Sales Navigator Panel on the Profile Page
+Using the Sales Navigator Panel
+De-Authorize LinkedIn Sales Navigator from Salesloft 
+
+Experiencing an issue? Check out the Integrations FAQ + Troubleshooting section.
+
+What Are LinkedIn Sales Navigator Steps?
+
+LinkedIn Sales Navigator steps bring the functionality of LinkedIn Sales Navigator into the Salesloft cadence workflow. Just like the standard cadence steps - Email, Phone, and Other steps - LinkedIn Sales Navigator steps can be added to your cadence. 
+
+There are currently four types of LinkedIn Sales Navigator Steps you may use in your cadences:
+
+Research: Read up on your prospect’s recent LinkedIn news or activities so you are familiar with your prospect and their company prior to your interactions.
+Introduction: Get introduced to a prospect through a mutual connection.
+Connection Request: Send a LinkedIn invitation to another person.
+InMail: Message the prospect via LinkedIn InMail.
+
+Whenever you complete a Sales Navigator step, it will log as an activity in Salesloft. This activity will also log as a task in Salesforce as a LinkedIn Sales Navigator followed by the step type. For example, an InMail step would log as “LinkedIn Sales Navigator: InMail.”
+
+Enabling LinkedIn Sales Navigator Steps
+
+In order to add LinkedIn Sales Navigator steps to cadences, a team admin needs to enable this integration under the Administration settings.
+
+Follow these steps to enable LinkedIn Sales Navigator steps:
+
+Navigate to your settings in Salesloft. In the settings column on the left, scroll down to the Administration section, and select Integrations.
+Find the LinkedIn Sales Navigator integration row.
+Turn on the integration by selecting the toggle button on the right side of the row. The toggle will change from gray to blue.
+Adding LinkedIn Sales Navigator Steps to a Cadence
+
+To add a LinkedIn Sales Navigator step to a cadence, follow these instructions:
+
+Create a Cadence OR choose a cadence you have previously created.
+In the right corner, select Cadence Actions.
+Click Add Step.
+In the Create Step box, click any of the options, including Research, Introduction, Connection Request, or InMail, depending on what type of connection you want or need to create for your cadence step. 
+Select the Sales Navigator you wish to add.
+Enter the Day you would like the step to run.
+Hit Next.
+Give your step a name to let you know what the purpose of the step is. Common examples include “Research Highlights” or “InMail Message #1.”
+Add any instructions you think are necessary.
+Click Add & Create Another to continue adding steps to your cadence or Add Step to add the step and close the add step window.
+
+Things to Note: LinkedIn Sales Navigator steps in a Cadence must be run manually and CANNOT be automated. This means, you will not see the option to automate the steps when creating Linkedin Sales Navigator steps. 
+
+Authorizing the LinkedIn Sales Navigator Integration
+The first time you run a LinkedIn Sales Navigator step, LinkedIn will ask you to allow Salesloft to have access to your LinkedIn Sales Navigator account.
+ 
+
+ 
+
+Click the Authorize button. A new chrome tab will open where you can give Salesloft access to your LinkedIn Sales Navigator account.
+
+ 
+
+
+After clicking the Allow button, you will see a confirmation that the authorization is complete.
+
+ 
+
+
+You may now close the chrome tab and return to Salesloft. Your LinkedIn Integration should now be authorized (or authed) and you can begin running your LinkedIn Steps.
+
+If you ever need to disconnect the service, you can de-authorize Salesloft from LinkedIn Sales Navigator . 
+Running a LinkedIn Sales Navigator Research Step
+
+To run a LinkedIn Sales Navigator Research step, follow these instructions:
+
+Select Run Step from your Cadences To-Do List or listed in your Cadence Workflow Panel.
+The profile page of the first person in your cadence list will appear along with the Linked InSales Navigator Step Log Box.
+Match the person to their LinkedIn profile, if necessary.
+Click between the available tabs to research the prospect
+Profile: The person’s standard LinkedIn profile details. Includes links to view the person’s LinkedIn profile page and Save Lead within LinkedIn Sales Navigator
+Related Leads: Sales Navigator lead recommendations based to help identify additional prospects.
+Recent Activity: The last LinkedIn activity completed by this person. Click View All Activity to open the person’s LinkedIn activity history in another window.
+Click Complete Step to log your step.
+ 
+Running a LinkedIn Sales Navigator Introduction Step
+
+Just like networking in the real world, it’s a lot easier to introduce yourself to a new person when you have a mutual connection. The LinkedIn Sales Navigator Introduction step allows you to view common connections between you and your prospect, and request an introduction from someone in your network.
+
+To run an introduction step, follow these instructions:
+
+Select Run Step from your Cadences To-Do List or listed in your Cadence Workflow Panel.
+The profile page of the first person in your cadence list will appear along with the LinkedIn Sales Navigator Step Log Box.
+Match the person to their LinkedIn profile, if necessary.
+Click the Profile tab to view the person’s standard LinkedIn profile details.
+Click the Get Introduced tab.
+Scan your mouse over the mutual connections.
+Click a connection to open their LinkedIn profile in another window.
+Hover over a connection’s Profile picture.
+Select Ask for Introduction. The message window will pop up in another window.
+Type your message. Hit Send.
+Back in Salesloft, click Complete Step to log your step.
+Running a LinkedIn Sales Navigator Connection Request Step
+
+To run a connection request step, follow these instructions:
+
+Select Run Step from your Cadences To-Do List or listed in your Cadence Workflow Panel.
+The profile page of the first person in your cadence list will appear along with the LinkedIn Sales Navigator Step Log Box.
+Match the person to their LinkedIn profile, if necessary.
+Connect with the person. 
+Click Complete Step to log your step.
+ 
+Running a LinkedIn Sales Navigator InMail Step
+
+To run an InMail step, follow these instructions:
+
+Select Run Step from your Cadences To-Do List or listed in your Cadence Workflow Panel.
+The profile page of the first person in your cadence list will appear along with the Custom LinkedIn Step Log Box.
+Match the person to their LinkedIn profile, if necessary.
+Enter a Subject. 
+Type your message in the text box. 
+Send the InMail message. Select Send from the lower right corner of the step window. Things to Note: You must hit Send prior to completing the step. If you complete the step before sending, the InMail message will not be sent. 
+Click Complete Step to log your step. 
+CRM Sync for LinkedIn Sales Navigator
+
+Logging activities to your CRM can provide the robust reports on the types of engagement you have with your customers and prospects. Since LinkedIn Sales Navigator steps are controlled by LinkedIn, the standard Salesloft logging method does not apply. 
+
+However, if you would like to push your LinkedIn Sales Navigator activities to your CRM, LinkedIn has an integration that will allow those logs to occur. In order to log those activities, check out the LinkedIn Sales Navigator Guide for CRM Sync with Salesforce.
+
+Accessing the LinkedIn Sales Navigator Panel
+
+The LinkedIn Sales Navigator panel is displayed on both the account and person profiles. The panel will appear to the right of the page along with the integrations panels. 
+
+Things to Note: If you do not have a LinkedIn Sales Navigator account and do not want to continue seeing the above message, you will need to toggle this panel off in the Panel Configuration menu (see below).
+
+You must first be logged in to your LinkedIn Sales Navigator account (in the Chrome browser) in order to see the Sales Navigator data in the panel on the account and person profiles. If not logged in to your LinkedIn Sales Navigator account, the below message will appear in the panel.
+
+ 
+Placing the Sales Navigator Panel On the Profile Page
+
+You can configure exactly where in the Smart Panel column the LinkedIn Sales Navigator panel lives.
+
+To configure what order you want the LinkedIn Sales Navigator panel to appear, follow these steps:
+
+1. Access the Panel Configuration drop-down menu from the top right of a profile page. The menu displays a list of available panels.
+
+2. Click the icon to the left of a panel label and drag to the order you desire. To toggle the visibility of the panel, click the toggle switch either on or off.
+
+Using the Sales Navigator Panel
+
+On the Account profile, users can view the LinkedIn Sales Navigator panel and understand who they’re connected with at that company, which connections they have in common, as well as real-time account news and events.
+ 
+
+On the Person profile, Salesloft customers are able to view icebreakers to establish connections with them, get introduced through mutual connections on LinkedIn and discover any related leads.
+ 
+
+Have more questions about using LinkedIn Sales Navigator? Visit the LinkedIn Sales Navigator help center.
+ 
+
+De-Authorize LinkedIn Sales Navigator from Salesloft 
+
+You may wish to disconnect your LinkedIn Sales Navigator from Salesloft in order to connect a different LinkedIn Sales Navigator account. In order to do this, you will need to de-authorize your account by revoking the Salesloft App from within your LinkedIn Settings.
+
+Follow these steps to de-authorize LinkedIn Sales Navigator from Salesloft:
+
+1. Click the Me icon at the top of your LinkedIn homepage. This will either be a generic person icon or your avatar image. A dropdown menu will open.
+
+2. Click Settings & Privacy from the dropdown.
+
+3. Go to Data privacy on the left rail and select the Other applications section.
+
+4. Click Change next to Permitted Services.
+
+
+5. Click Remove next to the Navigator Widget Production App to disconnect it from your LinkedIn account.
+
+Once you have done this, you may connect a different LinkedIn Sales Navigator to your Salesloft account. For more information, check out LinkedIn’s documentation on this process.
+
+ 
+Last Modified By
+Stephanie Griffith, 10/5/2023 8:08 PM
+Title
+LinkedIn Sales Navigator
+URL Name
+LinkedIn-Sales-Navigator
+Salesloft Knowledge
+Integration Partners
+Integrations
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

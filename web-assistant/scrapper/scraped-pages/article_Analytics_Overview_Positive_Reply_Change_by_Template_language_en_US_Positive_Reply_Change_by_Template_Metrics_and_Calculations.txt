@@ -1,0 +1,87 @@
+ANALYTICS + REPORTING
+Analytics Overview: Positive Reply Change by Template
+
+Dec 11, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Positive Reply Change by Template panel shows the total number of positive replies over a given period compared to the previous period. 
+
+ 
+
+In this article, you will learn about what you can gain from the Positive Reply Change by Template panel, including:
+
+The Positive Reply Change by Template Panel
+Positive Reply Change by Template Panel Metrics and Calculations
+Panel Drill Down: Templates Standard View Report
+The Positive Reply Change by Template Panel
+
+The Positive Reply Change by Template panel contains the following details from the top of the panel working our way down:
+
+
+
+Panel Name:  Positive Reply Change by Template
+View Report: (Drill down to more details) Takes you to the Templates Standard Report.
+Primary Metric: Positive - the total number of Positive Email Sentiments assigned. 
+Primary Metric Graph: The graph is a multi-color bar chart where bars show which template had the greatest absolute change in the number of positive replies. This chart will display the top 10 templates by emails sent for the selected time period, sorted by the absolute change in positive replies.
+Chart Hover: When you hover on a bar, the specific template is highlighted. You can see the template name, change from the previous period, and total number of positive replies in the selected period in the tooltip. 
+Period Comparison based on date selection: To the right of any metric, you will see a small percentage in either green or red. This will show how your numbers have increased or decreased over time. 
+ 
+
+ 
+
+Positive Reply Change by Template Metrics and Calculations
+
+Each panel contains primary and secondary metrics. These metrics are calculated in different ways. Check out the Analytics Metric Calculations for a complete list of metrics. 
+
+The Positive Reply Change by Template panel includes the following metrics based on the associated calculations. 
+ 
+
+Metrics
+	
+Description
+	
+Calculations
+
+
+
+Positive
+
+	
+
+ The count of replies that were assigned the Positive Email Sentiment.
+
+	Sum (Positive Email Sentiments)
+
+
+% Positive
+
+	
+
+The percent of all emails delivered that are positive
+
+	Positive email sentiments over total emails delivered
+
+ 
+
+Panel Drill Down: Templates Standard Report
+
+This panel drills down into the Templates Standard Report, where you can take a granular look into the sentiments assigned each day. 
+
+Last Modified By
+Raequel Sank, 12/11/2023 3:24 PM
+Title
+Analytics Overview: Positive Reply Change by Template
+URL Name
+Analytics-Overview-Positive-Reply-Change-by-Template
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Overview Panels
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

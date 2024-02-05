@@ -1,0 +1,60 @@
+ANALYTICS + REPORTING
+Analytics Overview: Team Performance Panel
+
+Nov 8, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Team Performance panel provides a quick insight into the number of actions that have been logged within your Analytics Filters. 
+
+The panel looks at the total number of activities performed. This includes emails, calls and other steps from Cadences and non-Cadence actions. 
+
+Taking these details into consideration, the panel aims to answer the following questions: 
+Are we growing our platform usage?
+Are we increasing the amount of activities performed?
+Are we hitting our activity targets?
+In this article, you will learn about the Team Performance panel, including:
+The Team Performance Panel
+Team Performance Metrics and Calculations
+Team Standard Report
+The Team Performance Panel
+The Team Performance panel contains the following details from the top of the panel working our way down:
+Panel Name: Team Performance
+View Report: (Drill down to more details) Takes you to the Team Standard Report.  
+Primary Metric: Total Activities
+Primary Metric Chart: Below the Total Activities, the chart shows the visual representation of the primary metric. 
+Secondary Metric: Activities Per Day
+Period Comparison based on date selection: To the right of the metrics, you will see a small percentage in either green or red. This will show how your numbers have increased or decreased over time. 
+ 
+Team Performance Metrics and Calculations
+Each panel contains primary and secondary metrics. These metrics are calculated in different ways. Check out the Analytics Metrics List for a complete list of metrics. 
+
+The Team Performance panel includes the following metrics based on the associated calculations: 
+ 
+Metrics
+	
+Calculations
+
+ Total Activities	Emails Sent + Calls Logged + Other Steps + Integration Steps
+Activities Per Day 	(Emails Sent + Calls Logged + Other Steps)/Count(Days)
+ 
+Panel Drill Down: Team Standard Report
+This panel drills down into the Team Standard Report, where you can see all the other steps completed.
+ 
+ 
+Last Modified By
+Briana Morgan, 11/8/2022 3:47 PM
+Title
+Analytics Overview: Team Performance Panel
+URL Name
+Team-Performance-Panel
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Overview Panels
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

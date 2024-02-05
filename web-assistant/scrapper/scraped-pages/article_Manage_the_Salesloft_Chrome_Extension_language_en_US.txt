@@ -1,0 +1,111 @@
+GETTING STARTED
+Manage the Salesloft Chrome Extension
+
+Feb 9, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Salesloft Chrome Extension, aka the Connect Extension, is a plug-in that extends your sales engagement beyond the Salesloft platform. The extension brings Salesloft’s features into your Google Chrome Browser, Gmail, and Salesforce to improve your sales process.
+
+Once you download the extension you can manage functionality from the extensions toolbar in the upper right corner of your Chrome browser. 
+
+In this article, you will learn how to manage the Salesloft Chrome Extension, plus get an overview of its additional features, including:
+Manage Push Notifications
+Mute Email Threads
+Notifications for Reminders
+The Salesloft Chrome Extension and Your Gmail
+The Salesloft Chrome Extension and Salesforce
+The Salesloft Chrome Extension and Dialer Settings
+Manage Push Notifications
+Salesloft's Chrome Extension uses push notifications to inform you about email opens, clicks, replies, or failed sends. In other words, all of the data that appears in your Live Feed pops up as a notification. These notifications let you take immediate actions that can positively impact your sales.
+
+However, we recognize that there are two types of people in the world: those who love notifications and those who hate them.
+ 
+If you fall into the latter category, you can enable specific notifications or silence them all. For example, if you only wanted to know when a link within an email has been clicked, you can fix your push notifications to just show email clicks.
+
+To manage your push notifications through the Chrome extension, follow these steps:
+From your Chrome browser, select the Salesloft Chrome Extension (Salesloft logo) to the right of the URL bar. The Chrome extension menu will appear.
+The Menu is broken into the following sections and options:
+Show Me Notifications For
+Email Opens
+Email Clicks
+Email Failures
+Email Replies
+Reminders
+Hot Leads
+Tasks
+Inbound Voicemail
+Meetings: When a Person books a meeting
+Dialer Settings
+Dialer Enabled
+Do Not Disturb
+Import Settings
+Open new tab on CRM Import
+Workflow Settings
+Navigate to CRM record automatically
+Calendar Settings
+Event Lofting Enabled
+Select the checkbox(es) for the notifications you would like to see.
+ 
+Enable Notifications in Google Chrome for Windows 10
+Windows 10 may require additional steps to enable the Chrome notifications to appear from your browser. If you have downloaded the Chrome extension and set your notifications, but still aren't receiving notifications, follow these steps:
+From your Windows Desktop, click on the Windows button in the bottom left corner.
+Click the Settings (gear shift) icon.
+Select the System icon in the Settings screen. 
+Choose Notifications & Actions from the left side menu.
+Under Notification & Actions, toggle the buttonGet notifications from apps and other senders On. This will enable notifications. 
+Scroll down to Get notifications from these senders and find the Google Chrome icon.
+Toggle the Google Chrome button on to enable Chrome notifications.
+ 
+ 
+ 
+Enable Notifications in Google Chrome for Mac
+So that Chrome notifications appear in your browser, Mac users may need to enable Chrome notifications in your System Preferences. If you have downloaded the Chrome extension and set your notifications in Salesloft, but still aren't receiving notifications, follow these steps:
+Click on the Apple icon in the upper right corner of your computer screen, then select System Preferences.
+Select Notifications & Focus.
+From the menu options on the left, select Google Chrome.
+Use the toggle to Allow Notifications. When the toggle area is blue, notifications have been turned on.
+Choose Banners as the Google Chrome alert style.
+Mute Email Threads
+Salesloft gives you the ability to mute notifications for specific email threads. Muting the notification will turn off future notifications for that specific email thread, meaning you will not see a popup for the engagement with that email.  
+
+When an incoming email notification appears on the screen, click More and select the Mute option in the menu.
+Notifications for Reminders
+The Salesloft Chrome Extension takes reminders beyond the Salesloft platform. You can receive reminder popup notifications in your Chrome window by enabling reminder notifications through the Chrome extension. 
+
+Chrome notifications will pop up at the time the reminder is due. The notification will stay on the screen until you click Close. Select the More button in the notification to mark the reminder as complete or navigate to the Person Profile page (where you can edit the reminder if you need to).
+ 
+The Salesloft Chrome Extension and Your Gmail
+Gmail users gain access to Salesloft features after the Chrome extension is installed. These include:
+Sending Salesloft emails
+Managing Reminders
+Viewing Salesloft Person Profile Information
+Viewing Your Salesloft Live Feed
+For more information about Connect for Gmail, visit the Salesloft Connect for Gmail article.
+The Salesloft Chrome Extension and Salesforce
+The Salesloft Chrome Extension puts the power of Salesloft into your Salesforce instance. Once you have installed the extension you can import Leads, Contacts, and Accounts from Salesforce into Salesloft with the push of a button. The extension also installs Connect for Salesforce, which lets you execute Cadences and view Salesloft Person info without leaving Salesforce.
+
+For more information about the Chrome extension and Salesforce, visit the Getting Started with Salesforce User Guide article to learn about importing and Salesloft Connect for Salesforce.
+The Salesloft Chrome Extension and Dialer Settings
+The Chrome extension expands the capabilities of the Salesloft Dialer. Make calls from any webpage in your Chrome browser by right-clicking on a phone number. The extension even allows you to receive inbound calls.
+
+For more information about using the Dialer with the Chrome extension, visit Dialer Everywhere Guide article.
+ 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 2/9/2023 6:07 PM
+Title
+Manage the Salesloft Chrome Extension
+URL Name
+Manage-the-Salesloft-Chrome-Extension
+Salesloft Knowledge
+Getting Started
+Support Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

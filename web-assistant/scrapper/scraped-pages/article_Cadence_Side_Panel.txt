@@ -1,0 +1,131 @@
+CADENCES + TASKS
+Cadence Side Panel
+
+Apr 22, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+When you run a Cadence in Salesloft, the steps will run from the Cadence Side Panel. The Cadence side panel expands on the right side of your window whenever you run your Cadence. 
+
+In this article, you will learn about the Cadence Side Panel, including: 
+Cadence Side Panel Layout
+Grouping, Sorting, and Filtering in a Cadence
+Sort the People in a Cadence Step
+People Actions from the Side Panel
+Cadence Side Panel Layout
+The Cadence Side Panel holds two primary tabs to run activities: 
+Cadences: where you will execute all of your Cadence Steps.
+Hot Leads: where you can view who has recently engaged with your company, so you can reach out while you’re top of mind. 
+When you first view the Cadences tab within the panel, you will see the Cadence Steps that are currently due. Similar to your Home Dashboard Cadences Panel, select the Run Step button on the Cadence action when you're ready to execute. 
+
+At the very top of the side panel, you will see the Sorted By menu. Use this menu to decide the order of your Cadence steps and people. The steps on your to-do list will be listed in alphabetical order by default.
+
+Once you click Run Step in the Cadence side panel, each person with a step due will be listed on a tile. Each tile contains the following information:
+Person’s Name: The name of the person
+Person’s Role: The person's title or role at their company
+Person’s Account: The name of the person's account/company
+Opens: The number of emails opened by the person
+Clicks: The number of email links that have been clicked by the person
+Replies: The number of emails the person has replied to
+The following Person Icons may appear next to the person’s name:
+Green Arrow: This person has previously replied to an email
+Red Phone Icon: This person does not have a phone number listed in their profile
+Red Mail Icon: This person does not have an email address listed in their profile
+ 
+Grouping, Sorting, and Filtering in a Cadence
+You can group and sort Cadence steps and the people listed in the side panel to view them in the order that makes the most sense to execute your sales process. 
+
+When you launch a Cadence, the side panel displays your list Cadence steps. Since you typically run through your steps in the order they are presented, sorting the steps determines when actions occur in your daily lineup (obviously not included scheduled emails). 
+
+At the top of the Cadence side panel, you will see the Group by option. Grouping your Cadence steps helps you to collect your steps based on certain criteria. You can group your Cadences by the following options: 
+Account: When running steps by Account, users will be able to execute steps only related to the people at specific Account.
+Cadence
+Time Zone: When running steps by timezone, you will be able to execute steps only related to the people at a specific timezone.
+ 
+
+ 
+To sort within your side panel, select the Group By button and then click the Sorted By dropdown menu at the top of the workflow panel.  The sorting options may differ based on the grouping. The group by option that fits the filter is explained below within the parenthesis. Sort Cadences by one of the following options: 
+Name: (Both Groupings) Breaks down each step due to be run within a particular Cadence. When Cadences are sorted by Cadence Name, the name of each Cadence is a clickable link that takes you to the Cadence Overview Page. 
+(A-Z): Sorts by the Cadence Name in descending alphabetical order.
+(Z-A): Sorts by the Cadence Name in ascending alphabetical order.
+Cadence Priority: (Cadence) Sorts steps based on the Cadence priority as defined in the Cadence Settings. 
+(High - Low): Sorts by the Cadence Priority in descending order.
+(Low - High): Sorts by the Cadence Priority in ascending order.
+Step Due: (Both Groups) Sorts steps based on the number of steps that are due. 
+Tier: (Account) Sorts steps based on their designated Account Tier. 
+ 
+
+You can also filter Cadence steps by step type. When you launch your Cadence, click the filter (funnel) icon to open the filter options. You can choose from the following step types: 
+All
+Emails
+Calls
+Other
+Integrations
+ 
+Sort the People in a Cadence Step
+Once you select a step to run, your side panel lists out the people that are due for this step. The order of the people is the order that you will contact each person. 
+
+You can sort the people list by: 
+Due On: Prioritize steps based on the due date of that Cadence step.
+Last Name: Alphabetize your to-do lists by the Person’s last name.
+Account: Alphabetize your to-do lists by the account name.
+Account Tier: Prioritize steps based on the Account's previously defined tier.
+Starred: If you have starred a person in Salesloft, you can prioritize your Cadence list by the people who have been starred.
+Replied: To prioritize steps based off of prospects that have replied to your emails.
+Timezone: Avoid calling people currently outside of office hours based on their timezone. Steps are ordered first by in-office status, then east to west. People without a time zone are displayed last. 
+Activity: Prioritize by the people who have completed the most activity (whether that’s email opens, completed calls, etc.).
+Missing Email: These people do not have an email address in their profile information.
+ 
+People Actions from the Side Panel
+Besides running the actual Cadence step, Person actions within the Cadence side panel offer additional activities you can perform. 
+
+To view your Cadence actions, hover over a person's name from the list of people running that step.
+ 
+
+Let's delve into the different actions you can take:
+Open
+Select Open to launch the cadence step. This means that the log box and step action will appear for the Person. You will also be directed to the Person’s Profile page so you can reference that information will you run the step. 
+Hover over the Person’s name in the side panel.
+Click Open.
+The Cadence step actions will open including:
+The profile page of the person
+The Cadence action box (email window, call log box, or Other step log box)
+If the step is a call step, the dialer will also open
+Profile
+Goes to the Person’s Profile page without opening the step.
+Hover over the Person’s name in the side panel.
+Click Profile.
+The person’s profile page will open up in your Salesloft window.
+Salesforce
+Opens the Person’s Salesforce Lead or Contact record in another window.
+
+Things to Note: If the Person is not connected to the Salesforce record, you will not see the Salesforce option. 
+Hover over the Person’s name in the side panel.
+Select Salesforce.
+The Salesforce window will open in another tab.
+Skip this Step
+To skip a contact on a step:
+Click the Ellipses (three horizontal dots).
+Select Skip this Step.
+The person’s name on the Cadence list will fade away and a pop-up notification will appear to inform you the step has been skipped.
+Remove From Cadence
+If a Person no longer needs to be on the particular Cadence, you can remove them from the side panel:
+Click the Ellipses (three horizontal dots).
+Select Remove from Cadence.
+The person’s name on the Cadence list will be removed and a pop-up notification will appear to inform you the person has been taken off the Cadence.
+Last Modified By
+Stephanie Griffith, 4/22/2022 7:26 PM
+Title
+Cadence Side Panel
+URL Name
+Cadence-Side-Panel
+Salesloft Knowledge
+Cadences + Tasks
+Run A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

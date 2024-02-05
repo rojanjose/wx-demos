@@ -1,0 +1,98 @@
+CONVERSATIONS
+Conversations Zoom API Integration FAQs
+
+Nov 3, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+In this article, you will find answers to frequently asked questions about the Conversations Zoom API Integration, including:
+Why don’t I see the bot join my meetings anymore
+How do I know if Zoom is recording my meeting?
+How do I start using the Conversations Zoom API Integration?
+How do I make sure my Zoom room is recording at ALL times?
+How do I create a calendar invite that will capture a Zoom meeting recording in Conversations?
+Will my upcoming meetings appear in the Scheduled tab? 
+Will my current meetings appear in the In Progress tab?
+Will I be able to take Live Notes during the meeting?
+How do I automatically delete recordings in Zoom?
+My team has automatic recording enabled in Zoom but our Zoom cloud storage costs are increasing significantly. How do you recommend I control these costs?
+I have automatic recording enabled in Zoom, but I'm afraid my private meetings, like one-to-ones, are being stored where others can see it. 
+Will my last minute meetings automatically get captured in Conversations?
+How do I know if Conversations captured the audio, video, and transcript from my Zoom meeting?
+How do I resolve a "Recording was too short" error message?
+Why don't I see the bot join my meetings anymore?
+The Conversations Zoom API Integration uses an API (Application Program Interface) to connect to Zoom and therefore, does not require a bot. Once you enable the Conversations Zoom API Integration, the Conversations bot will no longer join your meetings .
+
+For more information about APIs and the Conversation Zoom API Integration, check out the Conversations Zoom API Integration article.
+How do I know if Zoom is recording my meeting?
+When a meeting is being recorded in Zoom, you will see a red dot labeled Recording in the top left corner of your Zoom room.
+
+If your meeting is not being recorded, you as the meeting host or co-host will need to manually click the Record button on your Zoom player controls. 
+How do I start using the Conversations Zoom Integration?
+To get started using the Conversation Zoom API Integration, you will need to enable it in your Profile settings.
+
+For more information on enabling the Conversations Zoom API Integration, check out the Conversations Zoom API Integration article. 
+How do I make sure my Zoom room is recording at ALL times?
+To make sure Zoom is recording all meetings you host, you can enable automatic recording in your Zoom account. Zoom admins also have the ability to turn automatic recording for your team.
+
+For more information on enabling automatic recording, check out the Conversations Zoom API Integration article.
+
+Things to Note: If you choose to enable automatic recording in Zoom, the automatic recording will take place on meetings scheduled after the feature is enabled. For any meetings on your calendar that were scheduled prior to automatic recording being enabled, you must manually click Record during your meeting. 
+How do I create a calendar invite that will capture a Zoom meeting recording in Conversations?
+Your calendar invite for a scheduled meeting should follow the same rules that applied for the bot integration. These rules include:
+Meeting must include invitees with external domains.
+Meeting must include your Zoom meeting URL in the location or description field.
+Public/generic domains are supported as long as they're not considered an internal domain or Do Not Record Domain.
+
+Things to Note: The Conversations Zoom API Integration does not work with the bot will automatically join your team's meetings scheduled by someone outside of your company setting. For more information about Conversations rules, check out the Conversation Intelligence Admin Checklist. 
+Will my upcoming meetings appear in the Scheduled tab? 
+Yes. If you have a meeting scheduled on your calendar that meets all the meeting capture rules (i.e. is not considered internal, is not designated as Do Not Record, has Zoom URL in location or description), you will see the meeting under the Scheduled tab in Conversations.
+Will my current meetings appear in the In Progress tab?
+Yes. Meetings will appear in the In Progress tab during a meeting as long as you have a meeting scheduled on your calendar that meets all the meeting capture rules. 
+
+The meeting will appear when it is about to start. Once the meeting has ended, it will appear in your Recordings tab while it finishes processing, if you were the Zoom room host or co-host.
+
+Refer to the Conversation Intelligence User Checklist for instructions to make user Conversations well.
+Will I be able to take Live Notes during the meeting?
+Yes. If all of the condition below are met, you will be able to take Live Notes. Any notes taken can be viewed in Conversation post-meeting.
+
+Conditions that may impact your ability to take Live Notes include:
+You are the host or co-host of the Zoom room and enabled the Zoom recording
+Your meeting meets the Conversations meeting capturing rules. For additional information, check out the Conversation Intelligence Admin Checklist. 
+How do I automatically delete recordings in Zoom?
+Your Zoom admin can enable the automatic delete setting in your team's Zoom account after a certain amount of time. We recommend that you work with your Finance and IT departments when considering this options. Individual users can also manually delete their cloud recording based on certain criteria
+
+All of the domain rules apply, except for the Conversations admin setting: Bot will automatically join your team's meetings scheduled by someone outside your company.
+
+Things to Note: Public/generic domains are supported as long as the are not considered internal domains or Do Not Record domain. For more information about Conversation Intelligence rules, check out the Conversation Intelligence Admin Checklist.
+My team has automatic recording enabled in Zoom but our Zoom cloud storage costs are increasing significantly. How do you recommend I control these costs?
+Your Zoom admin can enable the automatic delete setting in your team's Zoom account. We recommend that you work with your Finance and IT departments when considering this option. Individual users can also manually delete their cloud recordings based on certain criteria as well.
+I have automatic recording enabled in Zoom, but I'm afraid my private meetings, like one-to-ones, are being stored where others can see it. 
+You can disable the automatic recording setting in your Zoom account, but you will have to manually click the Zoom record button for each meeting you want captured. You can also manually delete your cloud recording based on certain criteria, or have your Zoom admin enable the automatic delete setting in your team's Zoom account. We recommend that you work with your Zoom's admin, Finance and IT department when considering the latter option. 
+Will my last minute meetings automatically get captured in Conversations?
+If the meeting was not scheduled on your calendar (with the calendar invite obeying all of the Conversations meeting capturing rules), then the meeting recording will not be automatically captured in Conversations.
+How do I know if Conversations captured the audio, video, and transcript from my Zoom meeting?
+Once your recording is available in Conversations, the recording panel will include a note that lists what was captured from your Zoom recording, i.e. audio, video, transcript.  
+ 
+
+ 
+The availability of audio, video and/or transcripts depends on what was captured from the Zoom recording file. If your recording appears in Conversations without audio, video or a transcript, this is likely due to active speaker detection (ASD) being missing from the Zoom recording file that was sent to Conversations.
+How do I resolve a "Recording was too short" error message?
+If you receive the following message when trying to record a meeting, your recording is less than 60 seconds long. Salesloft only captures Zoom recordings that are at least 60 seconds long. To avoid the error message, make sure you record at least the minimum number of seconds.
+Last Modified By
+Briana Morgan, 11/3/2022 9:00 PM
+Title
+Conversations Zoom API Integration FAQs
+URL Name
+Conversations-Zoom-Integration-FAQs
+Conversations
+Salesloft Knowledge
+Conversations Integrations
+Conversations Zoom Integration
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

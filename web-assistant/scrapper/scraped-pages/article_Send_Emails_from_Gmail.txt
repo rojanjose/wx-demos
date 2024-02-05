@@ -1,0 +1,157 @@
+EMAIL
+Send Emails from Gmail
+
+Aug 8, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Installing Salesloft’s Salesloft Chrome Extension allows you to leverage Salesloft email and templates from your Gmail account. This means that you can send emails from Gmail that will log and track messages (if you choose) just like sending them from the Salesloft platform. 
+
+Things to Note: You cannot send emails until you add a recipient’s email address in the “To” row.
+
+You can learn all about Connect for Gmail and its capabilities in our Salesloft Connect for Gmail article. 
+
+In this article, you will learn how to send Salesloft email messages directly from Gmail, including:
+Lofting in Gmail 
+Lofting and Creating a Person
+Schedule Gmail Sends 
+Lofting Settings
+Select Templates or Snippets
+Insert Meeting Availability
+Using Email Sentiment in Salesloft Connect for Gmail
+Lofting in Gmail
+The Loft It feature logs and tracks your emails in Salesloft (and Salesforce) from Gmail.
+
+We understand that you may not want some emails you send logged into Salesloft (like an email to a family member or co-worker). For those instances, you can toggle the Lofting feature on or off within your Gmail email window. 
+
+When the toggle is turned off (and the button is gray), your emails will send just like your standard Gmail messages. 
+ 
+
+When the toggle is turned on, the toggle will turn from gray to green and the Loft It button will appear where the Send button was previously located. With that flip of the switch, you gain access to Salesloft-specific features including the Loft It button to send and log your email, email tracking settings, templates, and snippets.
+
+The Loft It button's primary function is to send your emails and log all the data to Salesloft. To send Salesloft emails using the Loft It button, follow these steps:
+
+1. Open a new message.
+
+2. Make sure the Lofting toggle is turned "on."
+
+3. Enter your email message or add a template and/or snippet to the email window.
+
+4. Control click and open tracking by selecting the icons located to the right of the Subject Line. If the icons are dark, tracking is enabled. If the icons are light gray, tracking has been turned off. You can also use the Settings menu in the bottom right corner of the email window.
+
+
+
+5. Hit Loft It. The Loft It feature sends the email to the recipient and allows the email to be tracked for views, clicks, and replies via the Salesloft platform.
+Lofting and Creating a Person
+The Loft It feature may only be used to send emails to a Salesloft Person, aka someone who has been imported into Salesloft. This means that messages will not log to Salesloft unless the recipient has been added as a Salesloft Person.
+
+Things to Note:
+Creating a Person when Lofting is an available permission. If the permission is not available for your role, a message will pop up that you are Unable to Create New Person. If will ask if you would like to Cancel the email or Send Without Lofting. Reach out the a team administrator about enabling your permission to Create People.
+When creating a Person from a lofted email from Gmail, if there are multiple email addresses in the "To:" field, only the first email address will be created as a Person in Salesloft. Additional email addresses will not be created as People in Salesloft.
+ 
+When you are in Gmail, there are multiple ways to add an email correspondent as a Salesloft Person, but when you are actively sending emails, you may not want to stop and import a Person. So, when you hit Loft It, Salesloft prompts you to add the Person. 
+
+On the opposing end of the spectrum, if you are emailing someone who has no business (literally) being in your Salesloft instance (like a family member), you may opt to send your email without Lofting. 
+
+To send and create a Person, follow these steps: 
+Open a new message.
+Enter your email message or add a template and/or snippet to the email window.
+Hit Loft It.
+A popup will appear asking if you would like to create a Person Profile for your email recipient. Click Create Person and Loft to complete the Lofting process. Or click Send Without Lofting to simply send your message without the logging function.
+ 
+Schedule Gmail Sends
+To schedule the email to send in advance, follow these steps:
+Open a new message.
+Make sure the Lofting toggle is turned "on."
+To the right of the Loft It button, select the clock icon to open the schedule menu. 
+Select a time, or enter a custom time to send.
+Select the time zone. You can pick either your time zone or the recipient's time zone. 
+Hit Loft It. 
+ 
+Lofting Settings
+Select the gear shift icon to open your Gmail Lofting settings. The settings include the following features:
+Lofting Preferences: Determine how you want the Lofting feature enabled. Your options include:
+Always On: Keeps the Lofting feature on. 
+Always Off: Turns the Lofting feature off when you open a new email window. 
+Remember Last: If the Lofting feature was on when you last sent an email, Lofting will be enabled. If the feature was turned off when you sent the email, Lofting will be disabled. 
+ 
+Click Tracking: Enables click tracking for the email message. 
+View Tracking: Enables view tracking to keep you aware when the recipient opens the email. 
+Things to Note: Opens/views will be tracked to the Person created in Salesloft, even if those opens/views come from people in the "To:" field not created in Salesloft. 
+ 
+Select Templates or Snippets
+Add a Template or Snippets to an email so you use the same consistent messaging, with the added benefit of tracking metrics.
+
+To use a template or a snippet from your Gmail, follow these steps:
+
+1. Open a new message.
+
+2. In the bottom right corner of the email window, select the + Insert icon to open the content options.
+ 
+
+ 
+3. Select Templates or Snippets.
+
+4. The Insert window will open on the screen.
+
+5. Select My or Team to choose from the personal or team templates or snippets. 
+For Team content, you will be able to filter and search by Group Content. 
+If your team has Group Content Visibility enabled, your team content will default to content assigned to any groups you're assigned to. 
+ 
+
+6. Search for the template or snippet you would like to use. You may also search based off of tags.
+
+7. Select the template or snippet.
+
+8. Hit Insert.
+
+9. The template or snippet will go into your email window. Review your message and hit Loft It.
+ 
+Insert Meeting Availability
+Your Salesloft messages also include the ability to schedule meetings from emails sent from Gmail by inserting your availability. This allows you to select the open times on your calendar. Then, your recipient can choose the meeting time that works for everyone and book a meeting.
+
+To insert meeting availability times in your Gmail window, follow these steps:
+Open a new message.
+In the bottom right corner of the email window, select the + Insert icon to open the content options.
+Select Availability.
+The Insert Availability window will open on the screen.
+Set your meeting availability. For detailed instructions, follow the steps 4-9 listed in the Book Meetings Through Salesloft article.
+Complete your email. 
+Hit Loft It to send. 
+ 
+Using Email Sentiment in Salesloft Connect for Gmail
+ Email Sentiments are qualitative descriptions assigned to your email replies that provide insight into how your message performed. 
+
+An Email Sentiment will be suggested by Salesloft’s Machine Learning algorithm when you open a Lofted email response from a prospect.  The pre-selected sentiment will appear at  the top portion of the response. You can see learn more about the Available Email Sentiments in our Knowledge Base article. 
+
+Things to Note: Email Sentiments only appear for replies to Lofted emails - aka emails sent from the Salesloft platform OR using the Loft It button in Salesoft Connect. 
+
+Each suggested Sentiment contains a brief explanation of why the model assigned the specific sentiment and a Confidence Level. You can view the explanation by hovering over the i icon to the right of the Email Sentiment. The Confidence Level lets you know how sure the model is about the selection so you can also feel confident in that selection. 
+ 
+
+You can (and should) review the suggested Email Sentiment when it appears. The Machine Learning algorithm is good, but it can still learn. So, if you see an Email Sentiment assigned that doesn’t match the actual sentiment of the message, the best thing you can do is teach the Machine Learning algorithm by selecting a more appropriate Email Sentiment. 
+
+Things to Note: Any Salesloft user cc’d on the email reply can edit the sentiment. For example, a manager cc’d on emails sent by newer reps can make sure that the Email Sentiment is most accurately showing the rep’s performance.
+
+When you select a different Email Sentiment, you are editing the Email Sentiment. To edit the Email Sentiment inside Gmail, follow these steps: 
+Open your email reply. Find the Email Sentiment at the top of the reply message. Review the explanation and confidence level. 
+Click the name of the Email Sentiment to open the dropdown menu. 
+Select the Email Sentiment that is appropriate for your email reply. 
+Your new Email Sentiment will be saved and sent to Salesloft Analytics and changes are reflected in charts and reports. 
+ 
+Last Modified By
+Briana Morgan, 8/8/2022 4:10 PM
+Title
+Send Emails from Gmail
+URL Name
+Send-Emails-from-Gmail
+Email
+Salesloft Knowledge
+Sending Emails
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,120 @@
+USER GUIDES
+MEETINGS/CALENDAR
+Set Up Scheduling Preferences
+
+Dec 19, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+When it comes to booking time on your calendar, you may have preferences for how prospects and stakeholders book meetings. You may prefer buffer time between meetings. Maybe you prefer to make your booking calendar available on a month-by-month basis. 
+
+ 
+
+The Scheduling Preferences settings allow you to set your preferences for how prospects and stakeholders can book meetings with you. Once you set your scheduling preferences, Salesloft will require prospects and stakeholders to book accordingly to ensure meetings are booked conveniently for you. 
+
+ 
+
+You can set your Scheduling Preferences from the Availability and Scheduling tab in your personal calendar settings. From the Availability and Scheduling tab, you can also set your working hours. To learn more about your personal calendar settings and setting your work hours, check out our Your Personal Settings article and our Set Your Working Hours article.
+
+ 
+
+In this article, you will learn more about the Scheduling Preferences settings, including:
+
+Set Scheduling Limit
+Add Meeting Buffer Time
+Set Minimum Schedule Notice
+Include a Reschedule Link
+Set Scheduling Limit
+
+A Scheduling Limit refers to how far in advance someone can book time on your calendar. Maybe your schedule fluctuates and you prefer to book meetings on a month-by-month basis. Maybe you're the opposite and prefer having your calendar open for the entire year. Whatever your preference, the Scheduling Limit settings allow you to choose how much of your calendar people can see and ultimately, how far in advance they can book a meeting. 
+
+ 
+
+To set a scheduling limit, follow these steps:
+
+ 
+
+Click your name in the upper right corner to access your settings
+Select Calendar under the Personal Settings. 
+Go to the Availability and Scheduling tab. 
+Scroll down to the Scheduling Preferences settings.
+Click Edit in the Limits tile. This will open the Edit Limits window. 
+Choose Indefinitely or Over a rolling period of _ days.
+If you choose Over a rolling period of _ days, enter the number of days that will determine how far in advance people can book time on your calendar.
+Hit Save.  
+
+Add Meeting Buffer Time
+
+Meeting Buffer Time is the the length of time allocated between meetings on your calendar. Adding buffer time creates blocks in your availability that people will adhere to when booking time on your calendar. If you are someone who prefers to have time between each meeting, you can add buffer time to ensure you get the time you need between each call. 
+
+ 
+
+To add buffer time between your meetings, follow these steps:
+
+ 
+
+Click your name in the upper right corner to access your settings
+Select Calendar under the Personal Settings.
+Go to the Availability and Scheduling tab.
+Scroll down to the Scheduling Preferences settings.
+Click Edit in the Meeting Buffer tile. The edit button will turn into a dropdown.
+Use the dropdown to set your preferred buffer time in minutes.
+Click the checkmark. 
+
+ 
+
+Set Minimum Schedule Notice
+
+A Minimum Schedule Notice is an availability restriction that allows you to prevent people from booking meetings outside of your availability. Not the last-minute-meeting type? You can use the Minimum Schedule Notice setting to prevent meetings from being booked based on your time preference. 
+
+ 
+
+To set your Minimum Schedule Notice, follow these steps:
+
+ 
+
+Click your name in the upper right corner to access your settings
+Select Calendar under the Personal Settings.
+Go to the Availability and Scheduling tab.
+Scroll down to the Scheduling Preferences settings.
+Click Edit in the Minimum Schedule Notice tile. The edit button will turn into an editing box.
+Type a number or use the up/down arrows to set the number of hours you would like to prevent meetings from being booked within.
+Click the checkmark. 
+
+ 
+
+Include a Reschedule Link
+
+The Reschedule Link setting allows you to add a link to your calendar in any meeting invite you send. Including a reschedule link to your meeting invites helps prospects reschedule at the most convenient time. 
+
+ 
+
+To include a reschedule link to your meeting invites, follow these steps:
+
+ 
+
+Click your name in the upper right corner to access your settings
+Select Calendar under the Personal Settings.
+Go to the Availability and Scheduling tab.
+Scroll down to the Scheduling Preferences settings.
+Click the toggle beside Reschedule Link. When the toggle area is blue, the setting is ON. 
+
+ 
+
+Last Modified By
+Raequel Sank, 12/19/2023 6:01 PM
+Title
+Set Up Scheduling Preferences
+URL Name
+Set-Up-Scheduling-Preferences
+Salesloft Knowledge
+Meetings/Calendar
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

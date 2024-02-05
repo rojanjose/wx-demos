@@ -1,0 +1,72 @@
+SALESLOFT MOBILE
+Messaging from Mobile
+
+Jun 22, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+With Salesloft Mobile, you can easily send and receive messages right from the Salesloft mobile app. With prospects and customers just a text message away, you can better manage communications so you never have to miss time-sensitive dialogue.
+
+To get started using Messaging from Mobile, you will need to enable it with a Salesloft texting plan. Once your Salesloft texting plan is established, open the Salesloft app and select the Message tab. Inside the Message tab, you can send text messages, review previous conversations, and even access your Person Details.
+
+Things to Note: ​The Salesloft app is currently only available from iOS devices.
+
+In this article, you will learn about Messaging from Mobile, including:
+Important Things to Know About Messaging from Mobile
+Send a Message
+Receiving Messages and Message Notifications
+Important Things to Know About Messaging from Mobile 
+When you enable Messaging from Mobile by purchasing a Salesloft texting plan, you may notice that the menu tabs in your Mobile app appear slightly different. For more information about each menu tab in the Mobile app, check out the Salesloft Mobile App article.
+Before using Messaging from Mobile, be sure that you are using the most updated version of the Salesloft. To find out what version of Salesloft Mobile you're using and check for available updates, open the Mobile app and select the About tab.
+ 
+If a Person is marked Do Not Contact in Salesloft, a do not contact icon will appear beside their name and you will not be able to send a message to them. To remove a Person from the Do Not Contact list, check out the Do Not Contact and Contact Restrictions article. 
+Send a Message
+With Messaging from Mobile, you can send messages to contacts in your Salesloft Mobile app. A contact in the Salesloft Mobile app can either be a Person whose record is saved in Salesloft, or someone new.
+
+On the Message tab, you will see a list of previous conversations you've had with contacts. You can send a message by selecting a contact on the Message screen to continue a previous conversation.
+
+Things to Note: Messages appear in order based on the date and time that you receive them–most recent being first.
+
+You can also search for a Person and send a message to them or send a message to a new number.
+
+ 
+Search and Send a Message to a Person
+A Person is someone whose record and contact information is saved in Salesloft. When sending a message to a Person, you can also view their Person Details right from the Mobile app.
+
+To send a message to a Person, select the search icon in the upper right corner of the screen. Enter the name or number of the Person you would like to send a message to. If the Person record exists in Salesloft, you can select Profile to view their Person Details.
+
+
+ 
+If you attempt to message a Person whose record exists in Salesloft, but does not include a phone number, you will see an error message asking you to update the Person's mobile number field. You can select Edit Profile to add a phone number to the Person's record.
+
+
+
+Sending a Message to a New Number
+If you would like to send a message to a new number, select the pen icon in the bottom right corner to enter the number and send a message. 
+
+
+Once you send a message to a new number, you can select Add to Contact to save the number as a contact.
+ 
+
+Things to Note: Saving a new number as a contact in the Mobile app may not create a Person record in Salesloft.
+Receiving Messages and Message Notifications
+When you receive a message, it will appear in the Message tab. New or unopened messages will appear with a green bubble beside it. 
+
+If you receive a message after you've closed the Mobile app, a push notification will appear. You can select the push notification to be directed to the message inside of the Mobile app.
+ 
+Last Modified By
+Raequel Sank, 6/22/2022 7:20 PM
+Title
+Messaging from Mobile
+URL Name
+Messaging-from-Mobile
+Salesloft Knowledge
+Salesloft Mobile
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

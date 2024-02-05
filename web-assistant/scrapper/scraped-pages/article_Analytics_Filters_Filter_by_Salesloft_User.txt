@@ -1,0 +1,110 @@
+ANALYTICS + REPORTING
+Analytics Filters
+
+Sep 13, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Analytics Filters allow you to alter the data you see in your panels and reports.
+
+Filters can expand or refine your analytics to show information. If you see an empty state in a report (meaning there is no available data), you can adjust your filters time period or users to see which person is performing best and when. On the other hand, you can refine your list to view specific data, instead of seeing all of the data each report has to offer. 
+
+By changing the filters and saving different views you can Create Custom Reports.
+
+In this article, you will learn about the available Analytics Filters, including: 
+Display By Filter
+Filter by Time Range
+Filter by Salesloft User
+Add Advanced Filters
+Display By Filter
+The Display by filter dictates how report data is organized, grouped, displayed, and summarized. By setting these kind of parameters, you can gain answers to the following questions:
+How do groups compare?
+What are the results by month, hour of day or day of week?
+How are results trending by day, week or month?
+Things to Note: Display by feature is currently only visible on the Team Performance, Emails Report, Team Calls Report and Process Report. 
+
+The Display By filter is located in the upper left corner of your reports. You may filter by one of the following selections:
+User (default)
+Group
+Group & User 
+Hour
+Day
+Week
+Month
+Hour of Day
+Day of Week
+Filter by Time Range
+Viewing your data over a specific time period allows you to see progress over the course of a month, a quarter, or dwindle the record down to see how your engagement has been on this very day.
+
+This is why Salesloft allows you to filter your analytics by time range. You can choose from a standard time range filter or assign custom dates.
+
+You can filter by time range from the Analytics Overview, Reports, and Ranking tabs. 
+
+The time range filters include the following options:
+Today: Shows your analytics report for this calendar day. The report starts at 12:00 am. The data shown will include all data that has been collected.
+Yesterday: Shows your analytics reported during the previous day. All days of the week apply (including weekend).
+Last 7 Day: Default time range. Shows your analytics report over the last seven days, including the current day.
+Last 30 Days: Shows your analytics report over the last 30 days, including the current day.
+Last 90 Days: Shows your analytics report over the last 90 days, including the current day.
+Last Month: This shows the metrics of the prior, or last, month based on the current month. For example, if the current date is in July, then Last Month will filter results for June.
+Week to Date: See data only for the current week.
+Things to Note: The week always starts with Monday.
+Month to Date: Shows progress for the current month. This includes from the first of the month to the current date. 
+Quarter to Date: Summarizes results for the current calendar quarter and offers a comparison to the prior quarter. Quarters are as follows:
+January, February and March
+April, May and June
+July, August and September
+October, November and December
+Year to Date: Summarizes results since January 1st of the current year and offers a comparison of Year over Year results.
+Things to Note: This is a calendar year to date and not a fiscal year to date.
+Custom: Allows you to pick the specific date range for your analytics report. When you select Custom, the filter box will expand. Select the date box to view a calendar and choose your date range.
+After you select a filter range, click Apply. This will refresh your view to the filter. 
+
+Things to Note: Salesloft will only display data that has been collected for the day. Data for the current or an upcoming hour may take some time to load. 
+ 
+Filter by Salesloft User
+Filters allow you to specify the type of data you view within your analytics. Salesloft offers filters for team members and time. 
+
+The team member filter refines your reported data for a specific group or individual user on your team. This filter allows admins and users to see how entire teams or individuals are performing. 
+
+You can filter by User from the Analytics Overview, Reports, and Ranking tabs. 
+
+The user filters include the following options: 
+All Users: Shows the collected activity of everyone on your Salesloft team.
+You: Shows your activity report.
+Specific Users: Shows the activity report of specific individual users on the team. Restricted to admins or anyone with the filter by teammates permission.
+Users in Specific Groups: Shows the select activity of Salesloft users that belong to a specific group. Groups are set by admins.
+Add Advanced Filters
+The user and time filters are fairly standard by Salesloft standards. However, there are additional filters you may add to your reports.
+
+The Add Filter button lets you select filters that are specific to the report. For example, if you are looking at the Calls Standard Report, you can filter by Call specific metrics like the number of Calls Dialed. 
+
+Added filters also have an advanced filter component. Advanced filters allow you to filter on metrics or numeric values using filter ranges such as Exactly, Greater than, Less than, and Between.
+
+To add advanced filters, follow these steps: 
+From the filter row of your report, click the Add Filter button. A dropdown will appear with your available filters. 
+Select the filter you wish to add. The filter will appear on the filter row. 
+Next, you need to set the values for your filter. Click the filter tile to open the filter management dropdown. 
+Select the range for your filter from the following options:
+is Between: This will include the numbers that are defined. 
+is Exactly
+Is Greater than: Will not include the numeric value.
+is Less than: Will not include the numeric value.
+ Add the numeric values for your range. 
+Click Apply.
+Last Modified By
+Stephanie Griffith, 9/13/2021 3:47 PM
+Title
+Analytics Filters
+URL Name
+Analytics-Filters
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Essentials
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

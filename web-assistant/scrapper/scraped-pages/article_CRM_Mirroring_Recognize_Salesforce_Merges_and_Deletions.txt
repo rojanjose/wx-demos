@@ -1,0 +1,112 @@
+CRM
+CRM Mirroring: Recognize CRM Merges and Deletions
+
+Aug 15, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Reps working quickly through their daily tasks are liable to create duplicate records. Sometimes it's easier to create a new record rather than search for a record that may or may not exist. CRMs use the Merge & Delete process to correct this behavior.
+
+The CRM Merge & Delete Process consolidates these records to make sure all of the appropriate information is in one place. When you go through the process into your CRM, you choose a master record and a losing record(s). Then you elect what information will remain on the Master Record. 
+
+Since Salesloft Person records match up to single Lead or Contact in your CRM, these merges can cause a disruption in the data. To keep information consistent, Salesloft created an admin-enabled feature to recognize CRM Merges that occur and align Salesloft Person Records with the customer's Lead and Contact Records automatically. 
+
+In this article, we will go over how Salesloft interacts with CRM merge and deletes, including: 
+Enable Merge Recognition
+Recognize CRM Deletions
+Merge Behavior in Your CRM
+Lead Conversion to Existing Contact 
+CRM Merge to 1 Salesloft Person Record
+CRM Merge Associated to Multiple Salesloft Person Records
+Enable Merge Recognition 
+In order to turn on Merge Recognition, a team admin will need to enable the feature from the CRM settings. Once the Recognize Merge Setting is enabled, your Salesloft Instance will begin to recognize Lead and Contact Merges that occur in your connected your CRM Instance.
+
+Follow these steps to enable merge:
+Go to Team Settings.
+Navigate to the CRM Sync Settings on the left hand side.
+Select the  CRM Sync Management tab at the top of the page. 
+From the CRM Sync Management page, scroll to Recognize CRM Merges. Turn the toggle to enable the setting. When the toggle is blue the setting is on. 
+ 
+ 
+Recognize CRM Deletions
+If you have records in your CRM that are no longer relevant, you may want to delete them rather than merge them into another record. When a CRM record is deleted, what happens to the linked Salesloft record?
+
+The recognize CRM Deletions feature automatically identifies any CRM Deletions that occur and whether they are aligned to a Salesloft Person, Account and Opportunity Records. Now, what happens with the linked Salesloft record will be determined by the Recognizing CRM Deletions Setting. There are two options: 
+Enabled (toggle on): When your CRM record is deleted and Recognizing CRM Deletions Setting is Enabled, the corresponding Salesloft record is deleted.
+Disabled (toggled off): When your CRM record is deleted and Recognizing CRM Deletions Setting is Disabled, unlink the deleted your CRM record from the corresponding Salesloft record.
+Things to Note:
+CRM Sync must be enabled to use this feature.
+Recognizing CRM Deletions will be on by default for any customers that have not previously enabled CRM Sync before. This means it will be enabled for all new customers that enable CRM Sync OR any current customers that haven't enabled CRM Sync yet but will in the future.
+If you are an existing Salesloft customer, you will have to manually enable the feature.
+To edit the Recognize CRM Deletions settings, follow these steps: 
+Go to Team Settings.
+Navigate to the CRM Sync Settings on the left hand side.
+Select the  CRM Sync Management tab at the top of the page. 
+From the CRM Sync Management page, scroll to Recognize CRM Deletions. Turn the toggle to enable the setting. When the toggle is blue the setting is on. A notification will appear at the top of the page to inform you of the setting status.
+ 
+Merge Behavior in Your CRM
+Merges can happen in your CRM in one of two ways: 
+Manual merge action for
+Leads
+Contacts
+Automated merging through third party applications. 
+Speak with your team's CRM admin for more information on setting up merge behavior within your CRM. 
+
+Once the merge occurs in your CRM, there are two scenarios to be accounted for in Salesloft:
+CRM Merge to 1 Salesloft Person Record
+CRM Merge Associated to Multiple Salesloft Person Records
+Lead Conversion to Existing Contact
+While completing daily tasks, you might discover an existing Contact record in CRM and Salesloft that represents the same person as a Lead you’re pursuing. When this occurs, you can convert the Lead into an existing Contact record in Salesforce.
+
+Things to Note: Lead Conversion to Existing Contact is only available for customers that use Salesforce as their CRM. Lead Conversions is a standard workflow in Salesforce and the option to convert to an existing Contact record exists for all Salesforce customers using the Leads object.
+
+Lead Conversion to Existing Contact can be enabled from  the CRM Sync Management setting Recognize CRM Merges . 
+
+When a Person is linked with Lead converted to an existing Linked Contact in CRM, the following occurs:
+Salesloft deletes the Person record linked to the Lead record from Salesloft.
+All historical activities for the Lead will be available on the Contact record in Salesforce, but will not be visible for the Person linked to the Contact after the conversion occurs.
+The CRM Sync logs show a Merge for the Contact record the Lead was converted to.
+The actions for any active Automation Rule with the trigger “When Lead is Converted in CRM” fire for the Contact record the Lead was converted to.
+ 
+CRM Merge to 1 Salesloft Person Record
+The first possible scenario for CRM merges occurs when you merged multiple records in your CRM but there is only one Salesloft Person Record associated with the Contacts or Leads you merged.
+
+The result of this merge scenario keeps all of your Active Cadences work history (Emails, Calls, Cadence History) intact on your Salesloft Person record.
+
+The only change that occurs is the CRM ID gets updated to the CRM ID of the CRM Master Record that you selected when merging the records in your CRM and any information you selected to move to that Master Record while in your CRM.
+
+Things to Note: If there are discrepancies between the data on the winning CRM record and your Salesloft record, the data will be reconciled according the field's designated field configuration merge behavior. 
+ 
+CRM Merge Associated to Multiple Salesloft Person Records
+The second possible merge scenario occurs when you merge multiple records in your CRM and you have multiple Salesloft Person Records associated with the SFDC Contacts or Leads you merged. This merge will result in a master record and one or more "losing" records.
+
+NOTE: Converting a Lead into an existing linked Contact (Salesforce customers only)
+In the event a Lead record is converted into an existing Contact record in Salesforce instead of creating a new Contact, Salesloft treats this as a merge in the event the Contact record the Lead is converted existed as a linked Person record in Salesloft prior to the Lead Conversion in Salesforce.
+
+Impact on the Master Salesloft Record:
+The Salesloft Person Record that was linked to your selected CRM Master Record will be the Salesloft Record that takes precedence.
+Any Cadences that were associated with the Master Salesloft Record will remain on all active Cadences and work history will stay intact.
+ 
+The Losing Salesloft Record(s):
+Any Salesloft Person Records that are linked to the Losing CRM Record(s) in the merge are deleted in Salesloft.
+If any of these "Losing" Salesloft Records were in active Cadences, they will also be removed from those Cadences.
+No work history from the Losing Records will be moved to the Salesloft Master Record, however, the activities will remain in our system and will continue to populate analytics.
+Choosing a master record and losing the record when merging two records from Salesforce also applies to the Account records.
+ 
+Last Modified By
+Briana Morgan, 8/15/2022 6:27 PM
+Title
+CRM Mirroring: Recognize CRM Merges and Deletions
+URL Name
+CRM-Mirroring-Recognize-Salesforce-Merges-and-Deletions
+Salesloft Knowledge
+Salesforce
+CRM
+Salesforce Admin Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

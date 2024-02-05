@@ -1,0 +1,152 @@
+PEOPLE AND ACCOUNTS
+ACCOUNT PROFILE PAGE
+Account Profile Activity Feed
+
+Feb 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+An individual Account Profile Page is built up of smart panels that contain a whole lot of information and actions you can take to improve your engagement. The center panel is dedicated to the Activity feed. The Activity feed offers a detailed look into all of the activities logged to the various People linked to the Account. 
+
+The Activity feed gives you complete visibility into an Accounts Salesloft history. You can quickly learn whether an activity was completed by you or another Salesloft user, through a Cadence or an Automation Rule. This will help you keep track of the level of engagement your team has had with the Account. 
+
+The tabs at the top of the Account Activity Feed allow you to quickly access and view certain activities on one page. The tabs include Emails, Calls, Cadence, and Notes. These tabs are perfect for filtering by a specific type of action. For example, you could check how many People on the Account have received an email or keep track of their Cadence activities. 
+
+In this article, you will learn all about the activities you can view and complete from the activity feed including: 
+View an Account's Activities
+Enable the Activity Feed Compact View
+View an Account's Logged Emails
+View an Account's Logged Calls
+View an Account's Cadences
+View an Account's Tasks
+Add Notes on the Accounts Profile
+View an Account’s Activities
+The first tab in the activities panel is the Activity tab. This tab displays the activities relevant to People linked to the Account you are viewing. Any activity, whether you add People to a Cadence, send an email, log a call, create Tasks, mark them as a success, etc., will appear in the activities. 
+
+Each activity type will have its own tile with information like activity icon, date and time, actions, and who performed the activities or how the activities were triggered. For a complete list of the activities and actions you can perform, check out the Logged Activities Inside the Activity Feeds article. 
+
+The Activity tab is divided into sections based on the types of activities you have available:
+
+Pinned: Notes, emails, and calls saved to the top of the activity feed.
+Upcoming: Activities that are scheduled to be completed at a later time. 
+Past: Activities that have been previously logged to People linked to the Account.  
+Pinned
+The Pinned section of the Activity feed will only appear when a note, call, or email has been pinned by a Salesloft user. All users have access to view pinned activities, pin, or unpin them.
+
+In the Pinned section activities will be sorted by the activity date (most recent on the top). You can unpin the activity by hovering over the activity and selecting unpin option.  
+
+Once a note, call, or email is pinned, it will appear in both Pinned and Past sections of the Activity tab, as well as on the tabs dedicated to the specific activity. When expanded, pinned activities will have additional information on when and who pinned the activity. 
+
+Things to Note: once activity is pinned for the Person, it appears in the Pinned Activities section on the Person Profile and Account Profile. Once account activity is pinned, it appears in Pinned Activities section on the Account Profile only.  
+Upcoming 
+Upcoming Actions include Cadence steps and assigned Tasks that need to be completed or are assigned for a future date.
+
+The Upcoming Actions will show three tiles by default. If there are more actions in the future, you will see a View All button at the bottom of the Upcoming Actions. Click View All to see all actions that are due.  
+Past
+Past Activities include the activities that have been previously logged to the Account.  
+
+Inside the Past section, you can filter activities by activity type. Different activities are broken down into the following categories:
+Engagement: recommended to view the history of touches and interaction between seller and the prospect. 
+Cadences and Tasks: recommended to review the history of completed cadence steps and tasks. 
+Other: recommended to find specific activity, like Success, Do Not Contact, or EU Resident
+To use the filter, follow these steps: 
+On the Account Profile, go to the Past section of the Activity feed. 
+Click the Activities button to open the Activities filter. 
+Select your preferred filter. The filter follows "and" logic. This means if you select multiple filters, you will see multiple activity types. 
+Click Apply. The Activities shown in the Past view will switch to the filtered view. The Activities button will show the number of filters applied. 
+To remove the filter, click the X listed in the Activities filter button to clear this filter 
+Enable the Activity Feed Compact View
+By default, when you view email replies, notes and calls the full activity description is shown. This is known as the Expanded View of the activity since it shows more details like the entire email message or complete note. 
+
+If you would like to see less information in your activity feed, you can switch the Activity Feed to the Compact View. The compact view will show to first couple of lines of the activity. You can still click the activity to expand the details. 
+
+To turn on the compact view, select the cog icon in the upper right corner of the Activity Feed panel. Enable the Compact View option. This compact view is setting will apply to all Person and Account profiles that you view.
+View an Account's Logged Emails
+The Emails tab allows you to view all emails sent to the People on this Account along with their email engagement (open, click, reply metrics). You can even see a complete log of replies you have received from People on the Account. To get a more in-depth look at the email, click on an individual email. The email will expand to show the full message. 
+
+Email activities nestled under the Past section of the tab can be filtered to view specific types of email activities. To use the Email filter, follow these steps: 
+In the Activity Panel on the Account Profile, go to the Email. 
+Under the Past section, click the Emails button to open the Emails filter. 
+Select your preferred filter(s) from the following options: 
+Sent
+Replies
+Received (Inbound Sync)
+Click Apply. The activities shown in the Past view will switch to the filtered view. The Emails button will show the filter or number of filters applied. 
+To remove the filter, click the X listed in the Emails filter button to clear this filter 
+ 
+View an Account's Logged Calls
+The Calls tab shows all of the calls made to this Account. Each call log includes any notes, the disposition, and sentiment of those calls. You can even access Call Recordings from the link below the call notes.
+
+At the top of the Calls tab, you will see the option to Expand All/Collapse All. These buttons allow you to expand all call logs in a single click. Once the view is expanded, you can view all of the details and notes logged to the call. You can select between Expand All or Collapse All. One option will be selected at all times. 
+
+Things to Note: The Expand All option will apply to the Calls and Notes tabs. 
+
+Call activities nestled under the Past section of the tab can be filtered to view specific types of call activities. To use the Call filter, follow these steps: 
+In the Activity Panel on the Account Profile, go to the Call. 
+Under the Past section, click the Calls button to open the Calls filter. 
+Select your preferred filter(s) from the following options: 
+Calls Logged
+Voicemails Received
+Click Apply. The activities shown in the Past view will switch to the filtered view. The Calls button will show the filter or number of filters applied. 
+To remove the filter, click the X listed in the Calls filter button to clear this filter 
+View an Account's Cadences
+The Cadences tab shows all of the Cadences People at the Account are or have been on, including the Cadences of your teammates.
+
+In the upper right corner of the panel, you can select Remove All to remove all People on this Account from Cadences. This is a good use case if you reach a successful outcome with the Account and no longer need to use Cadences to reach them or, on the flip side, if the Account has requested that you do not contact them  anymore, you can remove that communication in one action.
+ 
+ 
+View an Account's Tasks
+Tasks are one-off actions assigned to a Person inside Salesloft. From the Account Profile Page, you can view any Tasks – Upcoming and Past (completed) – that have been assigned to People associated with the Account. 
+
+Things to Note: New Tasks cannot be created from the Account profile page. 
+
+Hover over Tasks listed in the Upcoming Tasks section to complete the task or view additional task actions.
+ 
+Add Notes on the Account’s Profile
+The Notes tab does exactly what the name says, it allows you to log notes on the Account’s record in Salesloft. When you log a note you can quickly reference it from the Notes tab, or view it under recent activity.
+
+At the top of the Notes tab, you will see the option to Expand All/Collapse All. These buttons allow you to expand all call logs in a single click. Once the view is expanded, you can view all of the details and notes logged to the call. You can select between Expand All or Collapse All. One option will be selected at all times. 
+
+Things to Note: The Expand All option will apply to the Calls and Notes tabs. 
+
+To log a note, follow these steps:
+Click the Notes tab from the activity feed on the Account’s Profile page.
+Select the Add a Note button in the top right corner of the panel.
+Type in your note.
+Click Create Note.
+
+
+ 
+ 
+
+Notes Management: Who Can Access, Edit, and Manage Notes?
+Wondering who has access to view, create, edit, pin, or remove notes on the Account Profile Page? The answer depends on the user's role and level of permissions. The table below lists Salesloft's notes management permissions.
+
+Things to Note: The Account Record Owner is the Salesloft user who owns the Account Record and is responsible for the actions related to an Account in Salesloft. The Account Record Owner's name appears on the Account Profile Page.
+ 
+Action	User With Record View Permissions	Account Record Owner	Admin
+View all notes	Y	Y	Y
+Create a new note	Y	Y	Y
+Pin/Unpin my note	Y	Y	Y
+Pin/Unpin other user’s note	N	Y	Y
+Pin/Unpin inactive user’s note	Y	Y	Y
+Edit my note	Y	Y	Y
+Edit other user’s note	N	N	Y
+Delete my note	Y	Y	Y
+Delete other user’s note	N	Y	Y
+Last Modified By
+Raequel Sank, 2/13/2023 3:31 PM
+Title
+Account Profile Activity Feed
+URL Name
+Account-Profile-Activities-feed
+Salesloft Knowledge
+People And Accounts
+Account Profile Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,116 @@
+CONVERSATIONS
+Related Records on the Recording Details Page
+
+Sep 12, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Related Records tile on the Recording Details Page shows People, Account, and Opportunity data that are related to the recording. 
+
+
+The information on this tile is automatically added to the Recording Details Page once a call ends, and includes a link to the corresponding Person, Account, and/or Opportunity pages.
+ 
+From Dialer calls to recorded virtual meetings, the ability to access related records from the Recording Details page gives you the full picture about the conversations you and your team are having.
+ 
+In this article, you will learn about related records that are automatically linked to Conversations recordings, including: 
+
+How Person Data Is Automatically Linked to the Recordings Details Page
+How Account and Opportunity Data is Automatically Linked to the Recordings Details Page
+(Admins Only) Map the Opportunity Field Configuration Settings
+How Person Data Is Automatically Linked to the Recordings Details Page
+
+Conversations automatically links related Person records to the calls. The process used to link Person records differs based on the type of recording: Dialer calls vs virtual conferences. Let’s take a look at how each process works:
+
+ 
+
+Auto-Linking Person Records to Virtual Conferences
+
+Minutes before a meeting starts, Conversations looks for existing meetings and Person record relationship data. If this data exists, Conversations uses it to link recordings to Person records. 
+
+ 
+
+If this data does not exist, Conversations will process the recording, identify the external attendee who spoke the longest, and link the recording to this attendee’s Person record. 
+
+ 
+
+Auto-Linking Person Records to Dialer Calls in Conversations
+
+Minutes after a call ends, Conversations creates a record based on the call data. Conversations looks for an existing Dialer call and Person record relationship. If this relationship data exists, the Recording is linked to the People ID. 
+
+ 
+
+If it is not possible to link a dialer call Recording to a Person record, the Dialer call recording will remain unlinked, i.e. there will be no Person record data on the Related Records tile.
+
+How Account and Opportunity Data is Automatically Linked to Conversations Recordings
+
+Conversations uses in-house data to automatically link recordings to Account and Opportunity records.
+
+ 
+
+To automatically link Account and Opportunity records to recordings, Conversations scans your meeting attendees list and selects the first participant with an external email address.
+
+ 
+
+Conversations then uses the external participant’s email address to search for an Account associated with that contact. If an Account is found, Conversations then searches for an associated Opportunity with the furthest closing date.
+
+ 
+
+If the participant’s email is not associated with an Account, Conversations will find an Account with a similar email domain. If an Account is found, Salesloft will link the Account and the Opportunity the same as outlined above. 
+
+
+Things to Note: 
+
+An admin must configure your team’s Opportunity Field Configuration settings which allows the Opportunity data in your CRM to sync with Salesloft.
+Conversations will not automatically link to Accounts if there is no associated Opportunity present. In this case, the recording must be linked manually to these objects.
+Manual linking does not push the recording to the Account, Person, or Deals feed.
+If only closed opportunities are found, Conversations will link the Opportunity with the furthest closed date. 
+(Admins Only) Map the Opportunity Field Configuration Settings
+
+In order for Opportunities to be automatically linked to recordings, an admin must map the appropriate Opportunity Field Configuration settings.
+
+ 
+
+The Opportunity Field Configuration settings allow admins to determine what information is shared between CRM Opportunities and Salesloft.
+
+ 
+
+Things to Note:
+
+Field Configuration can only be completed by a team admin. We suggest that the team admin also have Salesforce admin privileges in case fields need to be updated.
+The Opportunity Fields listed below are required for Auto-Linking to Conversations recordings.
+Conversations will not retroactively link Account and Opportunity data to your recordings after you have mapped the required fields or made other changes.
+
+ 
+
+To configure your team’s Opportunity Field Configuration settings, follow these steps: 
+
+Go to the Team Settings and select Field Configuration.
+On the Person Field Configuration page, select the Opportunity Fields tab.
+Map the following Opportunity Fields. The mappings for these fields will need to be one-directional from CRM to Salesloft (Salesloft ← CRM):
+Account CRM Id (required)
+Amount (required)
+Close Date (required)
+Name (required)
+Owner CRM Id (required)
+Stage (required)
+Things to Note: It is also strongly recommended for admins to update the Opportunity Stage values so they match your Salesforce instance prior to setting the field mapping. Failing to match the values could lead to CRM Sync Errors.  
+Opportunity Type (optional)
+
+
+Last Modified By
+Raequel Sank, 9/12/2023 1:19 AM
+Title
+Related Records on the Recording Details Page
+URL Name
+Linking-Conversations-to-Record-Types
+Conversations
+Salesloft Knowledge
+Conversations Recordings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

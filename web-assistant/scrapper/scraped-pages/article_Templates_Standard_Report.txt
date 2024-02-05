@@ -1,0 +1,82 @@
+ANALYTICS + REPORTING
+Templates Standard Report
+
+Dec 16, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Email Template report is great to compare the activities of multiple templates side by side. This report focuses on metrics that mirror the Email report like personalization, reply rates, and template owner. 
+
+In this article, you will learn about the Email Template Report, including:
+Access the Templates Report
+Template Report Add Filter Options
+Templates Report Metrics
+Sort the Templates Report 
+Why are some Template Links clickable and others aren’t?
+Access the Templates Report
+Access the Templates report from one of the following methods:
+The Activities: Cadence and One-Off Panel: Click the View Report link in the upper right corner of the panel. 
+The Templates Standard View from your Reports Tab: Select the Standard Templates View link found in the Templates Section of the Reports Tab. You will be redirected to the Templates Report.
+When you access the report, you will see the name of the report you have accessed and a breadcrumb trail in the upper left corner. This can take you back to the Analytics Overview by clicking Analytics. 
+Template Report Add Filter Options
+The Template Report data can be adjusted by using Analytics Filters. When you change any of these filters, you can save the page view to Create Custom Reports.
+
+Outside of the standard filter options, you can add additional filters to your report. The Template Report's additional filters include: 
+Type
+Sent
+Delivered
+% Personalized
+% Opened
+% Replied
+ 
+Templates Report Metrics
+The first row of the report contains the total metrics based on your filter settings.
+
+Each performance metric is visible in its own column. The columns include: 
+ 
+Template Name	The name of the email template.
+Template Owner	Salesloft User that owns the template. Usually this is the user who created the template. 
+Last Used	Date the template was most recently sent in an email. 
+Sent	Number of emails sent to the Account.
+Delivered	Total number of emails delivered. This is the total number of emails sent minus the number bounced.
+Personalized	Number of emails that were personalized. 
+% Personalized	The percentage of emails sent that have > 5% personalization score. The 5% reflects a minimum threshold for meaningful personalization that impacts reply rates.
+Average Personalization Score	The average of personalization scores across a set of emails.
+Positive	The count of positive replies
+Total Objections	The count of objection replies
+Objection - Not the Buyer	The number of not the buyer objections
+Objection - Timing	The number of timing objections
+Objection - No Interest	The number of non interest objections
+Objection - Competitor	The number of competitor objections
+Other/Unsure	The number of unsure/other objections
+Opened	Number of times an email sent from the user resulted in an open or view.
+%Opened	Percentage of emails sent from the user that resulted in an open or view out of the total number of emails sent.
+Clicked	Number of times an email sent from the user resulted in a click.
+%Clicked	Percentage of emails sent that resulted in a link being clicked.
+Replied	Number of emails sent that resulted in a reply. This counts any emails replied, regardless of if they were sent from a Cadence, Lofted, or one-off emails.
+%Replied	Percentage of replied emails based off of the total number of emails sent.
+Sort the Email Template Report
+Each column header may be used to sort the list.
+ 
+
+To sort the Templates report to fit your preference, follow these steps:
+Select the appropriate column header. The header name will turn blue.
+Use the arrow to the right of the header name to set the sorting direction. The arrow will point up or down (ascending or descending order) to reflect the order of the list.
+Why are some Template Links clickable and others aren’t?
+You can only click on templates that you have access to. Un-clickable links could be private personal templates owned by another user while the clickable links are public personal templates or team templates.
+Last Modified By
+Stephanie Griffith, 12/16/2021 2:12 PM
+Title
+Templates Standard Report
+URL Name
+Templates-Standard-Report
+Salesloft Knowledge
+Analytics Reports
+Analytics + Reporting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

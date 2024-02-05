@@ -1,0 +1,177 @@
+FORECAST
+Forecast Dashboard Overview
+
+Oct 16, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Forecast Dashboard provides a visual representation of your team’s forecasted numbers using data-filled charts and tables. Team members can efficiently review ongoing deals and take action to close more revenue.
+
+ 
+
+You can access the Forecast Dashboard within Salesloft’s Deals product under the Forecast tab. 
+
+ 
+
+Things to Note: The Forecast tab will appear for a user if they are an Admin OR they have the Forecast permission(s) assigned to their role. Learn how to set these up in the Forecast Setup Checklist.
+
+ 
+
+In this article, you will learn about the actions you can take and the data included in the Forecast Dashboard, including: 
+
+Adjust Forecast Dashboard Filters
+Submit a Forecast
+View the Team Rollup Panel
+View the Weekly Trend Chart
+View the Hierarchy Table
+Download a Forecast History Report
+
+ 
+
+Adjust Forecast Dashboard Filters
+
+Filters allow you to specify the data that is visible within the Forecast Dashboard. This is useful for Sales Leaders and Team Managers who may see the data of more team members in the dashboard. 
+
+ 
+
+ 
+
+To learn more about the filters, check out our Forecast Dashboard Filters article.
+ 
+
+Submit a Forecast
+
+Users can submit a Forecast to their manager in several places:
+
+In the top right of the Forecast page: Click the Submit Forecast button to turn in your forecast.
+
+ 
+
+ 
+
+In the Forecast Hierarchy Table: When hovering over a Forecast number, you will see an edit icon. Click this icon to change your Forecast and update the value in real time.
+
+ 
+
+ 
+
+ 
+
+In the Forecast flyout menu: Once the flyout opens, you can click the pencil icon next to the forecast number to edit your forecast.
+
+ 
+
+ 
+
+ 
+
+In the expanded view: Click the pencil icon to edit a forecast here as well.
+
+ 
+
+ 
+
+To learn how to submit a forecast, check out the Submitting Forecast Numbers article.
+
+If you’re a team admin and would like to edit how submissions are due, check out our Manage Forecast Submissions Frequency.
+
+ 
+
+ 
+
+View the Team Rollup Panel
+
+The Team Rollup Panel found in the upper left corner of the Forecast Dashboard shows the accumulated Forecast values based on your filters. 
+
+ 
+
+ 
+
+The upper right corner of the panel shows how many days are remaining in this fiscal quarter for your team. This information is pulled from your Salesforce configuration. 
+
+ 
+
+Within this panel, you can view bar charts and individual metrics. The bar chart displays your Triangulation values, which can be compared to the Goal set. Each bar beside the Goal displays a percentage amount inside the bar that compares the amount to the goal value. Hover over a bar to see what the percentage of target is. 
+
+ 
+
+Things to Note: 
+
+The default values always on for a team include Goal, Forecast, Closed Won, and Open + Closed. If AI Forecast is not enabled for your team, the Weighted Pipeline value will show instead. For more information, check out our Weighted Pipeline article. Additional metrics can be customized and added via admin settings. 
+The Goal and Forecast values must be input by each Salesloft user. If they are not inputted, these values will appear blank in the chart. The goal is submitted via admin settings. The forecast is submitted by the user viewing the page (more on this later in the document).
+
+ 
+
+Here, you can also manage which rollup metrics and forecast types will be displayed as columns for a particular Forecast Segment.
+
+Admins can navigate to each segment in their Forecast view and manage their columns by taking these steps:
+
+On the Forecast page, above the Team Rollup, click Manage Columns.
+In the popup window, you can reorder your columns by clicking and dragging them.
+If you’d like to triangulate the metric (measure it against your goal), check the Triangulate box.
+Click Save to keep your changes.
+
+ 
+
+ 
+ 
+
+ 
+
+View the Weekly Trend Chart
+
+To the right of the Team Rollup panel is the Weekly Trend Panel. This panel shows how a Forecast has changed over time.
+
+ 
+
+ 
+
+To learn more about what’s included in the Weekly Trend chart, check out our Forecast Weekly Trend Chart article.
+ 
+
+View the Hierarchy Table
+
+Below the two top panels, you will find the Hierarchy Table. The Hierarchy Table displays the team members who are direct and indirect reports of the person viewing the page. The columns will show the rollup metrics attributed to each user. You can also see the total number of Users on the team.
+
+ 
+
+ 
+
+Things to Note: 
+
+If a rep is viewing the Hierarchy Table, they will only see their own information. 
+If you would like users on your team to see more than their own information, enable the View All Forecasting permission for the user role.
+The hierarchy is determined by the Manager field configuration in SFDC. 
+
+
+
+To learn more about what’s included in the Hierarchy Table and the actions you can take, check out our Forecast Hierarchy Table article.
+
+
+
+Download a Forecast History Report
+
+Within Forecast, admins and designated roles can download a team’s forecast history in a CSV file. This history report can be used to push into a business intelligence tool to match up with attainment data to measure forecast accuracy.
+
+To learn about exporting the forecast history report, check out Download a Forecast History Report.
+
+ 
+
+Last Modified By
+Stephanie Griffith, 10/16/2023 8:04 PM
+Title
+Forecast Dashboard Overview
+URL Name
+Forecast-Dashboard-Overview
+What's New
+Forecast
+Forecast Dashboard
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

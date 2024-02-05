@@ -1,0 +1,59 @@
+ADMIN GUIDES
+Manage Conversations Note Tags
+
+Jan 18, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Note Tags are specifically designed for Conversation Intelligence to help users quickly categorize their Live Notes During Meetings. When a tag is added to live notes, users can filter by the tag, to review any notes that contain the tag.  
+
+Admins can set up and manage tags that the team can use. To access the Notes settings, go to your Team settings and select the Conversation Intelligence settings. Then, go to the Note Tags tab.  
+
+Things to Note: Users can only use tags that have been added by their admins.
+
+In this article, you will learn about Conversation Intelligence Note Tags settings, including:
+Add a New Tag
+Edit a Tag Name
+Delete a Tag
+Add a New Tag
+To create a new Live Note tag, follow these steps:
+Go to Conversation Intelligence under your Communication Settings.
+Select the Note Tags tab.
+In the upper right corner of the page layout, click Add New Tag.
+The Create New Tag window will appear. Enter the name of your tag in the text box.
+Click Add. A notification will appear that says Tag Type Created.
+Edit a Tag Name
+Once a tag has been created, you can edit the tag name if a better word or change needs to be made. To edit the tag name, follow these steps:
+Go to Conversation Intelligence under your Communication Settings.
+Select the Note Tags tab.
+Find your tag name in the list or search for your tag name.
+To the right of the tag name, click the ellipses icon (three horizontal dots) to view more actions.
+Select Edit Tag Name.
+The Edit Tag window will appear. Enter the new name of your tag in the text box.
+Click Update. A notification will appear that says Tag Type Updated.
+Delete a Tag
+To remove a Live Note tag, follow these steps:
+Go to Conversation Intelligence under your Communication Settings.
+Select the Note Tags tab.
+Find your tag name in the list or search for your tag name.
+To the right of the tag name, click the ellipses icon (three horizontal dots) to view more actions.
+Select Delete Tag.
+The Confirm Delete window will appear. Click Delete.
+A notification will appear that says Tag Type Deleted.
+ 
+Last Modified By
+Raequel Sank, 1/18/2022 9:11 PM
+Title
+Manage Conversations Note Tags
+URL Name
+Manage-Note-Tags-Settings
+Salesloft Knowledge
+Admin Guides
+Communication Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,113 @@
+ADMIN GUIDES
+Manage Generative Artificial Intelligence Integrations
+
+Oct 31, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Generative Artificial Intelligence (AI) generates text based on an input of data or insight. At Salesloft, Generative AI is integrated with cadences and Conversations to help you make informed decisions and simplify your workflow. These Generative AI Integration include:
+
+Draft an Email Step with AI
+Conversations Summary
+Action Items in Conversations
+
+ 
+
+As an admin, you can manage your team's access to generative AI throughout Salesloft via the Generative Artificial Intelligence settings page. To access the Generative Artificial Intelligence settings, navigate to your settings, then select Generative Artificial Intelligence under Data. From this page, you can manage your team's access to each generative AI integration, as well as manage access to generative AI in Salesloft as a whole.
+
+ 
+
+In this article, you will learn more about the Generative Artificial Intelligence Settings, including:
+
+Important Things to Know About the Generative Artificial Intelligence Settings
+Disable Generative AI in Salesloft
+Manage Conversations Summaries and Action Items
+Manage Generative Email Drafts
+Important Things to Know About the Generative Artificial Intelligence Settings
+
+Artificial Intelligence (AI) can turn lengthy, mundane tasks into beneficial information in a fraction of the time. When you add AI to your team’s sales process, your reps can focus more on working with prospects rather than digging up information. 
+
+To enhance specific aspects of the Salesloft platform, Salesloft has created AI-specific integrations for certain purposes.
+
+ 
+
+Before using AI-specific integrations, here are a few things you should know:
+
+Salesloft Conversations integrates with Microsoft Azure OpenAI to process meeting transcripts and create the Conversations Summary and Action Items.
+Enabling the Conversations summaries and action items setting only impacts new Conversations going forward. Meetings will not be retroactively processed
+The extraction service is NOT customizable or configurable to specific needs
+If your team does not wish to allow Microsoft Azure Open AI to process your company’s data, or if you would not like to see the Recap section in Conversations, you can disable the integration by toggling the Enable AI Integration for Conversations Setting off. 
+If the service is enabled, then disabled, action items extracted prior to the service being disabled will not be removed from the platform. Action items will no longer be extracted once the setting is disabled.
+The Generative Artificial Intelligence setting is a parent control for all Generative AI across Salesloft. Disabling this setting will override both the Conversations summaries and action items setting and the Generative email drafts setting. if you choose to disable AI Integrations for Conversations, your team will lose access to all generative AI in Salesloft. 
+Disable Generative AI in Salesloft
+
+Your organization may choose to limit access to generative AI features. As an admin, you can disable the Generative artificial intelligence setting to remove your team's access to all generative AI in Salesloft.
+
+ 
+
+Things to Note: The AI Integrations for Conversations setting is a parent control for all Generative AI features across Salesloft's Conversations feature.
+
+ 
+
+To disable Generative AI in Salesloft, follow these steps:
+
+Navigate to your settings.
+Select Generative Artificial Intelligence under Data.
+Click the Generative artificial intelligence toggle to disable Generative AI in Salesloft. When the toggle area is gray, the setting is disabled.
+
+ 
+
+Manage Conversations Summaries and Action Items
+
+Conversations Summaries are summarized , a summary of the and Action Items become available. You can manage your team's access to both Conversations Summary and Action Items via the Generative Artificial Intelligence settings page. 
+
+ 
+
+Things to Note: The Generative artificial intelligence setting overrides the Generative email drafts setting. The Generative artificial intelligence setting must be enabled before you can manage the Generative email drafts setting.
+
+ 
+
+To manage your team's access to Conversation Summaries and Action Items, follow these steps:
+
+Navigate to your settings.
+Select Generative Artificial Intelligence under Data.
+Click the Conversations summaries and action items toggle to enable or disable these features. When the toggle area is blue, the setting is enabled. When the toggle area is gray, the features are disabled. 
+
+ 
+
+Manage Generative Email Drafts
+
+The Generative email drafts setting allows your team to draft cadence email steps with artificial intelligence. This setting is enabled for team cadences by default, however, you can also enable it for personal cadences. 
+
+ 
+
+Things to Note: The Generative artificial intelligence setting overrides the Generative email drafts setting. The Generative artificial intelligence setting must be enabled before you can manage the Generative email drafts setting.
+
+ 
+
+To manage the Generative email drafts setting, follow these steps:
+
+Navigate to your settings.
+Select Generative Artificial Intelligence under Data.
+Scroll to the Generative email drafts tile and click Edit. A separate editing window will appear. 
+From the Generative email drafts edit window, use the checkboxes to enable or disable generative email drafts for Personal and Team cadences. 
+
+ 
+
+Last Modified By
+Stephanie Griffith, 10/31/2023 2:40 PM
+Title
+Manage Generative Artificial Intelligence Integrations
+URL Name
+Manage-AI-Integrations
+Salesloft Knowledge
+Admin Guides
+Data Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

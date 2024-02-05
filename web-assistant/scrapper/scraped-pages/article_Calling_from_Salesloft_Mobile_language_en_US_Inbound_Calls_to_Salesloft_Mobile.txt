@@ -1,0 +1,67 @@
+SALESLOFT MOBILE
+Calling from Salesloft Mobile
+
+Jul 1, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+To start making calls from the Salesloft Mobile app, open the app and select the Mobile Dial tab. 
+
+Now that you've completed step one, there are different ways to go about calling a Person from the mobile app depending on your personal preference. 
+
+In this article, we will walk through the various ways you can make calls using Salesloft Mobile, including: 
+Your First Call with Salesloft Mobile
+Dial and Call
+Search and Call
+Inbound Calls to Salesloft Mobile
+Your First Call with Salesloft Mobile
+The first time you go to make a call, there are a few set-up steps you must take. The app will prompt you through each step. 
+
+First, you will have to verify your number. To verify your number, enter your preferred phone number into the text box. By verifying your number, you confirm which mobile network is being used. 
+
+Once you verify your number, you may complete a test call. The test call will respond with an automatic service that says, "Your setup is now complete. Goodbye." 
+
+Before you make your first call, the app will ask permission to access your address book. This allows us to save your Salesloft provisioned number to your phone for your convenience. While the number won't immediately create a contact with the number, your mobile phone saves the number so it is recognized for future calls.
+
+
+Things to Note: 
+When making a call via the Salesloft Mobile app, the app uses your mobile network to place the call. 
+If using the mobile app to make international calls, additional charges may apply if your phone plan lacks an international dialing plan. 
+​​​​​​​
+Search and Call
+You can make a call from the Mobile app by searching for a Salesloft Person.
+
+To search for a Person and call them, follow these steps: 
+Go to the Search tab. 
+Enter the name or number of the Person or Account you would like to search for.
+Select the Person you would like to call.
+If you searched for a Person or Account by name, any available numbers will appear at the bottom of the screen. Select the number you would like to call. 
+Review the prompt about dialing using your Salesloft provisioned phone number, then hit Call. 
+While on the call, you can switch to the app to take notes. Once the call has ended, you will also have the option to log the call and take notes. ​​​​​​Things to Note: Please don't take notes and drive.
+Dial and Call
+Salesloft Mobile also has a keypad where you can place calls. 
+
+To access the keypad and dial a number, follow these steps:
+Select the Keypad tab.
+Use the dial pad to enter the number you would like to call. 
+Hit the green Call button. 
+Review the prompt about dialing using your Salesloft provisioned phone number, then hit Call. 
+While on the call, you can switch to the app to take notes. Once the call has ended, you will also have the option to log the call and take notes. ​​​​​​Things to Note: Please don't take notes and drive.
+Inbound Calls to Salesloft Mobile
+Inbound calls come in when people are calling your Salesloft number. The standard inbound call is sent to your forwarding number if you do not answer the call from your web browser. This means by default, the call can go to your cell phone. To learn more about inbound calls, check out our Inbound Calling article.
+Last Modified By
+Briana Morgan, 7/1/2022 3:50 PM
+Title
+Calling from Salesloft Mobile
+URL Name
+Calling-from-Salesloft-Mobile
+Salesloft Knowledge
+Salesloft Mobile
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

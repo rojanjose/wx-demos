@@ -1,0 +1,204 @@
+SALESLOFT MOBILE
+Emailing from Salesloft Mobile
+
+Nov 3, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Emailing from Salesloft Mobile allows you to send one-off emails and cadence step emails right from your phone. 
+
+ 
+
+This feature not only allows you to send emails on the go, but logs them back to the Salesloft web app so you can keep track of every email you send, regardless of where you send them.
+
+
+Things to Note: 
+
+Emailing from Salesloft is currently supported in the US and Europe.
+The Salesloft Mobile app is currently unavailable in mainland China.
+
+ 
+
+In this article, you will learn about Email from Mobile, including:
+
+Set Up Your Email in Salesloft
+Compose an Email from Mobile
+Send a Template Email from Mobile
+Insert a Meeting Link
+Insert Dynamic Fields
+Schedule an Email
+Enable View and Click Tracking
+Reply to an Email
+Set Up Your Email in Salesloft
+
+Before you can begin sending emails from mobile, you'll want to make sure your email is set up in Salesloft. Setting up your email in your Salesloft account ensures that the mobile app and web app sync properly and allows the Mobile email data to log to back to your web app.
+
+ 
+
+For more information about setting up your email in your Salesloft account, check out our Your Personal Settings article. 
+
+
+Compose an Email from Mobile
+
+Any email you wish to send will be created and sent from a Person’s dedicated Page inside Salesloft Mobile. You can access a Person page by searching for the Person. 
+
+If a Person does not have an email address on the Person details page, go to the Person Actions and Edit Person to add an email address inside SalesLoft Mobile. Check out the People in Salesloft Mobile article for more information.
+
+To access a Person page and send an email, follow these steps:
+
+Open the Salesloft Mobile app.
+Hit the search icon and enter the name of the Person you would like to email.
+Select the recipient. This will open the Person Page in Salesloft Mobile.
+From the Person Page, select the Person's email address. The Salesloft Mobile email window will open.
+Compose the email and add a Subject. From the email window, you can do the following:
+Compose an email
+Select the + icon in the bottom left corner of the email window to add content to the email. You can add the following components:
+Attachment
+Image
+Link
+Meeting Link
+Snippet
+Template
+Dynamic Field
+Click the T icon to format the text:
+Click the A to change the font style and size, text color, background color, or to clear formatting
+Bold
+Italicize
+Underline
+Indent
+Create a bulleted list
+Hit the arrow icon in the upper right corner to send the email. 
+
+ 
+
+Send a Template Email from Mobile
+
+You can also use email templates to send an email from Salesloft Mobile. 
+
+ 
+
+To use an email template, follow these steps:
+
+Open the Salesloft Mobile app.
+Hit the search icon.
+Enter the name of the Person you would like to email.
+Select the Person to open the Person Page in Salesloft Mobile.
+Click the email address listed for the Person. The Salesloft Mobile email window will open.
+From the email window, hit the + symbol.
+Select Template and choose the email template you would like to use.
+From the Preview screen, hit Insert.
+Fill in the template and hit Send.
+
+ 
+
+Insert a Meeting Link
+When you send an email from Salesloft Mobile, you can include a meeting link in the email. Including a meeting link in your emails allows recipients to easily schedule meetings with you.
+
+To include a meeting link when sending an email from Salesloft Mobile, follow these steps:
+1. Hit the search icon.
+2. Enter the name of the Person you would like to email.
+3. Select the Person to open the Person Page in Salesloft Mobile.
+4. Click the email address listed for the Person. The Salesloft Mobile email window will open.
+5. Hit the + icon in the bottom left corner, then select Meeting Link. This will open the Meeting Link window.
+6. From the Meeting Link window, you update the following fields:
+Meeting Owner: The Salesloft user that the email recipient will schedule a meeting with.
+Meeting Type: The type of meeting the recipient will schedule; ex: discovery call. 
+Meeting Length: Meeting duration
+
+ 
+7. Once you select your desired meeting owner, type and length, hit Insert. The meeting link will be inserted wherever your text cursor is placed within the email body.
+
+
+
+Your Meeting Link from the Recipient's Email View
+
+When your email recipient clicks the meeting link you included, a calendar will appear.
+
+ 
+
+
+This calendar displays your availability based on what is listed in the calendar you connected to your Salesloft account. Your email recipient can select one of the dates listed to open the scheduling tool and book a meeting based on the meeting length you selected. 
+ 
+
+Insert Dynamic Fields
+Dynamic fields allow you to populate the correct information for a customer directly from the Mobile app.
+
+To insert dynamic fields when composing an email from Salesloft Mobile, follow these steps:
+Hit the search icon.
+Enter the name of the Person you would like to email.
+Select the Person to open the Person Page in Salesloft Mobile.
+Click the email address listed for the Person. The Salesloft Mobile email window will open.
+Hit the '+' icon in the bottom left corner, then select Dynamic Field. This will open the Dynamic Field window.
+Use the search bar or scroll to find the dynamic field you want to add to the email.
+Once you find your preferred dynamic field, select the field to insert it into the email. The field will populate wherever your text cursor is placed within the email body.
+
+ 
+
+ 
+Schedule an Email
+Scheduled Email Sending allows you to schedule an email to be sent from the Salesloft Mobile app. By scheduling your emails to be sent from Salesloft Mobile, ypu get ahead of your workload and maintain timely communication. 
+
+To schedule an email from Salesloft Mobile, follow these steps:
+1. Hit the 'search' icon.
+2. Enter the name of the Person you would like to email.
+3. Select the Person to open the Person Page in Salesloft Mobile.
+4. Click the email address listed for the Person. The Salesloft Mobile email window will open.
+5. Compose your email.
+6. Select the clock icon beside the Send button in the top right corner.
+ 
+7. Choose the date, time, and timezone you want to send the email then hit Schedule.
+
+ 
+Enable View and Click Tracking
+
+View and Click Tracking allows Salesloft to keep a log of when an email recipient views an email, or opens it and clicks links within the email.
+
+You can configure the View and Click Tracking settings before sending an email from Salesloft Mobile. Once you configure the settings to preference, and send the email, the View and Click Tracking activity will appear in the Salesloft web app. 
+
+To configure the View and Click Tracking settings in Salesloft Mobile, follow these steps:
+
+Tap the search icon to search for the Person you would like to email.
+Select the Person's name to open the Person Page in Salesloft Mobile.
+From the Person Page, tap the Person's email address. The Salesloft Mobile email window will open.
+Compose your email.
+Select the eye icon to turn View Tracking on.
+Select the pointer icon to turn Click Tracking on.
+Things to Note: When the 'view' and 'click' icons appear green, the settings are ON.
+Hit Send. 
+
+ 
+
+ 
+
+Reply to an Email 
+
+When someone emails you or replies to an email you sent, you can reply from the mobile app.
+
+To reply to an email from the Salesloft Mobile app, follow these steps:
+
+Open the live feed. 
+Select the email you would like to reply to, then select View Email. 
+Hit the arrow beside your email address. 
+Choose one of the following:
+Reply: only reply to the last person who sent an email
+Reply to all: reply to everyone on the email thread
+Type your email content. 
+Hit Send. 
+Last Modified By
+Raequel Sank, 11/3/2023 8:47 PM
+Title
+Emailing from Salesloft Mobile
+URL Name
+Emailing-from-Mobile
+What's New
+Salesloft Knowledge
+Salesloft Mobile
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,121 @@
+ADMIN GUIDES
+Dialer Pricing Guide
+
+Sep 13, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Dialer allows Salesloft users to call prospects from the Salesloft application and their Chrome browser. In addition, the Dialer provides call recording and logs a record of all call activities in Salesloft and your CRM. 
+
+In order for your team to use the Dialer, you (or any team admin) must purchase Dialer credits or Unlimited Calling modules. 
+
+If you would like to acquire a Dialer module, please reach out to your Customer Success Manager.
+
+In this article, we will go over dialer purchasing options and guidelines, including:
+Unlimited Talk and Text North America
+Unlimited Talk Europe
+LocalDial Numbers
+Unlimited LocalDial: US
+Dialer Usage Rates
+Inbound Dialer Credits
+Call Pass Through
+Recording & Storage Rules
+Number Removal
+Unlimited Talk and Text North America
+The Unlimited Talk and Text North America plan enables Salesloft users to call anywhere in the United States, Canada, and any other region* using the (+1) country code. Calls made with the (+1) country code may have an unlimited call duration. Additional per-minute charges will not be applied to calls made within the phone range.
+
+Things to Note:
+For calls outside of this range (any number that has a different country code), you may still make calls using dialer credits.
+* Other regions include countries within the Caribbean that also use the (+1) country code.
+Inbound calls outside of this range will also require dialer credits.
+Restrictions apply in accordance with the Fair Usage Policy.
+Unlimited Talk Europe
+The Unlimited Talk Europe plan enables Salesloft users to place calls via the Salesloft Dialer to designated European countries. An unlimited amount and length of calls can be placed to these countries, all within the Unlimited Talk flat rate.
+
+Things to Note: Additional per-minute charges will not be applied to calls made within the phone range.
+
+The Unlimited Talk Europe countries in this plan include:
+AUSTRIA	 HUNGARY	 PORTUGAL
+ BELGIUM	 ICELAND	 ROMANIA
+ CROATIA	 IRELAND	 RUSSIA
+ CYPRUS	 ITALY	 SLOVAKIA
+ CZECH REPUBLIC	 LATVIA	 SLOVENIA
+ DENMARK	 LITHUANIA	 SPAIN
+ ESTONIA	 LUXEMBOURG	 SWEDEN
+ FINLAND	 MALTA	 SWITZERLAND
+ FRANCE	 NETHERLANDS	 TURKEY
+ GERMANY	 NORWAY	 UNITED KINGDOM
+ GREECE	 POLAND	 VATICAN CITY
+Things to Note
+For calls outside of this range (any number that has a different country code), you may still make calls using dialer credits.
+Inbound calls outside of this range will also require dialer credits.
+Restrictions apply in accordance with the Fair Usage Policy.
+LocalDial Numbers
+LocalDial enables you to call prospects from an area code local to them. LocalDial charges break up in the following manner: 
+
+New LocalDial numbers (provisioned during the current month)
+$1 each to provision a new LocalDial number (aka, for each area code you call into)
+$1 each for the use of the number during the month
+Existing LocalDial numbers (provisioned prior to the current month)
+$1 each for the use of the number during the month
+ 
+LocalDial Geography	PRICE per Number per Month
+United States 	$1
+United States - Alaska	$1
+Canada & International	$1-5‡
+
+Things to Note:
+‡International LocalDial prices may vary based on country of representation. This represents a typical cost per number.
+Please contact Support with specific questions regarding International LocalDial.
+Pricing is subject to change without prior notification.
+Unlimited LocalDial: U.S.
+The Unlimited LocalDial: U.S. plan enables Salesloft users to dial prospects using Salesloft’s local presence feature throughout all of the United States (including Alaska and Hawaii) without additional monthly charges.
+
+Things to Note
+Unlimited LocalDial currently applies to area codes within the United States only. Canada and other International LocalDial numbers will still comply with the standard LocalDial pricing. 
+Restrictions apply in accordance with the Fair Usage Policy.
+Dialer Usage Rates
+Salesloft uses dialer credits for standard dialer usage. Dialer credits accumulate on a per minute basis, rounded up to the nearest minute. In other words, the more time spent on the phone, the more credits are used. 
+
+Salesloft will assess your dialer use for the previous month on a per-minute basis and round up to the nearest minute. At the beginning of each month, your team will receive an invoice with your Dialer credit charges. This pay-for-what-you-use method allows you to experience our Dialer uninterrupted. To learn more about paying your invoice, check out the Manage Dialer Invoices article. 
+ 
+Customers will receive a PDF copy of the invoice via email, which includes a unique URL for customers to make a payment from the invoice directly through the payment portal using a credit card.
+
+Your total cost will depend on your usage of the following features:
+ 
+ROUTE	PRICE per min
+United States & Canada	$0.0150*
+United States - Alaska	$0.0900*
+United States - Toll-Free	$0.0150*
+International	$0.0150-$0.035‡
+Things to Note:
+*Prices may vary based on factors including the geography or destination of the service.
+‡Typical international calls. Depending on call designation prices could be outside the typical range. Please Contact Support with specific questions regarding international Dialer usage cost.
+Inbound Dialer Credits
+Inbound calls are forwarded to your cell phone at the rate of $0.0075 per minute.
+Call Pass Through
+Using the optional Pass Through Calls feature in Salesloft will double your call credit rate since two calls are being place. The first rate is the line that is created when connecting from Salesloft to your desk/cell phone and then the line from your desk/cell phone to the recipient. 
+Recording & Storage Rules
+Salesloft does not charge for call recordings or call recording storage space. 
+Number Removal
+If you cancel your Salesloft team account, we release all of the numbers that are attached to your account.
+
+Phone numbers will be removed from your account and your provisioned list on the 3rd day after account cancellation. 
+
+To remove numbers from an individual user (after a departure or for whatever reason), you can remove the number from an assignee. If you would like to remove the number from your list of provisioned numbers, contact support to get rid of the number. 
+Last Modified By
+Stephanie Griffith, 9/13/2021 6:28 PM
+Title
+Dialer Pricing Guide
+URL Name
+Dialer-Pricing-Guide
+Salesloft Knowledge
+Admin Guides
+Dialer Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

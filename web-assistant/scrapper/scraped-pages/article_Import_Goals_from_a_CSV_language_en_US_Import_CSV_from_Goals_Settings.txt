@@ -1,0 +1,716 @@
+ADMIN GUIDES
+Import Goals from a CSV
+
+Nov 16, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft allows teams to view and manage goals so that managers and reps are aligned on their targets.
+
+Viewing a goal is relatively easy – depending on how confident you are in meeting said goal. However, the true challenge for managers could be goal upkeep. 
+
+The Goals Settings page is where Salesloft admins can enter goals for their teams. For small teams or small updates, it makes sense to enter goal metrics from the table. If you are getting started with Salesloft and goals or have a larger team, you save time and effort by importing goals from a CSV. 
+
+In this article, you will learn about importing Goals via a CSV, including:
+
+Goals CSV Requirements
+Goal CSV Sample
+Import CSV from Goals Settings
+Importing Goals from a CSV Troubleshooting
+Goals CSV Requirements
+
+When uploading a CSV, it’s important that the data inside the file matches the fields inside Salesloft. In order for this to happen, we’ve created a list of required goals fields that you can use when creating your Goals CSV for import. 
+
+Your Goals CSV must include the following fields and relevant information:
+
+Column Name (* required)
+
+	
+
+Description
+
+	
+
+Requirements
+
+
+
+
+Assignee Type*
+
+	
+
+Which entity the goal is applied to
+
+	
+
+Must be one of (exact match):
+
+- user
+
+- group
+
+
+
+
+Assignee*
+
+	
+
+Identifier of who/what the goal is applied to
+
+- User email address
+
+- Salesloft group name
+
+- Salesloft user ID
+
+- Salesloft group ID
+
+	
+
+Choose only one for each row:
+
+- ID must be numerical ID from Salesloft user IDs or Salesloft group IDs (see public API)
+
+- Email address must be in the format: username@domain and must match what's in Salesloft
+
+- Group Name must be spelled/capitalized in the same way as it appears in Salesloft
+
+
+
+
+Metric*
+
+	
+
+Which metric name the goal is for
+
+	
+
+Different metrics must be on different rows. Must be one of (exact match):
+
+- accounts (aka accounts touched)
+
+- activities (aka total activities)
+
+- calls (aka calls logged)
+
+- meetings_attended
+
+- meetings_booked
+
+- opportunities (aka opportunities created)
+
+- people_added
+
+- people_touched
+
+- sent (aka emails sent)
+
+- successes
+
+- unweighted (aka new pipeline added)
+
+- won_amount (aka closed won quota)
+
+
+
+
+Frequency*
+
+	
+
+Which timeframe or frequency the goal is for
+
+	
+
+Different frequencies must be on different rows. Must be one of (exact match):
+
+- yearly
+
+- quarterly
+
+- monthly
+
+- weekly
+
+
+
+
+Target*
+
+	
+
+What is the target value of the goal
+
+	
+
+Must be numerical. No special characters or decimals.
+
+Currency values must be in the corporate currency (Deals users only).
+
+Duplicate goal targets for the same assignee, metric and frequency will be discarded (first in, first out).
+
+0 values are accepted only as a goal removal / deletion.
+
+
+
+
+Start Period*
+
+	
+
+On which date part does this goal start
+
+	
+
+Different periods must be on different rows. Must be one of the following for each frequency:
+
+- quarterly (1 - 4)
+
+- monthly (1 - 12)
+
+- weekly (1 - 53)
+
+Annual does not require a start period.
+
+
+
+
+Start Year*
+
+	
+
+On which year does this goal start
+
+	
+
+Must be in the format: YYYY
+
+Goal CSV Sample
+
+Now that we’ve been through the necessary fields, let’s look at a sample CSV:
+
+assignee_type
+
+	
+
+assignee_id
+
+	
+
+user_email
+
+	
+
+group_name
+
+	
+
+metric
+
+	
+
+frequency
+
+	
+
+target
+
+	
+
+start_at_period
+
+	
+
+start_at_year
+
+	
+
+end_at_period
+
+	
+
+end_at_year
+
+
+
+
+user
+
+		
+
+rep@company.com
+
+		
+
+calls
+
+	
+
+weekly
+
+	
+
+25
+
+	
+
+10
+
+	
+
+2023
+
+	
+
+2
+
+	
+
+2024
+
+
+
+
+user
+
+		
+
+rep@company.com
+
+		
+
+calls
+
+	
+
+monthly
+
+	
+
+20
+
+	
+
+10
+
+	
+
+2023
+
+	
+
+10
+
+	
+
+2023
+
+
+
+
+group
+
+			
+
+Group1
+
+	
+
+sent
+
+	
+
+quarterly
+
+	
+
+1000
+
+	
+
+4
+
+	
+
+2023
+
+	
+
+4
+
+	
+
+2023
+
+
+
+
+group
+
+			
+
+Group1
+
+	
+
+sent
+
+	
+
+yearly
+
+	
+
+1000
+
+		
+
+2023
+
+		
+
+2023
+
+
+
+
+group
+
+			
+
+Group1
+
+	
+
+opportunites
+
+	
+
+monthly
+
+	
+
+10
+
+	
+
+10
+
+	
+
+2023
+
+		
+
+
+group
+
+			
+
+Group1
+
+	
+
+meetings_booked
+
+	
+
+monthly
+
+	
+
+10
+
+	
+
+10
+
+	
+
+2023
+
+		
+
+
+user
+
+		
+
+rep@company.com
+
+		
+
+people_touched
+
+	
+
+monthly
+
+	
+
+10
+
+	
+
+10
+
+	
+
+2023
+
+		
+
+
+user
+
+		
+
+rep@company.com
+
+		
+
+won_amount
+
+	
+
+monthly
+
+	
+
+10
+
+	
+
+10
+
+	
+
+2023
+
+		
+
+
+user
+
+	
+
+123
+
+			
+
+unweighted
+
+	
+
+monthly
+
+	
+
+10
+
+	
+
+10
+
+	
+
+2023
+
+		
+
+
+user
+
+	
+
+123
+
+			
+
+meetings_attended
+
+	
+
+monthly
+
+	
+
+10
+
+	
+
+10
+
+	
+
+2023
+
+		
+
+
+user
+
+	
+
+123
+
+			
+
+activities
+
+	
+
+monthly
+
+	
+
+10
+
+	
+
+10
+
+	
+
+2023
+
+		
+
+
+user
+
+	
+
+123
+
+			
+
+people_added
+
+	
+
+monthly
+
+	
+
+10
+
+	
+
+10
+
+	
+
+2023
+
+		
+
+
+group
+
+	
+
+456
+
+			
+
+successes
+
+	
+
+monthly
+
+	
+
+10
+
+	
+
+10
+
+	
+
+2023
+
+		
+
+
+group
+
+	
+
+456
+
+			
+
+accounts
+
+	
+
+monthly
+
+	
+
+10
+
+	
+
+10
+
+	
+
+2023
+
+		
+
+Import CSV from Goals Settings
+
+To import a CSV for your teams goals, follow these steps: 
+
+Create a spreadsheet with the list of users and their goals using the Goals CSV Requirements listed above.
+Things to Note: The CSV file can't contain more than 5000 rows or files larger than 10Mb. In case of import issues we recommend to decrease the amount of rows in the uploading file or contact Salesloft Support. 
+Save your list as a CSV file.
+Inside Salesloft, go to the Goals Settings page. 
+Select the Import CSV button. The Import CSV module will appear
+Select Choose a CSV file. 
+Select your CSV file. Click Open.
+On the Map Your Fields page, you will match your CSV column headers to the appropriate field in Salesloft. Use the dropdown in the Salesloft Field column to select the best field to match the column. The third column shows the Mapped Data Preview. It pulls information from the CSV so you know what data would map to the field. 
+Click Next. The page will populate with the metrics. 
+
+ 
+
+
+Importing Goals from a CSV Troubleshooting
+
+If you experience an import error, here are some of the possible reasons that may cause the CSV import to fail.
+
+Uploading a file that is not a .csv file type. Excel, text, PDF, etc. are not acceptable file types.
+Trying to upload an empty file
+Uploading a file that exceeds the size limits (greater than 5000 rows or 10MB).
+Duplicate rows of data
+Missing data in the required fields
+Unacceptable data types in the required fields
+Missing/incorrect user identifiers or identifiers not found in Salesloft
+
+ 
+
+Last Modified By
+Stephanie Griffith, 11/16/2023 2:23 PM
+Title
+Import Goals from a CSV
+URL Name
+Import-Goals-from-a-CSV
+Admin Guides
+Team Settings
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

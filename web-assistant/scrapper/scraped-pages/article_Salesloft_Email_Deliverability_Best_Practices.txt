@@ -1,0 +1,139 @@
+ADMIN GUIDES
+Salesloft Email Deliverability Best Practices
+
+Dec 4, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+When it comes to email deliverability, there are no magic solutions to guarantee your team's emails will reach a prospect's inbox. However, there are steps and measures your team can take to greatly reduce the risk of an email being flagged as spam.
+
+ 
+
+In this article, we will walk through some of the measures for your team, including: 
+
+Email Technical Setup
+Recommended Salesloft Email Settings
+General Email Best Practices
+Sending Bulk Emails to Google and Yahoo Domains
+Email Technical Setup
+
+The first step to positive email deliverability involves setting up the following email tools for your team: 
+
+Ensure SPF, DKIM and DMARC are setup and passing email authentication.
+Best Practice Tip: Align all domains including SPF, DKIM, and tracking domain with your sending domain.
+Setup a Custom Tracking domain. Custom tracking domains ensure your links in the body of emails are wrapped with your tracking domain. This avoids 3rd party links, which can cause spam filters to flag your email.
+Utilize Google Postmaster Tools to monitor your sending reputation. While this is data is specific to Gmail, it gives you a good idea how your overall domain/IP reputation is doing.
+Things to Note: Google requires a certain threshold of volume from a domain/IP before they populate results, so you may not see any data.
+Recommended Salesloft Email Settings
+
+Your Salesloft Team Email Settings provide another tool to maintain reliable email deliverability status. Here are some of the Salesloft settings we recommend: 
+
+Keep email delay at least 60 seconds. This helps avoid mailbox providers from seeing your emails as automated bulk sends.
+Salesloft recommends setting the daily send limit to 250/day, however, larger teams may want to reduce that limit further.
+Set the default Domain Send limit to 5 emails per day. This will help avoid reps from sending too many emails to the same domain within a given period, which can cause spam and reputation flags for their email domain. 
+Enable Click-Tracking in templates and signatures.
+Things to Note: Be sure to enable click tracking in templates and your signature, otherwise links will not be wrapped with your custom tracking domain.
+Use opt-out links . This prompts users to hit unsubscribe rather than mark your email as spam, which hurts your reputation and deliverability. 
+Personalization is key – Salesloft recommends personalizing 20-25% of your email to help boost user engagement and avoid deliverability issues. You can keep an eye on your level of personalization using the Personalization Panel in Salesloft Analytics. 
+Things to Note: Using very little or zero personalization can cause mailbox providers to flag your email traffic and potentially lock users out of their email account for spamming behavior. 
+General Email Best Practices
+
+Here are the general rules of thumb for email deliverability best practices you can share with your team: 
+
+Maintain consistent volume of sends. Sudden spikes in volume are red flags to spam filters and can cause deliverability issues.
+Ensure you are sending to engaged and verified users. Even if you are only sending 100 emails/day, if the majority of those recipients mark your email as spam or result in a bounced email they can hurt your email reputation and deliverability.
+Purchased data poses a very high risk to deliverability, as they are not opt in users.
+List cleanse tools can help minimize risk of invalid addresses and spam traps, but this does not address the risk of user complaints (being marked as spam by a recipient).
+Use your marketing data so you are targeting people who are more likely to engage positively with your emails (open, click, reply, move to folder).
+Make sure there are no broken images or links within your email content.
+Always send personalized and relevant content to boost user engagement.
+Keep total email size under 100KB and attachments under 10MB. Attachments and oversized emails are common flags to spam filters, especially B2B domains.
+Keep bounce and complaint rates low.
+Under 5% bounce rate is acceptable
+Under 0.1% complaint rate is acceptable
+Immediately remove any complaints, verbal opt-outs, and bounced email addresses from future sends and Cadences. You can update their Contact Restriction to Restrict Emails to that Person. 
+Things to Note: If a Person opts-out of an email using an opt-out link in Salesloft, they will automatically be added to the Do Not Contact list and removed from Cadences. 
+
+ 
+
+ 
+
+Sending Bulk Emails to Google and Yahoo Domains
+
+Effective 2024, Google and Yahoo will institute restrictions on high-volume, bulk email sending to their domains. This means that if you are a bulk sender to Google and Yahoo domains (i.e. you are sending close to or more than 5,000 emails per day to Google domains and Yahoo domains), you are considered a bulk sender. 
+
+ 
+
+Failure to comply with these restrictions may result in emails sent to Google or Yahoo domains being blocked. This means that recipients with Google or Yahoo domains (i.e. anyone with an @gmail.com, @googlemail.com, or @yahoo.com email address) will not receive your emails.
+
+ 
+
+Things to Note: 5,000 emails is not an exact threshold for determining whether someone is a bulk sender. Google and Yahoo define bulk sending within their respective organizations. 
+
+ 
+
+To avoid email send failures, we recommend taking the following steps:
+
+ 
+
+Authenticate with SPF / DKIM / DMARC
+
+Keep Spam Complaint Rate under 0.3%: Emails that do not comply with this rate will be blocked. We recommend setting up Google Postmaster Tools to get insight to your domain's complaint %, domain reputation etc. 
+
+Things to Note: Google Postmaster Tools may not populate data unless you are sending thousands of emails to Google domains each day. Under 0.1% complaint rate is best practice.
+
+Include Opt-Out Links: Including opt-out links helps reduce spam complaints 
+
+Do not purchase Data and Lists: Data and list sources may lead to higher complaint and bounce rates
+
+Send Emails to Opt-In & Verified Leads
+
+Limit Daily Send Volume to 250/ Day:
+
+Things to Note: Larger teams may want to reduce that limit further.
+
+Set Email Send Delay to at least 60 seconds
+
+Configure Domain Send Limits to '5'
+
+Personalize your Email Outreach: Email personalization can help boost user engagement. We recommend 25% personalization.
+
+Remove recipients that have not engaged with your email traffic in over 9 months
+
+Remove any known spam complaints, bounces, unsubscribes from all company outreach: If a recipient unsubscribed or marked your marketing email as spam, ensure that data is synced with your CRM. This practice prevents your team from contacting the same recipient through Salesloft or another provider.
+
+ 
+
+ 
+
+To learn more about restrictions on sending bulk emails, check out the following documentation:
+
+Google:
+
+Google Email Sender Guidelines
+
+Google Email Sender Guidelines FAQ
+
+Yahoo:
+
+Yahoo Sender Best Practices
+
+ 
+
+Last Modified By
+Raequel Sank, 12/4/2023 4:15 PM
+Title
+Salesloft Email Deliverability Best Practices
+URL Name
+Salesloft-Email-Deliverability-Best-Practices
+Salesloft Knowledge
+Admin Guides
+Email Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,362 @@
+CRM
+SALESFORCE
+ADVANCED SALESFORCE GUIDES
+Salesforce Person Account with Salesloft
+
+Oct 31, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft supports syncing data for Person Account records, including syncing for the following criteria:
+Person
+Account
+Activity 
+Person Accounts unlock the value of Accounts in Salesforce even when a person is not associated with a company.
+
+In Person Accounts, you can review the Person’s activity, add or remove the record to a Cadence, log a note, or take any additional action supported via the Person view in the Salesloft Connect extension in Salesforce.
+
+In this article, we will explain how to use Salesforce Person Accounts with Salesloft, including: 
+Important Things to Know when Working with Person Accounts in Salesloft
+Field Mapping Person Account - Contact Fields
+Field Mapping Person Account - Account Fields
+Person Accounts in Salesloft Connect for Salesforce
+Importing Person Accounts
+Important Things to Know when Working with Person Accounts in Salesloft
+Activities log to the Person Account record automatically: There is no additional setup required with activity logging. 
+The Opportunity reports in the Insight from Salesloft Dashboard package will not populate with Person Accounts, and the process must be updated to work correctly: Since Person Accounts are a merge of two records, the Insight Dashboard package will not automatically register the difference. 
+Field Mapping Person Account - Contact Fields
+While the Person Account is two fields merged as one, Salesloft will still use Person and Accounts separately. 
+
+For Salesforce data that you would like to associate with the Salesloft Person fields, you will use the Contact field configuration (e.g., First Name, Email, Phone). This means they will also need to be mapped accordingly in your Person Field Configuration.
+
+When you enable Person fields, the Contact fields shown in yellow (see the image below) are added the the Person Account page. When these fields appear on the Person Account, you can map them to the Account or Person record in Salesloft.
+
+Things to Note:
+You can map "Is Person Account" to both the Person and Account records in Salesloft to show a record is a Person Account in Salesforce. Values will be true (is a Person Account) and false (is a Standard Contact & Business Account).
+We recommend mapping most fields to the Person record, besides the Account required fields. Salesloft primarily works with the Person records. Mapping to the Account record will solely provide Account visibility. If the fields are mapped from Person to Contact, however, information like email, phone, and other contact information is more actionable.  
+
+Field Label
+
+	
+
+Field Name
+
+	
+
+Type
+
+
+
+
+Salutation
+
+	
+
+Salutation
+
+	
+
+Picklist
+
+
+
+
+First Name
+
+	
+
+FirstName
+
+	
+
+Text(40)
+
+
+
+
+Last Name
+
+	
+
+LastName
+
+	
+
+Text(80)
+
+
+
+
+Assistant
+
+	
+
+PersonAssistantName
+
+	
+
+Text(40)
+
+
+
+
+Asst. Phone
+
+	
+
+PersonAssistantPhone
+
+	
+
+Phone
+
+
+
+
+Birthdate
+
+	
+
+PersonBirthdate
+
+	
+
+Date
+
+
+
+
+Department
+
+	
+
+PersonDepartment
+
+	
+
+Text(80)
+
+
+
+
+Do Not Call
+
+	
+
+PersonDoNotCall
+
+	
+
+Checkbox
+
+
+
+
+Email
+
+	
+
+PersonEmail
+
+	
+
+Email
+
+
+
+
+Email Opt Out
+
+	
+
+PersonHasOptedOutOfEmail
+
+	
+
+Checkbox
+
+
+
+
+Fax Opt Out
+
+	
+
+PersonHasOptedOutOfFax
+
+	
+
+Checkbox
+
+
+
+
+Home Phone
+
+	
+
+PersonHomePhone
+
+	
+
+Phone
+
+
+
+
+Individual
+
+	
+
+PersonIndividual
+
+	
+
+Lookup(Individual)
+
+
+
+
+Last Stay-in-Touch Request Date
+
+	
+
+PersonLastCURequestDate
+
+	
+
+Date/Time
+
+
+
+
+Last Stay-in-Touch Save Date
+
+	
+
+PersonLastCUUpdateDate
+
+	
+
+Date/Time
+
+
+
+
+Lead Source
+
+	
+
+PersonLeadSource
+
+	
+
+Picklist
+
+
+
+
+Mailing Address
+
+	
+
+PersonMailingAddress
+
+	
+
+Address
+
+
+
+
+Mobile
+
+	
+
+PersonMobilePhone
+
+	
+
+Phone
+
+
+
+
+Other Address
+
+	
+
+PersonOtherAddress
+
+	
+
+Address
+
+
+
+
+Other Phone
+
+	
+
+PersonOtherPhone
+
+	
+
+Phone
+
+
+
+
+Title
+
+	
+
+PersonTitle
+
+	
+
+Text(80)
+
+Field Mapping Person Account - Account Fields
+For Salesforce data that you would like to associate with the Salesloft Account fields, you will use the equivalent Salesforce Account fields (e.g., Account ID, Account Name). 
+
+This means the fields will also need to be mapped accordingly in your Account Field Configuration. For the Account information to pull from Salesforce, the required Account fields (name and domain) must exist on the Person Account record, and be mapped accordingly. 
+Person Accounts in Salesloft Connect for Salesforce
+You can view Person Account records in the Person view within Salesloft Connect for Salesforce . Salesforce Person Accounts represent individuals as Accounts. Think of them as a Contact and Account merged into a single view for Users within Salesforce.
+
+Before you can view Person Accounts in Connect for Salesforce, a team admin must enable the feature in your CRM Team Settings. 
+
+
+
+From Salesloft’s CRM Sync page, you’ll find the Person Account Details setting. With this setting toggled on, you can expect the following Person Account page functionality:
+When a Person Account record detail page is open and the Person Account record is linked to a Person in Salesloft, the extension displays the Person’s information with all supported features for the Person tab in the extension. 
+When a Person Account record detail page is open and the Person Account record is not linked to a Person in Salesloft, the extension lets the user import the record into Salesloft.
+Importing Person Accounts
+Salesloft will create both a Person and Account when importing a Person Account from a list view or report.
+
+Things to Note: Importing Person Accounts is dependent on the following conditions:
+The required Account fields (name and domain) exist on the Person Account record.
+Based off of your Account Management Settings: Specifically, if you have altered your Account Management Settings, the import rules may not apply. If you run into an error, consider using the default Account Management Settings. Reach out to our customer service team for more information. 
+To import Contacts that are Person Accounts in Salesforce from reports, use Contacts and Accounts Report Type to create the report. Add Contact ID as a report filter. 
+
+Things to Note: Use an "Is Person Account" boolean field in Salesforce to determine if record is a Person Account or not.
+
+To import from list view, use the Contacts list view and set filter on "Is Person Account" = "true" to only show Person Account "Contacts." 
+Last Modified By
+Briana Morgan, 10/31/2022 6:03 PM
+Title
+Salesforce Person Account with Salesloft
+URL Name
+Salesforce-Person-Account-with-Salesloft
+Salesloft Knowledge
+Salesforce
+CRM
+Advanced Salesforce Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

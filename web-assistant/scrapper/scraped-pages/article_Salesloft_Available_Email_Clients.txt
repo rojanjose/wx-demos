@@ -1,0 +1,93 @@
+EMAIL
+Salesloft Available Email Clients
+
+Sep 14, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft users can connect their email to one of many different email clients. 
+
+In this article, let's take a look at the different clients that are available for your team and how the connections operate:
+
+Gmail
+SMTP or IMAP Server
+External Email Client
+Microsoft Office365 (Oauth)
+Microsoft EWS
+Gmail
+
+When a user sets up their Salesloft account, they connect their Gmail account to our platform using OAuth 2.0. We do not retain any credentials; only the OAuth token. Email that are sent using our app store the body of the email draft in our system. The email itself is routed through the user's e-mail account so that the message comes from the user's domain, and not Salesloft's.
+
+Salesloft also has the ability to track replies to e-mails sent through the app. Since Salesloft has access to the user's inbox, any replies to e-mails sent through the app are also captured and stored in the app. Our systems read metadata contained in the headers of each message. Those that are not related to Salesloft e-mails are immediately discarded and never ingested by our system.
+
+SMTP or IMAP Server
+
+When a user sets up their Salesloft account , they are prompted to enter the credentials for their IMAP and SMTP server. Ports 25, 465, or 587 (SMTP) and 993 (IMAP) must be opened in order for the implementation to work correctly. When a user sends an e-mail using the app, Salesloft authenticates to the SMTP server as an e-mail client and sends the message so that the message is sent from the customer's domain and not Salesloft's. If the send fails, the app will return an error message to the user. If the send is successful, our system syncs the sent message to the user's IMAP server so that it is accessible via the user's mail platform.
+
+Salesloft also has the ability to track replies to e-mails. Since Salesloft has access to the user's IMAP server, any replies to e-mails sent through the app are captured and stored in the app. Our systems read metadata contained in the headers of each message. Those that are not related to Salesloft e-mails are immediately discarded and never ingested by our system.
+
+External Email Client
+
+The External Email Client is leverages the power of Salesloft without connecting your email inbox. 
+
+Customers who would like to take advantage of the External Email Client will be required to build custom code that uses Salesloft Public API . 
+
+Please reach out to a team Admin to make sure the External Email Client has been fully configured prior to setup. 
+
+Microsoft Office365 (Oauth)
+
+Microsoft Office365 connects to your email server through an Oauth token, similar to Gmail. 
+
+If you are using Microsoft Office365 , your company may restrict third-party app connection access to leverage the security and privacy restrictions of Microsoft Azure fully. Salesloft offers the option to connect to Microsoft Office 365 with admin consent.
+
+First, enable admin consent within Office 365. Admins must first disable non-admin users from consenting to or registering new Third-Party Apps in your Office 365/Azure account.
+
+Once Admin Consent has been enabled in Microsoft Office 365/Azure, you must then consent to Salesloft from an admin license within the Salesloft app. We do this by quickly redirecting you from inside the Salesloft app to the Azure AD listing to install Salesloft within Office 365. Just follow these steps here:
+
+To enable Microsoft Office 365 (Azure) follow the steps below:
+
+Log into portal.azure.com.
+From the left sidebar menu, click Azure Active Directory.
+From the Active Directory (AD) sidebar menu, click User Settings.
+Disable the following options:
+Users can consent to apps accessing company data on their behalf
+Users can register applications 
+In Salesloft, navigate to your Team Settings and go to Emails.
+Scroll down to the Available Email Clients section.
+Click the Require Admin Consent link located beside the Microsoft Office365 (Oauth) checkbox. Things to Note: The person that performs the Require Admin Consent action must be an admin in Salesloft as well as Office365. 
+You will be redirected to Microsoft's Oauth page (Log in if prompted).
+You will be asked to consent to permissions requested by Salesloft. Accept the consent form.
+You're all set!
+
+Salesloft can also track replies to e-mails. Since Salesloft has access to the user's inbox via the sync engine, any replies to e-mails sent through the app are also captured and stored in the app. Our systems read metadata contained in the headers of each message. Those that are not related to Salesloft e-mails are immediately discarded and never ingested by our system. However, the user's entire mailbox is synced to the sync engine once the user authenticates.
+ 
+
+Microsoft EWS
+
+EWS (Exchange Web Services) is a native API built by Microsoft that allows server/client applications to integrate with Exchange Servers and Office 365.
+
+When Salesloft connects to Office365 or Exchange Server through Microsoft’s EWS API, it provides a rich integration that supports many additional features around Email and Calendars. 
+
+Things to Note: If Microsoft EWS is not appearing in your list of available email clients, reach out to your success manager to enable the feature. 
+
+When a user sets up their Salesloft account, they are prompted to submit their Exchange credentials using an email sync engine. The email sync engine then provides a token to Salesloft, which is maintained in our database for authentication. Emails sent using Salesloft are synced to the user's mailbox via the sync engine so that the message is sent from the customer's domain.
+
+Salesloft can also track replies to e-mails. Since Salesloft has access to the user's inbox via the sync engine, any replies to e-mails sent through the app are also captured and stored in the app. Our systems read metadata contained in the headers of each message. Those that are not related to Salesloft e-mails are immediately discarded and never ingested by our system. However, the user's entire mailbox is synced to the sync engine once the user authenticates.
+
+Last Modified By
+Raequel Sank, 9/14/2023 8:22 PM
+Title
+Salesloft Available Email Clients
+URL Name
+Salesloft-Available-Email-Clients
+Email
+Salesloft Knowledge
+Set Up Your Emails
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

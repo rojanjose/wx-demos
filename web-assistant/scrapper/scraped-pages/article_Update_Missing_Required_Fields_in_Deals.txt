@@ -1,0 +1,39 @@
+DEALS
+Update Missing Required Fields in Deals
+
+Jan 9, 2024•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Sometimes, your ability to change a field on an Opportunity in Salesloft depends on the Salesforce Opportunity requirements.
+
+Salesforce Opportunity requirements are fields in Salesforce that you must complete. Let’s say your team admin set a requirement in Salesforce that you must include a “Close Date” for all Opportunities. In this case, the Close Date field is a Salesforce Opportunity requirement. 
+
+Before you can change an Opportunity field in Salesloft, you must be sure that all Salesforce Opportunity requirements are completed.  Failing to update one of these required fields could result in the 0000 Unexpected Error. 
+
+The good news is Salesloft will prompt you to update missing required fields when you make changes to an opportunity field from the Pipeline view. In the event that there are required fields when you attempt to update a field on a Deal, a Required Field(s) window will appear. This window is triggered whenever you attempt to modify an opportunity with empty required fields. The pop up window includes all the necessary fields for saving the opportunity. 
+
+Enter a value for the missing field(s). When you click Save, all changes will automatically show up in Salesforce.
+
+Things to Note: 
+
+The Missing Required Fields window will only appear when modifying fields from the Pipeline View. 
+Missing Required Fields may appear for any opportunity fields with requirements. 
+
+Last Modified By
+Stephanie Griffith, 1/9/2024 7:59 PM
+Title
+Update Missing Required Fields in Deals
+URL Name
+Update-Missing-Required-Fields-in-Deals
+Deals
+Pipeline Management
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

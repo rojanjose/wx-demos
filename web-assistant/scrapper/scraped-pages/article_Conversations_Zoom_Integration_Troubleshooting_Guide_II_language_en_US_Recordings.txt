@@ -1,0 +1,132 @@
+CONVERSATIONS
+Conversations Zoom API Integration Troubleshooting Guide
+
+Mar 31, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Conversations Zoom API Integration allows your recorded Zoom meetings to be shared with Salesloft Conversations. When integrating systems, shared data may be miscommunicated as as a result, cause errors.
+
+This troubleshooting guide identifies possible errors that you may experience with the Conversations Zoom API Integration, and provides solutions and troubleshooting steps, including:
+Why don't I see the Conversations Bot join my Zoom meetings anymore?
+My meeting was recorded in Zoom, but was not captured in Conversations
+My prospect/customer scheduled a meeting with me, why wasn't the recording captured in Conversations?
+Live notes don’t match the actual time elapsed from the meeting 
+Recordings/transcripts/tracker words/talk time delays 
+Why did multiple meetings show up as one long recording?
+I enabled the automatic recording setting in my Zoom account, but I don't see that my meetings are being automatically recorded. Why do I have to manually hit the record button?
+Why doesn't my recording transcript include talk times and speaker identification?
+Why am I seeing a red disconnection banner on the Conversations page?
+I enabled the Conversations Zoom API Integration, but my Zoom settings appear disconnected.
+Why don't I see the Conversations Bot join my Zoom meetings anymore?
+The Conversations Zoom API Integration uses an API to connect to Zoom and does not require a bot. 
+
+For more information on APIs and enabling the Conversation Zoom API Integration, check out the Conversations Zoom API Integration article.
+My meeting was recorded in Zoom, but was not captured in Conversations
+The Conversations Zoom API Integration will only capture meetings that meet the following criteria:
+Meetings follow the meeting capturing rules
+Meetings were scheduled AFTER the Conversations Zoom API Integration was enabled
+
+If you recorded a meeting in Zoom that meets the criteria listed above, but does not appear in the Recordings tab, we recommend disconnecting the Conversations Zoom API Integration and uninstalling the Salesloft Conversations app in the Zoom Marketplace.
+
+The instructions below will walk you through disconnecting, then reconnecting the Conversations Zoom API Integration and uninstalling the Salesloft Conversations app in Zoom Marketplace:
+ 
+
+1. Navigate to your Personal Settings, then select Conversations from menu options on the left.
+
+2. Scroll to the Zoom tile and click Disconnect. 
+
+3. Now that you've disconnected the integration, it's time to uninstall the Conversations app. Start by opening the Zoom Marketplace in a Chrome browser and signing in.
+
+4. Once you've signed into the Zoom Marketplace, click Manage in the upper right corner.
+4. Select Installed Apps on the left menu bar.
+5. Type Salesloft Conversations into the top search bar, then select the Salesloft Conversations app.
+
+6. Click Uninstall.
+7. Choose an uninstall reason, then click Uninstall to confirm.
+ 8. Now you’ll need to reinstall the Salesloft Conversations app. To do this, type Salesloft Conversations into the top search bar, then select the Salesloft Conversations app.
+
+ 9. Click View Site to Install to be directed back to Salesloft.
+
+10. Once you're inside Salesloft, go to your Profile Settings, then select Conversations.
+
+11. The Zoom tile should appear as follows:
+Connected as [your email address]
+All settings needed to capture your meetings are enabled
+ 
+
+
+12. Once you’ve completed these steps, your meetings should appear under the Scheduled tab in Conversations. 
+My prospect/customer scheduled a meeting with me, why wasn't the recording captured in Conversations?
+If you attend a meeting scheduled by a prospect or customer (or anyone outside of your organization), they are the meeting host/co-host and are in charge of recording the meeting. The Conversations Zoom API Integration is connected to your account, so if you are not the meeting host/co-host, the recording will not appear in your Zoom account and, as a result, will not be captured in Conversations.
+
+If you want Conversations to capture a meeting that you don’t own, you can request that the meeting owner send you the meeting link, then upload it to Conversations.
+
+If the Zoom host or co-host was someone from your Salesloft team who also has Conversations enabled, the recording will be captured by Conversations. After the meeting is complete, you can filter the recordings in Conversations by meeting owner to access it.
+Live notes don't match the actual time elapsed from the meeting 
+This typically occurs when recording is paused and resumed during a meeting. Timestamps on the notes taken after your meeting was resumed may not line up with the time lapsed on the video. 
+Recordings/transcripts/trackers words/talk-time delays 
+Conversations features like full recordings, transcriptions, tracker words, and talk times beneath the videos may take up to 30 minutes to upload.
+
+If you experience additional delays longer than 30 minutes, check Zoom's status page for system details. A system incident could result in longer upload times in Conversations.
+
+You may also want to consider the following:
+Does your recording consist of multiple meetings within the same Zoom session? If so, check out the Why Did Multiple Meetings Show Up As One Long Recording section below.
+Is the recording available in Zoom? If so, you can download the meeting to your workspace and manually upload it into Conversations. Check out the Recordings Actions Guide for more info.
+Why did multiple meetings show up as one long recording?
+If you had multiple meetings show up as one long recording, this may be due to stopping, then resuming recording within the same Zoom session. If you use the same Zoom session to host multiple meetings, especially when those meetings occur back-to-back, we recommend that you do not pause or stop recording between meeting shifts.
+
+Because recordings are brought into Conversations from Zoom, we are unable to identify multiple meetings within the same Zoom session as separate meetings. Therefore, the meetings will show up as one long recording in Conversations. 
+I enabled the Automatic Recording setting in my Zoom account, but I don't see that my meetings are being automatically recorded. Why do I have to manually hit the record button?
+Zoom's Automatic Recording feature uses meeting invites from your calendar to determine when to record a meeting. This feature, however, will only record meetings that are scheduled on your calendar after the setting was enabled.
+
+Let's look at an example:
+Let's say on Monday you schedule a calendar event to take place on Wednesday of that same week. Then, on Tuesday, you enable the Zoom Automatic Recording feature. Because you enabled the Zoom Automatic Recording feature after you scheduled the meeting, the meeting will not be automatically recorded. In this case, you will need to manually click Record during your meeting. 
+Now, let's say you enable the the Zoom Automatic Recording feature on Tuesday. Then, later that same day, you schedule a calendar event to take place on Wednesday. In this case, the meeting will be automatically recorded in Zoom.
+Why doesn't my recording transcript include talk times and speaker identification?
+If your recording transcript does not include talk times or speaker identification, this is likely due to missing active speaker detection (ASD) data. When a recording is brought from Zoom into Conversations, the ASD data is used to include talk times and speaker identification to the recording transcripts. If the ASD data is missing, Conversations is unable to include certain information along with your recording.
+
+In the event that the ASD data is missing, a label will appear at the bottom of your recording panel displaying the availability of audio, video, and transcript for that recording.
+ 
+
+Things to Note: This label only appears for recordings in which ASD data is missing.
+Why am I seeing a red disconnection banner on the Conversations page?
+If Conversations detects that the Conversations Zoom Integration is disconnected, you will see a red disconnection notification banner on the Conversations page. The banner notification will include a hyperlink labeled Go to Integrations Settings Page.
+
+Click the hyperlink to be directed to your Conversations Personal Settings. From there you can disconnect, then reconnect the Conversations Zoom API Integration. 
+I enabled the Conversations Zoom API Integration, but my Zoom settings appear disconnected.
+In order for the Conversations Zoom Integration to capture your Zoom recordings, you must have the following settings enabled in Zoom:
+Add a timestamp to the recording
+Audio transcript 
+
+If Conversations detects that your Zoom settings are misconfigured, the Zoom tile on the Conversations settings page will appear disconnected.
+ 
+
+To enable your Zoom settings, follow these steps:
+1. From the Zoom tile, click Manage.
+2. Select View Zoom Settings. You will be directed to your Zoom settings.
+3.  Scroll to the Advanced Cloud Settings and check the box beside the following:
+Create Audio Transcript
+Add a timestamp to the recording 
+Things to Note: Cloud recording is only available for the Pro, Business, Education, or Enterprise account in Zoom. 
+4. Navigate back to Salesloft, and open your Personal Settings.
+5. Select Conversations. 
+6. You should now see All settings needed to capture your meetings are enabled.
+ 
+Last Modified By
+Stephanie Griffith, 3/31/2023 7:08 PM
+Title
+Conversations Zoom API Integration Troubleshooting Guide
+URL Name
+Conversations-Zoom-Integration-Troubleshooting-Guide-II
+Conversations
+Salesloft Knowledge
+Conversations Integrations
+Conversations Zoom Integration
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

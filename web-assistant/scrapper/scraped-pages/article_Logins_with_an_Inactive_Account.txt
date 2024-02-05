@@ -1,0 +1,34 @@
+GETTING STARTED
+Logins with an Inactive Account
+
+Mar 23, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Inactive Accounts mean that your Salesloft login access has been removed. 
+
+When you attempt to login after your account has been deactivated, you will see an error message. Click Log Out to return to the sign in page.
+ 
+To reinstate your subscription, contact your team admin to confirm why your account is currently inactive. Based on the response, reach out to the appropriate Salesloft contact: 
+If a team admin moves you from the active users list to an inactive user, reach out to your team admin to activate your account. If your admin is unable to reactivate your license, Contact Support. 
+If your subscription has been cancelled by your company's decision contact the Salesloft Billing department. To reach the Billing department, click the Contact Support button in the Help Center. When you enter your case, set the type of case to Billing . 
+If your subscription has been cancelled due to nonpayment, contact the Salesloft Accounts Receivable department.
+If your trial has expired, contact your Salesloft Account Manager. 
+Last Modified By
+Stephanie Griffith, 3/23/2023 3:12 PM
+Title
+Logins with an Inactive Account
+URL Name
+Logins-with-an-Inactive-Account
+Salesloft Knowledge
+Getting Started
+Set Up Salesloft
+Support Guides
+Getting Started FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,29 @@
+ANALYTICS + REPORTING
+Why don't all my email replies have sentiments?
+
+Mar 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Email sentiment replies that are Lofted are marked with sentiments; other types of replies will not be marked with a sentiment.
+
+Lofted emails include those sent directly from the Salesloft app and emails sent using Connect for Salesloft's Lofted button. 
+
+Email activity sync will not have an attached email sentiment for an email reply.
+Last Modified By
+Stephanie Griffith, 3/28/2023 10:22 AM
+Title
+Why don't all my email replies have sentiments?
+URL Name
+Why-don-t-all-my-email-replies-have-sentiments
+Analytics FAQ + Troubleshooting
+Analytics + Reporting
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,281 @@
+DEALS
+Deals Analytics Overview: Pipeline Health Tile
+
+Aug 1, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Pipeline Health Tile shows a heat map of your deal amounts based on the number of days in a stage or the number of Deal Gaps. The chart can be edited to display only Stages as well.
+
+ 
+
+Each square on the heat map varies in color based on the amount within each square. The darker the color, the larger the amount. Hover over each square to see how many deals make up the data. Click on the title to open the Pipeline Health Details (see more below). 
+
+ 
+
+Things to Note: The visible information is directly related to your Goal Management Settings. Charts and data may appear different based on your team and individual goals. 
+
+ 
+
+In this article, you will learn about the information provided within the Pipeline Health Tile, including: 
+
+Inside the Pipeline Health Tile
+Days in Stage Heat Map
+Deal Gaps Heat Map
+Pipeline Health Details
+
+ 
+
+Inside the Pipeline Health Tile
+
+The Pipeline Health Tile contains the following details from left to right and then the top of the tile working our way down: 
+
+Tile Name: Pipeline Health Tile
+Dropdown: The dropdown menu allows you to select the type of heat map you wish to display. Located in the upper right corner of the tile, click the dropdown menu to choose from the following:
+Days in Stage
+Gap Count
+Specific record types
+Chart: The chart view will vary based on the type of heat map you select in the dropdown. To learn about the chart details, check out the Days in Stage Heat Map and Deal Gaps Heat Map articles.
+
+ 
+
+Days in Stage Heat Map
+
+The Pipeline Health Tile displays a heat map to help you understand how long the deals in your pipeline have been sitting in certain stages. The display shows deal amounts plotted against the number of days in a Stage, as well as the Stages themselves. Each square on the heat map displays variations of colors that indicate the amount within each square. 
+
+ 
+
+ 
+
+Let's walk through each part of the days in stage heat map and what they mean: 
+
+ 
+
+Object
+
+	
+
+Name
+
+	
+
+Definition
+
+
+
+
+Y-axis (Left side)
+
+	
+
+Days in Stage
+
+	
+
+Ranges for how long a deal has been in a stage. The ranges are the same for all users. 
+
+
+
+
+Chart
+
+	
+
+Days in Stage Heat Map
+
+	
+
+Values on this heat map are based on the amount of time in a stage and their associated stages. If a square has multiple deals in it, the sum of the amounts will display in the square.
+
+
+
+
+Total Amount (Right side)
+
+	
+
+Dollar/Color Relationship
+
+	
+
+Shows the range for the heat map color scale. If a square has more dollars associated with it, the square will appear in a darker purple. 
+
+
+
+
+X-axis
+
+	
+
+Stages 
+
+	
+
+The stages associated with the selected record type. These stages pull from Salesforce and will display in chronological order from left to right.
+
+
+
+
+Hover state
+
+	
+
+Number of deals in the days in stage range and stage as well as the dollar amount for the deals
+
+	
+
+The hover state over a square indicates the number of deals in the days in stage range and stage, as well as the dollar amount for the deals.
+
+ 
+
+ 
+
+Deal Gaps Heat Map
+
+Deal Gaps are a great way to identify leading indicators of pipeline health. The Deal Gaps heat map creates an at-a-glance view to help you learn which deals have gaps so you can act.
+
+ 
+
+Things to Note:
+
+Deal Gaps must be created by a team admin. 
+If no gap settings are configured, Salesloft will show an empty state notifying the user that these settings need to be set up.
+
+ 
+
+For example, when deal gaps are present on deals in later stages (like negotiation), there is an increased risk that the deal won't close. With the heat map, you can identify deals with gaps that need to be addressed so you can ultimately hit your number. 
+
+ 
+
+You will find the Deal Gap heat map in the Pipeline Health tile on the Deals Analytics Overview page. If your team has multiple record types set up in your Salesforce instance, select the dropdown to view the heat map based on a specific record type.
+
+ 
+
+ 
+
+Let's walk through each part of the Deal Gap heat map and what they mean: 
+
+ 
+
+Object
+
+	
+
+Name
+
+	
+
+Definition
+
+
+
+
+Y-axis (Left side)
+
+	
+
+Gap Count Ranges
+
+	
+
+Gap counts will differ based on your team's settings. If your gap thresholds are set up, the gap counts will display. If you don't have gap thresholds set up, you will see the default ranges: 0-1, 2, 3+.
+
+
+
+
+Chart
+
+	
+
+Deal Gaps heat map
+
+	
+
+Values in this heat map are based on the number of gaps in your pipeline and their associated stages. If a square has multiple deals in it, the sum of the amounts will display in the square.
+
+
+
+
+Total Amount (Right side)
+
+	
+
+Dollar/Color Relationship
+
+	
+
+Shows the range for the heat map color scale. If a square has more dollars associated with it, the square will appear in a darker purple. 
+
+
+
+
+X-axis
+
+	
+
+Stages 
+
+	
+
+The stages associated with the selected record type. These stages pull from Salesforce and will display in chronological order from left to right.
+
+
+
+
+Hover state
+
+	
+
+Number of deals in the gap count range and stage as well as the dollar amount for the deals
+
+	
+
+The hover state over a square indicates the number of deals in the gap count range and stage, as well as the dollar amount for the deals.
+
+ 
+
+Pipeline Health Details
+
+The Pipeline Health Details pop up on your screen as a modal that includes a list of the Opportunities referenced when you hover over a heat map tile. This list will show the following details:
+
+Name of the Opportunity
+Close Date
+Amount
+Opportunity Split (if applicable)
+Time in Stage
+Number of Deal Gaps
+
+ 
+
+ 
+
+If you click on an Opportunity in the list, the Pipeline Health Details will expand to show the Deal Detail View of the opportunity that was selected. This is the same Deal View that appears on the Pipeline Dashboard. From this Deal View, you can make field updates and changes on the Opportunity within the modal.
+
+ 
+
+You can also navigate through the Pipeline Health Details modal from the top of the Deal Detail View Modal. The navigation options include:
+
+Back to List which will take you back to the Pipeline Health Details list.
+There are left and right navigation arrows that enable you to click through the list of Deals that were presented in the list of Opportunities in the Pipeline Health Details. 
+
+ 
+
+ 
+
+Last Modified By
+Briana Morgan, 8/1/2023 5:18 PM
+Title
+Deals Analytics Overview: Pipeline Health Tile
+URL Name
+Pipeline-Health-Tile
+Deals
+Salesloft Knowledge
+Deals Analytics
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

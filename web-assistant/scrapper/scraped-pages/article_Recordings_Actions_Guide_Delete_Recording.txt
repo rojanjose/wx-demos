@@ -1,0 +1,217 @@
+CONVERSATIONS
+Recordings Actions Guide
+
+Oct 23, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Conversations makes it easy to track all of your recordings from one convenient location. You can use recordings to pinpoint what’s working in your sales call, or quickly address struggles like filler words (ex: "like"). 
+
+Once meetings are Scheduled, In Progress, or completed Recordings, there are a number of general actions you can take to manage your meetings the way you want to. 
+
+In this article, you will learn about the different actions that apply to the Conversations tabs, including:
+
+Upload a Recording
+Search Recordings
+Edit Meeting Details
+Share the Recording
+Add Attendee
+Manage Playlist
+Download Transcript
+Download Video
+Link Recording to a Person
+Link Recording to an Account
+Link Recording to an Opportunity
+Delete a Recording
+Upload a Recording
+
+Conversations is designed to capture meetings that include the bot. But if you are new to Salesloft's Conversations or the bot misses a call, there may be some recordings left out of the platform.
+
+Uploading a recording allows you to manually add the video and audio recordings into Salesloft. Once recordings are uploaded, they can be stored, sorted, tagged, notated, clipped, scanned for trackers, and transcribed. In other words, Conversation's many features apply to any uploaded recording.
+
+The following file types may be uploaded:
+
+Audio - mp3, wav, ogg, m4a
+Video - mp4, m4v, mov
+
+Things to Note:
+
+File size limit: 3gb
+Due to the nature of an uploaded file, active speaker detection (ASD) and percent talk time for speakers are unavailable.
+Recordings must be at least 60 seconds long.
+
+To upload a recording to Conversations, follow these steps:
+
+Go to the Conversations Recordings tab.
+In the upper right corner, click Upload a Recording. The Upload a Recording window will appear.
+Enter a Meeting Title.
+Set the Meeting Organizer by finding a name in the dropdown menu.
+Set the Meeting Date.
+Drag the file into the Upload a Recording window. Or select a file from the window.
+Click Upload.
+Search Recordings
+
+The Conversations search bar makes it easy to find specific recordings you may want to review or reference.
+
+To use the search, simply type a word or phrase in the search bar and hit enter.
+
+Search in Options
+
+The Search in options help to refine your search. You may select multiple search in options. The options include:
+
+All: searches all of the available recordings
+Comments: searches for the word or phrase that are in the meeting's comments
+Title: searches for words specific to the meeting name. 
+Transcription: looks for words that are mentioned in the transcription
+Showing 
+
+The Showing line lets you know how many recordings you are viewing. Once the search or filter has been set, the total number of recordings will reflect the number that fits the search or filter.
+
+Edit Meeting Details
+
+You may change the name and organizer of your meeting by editing the meeting details. To edit, follow these steps:
+
+Use the search and filter options to find your meeting (if applicable).
+Click the ellipses icon in the upper right corner of the recording panel.
+Select Edit Meeting Details.
+From the edit window, type in the new name of the meeting. 
+Change the Meeting Organizer by selecting this dropdown menu and choosing a different Salesloft user. This will update which rep owns the meeting.
+Click Save. A notification will appear informing you that of the Saved recording details.
+
+ 
+
+Share the Recording
+
+Sharing a recording allows you to send the meeting recording to any recipients of your choice. Maybe you want a manager to hear a call for training purposes or you could send a prospect the recording.
+
+To learn more about how to share a call, check out the Share a Recording knowledge base article.
+
+Add Attendee
+
+To add an attendee, follow these steps:
+
+Use the search and filter options to find your meeting (if applicable).
+Click the ellipses icon in the upper right corner of the recording panel.
+Under the Add section, select Add Attendee.
+In the Add Attendee window, enter the Name and Email of the person you would like to add.
+Click Save. A notification will appear informing you Attendee added.
+Manage Playlist
+
+Adding a recording to your own personal playlist makes it simple for you to manage particular groups of meetings.
+
+To add a recording to a playlist, follow these steps: 
+
+Use the search and filter options to find your meeting (if applicable).
+Click the ellipses icon in the upper right corner of the recording panel.
+Under the Add section, select Add to Playlist.
+In the Add Attendee window, use the dropdown menu to select a playlist.
+Click Add. A notification will appear informing you Added to Playlist.
+
+ 
+
+Download Transcript
+
+Transcripts offer your entire recorded conversation in text form. So if you prefer to read versus watch a video, viewing the transcript may be right up your alley.
+
+Things to Note:
+
+Transcription services are provided by AWS (Amazon Web Services) Transcription Services.
+
+To download a recording transcript, follow these steps: 
+
+Use the search and filter options to find your meeting (if applicable).
+Click the ellipses icon in the upper right corner of the recording panel.
+Under the Download section, select Transcript.
+The transcript will download within your web browser. A notification will appear to inform you Transcript has downloaded.
+
+ 
+
+Download Video
+
+To download a recorded video, follow these steps: 
+
+Use the search and filter options to find your meeting (if applicable).
+Click the ellipses icon in the upper right corner of the recording panel.
+Under the Download section, select Video.
+The video will appear in another tab within your web browser.
+
+The video will download as an external URL in a new tab in your browser. 
+
+Things to Note: The URL will expire 30 minutes after it is generated. If a person were to try to load the URL or reload it in their browser after the 30-minute window has passed, they will get see an "Access Denied" error and not be able to access the recording.
+
+Link Recording to a Person
+
+The meetings you host are most likely (hopefully) with people who have been previously imported into Salesloft. When this is the case, link the Person to the recording.
+
+Linking a person creates a link to that Person's profile page. Once a person is linked to a recording you can quickly jump to the profile page and view all the relevant person information or take additional person actions.
+
+To link a person to the recording, follow these steps: 
+
+Use the search and filter options to find your meeting (if applicable).
+Click the ellipses icon in the upper right corner of the recording panel.
+Under the Link section, select Person.
+In the Link Person window, begin typing the name of the Salesloft Person in the text box.
+The dropdown will expand with search options. Select the person you with to link to.
+Click Link.
+A Linked To: detail will appear in the recording info. The person's name will appear as a blue link to the person's profile page.
+Link Recording to an Account
+
+Linking your recording to an account creates a link to The Account Profile Page. Once an account is linked to a recording you can quickly jump to the account page and view all the relevant account information or take additional actions.
+
+To link an account to the recording, follow these steps: 
+
+Use the search and filter options to find your meeting (if applicable).
+Click the ellipses icon in the upper right corner of the recording panel.
+Under the Link section, select Account.
+In the Link Account window, begin typing the name of the Salesloft Account in the text box.
+The dropdown will expand with search options. Select the account you with to link to.
+Click Link.
+A Linked To: detail will appear in the recording info. The account's name will appear as a blue link to the account's profile page.
+
+ 
+
+ 
+Link Recording to an Opportunity
+
+Linking your recording to an opportunity creates a link to an opportunity in Salesforce. Once an opportunity is linked to a recording, you can leverage information or take additional actions on the opportunity while you view your recording.
+
+To link an opportunity to the recording, follow these steps: 
+
+Use the search and filter options to find your meeting (if applicable).
+Click the ellipses icon in the upper right corner of the recording panel.
+Under the Link section, select Link to Opportunity.
+In the Link to Account and Opportunity window, you will need to enter the Account name first, since Opportunities must be associated so an Account. Begin typing the name of the Salesloft Account in the text box.
+Once the Account name is selected, you can enter a name in the Opportunity field. The Opportunity order of appearance in the drop-down button is determined by the furthest Opportunity Close Date on top of the list. A tooltip explains the Opportunity list order. Select an opportunity from the list. 
+Click Link. The Opportunity name will now appear in the Linked to area. 
+Delete a Recording
+
+Deleting a recording will remove it entirely from the Salesloft database.
+
+Things to Note: Delete Recordings is an available Salesloft permission. If you do not see the Delete option, contact your Salesloft admin about adding the feature to your role. 
+
+To delete a recording, follow these steps:
+
+Use the search and filter options to find your meeting (if applicable).
+Click the ellipses icon in the upper right corner of the recording panel.
+Select Delete.
+From the Confirm Delete window, select Delete.
+A notification will appear to confirm the message has been removed.
+ 
+ 
+Last Modified By
+Raequel Sank, 10/23/2023 4:33 PM
+Title
+Recordings Actions Guide
+URL Name
+Recordings-Actions-Guide
+Conversations
+Salesloft Knowledge
+Conversations Recordings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

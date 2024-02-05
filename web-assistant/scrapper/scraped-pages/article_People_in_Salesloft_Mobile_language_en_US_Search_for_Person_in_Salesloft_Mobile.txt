@@ -1,0 +1,85 @@
+SALESLOFT MOBILE
+People in Salesloft Mobile
+
+Mar 7, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Your Salesloft People are the individuals that you reach out to, have conversations with, and engage throughout the sales process.
+
+Salesloft Mobile makes it easy to connect with and maintain Person records all from the device that's normally within reach. 
+
+In this article, you will learn about viewing and managing Person records in Salesloft Mobile, including: 
+Add a Person to Salesloft Mobile
+Search for a Person in Salesloft Mobile
+View a Person Page in Salesloft Mobile
+Person Actions from Salesloft Mobile
+Add a Person to Salesloft Mobile
+If you meet new contacts while you're on the go, you know the benefit of being able to add that contact as a Salesloft Person from anywhere. Rather than waiting to get back to your computer and create a Person or import People, Salesloft Mobile allows you to add People directly to Salesloft from your phone. 
+
+Things to Note: The ability to add a Person to Salesloft will only be granted to users with roles with the Manage People Permission turned on.
+
+To add a Person to Salesloft from Salesloft Mobile, follow these steps: 
+
+1. In Salesloft Mobile, go to the Search page.
+
+2. Select the + sign in the upper right corner of the page to add a new Person to Salesloft.
+ 
+3. Enter information in the available Person fields, including custom fields. To complete the fields, add text or select from a dropdown, like with Seniority.
+4. Click Save in the upper right corner of the screen. 
+Search for a Person in Salesloft Mobile
+Search looks up any existing Salesloft Person. Once you search and find a Person, you can view their Person page, call them, or add them to a Cadence.
+
+Use the following criteria to search through Salesloft People:
+Type one of the following into the search bar:
+Person's First Name
+Person's Last Name
+Account Name
+Person's Phone Number
+Account's Phone Number
+Searches must include at least three characters to produce results.
+ 
+
+Once the search results populate, you can select a name to call the Person.
+ 
+View a Person Page in Salesloft Mobile
+When selecting a Person from search, you will go to that Person's dedicated page.
+
+The Person Page segments into different panels. The panels include the following information:
+Contact Info: Here you can see that Person's contact information, as well as standard and custom fields associated with that Person.
+Recent Activities: The panel show the Person's three most recent activities providing a snapshot of the most recent tasks completed. 
+Click View All in either panel to view a full page layout of the contact page or the activity feed.
+Contact Page
+The Contact Page contains all of the Person's available contact information. If a field needs to be updated, click the Edit button in the upper right corner of the Contact Page to edit the contact information.  
+ 
+Activity Feed 
+The Activity Feed shows the recent activities relevant to the Person. Any activity, whether you add the Person to a Cadence, send an email, log a call, mark them as a success, etc., will appear in the recent activities.
+ 
+Person Actions from Salesloft Mobile
+From the Person page, you can perform the following actions: 
+Select the ellipses icon in the upper right corner to open the following actions: 
+Edit Person
+Do Not Contact
+Unlink from Account/ Link to Account
+Link to CRM
+Add to Cadence
+Call: You can initiate a call to any of that Person's listed numbers.
+Email: Clicking on an email address will initiate an email through the default email application set on your device.
+Things to Note: This email will not be tracked in Salesloft unless the default email on your device is set up with Email Activity Sync.
+ 
+Last Modified By
+Raequel Sank, 3/7/2022 6:16 PM
+Title
+People in Salesloft Mobile
+URL Name
+People-in-Salesloft-Mobile
+Salesloft Knowledge
+Salesloft Mobile
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

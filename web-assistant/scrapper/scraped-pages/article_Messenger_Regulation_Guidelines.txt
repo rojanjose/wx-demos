@@ -1,0 +1,117 @@
+DIALER + MESSENGER
+Messenger Regulation Guidelines
+
+Oct 27, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Bringing texting into your communication strategy with Messenger sounds like a quick way to make contacts. However, texting comes with an entire different set of regulations. 
+
+Similar to phone and email regulations, texting regulations want to confirm that a human is sending to other humans. So while the thought of sending out texts left and right to new leads may sound enticing, it will do a lot more harm than good for your reputation with phone carriers. 
+
+In this article, you will learn about Messenger guidelines and recommended practices that should help keep you compliant with texting regulations, including:
+
+Carrier Filtering
+Provide a Good User Experience
+Text STOP to Stop
+The United States CAN-SPAM Act
+Data Compliance
+Cannabis and CBD Regulations
+Usage Limitations
+
+Things to Note: Anything mentioned in this article is for informational purposes only and should not be construed as or relied upon for legal advice or opinions. Any specific legal issues should be reviewed with your legal counsel.
+
+Carrier Filtering
+
+Carrier filtering is a practice where wireless carriers block the delivery of some or all messages from a specific number. Wireless carriers have filtering systems for two reasons:
+
+Enforcing rules or regulations about the types of messaging allowed to that country or mobile network. Depending on the country, laws or regulations may put restrictions on certain types of messaging, or even forbid certain things altogether.
+Protecting mobile subscribers from unwanted messaging such as spam, fraud, or abuse. When mobile subscribers receive messages they find objectionable, they may file complaints, seek damages, or simply stop being a customer. 
+
+Carriers define types of messages in different ways. The regulatory definitions carriers refer to include:
+
+Customer Initiated Consent: When a customer has explicitly asked to hear from the seller — they are expecting it. Customer Initiated messages include conversational messaging when a back-and-forth takes place via text. If a Consumer texts a business first and the business responds quickly with a single message, then it is likely conversational and no additional permission is needed.
+Informational Messaging: When a Consumer/customer gives their phone number to a business and agrees to be contacted in the future for a non-promotional purpose. A Consumer needs to agree to receive texts for a specific informational purpose when they give the business their mobile number. Consent here is expressed via a website, email, text, or phone. This is typically approved by carriers since the first text sent by the business fulfills the Consumer’s request to receive information. Informational Messaging includes the following:
+Appointment reminders
+welcome texts
+Pickup and delivery notifications
+Promotional Messaging: A sent message that contains a sales or marketing promotion. Typically, messages that include a call-to-action ("click here" or "buy now") may be considered in the "promotional" category.
+A consumer should give express written permission before a business sends them a text message. Recipients may sign a form, check a box online, or otherwise provide consent to receive promotional text messages.
+Businesses that already ask recipients to sign forms or submit contact information can add a field to capture the recipient’s consent.
+Without consent, some carriers will filter the message. 
+Provide a Good User Experience
+
+Users are likely to report confusing or unwanted messages to their carrier. 
+
+You can also greatly reduce the risk of filtering by following these best practices:
+
+Be sure to identify your business or service in the message.
+Get opt-in consent from each end user before sending any communication to them.
+Only communicate during an end user's daytime hours unless it is urgent.
+How the message is formatted and written is important. Overly long messages, overly capitalized messages, mysterious links, hyperbole, and using aggressive language can make users suspicious of a message.
+Do not contact end users on Do Not Call or Do Note Disturb registries.
+
+ 
+
+Text STOP to Stop
+
+If users do not understand how to opt out (unsubscribe) from your messages, they may feel they have no choice but to contact their carrier to request the carrier block your messages.
+
+All messaging services that communicate with consumers on their mobile device must comply with text-based opt-out requests. With Salesloft Messenger, if a recipient texts STOP they are automatically opted out of receiving future texted communications.
+
+ 
+
+The United States CAN-SPAM Act
+
+The CAN-SPAM Act restricts text messages sent to a mobile phone using an autodialer.
+
+Since Messenger from Salesloft is a one-to-one channel, it reduces the risk of being portrayed as an autodialer and complies with the CAN-SPAM Act.
+
+ 
+
+Data Compliance
+
+All messaging service providers must be compliant with data regulations based on the audience.
+
+For example, if you are texting residents of California, CCPA rules apply.
+
+Cannabis and CBD Regulations
+
+Messages relating to anything illegal are strictly prohibited.
+
+While various states in the United States have legalized the sale of cannabis in certain situations, selling cannabis remains illegal pursuant to United States federal laws. Further, certain states prohibit or limit the sale of CBD.
+
+For these reasons, use of Salesloft’s services to transmit cannabis or CBD related messages is not permitted, including messages marketing cannabis or CBD, even if those messages do not expressly contain the terms “cannabis” or “CBD”.
+
+Usage Limitations
+
+Salesloft also prohibits sending any content that is illegal, harmful, unwanted, inappropriate, objectionable, confirmed to be criminal misinformation, or otherwise poses a threat to the public, even if the content is permissible by law. Other prohibited uses include:
+
+Anything that is illegal in the jurisdiction where the message recipient lives. Examples include, but are not limited to:
+
+Prescription Medication: Offers for prescription medication that cannot legally be sold over-the-counter are prohibited in the United States.
+Hate speech, harassment, exploitative, abusive, or any communications that originate from a hate group.
+Fraudulent messages.
+Malicious content, such as malware or viruses.
+Any content that is designed to intentionally evade message filters.
+
+
+ 
+
+Last Modified By
+Stephanie Griffith, 10/27/2023 4:35 PM
+Title
+Messenger Regulation Guidelines
+URL Name
+Messenger-Regulation-Guidelines
+Salesloft Knowledge
+Dialer + Messenger
+Messenger
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,46 @@
+EMAIL
+How are Opens, Clicks, and Replies Tracked?
+
+Mar 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft emails track views, clicks, and replies. Any of these registered metrics feed into your Salesloft Live Feed and your email analytics. But how is this tracking taking place? 
+
+In this article, you will learn how Salesloft tracks email activities, including: 
+Opens/Views
+Clicks
+Replies
+Opens/Views
+Salesloft uses a 1x1 pixel within emails. Every time this pixel is uploaded into the recipient's mail server Salesloft will count a view
+
+Things to Note: Opens/View may register additional opens due to the following reasons:
+Server Scans: Some servers check emails and links as a security measure to verify that no malicious content is being passed on to the recipient. Our tracking can not differentiate between a server opening a link or an actual person.
+Repeated Opens: Each time a user views an email will count as an additional open. 
+Forwarded Message: If a user forwards an email, views may count each time the forward recipient(s) open the message, not just the first time as it is viewed. 
+Clicks
+Salesloft replaces the link URLs with a custom tracking URL to track that information, then redirects the person clicking the link to the intended URL. Tracking clicks can be managed by admins or by individual users while creating the email.
+Replies
+Any email connections through Gmail, Outlook 365, and Outlook Exchange use real-time-reply tracking. Salesloft hooks directly into the web server's APIs and gets real-time notifications for incoming replies. 
+
+For IMAP/SMTP connections, Salesloft will perform a sweep of your inbox hourly. This sweep scans email headers in order to see if the emails were replied to or bounced.
+
+Things to Note:
+Reply analytics do not include multiple replies from the same contact.
+If a user moves a reply to another mailbox shortly after it is received, the tracking might not function properly, as Salesloft tracks replies primarily via the Inbox folder.
+Last Modified By
+Stephanie Griffith, 3/10/2023 9:54 PM
+Title
+How are Opens, Clicks, and Replies Tracked?
+URL Name
+How-are-Opens-Clicks-and-Replies-Tracked
+Email
+Salesloft Knowledge
+Email FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

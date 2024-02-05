@@ -1,0 +1,74 @@
+DIALER + MESSENGER
+Register Phone Numbers for A2P 10 DLC
+
+Sep 15, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Application-to-Person Messaging (A2P) is a US-based service that allows you to send and receive messages from an application–like Salesloft Messenger–instead of your mobile device.
+
+ 
+
+If your team uses Salesloft Messenger (SMS), you must register your organization for A2P 10DLC. A2P 10DLC allows you to send A2P messages via standardized 10 Digit Long Code (10DLC) phone numbers. 
+
+ 
+
+Effective August 31, 2023, all U.S.-bound messages (SMS) sent from unregistered 10DLC phone numbers will be blocked. This means that without A2P 10DLC, you will not be able to send messages via Salesloft Messenger.
+
+ 
+
+By using A2P 10DLC, you can ensure better message deliverability, and reduce the risk of incorrect filtering.
+
+ 
+
+In this article, we will discuss the A2P 10DLC service and walk through the registration process, including:
+
+Benefits of A2P 10DLC
+A2P 10DLC Registration Process
+Benefits of A2P 10DLC
+
+If you are currently a Salesloft Messenger user, you may be wondering, "Why register for A2P 10DLC?".
+
+The A2P 10DLC service offers many benefits, including allowing teams in the US to improve SMS channel communications.
+
+Below are some of the additional benefits that A2P 10DLC can offer your team.
+
+Improved Deliverability - 10DLC uses routes destined for business-to-consumer traffic (A2P). For A2P 10DLC users, this means less spam, trusted messaging, and an overall improvement to SMS delivery.
+Increased Throughput - Previously, throughput and capacity was a set standard by all mobile carriers. When you register for A2P 10DLC, you are registering your organization's brand. With your brand registered, you can customize throughput and tailor it to your campaign needs and market penetration.
+SMS Transparency - When teams register for the A2P 10DLC service, their business is verified. This registration process reduces bad actors and spam-like messaging from the ecosystem to ensure that the messages being sent and received are wanted and trusted.
+A2P 10DLC Registration Process
+
+You can register your domestic SMS traffic with 10 DLC by submitting a request to Support@salesloft.com. When submitting an A2P 10DLC registration request, be sure to include the following details in your message: 
+
+Company US Tax Identification # (EIN #)
+Legal Business Name associated with the above
+Website URL
+Company Status (Private/Public)
+Business Industry 
+Business Regions of Operations (Africa, Asia, Europe, Latin America, USA & Canada)
+Business Type (LLC, Corporation, Non-Profit, Sole Proprietorship, Co-operative, Partnership)
+
+ 
+Things to Note:
+
+If you are already using long code numbers, you do NOT need to buy new numbers. You can enable your existing numbers to use the new A2P 10DLC service by following the registration process.
+For international based customers that have US offices, please provide the international business registration number. Canada requires the Canadian Business Number (BN-9).
+Last Modified By
+Raequel Sank, 9/15/2023 4:37 PM
+Title
+Register Phone Numbers for A2P 10 DLC
+URL Name
+A2P-10DLC
+What's New
+Salesloft Knowledge
+Dialer + Messenger
+Messenger
+Set Up The Dialer
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

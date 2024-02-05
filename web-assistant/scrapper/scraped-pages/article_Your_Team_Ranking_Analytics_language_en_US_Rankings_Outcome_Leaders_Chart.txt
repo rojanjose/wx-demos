@@ -1,0 +1,78 @@
+ANALYTICS + REPORTING
+Your Team Ranking Analytics
+
+Jul 13, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Ranking tab allows you to see how team members are performing in comparison to each other. If you want to encourage competition among your reps, this tab will display which rep is at the top of the leaderboard. Let the games begin!
+
+The Rankings compare and contrast peers based on Outcome and Activity metrics. You will see two charts that display individual reps stacked ranked against each other across more than 10 different metrics. The Ranking charts provide answers to the following questions:
+How am I ranked against my peers based on my activities?
+How is my recent rep hire performing against my established team?
+Who is performing the best/worse based on a specified metric?
+Over the past month, has a rep improved their ranking?
+You can adjust the data range by filtering the Ranking Analytics by Time Range and Salesloft User.  
+
+In this article, you will learn about the different charts in the Ranking tab, including:
+Rankings Outcome Leaders Chart
+Rankings Activity Leaders Chart
+Rankings Outcome Leaders Chart
+The left chart displays your top Outcome Leaders. These are the top 10 users on your team who have achieved positive results. By digging into this chart, you can determine which reps are performing well versus the reps that may require more coaching to start reaching their goals. 
+
+The Outcome Leaders chart can be filtered by the following metrics:
+
+Meetings Booked (default): The number of times the rep has booked a meeting. 
+Successes: Number of times the rep has marked a Person as a Success in Salesloft. If your team uses the Success button when logging a call or on the Person Profile page, this Outcome will give you an idea of how often success is reached. 
+Connected Calls: How many times a call is logged with the Disposition Connected noting that a Connected Call took place.
+Connected Calls per Meeting Booked: An average of the total connected calls needed to book a meeting.
+Connected Calls per Opportunity: An average of the total connected calls needed to create an opportunity.
+Opportunities: The total number of opportunities created in CRM (synced back to Salesloft).
+Positive Calls: How many times a Connected Call was logged with a Positive Sentiment. These sentiments include: 
+Demo Scheduled
+Interested
+Timeline 6-12 months
+ 
+
+Reps are arranged by the number of times the Outcome was accomplished in descending order. If you hover over any of the bars on the chart, you can see the name of the rep and the number of times the selected Outcome has been logged. 
+
+The View Report link will guide you to the Team Performance report where you can drill down into even more rep-based metrics. This report will feature with the same filter range and sorted by the Outcome Metric.
+Rankings Activity Leaders Chart
+The right chart displays our top Activity Leaders. This makes it clear which members of your team are the all stars when it comes to executing their daily actions. 
+
+The Activity Leaders chart can be filtered by the following metrics: 
+Total Activities (default)
+Total Activities per Day
+Calls Logged
+Calls per Day
+Delivered
+Emails Per Day
+Replied
+Opened
+Clicked
+Voicemails
+Emails Delivered
+Replied Objections
+Replied Positive
+ 
+
+Reps are arranged by the number of times the Activities logged in descending order. If you hover over any of the bars on the chart, you can see the name of the rep and the number of times the selected Activity has been logged. 
+
+The View Report link will guide you to the Team Performance report where you can drill down into even more rep-based metrics. This report will feature with the same filter range and sorted by the Outcome Metric.
+ 
+Last Modified By
+Briana Morgan, 7/13/2022 8:09 PM
+Title
+Your Team Ranking Analytics
+URL Name
+Your-Team-Ranking-Analytics
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Essentials
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

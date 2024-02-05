@@ -1,0 +1,28 @@
+INTEGRATIONS
+LinkedIn Sales Navigator: Nothing Happens When I Click Sign In
+
+Mar 24, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+If nothing happens when you click the blue sign in button in the LinkedIn panel, the culprit is most likely a pop up blocker. 
+
+Make sure the pop up blocker is turned off in your Chrome browser window. If popups are blocked, click the icon in the url bar at the far right and allow popups for Salesloft. 
+ 
+Last Modified By
+Stephanie Griffith, 3/24/2023 9:23 PM
+Title
+LinkedIn Sales Navigator: Nothing Happens When I Click Sign In
+URL Name
+LinkedIn-Sales-Navigator-Nothing-Happens-When-I-Click-Sign-In
+Integrations
+Salesloft Knowledge
+Integrations FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

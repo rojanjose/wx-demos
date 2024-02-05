@@ -1,0 +1,36 @@
+CADENCES + TASKS
+Move People to a Different Cadence Step
+
+May 19, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Moving People to a new step is very similar to skipping a step, but with a little more control.
+
+Say you take over a coworker's Lead assignments who have already been communicated with. Once you add them to your Cadence, they don't need to run through steps 1-5, so you can collectively move the People to step 6.
+
+To move People to a new Cadence step, follow these instructions:
+Select a Cadence. Inside a Cadence, select the People tab.
+Filter and sort your People list (if necessary).
+Select specific People or all the People you want to move. 
+Click on Cadence Actions (rocket ship icon).
+From the Cadence Actions dropdown, select Move to Step. The Move to Step popup window will appear.
+From the dropdown, select where you would like the move the People.
+Click Move.
+ 
+Last Modified By
+Stephanie Griffith, 5/19/2023 2:08 PM
+Title
+Move People to a Different Cadence Step
+URL Name
+Move-People-to-a-Different-Cadence-Step
+Cadences + Tasks
+Manage A Cadence
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

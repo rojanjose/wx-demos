@@ -1,0 +1,142 @@
+DEALS
+DEAL MANAGEMENT
+Multi-Currency in Deals
+
+Aug 1, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft plugs in and supports Salesforce's multi-currency feature.
+
+Salesforce defines their multi-currency—or multiple currencies—in the following way: "International organizations can use multiple currencies in opportunities, forecasts, reports, quotes, and other currency fields. The administrator sets the “corporate currency,” which reflects the currency of the corporate headquarters. The administrator also maintains the list of active currencies and their conversion rates relative to the corporate currency. The active currencies represent the countries in which the organization does business. Only active currencies can be used in currency amount fields."
+
+Teams will need to have multi-currency set up inside of Salesforce before they can use in in Salesloft. Once multi-currency is set up and in use by your team inside of Salesforce, you can view and use Multi-currency inside Salesloft Deals. 
+
+In this article, you will learn about Multi-Currency inside of Deals, including: 
+
+Multi-Currency Terms and FAQs
+Understanding Basic Versus Advanced Multi-Currency
+Administering Multi-Currency in Salesforce
+Multi-Currency on the Pipeline Table
+Multi-Currency on Deals Analytics Overview
+
+ 
+
+Multi-Currency Terms and FAQs
+
+Here are some terms that you need to know when working with Multi-Currency inside of Salesloft: 
+
+Corporate Currency: Admins for your organizations set what is called the “corporate currency,” which reflects the currency of your corporate headquarters. 
+Opportunity Currency: This is the type of currency that an opportunity is currently set as. This can be different than the corporate currency of be the same. As an example, the corporate headquarters may be set in the USA but have sales reps in Canada. The opportunities owned by sales reps in Canada will likely have an opportunity currency of CAN and a corporate currency set as USD. 
+Conversion Rates: The exchange (conversion) rate is the price of one currency in terms of another currency. Admins can manage static exchange rates between your active and inactive currencies and the corporate currency by editing the conversion rates. These exchange rates apply to all currency fields used in your organization. In addition to these conversion rates, some organizations use dated exchange rates for opportunities and opportunity products. 
+ISO Code: The ISO country codes are internationally recognized codes that designate every country and most of the dependent areas a two-letter combination (ISO alpha-2) or a three-letter combination (ISO alpha-3); it is like an acronym, that stands for a country or a state. The ISO code of the currency type will display before the amount. For example, $100 displays as USD 100 when multi-currency is turned on. 
+
+
+Now that we're clear on the terms, here are some commonly asked questions about Multi-Currency in Salesloft: 
+
+How many currency types can a customer have set up? 
+
+Customers can setup however many currencies and currency rates in Salesforce as they want. 
+
+How often does Salesloft update conversion rates and currency settings?
+
+Conversation rates and currency settings are updated every 24 hours.
+
+Will there be any place in Deals where we will still show the $ symbol when multi-currency is enabled? 
+
+No. Wherever there is a $ symbol it will be replaced with the ISO code. This includes the pipeline table, deal gaps, deals analytics, activity feed, and the remainder of Deals. 
+
+ 
+
+Understanding Basic Versus Advanced Multi-Currency
+
+Salesforce's multi-currency feature offers a basic and advanced version. Salesloft supports both basic and advanced multi-currency with Salesloft.
+
+Here is the breakdown explanation of the Basic and Advanced Multi-Currency versions: 
+
+Basic: The administrator sets the “corporate currency,” which reflects the currency of the corporate headquarters. The administrator also maintains the list of active currencies and their conversion rates relative to the corporate currency. Here is Salesforce's documentation on basic multi-currency.
+
+Advanced: Advanced currency management allows you to manage dated exchange rates within opportunities using Salesforce. Advanced currency management allows you to manage dated exchange rates within opportunities using Salesforce. Dated exchange rates allow you to map a conversion rate to a specific date range. For example, the exchange rate on January 1 was 1 USD to 1.39 AUD, but on February 1, it changed to 1 USD to 1.42 AUD. Your opportunities that closed between January 1 and February 1 use the first exchange rate (1 = 1.39), while opportunities that closed after February 1 used the second exchange rate (1 = 1.42).
+
+Here is Salesforce's documentation on advanced multi-currency.
+
+ 
+
+Administering Multi-Currency in Salesforce
+
+There isn't any administering or configuration that happens inside of Salesloft to use multi-currency. The administration is done inside of Salesforce. Once multi-currency is set up in SFDC, we will recognize that and support their specific setup inside of Salesloft. 
+
+For administering basic multi-currency, here is documentation from Salesforce
+
+For administering advanced multi-currency, here is documentation from Salesforce
+
+It will typically be a Salesforce Admin who is in charge of configuring a customer's Salesforce multi-currency setup.
+
+ 
+
+Multi-Currency on the Pipeline Table
+
+When multi-currency is enabled, if will appear in the Pipeline View in Deals. Once a customer turns on multi-currency in Salesforce and has it configured they will see the details in the Amount column of the Pipeline View. 
+
+Things to Note: By default, the Pipeline View is designed to show in USD as the amount reflected with a $. If a customer doesn't have multi-currency turned on and set up in Salesforce, the Pipeline View will only show USD.
+
+Let's walk through an example where the Corporate Currency is set to GBP and the opportunity currency types are CAN, USD, and GBP. 
+
+The Amount column will display the Opportunity Currency as the top number.
+If the corporate currency differs from the Opportunity Currency, the converted amount number will appear below the opportunity currency in parenthesis. 
+If the opportunity currency and corporate currency are the same ISO, only one number will appear. 
+
+ 
+
+
+At the bottom of the amount column of any currency column, there will be a rollup of the total amounts. This rollup will display the rollup in the corporate currency amount. 
+ 
+
+
+You can edit currency fields for multi-currency. This will update the Opportunity Currency amount. When the amount is changed, it will automatically update both the opportunity currency amount and corporate currency amount via conversion rates. 
+
+ 
+
+
+You can also edit the amount value from the Deal View page.
+
+Advanced Filter
+
+You can filter deals on the amount column for multi-currency deals from the Pipeline View. This will filter on the Corporate Currency amount that is set in Salesforce.
+ 
+
+ 
+Multi-Currency on Deals Analytics Overview
+
+When you view the Deals Analytics Overview with Multi-currency enabled, all instances of $ will adjust to the ISO code value that is corresponding to the Corporate Currency type. 
+ 
+
+
+Drill-downs will show the opportunity currency type and amount associated with the opportunity. Additionally, you will see the converted corporate currency amount in parentheses. 
+ 
+
+
+Things to Note: On the Deals Analytics Overview and with multi-currency enabled, the Pipeline by Close Date tile will display that this chart is under construction. 
+ 
+
+ 
+Last Modified By
+Briana Morgan, 8/1/2023 8:06 PM
+Title
+Multi-Currency in Deals
+URL Name
+Multi-Currency-in-Deals
+Deals
+Salesloft Knowledge
+Deal Management
+Deals Overview
+Deals Analytics
+Pipeline Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

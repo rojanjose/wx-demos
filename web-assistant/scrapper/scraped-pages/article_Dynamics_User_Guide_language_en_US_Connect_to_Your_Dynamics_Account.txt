@@ -1,0 +1,66 @@
+CRM
+Dynamics User Guide
+
+Jul 5, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Your CRM is most likely your primary hub for customer management needs. But managing the data and logging actions in your CRM can quickly because a daunting task (pun intended). 
+
+Microsoft Dynamics 365 users can breathe a sigh of relief by connecting your CRM to Salesloft. With Salesloft's Dynamics integration, you can log activities and share data records between your sales engagement platform and your CRM.
+
+Things to Note: Salesloft only integrates with Microsoft Dynamics 365.
+
+In this article, you will learn about the features available in Salesloft for Dynamics users, including:
+Connect to Your Dynamics Account
+Imports from Dynamics
+View in Microsoft Dynamics
+Connect to Your Dynamics Account
+Before you can take advantage of Salesloft's Dynamics integration, you must connect your Dynamics account to your Salesloft account.
+
+This is required in order for activities you log in Salesloft to sync to Dynamics as completed Tasks records as well as any syncing of information for Leads, Contacts and Accounts.
+
+To Connect your Salesloft Account to your Dynamics Account, follow these steps:
+Click the dropdown menu under your name and select Settings. Then select CRM. 
+On the CRM page, click Connect. This will direct you to your Microsoft login page. 
+Log in to your Microsoft Dynamics Account.
+Things to Note: For team admins, make sure that whatever account you login with is the same as the Dynamics Instance you gathered the four credentials.
+Enter your Microsoft Dynamics Login Password.
+Once you are connected, you will see the email address you are connected to on your CRM Settings page.
+Things to Note: If you do not get redirected  and instead get a Microsoft Error Page, this means either the 4 credentials you inputted under the CRM Sync Settings Tab were incorrect or the personal Microsoft Login you used is not a part of the same Dynamics Instance. Please check with a team administrator and try again.
+ 
+Imports from Dynamics
+Dynamics records can be imported into Salesloft using the Import to Salesloft button. This button is only available to Salesloft Dynamics users who have downloaded the Salesloft Chrome Extension. To learn more about the types of imports, check list the Salesloft Connect for Dynamics article. 
+
+Alternatively, if you do not download the Chrome extension, you can import Leads or Contacts from Dynamics into Salesloft by exporting the records from Dynamics and then import them into Salesloft in a CSV file. Follow these steps:
+Go to your Lead or Contact list in Dynamics.
+In the upper right corner, click the three vertical dots to open the dropdown options menu.
+Select Export to Excel. The file will download. Click the file to open it in Excel.
+From Excel, save the file as a CSV.
+Now, open Salesloft and follow the steps listed to Import People from a CSV.
+ 
+View in Microsoft Dynamics
+When People are imported into Salesloft using the same email address that is found in their Dynamics record, the two records link together. The same happens for Accounts based on their web domain.
+
+When this linking occurs, activities can be logged to the record and fields can be updated (based on your field configuration settings).
+
+You can also open a Person’s Lead or Contact record in Dynamics from their Salesloft Person Profile Page. In the Person Information Panel, you will see different icons. These icons are actually links to connected integrations.
+
+If you go to a Person’s Profile Page or an Account Profile Page and see the Dynamics icon below the Person/Account Information (aka their name), click the Dynamics icon to open the record in Dynamics in another window.
+Last Modified By
+Stephanie Griffith, 7/5/2022 8:46 PM
+Title
+Dynamics User Guide
+URL Name
+Dynamics-User-Guide
+Salesloft Knowledge
+CRM
+Dynamics
+Dynamics User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

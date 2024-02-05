@@ -1,0 +1,68 @@
+CADENCES + TASKS
+Copy Salesloft Content
+
+Apr 7, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Sometimes the strongest material may come from another member of your team. That’s why Salesloft allows you to copy objects like Cadences, Templates, and Snippets for your own use.  
+
+Things to Note: Users require specific permissions to change the snippet owner. 
+
+In this article, you will learn about copying materials, including: 
+Copy a Cadence
+Copy Templates and Snippets
+Copy Best Practices
+SLU: Copying Templates and Cadences (Video)
+Copy a Cadence
+Personal Cadences (non-Team Cadences) can only be run by the Cadence's owner. If you know a teammate has had success with a particular Cadence, you can copy it and use that Cadence yourself.
+
+Copying a Cadence will copy all of the steps including email templates, but will not copy any of the People in the Cadence. (You'll have to add People to the Cadence yourself.)
+
+Things to Note: Are you an admin? You can see and copy all of your teammates' Cadences including the private ones! You can also copy Cadences to a different member of your team.
+
+To copy a Cadence, follow the steps below:
+Find the Cadence you would like to copy and select the down arrow to the right of the Cadence Name. This will open the Cadence Page Actions. 
+Name the new Cadence. Copied cadences will have the name of the original cadence followed by a dash and "Copy" (example: Cadence 1 - Copy).
+(Optional) Admins and users with the Manage Cadence Ownership permission can select a Salesloft user who will own this cadence. The owner will be able to add People and execute actions. 
+Hit Save Copy.
+Confirm you want to copy the Cadence. The Cadence is copied! Now you can adjust any settings of the Cadence, add People, and run the Cadence yourself. 
+ 
+Copy Templates and Snippets
+To copy a template follow these steps:
+Filter & sort to find the type of content you would like to copy.
+Select the template(s) you wish to copy. For Snippets, actions will appear at the top of the table. 
+Select More. 
+Click the Copy icon. A Copy window will appear.
+Confirm you wish to copy the content by clicking Copy.
+The copy will appear in your list view. Copied templates will have the name of the original template followed by a dash and "Copy" (example: “Intro email - Copy”). You can edit the name after the content has been copied. 
+You may need to refresh the Snippets page to see the new snippet.
+Copied templates will appear "locked" or private meaning it cannot be shared. If you want the template to only be used by you, keep it locked. Otherwise, share the template.
+ 
+Copy Best Practices
+Let’s say that you filter & sort to view the templates of everyone on your team. From there you can take a look at the metrics and gather which template has performed the best with prospects. While some people may advise you to draft a similar template, we say you don’t need to reinvent the wheel.
+
+By copying the template, you can leverage the same draft, edit it to match your tone of voice or add any personal touches, and send the template in your own Cadences.
+SLU: Copying Templates and Cadences (Video)
+Want to know how to copy a template, but prefer a video format? Visit Salesloft University to see the Copying Templates and Cadences video tutorial.  
+
+
+ 
+Last Modified By
+Stephanie Griffith, 4/7/2023 8:06 PM
+Title
+Copy Salesloft Content
+URL Name
+Copy-Salesloft-Content
+Email Guides
+Email
+Cadences + Tasks
+Manage A Cadence
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

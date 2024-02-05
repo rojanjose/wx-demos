@@ -1,0 +1,113 @@
+DEALS
+Deals Analytics Overview: Two Sentence Summary Tile
+
+Aug 1, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+At the top of the Deals Analytics Overview, the Two Sentence Summary Tile provides an intro summary that lets you know where your sales projections are for a given time period. Specifically, this tile says whether you are on target to hit your quota for a given goal period.
+
+ 
+
+At a quick glance, the Two Sentence Summary Tile will help reps and managers understand:
+
+How is the rep performing?
+Are they above or below their goal?
+What can they do to get back on track?
+
+ 
+
+In this article, you will learn about the information provided within the Tile, including:
+
+Inside the Two Sentence Summary Tile
+Two Sentence Summary Tile Metrics
+Two Sentence Summary Tile Variations
+
+ 
+
+Inside the Two Sentence Summary Tile
+
+In the Two Sentence Summary, Salesloft projects how much you are expected to close in a given goal period.
+
+ 
+
+The projection, as well as any recommendations, are based on both personal and group average win rate and deal size.
+
+
+
+
+You can hover over the tooltip to view the values along with an explanation of how Saleslofts calculates these values.
+
+ 
+ 
+Two Sentence Summary Tile Metrics
+
+Let's walk through each piece of the Two Sentence Summary Tile and what it means:
+
+ 
+Object	Definition
+Tile Name	Two-Sentence Summary
+Bold Numbers	Goals, percentages, dollar amounts, and time periods
+Hover state	When a user hovers over the tooltip, it explains how the value is calculated.
+First Sentence - Projection	Salesloft projects what a rep is expected to close in a given goal period. The projection, as well as any recommendations, are based on both a user's personal and group average win rate and deal size.
+Second Sentence - Projected Difference	The monetary gap between the rep's goal and the projection
+Goal	The goal set for the rep by the admin
+
+ 
+
+Two Sentence Summary Tile Variations
+
+Based on your Goal Management admin settings, these summary sentences could appear in a variety of ways. Below are the different variations for how these sentences may appear:
+
+ 
+
+Variation	Images
+
+
+If a rep is projected under their goal
+
+	 
+
+
+If a rep is projected over their goal
+
+	
+
+
+If a rep surpassed their goal
+
+	
+
+
+ If goal has not been set for the rep.
+
+	
+
+
+Missing Goal + Insufficient Data for Projecting
+
+	
+
+
+Insufficient Data for Projecting and Goal Set
+
+	
+ 
+ 
+Last Modified By
+Briana Morgan, 8/1/2023 5:27 PM
+Title
+Deals Analytics Overview: Two Sentence Summary Tile
+URL Name
+Two-Sentence-Summary-Tile
+Deals
+Salesloft Knowledge
+Deals Analytics
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

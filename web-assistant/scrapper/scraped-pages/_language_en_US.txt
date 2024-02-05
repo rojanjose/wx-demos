@@ -1,0 +1,73 @@
+Language
+English
+Getting Started
+
+Get introduced to Salesloft through these setup guides.
+
+User Guides
+
+Learn about the features that are available to all users.
+
+Admin Guides
+
+Manage team-wide settings, including billing, automation, Dialer setup, and more.
+
+Rhythm
+
+Run Cadences, Tasks, and suggested actions based on your prioritized workflow.
+
+Cadences + Tasks
+
+Create your ideal sales workflow, then run Cadence steps or Tasks to achieve your goals.
+
+People and Accounts
+
+Import records into Salesloft and manage your engagement with each Person and Account.
+
+Dialer + Messenger
+
+Learn how to use the Salesloft Dialer in-app and from your web browser.
+
+Email
+
+Build and send emails from Salesloft using Templates, Snippets, or personalized, one-off messages.
+
+Salesloft Mobile
+
+Take Salesloft on the go.
+
+Deals
+
+Track Pipelines and evaluate Deals so you can act upon Opportunities with greater success.
+
+Forecast
+
+Generate an accurate sales forecast that can be leveraged across your entire organization.
+
+Coaching
+
+Make the most of 1:1s by having meaningful, data-driven coaching conversations between managers and reps.
+
+Conversations
+
+Analyze recordings using Conversation Intelligence.
+
+CRM
+
+Connect to your CRM and sync your Salesloft data.
+
+Analytics + Reporting
+
+Get performance stats on your personal and team-wide Salesloft activity.
+
+Integrations
+
+Expand your sales engagement by integrating Salesloft with other applications.
+
+Contact Support
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension

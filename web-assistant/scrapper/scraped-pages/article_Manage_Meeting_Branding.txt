@@ -1,0 +1,62 @@
+ADMIN GUIDES
+Manage Meeting Branding
+
+Oct 1, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+While your team's meeting invites may be "Powered by Salesloft," using your own name and logo gives your invites the a genuine look that your customers trust. This is where custom meeting branding can help.
+
+Branding your team's meetings means you get to customize the appearance of the calendar page when your team sends out a link. The branding components apply to the calendar page where prospects and customers can select and confirm meeting dates.
+
+To manage your customer branding, go to the Team Meetings Settings. Then, select the Branding tab.
+
+In this article, we will take a look at the different steps to set up your team's branding in your meeting invites, including: 
+Enable Company Branding
+Upload a Logo
+Set the Background
+Edit Team Name
+Enable Company Branding
+Enabling branding is the first step in team-wide meeting branding. By toggling the feature on (so the button is blue), the specific logo and branding you set will apply to your team's meeting invites.
+
+If you set a team-branded appearance but do not enable company branding, the meeting invite will appear as the default Salesloft option.
+Upload a Logo
+Your company logo is the image that most people associate with your brand. So adding it to any customer-facing communication verifies what you send.
+
+Things to Note: Uploaded images must fit the following formatting guidelines: 
+File size limit: 2 MB
+Supported format: PNG
+To upload an image that will be used as your logo, follow these steps:
+Go to the Meetings Settings, listed under the Communication section. Under the Branding tab, go to the Upload Logo section.
+Select the logo image from your desktop or file on your computer.
+Drag the image into the Upload Logo section. 
+Hit Save.
+The logo box will act as the preview for whatever logo and branding you set. Below the box you can make changes to the logo, including:
+Upload a New Logo: Change the existing logo by finding the file where your image is located.
+Remove: Deletes the existing logo.
+ 
+Set the Background
+Your background coloring determines the look behind your uploaded logo. Click through the different background options to preview how your logo will look.
+
+Once you select your preferred background, hit Save.
+Edit Team Name
+When customers select a meeting, they will see the logo first and foremost. Your team name is also in the description. By default, the team name will be whatever name you have assigned your Salesloft team in your General Settings.
+
+If you would like prospects and customers to see the company name only, you can edit the team name in the text box. Once the name is edited, hit Save.
+After your branding is saved, anyone accepting a meeting invite when you send a calendar link will see the branding laid out with all of your specifications.
+Last Modified By
+Stephanie Griffith, 10/1/2021 11:27 AM
+Title
+Manage Meeting Branding
+URL Name
+Manage-Meeting-Branding
+Salesloft Knowledge
+Admin Guides
+Communication Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

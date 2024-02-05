@@ -1,0 +1,38 @@
+USER GUIDES
+SALESLOFT CONNECT
+Does Salesloft Support Other Web Browsers?
+
+Aug 3, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+There are many choices of internet browsers floating around. Google Chrome, Microsoft Edge, Firefox, Opera, and Safari typically compete for top billing. With the variety of options, it's natural that each person would have their preference for one browser over the others. 
+
+ 
+
+Salesloft's recommends Google Chrome as our preferred web browser for two primary reasons: 
+
+Our Extension – SalesLoft Connect V2 – is specifically developed for Chrome, meaning it is only available for download inside of Google Chrome. 
+
+We specifically develop, test, and support on Google Chrome.
+
+Each browser handles code in slightly different ways. While you may be able to navigate to the app using Safari or Firefox, we cannot guarantee the same experience and support you will have inside of Chrome. 
+
+Last Modified By
+Raequel Sank, 8/3/2023 3:01 PM
+Title
+Does Salesloft Support Other Web Browsers?
+URL Name
+Does-Salesloft-Support-Other-Web-Browsers
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+User Guides FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

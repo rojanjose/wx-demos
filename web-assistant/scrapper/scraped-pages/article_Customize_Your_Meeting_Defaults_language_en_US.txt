@@ -1,0 +1,50 @@
+USER GUIDES
+MEETINGS/CALENDAR
+Customize Your Meeting Defaults
+
+Dec 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+One of the most important steps when booking a meeting is filling out the meeting invite. Meeting invites contains all details that prospects and stakeholders need to know before the meeting. 
+
+ 
+
+When you book meetings through Salesloft, you can use meeting defaults to book more efficiently. Meetings Defaults are standard meeting invites that will appear by default when you book meetings through Salesloft. You can edit and customize meeting defaults to your preference.
+
+ 
+
+ 
+
+To access and customize your meeting defaults, follow these steps:
+
+Navigate to your Personal Calendar Settings.
+Select the Meetings Setup tab.
+Click Edit in the Meeting Defaults tile. This will open the Edit Meeting Defaults page.
+From the Edit Meeting Defaults page, enter the following:
+Title: Default title of the meeting. You can choose to type the meeting title or add a dynamic tag. 
+Location Field: Add your default video conferencing link or a custom location link
+Things to Note: If you enabled the Google Meet Integration or the Microsoft Teams Integration, a Video Conferencing field will appear and include your default meeting link. In this case, you can skip the Location field.
+(optional) Description: Describe what the meeting will entail. You can include your meeting room code or a link from a third-party video conferencing platform.
+Meeting Duration: Length of the meeting in minutes.
+Hit Save.
+
+ 
+
+Last Modified By
+Raequel Sank, 12/13/2023 4:02 PM
+Title
+Customize Your Meeting Defaults
+URL Name
+Customize-Your-Meeting-Defaults
+Salesloft Knowledge
+Meetings/Calendar
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

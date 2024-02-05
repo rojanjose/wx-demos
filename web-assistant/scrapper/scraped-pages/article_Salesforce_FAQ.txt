@@ -1,0 +1,81 @@
+CRM
+Salesforce FAQ
+
+Aug 16, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+In this article, you will find the answers to some of the most commonly asked questions about Salesloft's integration with Salesforce, including:
+How Does Salesloft Link Accounts in Salesforce?
+Automatic Unlink When Record Deleted in Salesforce
+Preparing for Salesforce My Domain or an Instance Refresh (URL change)
+I am migrating to a new or different Salesforce Org, what should I do?
+Can we map Task Subtype as an Activity Field?
+ 
+How Does Salesloft Link Accounts in Salesforce?
+When you import an Account from Salesforce into Salesloft, the Salesforce and Salesloft records will be linked according to your team's Account Management Settings. 
+
+If an Account exists in Salesloft, but the behavior changes on the Salesforce side of things, Accounts will be linked according to the following rules:
+When a Lead is converted to a Contact in Salesforce: The Account in Salesloft will automatically link to the Contact's Account in Salesforce.
+When the Account of a Contact is changed: The Person will be updated and tied to the correct Account in Salesloft to mirror the new Account association in Salesforce.
+ 
+Automatic Unlink When Record Deleted in Salesforce
+When a Contact, Lead, Opportunity, or Account record is deleted in Salesforce, Salesloft will automatically unlink it.
+
+If such an event occurs, an "Unlink" Sync Log type will be shown reflecting this record change.
+
+Things to Note:
+Salesforce has an auto-delete mechanism that should inform Salesloft of any associated objects that were also deleted. Meaning, if Contacts in Salesforce are deleted when their Account is deleted, we will unlink the Account in Salesloft, and the People associated with that record as well.
+Though unlikely, if for some reason Salesforce does not auto-delete these Contacts, their associated People in Salesloft will not be unlinked.
+ 
+Preparing for Salesforce My Domain or an Instance Refresh (URL change)
+
+IMPORTANT NOTE: If you are migrating to a different Salesforce Org all together, this means that all Salesforce record IDs will change. For Salesforce Org migrations, please submit a ticket to Salesloft Customer Success or reach out to your Customer Success Manager to discuss your options for migrating to a new Salesforce Org and the implications on your Salesloft Team.
+
+Instance Refresh:
+
+If you do not have My Domain enabled in Salesforce and your Salesforce Org has an upcoming instance refresh, your Salesforce URL structure will be updated to a new instance (example: na3.salesforce.com changes to na13.salesforce.com). This means that any preexisting Salesforce connections to Leads, Contacts, Accounts, etc.will result in broken links due to the new instance and URL structure.
+
+Enabling My Domain:
+
+When enabling My Domain in your Salesforce instance, your Salesforce URL updates to a new web address (example: na12.salesforce.com changes to my.domain.salesforce.com). This means that any preexisting Salesforce connections to Leads, Contacts, Accounts, etc., will result in broken links.
+
+Preparing for an instance refresh or enabling My Domain:
+
+To prevent broken links that may occur with an instance refresh or by enabling My Domain in Salesforce, reach out to our Customer Success team. Provide the time when you would like us to update the Salesforce data along with your new URL link. For example, your former URL may have been na12.salesforce.com and you are moving to my.domain.salesforce.com.
+
+After you've successfully enabled My Domain in Salesforce, it is important to update and test your Salesforce connection.
+
+Disconnect your Salesforce Sync Main Connector from previous CRM and reestablish connection with the new instance.
+Have each individual user disconnect from previous CRM and reconnect to new CRM (new SFDC instance).
+Import Leads/Contacts.
+Assess your Sync Logs for success/failures and reach out to Support if you see any failures.
+ 
+I Am Migrating to a New or Different Salesforce Org, What Should I Do?
+If you are migrating to a brand new or different Salesforce Org, this means that all Salesforce record IDs will change as well as your Salesforce URL structure.
+
+For Salesforce Org migrations, the Salesforce Record ID and Salesforce URL must be updated for any Salesloft record that is currently syncing with a record in Salesforce.
+
+To prepare for your upcoming Salesforce Org migration, please submit a ticket to Salesloft Customer Success or reach out to your Customer Success Manager to discuss your options for migrating to a new Salesforce Org and the implications on your Salesloft Team.
+Can we map Task Subtype as an Activity Field?
+Yes, you can map Salesforce Activity Logging: Task Subtype.
+
+To learn how to map Task Subtype for your team, check out Mapping Task Subtype in the Activity Field Configuration article.
+ 
+Last Modified By
+Briana Morgan, 8/16/2022 3:22 PM
+Title
+Salesforce FAQ
+URL Name
+Salesforce-FAQ
+Salesloft Knowledge
+Salesforce
+CRM
+Salesforce User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

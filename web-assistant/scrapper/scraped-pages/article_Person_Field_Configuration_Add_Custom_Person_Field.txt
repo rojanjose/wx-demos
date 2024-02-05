@@ -1,0 +1,196 @@
+ADMIN GUIDES
+Person Field Configuration
+
+Jun 6, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Lead or Contact data aligns to the Salesloft Person fields. The Lead or Contact data transfers to and from Salesloft during an import from your CRM into Salesloft and during a sync update. But before any of these data transfers can take place, the Salesloft Person fields need to be mapped to the appropriate CRM Lead or Contact fields.
+
+Any Salesloft admin or user with field configuration permissions can complete the Person field configuration. To access the Person field configuration, select your name in the upper right corner of Salesloft and click Team Settings. Once you're inside the setting page, select the Field Configuration Settings found under the Data Settings. 
+
+You will complete your Person field configuration from the Person Fields tab. Here you can edit field mapping preferences and add custom fields to map to default fields and CRM fields that do not exist in Salesloft.
+
+Each Person field has CRM Lead and Salesforce Contact columns. After you map fields, the CRM column will show the CRM field API name, field type, and sync direction that was selected for the mapped Salesloft field.
+ 
+
+In this article, you will learn all about Person field configuration between Salesloft and your CRM, including:
+Person Field Mapping
+Most Recent Cadence Fields
+Do Not Message Fields
+CRM Person ID
+Add a Custom Person Field
+Set Up Custom Picklist Values for Person Fields
+Edit Person Field Layout
+Object Settings
+SLU: Person Field Mapping (Video)
+Psst, new to Salesloft and want to make mapping easier? Start by Auto-Mapping Standard Salesforce Fields or Auto-Mapping Standard Dynamics Fields!
+Person Field Mapping
+Now the real fun begins. Let’s map those fields!
+
+Things to Note: Don't know which fields to map? Check out our Recommended Salesforce Fields or Recommended Dynamics Fields guide for ideas to get started. 
+
+Person and Account field mapping uses the same process with a slightly different layout. 
+
+Follow the instructions below to map your fields. For this example, we will map the First Name Person field:
+Connect Salesloft to your CRM Main Connector account or a Salesforce Sandbox. 
+Navigate to Field Configuration Settings under your Team Settings.
+Under the Person Fields tab, scroll down the list of Salesloft Person Field Names and find the First Name. If you cannot find the field name in your list, you will need to create a custom field.
+Click the ellipses on the First Name line
+From the dropdown menu, select Edit Field.
+Under CRM Lead, check the Map to CRM Lead box.
+Select the CRM Lead Field Name. Once the Field Name is selected, the CRM Lead API Name and Field Type will auto populate.
+From the dropdown menu, select your preferred mapping Direction.
+Under CRM Contact, check the Map to CRM Contact box.
+Select the CRM Contact Field Name. Once the Field Name is selected, the CRM Contact API Name and Field Type will auto populate.
+From the dropdown menu, select your preferred mapping Direction.
+Click Save. 
+Repeat steps 4-12 for any additional fields you’d like to map, selecting the CRM field and the sync direction for each.
+ 
+Most Recent Cadence Fields
+The Salesloft person fields contain six Cadence-specific fields. Mapping these fields allows your team to view Salesloft Cadence information inside of your CRM. Based on this data, managers can use their CRM to report on the Cadence activities of each team member.
+
+Salesloft Tip: The most recent Cadence-specific field data is not displayed on the Person record in Salesloft.
+
+To map these fields, you or a CRM Admin will need to modify or create* custom fields in your CRM. For example, you may want to create a "Cadence ID" field on the lead record that will map to the Most Recent Cadence - Cadence ID Salesloft field.
+
+The Cadence fields map to the following field types:
+Most Recent Cadence - Cadence ID: text field
+Most Recent Cadence - Cadence Name: text field
+Most Recent Cadence - Last Completed Step: number field
+Most Recent Cadence - Next Step: number field
+Most Recent Cadence - Next Step Due Date: date field
+Most Recent Cadence - Next Step Name: text field
+* Things to Note: The Insight from Salesloft dashboard package creates certain fields in your Salesforce instance for you. If your team downloads Insight from Salesloft, you will not need to create the following Most Recent Cadence fields:
+Cadence Name
+Last Completed Steps
+Next Step Due Date
+After your field mapping is complete, these fields will update when:
+A person is added to a Cadence
+A person is removed from a Cadence
+A step in a Cadence is completed on a person
+A person completes all steps in a Cadence
+Things to Note: When a person is removed from a Cadence or completes a Cadence, the following field values will be cleared out automatically:
+Most Recent Cadence - Next Step
+Most Recent Cadence - Next Step Due Date
+Most Recent Cadence - Next Step Name  
+Do Not Message Fields
+Contact Restrictions include "Do Not Message" options available from Salesloft. By syncing these contact restrictions with fields in your CRM, you ensure that your CRM remains your source of truth.
+
+This is why Salesloft has included Do No Message Field on the Person level in your Salesloft Field Configuration. The fields include the following options:
+Do Not Call
+Do Not Contact
+Do Not Email
+Do Not Message
+If you're curious why you may want to use a specific contact restriction, versus a general "Do Not Contact," allow us to provide a use case for restricting text messaging. Texting is heavily regulated and is opt-in only. If a Person opts out of a text message, you may still email them or call them, but messaging will be disabled with Salesloft's Do Not Message contact restriction.
+CRM Person ID
+To pull a report of all of the People records that are not connected to your CRM, you can map the Lead and Contact IDs to a Salesloft field. Use the following chart to map the field(s):
+Person Field Name	CRM Lead Field Name	CRM Contact Field Name	Field Type	Description
+SFDC Person ID	Lead ID	Contact ID	ID	CRM's unique identifier for Leads and Contacts. Configuring this field with Salesloft can be helpful when exporting, manipulating data, and determining which records have a linked record in your CRM. Lead ID's start with "OOQ", Contact ID's start with "003".
+ 
+Add a Custom Person Field
+The standardized, "out-of-the-box" field names that exist for all Salesloft teams are known as default fields. However, we at Salesloft know that your team's use case may go beyond our default field names. So, Salesloft allows team admins to create their own custom fields in order to map and display record data. 
+
+You can create custom fields for each Lead or Contact field and set them to be mapped to and from Salesforce.
+
+Things to Note: Any custom fields that are created can be used as dynamic fields.
+
+To create a custom field, follow the instructions listed below:
+Navigate to the right side of your screen, and click the + Add Custom Field button.
+The Create Custom Field box will appear. Fill in the name of your custom field in the Salesloft Field Name text box.
+Things to Note: To create a custom field in Salesloft, the name must meet the following criteria:
+Field only accepts use A-Z characters, dashes, underscores, and numbers 0-9
+Name cannot start with a dash, underscore, or digit (must start with letter)
+Select the Salesloft Field Type from the dropdown menu. You may select one of the following options:
+Date: Adds a date picker field on the Salesloft Person. This means you can select a calendar date when updating the Salesloft field. If the field is mapped to Salesforce, it can be mapped to similar date fields (aka date fields that mimic the date format mm/dd/yyyy).
+Text: Add a text field to update Person information. If the field is mapped to Salesforce, whatever information that is entered in the text field will update to your CRM.
+Things to Note: If the update in the text field does not match the same format as the Salesforce field requirements, Salesforce Sync errors may occur. You can learn more about possible sync errors in our Salesforce Troubleshooting Guide.
+Select the Active Picklist Options.
+Things to Note: At least one value must be active.
+Select your preference for CRM Lead by checking the box next to Map to CRM Lead.
+Pick your CRM Lead Field Name. Once the Field Name is selected, the CRM API Name and Field Type will auto populate.
+Select your preferred Mapping Direction.
+Click Save.
+Once you have added the custom field, the field will appear in the Person fields list with an asterisk next to the field name.
+
+ 
+Set Up Custom Picklist Values for Person Fields
+Custom field pick list on a Person allow users to select from a list of picklist options in Salesloft that have the same options as their CRM. Pick lists let reps easily edit information about a Person. Having these type of fields available also grants managers and admins confidence that your reps are updating information accurately.
+
+Things to Note:
+Admins, please make sure when you are mapping to a pick list field in your CRM that the options are the same in both systems. Otherwise, you will see sync errors related to the pick lists being out of sync.
+You are able to utilize any custom picklist fields in an Automation Rule in the Criteria or Action fields. In order to utilize records to contain no value/-None-, you can select "Is Null" for the operation.
+To learn more about picklist, check out our Create a Picklist article. 
+Edit Person Field Layout
+The Person Details panel found on the Person Profile Page includes fields that contain data in the Salesloft default order. Fields that do not contain data are separated by the Blank Fields section.
+
+The Field Layout option allows you to set the order and visibility of fields inside the Person Details. By customizing where fields appear in the Person Details on the Person’s Profile page, your team will be able to view the most important information all in one panel.
+ 
+To reorder fields,  go to your Team Settings. Navigate to Field Configuration, select Person Fields, and then click Field Layout.
+ 
+
+In the Field Layout tab, you can view all fields and their numerical order in the Order column. Users have several options to change this order:
+Search for fields by name. This can help you quickly find a field that you would like to move to the top or last item in your list. 
+Drag and drop the field rows to automatically change the number in the Order column.
+Set the new field’s position manually by editing its number directly in the Order column.
+Only numbers in the current field range are available. For example, if there are five fields, users cannot set a value greater than 5 and less than 1.
+Use the action menu, which is available on the right end of every row:
+Move to Top/Move to Bottom shifts the row to the first/last position in the list.
+Move Up/Move Down shifts the row by one position up or down respectively.
+ 
+
+You can manage which fields are visible via toggle. By default, all custom fields are visible. If you do not wish to see a field, turn the toggle off. 
+
+Things to Note:
+Salesloft standard fields are always visible, and the toggle for them is always set to the on position and disabled.
+If you do not wish to view a standard field, reorder the field list so the field is listed towards the bottom of the details. 
+Changing field visibility does not affect the order number. It hides the picked field from the UI in the Person details and Account Details tiles.
+ 
+
+Let's say your team relies on a Phone field. You can take the following steps to reorder the field and set the visibility:
+As an admin, go to your Field Configuration Settings. In the Person Fields tab, select Field Layout.
+Search or scroll to find the Phone field you would like to move. 
+Pick the order of the field by grabbing the field on the left hand side, or entering a number in the Order box.
+To save all changes made on the Field Layout tab, hit Publish. The new layout will be saved and applied for all team members. To restore the default field order, tap Reset Layout.
+ 
+
+Once your Person Field Layout has been changed, you can confirm the new layout on any Person Profile Page. 
+
+Things to Note: Since you have ordered and selected the exact fields your team will view, users will see all field types as configured in the Field Layout. After you publish a field layout, users will no longer see the options to View or Hide Blank fields option on the Person Profile Page.
+
+ 
+  
+Object Settings
+The Object Settings tab is where you can manage your team's Data Enrichment setting. 
+
+To enable Data Enrichment for your team, follow these steps:
+Navigate to Field Configuration Settings under your Team Settings.
+Select Person Fields, then Object Settings. 
+Click Edit in the Data Enrichment tile. 
+Select Blank: Data for person fields will only be updated if there is no existing value.
+Hit Save. 
+Alternatively, you can disable Data Enrichment by following steps 1-3 listed about and selecting Disabled. The settings will be updated and the display will show Enrichment Disabled. When Data Enrichment is disabled, data for Person fields will not be enriched.
+
+
+SLU: Person Field Mapping (Video)
+Want to know about Person field mapping, but prefer a video format? Visit Salesloft University to see the Person Field Mapping video tutorial.
+ 
+ 
+Last Modified By
+Stephanie Griffith, 6/6/2023 9:40 PM
+Title
+Person Field Configuration
+URL Name
+Person-Field-Configuration
+Salesloft Knowledge
+Admin Guides
+CRM
+CRM Essentials
+Field Configuration
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

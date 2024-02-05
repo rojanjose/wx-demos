@@ -1,0 +1,96 @@
+FORECAST
+Submit Multiple Forecasts
+
+Mar 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft’s Multiple Forecasts feature allows you to submit up to three forecasts for the current month, the current quarter, the next month, and the next quarter.
+
+Submitting multiple forecasts shows how different scenarios and risks might affect your team’s monthly or quarterly results.
+
+Before you and your team can submit multiple forecasts in Salesloft, an admin must configure the following Deals Forecast settings:
+Forecast Types: The names of each forecast your team will use; ex: Forecast and Stretch Forecast.
+Applied Timelines: The timeframes for submission that your team will be working against.
+Once an admin configures the Forecast Type and Applied Timeline criteria, your team can begin submitting multiple forecasts. These multiple submissions will allow your team to envision how given scenarios will play out for the current month or the current quarter. With these results in mind, your team can determine how to tailor your approach moving forward.
+
+Things to Note: Only admins can access Forecast settings in Deals. If you need to edit your Forecast settings, please reach out to an admin for help.
+
+In this article, we’ll cover everything related to Multiple Submissions, including:
+Set Forecast Type and Forecast Timeframe Criteria (Admins Only)
+Add a Forecast Type
+Submitting Multiple Forecasts
+Set Forecast Type and Forecast Timeframe Criteria (Admins only)
+In Salesloft, you can set your Forecast Type to select how many Forecast numbers your team will submit. You can also choose which timeframes your team will Forecast against, also known as your Applied Timelines.
+
+When editing Forecast Types, you will be limited to three Forecast Type options. Your team will already have Forecast and High Forecast enabled by default, and you can keep, remove, or edit these values. You can also create new Forecast Types. These types will be available on each of the active Applied Timelines.
+
+Below the Edit Forecast Type section, you’ll see options for your Applied Timelines. By default, the boxes next to Submission for the Current Month and Submission for the Current Quarter will be checked. You can also choose future timeframes to forecast on.
+
+To change your Applied Timelines:
+Click the box next to Submission for the Current Month or Submission for the Current Quarter to uncheck it and mark it as inactive.
+To enable future forecast submissions, click the box next to Submission for the Next Month and/or Submission for the Next Quarter.
+Click Save to keep your changes.
+Things to Note: You must select at least one timeframe to submit your Forecasts. For more information on Submitting Forecast Numbers, check out this article.
+
+To set Forecast Type and Forecast Timeframe criteria and enable multiple forecast submissions for your team, follow these steps:
+Navigate to Deals.
+Select Admin.
+Go to the General Settings tab.
+Inside the General Settings, select Deals Forecast.
+ 
+
+
+
+
+
+
+
+ 
+Add a Forecast Type
+To add a Forecast Type not included in the default options, do the following:
+Click the Add Forecast Type button outlined in green.
+Enter the name of your Forecast Type in the box below Forecast Type Name.
+If desired, toggle the switch for the new Forecast Type to be a Required Field.
+Click Save to implement your changes.
+ 
+
+
+
+ 
+ 
+Submitting Multiple Forecasts
+Once your admin has set the Forecast Type and Timeframe criteria, you and your team can begin submitting multiple forecasts. 
+
+In the Month Forecast tab, you can see the projected numbers for each Forecast Type. You can also make notes to inform future Forecasting efforts.
+
+ 
+
+ 
+Likewise, you can also view the Quarter Forecast tab. Again, you can make notes when submitting the forecast.
+ 
+
+Additionally, you can tab over to review the Next Month Forecast and the Next Quarter Forecast.
+ 
+
+
+
+
+Things to Note: If an admin deactivates either the Month or Quarter Forecast Timeframe, you will not see the inactive timeframe when submitting your forecast.
+ 
+Last Modified By
+Briana Morgan, 3/10/2023 6:34 PM
+Title
+Submit Multiple Forecasts
+URL Name
+Submit-Multiple-Forecasts
+Forecast
+Forecast Dashboard
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

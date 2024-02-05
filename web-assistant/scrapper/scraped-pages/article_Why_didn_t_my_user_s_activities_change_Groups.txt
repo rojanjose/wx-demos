@@ -1,0 +1,30 @@
+ANALYTICS + REPORTING
+Why didn’t my user's activities change Groups?
+
+Mar 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+A user's activity data is associated with the Group they are assigned to at the time the activity is performed. This keeps each Group's (or team's) metrics aligned for the chosen period.
+
+If/ When a user changes groups, their activity data will not be deleted. Data remains with the original group and user and does not move to the new group.
+
+If you would like to view analytics data across the groups a user has been assigned to, create a custom report using a combination of the Group, Date, and Display by filters. 
+
+For example, if a user was in Group A in March, but in Group B in April, you can choose a date filter for March and April to see this specific user’s data in both groups.  
+Last Modified By
+Stephanie Griffith, 3/28/2023 10:47 AM
+Title
+Why didn’t my user's activities change Groups?
+URL Name
+Why-didn-t-my-user-s-activities-change-Groups
+Analytics FAQ + Troubleshooting
+Analytics + Reporting
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

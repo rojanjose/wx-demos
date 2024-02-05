@@ -1,0 +1,131 @@
+GETTING STARTED
+Live Feed
+
+Feb 4, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft provides the best email tracking technology to deliver real-time alerts when your prospects interact with your emails, including opening the email, clicking a link, or replying. All of this valuable information is visible from your Live Feed. 
+
+The Live Feed are notifications within Salesloft that show events as they occur in real time. So if you send an email with open tracking enabled, a Live Feed event will appear if and each time a Person opens that email. 
+
+In this article, you will learn about your Live Feed, including: 
+Live Feed Events
+Live Feed from the Top Navigation Bar
+Live Feed Panel on the Home Dashboard
+View All Events
+Filter by Live Feed Options
+Filter Live Feed by Time Range
+Integrations in Live Feed
+Live Feed Events
+Your Live Feed events are the activities that will cause an item to appear in your Live Feed.  
+
+When a Live Feed event is registered, the event itself will contain some details about what has been tracked. The following information may display within the event details: 
+
+Things to Note: The event details will only contain information that exists in Salesloft. 
+Event Icon
+Person's Name
+Person's Role
+Account Name
+Event
+Email
+Number of Times
+Cadence Name
+
+Use the following chart to learn each type of event: 
+ 
+Event Icon	 Event	Definition
+ 	Clicked	A link in an email was clicked
+ 	Failed to send	An email failed to send
+ 	Replied to	An email was replied to
+ 	Opened	An email was opened
+	Booked Meeting	The Person booked a meeting from a link sent from a Salesloft user.
+	Hot Lead	The Person became a Hot Lead
+	Live Website Tracking	The Person is visiting your website
+When someone opens or clicks email with multiple recipients due to CC or BCC, Salesloft will show number of additional people who may potentially perform an action. This information will be shown in the Chrome pop-up notification and on the Live Feed.
+
+Things to Note: Salesloft cannot identify who exactly viewed or clicked the email. For more information, see How Are Opens, Clicks, and Replies Tracked?  in the Email FAQ. 
+
+On the Live Feed, click the link with the number of people to see list of recipients included in the email.
+Live Feed from the Top Navigation Bar
+The Live Feed icon (that looks like a heartbeat monitor) notifies you when a Live Feed event has occurred. Located in the top navigation bar, the icon is visible while you are on any other page within the Salesloft platform.
+
+Any time someone interacts with a Live Feed event, a red dot will appear on the Live Feed icon. The number of events that have taken place will be displayed in the middle of the red dot. 
+
+Click the Live Feed icon to see a dropdown menu full of Live Feed events. You can see the entire history of your Live Feed by scrolling to the bottom of the dropdown and clicking View All Events. You will be taken to a dedicated Live Feed page. 
+Live Feed Panel on the Home Dashboard
+The Live Feed is visible on your dashboard. This view gives you insight into the activity that's occurred with your emails as soon as you log into the Salesloft platform. 
+
+Scroll through the panel to see a history of events that have occurred. 
+
+You can see the entire history of your Live Feed by clicking View All at the bottom of your feed in the dashboard. This will take you to the dedicated Live Feed page where you can view all of the events. 
+ 
+View All Events
+Viewing all of your Live Feed events takes you to your dedicated Live Feed page. Here you can see a complete list of activity that has been tracked within your Live Feed. 
+ 
+Filter by Live Feed Options
+The dedicated Live Feed page shows all of the Live Feed events that have taken place. The page also allows you to filter the list by certain or select events. 
+
+The Filter By options contain the following: 
+Clicks
+Send Failures
+Replies
+Opens
+Hot Leads
+Voicemail
+Meetings
+Integrations
+To filter your Live Feed events list, select a filter option. The filter option will turn green when the filter is on. You may select multiple filters at one time to see more events. 
+
+Things to Note:
+If none of the filters are selected, you will see all of the Live Feed events by default.
+If there has been zero activity for an individual filter, you will see an empty state message for "No activity yet."
+Filter Live Feed by Time Range
+You can filter on the dedicated Live Feed based on the time range. The Time Range filter defaults to "All Time," which means it will show your entire Live Feed history.
+
+When you filter by time range, you can view different segments of Live Feed information for a set period of time. The Time Range options include:
+All Time (default)
+24 Hours
+7 Days
+30 Days
+To edit the Live Feed time range, follow these steps: 
+Access the Live Feed from the top nav or home dashboard. 
+From the designated Live Feed page, click the Time Range dropdown menu. 
+Select your desired Time Range. The events will filter to the select range.  
+Integrations in Live Feed
+Integrations in your Live Feed events show real-time updates from partners inside of Salesloft, minimizing your time switching between applications.
+
+Things to Note:
+Only notifications built by integration partners will appear in the Live Feed. To inquire about the ability to view an integration in the Live Feed, please reach out to the integration partner.
+If you are an integration partner looking to create a Live Feed notification, you can build notifications for your Salesloft integration. Check out the documentation for more information. 
+Information that can be provided to Salesloft for a notification includes:
+Person Name
+Company
+Text String (will appear as the notification)
+URL link
+
+Notifications will appear in the Live Feed amongst the existing event types.
+
+Once an integration is enabled, you can filter your live feed by the integration.
+
+To filter by a specific integration, follow these steps: 
+Access the Live Feed. 
+To the right of the Filter By options, select Integrations. A dropdown menu will appear. 
+Find the integration you want to see in the dropdown menu. Select the toggle next to that integration. When a toggle is blue, that integration will appear in the filtered list. 
+Last Modified By
+Stephanie Griffith, 2/4/2022 2:48 PM
+Title
+Live Feed
+URL Name
+Live-Feed
+Salesloft Knowledge
+Getting Started
+Salesloft Homepage
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

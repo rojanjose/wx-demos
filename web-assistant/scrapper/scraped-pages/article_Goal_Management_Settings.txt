@@ -1,0 +1,45 @@
+DEALS
+Goal Management Settings
+
+Oct 4, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Goal Management settings lets you choose team-wide goal periods and specific rep goals. These goals will impact the displays and data shown on the Deals Summary Dashboard.  
+
+You can set the Goal Management from the Goal Management tab in your Deals Admin Page under the Screen Settings Tab. 
+
+In this article, you will learn about setting up Goal Management, including: 
+Edit the Goal Period
+Set Up Your Goal Table
+Edit the Goal Period
+The Goal Period allows you to set goals or quota for the available time period. You can set goals for each of the following options:
+Monthly
+Quarterly
+Annually
+The timeframes within each goal period are based on your team's Salesforce setting which indicates their fiscal year. When set, the Goal Period will be applied to every user in your Salesloft team.
+
+
+
+Goals added to a given time period can be seen when you filter Deals by that time period. For example, if you look at your Deals Summary or Forecast pages by Month, the goals set in the Monthly Goal Period will appear. If you switch the filter to Quarter, you will see the goals you have configured for the Quarterly Goal Period.
+
+Things to Note: If a Goal is not defined for your team or a user in a given time period, goals will not appear when filtered by that same time period. 
+ 
+Set Up Your Goal Table
+The Goal Table is where you specify goals for individual reps. You can manually update and individual reps' goals for the current or future periods. Once a rep has a specified goal, the goal will update the rep's Deals Summary Dashboard to reflect that goal and their pipeline projections.  
+Last Modified By
+Stephanie Griffith, 10/4/2023 9:06 PM
+Title
+Goal Management Settings
+URL Name
+Goal-Management-Settings
+Deals
+Deals Admins
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

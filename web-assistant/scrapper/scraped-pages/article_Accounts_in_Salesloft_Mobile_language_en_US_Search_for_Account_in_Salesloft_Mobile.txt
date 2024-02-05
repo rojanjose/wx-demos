@@ -1,0 +1,59 @@
+SALESLOFT MOBILE
+Accounts in Salesloft Mobile
+
+Sep 28, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Your Salesloft Accounts are the businesses or companies you want to sell to and engage with throughout the sales process.
+
+Salesloft Mobile makes it easy to connect with and maintain Account records all from the device that's normally within reach. 
+
+In this article, you will learn about viewing and managing Account records in Salesloft Mobile, including:
+Search for an Account in Salesloft Mobile
+Clicking on the Account Name from a Mobile Person Page
+View an Account Profile Page in Salesloft Mobile
+Account Actions in Salesloft Mobile
+Search for an Account in Salesloft Mobile
+The Search function in Salesloft Mobile looks up any existing Salesloft Accounts. Once you search and find an Account, you can view their Account page.
+
+Accounts and People will show up as potential search items when you type in your search. 
+ 
+Click the Account Name from a Mobile Person Page
+People in Salesloft are often linked to the Account just like a contact belongs to a certain company. If an Account exists in Salesloft, you can access the Account page in Salesloft Mobile by clicking the Account name when you are viewing a Person page in the Mobile app. 
+View an Account Profile Page in Salesloft Mobile
+Whenever you select an Account in Salesloft Mobile, you will be directed to that Accounts Profile page. 
+
+The Account Profile Page in Mobile has multiple sections where you can quickly find information about the Account, including:
+Account Details: This will display the Account Stage, Tier, and Owner.
+Click View All to view all the fields that have values input.
+Click Edit on this page to edit an existing field or add a value to a field that isn't populated yet.
+When a phone number is populated for an Account, you can highlight the phone number and click to call that number.
+Things to Note: Calls made on Accounts from Salesloft Mobile cannot be logged in Salesloft.
+Recent Activities: This will display the 3 most recent activities on the Account.
+Click View More to see the full list of Activities for the Account.
+People at Account: This will display the 3 most recently contacted people linked to the account and is sorted by most recently contacted at the top.
+Click View All to view the full list of People at that Account. For Accounts with many People, users can search by name to filter down the list for a specific contact. 
+ 
+Account Actions in Salesloft Mobile
+From the Account page in Salesloft Mobile, you can perform the following actions: 
+Edit the Account details
+Mark Account as Do Not Contact
+Add Person to the Account
+ 
+Last Modified By
+Stephanie Griffith, 9/28/2021 6:14 PM
+Title
+Accounts in Salesloft Mobile
+URL Name
+Accounts-in-Salesloft-Mobile
+Salesloft Knowledge
+Salesloft Mobile
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

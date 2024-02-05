@@ -1,0 +1,88 @@
+ADMIN GUIDES
+ADMIN ESSENTIALS
+Feature Deprecation Process
+
+Dec 11, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Feature deprecation is an inevitable part of SaaS software development. As a Salesloft customer, your subscription pays for the continuous innovation and improvement of our products. This may mean that some features within our products may be removed and retired.
+
+We recognize that change can be hard, especially when it involves an integral part of your team’s daily work life, like your Salesloft account.
+
+Things to Note: As a service, Salesloft products do not have versions; all customers subscribe to the same current feature and functionality set.
+
+In this article, we will provide some information and frequently asked questions about Salesloft’s Feature Deprecation process, including: 
+
+Key Terms Related to Feature Deprecation
+List of Deprecating Features
+Why Does Salesloft Deprecate Features?
+What kind of impact will Feature Deprecation have on me as a Salesloft Customer? 
+
+ 
+
+Key Terms Related to Feature Deprecation
+Deprecation
+
+Deprecation is the intended removal of a feature or functionality from the product.
+
+End of Support
+
+When Salesloft intends to stop selling, supporting, or sustaining a feature or functionality. A Customer may still have access to the feature or functionality for a limited period of time (until it is Retired). 
+
+Retired
+
+When a feature or functionality is removed from the platform and is no longer available for use by the Customer, the feature is then considered retired. 
+
+List of Deprecating Features
+
+The table below sets out all current and planned feature or functionality deprecations.
+
+Product
+	
+Feature or Functionality
+	
+End of Support (Date)
+	
+Retired (Date)
+
+Deals & Forecasting	Leads Data in Deals	8/1/2023	6/6/2024
+
+ 
+
+This Feature Deprecation process applies to features within our products as applicable. All specified announcements for End of Support and Retirements may be subject to change and this Policy supersedes all previous versions of the Feature Deprecation policy that can be found on the Knowledge Base. 
+
+Why Does Salesloft Deprecate Features?
+
+To continually improve our products and offer a better user experience for our customers. Supporting outdated or little used features or functionality negatively impacts the value that we bring to our customers as well as to the Salesloft teams that support them. Not only are there significant monetary expenses, but there are also opportunity costs that need to be considered. 
+
+
+Salesloft aims to offer a high level of product value to all of our customers. . As such, the cost of resources associated with this level of support is significant. Maintaining multiple, outdated, and rarely used features or functionality is costly and inefficient. Most importantly, it impacts the team’s ability to offer a fast and effective service.
+
+What kind of impact will Feature Deprecation have on me as a Salesloft Customer? 
+
+Managing change can be challenging. That is why our goal is to minimize the impact on your organization with timely announcements, training, and customer support. 
+
+Have more questions? Contact Salesloft Support.
+
+ 
+
+Last Modified By
+Stephanie Griffith, 12/11/2023 3:03 PM
+Title
+Feature Deprecation Process
+URL Name
+Feature-Deprecation-Process
+Admin Guides
+Salesloft Knowledge
+Support Guides
+Admin Essentials
+Getting Started
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

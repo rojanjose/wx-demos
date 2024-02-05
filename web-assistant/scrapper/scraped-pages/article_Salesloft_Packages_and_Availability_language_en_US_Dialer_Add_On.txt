@@ -1,0 +1,149 @@
+ADMIN GUIDES
+ADMIN ESSENTIALS
+Salesloft Packages and Availability
+
+Mar 7, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Salesloft package(s) your team purchases impact which features your team can access. 
+
+There are currently three types of Salesloft pricing packages:
+
+Essentials
+Advanced 
+Premiere
+
+These packages launched February 2023. If you are on a legacy pricing plan and would like to learn more, check out the package availability below and reach out to your Salesloft Success Manager. 
+
+
+In this article, we will go over how to confirm which features are available based on your selected plan and what the different packages contain, including:
+
+Check the Package Availability in the Knowledge Base
+Shared Capabilities
+Essentials Package
+Conversations Trial
+Advanced Package
+Premier Package
+Dialer Add-On
+Legacy Packages
+Prospect
+Sell
+Engage 
+Enterprise
+Does Salesloft Offer a Testing Environment?
+Things to Note: The plans listed in this article are the standard offerings. Features and modules may vary. Please speak to your Salesloft Sales Executive for more information. 
+ 
+Check the Package Availability in the Knowledge Base
+The Package Availability chart shows which packages include the feature explained in the article. You can find the chart at the top of each Knowledge Base article.
+
+In the chart, each package type is listed. Packages that include the feature will show a colored-in icon to the left of the package name.
+
+For example, when all of the packages contain the feature, you will see this chart: 
+ 
+
+ 
+If an X icon is seen next to the package name, the feature is not included in that package. 
+ 
+
+ 
+Sometimes, a feature may be available in a limited quantity. This is represented with the color, but does not include the checkmark. An additional row will explain the feature limits. 
+ 
+Shared Capabilities
+All of the Salesloft plans include the following features and capabilities: 
+Cadence*
+Coaching
+Sales Email
+Automation
+Calendaring
+Mobile App Access**
+CRM Sync
+Security and Compliance
+Analytics 
+Partner Ecosystem
+*Some legacy packages may include limited Cadence functionality. See the Sell package under Legacy Packages for more details.
+**Dialer add on required to make calls using Salesloft Mobile app.
+ 
+Essentials Package
+Salesloft Essentials is ideal for sales organizations who need to sustain and scale their pipeline and teams. 
+
+This package offers Salesloft's Cadence and Coaching functionalities. In addition, teams assigned with the Essentials package are granted access to a trial edition of Salesloft Conversations. 
+
+ 
+ 
+Conversations Trial
+
+The Essentials package comes with a trial of the full Conversations experience.  
+
+The default trial includes 20 conference recordings per user for the first 6 months of use. The trial begins on the day the user becomes active with an Essentials License.
+
+Things to Note: Existing Salesloft customers transitioning to the Essentials package will have 20 recordings for the next 6 months for their trial.  
+
+Once your Conversations trial has ended (after 6 months of use or when the user collectively reaches 20 recordings), the Conversations page will inform you that your team's trial has ended.
+
+Things to Note: After your trial, you may access recordings from linked Salesloft objects (account pages, person pages) and in Coaching.
+
+For more information on the Conversations trial, please check out the Conversations Trial article. 
+
+Want to upgrade to the full Conversations experience? Contact your Salesloft Account Representative to discuss updating your team’s licenses.
+
+Advanced Package
+Salesloft Advanced is designed for revenue teams who need to build pipeline and increase their revenue. 
+
+This package offers all of Salesloft's Cadence and Coaching functionalities, in addition to Conversations and Deals. 
+ 
+Premier Package
+Salesloft Premier is ideal for organizations who need to increase revenue, reduce cost, and drive predictability. 
+
+This package offers all of Salesloft's functionalities, including Cadence, Coaching, Conversations, Deals, and Forecast.  
+Dialer Add-On
+Teams have the option to purchase the Salesloft Dialer as an add-on to any package they purchase. 
+
+For more information on the available Dialer add-ons, check out our Dialer Pricing Guide.
+If you would like to include the Salesloft Dialer for your team, Contact your Salesloft Account Representative to discuss updating your team’s licenses.
+Legacy Packages
+Salesloft's Legacy packages launched February 2020. The package options include:
+Prospect
+Sell
+Engage
+Enterprise
+These packages are no longer available for sale. If you are an existing customer on a legacy pricing plan and would like to learn more, check out the package availability below and reach out to your Salesloft Success Manager. 
+
+For existing customers still assigned to our legacy packages, you can learn more about what each package contains in the sections below. 
+ 
+Prospect
+The Prospect package is ideal for teams responsible for building pipeline. The package contains the following features: 
+ 
+Sell
+The Sell package is designed for teams responsible for closing deals. The package contains the following features: 
+Engage
+The Engage package is for teams responsible for managing and growing customer relationships. The package contains the following: 
+ 
+Enterprise
+The Enterprise package is for teams involved in every stage of the revenue lifecycle. This package contains everything Salesloft has to offer. See the chart below for the complete breakdown of features. 
+ 
+Does Salesloft Offer a Testing Environment?
+Salesloft Testing Environments allow Salesloft Customers to perform testing in a non-production Salesloft Team at no risk of impacting their Production Team. 
+
+Things to Note: Testing Environments can only be provisioned for Salesloft Customers.
+
+If you and your team are interested in purchasing a Salesloft Testing Environment, please contact your Account Manager or CSM. 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 3/7/2023 3:21 PM
+Title
+Salesloft Packages and Availability
+URL Name
+Salesloft-Packages-and-Availability
+Salesloft Knowledge
+Admin Essentials
+Admin Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

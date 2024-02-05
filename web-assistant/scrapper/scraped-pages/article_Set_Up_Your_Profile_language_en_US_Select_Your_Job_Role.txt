@@ -1,0 +1,111 @@
+GETTING STARTED
+Set Up Your Profile
+
+Dec 20, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Your Profile Settings within Your Personal Settings is where you set up and edit your Salesloft account information and email signature. 
+
+In this article, you will learn the steps to take within the Profile Settings to set up your Salesloft profile, including:
+Update Your Account Info
+Select Your Job Role
+Edit Your Signature
+Connect to Integrations
+Set Your Time Zone
+Add Your Slack Username
+Manage Salesloft's Summary Email Subscriptions
+Update Your Account Info
+Your account info includes your email address and password information. The email address your team admin sends your Salesloft invite to is the same email address you will use as your login credential. Which means, if the invite went to your office email, that email address grants you access to Salesloft. 
+
+Now, if you would like to use an alternative email address or change your password for your Salesloft use, like using your old school Hotmail address (sk8rboi12345) for whatever reason, you can modify or edit your email address and password. 
+
+Follow the instructions below to update your email address and change your password:
+Click on your name in the top right corner and select Settings.
+On the Profile Settings, click the Update Your Account Info button.
+Enter the new email you'd prefer in the top field.
+Type your current password (for security purposes).
+Click the Submit button at the bottom.
+ 
+If your team uses single sign-on (SSO) with Salesloft, the password updates may not be available on the Update Your Account Info page. When you click Update Account Info the page will allow you to change your name. 
+Select Your Job Role
+The job role defines your current job within your organization. You will typically select the job role when initially creating your Salesloft account. But if you skipped that step in the sign-up process, or are changing roles in your company (congrats!), you can edit your job role from the Profile Settings. 
+
+To edit your job role, follow these steps:
+Click on your name in the top right corner and select Settings.
+On the Profile Settings, click the Job Role dropdown menu. 
+Select your job role from the following selections: 
+SDR/BDR
+Account Executive/Account Manager
+Management
+Executive Leadership
+Customer Success
+Operations
+Other
+Hit Save Profile at the bottom of the page. 
+ 
+ 
+Edit Your Signature
+When a signature is saved to your Salesloft profile, that signature will be added at the end of every Salesloft email you send. 
+
+To learn more about setting up your signature, check out our Set Up Your Email Signature article. 
+Connect to Integrations
+Integrations allow you to use other tech sources within the Salesloft platform. In order to access these integrations, you will need to connect your Salesloft account to your integrations account. This will provide the authorization needed to link to two systems.
+
+Currently, you can connect to the following integrations from your Salesloft profile:
+Twitter
+The Twitter integration allows you to view recent tweets on Salesloft profiles. 
+Zoom for Meetings
+The Zoom for Meeting integration grants authorization to Zoom in your Salesloft Meetings tool. Connecting your Zoom account allows a unique conference link to populate within your default location while booking a meeting from Salesloft.
+
+Things to Note: One Zoom account can only be connected to one user. Several users cannot connect the same Zoom account.
+ 
+Set Your Time Zone
+Your time zone allows Salesloft to schedule your tasks and activities. To set your time zone, follow these steps: 
+Click on your name in the top right corner and select Settings.
+From the Profile Settings, scroll to the Time Zone section. 
+Click the dropdown menu to view the available time zones. 
+Select your time zone. 
+Click Save. 
+ 
+Add Your Slack Username
+
+You can configure the Slack Integration to receive Slack notifications when key triggers happen inside of Salesloft automation rules. When the Slack Integration is configured, Salesloft will add your Slack username to your Profile Settings page. 
+
+
+
+
+
+You can edit your Slack username here by editing the text and clicking Save. 
+
+Manage Salesloft's Summary Email Subscriptions
+
+Salesloft offers email summaries to certain user groups that give a recap of ongoing activities and key performance metrics. The emails include: 
+
+Monthly Admin Email (available to admins only)
+Weekly Summary Email (available to all Salesloft users)
+
+If you do not wish to receive these emails, you may opt out of, or unsubscribe. To opt out of these emails, follow the steps below:
+
+Navigate to your Personal Settings. 
+Click the Profile Settings. 
+Scroll to the bottom of the page. 
+Find the box associated with the email you would like to opt out. To opt out, change the toggle from blue to grey. To receive the email, make sure the toggle is enabled (blue). 
+Hit Save Profile.  
+ 
+Last Modified By
+Raequel Sank, 12/20/2022 6:48 PM
+Title
+Set Up Your Profile
+URL Name
+Set-Up-Your-Profile
+Salesloft Knowledge
+Getting Started
+Set Up Salesloft
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

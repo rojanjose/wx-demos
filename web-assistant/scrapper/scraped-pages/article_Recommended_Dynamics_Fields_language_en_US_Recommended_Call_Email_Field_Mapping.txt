@@ -1,0 +1,129 @@
+CRM
+Recommended Dynamics Fields
+
+Jun 16, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+If you've taken a look at the Field Configuration tab on a Person or Accounts Details page, you know there are a lot of fields available to you.
+
+Things to Note: If you are new to Salesloft and haven't mapped any fields yet, start with our Auto-Map Standard Dynamics Fields guide. This will map the recommended Dynamics fields for you!
+
+You may be wondering what do some of these fields mean and, more importantly, which ones do you need to map?
+
+The rule of thumb is to complete your field configuration based on the information and data your team values the most.  
+However, for those of you who have started mapping fields and would like to know which fields you can gain the most value from, here are the lists of fields that you will want to consider mapping per Microsoft Dynamics object: 
+Recommended Person Fields
+Required and Recommended Account Fields
+Recommended Call and Email Field Mappings
+Recommended Person Fields
+Here are the Salesloft Person fields we recommend you map to the appropriate Dynamics Lead field:
+ 
+Salesloft Field Name	Dynamics Field Label	Dynamics Field Name (API Name)	Description
+City	City	address1_city	 
+Company Name	Company Name	companyname	 
+Company Website	Website	websiteurl	 
+Country	Country	Country	This field contributes to Salesloft's timezone detection feature. Things to Note: Configure the full country name, rather than the two letter ISO-3116 Country Field.
+Email Address	mapped by default to emailaddress1	mapped by default to emailaddress1	 
+First Name	First Name	firstname	 
+Home Phone	Home Phone	telephone2	 
+Last Name	Last Name	lastname	 
+Company Industry	Industry	industrycode	 
+Mobile Phone	Mobile Phone	mobilephone	 
+Owner CRM ID	Owner ID	_ownerid_value	Allows Salesloft to identify the Lead, Contact, and Account object owners, based on the Dynamics user matches set under the User Management section.This field must be set to use any automation rulesassociated with owner changes in Salesloft or Dynamics
+Phone	Business Phone	telephone1	 
+State	State/Province	address1_stateorprovince	 
+Title	Job Title	jobtitle	 
+
+Here are the Salesloft Person fields we recommend you map to the appropriate Dynamics Contact field:
+ 
+Salesloft Field Name	Dynamics Field Label	Dynamics Field Name (API Name)
+City	City	address1_city
+Account Crm Id (Contact)	Company Name	_parentcustomerid_value
+Country	Industry	industrycode
+Email Address	Email	mapped by default to emailaddress1
+First Name	First Name	firstname
+Home Phone	Home Phone	telephone2
+Last Name	LastName	lastname
+Mobile Phone	MobilePhone	mobilephone
+Phone	Business Phone	address1_telephone1
+State	State/Province	address1_stateorprovince
+Title	Job Title	jobtitle
+Owner Crm Id	Owner	_ownerid_value
+Website	Website	website
+Required and Recommended Account Fields
+The Account fields contain a couple of required fields that need to be mapped.
+
+Company Name is a required field in Salesloft. You must map these fields to import Accounts from Dynamics. 
+
+Outside of the Company Name, your account field mapping boils down to team preference. Which fields and details matter the most to your team?
+
+To start your Account field mapping, here are the fields we recommend for the most basic level of Account field mapping:
+ 
+Salesloft Field Name	Dynamics Field Label	Dynamics Field Name (API Name)
+City	Address 1: City	address1_city
+Country	Address 1: Country/Region	address1_country
+Description	Description	description
+Name (Required)	Account Name	name
+Industry	Industry	industrycode
+Phone	Main Phone	telephone1
+Postal Code	Address 1: ZIP/Postal Code	address1_postalcode
+State	Address 1: State/Province	address1_stateorprovince
+Street	Address 1: Street	address1_line1
+Domain	Website	websiteurl
+Owner Crm ID	Owner	_ownerid_value
+Recommended Call and Email Field Mappings
+If you have email and call activity logging enabled in the CRM Sync tab of your Personal Settings, below are the recommended field mappings.
+
+We would recommend that you also download the Managed Solution Download for Dynamics so that you are able to capture Cadence information (Cadence name, most recent Cadences - name/last completed step/next due date), engagement statistics (clicked count, replies count, viewed count), and call and email specifics (ex. call sentiment & disposition, email template title, actual end/start, etc.).
+
+If you do not download the Managed Solution, the field mappings below will recommend custom field type options that you will need to create to map these fields appropriately. 
+
+*Managed Solution Field
+Call Activity Tasks
+ 
+Salesloft Field Name	Dynamics Field Label	Dynamics Field Name
+Cadence Name*	Custom DynamicsText Field Needed	Custom DynamicsText Field Needed
+Call Disposition*	Custom DynamicsMultioption Field Needed	Custom DynamicsMultioption Field Needed
+Call Duration*	Duration	actualdurationminutes
+Call Sentiment*	Custom DynamicsText Field Needed	Custom DynamicsText Field Needed
+Step Day*	Custom Dynamics Number Field Needed	Custom Dynamics Number Field Needed
+Bounced	Custom Dynamics Checkbox Field Needed	Custom Dynamics Checkbox Field Needed
+Cadence External Identifier	Custom DynamicsText Field Needed	Custom DynamicsText Field Needed
+Cadence Id	Custom DynamicsText Field Needed	Custom DynamicsText Field Needed
+Call End Time*	Actual End	Actual End
+Call Start Time*	Actual Start	Actual Start
+Call To	does not need to be mapped	does not need to be mapped
+Step ID	Custom Dynamics Text Field Needed	Custom Dynamics Text Field Needed
+Email Activity Tasks
+ 
+Salesloft Field Name	Dynamics Field Label	Dynamics Field Name
+Cadence Name*	Custom DynamicsText Field Needed	Custom DynamicsText Field Needed
+Clicked Count*	Custom Dynamics Number Field Needed	Custom Dynamics Number Field Needed
+Email Template Title*	Custom DynamicsText Field Needed	Custom DynamicsText Field Needed
+Replies Count*	Custom Dynamics Number Field Needed	Custom Dynamics Number Field Needed
+Viewed Count*	Custom Dynamics Number Field Needed	Custom Dynamics Number Field Needed
+Step Day*	Custom Dynamics Number Field Needed	Custom Dynamics Number Field Needed
+Bounced	Custom Dynamics Checkbox Field Needed	Custom Dynamics Checkbox Field Needed
+Cadence External Identifier	Custom DynamicsText Field Needed	Custom DynamicsText Field Needed
+Cadence Id	Custom DynamicsText Field Needed	Custom DynamicsText Field Needed
+Email Message Id	Custom Dynamics Text Field Needed	Custom Dynamics Text Field Needed
+Email Template Id	Custom Dynamics Text Field Needed	Custom Dynamics Text Field Needed
+Step ID	Custom Dynamics Text Field Needed	Custom Dynamics Text Field Needed
+Last Modified By
+Stephanie Griffith, 6/16/2022 8:19 PM
+Title
+Recommended Dynamics Fields
+URL Name
+Recommended-Dynamics-Fields
+Salesloft Knowledge
+CRM
+Dynamics
+Dynamics Admin Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

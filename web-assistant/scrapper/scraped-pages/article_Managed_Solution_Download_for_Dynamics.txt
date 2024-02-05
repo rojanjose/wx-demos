@@ -1,0 +1,76 @@
+CRM
+Managed Solution Download for Dynamics
+
+Sep 16, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Having all of your data kept in one central CRM is great, but without the right reports, your data is nothing but a number.
+
+The Managed Solution download allows you to use Salesloft specific fields to create insightful reports and dashboards in Microsoft Dynamics.
+
+You can download the package from within Salesloft via a zip file and install it in your teams' Dynamics 365 instance. From there, you can build reports and dashboards that fit your business's needs. The download can even be installed in Production or Sandbox environments. 
+
+Things to Note: 
+This download will only be visible to Salesloft admins.
+If you are a Salesloft admin using Microsoft Dynamics and do not see the Manage Solution Download, reach out to your Salesloft success manager to enable the feature. 
+In this article, you will learn about the Managed Solution Download for Microsoft Dynamics, including: 
+Fields Created by the Managed Solution Download
+Download the Managed Solution from Salesloft
+How to Install the Managed Solution Download for Microsoft Dynamics
+Fields Created by the Managed Solution Download
+The Managed Solution Download for Dynamics creates the Salesloft specific fields that can contribute to reports in your Dynamics instance.
+
+After these fields are created, you will need to complete the field mapping in your Field Configuration so that all the activity logs will sync between Salesloft and Dynamics.
+
+The Managed Solution creates the following fields:
+Objects	Field Name	Field Type	Description	Notes
+Activities	Cadence Name	Text	The name given to a Cadence.	 
+Activities	Call Disposition	Picklist	The disposition that the user logged during the call.	There is no OOB Dynamics field available to capture call disposition
+Activities	Call Duration	Number	How long the call lasted	Rounds to the nearest minute. 29 seconds = 0 min. 30 sec or greater = 1 min, etc. per Dynamics OOB functionality
+Activities	Call Sentiment	Text	The sentiment that the user logged during the call.	There is no OOB Dynamics field available to capture call sentiment
+Activities	Clicked Count	Number	How many clicks were received on a URL within an email.	Successfully passing data to Dynamics via API - unable to see in activity timeline UI. Able to see in Activity record detail
+Activities	Email Template Tile	Text	The name given to a template.	 
+Activities	Replies Count	Number	How many replies an email has received.	Successfully passing data to Dynamics via API - unable to see in activity timeline UI. Able to see in Activity record detail
+Activities	Viewed Count	Number	How many opens/views an email has received.	Successfully passing data to Dynamics via API - unable to see in activity timeline UI. Able to see in Activity record detail
+Activities	Salesloft Step Day	Number	The day in the Cadence that a step has been set to be run.	 
+Activities	Actual End	DateTime	The date and time a call ended	Need to change field type to DateTime in Dynamics
+Activities	Actual Start	DateTime	The date and time a call started	Need to change field type to DateTime in Dynamics
+Person	Most Recent Cadence - Cadence Name	Text	Shows which cadence a person was most recently on	Cadence fields require custom fields to map to
+Person	Most Recent Cadence - Last Completed Step	Text	Shows the last completed step in the cadence that this person was on	Cadence fields require custom fields to map to
+Person	Most Recent Cadence - Next Due Date	Text	Shows the next cadence step due date	Cadence fields require custom fields to map to
+ 
+Download the Managed Solution from Salesloft
+Before you can install the Managed Solution in Dynamics, you must download the package as a zip file from Salesloft. 
+
+To download the Managed Solution, follow these steps: 
+From Salesloft, click your Name in the upper right corner and go to your Personal Settings.
+Select Download Settings. 
+Click Install Managed Solution. This will download the package as a zip file in your browser.  
+ 
+How to Install the Managed Solution Download for Microsoft Dynamics
+Follow the instructions below to install the Managed Solution Zip file from within Dynamics 365:
+In Microsoft Dynamics 365, go to Settings and select SolutionsSolutions.
+In the solutions list menu, choose Import.
+In the Import Solution dialog, Select Solution Package step and browse to the compressed (.zip or .cab) file that contains the solution you want to import.
+Choose Next.
+You can view information about the solution before you choose Import.
+You may need to wait a few moments while the solution import completes. If it is successful, you can view the results and choose Close.
+If you have imported any changes that require publishing, you must publish customizations before they will be available.
+Last Modified By
+Stephanie Griffith, 9/16/2021 9:05 PM
+Title
+Managed Solution Download for Dynamics
+URL Name
+Managed-Solution-Download-for-Dynamics
+Salesloft Knowledge
+CRM
+Dynamics
+Dynamics Admin Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

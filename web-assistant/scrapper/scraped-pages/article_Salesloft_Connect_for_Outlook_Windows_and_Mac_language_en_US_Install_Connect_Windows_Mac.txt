@@ -1,0 +1,77 @@
+USER GUIDES
+SALESLOFT CONNECT
+CONNECT FOR OUTLOOK
+Salesloft Connect for Outlook - Windows and Mac
+
+Dec 10, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft’s Connect feature lets you access and perform Salesloft functions directly from the applications you use the most.
+
+Salesloft Connect for Outlook integrates the powerful functionality of Salesloft into your Outlook application. You can Loft emails, view and insert templates, create reminders, and view a Person's Salesloft information while engaging with your prospects directly inside of your Outlook environment.
+
+In this article, you will learn all of the features available with Salesloft Connect for Outlook on your Windows or Mac, including:
+Supported Versions of Outlook
+Install Connect for Outlook - Windows/Mac
+Send Salesloft Emails in Outlook - Windows/Mac
+Disconnect the Add-in - Windows/Mac
+If you are using the Office 365 version of Outlook, learn how to use Salesloft Connect for Outlook - Office 365 Online, here. 
+
+Need help with an error? Check out the Troubleshooting Salesloft Connect for Outlook article. 
+Supported Versions of Outlook
+The Salesloft Connect feature is currently supported by certain applications and versions of Outlook. We’ve compiled a list of the approved versions of Outlook.
+
+To learn more information on whether your Outlook client supports add-ins, and would be able to support Salesloft Connect, check out the link here.
+
+Connect for Outlook is supported by the following Exchange and Office 365 applications:
+ 
+
+ 
+You may need to upgrade your Outlook to a newer version to avoid functionality disruption. If you’re not sure how to check your client version, check out these instructions.
+
+The approved versions of Outlook include the following:
+Exchange 2013: You must be running version #CU_15 or higher. 
+Outlook for Windows 13: You must be running version #15.0.4605.1003 or higher.
+Outlook for Mac 16: You must be running version # 15.35 (170509) or higher.
+Install Connect for Outlook - Windows/Mac
+Before you can use Salesloft's functionality from your Outlook on Windows or Mac, you need to install the Salesloft Connect for Outlook add-in.
+
+Things to Note: Security information regarding the requirements to run the add-in: We're requesting "ReadWriteMailbox" permission; it is required for communication with the customer's Exchange server using makeEwsRequestAsync method. Salesloft's Outlook add-in is heavily dependent on it for the Lofting feature since it allows us to fetch email and attachments from the Exchange server, update email item with tracking links/pixel, and after all, send an email. You can learn more about the detailed description of permissions model.
+
+The download process follows the same instructions as installing an add-in for Outlook 365, but the look of the application is different. Follow these steps to install the add-in on your desktop:
+Open the Add-in Store via the toolbar.
+Search for Salesloft in the search window to bring up the Salesloft Connect listing.
+Turn the toggle on to activate the Salesloft add-in. 
+ 
+Send Salesloft Emails in Outlook - Windows/Mac
+Using the Loft It feature in Outlook logs and tracks your emails in Salesloft (and Salesforce). If you do not wish for the email to be tracked, you can use the normal Outlook Send button to send without syncing it to Salesloft.
+ 
+To learn more about sending Salesloft emails for Windows and Mac, check out Send Emails from Outlook - Windows and Mac.
+Disconnect the Add-in - Windows/Mac
+To disconnect the Salesloft Connect for Outlook add-in from Windows or Mac, follow these steps:
+Go to your Outlook Store. This should be an icon in your top navigation toolbar. 
+From the Add-Ins for Outlook window, select My add-ins on the left-hand side. 
+Find the Salesloft Connect add-in from your list. 
+Select the ellipses icon (three dots) in the bottom right corner of the Salesloft Connect add-in. 
+Click Remove. 
+The add-in will be removed from your Outlook, but will remain in your list of add-ins within the store. If you want to re-enable the add-in after removing it, select the Add button on the Salesloft Connect add-in tile. 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 12/10/2021 7:18 PM
+Title
+Salesloft Connect for Outlook - Windows and Mac
+URL Name
+Salesloft-Connect-for-Outlook-Windows-and-Mac
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Connect For Outlook
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

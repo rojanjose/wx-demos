@@ -1,0 +1,193 @@
+CADENCES + TASKS
+Inside a Cadence
+
+May 24, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The individual Cadence goes beyond creating your sales process into a series of steps. It allows you to manage your Cadence, from small details to bulk people actions. You can even dive into call and email logs to review Cadence activities and boost your success. 
+
+Since the Cadence contains so much information, the page is broken into different tabs. Each tab represents a certain data point of your Cadence including step details, people lists, and cadence metrics.
+ 
+
+In this article, we will break down each tab within the Cadence, including:
+Cadence Name
+Cadence People Actions
+Cadence Actions
+Cadence Overview Tab
+Cadence People Tab
+The Cadence Call Tab
+The Cadence Email Tab
+The Cadence Activity Dashboard Tab
+The Cadence Settings Tab
+Cadence Name
+The first thing you will see in the top left corner of the Cadence overview is your Cadence’s name.
+
+The Cadence name is first decided when you Create a Cadence. It can be edited by going to the Cadence Settings tab (as long as you have permissions to edit to the Cadence). 
+
+The Cadence name remains in the top left of every page of the Cadence so you are always aware which Cadence you are working in or viewing.
+
+Team Cadences will be marked with the orange Team Cadences label to the right of the Cadence name. 
+
+
+Cadence People Actions
+The People Actions button opens a dropdown menu so you can add or export People to the Cadence. 
+
+
+ 
+Let's walk through the available People Actions:
+People Actions Button: Click the People Actions button to open the menu containing People Actions. 
+Add to Cadence: Allows to you manually add a person to Cadence. If the Person does not already exist in Salesloft, you can create the Person there as well.
+Import from CSV: Import a list of individuals from a CSV file to Salesloft and the Cadence. Salesloft will suggest the Cadence you were viewing as the default when you select Finish Import and Add to Cadence.
+Import from CRM (takes to the Imports from Salesforce Knowledge Base article) Imports from your CRM will happen within your CRM platform.
+Export People: Create a downloadable CSV file of the People who are currently working or who have previously completed the Cadence.  
+ 
+Cadence Actions
+The Cadence actions dropdown menu provides different functions you can perform within the individual Cadence.
+
+Let's walk through each available Cadence action.
+Cadence Actions Button: Opens the Cadence Actions menu
+Add Steps: Create an additional step in the Cadence. 
+Export Step: Creates a downloadable CSV file of Cadence specific information include steps and metrics.  
+Rename: If you edit a Cadence or simply hate the name that you originally came up with, you can change it with the Rename Cadence action. 
+Copy: If the Cadence you are viewing seems like a great foundation to build a second Cadence off of, you can copy the Cadence from the Cadence Overview Page (or the Cadences Page).
+ 
+Cadence Overview Tab
+The Cadence Overview tab, also known as your individual Cadence’s home page, shows the complete outline of your Cadence’s layout including the days, steps, templates, and instructions that compose your Cadence.
+
+Whenever you create a Cadence or when you access a Cadence from the Cadence tab, you will be taken to the Cadence Overview page. For new Cadences, this page will be mostly blank with the following options listed: 
+Start from Scratch: To add individual Cadence steps on your own. 
+Start with Cadence Frameworks: To build Cadence Steps from a pre-built Cadence Framework.
+Once steps have been added, the Cadence Overview shows all of the added steps and step information. Your Cadence is split into the day you will run a task and the number of steps within the Cadence. This allows you to complete multiple steps on the same day.
+Cadence Overview Metrics: Cadence Overview metrics show a quick glance of your Cadence's structure and performance. 
+View Step Analytics: Link to go to the Cadence Step Analytics . This will provide an in-depth look at the Step Analytics for the Cadence you are viewing. 
+Cadence Day: The day your steps will run once a person has been added to the Cadence.
+Add Step: Opens the Create Step module. 
+Step Tile: The step tile shows each Cadence step action you will take within your Cadence. Each step tile contains step-specific details, including the ones listed below:
+A. Move Step: Drag and rearrange the order of your Cadence steps.  
+B. Step type Icon: There are multiple types of steps you can have within your Cadence and each step view varies depending on a step. The steps are listed out as follows:
+Email Step
+Phone Step
+Other Step
+Integration Step
+C. Step number and name: The order number of the step within your Cadence and the Name of the Cadence step
+D. Labels: A stamp on your step that offers more details about the steps. Common labels include:
+Automated: This step is configured to run automatically when a Person running on this Cadence is due. 
+Multi-Touch: The step is set to run back to back with another step. 
+Saved: Saves a Template to a Cadence. If you add an email step to your Cadence without using a previously created template and type in your own message, you can save that message as a template from the Cadence. By saving the email as a template you can gather metrics on that specific template. 
+Team: Represents a Team Template 
+E. Preview: The opening text found in the step description or email message. 
+F. Metrics: Metrics attributed to the Cadence step. The metrics will vary based on the step type.
+G. Scheduled: Specifically for email steps. People who have had emails scheduled for a later time, whether it be in the next hour or maybe another day.
+H. In Progress: People that are on the step but the step is not due yet.
+I. Due: People that are to be run on that calendar day. These people will show up in the Cadence Side Panel where you can run steps.
+J. Step Actions: The ellipses icon (three dots) on the right side of your Cadence step details opens the variant actions drop down menu.
+Edit Step
+Copy Variant
+Add Variant
+Export People
+Delete Step
+Delete Variant (only visible on steps with more than one variant.)
+Cadence People Tab
+The Cadence People Tab gives a list of the people who are working or have previously run through the Cadence. The Cadence people tab lets you filter, sort, and take actions on a specific Cadence level.
+
+Let’s walk through what’s included in the Cadence People tab:
+Saved Views: Saved People Views allow you to create and revisit lists of People using various filters.
+Filters: Lets you view specific People based on a set of criteria in the order that makes the most sense for you.The Cadence People tab filters include People In Progress on Steps by default.
+Filtered Stats: Metrics that show the number of People in your list that have accumulated a specific metric. The stats include: 
+Called: Number of People from the list who have been called.
+Emailed: Number of People from the list who have been sent emails.
+Bounced: Number of People from the list who have been sent emails that bounced back and contain the Bounced status.
+Opened: Number of People from the list who have opened sent emails.
+Clicked: Number of People from the list who have clicked a link within a sent email.
+Replied: Number of People from the list who have replied to emails.
+Starred: Number of People who have been starred. Starred individuals will show at the top of the People list.
+Search: Searching lets you find the People you want to engage with or view their Cadence stats. Search Cadence People by their name, company name, or email address.
+People List: 
+Check box: The checkbox allows you to select a Person or multiple people to perform actions. Click the down arrow next to the check box in the header to select all the People shown on the page or all of the People included in your list. 
+Name: The name of the Person.
+Account: Person's linked Salesloft Account. The Account will contain company-related data.
+Title: The Person's title shows the title you have for that Person in their Salesloft profile.
+Job Seniority: The level a prospect is on within a company's hierarchy.
+Step: Person's current Cadence step. If the Person was removed from the Cadence, their most recent Cadence step will show.
+Due: Date when the most recent Cadence Step is due. 
+Stage: The Person’s most recent Person stage.
+Tags: Labels attached to the Person. Selecting a tag will filter the list by that tag.
+Select People Actions: People Actions allow you to perform activities related to an individually selected Person or multiple People. The actions appear at the top of the list view when you select the checkbox to the left of an individual Person or multiple People. Let's walk through the People Actions. 
+A. Add to Cadence: Assign this Person (or selected People) to a Cadence. Most common use here is to re-add someone to the current Cadence.
+B. More Cadence Options:
+C. Change Due Date: Change a Person's step due date so you can put those actions on hold until you are ready to complete them.
+D. Move to Step: Select a different step to run in the Cadence. 
+E. Skip this Step: Skip the Person to the next step in your Cadence.
+F. Remove from this Cadence: If a Person or group of People do not need to be on the particular Cadence any longer, you can remove them. 
+G. Email: The Send a One-off Email action allows you to write and send an email to the Person outside of the Cadence. 
+H. Edit: The Edit function allows you to change the following details for the Person record:
+Accounts: Add a Person to an Account links them to an Account in Salesloft, similar to a Contact in Salesforce.
+Job Seniority: If a Person’s title changes or the Job Seniority is incorrect (it happens), update the Person’s job seniority. This will not only keep your information up to date, but it also teaches the Job Seniority model.
+Stage: Updates the Person Stage or where they are in your sales process. 
+I. Tag:
+J. More Actions Menu:
+K. Mark Star: The star icon denotes a Salesloft “favorite” Person. If a Person has been “starred,” the star icon will appear to the left of the Person's name. 
+L. Mark EU Resident: Marking someone as an EU Resident disables open tracking, click tracking, and Live Website Tracking for GDPR compliance.
+If the Person is already marked as an EU resident, you will see Unmark EU Resident as the available action. Removes the EU Resident label from users who have previously been marked as an EU Resident.
+
+M. Do Not Contact: Adds this Person to the Do Not Contact list. Once a Person is marked as Do Not Contact, Salesloft users will not be able to email, call, or add the Person to a Cadence. 
+N. Delete People: Delete the Person from Salesloft. 
+ 
+The Cadence Call Tab
+The Cadence call tab offers the exact same visibility into your call behavior provided by the general calls page, but for specific Cadences.  
+
+
+
+The Cadence call tab provides the following information:
+Name: Who was called.
+Disposition: The logged disposition.
+Sentiment: The logged sentiment.
+Notes: Any notes that were logged with the call. 
+Duration: How long the call lasted. The duration is recorded in seconds.
+Recording: If your call was recorded, click Listen to Recording to hear the call recording. Calls without recordings will be listed as No Recording.
+Called At: When the call took place.
+Export CSV: Downloaded CSV file of the call data listed. 
+The Cadence Email Tab
+The Cadence email tab offers the exact same visibility into your email sends provided by the general Emails page, but on a granular level for the individual Cadence emails.
+ 
+
+ 
+
+The Cadence email tab provides the following information:
+To: The person that received the email
+Subject: The email's subject line
+Status: Outcome of the email, whether it's Sending, Sent, or Cancelled 
+Sent At: Time the email was sent
+Sent By: Salesloft user that sent the email.
+Stats
+Views
+Clicks
+Replies
+The Cadence Activity Dashboard Tab
+Your Cadence Activity Dashboard gives you a quick, comprehensive look at the activity that has taken place over a selected time range.
+Date Range: Above the activity report, you will find the date range. The activity shown in the report is subject to the selected date range. By default, the date range will be set to the last seven calendar days (not including the current day). You can select the date range to expand or limit your time range.
+Email Activity: Visual report or the emails, views, clicks, and replies that have occurred within the Cadence.
+Call Activity: Visual report of the calls completed within the Cadence.
+The Cadence Settings Tab
+The Cadence Settings tab allows you to set rules that will apply to the entire Cadence.  
+
+Does the page look familiar? The settings page is built just like the Create a Cadence page. So if you ever want to edit those details after a Cadence has been created, you can.  
+
+For more information on the Cadence Settings tab, check out the Create a Cadence layout breakdown.
+Last Modified By
+Stephanie Griffith, 5/24/2023 3:41 PM
+Title
+Inside a Cadence
+URL Name
+Inside-a-Cadence
+Salesloft Knowledge
+Cadences + Tasks
+Manage A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

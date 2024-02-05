@@ -1,0 +1,209 @@
+CRM
+Salesforce Troubleshooting Guide
+
+Feb 16, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+When data is shared between two systems, like Salesloft and Salesforce, sometimes data is miscommunicated which causes errors in the data transfer. These errors are most likely to occur during CRM Syncs or when users are logging activity.
+
+In this article, you can find the common Salesforce errors that may occur when syncing your Salesloft logs and possible fixes, including:
+Duplicate key value violates unique constraint
+Cadence Stage name is not a valid stage
+CANNOT_UPDATE_CONVERTED_LEAD
+“Error” Invalid Cross reference key: invalid cross reference id
+FIELD CUSTOM VALIDATION EXCEPTION
+FIELD INTEGRITY EXCEPTION
+INSUFFICIENT ACCESS ON CROSS REFERENCE ENTITY
+INSUFFICIENT ACCESS OR READ ONLY
+Invalid Field: No Such Column
+INVALID GRANT/ INVALID TOKEN error
+INVALID OR NULL FOR RESTRICTED PICKLIST
+JSON PARSER ERROR
+MALFORMED ID
+REQUEST LIMIT EXCEEDED
+Required Field Missing
+Unable to lock row
+STRING_TOO_LONG: End Time: data value too large...
+INVALID_TYPE_ON_FIELD_IN_RECORD
+Duplicate key value violates unique constraint
+Error themes: SalesLoft Unique Identifier Violation: Account Domain, SalesLoft Unique Identifier Violation: Person Email
+
+Tool Tip: This error applies to any of the following messages:
+You cannot update an Account record with a domain already in use by another Account.
+Salesforce cannot update a Person in Salesloft with an email address value that already is in use by another Person in Salesloft.
+You cannot update a Salesforce unique field with a value that is already being used for unique field on another Salesforce record. 
+Cadence Stage name is not a valid stage
+Error theme: Invalid Picklist Values: Person Stage
+
+Normally, this means that the Salesforce field is a picklist that does not contain the same list options as your Salesloft stages.
+
+You have a few options to correct this error:
+You can edit or delete the Cadence stage in Salesloft to reflect the stage that exists in Salesforce.
+You can create the Cadence stage in the picklist in Salesforce.
+Update the picklist value inside your team's Person Field Configuration.
+CANNOT_UPDATE_CONVERTED_LEAD
+Error theme: Lead Conversion Syncing
+
+This error means that the Lead record has been converted to a Contact. Once converted, the Lead record cannot be updated. Generally, Salesloft follows Leads through the conversion process but if there is deduplication or some other action that results in us not being able to follow the past object ID this can occur.
+
+When this error occurs you can re-import the Contact to link them to the Person and unlink them from the converted Lead.
+
+Things to Note: The email addresses must be exactly the same on the Salesloft Person and the Salesforce Contact for them to be relinked. 
+ 
+“Error” Invalid Cross reference key: invalid cross reference id
+Error theme: CRM Error: Record ID Validation
+
+Salesforce cannot log this activity or update this record because the CRM ID stored in Salesloft for that Person is no longer valid in Salesforce. This is typically the result of merged records in Salesforce.
+
+To correct this error, you can re-import the record from Salesforce into Salesloft. Once the import is complete, retry your activity. As long as the email address matches on both records, this process will re-associate the Salesloft record to the correct Salesforce ID, allowing you to successfully retry the activity.
+
+If reimporting does not correct the error, check your Salesforce instance to verify the CRM ID’s, then change the owner or associated account as applicable. This would typically only apply to failed sync attempts in your bi-directional sync log (rather than your activity log). If there is an Account or Owner ID being updated in the sync attempt, one of those ID’s could be the culprit. 
+
+We also strongly recommend enabling CRM Merge Recognition  to mitigate this error in the future.
+ 
+FIELD CUSTOM VALIDATION EXCEPTION
+Error theme: CRM Error: Validation Rules
+
+Tool Tip: A Salesforce validation rule is stopping this field update. Update validation rule to only fire when required field is blank.
+
+This error means that there is a validation rule that enters data into a Salesforce field. When Salesloft tries to update the field, our data is hitting this exception created by the validation rule when the record was updated.
+
+To correct this error, perform one of the following: 
+Update the validation rule in Salesforce so it no longer conflicts with the data Salesloft is writing.
+Update your Salesloft field values or automated processes so they no longer conflict with the rule. 
+FIELD INTEGRITY EXCEPTION
+Error theme: CRM Error: Field Settings
+
+Tool Tip: This Salesforce field requires specific ID information to update. Check Salesforce for required ID.
+
+This error typically occurs when you attempt to update the Salesforce field with the incorrect ID information. For example, if you try and update an Account ID field with Opportunity ID information, the field integrity would be incorrect.
+
+Typically, this error occurs with date, time and state fields. Check your Salesforce instance to confirm the field type that needs to be used.
+ 
+INSUFFICIENT ACCESS ON CROSS REFERENCE ENTITY
+Error theme: CRM Error: Sharing Settings
+
+Tool Tip: This Salesforce record has been deleted or you do not have access.
+
+This error means there that you do not have access rights to modify the cross-reference id. This could be a result of updating a record that does not exist in Salesforce or updating an object that is a "read-only" field.
+
+To solve the error, try the following solutions: 
+Review the sharing and permissions settings for the record.
+Check Field Level security and Field Accessibility on the Quote Document Object.
+INSUFFICIENT_ACCESS_OR_READONLY
+Error theme: CRM Error: Sharing Settings
+
+Tool Tip: You do not have permission to update this field, or field is read-only.
+
+This error message means that our system is attempting to write to a field that has a permission setting in Salesforce that has blocked permissions or is set to "Read Only" mode. Due to these settings, Salesforce will not allow the user to edit that field.
+
+Since this particular error involves permissions or access in Salesforce, a Salesforce admin needs to change or update field level security for specific fields in your Salesforce instance.
+
+Once the fields have been amended to allow specific Salesforce role, permissions sets , or read-only access to specific fields, the users will be able to log their Salesloft activity to Salesforce.
+Invalid Field: No Such Column
+Error theme: CRM Error: Field Level Security
+
+Tool Tip: The Salesforce column "______________" on this ________ has been modified or deleted. Remap field to retry.
+
+This error usually means there is an incomplete or incorrect mapping within your connector. This can be caused by trying to send data to a Salesforce field that has been deleted or modified.
+
+Remap any fields that have been modified or deleted in Salesforce.  If you're not certain which field is causing the error, recheck the connector log.
+ 
+Invalid Grant/Invalid Token
+Error theme: CRM Error: Connected App Permissions
+
+Tool Tip: You are logged out of Salesforce. Reconnect or ask admin for access if this problem persists.
+
+This error usually occurs when your login token expired, you changed your Salesforce password, or you no longer have access to the connected Salesforce account.
+
+To correct this error, try the following solutions:
+Reconnect with Salesforce. 
+Sign out of Salesforce.
+In Salesloft, navigate to Settings then CRM.
+Click Connect with a different Salesforce account. 
+Log back into Salesforce.
+Ask your Salesforce admin for access to the Salesforce instance.
+INVALID OR NULL FOR RESTRICTED PICKLIST
+Error theme: Invalid Picklist Values: Custom Field
+
+Tool Tip: The Salesforce column "____________" on this _________ is restricted by certain values.
+
+The error that you are receiving is in regards to a field you are trying to update in Salesforce. That field is restricted by certain values that have been determined by your Salesforce Admin.
+ 
+JSON PARSER ERROR
+Error theme: CRM Error: Field Settings (Boolean Fields)
+
+Tool Tip: Make sure the Salesforce field you are mapping to accepts the data formatting you are using in Salesloft.
+
+This error is related to the formatting of that field. For example, if you get this  “JSON_PARSER_ERROR: Cannot deserialize instance of int from VALUE_STRING value 2 min 44 sec or request may be missing a required field at [line:1, column:29].” It means that whenever you are transferring data to Salesforce, we are sending the duration in seconds and your Salesforce field is set up for minutes. Your Salesforce field, however, does not allow this kind of formatting and most likely only accepts pure numbers.
+
+To fix the error, have a Salesforce Admin edit the field type. Best practice is to switch the field type to a standard text or string field that will accept the data.
+
+Things to Note: Sometimes this error will occur due to incorrect capitalization. For example, a Salesforce boolean field may require an upper case T/F, but Salesloft sends the data as lower case t/f. Still have your Salesforce admins verify and edit the Salesforce field types to accept the Salesloft data. 
+ 
+MALFORMED ID
+Error theme: CRM Error: Field Settings
+
+Tool Tip: ID is the incorrect length or contains invalid characters per Salesforce field requirements.
+
+This issue occurs when an ID with invalid characters is attempting to sync to a Salesforce field. Typically, this is because the Salesforce field being mapped to is a reference type, which means data entered must meet certain requirements.
+
+To fix the error, we recommend that a Salesforce admin maps the Salesloft field to a custom string/text field in Salesforce. Some teams who run into this issue remove the mapping entirely.
+ 
+REQUEST LIMIT EXCEEDED
+Error theme: CRM Error: API Limit Exceeded
+
+Tool Tip: Your API call limit has been exceeded.
+
+This error is related to your Salesforce's API usage limits. Your instance limits are shared among all of the apps you have connected to Salesforce. Sometimes just waiting a few hours can free up your API limits since Salesforce measures API calls on a trailing-24-hour-window basis.
+
+If you get this error, use the following solutions: 
+Check if another system is heavily using it.
+Increase your credits by adding more Salesforce users (each user gets another amount of API calls per day) or buying more API credits.
+Required Field Missing
+Error theme: CRM Error: Required Fields
+
+Tool Tip: This Salesforce record has required fields. To create record, fill out required fields or remove requirement.
+
+If you see this error message your Salesforce instance requires the data in a certain field to be filled in before creating the contact.
+
+You have two options to correct this error:
+Advise users to complete the field in Salesloft so the error does not occur
+Lift the requirement in your Salesforce in the Admin settings.
+Unable to lock row
+Error theme: Locked Record
+
+Tool Tip: This record cannot have multiple updates made at the same time. Retry sync or adjust workflow trigger settings in Salesforce.
+
+The unable_to_lock_row error occurs when multiple changes are attempted to the same record at the same time, resulting in sync failure. These errors may apply to activity updates or bidirectional sync updates.
+
+When a UNABLE_TO_LOCK_ROW failure occurs related to bidirectional sync or an activity update, the system will perform automatic retries up to three times to reprocess the sync error. If the sync still fails after the third automatic attempt, review the error and retry the sync manually.
+
+After attempting the sync manually, if this error persists, there is likely a workflow triggered when you attempt to update the field. Check with your Salesforce admin to remove the trigger setting. 
+STRING_TOO_LONG: End Time: data value too large...
+Error theme: CRM Error: Field Settings
+
+The STRING_TOO_LONG error means that there is a character restriction in Salesforce for the following field. To fix this, you will need to expand the character limit of that field in Salesforce.
+INVALID_TYPE_ON_FIELD_IN_RECORD
+Error theme: CRM Error: Field Settings
+
+This error means that Salesloft is trying to enter a value into a field that does not accept that type of value, like sending a text value to a boolean field in Salesforce. Double-check that you are entering the correct value for the field and try again.
+ 
+Last Modified By
+Briana Morgan, 2/16/2023 8:46 PM
+Title
+Salesforce Troubleshooting Guide
+URL Name
+Salesforce-Troubleshooting-Guide
+Salesloft Knowledge
+Salesforce
+CRM
+Salesforce Admin Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

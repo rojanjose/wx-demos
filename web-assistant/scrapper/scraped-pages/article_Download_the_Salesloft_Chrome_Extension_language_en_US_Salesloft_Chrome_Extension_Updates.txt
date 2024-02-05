@@ -1,0 +1,89 @@
+GETTING STARTED
+Download the Salesloft Chrome Extension
+
+Oct 11, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Salesloft Chrome Extension, also known as the Connect Extension, is a plug-in that extends your sales engagement beyond the Salesloft platform. The extension brings Salesloft’s features into your Google Chrome Browser, Gmail, and Salesforce to improve your sales process.
+
+ 
+
+Want to give our newest version a try? We’d love for you to take it for a test drive and share your experience with us. Please visit our Salesloft Connect Early Access article for more details.
+
+ 
+
+In this article, you will learn how to install and maintain the Salesloft Chrome Extension, including:
+
+Install the Salesloft Chrome Extension
+Salesloft Chrome Extension Updates
+Reboot the Salesloft Chrome Extension
+Uninstall the Salesloft Chrome Extension
+Salesloft Chrome Extension Troubleshooting
+
+For more information on Salesloft Connect and its features, check out the Manage the Salesloft Chrome Extension article. 
+
+Install the Salesloft Chrome Extension
+
+The Salesloft Chrome Extension must be installed from the Chrome Store before you can take advantage of all its awesome capabilities. The extension is a totally free add-in.
+
+You can download the extension from one of the following methods:
+
+Click the link here and add the extension. 
+A notification bar will appear at the top of the Salesloft browser window prompting you to download the extension. 
+
+Go to Your Personal Settings in Salesloft by clicking your name in the upper right corner and selecting Settings from the menu. Once you’ve accessed the Settings page, go to the Downloads tab. There you will see the option for the Salesloft Chrome Extension. Click Install Chrome Extension. The Chrome Web Store will open in another window, where you can complete the install.
+Reboot the Salesloft Chrome Extension
+
+Sometimes networks can get out of sync and need a quick jolt to get them back on the right track. If your extension is lagging and needs a reboot, you can disable and re-enable the extension.  
+
+To reboot the extension, follow these steps: 
+
+1. Access the Extension Manager by right-clicking on the Salesloft icon in the Extensions bar and select Manage Extensions.
+
+
+2. The Extensions Manager will open in another tab. From that page, you can toggle the slider on and off to disable and re-enable the extension.
+ 
+
+
+ 
+
+3. Once the extension has been rebooted, you'll need to reload any Gmail, Salesforce, or Salesloft tabs that you have open to reflect the change.
+
+Uninstall the Salesloft Chrome Extension
+
+The reinstall method will clear out any saved data by the extension. This may be necessary in some cases.
+
+To uninstall the extension, follow these steps:
+
+1. Access the Extension Manager by right-clicking on the Salesloft icon in the Extensions bar and select Remove from Chrome.
+
+2. A popup will appear to confirm removing the extension. 
+ 
+
+ 
+3. Once the extension has been rebooted, you'll need to reload any Gmail, Salesforce, or Salesloft tabs that you have open to reflect the change.
+
+To reinstall the extension, you can click this link here or go to the Downloads tab in your Salesloft Settings and click Install Chrome Extension.
+
+Salesloft Chrome Extension Troubleshooting
+
+Are you experiencing problems with your extension or any of the Salesloft Connect features? Check out our Update and Troubleshoot the Salesloft Chrome Extension article for help.   
+
+Last Modified By
+Raequel Sank, 10/11/2023 6:55 PM
+Title
+Download the Salesloft Chrome Extension
+URL Name
+Download-the-Salesloft-Chrome-Extension
+Salesloft Knowledge
+Getting Started
+Support Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

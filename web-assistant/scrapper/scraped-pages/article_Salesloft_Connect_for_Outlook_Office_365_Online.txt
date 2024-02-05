@@ -1,0 +1,71 @@
+USER GUIDES
+SALESLOFT CONNECT
+CONNECT FOR OUTLOOK
+Salesloft Connect for Outlook - Office 365 Online
+
+Dec 14, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+In modern sales, you use more than one piece of technology to complete your day-to-day tasks. But hopping between multiple platforms and searching for the information you need is a waste of time. Salesloft’s Connect feature solves the problem between your technology stack by letting you access and perform Salesloft functions directly from the applications you use the most.
+
+Salesloft Connect for Outlook provides modern sales organizations the ability to seamlessly integrate the powerful functionality of Salesloft into the Outlook platform. You can Loft emails, view and insert templates, create reminders, and view a Person's Salesloft information while engaging with your prospects directly inside of your Outlook environment.
+
+
+
+In this article, you will learn all of the features available with Salesloft Connect for Outlook - Office 365 Online version, including:
+Supported Versions of Outlook
+Install Connect for Outlook - Office 365 Online
+Send Salesloft Emails in Outlook - Office 365 Online
+Disconnect the Add-in - Office 365 Online
+If you are using the Office 365 version of Outlook, learn how to use Salesloft Connect for Outlook - Windows and Mac. 
+
+Need help with an error? Check out the Troubleshooting Salesloft Connect for Outlook article. 
+Supported Versions of Outlook
+Currently, the Salesloft Connect feature is supported by certain applications and versions of Outlook. We’ve compiled a list of the approved versions of Outlook. To learn more information on whether your Outlook client supports add-ins, and would be able to support Salesloft Connect, check out the link here.
+
+Connect for Outlook is supported by the following Exchange and Office 365 applications:
+
+
+
+Your Outlook may need to upgrade to a newer version to avoid functionality disruption. If you’re not sure how to check your client version, check out these instructions. These are the approved versions of Outlook:
+Exchange 2013: You must be running version #CU_15.
+Outlook for Windows 13: You must be running version #15.0.4605.1003 or higher.
+Outlook for Mac 16: You must be running version # 15.35 (170509) or higher.
+Install Connect for Outlook - Office 365 Online
+Before you Loft emails, keep on top of reminders, and view Salesloft People from your Outlook, you need to install the Salesloft Connect for Outlook add-in.
+
+To install the add-in for Office 365, follow these steps:
+Open Outlook Settings, then navigate to Manage add-ins.
+Search for Salesloft in the search window to bring up the Salesloft Connect listing.
+Click Get it now.  Turn the toggle on to activate the Salesloft add-in.
+Send Salesloft Emails in Outlook - Office 365 Online
+Installing Connect for Outlook allows you to leverage the power and features of Salesloft email and templates in your inbox. Quickly add a template while your composing an email so you use the same consistent messaging, with the added benefit of tracking metrics.
+
+To learn more about sending Salesloft emails for Office 365, check out Send Emails from Outlook - Office 365
+Disconnect the Add-in - Office 365 Online
+To disconnect the Salesloft Connect for Outlook add-in from Office 365, follow these steps:
+Select the gear shift icon to go to your Outlook settings. This should be an icon in your top navigation toolbar. 
+Select Manage add-ins. 
+Under the Add-ins tab, select My add-ins. 
+Find the Salesloft Connect add-in from your list. 
+Select the ellipses icon (three dots) in the bottom right corner of the Salesloft Connect add-in. 
+Click Remove. 
+The add-in will be removed from your Outlook, but will remain in your list of add-ins within the store. If you want to re-enable the add-in, select the Add button on the Salesloft Connect add-in tile. 
+Last Modified By
+Stephanie Griffith, 12/14/2021 8:17 PM
+Title
+Salesloft Connect for Outlook - Office 365 Online
+URL Name
+Salesloft-Connect-for-Outlook-Office-365-Online
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Connect For Outlook
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

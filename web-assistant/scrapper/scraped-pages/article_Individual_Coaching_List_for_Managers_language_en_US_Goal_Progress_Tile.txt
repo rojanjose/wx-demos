@@ -1,0 +1,79 @@
+COACHING
+Individual Coaching List for Managers
+
+Dec 15, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Sales Managers are responsible for their team’s performance. In order to ensure your team is working to achieve their goals, the best managers coach their rep’s towards success. 
+
+Realistically, coaching takes time. How can you pinpoint areas of improvement for the individuals on your team? 
+
+Fortunately, Salesloft provides the  Coaching Individual List View. This page inside the Coaching platform area shows Sales managers how each member of your team is tracking towards goals, so you can quickly identify areas of concern and celebrate accomplishments.
+
+The Coaching Individual List View is available to Salesloft Admins by default and can be assigned to other users when the Coaching Team View permission is enabled. 
+
+Things to Note: If a user does not have the Coaching Team View permission enabled, they will be directed to their own Individual Coaching Dashboard whenever they select the Individual tab in Coaching. 
+
+In this article, you will learn about the components of the Individual list view that managers can use, including
+
+Coaching Individual List View 
+Goal Progress Tile
+Coaching Individual List View 
+
+From the Individual list view, you can find answers to questions like:
+
+Who’s achieving or exceeding their goals right now?
+Who is not on pace for their goals right now?
+Are my sellers' goals at the right target in comparison to their peers? Do they need to be adjusted?
+
+With these questions in mind, a team manager can enter a conversation with their direct report prepared to address strengths or weaknesses.
+
+Let’s walk through the components of the Coaching Individual List View: 
+
+Goal Progress as of (Date): (Goal Progress Header) Lets you know the time frame when the goal information for your team has been gathered. The goals time frames are selected when you set the goals for your team.
+
+Things to Note: Weekly goals are calculated from the start of the week (Monday) until the current day. Monthly goals accumulate from the start of the month (day 1) until the current day.
+
+Group Filter: A filter to select one or more groups. By default, the Coaching Team View will show the group that you are assigned to and the list of users also assigned to that group. 
+
+View Team Performance Report: A link to a filtered Team performance report pre-filtered to the same group. While the Coaching Team View highlights goals and drives coaching conversations, the Team Report offers a detailed look at all of the activities logged by the members of the group. 
+
+Total number of users
+
+Search: Search for a specific user by their name or email address.
+
+Individual Goals List View: (AKA List of Goal Progress Tiles) The bulk of the Coaching Individuals View Page shows your team's progress inside the Goal Progress Tiles. The tiles listed show the set goals and a visual indicator of progress towards those goals of users in the selected group(s). Team members will be listed in alphabetical order.
+
+Goal Progress Tile
+
+The Goal Progress tile shows the Coaching metrics for each user. The Team View offers a list of Goal Progress Tiles for all of the users in a group. When you visit an individual’s Coaching view, the Goal Progress tile appears at the top of the page as the header to let you know whose Coaching data you are viewing. 
+
+Users have their own tile where you can view the Coaching-specific information. Let’s walk through a Goal Progress tile.  
+
+Checkbox: Select multiple users to change goal settings in bulk.
+User’s Name: Name of the Salesloft user.
+Goals: Overview of the Goal that has been defined by a manager or admin for this user. User's can have anywhere from 0-3 goals. 
+Goal Type: Metric being measured for that particular goal .
+Time Frame: How often the goal is measured.
+Number completed out of projected goal amount
+Percentage of goal achieved
+Progress indicator bar
+Set Goals: Edit the goals assigned for this user. 
+Things to Note: Goals edited using this Set Goals option will also update the Goal Settings. This button will only appear when the Manage Goals permission is enabled.
+Last Modified By
+Stephanie Griffith, 12/15/2023 8:44 PM
+Title
+Individual Coaching List for Managers
+URL Name
+Individual-Coaching-List-for-Managers
+Salesloft Knowledge
+Coaching
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

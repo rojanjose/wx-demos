@@ -1,0 +1,113 @@
+ADMIN GUIDES
+Manage Single Sign-On
+
+Oct 9, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft supports the use of single sign-on identity providers (also called SSO). These are session and user authentication services, such as OneLogin, Okta, or Active Directory, that permit a user to use one set of login credentials to access multiple applications.
+
+In this article, we provide a walkthrough of how to set up several popular IdPs, including:
+
+Set Up Your Single Sign-On Provider
+Enabling and Disabling Single Sign-On via SAML
+SSO via Google OpenID Connect
+What If My Solution Is Not Listed?
+
+If you experience any issues with setting up SSO, check out the SSO Troubleshooting Guide.
+
+Set Up Your Single Sign-On Provider
+
+Salesloft currently has single sign-on via SAML setup capabilities with the following IdPs:
+
+Single Sign-On: Okta Instructions
+Single Sign-On: Salesforce IDP Instructions
+Single Sign-On: OneLogin Instructions
+Single Sign-On: Google SSO through SAML
+Single Sign-On: Microsoft Azure Instructions
+
+Please click the appropriate link to view step-by-step instructions for setting up your single sign-on provider.
+
+Salesloft also supports SSO via Google OpenID Connect. 
+
+What if my solution is not listed?
+
+Enabling and Disabling Single Sign-On via SAML
+
+Once everything is set up on the application end, you can enable single sign-on in your Salesloft account. The instructions are labeled on the Single Sign-On Settings page under the SAML tab. For a detailed walkthrough of the instructions, follow these steps:
+
+1. Go to the Salesloft Single-Sign On Settings. Click the Upload File button to upload the metadata file from your provider. 
+ 
+
+ 
+
+2. Click Test Login to test your SAML configuration before enabling it. You will be directed to the Test Login page. 
+
+If SAML is configured correctly, you should see a Test Successful page.
+
+If you see a Test Unsuccessful page, review your setup. If the problem continues, check the SSO Troubleshooting Guide for solutions to common problems. After you have made any corrections, try to login again. 
+
+3. If the test was successful, click Enable SSO via SAML to apply it. 
+
+Things to Note: this will take effect immediately. 
+
+Once you've enabled SSO, you may disable it at any time from the same settings page by clicking Disable SSO. 
+
+When SSO is disabled, used will no longer be logged in via SSO. When a user reaches the Salesloft login page after SSO has been disabled, they can perform a password reset in order to login without SSO. 
+ 
+
+SSO via Google OpenID Connect
+
+OpenID Connect is an authentication protocol built with the goal of making single sign-on simple, easy to set up, and unlike SAML, requiring zero configuration.
+
+Salesloft offers OpenID Connect for teams that authenticate with Google. 
+
+Things to Note: This feature can be enabled for any team that signs in to Salesloft using Gmail or G Suite email addresses.
+
+To enable SSO via Google OpenID Connect, follow these steps: 
+
+Go to the Salesloft Single Sign-On Settings.
+Select the SSO via Google OpenID Connect tab. 
+Click the button Enable SSO via Google OpenID Connect.
+
+ 
+
+
+ 
+
+Once connected, the Single Sign-On label at the top of the page will be followed by a green icon that designates which SSO option is enabled for your team. 
+
+What If My Solution Is Not Listed?
+
+If you are using an internal IdP solution or another IdP not listed here, these are the credentials typically used for setup (please contact Salesloft Support if we do not list a credential you need):
+
+Audience/Audience URI: SalesLoft
+
+Things to Note: The second L in Salesloft must be capitalized as it is shown above or the Audience/Audience URI will not work.
+ 
+
+Recipient/ACS URL/Single Sign-On URL: https://accounts.salesloft.com/auth/saml-callback
+ACS (Consumer) URL Validator: ^https:\/\/accounts\.salesloft\.com
+Entity ID: SalesLoft 
+
+Things to Note: The second L in Salesloft must be capitalized as it is shown above or the Entity ID will not work.
+ 
+
+Name Id Format: Email address
+Last Modified By
+Stephanie Griffith, 10/9/2023 5:38 PM
+Title
+Manage Single Sign-On
+URL Name
+Manage-Single-Sign-On
+Salesloft Knowledge
+Admin Guides
+Single Sign-On
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

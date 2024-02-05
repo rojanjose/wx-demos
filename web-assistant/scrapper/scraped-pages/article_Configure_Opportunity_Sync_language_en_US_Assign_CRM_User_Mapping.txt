@@ -1,0 +1,78 @@
+ADMIN GUIDES
+Configure Opportunity Sync
+
+Jun 30, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Outcomes Dashboard aims to provide a detailed overview of your team's results, including completed activities, meetings booked, and created opportunities. While the data for completed activities and meetings booked is readily available in the Salesloft platform, opportunities created must be configured between Salesloft and your CRM in order to sync the correct data. This configuration is required to link and count opportunities created in Analytics, Coaching, People pages, and Account pages.
+
+To get the opportunities created data on the dashboard, Opportunity Sync will need to be configured. The Opportunity sync setup involves enabling CRM sync for opportunities within Salesloft, mapping Opportunity fields so that data will be in sync, and finally, setting up CRM User Management to link users to the appropriate CRM.
+
+Things to Note: If you already use opportunity sync and have enabled sync, mapped opportunity fields, and set up your CRM Sync User Management, no additional configuration is required.
+
+In this article, you will learn how to set up Opportunity Sync for your Outcomes Dashboard, including: 
+Map CRM Opportunity Fields
+Set Up Opportunity CRM Sync
+Assign CRM User Mapping
+ 
+Map CRM Opportunity Fields
+Field Configuration lets you select Salesloft fields that will sync data to equivalent fields in your CRM. When you are working with opportunities, you will set fields using the Opportunity Field Configuration. 
+
+For Opportunities Created in your Outcome Dashboard, Salesloft needs to know specific Opportunity data to surface who created an opportunity and when an opportunity was created. This information allows you to view created opportunities by user and filter opportunities in the dashboard for a certain time period respectively. Since that can only be created in your CRM, you must map certain opportunity fields to bring this data into Salesloft. 
+
+Map the following Opportunity Fields to the correct CRM fields under Opportunity Fields Configuration: 
+Created Date: We recommend mapping to the appropriate field in your CRM:
+Salesforce Field = CreatedDate
+Dynamics Field = createdon
+Created by CRM ID: We recommend mapping to the appropriate field in your CRM:
+Salesforce Field = CreatedById
+Dynamics Field = createdby_value
+
+If your team uses custom fields to track who created an opportunity and when, an admin can map Created Date and Created by CRM Id Salesloft fields to the custom CRM fields. Salesloft will use these fields to filter Opportunities created by Time range and Group on the dashboard. 
+
+Things to Note: Created by CRM Id field should be mapped to the field with Data Type = Lookup (User)
+
+If the Stage field is mapped under Opportunity Fields Configuration, opportunities stages in Salesloft should mirror the opportunity stages in your CRM. Otherwise opportunities might fail to sync, causing data discrepancy between your CRM and Salesloft. 
+ 
+Set Up Opportunity CRM Sync
+CRM Sync controls whether or not data will flow between Salesloft and your CRM. When you turn CRM sync on, fields that are mapped in your Field Configuration will sync and begin sharing data. The CRM sync lets you manage how often Salesloft will sync data for each data object using sync frequency. 
+
+Once you have enabled CRM sync and set your Opportunity sync preference, you have turned on Opportunity CRM sync.
+
+Syncing Opportunities will allow the following data to populate based on the fields you have mapped in your Opportunity Field Configuration:
+Opportunities Created panel on the Outcomes Dashboard
+Opportunities Panel - Person Profile Page
+Opportunities Panel - Account Profile Page
+Opportunity-based Automation Rules
+
+Things to Note: If you do not see the Opportunity object on the CRM Sync Management page, check your Opportunity Field Mapping. Objects will not appear on the CRM Sync Management page until at least one (1) field has been mapped to that object in the field configuration.
+ 
+Assign CRM User Mapping
+In the Map CRM Opportunity Fields section above, we recommended mapping the Created By CRM ID field. This is an important field that highlights the Opportunity creator. However, the CRM shares this data as alpha-numeric strings. In order to translate this number into a form most people with recognize and use (aka a person's name). 
+
+CRM User Management links Salesloft users to a CRM ID.
+
+Each Salesloft user will need to be linked to their individual CRM account to view the number of opportunities created by each rep in the Outcomes Dashboard.  If the Salesloft user is not mapped to the  CRM user, the opportunity will not be related to any Salesloft user. 
+
+Things to Note: If there are multiple Salesloft users who are associated with the same CRM user, Salesloft will credit the first linked user with the opportunity booked. 
+
+If a Salesloft user was not previously mapped to any CRM User under User Management settings, 
+opportunities which were previously synced to Salesloft will remain unassigned and will not appear on the Outcomes Dashboard. Only opportunities created AFTER the Salesloft user is mapped to a CRM user will have the correct assignment and will be taken into account for the metrics on the dashboard.
+ 
+Last Modified By
+Briana Morgan, 6/30/2023 1:44 PM
+Title
+Configure Opportunity Sync
+URL Name
+Configure-Opportunity-Sync
+Salesloft Knowledge
+Admin Guides
+Data Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

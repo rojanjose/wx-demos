@@ -1,0 +1,101 @@
+DIALER + MESSENGER
+The Salesloft Dialer
+
+Aug 23, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Time to hit the phones! Phone calls with prospects allow you to create a meaningful connection between you and your potential customers while you increase their awareness of your product or service.
+
+Salesloft’s Dialer allows you to place calls efficiently directly from our platform and even on the go with Salesloft Mobile. 
+
+In this article, you will get an introduction to the Salesloft Dialer and the features the Dialer offers, including:
+How the Salesloft Dialer Works
+Access the Dialer
+Dialing in Salesloft
+Phone Number Formatting
+The Dialer Features and Layout
+How the Salesloft Dialer Works
+Salesloft partners with Twilio, a cloud based communications platform, to provide our robust Dialer. Twilio uses VoIP (Voice-over IP) to make calls. This means that any calls made occur over your network, so your calls will be completed from your computer and you no longer need to use your desk phone.
+
+You have two options for making calls with the Salesloft Dialer:
+VoIP: Dialer provided through a third party. This Dialer relies heavily on your network provider. You will need to set up QoS and follow our best practice guidelines to stabilize Dialer quality .
+Pass Through Calls: Dialer method that allows the first “leg” of the call to use VoIP to call your cell or desk line (carrier provider). The second “leg” of the call will use your carrier provider (e.g., AT&T, Verizon). Since Pass Through uses your carrier provider, you don’t need to rely on VoIP/your network.
+Whenever you make a call, we send the call info to Twilio. Then Twilio places the call based off of the information. Twilio uses your area to find the best server for you to connect to the Person you are calling.
+
+Once the call reaches the recipient, they will answer or ignore the call (you know, how calls go). If the recipient answers the call, this is where your network comes into play. Your network and Twilio work together for the duration of the call. This connection between your network and Twilio will be the primary factor behind call quality.
+
+The more people on your network making calls or using the network, the more likely you will run into call quality issues. Imagine being surrounded by 500 people at a concert or stadium and everyone's on their cell phones. The network gets overloaded and won’t let you send messages, make calls, or post anything. This is the exact same thing that happens on a high traffic VoIP network.
+
+If your team is experiencing Dialer- or network-related issues, please check out our Dialer Troubleshooting Guide.
+Access the Dialer 
+When it's time to make your calls there are a few options to access the Salesloft Dialer within the platform. To learn more about those options, check out the Access the Dialer within Salesloft article. 
+Dialing in Salesloft
+Calling through Salesloft is a lot like calling from your cell phone, but it takes place in a web browser. 
+
+To dial a number, use one of the following options: 
+Enter the phone number on the dial pad
+Once the Dialer is open, click the dial pad icon in the top right corner of the Dialer to view the full dial pad. Now you can type the number from your keyboard OR use your mouse to click the phone number.
+
+Once your call is done, hang up and Log a Call. 
+Select an alternative phone number 
+If the Person has multiple phone numbers on their record and the user wants to auto-populate the dial pad with one of the other numbers, they can click on the dropdown arrow next to the current dial pad number and switch to a different one. 
+
+Once your call is done, hang up and Log your Call. 
+ 
+
+ 
+Use the Dialer to search for an Account name
+This will pull up a list of all the contacts within an organization. Scroll through the dropdown and pick the specific Person you would like to call.
+
+Once your call is done, hang up and Log your Call. 
+Phone Number Formatting
+While phone numbers may be entered into the Dialer in the US standard format, we recommend using E.164 phone number formatting to complete your calls. 
+
+I know what you're thinking, E.164 looks like a code, what does that even mean? 
+
+E.164 is the international telephone numbering plan that ensures each device has a globally unique number. So, while our standard numbers look a little something like this: (404) 555-1234, the E.164 format adds a country code to help specify the number. If you are calling internationally, you definitely want to enter phone numbers using this format. 
+
+E.164 formatting for phone numbers follows this pattern (check out the parenthesis for an example):
+Plus sign (+)
+International Country Calling code (1 when calling countries in North America)
+Local Area code (404)
+Local Phone number (555-1234)
+Dialing International Numbers
+For international numbers, the standard number may require some reformatting. For example, if someone in the UK has the local number is 020 7183 8750, the E.164 format would be +442071838750. Here's how that number breaks down: 
+Plus sign (+)
+International Country Calling code (44 when calling countries in United Kingdom)
+Local Area code (Countries may use an additional "0" in front of the subscriber number. With E.164 formatting, this "0" must usually be removed. For our example, the number will be "20.")
+Local Phone number (7183-8750)
+What if you are dialing a number using an extension?
+E.164 formatting indicates the use of: 
+
+[+] [country code] [subscriber number including area code];ext=XXX
+
+However, the maximum digits in a true E.164 number is 15 digits, so the extension will ultimately be ignored. Due to this, we recommend entering the extension in a second field.
+
+In the Person Details Overview, you will find an Office Phone Number option, along with a separate Extension field. By adding the extension to this field, you will be able to field the extension number as you are dialing from the Person's Profile page. This will make it easy to punch in the number on the dial pad while calling. 
+
+Things to Note: The Phone Extension field is also an available field in your Field Configuration. This means a team admin can map the extension field to import that data directly into the field. 
+The Dialer Features and Layout
+Your calls will take place inside the Dialer window. You can dial a number similar to how you would on any electronic device. 
+
+The Dialer also goes beyond the standard keypad. Inside the Dialer you will notice a number of icons, tabs, and buttons. Each item in the Dialer offers an additional function or feature that can enhance your calling experience. For example, you can manage call recording, invite another Salesloft user to conference in, and even log your call all from the Dialer window. 
+
+To learn more about everything included in the Dialer, check out our Complete Dialer Walkthrough article
+Last Modified By
+Raequel Sank, 8/23/2023 6:54 PM
+Title
+The Salesloft Dialer
+URL Name
+The-Salesloft-Dialer
+Salesloft Knowledge
+Dialer + Messenger
+Phone Calls With The Dialer
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

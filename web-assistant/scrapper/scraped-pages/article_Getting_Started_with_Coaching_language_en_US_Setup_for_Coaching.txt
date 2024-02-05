@@ -1,0 +1,90 @@
+COACHING
+Getting Started with Coaching
+
+Dec 15, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Selling is an acquired skill. Similar to athletic abilities or other talents, your selling techniques can be improved through constant practice and the help of a proper coach. Sales coaches may be a manager, team lead, or even a mentor. Either way, a sales coach’s priority is to highlight areas of success and address areas for improvement that will help reach sales goals. 
+
+So, how is a coach supposed to know the sales skills to develop or praise for each rep? Just like athletes use game film, sales managers can use Salesloft’s Coaching to hone in on key performance areas. 
+
+Coaching is a series of dashboards that track goals and compare rep performance across a group or team. With this capability, managers and reps can collaborate and identify areas for improvement and then develop personalized plans for each seller to accelerate their sales.
+
+The Coaching dashboards are designed to show how well a seller is performing key actions like emails, calls, and recorded meetings. By review the dashboards, teams can accomplish the following: 
+
+Managers get a glimpse of how reps are progressing towards overall goals (who’s falling behind and may need more coaching).
+Managers can set, update, or remove goals for individual reps or multiple reps at once.
+Reps can identify and self-correct on key activities in comparison to their teams.
+Managers can review Cadence and Conversations activities completed by each user (instead of by cadence or by person) so they can coach reps on better prospecting techniques or objection handling.
+
+In this article, you will be introduced to Salesloft’s Coaching and learn how to start using Coaching, including: 
+
+Setup for Coaching
+Permissions Required for Coaching
+How to Access Coaching
+Setup for Coaching
+
+Salesloft activities, like logged calls and emails, are pulled into Analytics pages, including the Coaching dashboards. Opportunities and meeting data requires inputs from your CRM and calendar in order to stay up-to-date.
+
+In order to make sure your team’s data populates the Coaching dashboards, a team admin will need to configure specific settings inside of Salesloft. Click the following links for additional instructions about the settings to set up for Coaching: 
+
+Configure Calendar Sync: When scheduling and rescheduling meetings, you want your calendar to be as up-to-date as possible. That’s where Calendar Sync comes in handy.
+Configuring Calendar Sync is essential for tracking meeting metrics which appear in the Meetings Booked panel and relevant charts. 
+Each user manages their own Calendar Sync setting. Have each user Set Up Calendar Sync so their meeting data appears in the Coaching.
+Configure Opportunity Sync: To track your team’s opportunity metrics, you will need to configure Opportunity Sync. Opportunity Sync allows for the mapping of Opportunity field data. When Opportunity Sync is enabled,  your Coaching Dashboard will be able to show Opportunity specific information like Opportunities Created 
+Configure CRM Sync (Deals Users): To track Deals metrics (such as Closed Won and New Pipeline Added) in Coaching , team admins must configure CRM Sync from their Deals Admin Settings.
+Things to Note: Only users who have been assigned the Admin role AND access to Deals can access these settings.
+
+Permissions Required for Coaching
+
+Coaching is available to all Salesloft users by default. However, certain functionality within Coaching will only be available to users that have certain Permissions assigned to their user role. 
+
+By default, non-admin users see their own data inside of Coaching. 
+
+The more granular permissions enable Sales Managers to view team data. These permissions are enabled for any Salesloft user with the default Admin role. You can also create a “Manager” role that includes these permissions, so managers can view their team’s data. The Coaching Permissions specific to managers include: 
+
+Team View: See data in Coaching for individual users that are in the same group or hierarchy. The permission enables the group data in the Team Coaching Dashboard, access to the Individuals Coaching List View, and the User filter on the Individual View pages. 
+Things to Note:
+If your team does not have groups set up, the Team View permission will show the data for all users in your team. 
+​​If you want to make sure your reps cannot see other team members’ data, disable the Team View permissions. Users without the Team View permission will go directly to their Individual Coaching Dashboard when they access Coaching. They cannot see the Individual Coaching List View, the user filter on the Individual Coaching Dashboard, the group filter on the Team Coaching Dashboard, or data of other groups or users (other than themselves).
+Manage Goals: Allows access to the Goals Settings page. This permission controls managing other users’ and group goals beyond your own. By default, all users can edit their own goals.
+View Email Content: Shows the full email body when viewing an Email inside Coaching.
+
+How to Access Coaching
+
+To access Coaching, select the Coaching Product Tab from the top navigation in the Salesloft platform. 
+
+Inside Coaching, you will find page tabs for specific coaching tools. The tabs displayed and pages will vary based on your user permissions. 
+
+ 
+
+Coaching includes the following tool tabs: 
+
+Team
+Individual
+Manager View
+Individual View
+Scheduled Actions
+Live Call Studio
+
+Things to Note: Prior to November 2023, the Team tab was labeled as Outcomes. The Individual tab was labeled as Coach. The dashboards and data included on those pages have not been changed.
+
+ 
+
+Last Modified By
+Stephanie Griffith, 12/15/2023 3:46 PM
+Title
+Getting Started with Coaching
+URL Name
+Getting-Started-with-Coaching
+Salesloft Knowledge
+Coaching
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

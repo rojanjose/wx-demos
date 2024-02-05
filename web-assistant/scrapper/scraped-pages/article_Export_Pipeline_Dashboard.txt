@@ -1,0 +1,47 @@
+DEALS
+Export Pipeline Dashboard
+
+Nov 22, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Pipeline Dashboard provides a list view of opportunities. This view can be filtered and and sorted to adjust the information show in the list, which is great when you want to see deals for a specific time period, user group, or even Deals that have a certain stage. 
+
+However, there are times when it may make sense to pull your Deals data out of Salesloft by exporting the Pipeline Dashboard. You can export the Pipeline Dashboard to compare the data in Deals with their Salesforce Dashboards via excel or you want to show Pipeline views with executives or non SalesLoft users
+
+Things to Note: 
+
+Only Deals users may access and export the Pipeline Dashboard
+The ability to export the Pipeline Dashboard will be visible to Salesloft admins by default. Users with the Export Analytics permissions will also have access to the Export button.
+The following fields will not be included in the export:
+ToDo’s
+Deal Engagement Score
+Stakeholder Count
+All Tasks
+Your Tasks
+
+To export the data from your Deals Pipeline Dashboard, follow these steps:
+
+Go to the Deals product area and select the Pipeline tab.
+Select Export found on the upper right side of the page. The Export Dashboard as a CSV window will appear. 
+In the Export Dashboard as a CSV window, click Export. A notification will inform you that the export will be sent to your email.
+Check your email. You should see an email that your export is ready to download. Open the email. 
+Inside the email, click Download CSV. This will bring you into Salesloft and automatically start to download the file.
+
+Last Modified By
+Stephanie Griffith, 11/22/2023 5:29 PM
+Title
+Export Pipeline Dashboard
+URL Name
+Export-Pipeline-Dashboard
+Deals
+Pipeline Management
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,91 @@
+ANALYTICS + REPORTING
+Salesloft Analytics FAQ
+
+Jun 23, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft Analytics is a robust tool full of your team's data.
+
+In this article, you will find the answers to some of the most commonly asked questions about Salesloft Analytics, including: 
+How much detail can I see in Analytics? 
+How do Successes get counted?
+Do all Meetings Booked get counted?
+What does the Total Activities calculation include? 
+What does the Total Account Touches calculation include? 
+How are Percent Changes calculated?
+What is the Reply Rate calculation?
+What does Email Opens include?
+What is considered a Positive Call or Connected Call? 
+How are email metrics derived in Analytics? 
+What is the difference between Emails Sent vs. Delivered?
+ 
+How much detail can I see in Analytics?  
+Your data can be filtered by a wide arrange of dates and groups of users. The lowest level of data in Analytics is by user by hour.
+ 
+How do Successes get counted?
+Successes are counted when you click the Success button on a Person Profile page or when you log a Call.
+
+While all Successes count towards the total of Successes, all Successes are not attributed to cadences. Some Successes are attributed directly to a Person and not a Cadence. This is why it is not a defect or bug to have discrepancies between success counts on users vs. cadences. 
+
+Successes are attributed to a Cadence if the last action performed was from the Cadence. For instance, if I call Linda as part of a Call step in a Cadence and mark her as a Success after the call is complete, the last action was a Call step in that Cadence. So the Success would be attributed to the Call step of that Cadence. Now, if I leave a voicemail for Linda, she calls me back, and I go straight to her Person Profile page to mark Success, the success gets counted as a user action, but not to the Cadence. 
+ 
+Do all Meetings Booked get counted?
+All meetings that are logged through Salesloft will be counted as a Meeting Booked in our analytics. This includes meetings booked through Salesloft as well as meetings Lofted from your calendar. 
+
+Meetings booked outside of Salesloft will not currently be counted. 
+What does the Total Activities calculation include? 
+The Total Activities calculation is Emails sent + Calls logged + Other completed steps + Integration steps. The calculation includes both Cadence and one-off activities.  
+
+Things to Note: Total Activities does not currently include Tasks.
+What does the Total Account Touches calculation include? 
+The Account Touches calculation is identical to total activities (emails sent+ calls logged+ other completed steps + integration steps). It has a different name because there can be some activities completed that are not tied to an account.
+
+For example, if you are prospecting leads or engage directly with your consumer, an Account would not be associated with the Person. If your business fits these example, you will want to refer to the total activities metric. 
+ 
+How are Percent Changes calculated?
+Percent changes are calculated in two different ways:
+If the metric is a whole number and not already a percent, like number of email replies, then the percent change is calculated as "Current period-minus prior period / prior period X 100."  
+If the metric is already a percent, like reply rate, the percent change is the difference in percentages or current period-prior period.  
+ 
+What is the Reply Rate calculation?
+The Reply Rate is the total emails delivered, including bounces, divided by total replies.
+
+Bounces are intentionally included in the reply rate. The reply date refers to the date an email is sent, not received.
+What does Email Opens include?
+Email opens in analytics counts how the number of emails that have been opened at least once. The number does not display the number of opens for a single email.  
+
+Emails opened by someone with the same domain are excluded from email counts.
+What is considered a Positive Call or Connected Call? 
+A Connected Call is any call logged with the standard disposition Connected.
+
+Calls logged with the sentiments Interested, Timeline 6-12 Months, or Demo Set are considered Positive Calls. 
+
+Things to Note: The Positive Calls metric is tied to Salesloft default sentiments. If you delete a default disposition or sentiment and replace it with using the same name, calls logged with the replacement will be included in the totals going forward. To see what are considered standard dispositions and sentiments, click here. ​​
+How are email metrics derived in Analytics? 
+Email metrics are derived, or obtained, from emails sent in a given timeframe.
+
+Email Opened, Clicked and Replied metrics report how many delivered emails were resulted in some form of email engagement. For example, out of the 10 emails delivered this week, 5 were opened, 3 were clicked, and 2 were replied to.
+
+You can learn more about Email metrics in the Email Standard Report article. 
+What is the difference between Emails Sent vs. Delivered?
+Emails sent includes all emails that are sent from Salesloft (or Lofting an email using Connect for Salesloft).  
+
+Emails delivered represents emails sent minus email bounces. Sometimes bounces can take days or weeks to show up, so the delivered count can change. 
+ 
+Last Modified By
+Briana Morgan, 6/23/2023 2:37 PM
+Title
+Salesloft Analytics FAQ
+URL Name
+Salesloft-Analytics-FAQ
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Essentials
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

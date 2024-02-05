@@ -1,0 +1,26 @@
+ANALYTICS + REPORTING
+How much data history is in Salesloft Analytics?
+
+Mar 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+As of July 2020, data history rolls back 18 months. Prior to July 2020, Salesloft data went back as far as January 2018.
+
+There are some exceptions to the data contained. For example, if a Person replies to an email that was originally sent in 2009 (which would be really impressive), the metrics attributed to that email are available. 
+Last Modified By
+Stephanie Griffith, 3/28/2023 10:39 AM
+Title
+How much data history is in Salesloft Analytics?
+URL Name
+How-much-data-history-is-in-Salesloft-Analytics
+Analytics FAQ + Troubleshooting
+Analytics + Reporting
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

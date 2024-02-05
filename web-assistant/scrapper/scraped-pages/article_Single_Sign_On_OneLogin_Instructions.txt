@@ -1,0 +1,49 @@
+ADMIN GUIDES
+Single Sign-On: OneLogin Instructions
+
+Sep 28, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+We need to configure the Salesloft application from OneLogin. Follow the instructions below to configure:
+
+1. Open OneLogin in a new tab.
+
+2. Navigate to Apps and then Add Apps in the top menu: 
+ 
+3. Click the blue Add App button on the top right.
+ 
+4. Search for Test connector and select SAML Test Connector (IdP).
+ 
+5. Enter Salesloft (IdP) as the display name and click Save. 
+ 
+6. Now select Configuration. Enter the following field information:
+ 
+Audience: SalesLoft
+Things to Note: The second L in Salesloft must be capitalized as it is shown above.
+ 
+Recipient: https://accounts.salesloft.com/auth/saml-callback
+ACS (Consumer) URL Validator: ^https:\/\/accounts\.salesloft\.com
+ACS (Consumer) URL: https://accounts.salesloft.com/auth/saml-callback
+
+7. Click Save.
+
+8. On the next screen, select More Actions. Click SAML Metadata to download the Metadata XML file. You will need this on the Salesloft Single Sign-In configuration page.
+ 
+9. Go back into the Salesloft Single-Sign On Settings, and follow the instructions to Enable Single-Sign On .
+Last Modified By
+Raequel Sank, 9/28/2021 8:28 PM
+Title
+Single Sign-On: OneLogin Instructions
+URL Name
+Single-Sign-On-OneLogin-Instructions
+Salesloft Knowledge
+Admin Guides
+Single Sign-On
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

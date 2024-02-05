@@ -1,0 +1,97 @@
+COACHING
+Coaching Calls
+
+Aug 22, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Coaching Calls page is where managers and reps can focus on call performance. The page is built of panels and charts that highlight various call activities and outcomes. If you notice from the Goal performance that a rep seems to be struggling with call performance, these charts can help pinpoint areas for improvement. Then, you can use your 1-1s to focus on developing call rapport and best practices. 
+
+
+
+Things to Note: Coaching Call data is gathered from calls made and logged using the Salesloft Dialer. 
+
+Here are some prompt questions that the data found on the Coaching Calls page can address: 
+How is the seller opening calls? Is their intro strong?
+How does the seller establish rapport?
+How is the seller handling objections?
+Is the seller adhering to our talk tracks?
+Is the seller using the right sentiment classifications?
+In this article, you will learn about the information found on the Coaching Calls page, including:
+Coaching Calls Results By Panel
+Coaching Calls Team Comparison Panel
+Coaching Calls Trend Panel 
+Coaching Review Calls Panel 
+Coaching Calls Results By Panel
+The Coaching Calls Result by panel is a dot plot that compares different types of results between the individual rep and their peers. Using this chart, you can gauge whether the rep is more or less successful than the rest of the team when it comes to achieving results. 
+ 
+
+The “Results” include different possible outcomes a rep may have based on the actions they perform when reaching out to customers. You can change which type of result is shown in the panel by selecting the result name and opening the dropdown menu. 
+
+The Results By panel on the Coaching Calls page offers the following metrics: 
+% Connected Calls (default)
+% Positive Calls
+% Calls on Time
+
+The Results By Panel exists inside the Summary, Emails, and Calls Coaching pages with different metrics based on the specific activity being covered. To learn more about the information you see inside the panel, check out the Coaching Summary Page’s Results By Panel write up. 
+ 
+Coaching Calls Team Comparison Panel
+The Coaching Calls page Team Comparison Panel is a bar chart that shows how efficient a rep is performing call activities. Using this chart, you can infer whether a rep is performing calls in line with the rest of their peers. 
+
+
+
+The metrics used include call data that offers insight into a rep’s call efficiency. You can change which type of result is shown in the panel by selecting the result name and opening the dropdown menu. 
+
+The Team Comparison By panel on the Summary page offers the following metrics: 
+% Calls Skipped
+Average Call Duration (default)
+Call Touches per Success
+Connected Calls per Meeting
+Voicemails
+
+The Team Comparison Panel exists inside the Summary, Emails, Calls, and Recordings Coaching pages with different metrics based on the specific activity being covered. To learn more about the information found inside the panel, check out the Coaching Summary Page’s Team Comparison Panel write up. 
+ 
+Coaching Calls Trend Panel
+The Coaching Calls Trend panel is a line chart that shows quantitative call data. Using this chart, you can see the number of calls accomplished by the rep, and whether those numbers are trending upwards or downwards from the previous time period and that of their peers. 
+
+
+
+You can change which type of result is shown in the panel by selecting the result name and opening the dropdown menu. The Trend panel on the Coaching Summary page offers the following metrics: 
+Calls Dialed
+Calls Logged (default)
+Connected Calls
+
+The Trend Panel exists inside the Summary, Emails, Calls, and Recordings Coaching pages with different metrics based on the specific activity being covered. To learn more about the information found inside the panel, check out the Coaching Summary Page’s Trend Panel write up. 
+ 
+Coaching Review Calls Panel 
+The Review Calls Panel on the Coaching Calls page allows you to drill into calls made by the rep. This panel is perfect for getting an in depth look into the specific types of calls the rep is making. 
+
+
+
+The panel is split into tabs based on call categories. Each call category tab includes the name of the tab/metric, number of calls included in that tab according to the time frame, and a period comparison to let you know if the number has increased or decreased since the previous time period. The call categories shown include: 
+Positive Calls
+Connected Calls
+No Interest
+
+Inside the tabs, you will see a list of calls that fit the assigned metric category. The calls are listed in order from most recent to least recent. Each call listed contains the following details: 
+User’s name with the Salesloft Person’s Name
+Disposition and Sentiment labels (if applicable)
+Call Duration
+Call Notes: Click the call notes to expand the call listing and view any notes logged to the call. 
+Timestamp
+Link to the recording URL (if available)
+Last Modified By
+Stephanie Griffith, 8/22/2022 5:50 PM
+Title
+Coaching Calls
+URL Name
+Coaching-Calls
+Salesloft Knowledge
+Coaching
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,81 @@
+CRM
+Salesforce Sandbox Guide
+
+Aug 16, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+During the configuration phase of implementation, we strongly recommend your team perform a test between your Salesloft and Salesforce environments using a Salesforce sandbox. This test will prove that Salesloft fits seamlessly into your Salesforce environment.
+
+You may test your Salesloft field configuration and activity logs by connecting your Salesloft instance and Salesforce sandbox before rolling out the Field Configuration Settings to your entire team.
+
+Things to Note: 
+This article refers to connecting a Salesloft Production Team to a Salesforce Sandbox Org prior connecting to your Production Org. We do not recommend switching to a Salesforce Sandbox after your Production Org is live. 
+If you would like to purchase a Salesloft Testing Environment/Sandbox, please contact your Customer Success Manager or Account Manager for more information.
+
+In this article you will learn about how to prepare your Salesloft environment and test configuration changes using a sandbox environment, including: 
+Getting Started with Sandboxes
+Creating Sandbox Users
+Connect to a Salesforce Sandbox - User CRM Settings
+Connect to a Salesforce Sandbox - Admin
+Disconnect from a Salesforce Sandbox
+Getting Started with Sandboxes
+Here are some important things to keep in mind as you get started with sandboxes. 
+Your Browser Is Important!
+You will need to use either an incognito window or a different profile in Google Chrome when using your sandbox, to avoid complications with your production instance.
+Setup
+Salesloft sandboxes are not connected to your production instance, so fields and settings will not update from one instance to the other. Any changes made to one instance will need to be manually updated in the other instance.
+Sandbox and Insight from Salesloft
+If you are testing the Insight from Salesloft dashboard package in your Salesforce sandbox, the package will need to be reinstalled in your Salesforce production environment. All fields created on the Lead, Contact, Account, and Opportunity records from the dashboard package will need to be remapped in Salesloft.
+ 
+Creating Sandbox Users
+Any users who need access to your sandbox will need login credentials with email addresses that are different from those used for login to the production instance.
+If your organization uses GSuite, you can simply add a +1 to your users’ existing email addresses.
+Example: john.doe@salesloft.com >> john.doe+1@salesloft.com
+If your organization uses a different email provider, ask your IT team to create a test email account for you.
+If your organization does not use GSuite, and is not willing to create a test email account for use, please reach out to your Salesloft CSM or onboarding consultant.
+
+Things to Note: If a Salesloft sandbox is not included in your contract, you will be connecting your production Salesloft instance to the Salesforce sandbox. Creating a username that includes +1 will not be necessary.
+Connect to a Salesforce Sandbox - User CRM Settings
+When you would like to connect your Salesloft to a Salesforce Sandbox, you can follow the steps in our Getting Started with Salesforce User Guide. 
+
+Things to Note: Each user on your team will need to follow these steps to connect to the sandbox instance. 
+
+In the event that you need an alternative workaround to connect, follow these steps to connect Salesloft to your Salesforce sandbox:
+Click on your name in the top right and select Settings.
+Navigate to the CRM page under the Your Settings section in the left-hand menu bar. Even if you've already connected previously to a standard Salesforce instance, you can change it to a sandbox connection now.
+Select the Connect to Salesforce Sandbox option:
+Things to Note: Connecting to Salesforce Sandbox is best for testing connections prior to your team going live with Salesloft. We do not recommend reverting back to a Salesforce Sandbox once your team has connected to their live Salesforce accounts.
+Now, your Salesforce connection should show the word (Sandbox) at the end in parentheses. You can now click that button to connect via test.Salesforce.com instead of the standard Salesforce login page.
+Connect to a Salesforce Sandbox - Admin
+Follow these steps to connect to a Salesforce sandbox as an admin: 
+Click on your name in the top right and select Settings.
+Navigate to the CRM page under the Your Settings section in the left-hand menu bar. Connect to your Salesforce or CRM sandbox.
+Update your main Connector user to the Salesloft user that is connected to the Salesforce sandbox.
+Disconnect from a Salesforce Sandbox
+If you’ve been experimenting with your Salesforce sandbox and are now prepared to take things to production you should disconnect your Sandbox environment and switch to your Salesforce production instance.
+
+To disconnect from your Salesforce sandbox, follow these steps:
+Disconnect your CRM here: https://app.salesloft.com/app/settings/crm 
+Log out of your Salesforce sandbox if you have any other browser tabs open. Log into your production SFDC instance.
+Connect your CRM Settings to the production instance.
+Update your main Connector user to the Salesloft user you would like to use as the Salesforce integration user for your Salesloft team.
+Remap the fields for the production instance in the Field Configuration Settings that have a different Salesforce API name in sandbox than in production.
+Things to Note: Fields that have the same API name in production and sandbox Salesforce instances will not need to be remapped. We recommend that you take inventory of your field mappings for People, Accounts, Activities, and Opportunities before transferring the connection to Salesforce production (save yourself some work in the long run). 
+Last Modified By
+Briana Morgan, 8/16/2022 3:30 PM
+Title
+Salesforce Sandbox Guide
+URL Name
+Salesforce-Sandbox-Guide
+Salesloft Knowledge
+Salesforce
+CRM
+Salesforce Admin Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

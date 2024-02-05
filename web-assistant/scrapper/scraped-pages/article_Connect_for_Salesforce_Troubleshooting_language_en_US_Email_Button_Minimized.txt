@@ -1,0 +1,80 @@
+USER GUIDES
+SALESLOFT CONNECT
+CONNECT FOR SALESFORCE
+Connect for Salesforce Troubleshooting
+
+Jul 11, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Things to Note: The majority of the existing errors occur in Salesforce Lightning. If you are familiar with Salesforce Classic, we recommend switching to Salesforce Classic until the extension has been updated. 
+
+In this article, we will look at known issues between Salesforce 2020 and the Salesloft Connect for Salesforce extension, alternative solutions, and workarounds, including:
+Call Button Missing
+Dialer Opens Facetime
+Email Button Minimized
+Import Buttons Appearing in Incorrect Places
+Import Buttons Missing
+Import into Salesloft Button Dropdown
+Side Panel Overlap
+Call Button Missing
+We've received reports about the Call button missing next to phone numbers for the following Salesforce objects: 
+Leads
+Contacts 
+Accounts
+If the Call button is missing, you can still use the Dialer within Salesforce via one of the following methods: 
+Switch from Salesforce Lightning to Salesforce Classic. 
+Right click on the number and use Salesloft Dialer Everywhere.
+Open the Connect for Salesforce side panel. There you can view the Person's contact info, and click their number to call them. 
+Dialer Opens FaceTime
+In the detail header, when clicking the Call button or anywhere in the dropdown, the Dialer tries to open FaceTime.
+
+As a workaround, avoid using the header to dial. Use the call buttons in the detail page or right-click anywhere on the detail page and select Salesloft Dial.
+Email Button Minimized
+This error was corrected with the most recent version of the Salesloft Extension. If you are still seeing this error, please update your Salesloft Chrome Extension. 
+
+Some users have reported a small icon where the Email button should be. We've conclude that it is a truncated version of the Email button that only shows the icon, not the entire label. The Email button works, but it’s hard to tell what it is.
+As a workaround, open the Salesforce panel to send an email.
+Import Buttons Appearing in Incorrect Places
+This error was corrected with the most recent version of the Salesloft Extension. If you are still seeing this error, please update your Chrome Extension. 
+
+Import to Salesloft and View in Salesloft are stretched and there are multiple sets of Import/View buttons on the page.
+ 
+ 
+While the button seems to be hopping around the page, you can still click to import. 
+Import Buttons Missing
+This error was corrected with the most recent version of the Salesloft Extension. If you are still seeing this error, please update your Salesloft Chrome Extension. 
+
+There have been reports of intermittent issues with missing View in Salesloft and Import Into Salesloft buttons in headers across all pages.
+
+Refreshing the page (sometimes multiple times) will inject the buttons. 
+ 
+Import into Salesloft Button Dropdown
+The Import into Salesloft dropdown on the Account page opens when clicking anywhere in the page. 
+
+When the dropdown is opened, you can only take action within the dropdown. If you would like to edit a field on the page, click on the field. This will close the dropdown menu and allow you to edit the field.  
+
+Once the updated extension is pushed, the feature will be corrected.
+Side Panel Overlap
+This error was corrected with the most recent version of the Salesloft Extension. If you are still seeing this error, please update your Salesloft Chrome Extension.  
+
+The Connect for Salesforce side panel is covering the right side of the Salesforce page. Normally, the rest of the Salesforce page contracts, so everything on the page is still accessible. The error prevents users from accessing the right side of the page while the side panel is open. 
+
+If you must click a button covered by the side panel, close the panel to perform your action. You can re-open the panel once the action is complete.
+Last Modified By
+Raequel Sank, 7/11/2023 5:26 PM
+Title
+Connect for Salesforce Troubleshooting
+URL Name
+Connect-for-Salesforce-Troubleshooting
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Connect For Salesforce
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

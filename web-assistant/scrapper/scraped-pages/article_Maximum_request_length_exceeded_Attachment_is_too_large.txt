@@ -1,0 +1,31 @@
+EMAIL
+Maximum request length exceeded. Attachment is too large.
+
+Mar 24, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+This error occurs specifically when the message length exceeds the set size limit. Salesloft allows up to 10MB of attachments per email sent.
+
+Your Outlook email server could also have a size limit that is causing this error. The email server limits attachments to 2MB.
+
+Things to Note:
+While email servers have their own attachment limit, the Salesloft attachment limit is lower to provide an error margin. This means that you will not exceed the limit provided by your server. 
+Beginning August of 2020, Office365 connections can attach 10 MB files when sending emails in-app or via Salesforce plugin. Users will be presented an error in case file size is larger than 10 MB. Total size of all attached files is not restricted.
+We recommend to decrease the size of your attachments and resend the message.
+Last Modified By
+Stephanie Griffith, 3/24/2023 4:53 PM
+Title
+Maximum request length exceeded. Attachment is too large.
+URL Name
+Maximum-request-length-exceeded-Attachment-is-too-large
+Email
+Salesloft Knowledge
+Email FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

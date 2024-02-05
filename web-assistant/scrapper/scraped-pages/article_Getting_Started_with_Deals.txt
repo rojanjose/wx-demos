@@ -1,0 +1,63 @@
+DEALS
+Getting Started with Deals
+
+Jul 20, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft's Deals provides an up-to-date view of your sales pipeline. Reps can manage their Deals and make necessary updates to their Opportunities. This gives reps and managers alike the trust in their pipeline so they can review and track progress for the future. 
+
+To access Deals, select the Deals Product Tab from the top navigation in the Salesloft platform. Here, you can perform the following: 
+View personal and/or team pipeline dashboards.
+Create new Opportunities and Salesforce records. 
+Update Opportunity data that will push to Salesforce.
+Track tasks with To-Dos.
+Verify your pipeline's health with the use of Deal Gaps.
+To view a demo, check out Salesloft's Deals page.
+
+In this article, you will learn about the basics of Deals, including:
+How to Access Deals
+Inside Deals
+
+To set up Deals, read our article on how to Configure Deals for Your Team.
+
+If you are a legacy Costello user, check out the Legacy Opportunity Management (Costello) article. 
+ 
+How to Access Deals
+Deals is nested under the Deals Product Tab in the Salesloft platform. 
+
+If your team has purchased Deals, and the license has been enabled for you as a user, you will see the Pipeline View when you click Deals. 
+
+Things to Note: If your team has purchased Deals, but you do not have access to the Deals Product Tab, please reach out to Salesloft Support to enable the feature for users. 
+
+
+ 
+Inside Deals
+When you open Deals from the Deals Product Tab, the page will default to the Opportunities tab with your saved Pipeline View. 
+
+When you are in the Deals Product Tab, the menu options for Deals will persist. These menu options allow you to navigate to the different pages within Deals and take Deals-specific actions. 
+
+The Deals menu includes the following tabs and buttons: 
+Pipeline (tab): Where you can manage and view Opportunities. Home to the Pipeline View and Deal View. 
+Forecast (tab): Helps establish your team's forecasting process, efficiently submit and agree upon a forecast number, and communicate that number to their business. 
+Analytics (tab): The Deals Analytics shows the metrics pertaining to Deals, including numbers of Deals in each stage and rates of successful Deals. 
+Admin (tab): Visible to Salesloft Admins Only. Where team admins manage Deals. 
+Create Object (button): Add a new Opportunity, Account, or Contact to Deals and Salesforce. 
+New Note (button): Creates a new Call Note that you can log to an Opportunity or record.  
+ 
+Last Modified By
+Briana Morgan, 7/20/2023 5:32 PM
+Title
+Getting Started with Deals
+URL Name
+Getting-Started-with-Deals
+Deals
+Salesloft Knowledge
+Deals Overview
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

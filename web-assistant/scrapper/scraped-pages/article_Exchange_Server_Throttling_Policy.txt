@@ -1,0 +1,30 @@
+EMAIL
+Exchange Server Throttling Policy
+
+Mar 24, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The error, "Sending temporarily unavailable due to Exchange server throttling policy," is coming directly from your team's exchange email server. Sending has been temporarily throttled in an attempt to battle messages that your server believes are spam.
+
+Your IT contact would know more about the policy as it is unique to each server and stands alone from a Salesloft. The only thing we limit is the amount of emails that you can send on a daily basis.
+
+In an effort to lower the threshold, admins can increase the time in between sent emails from the Team Email Settings. Also, we recommend sending messages in smaller batches.
+
+To solve the error message, cancel all pending emails via The Emails Page. You can send the emails at a later time, once the error has been lifted.
+Last Modified By
+Stephanie Griffith, 3/24/2023 4:52 PM
+Title
+Exchange Server Throttling Policy
+URL Name
+Exchange-Server-Throttling-Policy
+Email
+Salesloft Knowledge
+Email FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

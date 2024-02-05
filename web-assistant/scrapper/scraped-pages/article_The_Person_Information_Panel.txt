@@ -1,0 +1,93 @@
+PEOPLE AND ACCOUNTS
+Person Information Panel
+
+Oct 25, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Person information panel displays key information like the Person’s name, Account, Salesloft statuses, and their linked social and Salesforce records. You will see the panel in the top left corner of the Person Profile Page.  
+In this article, we will walk through the visible items and actions you can take within the Person panel, including:
+Person Profile Status Labels
+Person Information Panel Actions
+Standard Person Information
+Person Related Links
+Current Time and Person's Timezone
+Person Profile Status Labels
+Icons located in the top left corner of the panel represent the status updates that may relate to the Person. 
+
+An icon represents the different statuses. You can hover over the icon to see what the status is. 
+Status icons Icons will only appear if the status applies to the Person. The statuses that may appear in the Person Information Panel include:
+Star: The star icon flags this Person as important.
+Contact Restrictions: The orange no-sign icon indicates this Person may not be using a specific type of communication. You will see this badge for all contact restrictions that are in placing, meaning you may see more than one. Hover over the contact restriction icon to learn the specific restriction. Contact restrictions include:
+Do Not Call
+Do Not Email
+Do Not Text
+Do Not Contact: The no-sign icon denotes that users may not communicate with this Person via Salesloft.
+Has Replied: The green arrow icon means that this Person has previously replied to a Salesloft email.
+Bounced: The red bounce arrow means that a previous email to this Person resulted in a bounce back.
+Success: The purple ribbon icon means that this Person has been marked as a success.
+Out Of Office (OOO) Detection: The green palm tree icon appears when an out-of-office message is detected for that Person. 
+European Union (EU) Resident: The shield icon represents this Person has been marked as an EU Resident. Tracking functionality may be disabled for EU Residents. Learn more in our Manage Privacy Settings article. 
+Person Information Panel Actions
+The Person Information Panel actions provide Person Actions you can take from this panel. 
+ 
+Located in the top right corner of the person information panel. Click the '•••' icon to open a menu to take any of the following actions:
+Link/Unlink from Account: Connects the Person to their Account in Salesloft, much like a Contact record is Salesforce is attached to a company.
+Things to Note: People imported with their Account information should be linked to their Account as defined by your Account Management Settings.
+Link to CRM: Allows Salesloft to search and link to the Person's CRM Lead or Contact record.
+Things to Note: If a Person is not linked to their CRM record, activities will not log and will result in failed CRM activities. You can view failing activities by clicking the lightning bolt icon in the top navigation menu.
+Mark Out of Office: Manually marks a Person as out of office. A green palm tree will be added to the status labels when this action is selected. If the Person is already marked as Out of Office, this action will instead show Remove Out of Office. 
+Mark as Do Not Contact: Removes a Person from all Cadences and stops users from any future communication with the Contact.
+Things to Note: Marking someone as Do Not Contact is the recommended alternative to deleting the Person since all of the data remains in Salesloft, but you won't mistakenly reach out to the Person.
+Delete Person: Removes the Person from Salesloft.
+Things to Note: Deleting a Person will remove all records and data of the Person including logged activities. 
+Mark as EU Resident: Manually mark a Person as an EU Resident. If the Person is already marked as an EU resident, you will see Unmark EU Resident.
+Things to Note: The Mark as EU Resident option must be enabled by an admin from Roles and Permissions.
+View CRM Sync Logs: Access any Person or Account Record's sync history.
+Standard Person Information
+The standard Person Information includes the primary information you need to see and know about this Person at all times. If any of this information is not listed under the Person’s contact info, the field will not display. The information includes:
+Person’s name: Name is pulled from the First Name and Last Name Person fields. 
+Person’s title: Title is pulled from the Title Person field. 
+Person's Job Seniority: (if applicable)
+Person’s Account: If the Person is linked to an Account in Salesloft, the Account name will appear as a link. Select the link to view the Account Profile Page in Salesloft.
+ 
+Person Related Links  
+Person Links offer links to sources outside of Salesloft for quick access. Each link will display as an icon below the Person’s information. Linked information must be included in the Person’s contact info in order for the links to appear. 
+
+Links include:
+View in CRM: People connected to their CRM record will display a blue cloud icon. If the Person is not connected to their CRM, the icon will not appear. You can sync the Person to their CRM record by clicking the Person information panel actions and selecting Link to CRM.
+LinkedIn profile page: Opens the Person's LinkedIn profile. 
+View Twitter: Opens the Person's Twitter page. 
+View Company URL: Opens the Company’s website.
+ 
+Current Time and Person's Timezone
+The bottom of the Person Information panel shows the time of day that relates to the Person you are viewing. By taking a look at these details, you can make an informed decision about whether contact a Person and which method of communication is best for the moment.
+
+For example, if you take a look at the Person's time details and see that it is late in the day or after business hours their time, it's in your best interest to wait to call the Person at a more appropriate time. This would be a great time to create a Call task from the Quick Actions to call them the following day. 
+
+The panel includes the following time details: 
+Current Time: Found on the lower left side of panel, this shows what time it is for the Person.
+Person's Timezone: Found on the lower right side of the panel, this let's you know the designated timezone of the Person. 
+Last Contacted: The date that the Person was last contacted and the user who contacted the Person. 
+The Current Time and Timezone will only appear when the Timezone filled has been entered in the Person details. If you don't see the current time and timezone in the Person panel, check the Person details to make sure the Timezone is visible. 
+
+If the timezone is not listed, edit the Person details to update the Timezone field. Once you save the details, the Current Time and Timezone will be included in the Information panel. 
+
+
+ 
+Last Modified By
+Raequel Sank, 10/25/2022 3:51 PM
+Title
+Person Information Panel
+URL Name
+The-Person-Information-Panel
+Salesloft Knowledge
+People And Accounts
+Person Profile Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

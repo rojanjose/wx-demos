@@ -1,0 +1,75 @@
+PEOPLE AND ACCOUNTS
+Hot Leads Workflow
+
+Sep 13, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Hot Leads prioritize your prospects based on the interactions they have had with your engagement.
+
+Your team admins will predetermine the activities that matter most: number of email opens, clicks, and views of your website. When a prospect performs one of these actions, they acquire points. Once the number of points reach the set threshold amount, BOOM, you have a Hot Lead!
+
+Things to Note:
+Hot Leads will be assigned to users based on the Hot Leads Assignments settings.
+A prospect must be a Person in Salesloft in order to become a Hot Lead.
+Hot Leads will update you in real time, so you can "strike while the iron is hot" so to speak. You can view and manage your Hot Leads from the Hot Leads workflow panel. 
+
+In this article, you will learn about the Hot Leads workflow, including: 
+New Hot Leads
+Hot Leads Workflow List
+Hot Leads Actions
+New Hot Leads
+When you are assigned a new Hot Lead, Salesloft will notify you in multiple ways:
+Chrome Notification
+Live Feed
+Icon on the Person
+Salesforce Activity
+Chrome Notification
+First, you will get a Hot Lead Chrome notification displaying the Person's name and their company.
+
+Things to Note: If you do not wish to get a notification, you can turn off the Hot Leads notifications through the Connect Extension settings.
+ 
+Live Feed
+Hot Leads will appear as a new event in your Live Feed.
+Icon on the Person
+Hot Leads are designated using the fire icon throughout the app. The icon will remain on the Person Information Panel until the configured date is reached, regardless of if the Person has been contacted or not.
+Salesforce Activity
+When a Hot Lead is created, a new activity will also be created in the Salesforce Activity History for that Person. 
+Hot Leads Workflow List
+The Hot Leads Workflow is where you can view your full list of Hot Leads. The workflow is located in the same panel as your Cadence workflow. You can access the list by opening the Cadence Side Panel and selecting the Hot Leads tab. 
+
+This list will show all of your assigned Hot Leads by default in order of most recent Date Created. Can click the button next to Sorted By: Date Created to reverse the order from least recent to most recent.
+
+Each Hot Lead will have its own card within the workflow. Each card contains:
+Person's Name
+Role
+Account Name
+ 
+
+If new Hot Leads are assigned while you are viewing the Hot Leads Workflow, a Load "x" More Hot Leads message will appear at the top of the list. Click this box to load the new Hot Leads at the top of the list.
+Hot Leads Actions
+Part of the goal with Hot Leads is to quickly take action on a prospect who is interested in your product. When a Hot Lead is in the workflow panel, click their Hot Lead card to load their Person Profile page alongside the Hot Lead list.
+
+From there, determine the next best course and take action through a one-off call, one-off email, or executing the next Cadence step .
+
+When you complete an activity related to a Hot Lead (e.g., when an email is Lofted, call is logged, Cadence step is completed, or a success is recorded), our algorithm will automatically complete the Hot Lead task. Once a Hot Lead task is completed, that Person will be removed from your Hot Lead list. 
+
+The activity will be updated in Salesloft as well as in Salesforce as a completed task. 
+Last Modified By
+Raequel Sank, 9/13/2022 2:58 PM
+Title
+Hot Leads Workflow
+URL Name
+Hot-Leads-Workflow
+Salesloft Knowledge
+People And Accounts
+People
+People Page
+People Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,95 @@
+USER GUIDES
+SALESLOFT CONNECT
+CONNECT FOR SALESFORCE
+Cadence in Salesforce
+
+Apr 26, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Cadences help you stay on top of your book of business with a consistent workflow. This workflow is built of various steps which are the actions you will take to reach out and communicate with potential, or even existing customers. 
+
+The Connect for Salesforce side panel expands beyond the Salesloft Person information. You can also run entire Cadences straight from your Salesforce instance.
+
+That’s right, the same series of steps you work through in Salesloft can be executed in Salesforce!
+
+In this article, you will learn about running a Cadence from the Connect for Salesforce side panel, including: 
+View, Group, and Sort Your Cadence in Salesforce
+Run Cadence Steps from Salesforce
+Multi-touch Cadence Workflow in Salesforce
+SLU: Running Cadence Steps in Salesforce(Video)
+View, Group, and Sort Your Cadence in Salesforce  
+When you're working within Salesloft, you still want to stay on top of your daily workflow. This is why you may want to view which Cadence steps are due on a particular day. 
+
+From the Connect for Salesforce side panel, you can view Cadence steps that are currently due and sort them in the order that fits your workflow the best. This way, you can handle your morning tasks in Salesforce if you want, check if any Cadence steps are due, and then, if you see you have 20 People on a call step, you can sort those People by priority to make sure you complete the steps that matter most. 
+
+To view Cadence steps that are currently due inside Salesforce, open the Connect for Salesforce side panel by clicking the icon in the lower right corner of the page. On the top bar of the panel, select the Cadence icon (rocket ship). This will take you to the Run a Cadence list in the side panel that contains a list of each Cadence step with open activities. 
+
+You can sort the Cadence steps in order to group steps into categories and see them in a certain order. Click the Sorted by drop down and select one of the following options to sort in ascending or descending order: 
+Cadence name
+Cadence priority
+Step type
+Time Zone
+After you select a Cadence step to run, the step itself will have sorting options, so you can rearranging the order that you will contact People. The Cadence step order can be sorted with the following: 
+Due on 
+Last Name
+Account
+Starred
+Replied
+Timezone
+Activity
+Missing Email 
+Account Tier
+ 
+Run Cadence Steps from Salesforce
+Inside of the Salesloft application, all Cadence steps are run from the side panel. When you run Cadence steps inside of Salesforce, you will also run the steps from the side panel. 
+
+So, if you're a Salesloft pro who has run steps within the platform before, running steps inside of Salesforce will follow the same workflow. 
+
+If you're new to running Cadence steps (or need a refresher), follow these instructions to run a Cadence step from Salesforce: 
+Go into Salesforce and open the Connect for Salesforce side panel by clicking the icon in the lower right corner of the page. If you don't see the icon, make sure your CRM is connected to Salesloft and you have the most up-to-date version of the Salesloft Chrome Extension . 
+On the top bar of the panel, select the Cadence icon (rocket ship). This will take you to a list of Cadence steps that are currently due. 
+Select the Cadence step you would like to run by hovering over the step and clicking Run Step.
+Once you are in the Cadence step, you will see the list of People currently due for that step. Your list will automatically be sorted by Timezone. You may sort your list by your preferred category.
+Select a Person to run the Cadence step. When you select a Person, Salesforce will refresh to that Person’s Lead or Contact record.
+Run the email, call, or other step just as you would in Salesloft.
+ 
+Multi-touch Cadence Workflow in Salesforce
+Multi-touch Cadence steps allow you to execute different types of Cadence steps back-to-back. This means you can leave a voicemail with a prospect and immediately follow with an email referencing the voicemail, or connect via social media followed by a phone call.
+
+Whatever pattern you chose, Multi-touch steps increases your chances of connecting with a prospect with a thorough back-to-back step approach.
+
+Multi-touch steps will be setup when you create your Cadence inside the Salesloft platform. To learn for more how to set up Multi-touch steps, check out the Create a Multi-touch Cadence instructions.
+
+The key difference between Multi-touch Cadence Steps and standard steps is that all Multi-touch steps will be considered grouped together and those step groups will be due at the same time. For example, let's say a Cadence is setup with a multi-touch grouping of Email, Call, and Other steps. When two People are added to the Cadence, will see all three steps as Due those People.
+
+Running a Multi-touch step from Salesforce will flow similar to the workflow in the Salesloft application. Follow these steps to execute Multi-touch Cadence steps from the Salesloft side panel in Salesforce: 
+Open the side panel and go to the Cadences tab. 
+Find the Multi-touch step and click Run Step to launch workflow.
+Then select the Person's name to run their steps. Their Salesforce record will open alongside the side panel. The top of the side panel view will shift with the Person's name on the top of panel and multiple cards for each step that is due.
+Each card will display the type of step and name. The Cadence will automatically open the first step in the multi-touch grouping. Perform the action and log it to complete the step.  
+Things to Note: If you want to open or execute the second or third step first, click on the card to open the step panel.
+After the first step is complete (ex: Click Send), the second step will automatically open. You will stay on the Person’s Salesforce page the entire time you are running steps associated with them. It will not advance to the next person to the next Day of the cadence until all of the Multi-touch steps are completed. 
+Once all steps are completed for a Person, the Cadence will open the next Person due with the multi-touch panel. Repeat the process until your Multi-touch steps are complete. 
+ 
+SLU: Running Cadence Steps in Salesforce(Video)
+Want to know how to run Cadence steps in Salesforce, but prefer a video format? Visit Salesloft University to see the Running Cadence Steps in Salesforce video tutorial. 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 4/26/2022 3:10 PM
+Title
+Cadence in Salesforce
+URL Name
+Cadence-in-Salesforce
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Connect For Salesforce
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

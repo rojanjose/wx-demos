@@ -1,0 +1,110 @@
+PEOPLE AND ACCOUNTS
+ACCOUNTS PAGE
+Tag Salesloft Records
+
+Apr 7, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft Tags are labels that you can use to classify and group different Salesloft objects together.
+
+You can tag Salesloft People, Accounts, Cadences, and templates.
+
+Things to Note:
+A team admin can manage tags inside the admin settings. Managing tags includes adding, editing, merging, and deleting existing tags. Check out the Manage Tags article for more information.
+The Manage People permission includes the capability to tag People records. This permissions is enabled for standard Salesloft admin and user roles by default. 
+The Team Cadences: Tags permission includes the capability to tag Team Cadences. This permissions is only enabled for standard Salesloft admins by default. 
+In this article, you will learn about using tags in Salesloft, including: 
+Add Tags to Records
+Remove Tags
+Tag Best Practices
+Add Tags to Records
+Add Tags to a Cadence
+Cadence tags help group specific types of cadences. You can create cadence tags to label cadences by region, use case, content, etc. 
+
+To set tags from the Cadence list, follow these steps:
+Go to The Cadences Page.
+Find the Cadence you would like to add the tag to and select the down arrow to the right of the Cadence Name. This will open the Cadence Page Actions. 
+Select Manage Tags. The Edit Tags window will appear. 
+Type the name of the tag you want to apply. Results for existing tags will appear as you type. If the tag you want to use already exists, select the name of that tag. The selected tag will appear as a pill in the text box. 
+If you don't see the name of the tag you want to use, you have the option to create a new tag. Select + Create to add the new tag name. 
+Repeat the process to add more than one tag. 
+Hit Save to apply the tag(s).
+Add Tags to Accounts and People
+From The Accounts Page and People Page lists, you can add tags by following these steps:  
+Select the Accounts or People you want to add tags to by clicking the checkbox next to the each record's name.
+When you select a record, a line of action items will appear at the top of your list. Click the Tag button. The Edit Tags module will appear. 
+Under Add Tags, type the name you would like for the tag. 
+If the tag had not been used before, a message will display "No tags match your search." Click + Create to create a new tag. 
+If they tag already exist, select it from the search dropdown. 
+Each tag will appear as a pill above the search bar. If you change your mind, click the X in the tag name box and the tag will not be added. 
+Things to Note: Tags will not be added until you click Update. 
+Click Update. The tags will be added below the tag column in your Account list. 
+ Add Tags to Templates
+From the Templates Page, you can add template tags by following these instructions:  
+Select the template (or templates) you want to add tags to or remove any tags from by clicking the checkbox next to the template name.
+When you select a template, a line of template action items will appear at the top of your list. Click the Tags icon.
+To add a tag, click the Add Tags link. Then, type your tag and click Add. Continue adding your tags individually, and click Save.
+Remove Tags
+If you do not want a record to contain a tag, you can remove the tag. Once a tag is removed, the pill icon with the tag name will no longer appear in listviews.
+
+To remove Cadence tags, follow these steps: 
+Go to The Cadences Page.
+Find the Cadence you would like to add the tag to and select the down arrow to the right of the Cadence Name. This will open the Cadence Page Actions. 
+Select Manage Tags. The Edit Tags window will appear. 
+Any existing tags will be listed in line. Click the X next to the tag name you want to remove.
+
+To remove Account and Person tags, follow these steps: 
+ 
+Go to the record page (Accounts or People).
+Edit your tag using the following options:
+Accounts: Select the Account (or Accounts) you want to add or remove any tags from by clicking the checkbox next to the Account’s name. When you select an Account, a line of Account action items will appear at the top of your list. Click the Tag button. The Edit Tags module will appear. :
+People: Select the Person (or People) you want to add or remove any tags from by clicking the checkbox next to the Person’s name. When you select a Person, a line of action items will appear at the top of your list. Click the Tag button. The Edit Tags module will appear. 
+ 
+Under Remove Tags, type the tag name you would like to remove or click Remove All Tags. 
+Click Update. The tag update will be reflected in your list. 
+ 
+
+To remove Template tags, follow these steps: 
+From the Templates Page, select the template (or templates) you want to add tags to or remove any tags from by clicking the checkbox next to the template name. When you select a template, a line of template action items will appear at the top of your list.
+Click the Tags icon. Menu options will open.
+Select Remove Tags. The Remove Tags window will open with any existing tags listed.
+Click the X inside the tag pill that contains the tag you want to remove.
+Click Save.
+Tag Best Practices
+With tags, you can group together similar templates so you can easily compare common objects.
+Filter by Tags
+Filter your listviews by tag so you only see records with that label. This is particularly beneficial if you create tags using categorization. Here are some examples. The tag category is in bold.
+Your Accounts by region
+People you wish to prospect from a specific event
+Templates geared towards a specific role
+Updates Cadences developed for a certain campaign
+Search Template Tag when adding a Template to a Cadence
+
+Tagging templates can help you select the best performing template for your cadence emails. 
+
+Let’s say you have created multiple templates for follow-up emails. By tagging all of those templates with the tag “Follow-Up,” you can track the best template.
+
+Create a Cadence and Add an Email Step ​. In your email step, Insert a template. From the template insert, you can Search Template Tags​​​​​ for personal or team templates. When you add a tag, only templates with that tag label appear. Review the metrics for the listed templates, and select the top performing email template. The top performer is the most used template with the highest reply percentage. 
+
+Last Modified By
+Stephanie Griffith, 4/7/2023 8:06 PM
+Title
+Tag Salesloft Records
+URL Name
+Tag-Salesloft-Records
+Email Guides
+Accounts Page
+Email
+People Page
+Cadences + Tasks
+Manage A Cadence
+Salesloft Knowledge
+People And Accounts
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

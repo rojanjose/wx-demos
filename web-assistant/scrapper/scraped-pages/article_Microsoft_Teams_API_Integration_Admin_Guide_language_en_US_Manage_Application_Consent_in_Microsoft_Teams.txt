@@ -1,0 +1,83 @@
+ADMIN GUIDES
+Microsoft Teams API Integration Admin Guide
+
+Aug 11, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft's Microsoft Teams API Integration allows your team to use Microsoft Teams’s recording capabilities to capture meetings in Conversations.
+
+ 
+
+Before your team can reap the reward from a connection between Salesloft and Microsoft Teams, a Microsoft Teams admin must enable specific permissions.
+
+ 
+
+In this article, we will walk through the permissions you’ll need to enable to allow your team to successfully use the Microsoft Teams API Integration, including:
+
+Manage Application Consent in Microsoft Teams
+List of Microsoft Teams Permissions
+Manage Application Consent in Microsoft Teams 
+
+Microsoft Teams admins can manage the way users consent to applications, such as Salesloft and the Microsoft Teams API Integration.
+
+ 
+
+As an admin, you can allow users to consent to applications themselves, or require users to get admin consent to use applications.
+
+ 
+
+To manage your team’s application consent in Microsoft Teams, follow these steps: 
+
+ 
+
+Sign in to the Azure portal as a Global Administrator.
+Select Azure Active Directory.
+Choose Enterprise application.
+Select Consent and permissions, then User consent settings.
+Scroll down to User consent for applications then choose one of the application consent options:
+Do not allow user consent
+Things to Note: If you choose to require admin consent for applications, you can configure the admin consent workflow. This workflow allows you to map out the process by which users request admin consent. To learn more about the Admin Consent Workflow, check out Microsoft’s Configure the admin consent workflow article.  
+Allow user consent for apps from verified publishers, for selected permissions
+Allow user consent for all apps
+Hit Save.
+
+
+To learn more about application consent in Microsoft, check out Microsoft’s Configure how users consent to applications article.
+
+List of Microsoft Teams Permissions
+
+The Microsoft Teams API Integration relies on the connection between Salesloft and Microsoft Teams. To ensure that users are able to properly establish this connection and set up the Microsoft Teams API Integration, be sure that the permissions listed below are enabled.
+
+ 
+
+Microsoft Graph	Permission	Description	Admin Consent Required?
+Microsoft Graph	User.Read	Sign in and read user profile.	No
+Microsoft Graph	Chat.read	Read user chat messages.	No
+Microsoft Graph	OnlineMeetingArtifact.Read.All	Allows the app to read online meeting artifacts on behalf of the signed-in user.	No
+Microsoft Graph	OnlineMeetings.Read	Allows an app to read online meeting details on behalf of the signed-in user.	No
+Microsoft Graph	Sites.ReadWrite.All	Allows the app to read, create, update, and delete all files the signed-in user can access.	No
+Microsoft Graph	OnlineMeetingTranscript.Read.All	Read all transcripts of online meetings. 	Yes
+
+ 
+
+For additional information about advanced Microsoft Teams settings, check out the Microsoft Teams Recording Admin Guide.
+
+Last Modified By
+Raequel Sank, 8/11/2023 8:55 PM
+Title
+Microsoft Teams API Integration Admin Guide
+URL Name
+Microsoft-Teams-API-Integration-Admin-Guide
+Conversations
+Salesloft Knowledge
+Admin Guides
+Conversations Integrations
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

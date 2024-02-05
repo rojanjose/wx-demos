@@ -1,0 +1,139 @@
+RHYTHM
+PLAYS
+Manage Plays
+
+Dec 18, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Plays are automations that prompt user actions based on signals. These signals include events and triggers from across Salesloft and third-party applications. Plays can be customized to meet the needs of your business, with options to adjust the triggers and customize the action templates. 
+
+ 
+
+For example, you can create a Play for your team to send a meeting agenda 24 hours before a scheduled meeting occurs. At the 24-hour mark, Salesloft will send a signal that generates a meeting reminder Play.
+
+ 
+
+When Plays are created, Conductor AI prioritizes actions into each user’s Rhythm workflow. The combination of designated plays, Conductor AI, and the Rhythm workflow ensures your reps are taking the actions that will lead to the best possible outcome, like more booked meetings and closed revenue. 
+
+ 
+
+In this article, you will be introduced to Plays and learn about Plays as an admin, including:
+
+Getting Started with Plays
+Plays Settings Layout
+My Plays List
+Discover Plays
+Getting Started with Plays
+
+As mentioned above, Plays are automations that automatically assign actions to your team members based on events that occur within Salesloft or a third-party application.
+
+ 
+
+As a Salesloft team admin, you can create Plays and determine which actions should follow a particular event.
+
+ 
+
+There are three pre-configured Plays enabled for all teams by default: 
+
+Meeting Reminder: This Play creates an email task due 24 hours before the scheduled start of the meeting anytime a meeting is booked with a buyer.
+Meeting Follow-up: This Play creates an email task due 24 hours after the scheduled start of the meeting, anytime a meeting with a buyer is completed.
+Email Follow-up: This Play creates an email task any time a Person (potential buyer) responds to a lofted email. 
+
+Things to Note: If you do not want your team to use the default Plays, edit, disable, or delete the Plays. 
+
+ 
+
+You can also create Third-Party Integration Plays that generate actions based on signals from third-party applications. The third-party applications supported include:
+
+ 
+
+Docusign: Creates an email or call task when a document has been signed.
+
+G2: Creates an email or call task when a buyer views a Pricing, Category, Competitor, or Comparison page
+
+Highspot: Creates an email or call task when a buyer downloads content
+
+Seismic: Creates an email or call task when a buyer views content
+
+Vidyard: Creates an email or call task based on a buyer's engagement with a video
+
+ 
+
+Things to Note: 
+
+Before creating a third-party integration Play, be sure that users have enabled the integration from the Administration Integration Settings.
+Enablement for third-party integration plays varies based on the integration partner. To learn more about enabling third-party integration Plays, click the link for each third-party application. This will direct you to the respective documentation where you can learn more about enablement for that particular integration.
+
+ 
+
+To learn more about creating Plays for your team, check out our Create a Play article. 
+
+Plays Settings Layout
+
+The Plays Settings are where you can view and manage your team’s Plays. Salesloft team admins can manage which Plays are available to your team from the Plays Settings found in your Team Settings under the Workflow category. 
+
+The Plays Settings consists of two tabs:
+
+My Plays: List of the Plays created for your team. This page is where you can select to edit and remove Plays.
+Discover Plays: A list of available Play Frameworks. This page is where you can add a new Play for your team by selecting an existing framework to create a Play.
+
+ 
+
+ 
+
+My Plays List
+
+A list of the Plays you've created takes up the majority of the Plays Settings under the My Plays tab. Here you can see the details of your team’s Plays and manage which rules are currently active.  
+
+ 
+
+Let’s take a look at the items on the Plays list.
+
+ 
+
+  
+
+In your Plays list, each itemized Play contains the following details:
+
+Number of Plays: The total number of Plays that have been created for your team.
+Search Plays: Type a play to search for a specific play. You can search by name or signal.
+Plays Toggle: Determines whether the play is active or inactive. Plays that are active are turned on (blue), and will run when the signal occurs. Plays that are inactive (gray) will not run.
+Play Name: The Play name tells you which type of play this is. The name is designated by Salesloft. 
+Groups: Salesloft groups assigned to this Play. When a play is assigned to a group, it will only run for that group.  
+Signal/Action: Signals are messages from internal or third party systems that make Salesloft aware of an event and trigger a Play into action.
+Last Updated: When the Play was recently edited. This date could be the date the Play was created. 
+Additional Play Actions: The ellipses icon opens a menu of additional actions you can take to manage a Play. When you click the ellipses, you can do the following:
+Edit Play: Allows you to make changes to your play. When you click Edit, you will be redirected to the Edit Play window where you can adjust the action and due date of the Play. 
+Delete Play: Remove the Play from Salesloft. This will permanently delete the Play from your list.
+
+ 
+
+Discover Plays
+
+
+The Discover Plays tab provides a list of available Play Frameworks. This list is your Plays Library where you can discover all of the Play Frameworks published by Salesloft and our partners. The page shows the following details: 
+
+Icons: Images that represent the Play. Typically there will be two icons to represent the signal and the action. For example, a Meeting play with a follow up email would show a calendar icon and an email icon. 
+Play Name: Identifier of the Play
+Signal/Action: Brief description of the Play. This lets you know exactly what the Play will do. 
+
+You also have the ability to create a new Play from the Discover Plays tab.  You can create a new play by selecting the Play Name of any framework. 
+
+Last Modified By
+Stephanie Griffith, 12/18/2023 7:59 PM
+Title
+Manage Plays
+URL Name
+Manage-Plays
+Salesloft Knowledge
+Rhythm
+Plays
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

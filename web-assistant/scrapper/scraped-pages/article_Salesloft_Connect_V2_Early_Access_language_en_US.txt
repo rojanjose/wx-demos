@@ -1,0 +1,167 @@
+USER GUIDES
+SALESLOFT CONNECT
+Salesloft Chrome Extension Overview (Early Access)
+
+Jan 10, 2024•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft Connect V2 Chrome Extension is a brand new extension available in the Google Chrome Extension store under the name “Salesloft Connect Early Access.” This extension maintains features from the former iteration, offers an improved experience, and introduces new Salesloft functionality. 
+
+You may wonder, why is it considered “Early Access”? While the extension is now available for download, the extension is still in development. This early access period is for Salesloft users, like you, to get their hands on newer functionality, test this new version, and provide feedback so our team can ensure this version is a valuable addition to the Salesloft platform. 
+
+Things to Note: The new Salesloft Connect Chrome Extension will be generally available this spring, and the previous iteration of the extension will be shut down in June 2024.
+
+Three things to know about Salesloft Connect Early Access
+
+As with anything new, there are some changes to be aware of in Salesloft Connect Early Access:
+
+1. The Dialer Window needs to be open to receive calls and notifications: The Dialer in Chrome now runs its own popup window. If this window is closed, you will not receive inbound calls or call notifications. Check out the Launch the Dialer Window section for more details.  
+
+2. Tasks are COMING SOON: Tasks are in development: If you rely on tasks, we recommend using our v1 extension.
+
+3. You can reload the extension from the pinned Salesloft extension settings: If you experience an issue in the Chrome extension and want to try turning it off and on again, you can now click Reload Extension in the extension settings instead of uninstalling. 
+
+
+In this article, you will learn how to install and maintain the Salesloft Connect V2 Early Access Chrome Extension, including:
+
+Download the Salesloft Connect Early Access
+Disable the Old Extension
+Pin the Extension in Chrome
+Sign into Salesloft to Authorize the Extension
+Review Your Extension Settings
+Launch the Dialer Window
+Salesloft Connect V1 & V2 Feature List
+Submit Chrome Extension Feedback
+Download the Salesloft Connect Early Access
+
+You can download the Salesloft Chrome Extension (Early Access) from the Chrome web store.
+
+ 
+
+Refer to our Download the Chrome Extension article for more information including detailed download instructions and various ways to access the extension download. 
+
+Disable the Old Extension
+
+Two things may be better than one in some cases, but chrome extensions do not follow that logic.
+
+If you are an existing Salesloft customer, you very likely already have our original chrome extension downloaded. When you decide to enable the Salesloft Connect Early Access version of the extension, you will need to disable version 1 before putting version 2 into action.
+
+To put it simply, if you do not uninstall or disable the previous Salesloft Extension, you will experience issues running the new Salesloft Connect v2 Chrome extension. Some of these issues include seeing two side panels inside Gmail, multiple buttons appearing in your CRM, or even broken functionality. 
+
+A banner will display to let you know that there will be compatibility issues.
+
+If you previously used our old extension, please follow these steps to disable it:
+
+Click on the puzzle icon in the upper right hand corner of your Chrome browser to open the Extensions menu.
+At the bottom of the dropdown, click Manage Extensions.
+Find the old Salesloft Connect extension (SalesLoft Connect - note the uppercase L) and move the toggle to OFF. (Gray toggle area = off)
+
+Pin the Extension in Chrome
+
+Pinning an extension in Chrome adds the extension as a clickable button to the right of the URL, so it makes the extension a part of your taskbar. 
+
+We recommend pinning Salesloft Connect Early Access so you can easily get to extension settings, help center and ability to reload the extension if you experience a connection issue.
+
+To pin the extension, follow these steps:
+
+Click the puzzle icon in the upper right corner of your Google Chrome browser. This will open the extensions window.
+From the extensions window, click the pin icon beside Salesloft Connect.
+Once the extension is pinned, you should see it in the upper right corner of your Google Chrome browser.
+
+Sign into Salesloft to Authorize the Extension
+
+Now that the extension is installed and pinned, let’s get you logged in to Salesloft! Logging in to the Salesloft Connect extension ensures a proper connection between Salesloft and your Google Chrome browser.
+
+To log in to Salesloft via the Salesloft Connect extension, follow these steps:
+
+Click the Salesloft Connect icon in the upper right corner of your Chrome browser.
+Select Sign In, then use your Salesloft credentials to log in.
+When you click Log In, an Authorization window will appear. This window allows you to authorize the connection between Google Chrome and Salesloft. Review the notification, then click Authorize. 
+
+Review Your Extension Settings
+
+The extension offers functionality outside the Salesloft platform and notifications for Salesloft activities.
+
+You can manage the settings and notifications from the extension page. Once you download the extension, we recommend reviewing the extension settings to make sure the extension fits your needs.
+
+To quickly access settings, click the pinned Salesloft icon in your chrome browser to open the menu.  Then select Settings to open a new page.
+
+Review your available settings to customize your extension.  You can select between the following in the left side tab: 
+
+General
+Notifications
+Application Settings
+
+Things to Note: If you expect to take inbound calls, be sure to not have dialer set in “Do not disturb mode”
+
+Launch the Dialer Window
+
+The Chrome extension offers the Salesloft Dialer outside of the in-app experience. 
+
+The first version of the Chrome Extension opened the Dialer within your browser. Salesloft Connect V2 opens the dialer in its own pop-up window. 
+
+The Dialer window must stay opened in order to receive call notifications and in bound calls. You can treat this window as your Dialer widget on your desktop screen. Here are some suggestions for keeping the dialer opened:
+
+Multiple screens: If you have multiple screens at your desk, you can move the Dialer to your second screen. This way, it is always open and easily accessible. 
+One screen: Minimize the dialer window. The Dialer will still be functional and accessible without taking screen space. 
+
+ 
+
+To open the Dialer, right click or control click to open your page menu. Select Salesloft Dialer. The Dialer window will open in a separate browser window. 
+
+To learn more about calling in the Dialer extension, check out the Dialer in Your Chrome Browser article
+
+You can confirm if the Dialer is opened, or launched, from the Salesloft Connect extension panel. If the dialer is not launched, you will see a red circle above the dialer icon.
+
+Salesloft Connect V1 & V2 Feature List
+
+Salesloft Connect V2 includes numerous enhancements that simplify your daily tasks. Before you begin installing Salesloft Connect V2, here's a look at the amazing things that our upgraded Chrome extension does:
+
+Salesloft Connect Features
+	
+Salesloft Connect V1
+	
+Salesloft Connect V2
+
+Import Leads, Accounts, and Contacts from Salesforce	X	X
+Click to call	X	X
+Loft an email in Salesforce	X	X
+Connect Gmail and your CRM	X	X
+Insert Meeting Availability in Salesforce	X	X
+Live feed notifications	X	X
+Add contacts to a cadence	X	X
+Book a meeting	X	X
+Personal and team email templates	X	X
+Create and manage Tasks	X	(COMING SOON)
+Make and receive Dialer calls from any Chrome window with the Dialer pop-out window		X
+Upgraded side panel 		X
+Select Meeting Type when booking a meeting in Google Calendar		X
+
+ 
+
+Submit Chrome Extension Feedback
+
+Salesloft Connect V2 is currently in early access, which means that we are continually improving your Salesloft Connect experience. 
+
+We welcome your feedback on the Salesloft Connect V2 Early Access Chrome extension to help us improve your experience! To submit feedback, email extensionfeedback@salesloft.com with your thoughts on the new experience.
+
+ 
+
+Last Modified By
+Stephanie Griffith, 1/10/2024 7:56 PM
+Title
+Salesloft Chrome Extension Overview (Early Access)
+URL Name
+Salesloft-Connect-V2-Early-Access
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

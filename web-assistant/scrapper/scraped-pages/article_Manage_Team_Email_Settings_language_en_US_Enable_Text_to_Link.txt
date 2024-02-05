@@ -1,0 +1,213 @@
+ADMIN GUIDES
+Manage Team Email Settings
+
+Nov 16, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The team Email settings allow Salesloft admins to control and manage the way your team will use email within the Salesloft platform. 
+
+To customize your team’s Email settings, click your name in the upper right corner of the Salesloft platform and selecting the Settings option. Once you’ve reached the settings page, scroll down to your Communication section and select Email. 
+
+In this article, you will learn the ins and outs of your team Email settings, including:
+
+Set a Daily Send Limit
+Adjust the Email Delay Time
+Prioritize One-Off Emails
+Enable Text to Link
+Allow HTML Editing
+Allow Automated Steps
+Set Default Font Settings
+Set Available Email Clients
+Set a Domain Send Limit
+Enable Generated Text
+Email Activity Sync
+SLU: Team Communication: Email Settings (Video)
+
+For more technical email settings, including Email Deliverability and Block Opens by IP Addresses settings, please check out our Advanced Team Email Settings article. 
+
+The Email Settings also include settings for Email Tracking. To learn more about team tracking settings, check out the Manage Email Tracking article. 
+
+Set a Daily Send Limit
+
+Sending many emails in a day may save you loads of time, but it’s extremely risky email behavior. 
+
+To help keep your email send habits healthy, Salesloft allows a maximum of 1,000 emails sent per user per day.
+
+As an admin, you can change the daily send limit to determine the maximum emails your users are allowed to send per day. 
+
+Things to Note: The Daily Send Limit can be anywhere between 1-1,000 emails a day.
+
+To change the Daily Send Limit, go under the admin Email Settings, you will find Daily Send Limit. Enter your preferred send limit, or use the arrows to decrease or increase your send limit to a maximum of 1,000 emails.
+
+A Best Practice Tip: Limit emails to 250 per day to leave room for follow-ups, administrative emails, and personal messages outside the application.
+ 
+
+If any team member selects Send All Emails on a cadence step and the number of messages is over their daily quota, a warning message will appear that the number of sends is over the limit. Salesloft will even calculate how many email may be sent without going over the email limit. 
+
+From here, users have control over which emails they send from the cadence step and they can schedule them to send at another time.
+
+Things to Note: The Daily Send Limit does not apply to emails sent using the Loft It button in Salesloft's email client extensions (Gmail, Outlook, or CRMs). 
+ 
+
+Adjust the Email Delay Time
+
+If a user sends out multiple emails at once using Send All Emails, Salesloft sends each email out in intervals to keep in compliance with email server regulations. The email delay defaults to 60 seconds in between each email sent.
+
+If you would like to adjust the amount of time between email sends, you can do so within the admin Email Settings under Email Delay.
+
+Type in the number of seconds you would like to allow between email sends or use the arrows to increase/decrease the amount of time. Once the number of seconds is correct, hit the Enter key to save. The email delay can be set from a minimum of 5 seconds to the maximum 120 seconds (2 minutes).  
+ 
+
+ 
+Things to Note: The "Prioritize sending of one-off emails over those in queue sent from a cadence" setting overrides email delay. If this setting is checked, emails will not have any delay between them.
+Prioritize One-Off Emails
+
+Salesloft allows users to tackle multiple tasks at the same time. For example, a team member can respond to emails from their inbox while their cadence sends out a previously scheduled list of emails. But when email sends overlap, your email server needs to prioritize which message(s) will go out first: the one-off email or the scheduled mass send. 
+
+Salesloft lets you decide which emails take top priority for your team. 
+
+Within your email settings, the Prioritizing One-Off Emails checkbox decides whether or not one-off emails will take precedence over any emails sent from a cadence. Checking the box "on" means a one-off email out ranks the cadence sends.  
+
+Enable Text to Link
+
+Text to link creates a hyperlink for any web addresses users add to their emails. This means if a team member types www.salesloft.com in their email template, the web address will automatically become a link to that webpage. 
+
+To enable text to link, check the box Text to Link box under your admin Email settings. Checking the box "on" means that links will be created when a URL is entered.
+ 
+
+Allow HTML Editing
+
+For those who know how to code, you can edit and manipulate your text formatting via HTML code. Using code you can controlling line breaks, paragraph breaks, specific colors for the fonts, italicizing, bolding, underlining, etc., to further control the style of your emails.
+
+Things to Know:
+
+The Allow HTML editing when composing emails feature MUST be turned on in order for users to be able to see the source code editor in their email signatures.
+HTML is specifically for updating text style. Users cannot add custom fonts.
+
+ 
+
+Allow Automated Steps
+
+Check the Automated Steps box to allow your users to send automated email steps in their cadences.
+
+Things To Note: When this setting is disabled, all previously saved Cadence automation steps will be lost.
+ 
+
+Set Default Font Settings
+
+Default fonts apply the same font settings to any emails (and templates) created in Salesloft.
+
+Users with the permission to change the font still have the ability to override the default option, meaning that the default is more of a font guideline rather than a set typeface. Admins may add or remove permissions for specific roles to set the tea font style and/or adjust the font from the Roles and Permissions.
+
+To set your team's default font style, follow these steps:
+
+Navigate to the Email tab under your Team Settings.
+Under Default Font Settings, select the font you want to default. 
+Select the Size. 
+Click Save. 
+
+ 
+
+ 
+ Select Available Email Clients
+
+When each Salesloft user sets up their Salesloft account, they must connect their Salesloft account to their email account. 
+
+In order to make connecting to the email server simple as possible, you can limit the Email Clients so the only email options visible in your users' Email Settings are the the specific one(s) your team needs.
+
+For example, if your team exclusively uses Gmail as their email server, you can select the Gmail box under Available Email Clients. Then your users will only see the Gmail Connection option when they connect their email.  
+
+To select your available email clients, follow these steps: 
+
+Under your Admin Email Settings, go to Available Email Clients.
+Select the specific client(s) that you want your team to have access to.
+Hit Save.
+
+ 
+
+Set a Domain Send Limit
+
+Not to be confused with the daily send limit, the Domain Send Limit keeps your team from emailing the same account multiple times in a day.
+
+Why would you want to keep emails to an account to a minimum?
+
+Let's say your team is prospecting a company. If your team isn't well aligned on their communications and they're overzealous, it's possible that multiple sales people will email the company on the same day. This kind of over sending to an account can lead to emails being tagged as spam or perceived as an unprofessional and poor customer experience. 
+
+To help keep this behavior in check, the Domain Send Limit uses domain throttling. Domain throttling is the process of limiting the number of emails that can be sent to an account/domain by the all of the users on your team over a period of time. 
+
+Things to Note:
+
+The Domain Send Limit impacts the entire team. Meaning, the set limit will be reached if multiple users on your team are emailing the same Account. 
+The Domain Send Limit will only impact emails sent from Cadences. 
+
+To set the Domain Send Limit, follow these steps: 
+
+Navigate to the Email tab under your Team Settings.
+Scroll to the Domain Send Limit section and click Edit. A module will appear.
+The Domain Send Limit will initially be disabled. Click the toggle to enable the Domain Send Limit. Once the toggle is on, the module will expand to show the Domain Send Limit amount and Domain Exclusion List.
+Set a Domain Send Limit amount by entering a number or using the arrows to find a number. This number will be the maximum number of emails your team can send to an Account via Cadence in a day. You and your team will need to decide the number of sends that are appropriate in a day.
+(Optional) If there are Accounts that need a little additional Cadence email love than your Domain Send allows, you can add them to the Domain Exclusion List so they can receive emails beyond your Domain Send Limit. Type the Account's domain (for example: salesloft.com) into the text box. Separate multiple domains by commas, spaces, or line breaks. 
+Click Save. 
+
+ 
+
+When a user attempts to send a Cadence email to a domain that is over the domain limit, a message will appear to inform the user that they have hit the domain limit.
+
+Things to Note: If an automated email runs into the Domain Send Limit, the email will remain in the Cadence step. The user must MANUALLY send the email the following day.
+ 
+
+ 
+
+Enable Generated Text
+The Generated Text setting allows your team to Draft with AI. Draft with AI allows you to use artificial intelligence (AI) to draft emails for Cadence email steps. 
+ 
+By default, the Generated Text setting is enabled for Team Cadences. As an admin, you can manage the setting (enable it or disable it) for both Team Cadences and Personal Cadences.
+
+Things to Note: To ensure GDPR compliance, we recommend consulting with your legal team before enabling Generated Text.
+ 
+To manage the Generated Text setting, follow these steps:
+Navigate to your Team Settings.
+Select Email from the Communication Settings options.
+Scroll down to the Generated Text section and use the toggle to enable the Generated Text for Team Cadences and/or Personal Cadences.
+Things to Note: When the toggle area is blue, the feature is ON. 
+Email Activity Sync
+
+Email Sync, also known as server sided sync, logs all outgoing and/or incoming emails into Salesloft. This means that any message sent from your email will be logged in Salesloft, including emails sent from mobile devices.
+
+Things to Note:
+
+Email sync does not include email tracking capabilities: Emails must be lofted or sent directly from Salesloft in order to track opens and clicks for the email.
+Email sync only applies to a person in Salesloft: The email recipient or sender (depending on outbound or inbound sync) must already be Imported into Salesloft.
+Using the "Loft It" button disables Outbound/Inbound Email Sync: Messages sent with "Loft It" button will log, but any outbound and inbound emails sent after the initial message will not sync. In other words, if at any point during the thread the "Loft It" button is used, Email Sync will no longer apply. 
+
+To manage your email sync, navigate to your admin settings. Select the Email tab under the Communication Settings. Under Email Sync, enable the toggles to sync emails. The toggle options include: 
+
+Allow Outbound Email Activity: Captures all outgoing emails from your connected email account into Salesloft without hitting the "Loft It" button. This included emails that are sent from your mobile device.
+Allow Inbound Email Activity Sync: Syncs inbound emails received from people who have been previously imported into Salesloft.
+
+ 
+
+SLU: Team Communication: Email Settings (Video)
+
+Want to know about team Email Settings, but prefer a video format? Visit Salesloft University to see the Team Communication: Email Settings video tutorial. 
+
+ 
+ 
+Last Modified By
+Raequel Sank, 11/16/2023 8:29 PM
+Title
+Manage Team Email Settings
+URL Name
+Manage-Team-Email-Settings
+Salesloft Knowledge
+Admin Guides
+Email Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

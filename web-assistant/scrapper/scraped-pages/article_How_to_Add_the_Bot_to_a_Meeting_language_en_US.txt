@@ -1,0 +1,42 @@
+CONVERSATIONS
+How to Add the Bot to a Meeting
+
+Jan 9, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+If you have scheduled a meeting and do not see it in the Scheduled tab, you can add the bot to a meeting from the Add Bot to Meeting button in the upper right corner of the Conversations page.
+
+While the standard Bot settings will add the bot to previously scheduled meetings, this action will add the bot immediately. So if you have spur-of-the-moment meeting invites (you know, when a prospect has to hop on the call now), or if the bot ever fails to join the call, adding the bot to the meeting is the best course of action to ensure your meeting is recorded.
+
+To add the bot to your meeting, follow these steps:
+Go to the Conversations page. 
+In the right corner of the Conversations toolbar, select the + Add Bot to Meeting button.
+The Add Bot to Meeting window will appear. Below Meeting Platform, use the dropdown menu to select your recording platform. (required)
+Enter a Meeting Title in the text box. (required)
+Add the Meeting ID or URL in the last text box. (required)
+Things to Note: Zoom meetings may require a meeting password.
+Click Add Bot. A notification will appear to inform you the bot is searching for the meeting.
+A second green notification will appear at the top of the page once the bot has joined the meeting. Now you can access Live Notes During Your Meeting.
+ 
+ 
+Things to Note:
+If you do not see the Add Bot to Meeting button, make sure that your calendar is synced in your settings. 
+Once the bot has been added, it may take up to five minutes to join your meeting. 
+Need Conversations assistance? Check out the Conversations Troubleshooting Guide for more details.
+Last Modified By
+Raequel Sank, 1/9/2023 3:57 PM
+Title
+How to Add the Bot to a Meeting
+URL Name
+How-to-Add-the-Bot-to-a-Meeting
+Conversations
+Salesloft Knowledge
+Conversations Essentials
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

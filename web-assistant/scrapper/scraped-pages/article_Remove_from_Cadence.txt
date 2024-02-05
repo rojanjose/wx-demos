@@ -1,0 +1,126 @@
+CADENCES + TASKS
+Remove from Cadence
+
+Nov 14, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+If a Person or group of People do not need to be on the particular Cadence any longer, you can remove them. When a Person is removed from a Cadence they will no longer have actions due within that Cadence. 
+
+ 
+
+Things to Note: Effective November 30, 2023, any Active Person in a cadence that was archived prior to June 12, 2023 will be removed from that cadence.
+
+ 
+
+When to Remove a Person from a Cadence
+Remove from This Cadence
+Remove from All Cadences
+Remove From An Archived Cadence
+When to Remove a Person from a Cadence
+
+You may wonder, when should I remove someone from a Cadence?
+
+Ultimately, this decision will depend on the type of Cadence you create and the outcome you are trying to achieve. 
+
+Let’s look at a few examples: 
+
+Outbound Cadence: Goal to Confirm a Stakeholder
+
+For reps building their pipeline, the goal of a cadence may be to find the best point of contact at a company. Most of your cadence steps in this scenario aim to get your foot in the door. 
+
+If you make a phone call or receive an email that connects you with the ideal stakeholder at that company, you've completed the objective of your cadence. Now you can remove the Person you contacted. 
+
+Inbound Cadence: Goal to Book a Demo
+
+When someone download content, like an ebook, from your company's website, that is a good indication that they are interesting in what your are selling. They can be added to an inbound cadence where your goal is to book a demo with them. 
+
+If you contact the Person and book the demo, you will remove the Person from the cadence as soon as the demo is booked. 
+
+If you remove people from a Cadence, you can use the People Removed from a Cadence Chart to understand the trends of your cadences and how much impact a Cadence is making.
+
+Remove from This Cadence
+
+ As you run Cadence workflows, you will experience times when People should be removed from a cadence. 
+
+Salesloft offers a number of methods to remove people from cadences. This way, you can quickly perform the action and continue with your day. 
+
+You can remove people from Cadences using any of the following methods in Salesloft: 
+
+Cadence People Tab
+Go to an individual Cadence and select the People tab of the Cadence.
+Filter and sort your People list (if necessary).
+Select specific People or all the People you want to move. 
+Click the down arrow to the right of the Add to Cadence button (rocket ship icon). A drop-down menu will appear. 
+From the Cadence Actions dropdown, select the red Remove from this Cadence action.
+A popup module will appear to confirm you would like to remove this Person (People) from the Cadence. Click Remove from Cadence. 
+The Person’s name on the Cadence list will be removed and a popup notification will appear to inform you the Person has been taken off the Cadence.
+Cadence Side Panel
+
+While you run cadences in the side panel, you can remove them by clicking the Ellipses (three horizontal dots), select Remove from Cadence. The person’s name on the Cadence list will be removed and a pop-up notification will appear to inform you the person has been taken off the Cadence.
+
+Person Profile Page Cadences Panel
+
+A Person's Profile Page contains their activity history and their Salesloft record details. From the Person Profile page you can even take actions to further your engagement with that individual. 
+
+If you are talking with someone who is running in a Cadence, you can remove them from a Cadence from the Cadences Panel. 
+
+Things to Note: Don’t see the Cadence Panel on your Person Profile Page? Check the Edit Layout menu in the upper right corner and make sure the Cadence Panel is turned on. 
+
+To remove a Person from the Cadence Panel on the Person Profile page, hover over the Cadence information in the panel. Various actions will appear in the listing. Click the drop-down link. Select Remove from this Cadence. 
+
+Activity Panel on a Person or Account Profile Page
+Go to the activity feed on the Person or Account Profile page and find the Cadence step under the Upcoming Activities. 
+Hover over the step. On the right side of the tile, the due date will change into a Run button with a down arrow. Click the down arrow to open additional menu options.
+Select Remove from Cadence.
+Salesloft will ask if you are sure you want to remove the Person from the Cadence. Hit Remove to confirm.   
+Automation Rules
+
+Certain automation rule triggers can be used to remove people from cadences. Common examples include When a Person is marked as success or When a Person Stage Changes to disqualified. 
+
+Remove from All Cadences
+
+In some cases, once a Person or group of People have worked their way through your sales cycle, you may not want them in any Cadence.
+
+You may individually remove a Person from each and every Cadence they are running on, or you can make your life easy and remove that Person from all Cadences (even those that have slipped your radar) in one simple action.
+
+The Remove from all Cadences option is available on the People Page. When you Remove from all Cadences, the people you select will be taken out of any and all Cadences they are currently running. 
+
+Things to Note: Team admins may control whether or not users have the option to remove People from all Cadences with the Permission. 
+
+To remove People from all Cadences, follow these steps:
+
+Go to the People page. Filter & sort your list if you would like.  
+Select the Person or People you want to remove from Cadences.
+Click the down arrow next to the Add to Cadence button. A dropdown menu will open.
+From the drop down, select Remove from All Cadences.
+A confirmation message will appear. Select Remove from All Cadences to continue. Click Cancel to go back without completing the action. 
+Once the action is confirmed, you will see a notification at the top of your page that the People will be removed from all Cadences. Depending on how many People are being removed, or the number of Cadences, this action could take some time. 
+
+ 
+
+Remove From An Archived Cadence
+Things to Note: Effective November 30, 2023, any Active Person in a cadence that was archived prior to June 12, 2023 will be removed from that cadence.
+ 
+To remove a person from an archived cadence, follow these steps:
+Go to the Archived Cadence.
+Select the People tab.
+Check the box beside the Person you would like to remove. You can also bulk remove people from an archived cadence by checking the box at the top of the People List panel. This will select all People in the cadence. 
+Select the dropdown arrow beside Add to Cadence, then choose Remove from this Cadence. 
+Last Modified By
+Raequel Sank, 11/14/2023 3:37 PM
+Title
+Remove from Cadence
+URL Name
+Remove-from-Cadence
+Salesloft Knowledge
+Cadences + Tasks
+Manage A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

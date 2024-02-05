@@ -1,0 +1,190 @@
+GETTING STARTED
+Salesloft Search and Navigation
+
+Dec 14, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The top and left bar menus of the Salesloft platform contain navigation and search options. From these navigation bars, you may hop to the different features and functions in the platform.
+
+While the pages you are on may change, these bars will be consistent throughout the majority of the Salesloft platform.
+
+Things to Note: The navigation menus are different inside Salesloft Deals. 
+
+In this article, we will explain each navigation bar and its function, including: 
+
+The Top Navigation Bar
+Salesloft Compact View - Responsive Navigation
+Salesloft Product Tabs
+Search in Salesloft
+Submit Product Feedback
+Profile Settings - Your Name
+Salesloft Side Navigation
+Resource Center
+The Top Navigation Bar
+
+You will see the Salesloft top navigation (top nav) bar on every page in the Salesloft platform. Aptly named for its location, the top nav bar provides Salesloft quick actions as well as additional resources and tools.
+
+
+
+The top nav bar contains the following:
+
+Salesloft: Clicking the Salesloft icon will take you to your Salesloft Home Dashboard.
+
+Product Tabs: Navigate between the Salesloft platform's core functionalities.
+
+Search: Global search to find People or Accounts in the Salesloft platform.
+
+Live Feed: Represented by the heartbeat monitor icon, the Live Feed provides real-time alerts of your emails’ tracking activities.
+
+Messenger: Opens the Messenger pane in the bottom right corner of the platform so you can send SMS text messages. 
+
+Dial Pad: Opens the Dialer in the bottom right corner of the platform.
+
+Need Help?: Represented by a question mark icon. Provides additional helpful resources and Customer Support information, including:
+
+Related Articles: Shows the Knowledge Base articles that answer commonly asked questions related to the page you are viewing. 
+Contact Support : Opens the Contact Support form in another window so you can reach out the our Salesloft Support team for assistance if a technical issue arises. 
+Salesloft University : Common best practices to master your sales engagement and full lessons on how to use Salesloft.
+Knowledge Base: (You are here) Takes you to help.salesloft.com for information and instructions on Salesloft and its features.
+Submit Feedback: Allows you to provide feedback that our Product team will review to improve Salesloft.
+
+ 
+
+
+CRM Notifications: Represented by the lightning bolt icon. Shows any failing Salesforce activities. If an activity has failed to log to Salesforce, you will see a notification on the lightning bolt icon. Failed activities display an error message, and allow you to retry the failed activity. Also, this shows your Salesforce status - whether you are connected or disconnected.  
+
+Your name : Your name in the upper right corner of the Salesloft platform opens the main menu settings dropdown.
+
+Rocket Ship Icon: Click the rocket ship to run a Cadence from anywhere within the platform.
+
+ 
+
+Salesloft Compact View - Responsive Navigation
+
+Your web browser can be manipulated into all kinds of different sizes based on your personal preference. You may want to have your Salesloft window expanded to the full size of your second monitor or maybe you prefer to shrink the window to half of your screen, so you can reference other tabs at the same time. 
+
+Salesloft uses responsive navigation to make sure you can easily navigate the application when the site is viewed on smaller screens. 
+
+As you shrink the size of your browser, the Salesloft navigation options will adjust to fit the screen. You will notice a couple of key differences in the navigation: 
+
+Compact Top Navigation
+
+The standard Salesloft top naviation bar shows all of the Salesloft product tabs, search bar, and quick actions. 
+
+The smaller version of the window compresses these components into dropdown menus and various icons. 
+ 
+
+Product Areas: Only the name the current product area you are accessing will appear with a down arrow. Click the name of the product area to view the various product area options. 
+Search bar: The search bar shifts to a single search icon (magnifying glass). To open search, click the icon. The search bar will appear under the navigation bar. 
+Quick Actions: Depending on the size of you window, the quick actions will be combined into three vertical dots. Hover over the dots to see the More option. When you click More, the quick action icons will appear on the top navigation bar. 
+ 
+Compact Side Navigation
+
+The standard Salesloft side navigation shows a line of icons that will take you to the various Salesloft pages. 
+
+When you make your window smaller, the side nav retracts by default. When the side nav "disappears," three horizontal lines appear in the upper left corner of your window. When you click these lines, the full side navigation menu will appear. This navigation includes the icon and name of each page.  
+
+The menu will appear until you click a page or click out of the menu. 
+ 
+
+Salesloft Product Tabs
+
+Salesloft offers a total solution to sales engagement. You have Cadences, activity logging, Opportunity Management, and Conversation Intelligence all from one platform. 
+
+These valuable tools are separated in the Salesloft platform by the product tabs located in the top navigation. The tabs include the following options: 
+
+Cadence: The core Salesloft platform includes Cadences, CRM Sync, Automation, Live Feed, Email, Dialer, and more.
+Conversation Intelligence: Home to Conversation Intelligence where you can analyze and share video and call recordings. 
+Deals: Your center for Opportunity Management. Track, evaluate, and act upon Deals with greater confidence in your Pipeline.  
+
+A blue line will appear below the product tab you are currently working in. 
+
+Things to Note:
+
+If you have not purchased Conversation Intelligence and/or Deals, you will not have access to the Conversations or Deals tabs. To request access, speak to your Salesloft Sales Executive for more information.
+To learn more about the Salesloft pricing plans, check out our Salesloft Packages and Availability article. 
+Search in Salesloft
+
+The global search functionality allows you to search for any Account or Person in your Salesloft instance.
+
+The search bar is located in the top navigation bar. No matter where you are in the platform, you can access the search bar. Type the keyboard shortcut / ("forward slash" key) to quickly jump to the search bar at any time.
+
+Search using a Person’s name or Account’s name, email address, or Salesloft profile ID (if you’re a numbers rockstar who has that information at the ready). Search results will appear in grouped sections:
+
+Accounts 
+People
+
+Using the search bar is as easy as typing in the search info and selecting the Person or Account. However, there are a few tricks to optimize your search results:
+
+Type AND or OR: Adding “AND” or “OR” to your search line expands your results.
+Use the wildcard (*): If you do not remember a first name, last name, or the name of an account, the wildcard (*) provides a list of possible matches.
+Quotation marks: To be precise, use quotation marks around your search.
+ 
+Submit Product Feedback
+
+Do you have an idea you would like to share with the Salesloft Product team or feedback about the app? If you have a suggestion that can help us improve Salesloft, we want to hear it! And for the technical issues, we want to help!
+
+To submit feedback, follow the instructions listed below:
+
+Navigate to the Need Help? dropdown (the question mark icon located in the upper right corner).
+Click Submit Feedback within the dropdown. 
+Select I have an idea on how to make Salesloft better. This directs your feedback to Salesloft's Product team. 
+Enter any suggestions you may have in the Submit Feedback dialogue box.
+Add your email address in the field below the feedback box.
+Hit Send Feedback. The Submit Feedback box will close and you will see a popup notification that your ticket or feedback has been submitted. 
+ 
+Profile Settings - Your Name
+
+Your name in the upper right corner of the Salesloft platform isn’t just to let you know that this is your account. Clicking your name opens the main menu settings dropdown.
+
+From the dropdown you can access:
+
+Settings : Your Salesloft Personal Settings that allow you to edit your profile information.
+Team: (Admins Only) Takes you directly to the Admin-specific General Settings that can be set for your team. 
+Log Out: Sign out of Salesloft.
+ 
+ 
+Salesloft Side Navigation
+
+The side navigation (or side nav) will take you anywhere you need to go within the platform. Want to see a comprehensive list of People? Add new templates? Check out your analytics? Select the icon from the side nav to go to the page you want.
+
+If you prefer to see the word associated with the icon, select the triple dash icon located in the upper left-hand corner of the Salesloft platform. The icon will transform into an arrow and the side nav will expand to show you each icon and the page name.
+
+The side nav contains the following icons:
+
+Home (house icon): Takes you to the Salesloft Home Dashboard.
+Cadences (rocketship icon): Takes you to the Cadences page.
+Accounts (building icon): Takes you to the Accounts page.
+People (person icon): Takes you to the People page.
+Emails (envelope icon): Takes you to the Email page.
+Calls (phone icon): Takes you to the Calls page.
+Templates (page icon): Takes you to the Templates page.
+Snippets (quotation mark icon): Takes you to the Snippets page.
+Analytics (bar graph icon): Takes you to the Analytics page.
+Tracking (tracker icon): Takes you to the Live Website Tracking page. Must be enabled for users to appear in the side nav.
+ 
+Resource Center
+The Salesloft Resource Center is represented by our signature Salesloft monogram in the lower left hand corner of your Dashboard.
+
+The Resource Center will house product updates, program announcements, and Guides to help you maximize your use of the platform. The number attached to the Salesloft monogram will give you a count of how many unread announcements you have.
+
+Click on the Salesloft monogram to open the Resource Center. Then you can navigate to any tabs with the green dots that indicate new messages to learn more.
+ 
+Last Modified By
+Stephanie Griffith, 12/14/2021 1:34 PM
+Title
+Salesloft Search and Navigation
+URL Name
+Salesloft-Search-and-Navigation
+Salesloft Knowledge
+Getting Started
+Salesloft Homepage
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,142 @@
+DEALS
+Manage Deal Gaps
+
+May 24, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Gaps are the data points that could negatively impact your Deals. For example, if a Deal has missing information or hasn't been updated in a while, the Deal could be in trouble. And that's where Deal Gaps come into play. 
+
+Deal Gaps use rules/criteria to determine the state of your Deals based on the number of Gaps. 
+
+Gaps are a great way to identify leading indicators of pipeline health. When Deal Gaps are set, they assign color-coded numbers to notify you of whether your Deal is healthy or not. 
+
+Things to Note: Only team admins may edit Deal Gaps. 
+
+In this article, you will learn how to set up Deal Gaps for your team, including: 
+Default Deal Gaps
+Gap Settings
+Deal Summary
+Manage Field Gaps
+Common Deal Gap Examples
+Default Deal Gaps
+Default Deal Gaps which are automatically set with any new Deals account created in Salesloft. This way your team can start to understand what opportunities need more attention from day 1. 
+
+For every new account created, there will be three Deal gaps enabled by default (each one is a deal gap by itself):
+The last activity was more than 10 days ago AND the Opportunity type is equal to New. 
+Gap Details: Last activity >> Days since > 10  AND Opportunity type >> Equals >> New deal
+No Stakeholders added/associated with the opportunity AND that opportunity type is New. 
+Gap Details: Stakeholders >> Is empty  AND  Opportunity type >> Equals >> New deal
+Next steps for the deal are left empty.
+Gap Details: Next steps >> Is empty
+Your team can continue using these default gaps, edit the gap to fit your use case, or delete the field gap if you have no use for it. You can learn how to alter the existing gaps in the Field Gap section below. 
+Gap Settings
+Unlike most Admin Settings, the Deal Gaps are managed from the Pipeline tab. To access the Deal Gaps, click the gear shift icon to the right of the Pipeline Health Bar. The Gap Settings dropdown will appear below the Pipeline Health Bar. 
+
+The Gap Settings are broken into two main sections: 
+Deal Summary
+Field Gaps
+To close the Gap Settings, click outside of the Gap Settings dropdown window. 
+ 
+Deal Summary 
+The Deal Summary specifies the thresholds of your Deal Gaps. You will see a bar with green, yellow, and red lines.
+The green portion represents the number of Deal Gaps a healthy Deal will have. The range starts at zero Deal Gaps and goes up until the minimum number of Deal Gaps in the yellow line. 
+The yellow portion designates the number of Deal Gaps a Deal that "needs attention" will have.
+The red portion represents the number of Deal Gaps that an at-risk Deal will have.
+Admins can edit the minimum number of Gaps in the yellow and red portions. To edit the Deal Gaps, follow these steps: 
+Go to the Pipeline Dashboard.
+To the right of the Pipeline Health Bar, click the gear icon to open the Gap Settings. 
+Under Deal Summary, click in the yellow Deal Summary text box. Use the backspace to delete the existing number. 
+Type the number of Deal Gaps you would like to be the minimum of the section. 
+Click outside of the text box. 
+Repeat the steps with the red Deal Summary. 
+Close the Gap Settings.
+You may need to refresh the page for the Gap Settings to apply. When you refresh the page, the number of Gaps listed in the pills on the Pipeline Health Bar should change. 
+"Yellow" Deals are those with 2-3 Gaps and "Red" Deals are those with 4+ Gaps. 
+ 
+The Deal Gaps will also display in the Pipeline View (if the column has been added to your display). Deal Gaps will show in the color of their health level. 
+
+If you only want your team to see Deals that need attention or are at risk, you can hide the healthy Deals. Check the Hide gap count for healthy deals below the Deal Summary. When the box is checked, Deals that are in the green will appear as "-" in the Pipeline view. 
+ 
+Manage Field Gaps
+Field Gaps determine what constitutes as a Gap based on set criteria. 
+
+To add a Field Gap, follow these steps: 
+Go to the Pipeline Dashboard.
+To the right of the Pipeline Health Bar, click the gear icon to open the Gap Settings. 
+Under Field Gaps, click Add a Gap. The new Gap will appear at the bottom of the Gap list. 
+Click the plus sign to the right of the criteria. This will add the criteria field. 
+Things to Note: You will not be able to edit the criteria until you add the field.
+Set your Gap criteria by using the dropdown menus: 
+In the Create a Gap field, use the menu to select one of the following: 
+Any: The Gap will register if any data point is met.
+All: The Gap requires all data criteria to be met before a Gap will register. 
+Select a Field.
+Select a Rule.
+Select the plus sign to add any other criteria. Use the minus sign to remove a line of criteria. 
+When your criteria is complete, hit Save Changes.
+To edit a Field Gap, follow these steps: 
+Go to the Pipeline Dashboard.
+To the right of the Pipeline Health Bar, click the gear icon to open the Gap Settings. 
+Under Field Gaps, find the Gap you wish to edit.
+Once the edits are made, click Save Changes. 
+To delete a Field Gap, follow these steps: 
+Go to the Pipeline Dashboard.
+To the right of the Pipeline Health Bar, click the gear icon to open the Gap Settings. 
+Under Field Gaps, find the Gap you wish to remove. 
+Click the X in the upper right corner of that Field Gap. The Field Gap will go away. 
+Common Deal Gap Examples
+The Gaps can then be configured based upon simple rules tied to the CRM, e.g. days in stage > 30 or "next step" date is in the past, etc.
+
+Some of the most common Gaps include:
+Close Date is Past Due
+Amount is Empty
+No Next Step
+Last Activity > # days
+Age > # days
+A more in-depth Gap can may include the following parameters:
+Days in stage > X for a particular stage type
+For a stage, no last activity since X Days
+For a stage, something is not complete on the Deal e.g. renewal confirmation not checked and in a final stage
+Any combination of things that should be present at a given stage
+As a general rule of thumb, it's best to start simple and layer on from there. 
+
+Let's walk through an example of a common Deal Gap — Number of Stakeholders Count. 
+
+Having a stakeholder assigned to an opportunity is crucial to a Deal's progress. Without stakeholders, it's hard to know who you should reach out to regarding that opportunity. Zero stakeholders also make it impossible for the Salesloft to track communications and activities since actions are tracked to the stakeholder record. 
+
+Things to Note: For Salesloft users that signed up after April 25th, 2022, there will be a default deal gap for no stakeholders. They can, of course, go into the Deal Gaps settings and adjust that Deal Gap.
+
+To create a new Deal Gap for the Stakeholder Count, follow these steps: 
+
+Go to the Pipeline Dashboard.
+To the right of the Pipeline Health Bar, click the gear icon to open the Gap Settings. 
+Under Field Gaps, click Add a Gap. The new Gap will appear at the bottom of the Gap list. 
+Click the plus sign to the right of the criteria. This will add the criteria field. 
+Things to Note: You will not be able to edit the criteria until you add the field.
+Set your Gap criteria by using the dropdown menus: 
+In the Create a Gap field, use the menu to select one of the following: 
+Any: The Gap will register if any data point is met.
+All: The Gap requires all data criteria to be met before a Gap will register. 
+Select Stakeholder Count as your Field.
+Set the Rule to Equals. 
+Enter 0 as the Stakeholder Count.  
+When your criteria is complete, hit Save Changes.
+
+
+Last Modified By
+Stephanie Griffith, 5/24/2022 7:18 PM
+Title
+Manage Deal Gaps
+URL Name
+Manage-Deal-Gaps
+Deals
+Salesloft Knowledge
+Deals Admins
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

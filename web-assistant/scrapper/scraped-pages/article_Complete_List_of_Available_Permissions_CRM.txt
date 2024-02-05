@@ -1,0 +1,223 @@
+ADMIN GUIDES
+Complete List of Available Permissions
+
+Dec 18, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Permissions let admins control what users can see and do in Salesloft. You can define a specific set of permissions for each role. The default Admin and User permissions cannot be edited.  
+
+When you first visit this page, the Admin and User default roles will be visible. You can change these to display up to any four roles for side-by-side comparison. To view different roles on the permission page, click the role name in the column header and select an alternative role in the dropdown.  
+
+You can edit any custom roles by checking or unchecking the box related to that particular object's permissions.
+
+There’s a wide range of permissions available to you in Salesloft. You can pick and choose from any of the permissions listed.
+
+In this article, we will break down the different permissions segments, including: 
+
+General Permissions
+Access Control Permissions
+Account Management Permissions 
+Analytics Permissions
+Cadences Permissions
+Coaching Permissions
+Conversation Intelligence Permissions
+CRM Permissions
+Deals Permissions
+Dialer Permissions
+Live Calls Permissions
+Live Web Tracking Permissions
+Meetings Permissions
+People Permissions
+Snippets Permissions
+Tasks Permissions
+Team Management Permissions
+Templates Permissions
+General Permissions
+Permission Category  	 Permission Name 	 Definition	Admin Default	 User Default
+ Automation Rules 	 Manage Automation Rules	 Create, update, delete, and toggle Automation Rules	X	- 
+ Dispositions and Sentiments  	Manage Dispositions and Sentiments 	Create, delete and toggle logging requirement for Dispositions and Sentiments  	X	- 
+Fonts	 Change Fonts 	 Change font, font size, and color 	X	X
+Frontend Integrations  	 Manage Frontend Integrations	 Install and uninstall Frontend Integrations 	X	  -
+Goal Management	Manage Goals	Can add, edit or remove goals across the platform	X	-
+Home Dashboard 	Configure Actions Dashboard  	 Ability to configure the home dashboard by resizing and rearranging the panels. 	X	X
+Hot Leads	Manage Hot Leads	Manage the team Hot Leads Settings	X	- 
+Payments   	 Manage Payments	 Manage credit card, dialer funds and cancellations	X	 -
+Roles & Permissions  	 Manage Roles & Permissions	 Create, update, and delete roles; manage permissions 	X	 -
+Scheduled Actions  	View Scheduled Actions 	 View the Scheduled Actions Report for members on your team 	X	 -
+Single Sign-On	Manage SAML (Single Sign-on)	 Configure, test and enable Single Sign On	X	 -
+Access Control Permissions
+Permission Category  	 Permission Name 	 Definition	Admin Default	 User Default
+Access Control	View All People 	 View all People in Salesloft, with no access restrictions	 X	 -
+
+
+Access Control
+
+	 View All Accounts	 View all Accounts in Salesloft, with no access restrictions	X 	 -
+Access Control	View All Opportunities	View all Opportunities in Salesloft, with no access restrictions	X	- 
+Access Control	Manage All People 	 Manage all People in Salesloft, with no access restrictions	X	- 
+Access Control	 Manage All Accounts	Manage all Accounts in Salesloft, with no access restrictions	X 	- 
+Access Control	View All Recordings	View all Recordings in Salesloft, with no access restrictions	X	-
+Access Control	Set Recording Owner	Ability to change the owner of a Recording	X	-
+Account Management Permissions 
+Permission Category  	 Permission Name 	 Definition	Admin Default	 User Default
+Account Management	Edit Accounts	Update fields and tags on Account records in Salesloft	X	X
+Account Management	Create Accounts	Create Account records in Salesloft	X	X
+Account Management	Delete Accounts	Delete Account records in Salesloft	X	X
+Account Management	 Manage Settings for Account Management	 Configure Account linking and creating settings	X	X
+Account Management	Import Accounts from CRM	Import individual Accounts or an entire list into Salesloft	X	X
+Account Management	Export Accounts	Export Account Records	X	X
+
+ 
+
+Analytics Permissions
+Permission Category  	Permission Name	Definition  	Admin Default	User Default
+Analytics	View Analytics	View team analytics, filter by user & everyone	X	X
+Analytics	Filter by Teammates	Filter analytics by individual teammates and groups	X	-
+Analytics	Export Team Analytics	Export team analytics information	X	-
+Cadences Permissions
+Permission Category  	Permission Name	Definition 	Admin Default	 User Default
+Cadences	Personal Cadences: Manage	Users can create, edit, delete, archive, tag and run people on their personal Cadences	X	X
+Cadences	 Personal Cadences: Admin 	Create, edit, delete, archive and tag People on all personal Cadences 	 X	-
+Cadences	Public Cadences: View & Copy Public Cadences	View and copy public personal Cadences	X	X
+Cadences	Team Cadences: View	View Team Cadences overview	X	- 
+ Cadences	Team Cadences: Run 	Add, remove, and run People on Team Cadences 	X	X
+ Cadences	Team Cadences: Create & Edit	Create and edit Cadences for use by the team	 X	 -
+Cadences 	Team Cadences: Edit Only	Edit Cadence in use by the team	X 	- 
+Cadences 	Team Cadences: Tag	Manage tags for Cadences in use by the team	X 	- 
+Cadences 	Team Cadences: Copy to Team Cadences	Copy Team Cadences to use as another Team Cadence (requires Cadence creation permission)	X 	- 
+Cadences 	Team Cadences: Copy to Personal Cadences	Copy Team Cadences to use as a personal Cadence (requires Cadence creation permission)	X 	- 
+Cadences 	Team Cadences: Archive	Remove Team Cadences from list view while retaining data 	X 	- 
+Cadences 	Team Cadences: Delete	Remove Team Cadence from use and delete data 	X 	- 
+Cadences	Manage Cadence Ownership	Change owners for personal and Team Cadences	X	-
+Cadences	Remove from All Cadences	Remove People from all Cadences they are currently on, regardless of ownership or assignee	X	X
+Cadences	Operational Cadences	Allow admins to add People with contact restrictions and DNC to Operational Cadences	X	 -
+
+ 
+
+Coaching Permissions
+Permission Category  	Permission Name	Definition  	Admin Default	User Default
+Coaching	Coaching View	View coaching navigation item	X	X
+Coaching	Team View	View coaching team list and select users	X	- 
+Coaching	View Email Content	Allow full email body content viewing for coaching
+ 	X	- 
+
+ 
+
+Conversation Permissions 
+Permission Category  	Permission Name	Definition  	Admin Default	User Default
+Conversations	Manage Conversation
+Intelligence	Ability to alter how Conversation
+Intelligence functions for the team	X	-
+Conversations	Delete Recordings	Ability to delete recordings within
+Conversation Intelligence	X	-
+Conversations	Share Recordings and Clips	Ability to publicly share recordings and clips externally	X	X
+
+ 
+
+CRM Permissions 
+Permission Category 	Permission Name	Definition 	Admin Default	User Default 
+CRM	Manage Leads	Create Leads	X	-
+CRM	Manage Contacts	Create Contacts	X	-
+CRM	Manage CRM Activity Logs	View and retry failing team activity logs in addition to your personal logs	X	-
+CRM	Set API Threshold	View and set API threshold value	X	-
+CRM	Manage CRM Sync Settings	Access and update Team CRM Sync Settings	X	-
+CRM	Manage Field Configuration	View and edit Salesloft Field Configuration	X	-
+CRM	Manage Team CRM Sync Logs	View and retry Person, Account, and Opportunity sync logs	X	-
+CRM	Manage Scheduled Imports	View and manage scheduled imports created by your team	X	-
+Deals Permissions
+Permission Category  	 Permission Name 	 Definition	Admin Default	 User Default
+Deals	 Filter Deals Summary	Filter Deals Summary to Groups and Users 	X	-
+Deals	View Deals Analytics	View and Filter Deals Analytics	X	-
+Deals	Manage Forecast Submissions	Can update and edit forecast submissions on behalf of all users	X	-
+Deals	View Forecasting	Can view the Forecast tab inside Deals	X	-
+Deals	View Full Forecast Hierarchy	Can view the Full Forecast Hierarchy	X	-
+Dialer Permissions
+Permission Category 	Permission Name 	Definition  	Admin Default	User Default
+Dialer	Manage Settings for Dialer	Provision and assign phone numbers	X	-
+Dialer	Manage LocalDial	Assign LocalDial users, manage whitelists	X	-
+Dialer	Manage Recording	Enable or disable recording options and assign users	X	-
+Dialer	View Team Calls	View Team Calls Overview	X	-
+Dialer	Manage Messaging	Enable/disable Messaging	X	 -
+Dialer	Manage Twilio Regulatory Bundles	Create Regulatory Bundles and upload Supporting Documents directly to Twilio	X	-
+
+ 
+
+Live Calls Permissions
+Permission Category  	Permission Name	Definition  	Admin Default	User Default
+Live Calls	Coach Live Calls	Listen to live calls and whisper to reps	X	-
+Live Calls	Manage Live Calls	Manage Live Call Studio	X	-
+Live Web Tracking Permissions
+Permission Category 	Permission Name	Definition  	Admin Default	 User Default
+Live Web Tracking	Manage Live Website Tracking Settings	Manage Settings	X	-
+Live Web Tracking	View Live Website Tracking	View Live Website Tracking	X	X
+
+ 
+
+Meetings Permissions
+Permission Category 	Permission Name	Definition  	Admin Default	 User Default
+Meetings	Manage Meeting Types	 Create, update, and delete team meeting types	X	-
+Meetings	Manage General and  Branding Settings	Create, update, and delete meeting settings	X	-
+People Permissions
+Permission Category  	Permission Name	Definition 	Admin Default	 User Default
+People	Create People	Manually create People records in Salesloft	X	X
+People	Manage People	Update fields, tags, and star People records in Salesloft	X	X
+People	Delete People	Delete People from Salesloft	X	-
+People	Create People When Lofting	Creates a Person record in Salesloft when Lofting an email.	X	X
+People	Toggle DNC on People	Mark/unmark People as 'Do Not Contact'	X	X
+People	Export People	Export People	X	X
+People	CSV Import	Import People from csv	X	X
+People	CRM Import	Import People from connected CRM	X	X
+People	Toggle EU Residents	Mark People as EU Residents	X	-
+People	Data Enrichment	Automatically update person fields based on email signatures	X	-
+Snippets 
+Permission Category  	Permission Name	Definition 	
+
+ Admin Default
+
+	User Default
+Snippets	View Others Personal Snippets	View personal Snippets owned by other People	X	X
+Snippets	Manage Others Personal Snippets	Create, edit, delete personal Snippets owned by other People	X	-
+Snippets	View Team Snippets	View Team Snippets	X	X
+Snippets	Manage Team Snippets	Create, edit, delete team snippets	X	-
+Tasks
+Permission Category  	Permission Name	Definition 	
+
+ Admin Default
+
+	User Default
+Tasks	Edit All Tasks	Edit or reassign any user's Task	X	-
+Tasks	Delete All Tasks	Delete any user's Task	X	-
+Tasks	Run All Tasks	Run any user's Task	X	-
+Team Management
+Permission Category	Permission Name	Definition	Admin Default	User Default
+Team Management	Manage Team	Invite and manage team members, groups, and import options.	X	-
+Team Management	Manage Act on Behalf Setting	Allow user to modify the team wide Act on Behalf settings and notifications. Requires 'Manage Team' permission.	X	-
+Team Management	Allow Act on Behalf Rights	Gives user the ability to Act on Behalf of any user on the team. Requires 'Manage Team' permission.	X	-
+
+ 
+
+Templates 
+Permission Category  	Permission Name	Definition  	Admin Default	User Default
+Templates	View Team
+Templates	View Team Templates	X	X
+Templates	Manage Team
+Templates	Create, update, delete, copy, convert,
+and archive Team Templates	X	-
+Last Modified By
+Stephanie Griffith, 12/18/2023 5:09 PM
+Title
+Complete List of Available Permissions
+URL Name
+Complete-List-of-Available-Permissions
+Salesloft Knowledge
+Admin Guides
+Team Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

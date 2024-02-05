@@ -1,0 +1,131 @@
+PEOPLE AND ACCOUNTS
+ACCOUNTS PAGE
+Select Account Actions from the Accounts Page
+
+Sep 13, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft allows you to do more with Accounts other than filter & sort, add new accounts, and view information which are some of the functionalities you can perform from the Account Page Filters.
+
+When you select the checkboxes to the left of an individual or multiple Accounts additional Account action items appear at the top of your Accounts list. First, you will see the number of Accounts that are selected out of the total number of Accounts in your view. These numbers are followed by buttons to perform Account actions. 
+
+
+
+In this article, we will walk through the different Account actions, including:
+Set Account Stages
+Edit Account Tier
+Update the Account Owner
+Manage Account Tags
+View People Linked to the Account(s)
+Archive Accounts
+Delete Accounts
+For a complete guide on each component of the Accounts page, check out our The Accounts Page Layout article.
+Set Account Stage
+Your Account stages act like the status of where an Account is in the sales process.
+
+To update Account stages in bulk, follow these steps:
+Click the checkboxes next to any Account or number of Accounts that needs stage updates. The buttons will appear at the top of the Account list.
+Click Edit. The Edit module will appear. The top of the module will specify the number of Accounts that will be updated. 
+Click the Stage option. A dropdown menu will appear. 
+Find and select a Stage. Use the search option to search for a specific stage. You may also select Tier and Owner changes at this time. 
+Click Update # Account. The # is the number of Accounts that will be updated. 
+ 
+Edit Account Tier
+Account Tiers help segment sales strategies and allow companies to create focus around the most important Accounts. Team members who sort their steps by Tier can execute Account-based marketing strategies directly from the Salesloft platform. 
+
+Things to Note: Admins set Account Tiers in the Account Field Configuration. 
+
+To edit an Account's tier, follow these steps: 
+Click the checkboxes next to any Account or number of Accounts that needs stage updates. The buttons will appear at the top of the Account list.
+Click Edit. The Edit module will appear. The top of the module will specify the number of Accounts that will be updated. 
+Click the Tier option. A dropdown menu will appear. 
+Select a Tier. Use the search option to search for a specific tier. You may also select Stage and Owner changes at this time. 
+Click Update # Account. The # is the number of Accounts that will be updated. 
+ 
+Update the Account Owner
+When an account is imported into Salesloft it is automatically assigned to and “owned” by the user who completed the import.
+
+Now, while you don’t need to have ownership to work with an account in Salesloft, your "My Accounts" list will only show the accounts that are owned by you. Ownership may also come into play in other scenarios, like if account territories change or if a sales rep moves to a new role or leaves your company.
+
+This is why you can update the owner of an account or accounts. To change the owner of an account, follow these steps:
+Click the checkboxes next to any Account or number of Accounts that needs stage updates. The buttons will appear at the top of the Account list.
+Click Edit. The Edit module will appear. The top of the module will specify the number of Accounts that will be updated. 
+Find the Owner dropdown. Use the search option to search for a specific Owner. 
+Select the Owner you would like to update. You may also select Tier and Stage changes at this time. 
+Click Update # Account. The # is the number of Accounts that will be updated.
+ 
+Manage Account Tags
+Salesloft Tags are labels that you can use to classify and sort different Salesloft objects together. With tags, you can group together similar accounts to take quick actions, like message similar Accounts about new features or promotions.
+
+From the Accounts page, you can add Account tags by following these steps:  
+Select the Account (or Accounts) you want to add or remove any tags from by clicking the checkbox next to the Account’s name.
+When you select an Account, a line of Account action items will appear at the top of your list. Click the Tag button. The Edit Tags module will appear. 
+Under Add Tags, type the name you would like for the tag. 
+If the tag had not been used before, a message will display "No tags match your search." Click + Create to create a new tag. 
+If they tag already exist, select it from the search dropdown. 
+Each tag will be included above the search bar. If you change your mind, click the X in the tag name box and the tag will not be added. 
+Things to Note: Tags will not be added until you click Update. 
+Click Update. The tags will be added below the tag column in your Account list. 
+ 
+To remove Account tags, follow these steps: 
+Select the Account (or Accounts) you want to add or remove any tags from by clicking the checkbox next to the Account’s name.
+When you select an Account, a line of Account action items will appear at the top of your list. Click the Tag button. The Edit Tags module will appear. 
+Under Remove Tags, type the tag name you would like to remove or click Remove All Tags. 
+Click Update. The tag update will be reflected in your Account list. 
+ 
+View People Linked to the Account(s)
+Once you've determined the Account(s) you need to target from your Account list, you will want to transition to reaching out to individual People from the Account. The View People action in the Account list was created for exactly this purpose.
+
+From the Accounts List, select the Accounts you want to focus on and select View People to see a list of People at these accounts. 
+
+To view People linked to Accounts, follow these steps:
+1. From the Accounts page, select the Account or Accounts by clicking the checkbox next to their name. When you select an Account, a line of Account action items will appear at the top of your list.
+
+
+ 
+2. Click View People. You will be redirected to the People page. The list of People will be filtered to only include People from the Account(s) that have been selected. The yellow ribbon will reflect which account(s) the view is filtered to.
+Archive Accounts
+If an account is no longer on your radar or no longer exists, you may want to remove them from your accounts list. Your first instinct is probably to delete the account, but not so fast.
+
+Deleting an account removes all data that is associated with that account in Salesloft. So metrics you have gathered (reply, clicks, opens) will all be lost if you hit delete.
+
+Things to Note: Salesloft best practice is to Archive your old accounts. Archiving removes the account from your view, but retains all the (important) data!
+
+To archive Accounts, follow these steps:
+From the Accounts page, select the Account or Accounts by clicking the checkbox next to their name.
+Click the More button on the Account actions toolbar. A dropdown menu will appear. 
+In the dropdown, click Archive. 
+A prompt will popup to confirm that you wish to archive the Account. Click Archive. 
+Once an Account has been archived, the Account will be hidden from the listview unless you add the Include Archived filter option. When archived Accounts appear, the archive icon will appear to the left of the Account name in the list. 
+
+Things to Note: Archived Accounts will only appear if they filter is set to include Archived Accounts. 
+
+If you ever want to bring an Account out of the archive, repeat the steps listed above, and select Unarchived from the More dropdown.
+Delete Accounts
+For accounts that you want completely removed from your Salesloft record, you have the option to delete them. Deleted accounts cannot be recovered and all data associated to their record will be removed. Deleting an account removes contacts associated with it, but does not delete those people from Salesloft.
+
+Things to Note: Salesloft best practice is to archive accounts in order to retain information. Deleting accounts cannot be undone.
+
+To delete an account, follow these steps:
+From the Accounts page, select the Account or Accounts by clicking the checkbox next to their name.
+Click the More button on the Account actions toolbar. A dropdown menu will appear. 
+In the dropdown, click Delete. 
+A prompt will popup to confirm that you wish to archive the Account. Click Delete. 
+Last Modified By
+Stephanie Griffith, 9/13/2021 3:09 PM
+Title
+Select Account Actions from the Accounts Page
+URL Name
+Select-Account-Actions-from-the-Accounts-Page
+Salesloft Knowledge
+People And Accounts
+Accounts
+Accounts Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

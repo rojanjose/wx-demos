@@ -1,0 +1,55 @@
+Weighted Pipeline
+
+Jul 19, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+As part of Forecast, the Weighted Pipeline tool allows you to measure the expected revenue in your sales pipeline. In a Weighted Pipeline, opportunities with higher likelihoods of closing are assigned higher weights in a Weighted Sales Pipeline report. This presents itself as a rollup metric in our Forecast product to help users Forecast. 
+ 
+
+ 
+
+In this article, you’ll learn all about Weighted Pipeline, including the following:
+
+Who Has Access to Weighted Pipeline
+How Weighted Pipeline is Calculated
+Weighted Pipeline Rollup Metrics
+Who Has Access to Weighted Pipeline
+
+Teams using Salesloft’s Forecast will have access to either Weighted Pipeline or AI Weighted Pipeline Forecast.
+
+The Weighted Pipeline will appear by default and will initially be calculated as a rollup metric.
+
+Your team can request the AI Forecast. When you request the AI Forecast, your teams data will be assessed. If your team qualifies with enough data and a reliable data science model, you would  graduate from the Weighted Pipeline metric to the AI Forecast metric.
+
+How Weighted Pipeline is Calculated
+
+To begin calculating Weighted Sales Pipeline, each stage in a deal is given a percentage that represents its probability of closing. The percentage is then multiplied by the value of the opportunities at each stage.
+
+Then you have your Weighted Sales Pipeline for a given period of time. These weights are pulled directly from Salesforce from the stage-weighted probability on the opportunity.
+
+Weighted Pipeline Rollup Metrics
+
+When Weighted Pipeline is enabled, a new rollup value will display in the Forecast Rollup Metrics list of rollup metrics. This weighted pipeline value can be toggled on or off depending on if a team finds it useful to their forecast process. 
+
+Things to Note: A user cannot delete this metric or edit it, but they can rearrange it.
+
+ 
+
+ 
+
+ 
+Last Modified By
+Stephanie Griffith, 7/19/2023 4:40 PM
+Title
+Weighted Pipeline
+URL Name
+Weighted-Pipeline
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

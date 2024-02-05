@@ -1,0 +1,97 @@
+CADENCES + TASKS
+Cadence Overview Metrics
+
+Jun 30, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Cadence Overview Page includes a data-rich dashboard highlighting important metrics about your Cadence, including Cadence outcomes. These Cadence Overview metrics show a quick glance of your Cadence's structure and performance. You will see the metrics specific to the Cadence below the Cadence toolbar.
+
+The metrics can be monitored in real time to track towards goals each month. From you Cadence metrics, you can view overall and step level metrics to understand if you were able to meet your goals and identify where improvements could be made. Then, you can evaluate your Cadences regularly to determine if your workflow is successful, or if it's time to switch up the process. 
+
+Click Step Analytics to see how granular metrics are converted at each step of the cadence.
+
+For this article, we will walk through the metrics from right-to-left, so we can highlight the Cadence Outcomes first. 
+
+In this article, you will learn about the different metrics that are visible on the Cadence Overview page and what they mean.
+Opportunity Rate
+Meeting Rate
+Engagement Metrics
+Cadence Structure Metrics
+Opportunity Rate
+If "Opportunities Created" is an important metric for your role, keep your eye on the Opportunity Rate metric (Opp Rate). This metric is listed last in the Cadence metrics, but, depending on your goals, it may be the most important.
+
+Things to Note: This feature will slowly roll out to customers starting June 16, 2021.
+
+The Opportunity Rate calculates how often the Cadence results in an Opportunity being created. In other words, is your Cadence workflow effective and helping to reach the goal of creating an Opportunity?
+
+Opportunities Created are generated in Salesforce. When the Opportunity is generated, if ties to the last completed Cadence step in Salesloft to determine which Cadence that it is attributed to.
+
+Things to Note: 
+In order for Opportunity Rate to populate, users must have a connected Salesforce instance.
+In order for Opportunity Rate to populate, a Salesloft team admin must have Opportunities configured in Salesloft Field Configuration with at least one field mapped. 
+If a Salesloft instance already has these items setup, no further configuration is required.
+The Opportunity Rate is calculated by taking the number of Opportunities Created and dividing it by the number of People touched through the Cadence. For anyone who prefers to see the math: 
+# Opportunities Created / # People Touched
+When you hover over the Opp rate metric on the Cadence Overview page, you can see the calculation as it related to the Cadence. 
+ 
+
+If you are using a Cadence and do not see the Opportunity Rate metrics, check the following: 
+Cadence Creation Date: Cadences did not begin collecting Opportunity data until May 2021. You will not see the Opportunity Rate for Cadences that were created prior to May 2021. If you have a Cadence that you would like to see the Opportunity Rate for, copy the Cadence, move People from the old Cadence to the new, and archive the "old" Cadence . This will refresh the Cadence so you can gain all of the data. 
+Meeting Rate
+The Meeting Rate calculates how often the Cadence results in a Person booking a Meeting with a Salesloft user as a result of the Cadence. 
+
+Things to Note: This feature will slowly roll out to customers starting June 16, 2021.
+
+Meetings Booked are powered by Meetings being booked and scheduled using Salesloft Meetings or Calendar Sync. When a meeting is booked or synced from the calendar, Salesloft will define the last completed Cadence step of the Person related to the meeting and attribute the meeting to the Cadence of the last completed step. 
+
+The Meeting Rate is calculated by taking the number of meetings booked and dividing it by the number of People touched through the Cadence. For anyone who prefers to see the math: 
+ # Meetings Booked / # People Touched
+
+When you hover over the Meeting rate metric on the Cadence Overview page, you can see the calculation as it related to the Cadence. 
+
+If you are using a Cadence and do not see the Opportunity Rate metrics, check the following: 
+Cadence Creation Date: Cadences did not begin collecting Opportunity data until May 2021. You will not see the Opportunity Rate for Cadences that were created prior to May 2021. If you have a Cadence that you would like to see the Opportunity Rate for, copy the Cadence, move People from the old Cadence to the new, and archive the "old" Cadence . This will refresh the Cadence so you can gain all of the data. 
+Calendar Connection
+Engagement Metrics
+The Engagement metrics show the impact of the Cadence by displaying the activity that has been completed. Basically, any action you or the Person take that promotes continuing communication counts as engagement. 
+
+Engagement metrics are 
+Calls Logged: Number of calls logged on this Cadence, meaning calls when the user click Log & Complete or Log Only.
+Emails Sent: Total number of emails sent from Cadence.
+Things to Note: Emails sent does not guarantee the emails was delivered.
+Reply Rate: Percentage of replied emails based off of the total number of emails sent from the Cadence.
+Hover state: # Replied / # Sent
+Click Rate: Percentage of emails with links that have been clicked based on the total number of emails sent from the Cadence.  
+Hover state: # Clicked / # Sent
+Open Rate: Percentage of emails viewed of the total number of emails sent from the Cadence.
+Hover state: # Open / # Sent
+ 
+Cadence Structure Metrics
+The Cadence Structure metrics give quick and basic overview of what is included in the Cadence. 
+Steps: Total number of steps in the Cadence.
+Things to Note: If a step has variants, the steps and the step variants are counted as one step.
+Duration: Total number of business days for the cadence.
+Things to Note: Salesloft doesn’t count Sat/Sun in the business day count.
+Active People: The number of People who are currently running through the Cadence.
+Previously known as "In Progress."
+Total People:  The total number of People who are currently on the Cadence or have completed the Cadence.
+Previously known as "All.".
+ 
+ 
+Last Modified By
+Raequel Sank, 6/30/2023 5:20 PM
+Title
+Cadence Overview Metrics
+URL Name
+Cadence-Overview-Metrics
+Salesloft Knowledge
+Cadences + Tasks
+Manage A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

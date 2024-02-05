@@ -1,0 +1,104 @@
+EMAIL
+Set Up Your Email Account - Gmail
+
+Aug 29, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Email is the primary channel of most modern sales cycles. Salesloft improves your standard email sends with tracking capabilities, templates, and smart tools that will enhance your communication, increase overall efficiency, and make your sales process smarter.
+
+But before you start sending, you need to be sure your email account is set up properly, which means connecting Salesloft to your Gmail account. 
+
+Things to Note: Once you have connected your Gmail to Salesloft, your emails are still sent using the Gmail API.
+
+In this article, we will walk through setting up Salesloft to your Gmail account:
+Connect Your Gmail Account
+Reauthorize Your Gmail Account
+Set Up a "Send As" Alias
+Install the Google Chrome Extension
+Connect Your Gmail Account
+You can connect your Gmail account from your Personal Email Settings. To access your personal email settings and connect your Gmail account, follow these steps:
+
+1. Click your name in the top right corner, then select Settings. 
+2. Select Email from the Personal Settings menu options.
+3. Click Edit from the Email Client section.
+4. Select Gmail then Connect.
+5. You will be given the option to select the Gmail account you would like to connect to. Select your desired Gmail account.
+6. Allow Salesloft access to the Gmail account.
+
+7. Woohoo! You're now ready to send email using Salesloft.
+ 
+Not using Gmail? Check out Salesloft's Available Email Clients.
+ 
+Connect Your Calendar from the Personal Email Settings Page
+
+Once you connect your email, the Calendar Connection window will appear. You can connect your calendar and enable calendar sync from this window without having to leave the Personal Email Settings page.
+
+
+Things to Note: The Calendar Connection window does not eliminate the Calendar settings page. If you would prefer to connect your calendar from the Calendar Settings, hit Cancel, then select Calendar from the Personal Settings menu options.
+
+Once you successfully connect your email and calendar, a green check will appear beside each item as well as a note displaying the number of emails you are able to send each day. 
+Reauthorize Your Gmail Account
+Technology is constantly updating to the latest and greatest versions. From apps on our phones to web browsers, sometimes these systems need a refresh in order to match tech updates.
+
+When such an update occurs with a linked integration to your Salesloft instance, such as Gmail,  we call that update reauthorization. Think of reauthorizing your account like hitting your Gmail connection's on/off switch.
+
+In order to reauthorize your Gmail connection, you'll need to disconnect your Gmail. You can do this by the following these steps:
+
+1. Log into Salesloft. 
+2. Go to your Personal Settings by clicking your name in the upper right corner and selecting Settings from the dropdown menu.
+3. Go to the Email Settings, then click Edit from the Email Client box.
+4. Click the red Disconnect Gmail button. This will remove your Gmail connection.
+
+Now that your Gmail is disconnected, you can reauthorize your account. You can do this by the following these steps:
+
+1. Select Edit from the Email Client section.
+2. Click Gmail, then Connect.
+3. Choose the Gmail account you want to use with Salesloft.
+4. Salesloft will ask to access the account. Click Allow. 
+
+ 
+5. You have now reauthorized your Gmail account.
+Set Up a "Send As" Alias
+Once you connect your Gmail account, you can set up a "Send As" address within Salesloft so your emails sent from your desired email account will be tracked through Gmail.
+
+
+Things to Note:
+Reply tracking is not possible when using a Send As alias.
+The Send As alias feature is only supported in Gmail and will not work with any other email client.
+
+To set up a Send As alias, follow these steps:
+Set up a Send As in the Google Apps Email Settings by going to the Accounts tab and following Google's directions. When prompted, enter the email address you prefer to "Send As".
+Notify our support team that you would like to enable your Send As alias feature.
+Now that you've set up Send As in your Google account and notified our support team, you can set up a Send As alias in Salesloft. To do this, follow these steps:
+Log into Salesloft.
+Click your name in the top right corner, then select Settings.
+Select Email from the Personal Settings menu options.
+Click Edit from the Send Email from a Different Address section.
+In the New "From" Address area, enter the address you would like to use as your Send As alias.
+Click Save. 
+
+Things to Note: Once you hit Save, your Send As alias will appear in the Send Email from a Different Address section.  
+ 
+Install the Google Chrome Extension
+Salesloft’s Google Chrome Extension enables a number of features within your Chrome browser including email tracking notifications, Dialer Everywhere, imports from Salesforce, and Salesloft Connect for Gmail.
+
+To learn more about the extension, check out the Download the Salesloft Chrome Extension article.
+ 
+ 
+Last Modified By
+Briana Morgan, 8/29/2022 3:08 PM
+Title
+Set Up Your Email Account - Gmail
+URL Name
+Set-Up-Your-Email-Account-Gmail
+Email
+Salesloft Knowledge
+Set Up Your Emails
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

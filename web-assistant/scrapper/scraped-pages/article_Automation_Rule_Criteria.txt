@@ -1,0 +1,151 @@
+ADMIN GUIDES
+Automation Rule Criteria
+
+Sep 14, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Automation Rules contain pieces that put the rule into action. Similar to a mathematical equation, you're telling Salesloft that a specific occurrence will lead to a set outcome. 
+
+When you add an Automation Rule, you use Triggers, criteria, and actions to piece those parts of the equation together.
+
+There are a very large range of outcomes you may reach depending on which triggers, criteria, or actions you choose. Criteria helps define when an Automation Rule should fire. You can set criteria based on Salesloft Person fields, Company fields, or Cadence information.
+
+Things to Note:
+
+Automation Rules currently only use string and number fields. 
+
+In this article, we will explain the Automation Rule options available to you so that you may development your best plan of action. The parts we will explain include the following:  
+
+Automation Rule Criteria Logic
+Automation Criteria Operators
+Set Automation Rule Criteria by Owner's Group
+Date Fields as Criteria
+Automation Rule Criteria Logic
+
+There are three types of logic that may be used to determine the needs that must be met for a rule to fire, including: 
+
+And/Or
+
+The And/Or plays a part in determining what combination of the criteria, if satisfied, will trigger the rule when you set multiple pieces of criteria. 
+
+And logic states that the two (or more) pieces of criteria must be met in tandem for the rule to fire. 
+
+Or logic states that at least one piece of the criteria (or both pieces) must occur for the rule to fire. 
+
+Criteria
+
+When you add a criteria to an Automation Rule you are narrowing down those affected by the rule. Essentially you are saying it is not only enough that the trigger is "true," you must also satisfy the additional criteria in order for the rule to fire.
+
+Things to Note: Each item of criteria requires its own line for the rule to read and trigger properly.
+
+Group
+
+Group criteria allow you to create a more complex logic. If you have a set of criteria that you would like to occur, then grouping the criteria makes that process simple.
+
+When you add a group of criteria you are adding another layer of criteria that must be satisfied in order for the rule to fire.
+
+Automation Criteria Operators
+
+After you select a criteria field, chose one of the criteria operators that will tell Salesloft what criteria to look for when a rule is triggered.
+
+Salesloft's current criteria operators (all case-insensitive) include the following:
+
+Equal: The value in the criteria field is exactly this value.
+Not equal: The value in the criteria field is anything except this value.
+Greater: The value in the criteria field is greater than this value.
+Greater or equal: The value in the criteria field is greater than or exactly this value.
+Less: The value in the criteria field is less than this value.
+Less or equal: The value in the criteria field is less than or exactly this value.
+Is set: The criteria field was previously blank/null, and now has a value.
+Is unset: The criteria field previously had a value, and is now blank/null.
+Has changed: The criteria field was previously set (not a blank/null), and its value has changed to a different, new value.
+Has changed to: operator for the trigger "When a Person changes in Salesloft." An Automation rule with this criteria will fire any time a selected field is updated to the specified value regardless this field was blank or had value before. 
+Example, Stage has changed to "Replied". The automation rule with this criteria will be fired if Person stage is updated from No stage to Replied, as well as when it is updated from Working to Replied.  
+Contains: The value in the criteria field includes this value.
+Doesn’t contain: The value in the criteria field does not include this value.
+Is null: The criteria field is blank/null.
+Is not null: The criteria field is not blank/null.
+Is in group: Segments automation rules by users that are included in a group(s)
+Is not in group: Segments an automation rule based on a user that is not in any group.
+CRM Owner ID Specific Criteria:
+Things to Note: Before enabling automation rule, we recommend to make sure Salesloft users are linked correctly to CRM users under CRM Sync → User Management. 
+Is Salesloft User: The rule will be fired if the CRM Owner of the record is mapped to any Salesloft user under User management settings.
+Is Not Salesloft User: The rule will be fired if the CRM Owner of the record is not mapped to any Salesloft user (assuming this CRM user is not user in Salesloft). 
+Set Automation Rule Criteria by Owner's Group
+
+Sometimes the automation rules you create may only be suitable for specific user groups. These types of rules could involve adding People to Cadences based on specific regions or various types of customer profiles. 
+
+When you would like to segment automation rules based on user groups, a team admin has the ability to configure group-specific automation rules by specifying the owner's group in the criteria. 
+
+Group criteria can be defined as "is in group" or "is not in group" for the following criteria fields: 
+
+Person - Salesloft Owner 
+Person - Owner CRM ID 
+Account - Salesloft Owner 
+Account - Owner CRM ID
+
+
+When "is in group" is selected, you will need to select a required group or multiple groups from the the group hierarchy drop-down. 
+
+Automation rules with such criteria will be fired when record owner belongs to any of the selected groups. 
+
+When "is not in group" is selected, automation rules will fire when record owner is not in any Salesloft group. 
+
+Things to Note: Admins need to make sure that Salesloft users are correctly linked to CRM users so that we can correctly attribute users to the right group when criteria by Owner CRM is used. To link users, make sure your CRM User Management sync is configured.  
+
+Date Fields as Criteria
+
+Including date fields as the criteria in your automation rules allow your team to schedule and execute automated actions for a specific date.
+
+This type of criteria can help you leverage rules that prevent you from importing Contact prior to a certain time period or add a Person to a Cadence is they are coming up on their Renewal date.
+
+Things to Note: Date fields can be added to rules Person attributes and custom fields, as well as Account attributes. Account and opportunity custom fields do not support “Date” type fields.
+
+You can include dates in your automation rules using one of the following criteria fields: 
+
+Date Added
+Last Replied At
+Last Contacted
+
+When selecting a rule, the date-picker is empty by default with the placeholder “MM/DD/YYYY.”
+
+ 
+
+Relative Dates in Automation Rules
+
+In addition to specific dates, automation rules can also be applied to relative dates. Relative dates refer to a period of time as it relates to the current date, e.g. today or 20 days ago. 
+
+When used in an automation rule, relative dates can be used to schedule and execute actions. Relative dates are particularly useful for importing contacts that have been added to your CRM in the last two weeks (versus from a specific date).
+
+Things to Note: All date operators are based on UTC (Coordinated Universal Time). For example, an automation rule with the Today operator will fire when the field date matches the current UTC date.
+
+Relative date operators include the following options: 
+
+Today
+Yesterday
+Before X days ago
+After X days ago
+Exaсtly X days ago
+Coming up in X days
+
+
+
+ 
+Last Modified By
+Raequel Sank, 9/14/2023 7:51 PM
+Title
+Automation Rule Criteria
+URL Name
+Automation-Rule-Criteria
+Salesloft Knowledge
+Admin Guides
+Automation Rules
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,78 @@
+ANALYTICS + REPORTING
+Analytics Overview: Account Positive Replies
+
+Jan 6, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Account Positive Replies panel shows Positive Email Sentiments distributed to each Account. By default, the Accounts shown will be any Accounts that you, the user, "own." You may filter the Overview page to view Accounts across the team or specific groups.
+
+The purpose of this panel is to highlight for customers which accounts have high positive engagement while also highlighting accounts in need of attention.
+
+In this article, you will learn about what you can gain from the Account Positive Replies panel, including:
+The Account Positive Replies Panel
+Account Positive Replies Panel Metrics and Calculations
+Panel Drill Down: Email Sentiments By Account Report
+The Account Positive Replies Panel
+The Account Positive Replies panel contains the following details from the top of the panel working our way down:
+Panel Name: Positive Emails
+View Report: (Drill down to more details) Takes you to the Email Sentiments By Account Report.
+Chart: A multi-color bar chart that displays the top 10 accounts by positive replies for the selected time period. The bars are colored according to which accounts have been touched within the last 48 hours or not. 
+Hover: Hover over a bar to view information relevant to a particular Account. The hover information contains the account name and total number of positive replies.
+ 
+ 
+Account Positive Replies Metrics and Calculations
+Each panel contains metrics. These metrics are calculated in different ways. Check out the Analytics Metrics List for a complete list of metrics. 
+
+The Account Positive Replies panel includes the following metrics based on the associated calculations. 
+ 
+Metrics
+	
+Description
+	
+Calculations
+
+
+
+Positive
+
+	
+
+ The count of replies that were assigned the Positive Email Sentiment.
+
+	Sum (Positive Email Sentiments)
+ 
+Panel Drill Down: Email Sentiments By Account Report
+The Email Sentiments by Account report drills down into the specific metrics reflected in the Account Positive Replies panel. This report is an Account report that has default columns and filters to help you see Email Sentiment information related to Accounts. 
+
+The report has the following columns by default:
+Name
+Owner
+Last Touched
+Replied
+Positive (default sorted in descending order)
+Total Objections
+
+The report have the following filters by default: 
+Positives
+Total Objections
+
+From the report's column management, you can add more dimensions (or columns and filters) to customize the report.
+
+ 
+Last Modified By
+Briana Morgan, 1/6/2023 8:47 PM
+Title
+Analytics Overview: Account Positive Replies
+URL Name
+Analytics-Overview-Account-Positive-Replies
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Overview Panels
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

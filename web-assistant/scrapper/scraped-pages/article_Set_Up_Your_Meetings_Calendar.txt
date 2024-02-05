@@ -1,0 +1,55 @@
+USER GUIDES
+MEETINGS/CALENDAR
+Connect Your Calendar to Salesloft
+
+Dec 19, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Your calendar is an important part of your communication hub and is essential to your workflow. From organizing your day to managing meetings with prospects and stakeholders, staying on top of your calendar events is key to an efficient day and to getting more deals.
+
+ 
+
+You can connect your calendar to Salesloft and gain access to tools that help you make the most of your calendar like Salesloft Meetings, Calendar Sync, and more. 
+
+
+Things to Note:
+
+If you have multiple email addresses, we recommend connecting the email address associated with your calendar to Salesloft.
+Salesloft Meetings only operate with Gmail, Outlook 365, and Outlook Exchange email clients. SMTP-connected emails or Salesloft Mail do not comply with Meetings.
+
+
+To connect your calendar to Salesloft, follow these steps:
+
+Click your name in the upper right corner to open your settings.
+Choose Calendar under the Personal Settings. This will open the 'General' Calendar Settings. 
+Hit Connect from the Calendar Connection tile.
+Use the dropdown arrow to choose the calendar you would like to connect. 
+Things to Note: The dropdown menu may show calendars and/or email addresses. The email address that appears is based on the email address connected in your Personal Email Settings. 
+Click Connect.
+
+ 
+
+Once you've connected your calendar, the Calendar Connection tile will show 'Connected as [email address/calendar]'. The action button that previously showed "Connect" will now be an Edit button. When you click edit, you can change the selected calendar or disconnect the connected calendar. 
+
+ 
+ 
+ 
+To learn more about how Salesloft interacts with your calendar and your Calendar settings in Salesloft, check out our Your Personal Settings article. 
+Last Modified By
+Stephanie Griffith, 12/19/2023 3:05 PM
+Title
+Connect Your Calendar to Salesloft
+URL Name
+Set-Up-Your-Meetings-Calendar
+Salesloft Knowledge
+Meetings/Calendar
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

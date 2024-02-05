@@ -1,0 +1,132 @@
+DIALER + MESSENGER
+Microphones and Headsets
+
+Mar 8, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+We highly recommend you perform a test call to yourself with the Dialer before you begin calling People. This test will assure that everything is running smoothly and will save you from any pain working through a technical issue while you're on a call. 
+
+If you experience any issues during your call test, we have some tips for how to correct issues you may run into.
+
+In this article, you will learn about headsets, microphones, and their relationship with the Salesloft Dialer, including:
+Headset and Microphone Tips
+Enable Your Microphone
+Enable Your Microphone on an Inbound Call
+Re-enable the Microphone
+Re-sync the Microphone
+How to Update Audio Drivers
+Test Your Audio Settings
+Headset and Microphone Tips
+Make sure you have microphone is enabled and not muted.
+
+Make sure the correct headset AND mic are connected to the Dialer: Select your Dialer settings gear shift icon located in the top corner of the Salesloft dialer. Here you can verify the connected input (microphone) and output (headset) and play the test sound.
+
+Call yourself to test your Dialer: Before a call blitz, call your own cell phone to check audio.
+
+Make sure the correct mic is enabled in your computer system settings as the default audio device: Even if the correct device is enabled within the Dialer, your computer system may default to the computer's audio. From your system settings, select the headset as your output and input.
+
+Connect headsets via USB: Aux and Bluetooth connections may run into quality issues whereas a USB headset will run directly to the computer.
+
+Make sure your earbud pods are connected ONLY to your computer: Disconnect the Bluetooth on your phone or any other devices. Failing to disconnect may result in the alternative device picking up the call. Example, your call may start on your computer, but suddenly, you can't hear your caller because your phone picked up the call.
+Enable Your Microphone
+Before you start using the Dialer, you will need to enable the microphone settings within Google Chrome.
+
+A dialogue box should prompt you to enable the microphone the first time you open the Dialer. Click Allow. If you don't click Allow, Salesloft won't be able to make any phone calls from the Dialer.
+
+You'll see a camera symbol in the URL bar; when you click that, you will be able to continue allowing Salesloft to access your microphone.
+
+If you are not given the option to Allow Salesloft to Use Your Microphone, follow the instructions listed below to enable your microphone:
+Open your Google Chrome web browser.
+At the top right of your browser, click the three vertical dots, then select Settings.
+Select Security and Privacy, then select Site Settings.
+Scroll down to Permissions, then select Microphone.
+Click the button beside Sites can ask to use your microphone
+Be sure that Salesloft is listed beneath the Allowed to use your microphone section.
+If you run into any technical problems with the Dialer, check out our Dialer Troubleshooting Guide for more help. 
+Enable Your Microphone on an Inbound Call
+Your microphone must be enabled in order for you receive inbound calls. However, if your microphone is not enabled you can turn the mic on prior to answering an inbound call.
+
+To enable your microphone prior to accepting an inbound call, follow these steps:
+When an inbound call Chrome notification appears, you will see a message to "Enable your mic to answer in the browser."
+Click the Chrome notification.
+A Salesloft Connect window will open, and a prompt will appear that says "Salesloft Connect wants to: Use your microphone." Click Allow.
+Refresh your browser window. 
+You may view the inbound call that prompted the notification from your Calls page . Since the microphone is now enabled, you will be able to answer any future inbound calls from your browser. 
+Re-enable the Microphone
+Some issues involving the Dialer may need a microphone reset and will require you to re-enable the microphone in your Google Chrome browser.
+
+This may sound complicated, but it means that you will refresh the extension by uninstalling and reinstalling it, and then you can enable the microphone from Dialer Everywhere.
+
+To remove the Salesloft extension and re-enable the microphone, follow these steps:
+Right-click on the Salesloft extension .
+On the Chrome extensions page, remove the Salesloft extension.
+Re-download the extension from the Downloads tab in your Personal Settings or from this link.
+Go to accounts.salesloft.com and click to enter your account. This updates the extension along with your Salesloft session.
+Head to any website and right-click on the page and choose Salesloft Dial.
+Click green Enable Microphone button.
+You will be redirected to a site containing the Salesloft extension permissions. Click the checkbox for Dialer Enabled.
+When you receive the popup to allow the mic, click Allow.
+ 
+Re-sync the Microphone
+In the event that you've allowed your microphone in Chrome, but still receive the Enable Microphone message, you may need to re-sync the Dialer Everywhere feature.
+
+The re-sync can be done from your Chrome extensions. Follow these steps to re-sync Dialer Everywhere:
+Log out of Salesloft and all Salesloft tabs.
+Navigate to your Chrome extensions .
+Toggle the Salesloft extension off and then on again.
+Log back into Salesloft.
+Ensure that you aren’t using a Custom Caller ID and that you have Inbound Calling Enabled. If any changes are made, make sure to refresh the page to ensure that those changes are in place.
+Open a new tab and navigate to https://www.google.com/.
+Make an outbound call by right-clicking. Use the drop-down menu to select Salesloft Dialer. The Dialer should appear in the bottom right corner, and you can complete your call with the microphone fully enabled.
+How to Update Audio Drivers
+Audio drivers control how your operating system interacts with various audio devices like headsets — making sure they're up to date removes issues.
+
+For Apple OS:
+Click on the Apple in the upper left corner of your home screen.
+Choose About this Mac.
+Select Software Update.
+Any updates available will be listed and able to be downloaded, or you will be told your software is up to date.
+For Windows 10:
+In the search box on the taskbar enter Device Manager, then select Device Manager.
+Click on Audio Inputs and Outputs.
+From the resulting drop-down double-click your audio device.
+Choose the Driver tab.
+Select Update Driver.
+Select Search automatically for updated driver software.
+For Windows 7:
+Click the Start button and select Control Panel.
+Double-click the System button.
+Click on Hardware, then choose Device Manager.
+Once in the Device Manager, select Sound, Video, and Game Controllers.
+Find the audio device you are using from the drop-down and select Update Driver Software.
+Test Your Audio Settings
+The in-app Dialer includes the ability to adjust audio settings to your preferred device. For example, if you would like to use an alternative microphone than your set default, you can select a different default option in the audio settings.
+
+To set a device default, click the settings cog. Next, you will see the mic and speaker devices available on your computer. Select your preferred device and you'll be good to go.
+
+Things to Note: You will not see the settings cog if /when Call Pass Through is enabled. When this occurs, the audio settings are unavailable because the audio for the call is taken on by the device you are using for Call Pass Through.
+
+You can also test your audio to ensure your selected device (headset, speakers, etc.) is properly connected and working.
+Open the Dialer. 
+Select Settings from the Dialer menu options. 
+Click Play Test Sound. Music will begin playing from your selected device. If you do not hear anything, click the text box beside the Headset icon to set your device. 
+ 
+ 
+ 
+Last Modified By
+Raequel Sank, 3/8/2022 6:29 PM
+Title
+Microphones and Headsets
+URL Name
+Microphones-and-Headsets
+Salesloft Knowledge
+Dialer + Messenger
+Set Up The Dialer
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

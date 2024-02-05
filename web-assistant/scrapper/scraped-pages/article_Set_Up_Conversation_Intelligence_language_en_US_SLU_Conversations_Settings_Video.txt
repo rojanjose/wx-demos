@@ -1,0 +1,65 @@
+CONVERSATIONS
+Set Up Conversations
+
+May 11, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Conversations allows Salesloft team members to analyze recordings, dissect call transcriptions, share recording clips, and take meeting notes all within the Salesloft platform. 
+
+Before you set up Conversations, your Calendar must be set up. Go to the Calendar tab to link your calendar.
+
+Things to Note:
+A team admin must enable Conversations for each user. If you select the Conversations tab in your user settings and see a "restricted access" message, contact your admin.  
+Conversations currently syncs to the follow email servers:
+Gmail
+Office 365.
+Microsoft EWS which includes:
+Microsoft Exchange 2013
+Microsoft Exchange 2016
+Microsoft Exchange 2019
+If you use ActiveSync it will have to be added manually to the meeting.
+In this article, you will learn about setting up Conversations, including:
+Conversations Bot Settings
+Conversation Notifications
+SLU: Conversation Settings (Video)
+Conversations Bot Settings
+The Conversations Bot is a virtual machine that joins your meetings as a participant to record, transcribe, and perform additional Conversations magic. 
+
+The bot timing decides when exactly the bot will join your meetings. Don’t worry, the bot wouldn’t dream of showing up late, but you get to choose how punctual the bot actually is. Your bot timing options include:
+Use organization default set by my administrator
+Right when the meeting is support to start
+1 minute early
+2 minutes early
+3 minutes early
+4 minutes early
+5 minutes early
+Conversations Notifications
+Conversations offers email notifications to inform you about your meetings and recordings.
+
+You can select both notification types, or just one, or neither, depending on your personal preference. To select a notification type, follow these steps:
+Click the check box next to Email under each section.
+To remove the notification, click the check box again so that the checkmark is removed.
+You will receive a notification at the top of the page when any settings are updated.
+ 
+
+ 
+SLU: Conversations Settings (Video)
+Want to know how to set up your Conversations Settings, but prefer a video format? Visit Salesloft University to see the Your Conversations Settings video tutorial. 
+ 
+Last Modified By
+Briana Morgan, 5/11/2023 6:27 PM
+Title
+Set Up Conversations
+URL Name
+Set-Up-Conversation-Intelligence
+Conversations
+Salesloft Knowledge
+Conversations Essentials
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

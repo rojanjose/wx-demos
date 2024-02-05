@@ -1,0 +1,96 @@
+CONVERSATIONS
+Share a Recording
+
+Jan 11, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Inside your organization, Conversations can be used as a training tool for personal improvement or as a way to remember previous meetings. But the power of your recordings doesn't have to stop there. 
+
+Sending a recording to a recipient, aka sharing the recording, increases the meeting's scope. Anyone you share a recording with can review the important points from the call, almost like an audio/visual notebook.
+
+You can share a recording from the actions on the Recordings tab and from the video player on the Meeting details page.
+
+In this article, we will walk through how to share a recording using the Share Recording window, including:
+The Share Recording Window
+Select an Expiration Date
+Add Recipients
+Leave Comments
+Share Recording Options
+Shared Recording Email
+The Share Recording Window
+When you select Share, the Share Recording window will appear. From the Share Recording window, you may add recipients, create meeting comments specific to the recipient, and generate links to the recording. Let's walk through the Share Recording window:
+Title: The title is the name of the meeting based on the original meeting invite. You can edit the meeting name prior to sharing the recording.
+Expiration Date: The expiration date states how long the recording will be available to the recipients.
+Add Recipients: Assign the People who will receive the recording.
+Video Player: The recording takes up the center panel of the window. Use the video player to find any time stamps where you may want to make comments.
+Comments: Time stamped notes you can leave through out the recording.
+Send Email(s): Send a notification email to the People who will receive the recording.
+Generate Links: Generate a link to share the recording.
+ 
+Select an Expiration Date
+When you share a recording, time is of the essence. Whether you are on a time crunch, or if you are sharing a recording with information that only pertains to the near future, you may want to limit the amount of time for someone to view the recording.
+
+This is where the expiration date comes into play. Expiration dates on your recordings state how long that recording is good for. Once the expiration limit has passed, the recording link will no longer work.
+
+To set an expiration date, follow these steps:
+Find the recording and select Share.
+From the Share Recording window, select the expiration limit. The limits include:
+30 Days
+60 Days
+90 Days
+1 year
+Custom
+Then chose the "start date" for the expiration tracker. The date will default to the current date. Select the date to pick an alternative start date from the calendar menu.
+Add Recipients
+Your recording recipients are the people who will receive your shared recording.
+
+Things to Note: You must add one recipient before sending the recording or generating recording links.
+
+To add recipients, follow these steps:
+Open the Share Recording window.
+Under Recipient's Name, enter the name of the person you are sending the recording to.
+Under Recipient's email, add the person's email address.
+Click Add Recipient. The person's name and email will appear under the Recipients list.
+In the bottom left corner, select on of the following buttons which will be clickable after a recipient has been added:
+Send Email(s): Salesloft sends an email to each recipient containing the recording link.
+Generate Links: Creates a unique link that you can share with the recipient. This is perfect is you want to create a custom email and add the recording link. The link will be shorted version of the full URL that will start with https://links.salesloft.com/.
+To remove a recipient, select the ellipses (three dots) to the right of the recipients name. Click Remove Recipient.
+Leave Comments
+The left panel of the Share Recording window allows you to leave comments for any recording recipients to view. The comments may be time stamped if you select a spot on the timeline in the video player.
+
+Leaving comments is a great way to highlight certain parts of the recording for your recipient. For example, if they mentioned to importance of a certain feature, you can find that point in the recording and leave a comment saying, "We spoke about that feature here."
+
+To leave a comment, type out your comment in the available text box and hit the enter key. The comment will appear under the text box. Select the ellipses to the right of the comment to Edit Comment or Delete Comment.
+Share Recording Options
+How you share the recording is up to you. Your primary options are to send an email created by Salesloft or to generate a link that you can include in your own email.
+
+It should be noted, anytime you share a recording from Salesloft, the recording link will use a Salesloft link shortener. This keeps your recipient from seeing the overwhelmingly long, full link, which could be multiple lines of text. The link shortener will start with https://links.salesloft.com/ followed by link identifying numbers and letters.
+
+You have three options for sharing the recording:
+Send Email(s): Salesloft will generate and send an email that contains the recording to anyone listed in the recipients.
+Generate Links: A link to the recording will be copied to your clipboard. This way you can use a personalized email message to share the recording. 
+Cancel: Exits out of the recording window in case you decide not to share the recording at this time.
+Shared Recording Email
+
+When you share a recording, the recipient will receive an email from Salesloft with a link to the recording.
+
+Once the recipient opens the recording, you will receive an email with the subject 'Your Shared Recording Was Opened'. The email will look like this:
+
+Things to Note: The timestamp in your 'Your Shared Recording Was Opened' email is based on the time set on the recipient's computer, not the timezone listed on the Person Profile page. As a result, the timestamp may appear in a timezone that differs from the timezone listed on the Person's profile page.
+Last Modified By
+Raequel Sank, 1/11/2023 4:12 PM
+Title
+Share a Recording
+URL Name
+Share-a-Recording
+Conversations
+Salesloft Knowledge
+Conversations Recordings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

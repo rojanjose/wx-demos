@@ -1,0 +1,28 @@
+EMAIL
+Error - Connection to Server Timed Out
+
+Mar 24, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft is unable to connect with your server.
+
+Have your IT administrator or team verify each of the following solutions:
+The server and port numbers provided to Salesloft are correct.
+Salesloft's IP address and respective ports are whitelisted. When our server’s IP addresses with the respective ports have not been whitelisted by your IT administrator, the connections will be blocked. Learn more about whitelisting Salesloft's IP addresses here  .
+Last Modified By
+Stephanie Griffith, 3/24/2023 4:44 PM
+Title
+Error - Connection to Server Timed Out
+URL Name
+Connection-to-Server-Timed-Out
+Email
+Salesloft Knowledge
+Email FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

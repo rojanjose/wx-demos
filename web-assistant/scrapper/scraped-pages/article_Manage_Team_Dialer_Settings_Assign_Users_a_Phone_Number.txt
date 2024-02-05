@@ -1,0 +1,89 @@
+ADMIN GUIDES
+Manage Team Dialer Settings
+
+Mar 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+As a Salesloft admin, you have specific privileges to set up and manage your team's access to the Dialer. You can provision and manage phone numbers from the Dialer Settings, which can be found in your Team Settings under the Communication section.
+
+In this article, you will learn about the components of the Dialer Settings, including:
+Provision Phone Numbers
+Assign Users a Phone Number
+Remove an Assigned Number
+Set a Teamwide Fallback Number
+The Dialer Settings include other tabs to manage various team-wide Dialer components. For more information, check out the following articles. 
+Manage LocalDial Numbers
+Manage Call Recordings and Governance
+Live Call Studio
+Manage Messenger
+TrustHub
+Dispositions and Sentiments
+Provision Phone Numbers
+In order to use the Dialer, an admin needs to assign a provisioned phone number to each user. Provisioned numbers are supplied from Salesloft’s third-party provider, Twilio. You are allowed to provision as many phone numbers as the total number of Salesloft users you have (i.e., if you have 10 users, you may provision up to 10 phone numbers).
+
+Things to Note: Salesloft defaults to United States local phone numbers. Check out our Knowledge Base article for instructions to Provision an International Number.
+
+To provision phone numbers, follow these steps:
+Go to the Dialer page under your Team Settings.
+If you have not previously agreed to the Terms of Service provided on the Billing Authorization prompt, click Agree to Account Billing and Activate Dialer to continue.
+Under the general Dialer Settings, you will see the Provision Number section. Enter the area code you would prefer for the phone number you would like to provision. For example, if you are located in Atlanta you may want to assign your users a “404” provisioned number.
+Hit Search Available Numbers.
+A list of available phone numbers should appear. Select Choose this Number to reserve a number for your team's use. If numbers do not appear, phone numbers from that area code may be unavailable. Enter an alternative area code and click + Search Again. 
+Confirm that you would like to provision the number. 
+After you select a phone number, the number will appear in the Unassigned Numbers column within your Dialer Settings. Numbers will remain in this section until they are assigned to a specific user.        
+ 
+ 
+Assign Users a Phone Number
+Once you have provisioned the phone numbers for your team, you need to actually assign those numbers to individual users.
+
+A list of your team members who have not been assigned phone numbers will be listed under Unassigned Users. If a user is listed in the Unassigned Users section, they do not have access to the Dialer.
+
+Once you select a phone number for a user (aka, assign them a phone number), the user's name will appear under the Assigned Numbers column. 
+
+To assign a phone number to a user, follow these steps:
+Go to the Dialer page under your Team Settings. You will land in the general Dialer Settings tab.
+Under Unassigned Users find the name of the individual you would like to assign a phone number to.
+Select + Assign.
+A list of provisioned phone numbers will pop up. Pick a number for the user.
+The provisioned number that you assign to a user will appear in the user's Phone Settings as their Assigned Number. 
+ 
+
+Inbound Calls Default to Voicemail
+
+When you create a new user and assign them a phone number, their Inbound Call Setting will default to Voicemail. This means that any unanswered inbound calls will go to voicemail. 
+
+For more information about the Inbound Call Settings, check out the Set Up the Dialer article. To learn more about receiving voicemails, check out the Voicemail Recordings article. 
+
+Remove an Assigned Number
+Admins can remove, or unassign, a number from a user. Why would you want to unassign a number from a user? Here are a couple of common reasons for removing a user's number:
+The user takes on a new territory: If you originally assigned a phone number for a specific state or region, and then alter where your rep is calling into, you may want to unassign their current number.
+The user leaves your organization: Businesses are constantly changing. If a user goes onto a different role or leaves your company, they no longer need their assigned number. Plus, once you unassign the number, you can assign it to a new hire that fills the role.
+To remove a number, follow these steps: 
+Go to the Dialer page under your Team Settings. You will land in the general Dialer Settings tab.
+Under the Phone Number Assignments, you'll find Assigned Users. 
+Select the red Unassign icon next to the user’s name and number. The name of the user will now appear under Unassigned Users while the phone number will show up under Unassigned Numbers.
+ 
+Set a Teamwide Fallback Number
+Each Salesloft user sets up a forwarding number so they can receive callbacks from people they have reached out to using the Dialer. But sometimes users forget or neglect to add their forwarding number.
+
+This is where the fallback number comes to the rescue. By entering a fallback number under the Team Dialer Settings, returned calls that cannot find a forwarding number will still be directed to your company. 
+
+To set your fallback number, enter your preferred number in the dialogue box under Fallback Number and hit enter. As a Salesloft best practice, use a central line, like the front desk, as your fallback number.
+ 
+Last Modified By
+Stephanie Griffith, 3/10/2023 7:05 PM
+Title
+Manage Team Dialer Settings
+URL Name
+Manage-Team-Dialer-Settings
+Salesloft Knowledge
+Admin Guides
+Dialer Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

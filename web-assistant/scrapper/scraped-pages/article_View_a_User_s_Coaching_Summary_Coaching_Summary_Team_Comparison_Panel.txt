@@ -1,0 +1,132 @@
+COACHING
+View a User’s Coaching Summary
+
+Jul 25, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Coaching Summary view is an overall look into activities and outcomes for an individual seller. 
+
+Things to Note:
+The Coaching Summary will only show the information for an individual rep at a time. This means, you cannot see other rep’s specific metrics. Comparative data found on the summary page will show the user’s individual metric compared to the group average.
+Coaching Header Metrics always display metrics/goals for the current month only.
+
+The Summary page is broken into multiple charts to provide a visual representation of the rep’s performance. The top of the page includes the Goal Progress Header and filters to help identify the user and define metrics. 
+
+You can bring the charts into a 1-1 or coaching session to use as a guide for what should be discussed. As you are looking at the charts found on the Coaching Summary, you can ask and find answers to the following questions: 
+Where does this rep stand on this metric relative to their peers?
+Is this rep above or below the team’s average on this metric?
+Is the seller trending up or down on this metric? Did something change at a specific time point?
+Is the seller doing the right mix of channel activities on a daily basis?
+Is the seller adhering to our prescribed cadence process?
+In this article, you will learn about the information found on the Coaching Summary page, including:
+Coaching Summary Page’s Results By Panel
+Coaching Summary Page’s Team Comparison Panel
+Coaching Summary Page’s Trend Panel 
+Coaching Summary Page’s Activity Summary Panel
+ 
+Coaching Summary Page’s Results By Panel
+The Coaching Summary Results By panel is a dot plot that compares different types of results between the individual rep and their peers. Using this chart, you can gauge whether the rep is more or less successful than the rest of the team when it comes to achieving results. 
+
+
+
+The “Results” include different possible outcomes a rep may have based on the actions they perform when reaching out to customers. You can change which type of result is shown in the panel by selecting the result name and opening the dropdown menu. 
+
+The Results By panel offers the following metrics: 
+% On Time Steps (default)
+% Positive Calls
+% Positive Replies
+Touches Per Account
+When a result is selected, the individual user’s data will populate inside the panel. You’ll see the following details: 
+Individual Metric: Percentage the user accomplished the selected metric. 
+Individual Period Comparison: How much the metric has changed between the previous and current time periods. If the amount has increased, the number will appear green. If there has been a decrease, the number will appear red. 
+Team Average Metric: Percentage accomplished across the group or team. This number lets you compare how the individual user is performing compared to the group.
+Team Average period Comparison
+Dot plot: Shows the user’s value – represented by a large, purple dot – compared to a range of other users on the team. The other user dots are anonymized without user names. The range shows the bottom value (least successful) followed by the top 20 users in the group. The chart is limited to 22 dots at any time.
+Hover details: Hover over any dot in the chart to view the metric for that plot point. The hover will include the individual metric and the team average.  
+Coaching Summary Page’s Team Comparison Panel
+The Summary page Team Comparison Panel is a bar chart that compares an individual rep’s outcomes to the team average. Using this chart, you can gauge if the rep is as efficient as the rest of the team. 
+
+
+
+You can change which metric is shown in the panel by selecting the metric name and opening the dropdown menu. 
+
+The Team Comparison By panel on the Summary page offers the following metrics: 
+Accounts Touched (default)
+Meetings Booked
+Opportunities
+Successes
+Activities per Meeting
+Activities per Opportunity
+Activities per Success
+% Skipped Steps
+When a metric is selected, the individual user’s data will populate inside the panel. You’ll see the following details: 
+Individual Metric: Amount or percentage the user accomplished the selected metric. 
+Individual Period Comparison: How much the metric has changed between the previous and current time periods. If the amount has increased, the number will appear green. If there has been a decrease, the number will appear red. 
+Team Average Metric: Amount or percentage accomplished across the group or team. This number lets you compare how the individual user is performing compared to the group.
+Team Average period Comparison
+Bar Chart: The top bar shows the number of times the individual achieved the metric. The second bar shows the team’s average. 
+Hover Details: Hover over a bar in the chart to see the metric amount. 
+ 
+Coaching Summary Page’s Trend Panel 
+The Coaching Summary View Trend panel is a line chart that looks at performance over time.. Using this chart, you can compare how a rep is currently performing to their performance in a previous time period. 
+
+
+
+The metrics include quantitative activity data. You can change which type metric is shown in the panel by selecting the result name and opening the dropdown menu. 
+
+The Trend panel on the Coaching Summary page offers the following metrics: 
+Activities
+Calls Logged
+Completed Steps
+Emails Sent
+Integration Steps
+Meetings Attended
+People Added (default)
+SMS Convos
+When a metric is selected, the individual user’s data will populate inside the panel. You’ll see the following details: 
+Individual Metric: Amount the user accomplished the selected metric. 
+Individual Period Comparison: How much the metric has changed between the previous and current time periods. If the amount has increased, the number will appear green. If there has been a decrease, the number will appear red. 
+Team Average Metric: Amount accomplished across the group or team. This number lets you compare how the individual user is performing compared to the group.
+Team Average period Comparison
+Line Chart: Lines on the chart are plotted by day. Three lines are visible in the chart: 
+Current period (e.g. this week)
+Previous period (e.g. last week)
+Group average for the current period. 
+Hover Details: Hover over any point in the chart to view the number of times that activity occurred on a given day.
+ 
+Coaching Summary Page’s Activity Summary Panel
+The Activity Summary panel gives an overview of the activities the rep has completed. Within Coaching, the Activity Summary can confirm whether the number of actions meets expectations. Based on your findings, you can continue to delve into that specific activity type using the additional Coaching tabs. 
+
+
+
+The top of the Activity Summary panel shows the following primary metrics:
+Total Activities
+Emails Sent
+Calls Logged
+Total Recordings
+To the right of each metric, you will see the period comparison. 
+
+Below the primary metrics, a stacked bar chart will show the total activities completed per day in the given time period. You can hover over a metric name to only view that type of activity in the stacked chart. The activities shown in the bar chart add up to the total activity number and include: 
+Emails sent
+Calls logged
+Integration steps
+Other steps
+SMS convos
+ 
+ 
+Last Modified By
+Briana Morgan, 7/25/2023 1:48 PM
+Title
+View a User’s Coaching Summary
+URL Name
+View-a-User-s-Coaching-Summary
+Salesloft Knowledge
+Coaching
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

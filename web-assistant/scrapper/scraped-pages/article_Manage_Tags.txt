@@ -1,0 +1,87 @@
+ADMIN GUIDES
+Manage Tags
+
+Oct 9, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Your team uses tags to organize Salesloft People, Accounts, Cadences, and templates into "buckets" or labels. If your team consistently adds new or different tags, it’s easy for tag names to get out of hand.
+
+Just imagine, one user may designate a label "VP", another "Vice President", a third "V.P." and the list could easily keep growing.
+
+Things to Note: We recommend figuring out "tag protocol" with your team, like a consistent tag naming pattern. Then, make sure they are checking for existing tags before they make a new one. 
+
+For the times your team's tags need to be kept under control, team admins can use the Tags Settings to manage your team’s tags for unified clarity. To access the Tags Settings, go to your Team Settings, then select Tags under the Data Settings. 
+
+In this article, you will learn how to view and manage the tags your team uses, including:
+
+The Tag Page Layout
+Add a Tag
+Edit a Tag
+Merge Tags
+Delete a Tag
+The Tag Page Layout
+Search tags: Use the search feature to find existing tags.
+Tag Name: Name of the Tag as it exists in Salesloft.
+Accounts: Number of times the tag is used on the account level.
+People: Number of times the tag is used on the people level.
+Personal Cadences: Number of times the tag is used on a personal cadence level.
+Team Cadences: Number of times the tag is used on the team cadences level.
+Personal Templates: Number of times the tag is used on a personal template level.
+Team Templates: Number of times the tag is used on the team templates.
+Add a Tag
+
+Create new tags that your entire team will have access to by adding a tag. To add a tag:
+
+Navigate to the Tags settings.
+Above the Tags table, click + Add Tag.
+Enter the Tag name you want in the Tag Name field.
+Click Saved.
+Edit a Tag
+
+Alter any tags to fit your team’s needs (or correct any typos). To edit a tag:
+
+Navigate to the Tags settings.
+Find the tag you want to edit. Click the ellipsis icon (three horizontal dots) to view your tag options.
+Select Edit.
+Edit the Tag in the Name field. Click Save.
+Merge Tags
+
+If tags get out of hand and you not multiple tags being used for similar purposes, you can merge the tags together. To merge tags:
+
+Navigate to the Tags settings.
+Find the tag you want to edit. Click the ellipsis icon (three horizontal dots) to view your tag options.
+Select Merge.
+Enter the tag you want to merge your current tag within the Merge into Tag field. Click Merge.
+
+ 
+
+Delete a Tag
+
+If a tag has had minimal use or is no longer necessary you may delete the tag. To delete tags:
+
+Navigate to the Tags Settings.
+Find the tag you want to edit. Click the ellipsis icon (three horizontal dots) to view your tag options.
+Select Delete.
+You will receive a pop up to verify that you would like to delete the tag. Click Delete.
+
+ 
+
+ 
+Last Modified By
+Stephanie Griffith, 10/9/2023 7:36 PM
+Title
+Manage Tags
+URL Name
+Manage-Tags
+Salesloft Knowledge
+Admin Guides
+Data Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,63 @@
+FORECAST
+Introduction To Forecast
+
+Mar 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Sales Forecasting is a crucial business process that estimates what your business’s sales are going to be in the future. With a proper sales forecast in place, your company can make intelligent business decisions that involve cash flow, inventory purchases, and even plans for growth.
+
+Since sales forecasting is so important, this article will walk you through what sales forecasting actually is and how Salesloft’s Forecast comes into play: 
+What is a Sales Forecast?
+Who Decides the Sales Forecast?
+Salesloft’s Forecast Overview
+What is a Sales Forecast?
+A sales forecast is an in-depth report that predicts the outcome of a company’s sales. These plans for the future are typically created by referring to past performance data. By viewing performance data and trends, your organization can make informed decisions on what sales you will accomplish in the future. 
+
+While it may sound like a guessing game, accurate forecasts — combined with teams hitting their numbers — allow companies to double-down on investing in their business: increasing headcount, more marketing campaigns, investing in new technology, and more. 
+
+Sales forecasts align with your company’s planning periods. They can be monthly, quarterly, half-annually, or annually, depending on what best fits your business’s needs and assessments. 
+
+To develop a proper forecast, teams have to have conversations about the status and issues in particular deals, yielding both actions for the sales team to take and insights on business trends. If a number of high revenue earning opportunities are on track, you can guesstimate your forecast with confidence. However, if deals are trending slowly or not gaining traction, your forecasted projection could be at risk. 
+Who Decides the Sales Forecast?
+Sales Forecast can be created at different levels within your organization. A salesperson would forecast their personal potential outcome. That salesperson’s forecast would then contribute to their manager’s forecast, which will give insight into the entire team. Finally, each manager will provide their team’s forecast to their executive team. This number will be added to the company forecast.  
+
+To learn more about the people who contribute to a sales forecast, check out the Who’s Involved in Forecasting? Article. 
+Salesloft’s Forecast Overview
+Salesloft’s Forecast enables reps, managers, and sales leaders to arrive at a forecast number they can feel confident in owning. Teams can establish their forecasting process, submit a forecast number, and immediately have that number shared up your organizational chain. 
+
+Forecast also offers the AI Forecast metric which uses data-driven AI to create a proposed forecast amount. By combining AI with real-time human insight, revenue leaders will have the confidence to call their number and the seamless workflow to deliver on it consistently.
+
+Things to Note: AI Forecast may need to be enabled for your team. Reach out to your customer service representative to learn more. Your representative will help you assess whether you meet the criteria to have AI Forecast enabled.  
+
+Your forecast data and workflow all take place from the Forecast Dashboard. To get to the Forecast Dashboard, go to the Deals Product Tab in the Salesloft platform and select the Forecast tab. On the Forecast Dashboard, you will see charts and tables full of your company’s chosen data that can help you make informed forecasting decisions. 
+
+Things to Note: In order to view Deals and Forecast, you will need to be a Salesloft admin or have the user permission enabled for Forecast. 
+
+Forecast by Salesloft provides your team with a number of key benefits that drive true value to your day-to-day responsibilities:
+True Pipeline Visibility: 
+With real-time pipeline visibility, easily see what’s changed week-to-week. 
+Drill into opportunities to understand deal health and buyer engagement that can help you close more deals.
+Confidence to Own the Forecast Number: 
+Triangulate a number your revenue teams feel confident in based on our AI Forecast, reps forecast, and what’s closed-won.
+Take Action:
+Deliver on your number by identifying any risks in your pipeline and then using Salesloft Stakeholder actions to address those, and win more deals. 
+Best Practice Tips
+Loft your activities: Lofted activities using Salesloft keep data records of your actions. More data means a more accurate forecast.
+Assign next steps from Deal Reviews in Salesloft, so sellers take action to close the highest priority deals
+Last Modified By
+Briana Morgan, 3/10/2023 6:35 PM
+Title
+Introduction To Forecast
+URL Name
+Introduction-To-Forecast
+What's New
+Forecast
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,94 @@
+ADMIN GUIDES
+Roles and Permissions
+
+Dec 14, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Roles and permissions let Salesloft Admins create and customize a user's Salesloft access to best fit their job.
+
+For example, maybe you have mid-tier managers that need permission to view and edit their team's content (templates, Cadences, People), but don't need access to all of the Team Settings, like Payments and Integrations. You can create a custom role called "Mid-tier Managers" with the proper permission settings.
+
+In this article, you will learn about roles and permissions, including:
+Default Roles
+The Roles Tab
+Create a New Role
+Edit Roles
+Delete Roles
+The Permissions Tab
+List of Permissions
+SLU: Team Admin: Roles and Permissions Settings (Video)
+Default Roles
+All Salesloft teams have two default roles that they can assign: Admin and User. These roles' privileges are locked (literally, there is a lock icon next to their role name). This means the permissions assigned to these roles cannot be edited. If you would like to edit one of the default roles, create a new role and adjust the permissions. 
+
+Let's break down what each role offers:
+
+Admin
+Admins manage and control your Salesloft team. By assigning the Admin role to a user they will be able to access and edit the full range of Team Settings. 
+
+In addition to having control over your team's Salesloft account, being an admin offers further intel into your team's Salesloft use. Salesloft sends a weekly email report that breaks down your team's activity over the past week. The report will include a breakdown of the active users on your team, the number of emails and calls they made, the meetings they booked, and metrics relating to the completed tasks. 
+
+User
+The User role is designed for the basic level of permissions required to use Salesloft. Users have access to their Personal Settings, as well as the creating and sharing of Salesloft data in the form of templates, Cadences, People, etc.
+The Roles Tab
+From the Roles tab, you can create and edit roles to best fit the need on your team.
+
+Each role defines a group of users who have certain privileges. By default, Salesloft comes with an Admin role and a User role. These roles cannot be edited, renamed, or deleted, though custom roles can. 
+ 
+Create a New Role
+We understand that users may need more or fewer permissions than those set for Admins or Users. This is why you can add a new role to your Salesloft team and then the custom set permissions to best fit the role's use case. 
+
+Custom roles can be created and named in one step by following the instructions below:
+Navigate to the Roles & Permissions Settings in your Team Settings. You will land on the Roles tab. 
+In the Roles tab, select Add Role.
+When the Add Role box appears, use the drop-down pick list and Select an existing role to copy. If this is your first time adding a new role, choose from either Admin or User as the baseline for your new role. 
+Enter the name of the role in the Custom Name text box. 
+Click Save. Now you can edit the role with the permissions you prefer. 
+Edit Roles
+Custom roles can be edited to alter the permissions set for that role.  
+
+To edit an individual role, follow these steps:
+Navigate to the Roles & Permissions Settings in your Team Settings.
+In the Roles tab, find the custom role you would like to edit.
+Select the pencil icon under Edit.  
+Select Edit Role.
+You will be redirected to the Permissions tab. Here you can check or uncheck any permissions that you would like turned on or off. Once the boxes are selected, the role permissions will be saved.
+Things to Note: New admin-level Salesloft features must be added to any custom role – they do NOT inherit new feature permissions from their original role parent.
+Delete Roles
+If a role is no longer necessary, and there are no users assigned to that role, you can delete the role.
+
+Things to Note: When you delete a custom role, Salesloft will scan to make sure there are users assigned to that role. If there are, we issue an alert and ask that you first reassign users to a different role.
+
+To delete a role, follow these instructions:
+Navigate to the Roles & Permissions Settings in your Team Settings.
+In the Roles tab, find the custom role you would like to edit.
+Select the pencil icon under the Edit column. A dropdown menu will appear. 
+Click Delete Role. 
+The Permissions Tab
+Permissions let admins control what users can see and do in Salesloft. You can define a specific set of permissions for each role. The default Admin and User permissions cannot be edited.  
+
+When you first visit this tab, the Admin and User default roles will be visible. You can change these to display up to any four roles for side-by-side comparison. To view different roles on the permissions tab, click the role name in the column header and select an alternative role in the dropdown.  
+
+You can edit any custom roles by checking or unchecking the box related to that particular object's permissions.
+ 
+ List of Permissions
+There’s a wide range of permissions available to you in Salesloft. You can pick and choose from any of the permissions listed. Our current permission categories and actions can be found in our Complete List of Available Permissions article. 
+SLU: Team Admin: Roles and Permissions Settings (Video)
+Want to know about Roles and Permissions Settings, but prefer a video format? Visit Salesloft University to see the Team Admin: Roles and Permissions Settings video tutorial. 
+ 
+Last Modified By
+Raequel Sank, 12/14/2021 8:23 PM
+Title
+Roles and Permissions
+URL Name
+Roles-and-Permissions
+Salesloft Knowledge
+Admin Guides
+Team Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

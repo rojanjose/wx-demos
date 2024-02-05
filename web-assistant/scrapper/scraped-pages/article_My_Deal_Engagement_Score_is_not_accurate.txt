@@ -1,0 +1,30 @@
+DEALS
+My Deal Engagement Score is not accurate
+
+Mar 29, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Deal Engagement Score number is calculated by combining the activity engagement performed on the Opportunity with anonymized, aggregated model data.
+
+A big reason a score may not be reflective of the actual engagement with a deal is most likely due to a lack of key engagement data that influences the score. 
+
+If your Deal Engagement Score seems inaccurate, confirm the following: 
+Zero stakeholders attached to an opportunity: If this comes up, suggest they go and add stakeholders to their opportunities. 
+Users are not Lofting their activities:  If this comes up, suggest that their team lofts their activities on a frequent and consistent basis
+Last Modified By
+Stephanie Griffith, 3/29/2023 2:56 PM
+Title
+My Deal Engagement Score is not accurate
+URL Name
+My-Deal-Engagement-Score-is-not-accurate
+Deals
+Salesloft Knowledge
+Deals FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

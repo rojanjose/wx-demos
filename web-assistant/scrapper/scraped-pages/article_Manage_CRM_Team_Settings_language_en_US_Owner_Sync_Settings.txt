@@ -1,0 +1,246 @@
+ADMIN GUIDES
+Manage CRM Team Settings
+
+May 22, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The CRM Sync Settings tab allows you to manage the integrations between your team’s CRM and Salesloft. Here, you can set the rules for activity logging and record linking that will apply to your team.
+
+In this article, you will learn about settings to manage your team's CRM to Salesloft integration, including:
+Select the CRM Type 
+Edit Activity Logging Settings
+Linking Salesloft People to CRM
+Manage CRM Record Selection
+Specific CRM Tasks Record Type
+Owner Sync Settings
+Select the CRM Type 
+The CRM Type specifies which CRM your team will use with Salesloft. Once you select a CRM, you and your team will only be able to connect to this CRM provider.
+
+The CRM Type also plays an important roll early in your Salesloft and CRM configuration. After connecting to your Main CRM Connector, selecting the CRM type automaps fields in your CRM field configuration. 
+
+Things to Note: Automapping is only available for Salesforce and Microsoft Dynamics 365 users. 
+
+If you are new to Salesloft, or have no previously selected a CRM Type, follow these steps to complete the initial CRM Type setup: 
+
+1. Go to the CRM Sync admin settings. You will land in the CRM Sync Settings tab.
+2. Click Edit in the CRM Type panel. The Edit CRM Type module will open with your available CRM types.
+Things to Note: The Salesforce CRM Type option will appear for all customers. If you would like to connect to Microsoft Dynamics, but do not see the option, reach out to your Salesloft representative about enabling Dynamics.
+
+
+3. Choose your CRM Type by checking the button next to your preferred CRM option. 
+Thing to Note: When the button for any CRM Type is selected, a message will appear warning you that CRM Type cannot be changed once saved.
+For teams that select Microsoft Dynamics 365 as their CRM Type, additional fields will appear to populate their App ID and URI.
+
+4. Click Save. Once CRM Type is saved, another modal will open for you to Personally Connect to your CRM.
+5. In the Personally Connect to CRM window, select one of the following options:
+Connect Now: You will be automatically routed to their Personal CRM Settings where you can connect to your CRM.
+Connect Later: You will return CRM Sync Settings page. 
+
+6. Once CRM Type is set, the CRM Type panel will show the CRM Type you have selected for your team. You will also see a View button in place of the Edit option. Click View to see more details about the CRM Type including other CRM Types and, if applicable, the App ID and URI fields. This window will be in a locked, view-only state.
+
+
+ 
+Edit Activity Logging Settings
+You can choose whether activities are automatically associated with Leads, Contacts, and Opportunities, or just Leads and Contacts. This feature is supported in Salesforce as well as Microsoft Dynamics. Activity logging will not be impacted unless you choose to change this setting.
+
+Things to Note: The Activity Logging Settings look different across our different supported CRMs. For instructions about how to set up specific Activity logging, check out these articles: 
+Salesforce Activity Logging
+Dynamics Activity Logs 
+HubSpot Activity Logs
+The Activity Logging panel will show which logging settings are currently turned on for your team. 
+ 
+
+Follow the instructions below to edit the activity logging:
+Navigate to CRM Sync in your Team Settings. You will land on in the CRM Sync Settings tab.
+Go to the Activity Logging panel and select Edit. You will be redirected the the Activity Logging page. This page contains the available logging options for your CRM type. The options are groups into the following sections:
+Email and Reply Logging
+Call and Voicemail Logging
+Meeting Logging
+Log Meeting as an Event
+Log Meeting as a Task
+Note Logging
+Step Logging
+Select the checkbox for the activities you wish to log or deselect a checkbox to disable activity logging. 
+Click Save. A popup notification will inform you that the Activity Logging (was) Updated.
+ 
+
+ 
+Activity Logging When You Don't Have a CRM
+
+If your team does not use a CRM, you may think activity logging don't matter to you and this step can be skipped in the setup process. However, activity logging settings are relevant even to customers who do not have a CRM Type configured.
+
+These settings must be enabled in order for the corresponding activities to be accessible in Salesloft’s CRM Activities API endpoint as well as Salesloft’s Failing Activity Log where you can keep track of whether your team's activities successfully log. 
+
+Customers who don’t currently have Salesloft integrated with a CRM may wish to keep these settings enabled (they are on enabled by default), in case they later choose to integrate with a CRM and would like to push these activities to their CRM retroactively. 
+
+Linking Salesloft People to CRM
+
+If your CRM is the primary source for all of your team's logged records, any Person added to Salesloft manually or from a CSV file must also link to a Lead or Contact record in your CRM. This way, you can ensure your team's activity logs are correct and up-to-date. 
+
+Salesloft will check the user’s designated CRM instance for a matching CRM record based off of the settings designated under Linking People to CRM.
+
+Things to Note: The Linking People setting will only be available once a team has set their CRM Type.
+
+There are five options to link People to the CRM:
+
+Contact, fallback to Lead (Default): Salesloft will search for a matching Contact record first. If a Contact does not match, we will scan the Lead records. We recommend this linking method when the majority of People records in your CRM fall under Contacts, but you also use Leads.
+
+Lead, fallback to Contact: Salesloft will search for a matching Lead record first. If a Lead does not match, we will scan the Contact records. We recommend this linking method when most People records in your CRM fall under Leads, but occasionally you use Contacts.
+
+Contact: Salesloft will only search Contact records to link. Use this method if you only work with Contacts.
+
+Lead: Salesloft will only search Lead records to link. Use this method if you only work with Leads.
+
+Do not link: Salesloft will not scan your CRM and will not link any records. If you attempt to link a record, the linking will not occur. We only recommend this option if you are not using CRM and do not require linking at all.
+
+To edit the Linking People settings, follow these steps: 
+
+Go to the CRM Sync admin settings. You will land in the CRM Sync Settings tab.
+
+Click Edit in the CRM Type panel. The Edit button will change in the dropdown options. 
+
+Select your Linking People preference. 
+
+Click the check mark to save the option. Click the X to cancel. 
+
+Once the option is complete, your selection will appear inside the Linking People panel so you can quickly confirm your selection. 
+
+ 
+ 
+Manage CRM Record Selection
+CRM Record Selection allows users to log activity to alternative records. 
+
+Things to Note: CRM Record Selection is only available for Salesforce users. 
+
+Before your team can select different records to log to, a team admin must enable CRM Record Selection by turning on the toggle from the CRM Sync Settings page. 
+ 
+
+Learn more about CRM Record Selection, including how to log records, in the Knowledge Base article. 
+Specific CRM Tasks Record Type
+
+CRM record types allow admins to offer specific processes, pick list options, and even entire layouts to different users based on the needs of their organization.
+
+Things to Note: CRM Record Selection is only available for Salesforce users. 
+
+From your CRM Sync Settings, you can specify a CRM task record type, to keep the data to your CRM clear, clean, and consistent. When this feature is enabled, Salesloft activities will log as a specific record type in CRM.
+
+Things to Note: 
+
+Please keep in mind, the name of the record type is set by your organization in your CRM. 
+
+Before you can set a CRM record type in Salesloft, you must have created a record type in your CRM. You (or a CRM Admin) can set up a new record type using the CRM Object Manager.
+
+Make sure you verify this ID to avoid an invalid value error. You can find the ID from the Salesforce URL.The 15 alphanumeric characters found between "jsp?id=" and "&type=" constitute the CRM ID of the record type. For example: https://na1.salesforce.com/setup/ui/recordtypefields.jsp?id=012300000012BYN&type= (in this example, the ID is 012300000012BYN)
+
+You can use either the 15- or 18-digit ID. 
+
+To set up a CRM task record type, follow these steps: 
+
+As an admin, go to the CRM Sync Settings page located in the Data Settings. You will land in the Settings tab. 
+
+At the bottom of the Settings tab, find the CRM Tasks Record Type
+ panel and select Edit. The Edit CRM Tasks Record Type window will appear. 
+
+
+
+
+In the Edit CRM Task Record Type window, select the Specify a record type for Salesloft activity to log to CRM checkbox.
+
+Enter the record type ID.
+
+
+5. Click Save. 
+
+Things to Note: Salesloft will warn you if the ID entered is not valid. 
+
+
+
+
+Please note that the following errors can occur if the record types are not configured properly.
+
+Failing CRM activities: 
+ 
+
+ 
+
+ 
+
+ 
+
+Error State
+
+	
+
+Salesloft error Message
+
+
+
+
+Record Type ID is an invalid value
+
+	
+
+Task Record Type ID (ID: XXXXXXXX) is the incorrect length or contains invalid characters per CRM field requirements.
+
+
+
+
+Record Type is inactive
+
+	
+
+Task Record Type ID (ID: XXXXXXXX) is invalid because this Record Type object has been deleted or you do not have access.
+
+
+
+
+Record Type is not accessible to user
+
+	
+
+Task Record Type ID (ID: XXXXXXXX) is invalid because this Record Type object has been deleted or you do not have access.
+
+
+
+
+Record Type is deleted
+
+	
+
+Task Record Type ID (ID: XXXXXXXX) is invalid because this Record Type object has been deleted or you do not have access.
+
+Owner Sync Settings
+
+Ownership in most CRMs determines which CRM user manages Contacts and Leads. While ownership in Salesloft doesn't hold the same restrictions, it may be helpful to have the People in Salesloft owned by the same user across both systems. This will make it easy for a user to sync up their data and activity logs to their CRM records.
+
+In order to keep ownership aligned across both systems, a Salesloft admin may enable owner sync.
+
+Things to Note: 
+
+If you only want ownership changes from CRM to apply to your records, do not select the Owner Sync setting. Create an automation rule to match Salesloft owner to CRM owner instead.
+Owner Sync only applies to People. 
+Owner CRM Id should be mapped on the Person and Account levels before selecting this option.
+
+To enable owner sync, select the checkbox for When ownership changes in either CRM or Salesloft, reflect that change in the other platform.
+
+ 
+ 
+Last Modified By
+Briana Morgan, 5/22/2023 6:41 PM
+Title
+Manage CRM Team Settings
+URL Name
+Manage-CRM-Team-Settings
+Salesloft Knowledge
+Admin Guides
+CRM
+CRM Essentials
+Data Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

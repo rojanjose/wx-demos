@@ -1,0 +1,121 @@
+EMAIL
+How Meeting Participants Reschedule Meetings
+
+Apr 4, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Giving your meeting participants the option to reschedule meetings from the meeting invite creates a flexible communication pipeline and shows meeting participants that you value their time. 
+
+When you schedule meetings with Salesloft, you can offer your meeting participants the option to reschedule right from the meeting invite itself. 
+
+Participants that click the reschedule link will be able to reschedule the meeting according to your availability. Once a better time is chosen, Salesloft sends you a notification to inform you the meeting has been rescheduled. 
+
+
+In this article, you will learn about reschedule links in your meeting invites, including:
+
+Add Reschedule Option to Your Meeting Invites
+Participants Reschedule Meetings
+Disable the Reschedule Link
+Salesloft User Actions When A Prospect Reschedules A Meeting
+Add Reschedule Option to Your Meeting Invites
+
+Adding a reschedule option to your meeting invites ensures that the meeting date and time accommodate everyone’s needs.
+
+As a Salesloft user, setting up reschedule options is a two-step process. First, you need to set your in office hours so rescheduled meetings only fall during your work windows. Second, you will turn on the reschedule link. Turning on the reschedule link will add the options to reschedule the meeting from the meeting details on anyone's calendar. 
+
+To add the Reschedule Meeting option to your meeting invites, follow these steps:
+
+Navigate to your Calendar settings. 
+Select Availability and Privacy from the top menu options.
+Set your In-Office Hours. 
+Things to Note: This step allows Salesloft to add your availability to the calendar that a person sees when they click the reschedule meeting link.
+Check the Reschedule Link box.
+Hit Save.
+
+
+Once you’ve set your In-Office Hours and added the Reschedule Link option, you’re all set! 
+
+Check out the Participants Reschedule Meetings section below for a look at what meeting participants will see when they open your meeting invite. 
+
+Participants Reschedule Meetings
+
+The reschedule option inside your meeting invites adds the clickable link inside the meeting details on anyone's calendar. This links allows meeting participants to view your availability and reschedule the meeting. 
+
+Let’s walk through what meeting participants will see when they open your meeting invite and click the reschedule link.
+ 
+
+ 
+From the meeting participant's calendar, they can select the meeting. Inside the Meeting Details, they will see the option "If the time is not suitable for you, click here to reschedule the meeting." 
+The participant selects Click Here. A calendar listing your availability will appear.
+Your prospect can review your availability, select a date and time, and Confirm their selection. 
+Once your prospect confirms their preferred date and time, they will be directed to a confirmation page that lists the new meeting date and time. 
+
+Things to Note:
+Rescheduled events are not removed from your calendar, but appear with the rescheduled date and time.
+If your meeting is recurring and the reschedule link is used, it will reschedule all future meetings. 
+To learn more about the notifications you’ll receive when a prospect reschedules a meeting, check out the Salesloft User Actions When a Prospect Reschedules a Meeting section.
+Disable the Reschedule Link
+To disable or remove the reschedule link from your scheduled meetings, take the following steps:
+Navigate to Settings, then Calendar.
+Go Availability & Privacy and scroll down until you see the heading Reschedule link. Uncheck the box to ensure future meetings will not be rescheduled.
+ 
+Salesloft User Actions When A Prospect Reschedules A Meeting
+
+When a prospect reschedules a meeting, you’ll receive notifications via:
+
+Email
+In-App Live Feed 
+Person Profile Page
+Salesloft Mobile Live Feed
+
+Let’s look at these notifications:
+
+Email
+
+When a prospect reschedules a meeting, an email will notify you. From the email, click ‘Go to Profile Page’ to see details about the updated meeting.
+ 
+
+ 
+In-App Live Feed 
+
+When a prospect reschedules a meeting, you will receive an in-app Live Feed notification. To access this notification, open Salesloft and click the Live Feed icon. 
+
+The meeting reschedule notification will be listed and will include the meeting participant's name, and the new meeting date and time. Click the prospect’s name to visit their Person profile page.
+
+ 
+ 
+Person Profile Page
+
+When a prospect reschedules a meeting, the action will appear on the Person’s profile page. The action will appear labeled Rescheduled by Prospect. 
+
+You can click the action to open a drop-down with more information about the updated meeting.
+
+ 
+Salesloft Mobile Live Feed
+
+When a prospect reschedules a meeting, Salesloft Mobile users will also receive a notification via the Salesloft Mobile Live Feed.
+
+ 
+
+ 
+ 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 4/4/2023 1:57 PM
+Title
+How Meeting Participants Reschedule Meetings
+URL Name
+How-Meeting-Participants-Reschedule-Meetings
+Email
+Salesloft Knowledge
+Sending Emails
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

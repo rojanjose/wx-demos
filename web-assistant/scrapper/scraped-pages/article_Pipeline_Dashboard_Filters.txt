@@ -1,0 +1,91 @@
+DEALS
+Pipeline Dashboard Filters
+
+Jan 31, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+A new Pipeline Dashboard will bring in all of the data related to your team's Opportunities. While having everything may sound nice, it's overwhelming for our eyes and minds to take in all of that information and may not ultimately fit your needs. This is where Dashboard filtering comes into place. 
+
+Pipeline Dashboard filters allow you to drill down the list of Deals you are viewing based off of certain criteria.
+ 
+Each time a filter is adjusted, a Save button will appear to the right of the Dashboard Title. Click Save to set the filter as the default for the Dashboard. 
+ 
+In this article, we will walk through each filters categories, including: 
+Close Date
+Owners
+Stages
+Gaps
+Advanced Filters
+Close Date
+The Close Date filters include the following options: 
+All
+This Month
+This Calendar Quarter
+Next Month
+Next Calendar Quarter
+Custom Time Range: Click in the date range box to make the calendar appear. Then, select the start of the range, followed by the end of the range. 
+ 
+Owners
+The Owners filter breaks down Deals by the team member or groups of team members who are in charge of that Opportunity. Typically, this is the user who is working on the Deal or originally created the Opportunity. 
+
+You can use the filter to see a range of Opportunities based on your entire team, certain members of your team, specific groups from your team (determined by your teams Groups set up), or Opportunities that are owned by you. 
+
+You will find the Owner filter below the name of your Pipeline Dashboard. Click the down arrow to adjust the filter. In the Owners filter dropdown you will see the following: 
+You: Filter results based on the Opportunities that are owned by you, aka the logged-in user.
+All Owners: Filters results based on the Opportunities that are owned by all team members. 
+Specific Owners: Filters results based on the Opportunities that are owned by the selected users in the dropdown. When you click the Specific Owners option, a secondary box will appear where you may choose to filter by one or multiple team members. 
+Owners in Specific Groups: Filters results based on the Opportunities that are owned by users within the Groups selected in the dropdown. When you click the Owners in Specific Groups option when filtering, it will display a secondary box where the user will choose from the list of Salesloft Groups. The groups will appear in their designated hierarchy format.
+ 
+After you select an Owner filter, click Apply in the Owner filter dropdown to apply the filter to your dashboard. 
+ 
+Stages
+Stages filter the Deals list by the Opportunity Stages. The Stages are listed in parent/child groups. This means if you have a Parent Stage (like Open, listed below), you can select that parent and the filter will include all of the "Child" Stages along with it. 
+
+However, if only a Child Stage is selected, the filter will drill down to only include that filter (or those filters, if multiple Stages are selected.)
+ 
+Gaps
+Pipeline Health and Deal Gaps are the data points that could negatively impact your Deals. 
+
+With Deal Gaps filters, managers and reps can create tailored views based on specific gaps. This way you can quickly assess any issues in your pipeline. 
+
+Things to Note: Admins can Manage Deal Gaps from the Pipeline tab.
+
+The options in this menu will populate based on the Deal Gap filters that have been set up for your team. When filtering by Deal Gaps, you can add one or multiple Deal Gap filters.  
+Advanced Filters
+Once you've selected the filters for your columns, you can select Advanced Filters for each of your columns. Advanced Filters allow you to get into certain types of Opportunities. You can use the following types of fields as Advanced Filters: 
+Boolean
+Currency
+Date
+Double
+Email
+Integer
+Multi-select
+Percent
+Reference
+Select
+String: Examples include Title, Sales Segment Stamp, Description, Next Steps, Competitor, and many more. 
+Things to Note: String fields filter criteria must be an exact match to the value of the string field in order for the criteria to apply. 
+
+To set Advanced Filters, follow these steps:
+Click the Funnel icon to open the Advanced Filters. The icon is under the Dashboard name. The Advanced Filter window will appear. 
+Select any and all filters you would like to apply to your Dashboard. 
+Click Done. 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 1/31/2022 11:57 PM
+Title
+Pipeline Dashboard Filters
+URL Name
+Pipeline-Dashboard-Filters
+Deals
+Salesloft Knowledge
+Pipeline Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

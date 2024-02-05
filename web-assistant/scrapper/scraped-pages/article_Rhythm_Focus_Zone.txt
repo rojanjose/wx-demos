@@ -1,0 +1,183 @@
+RHYTHM
+Rhythm Focus Zone
+
+Sep 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Rhythm Focus Zone is where you’ll find your Rhythm workflow, which consists of tasks prioritized by Conductor AI. 
+
+Located on the Salesloft homepage's Workflow tab, the Rhythm Focus Zone is the first thing you'll see when you log in to Salesloft. 
+
+In this article, you will learn about the Rhythm Focus Zone, including:
+
+Focus Zone Tiles
+Types of Activities
+Rhythm Signals
+Tile Actions
+Filter Tasks in the Rhythm Focus Zone
+Focus Zone Tiles
+
+Each task item found in your Rhythm Workflow is listed in its own tile. The tile is a clickable element that also contains valuable information to inform you about your tasks.
+
+ 
+
+The Focus Zone tiles include the following:
+
+Activity Type Icon: Represents the type of activity
+Action Name: Name of the action you'll perform in this task
+Signal: Activity that initiated the task
+Prioritization: Hover over the prioritization icon to see what data Conductor AI used to prioritize this task
+Details:
+Opportunity Details: Details about the Opportunity related to this task
+Person Details: Details about the Person related to this task
+Due Date: Date that the task is due
+Types of Activities
+
+The icon seen on the far left side of the Focus Zone tile shows the action you are due to complete.
+
+When you select a tile, you will run the related action.
+
+Here are some of the common activities that are represented in the Focus Zone Tiles: 
+
+Call	  
+Email	  
+Other/General	  
+LinkedIn Sales Navigator	  
+ 
+
+
+Things to Note: Integration Tasks may display their own icons for relevant tasks. 
+
+Rhythm Signals
+
+Your Rhythm Focus Zone is built of your prioritized action items. You may be wondering, what prompts an item to be added to the Rhythm Focus Zone? 
+
+Salesloft uses Signals to identify the various actions and tasks that you need to complete. These signals are represented in the Focus Zone Tiles.
+
+The signals include the following: 
+ 
+
+Cadence Step	 
+Manually Created Task	 
+Meeting Play	 
+Email Play	 
+Integration Play	 
+
+ 
+
+Tile Actions
+
+In addition to running your task actions, each tile contains a specific set of additional actions.
+
+These additional actions will vary based on the signal. Specifically, there are different additional actions for Cadence step tiles and Tasks tiles.
+
+To access and select these actions, hover over a tile. The due date will be replaced with various icons buttons you can click to perform an action.
+
+Cadence Step Tile additional actions include: 
+
+Reschedule	  
+Skip Step	  
+Remove from Cadence	  
+
+
+
+Tasks tiles additional actions include: 
+
+Mark Complete	  
+Reschedule	  
+Edit	  
+Delete	  
+ 
+Filter Tasks in the Rhythm Focus Zone
+
+The Rhythm Focus Zone lists tasks prioritized by Conductor AI, however, you can filter the list to make your workflow the most efficient.
+
+To filter your list of tasks, click the filter icon in the upper right corner. 
+
+Using the Rhythm Focus Zone filter, you can update your list of tasks to:
+
+Group Cadences by Cadence Step, Account, Time Zone
+Filter by Due Date
+Filter by Task Type
+Filter by Time Zone
+
+ 
+
+
+Conductor AI reviews your Cadences and determines which Cadence steps have a high likelihood of success. Cadence steps that have a high likelihood of success are then prioritized as Cadence step tasks in the Rhythm Focus Zone. 
+
+ 
+
+Let’s take a look at the details you can find on Cadence step tasks.
+
+
+Cadence steps tasks include the following:
+
+Step Title: Title or action associated with the step
+Cadence Name: Name of the Cadence this step is part of
+Buyer Priority Icon: Icon that determines the likelihood that a task will lead to a successful outcome
+Things to Note: You can hover over the Buyer Priority Icon to learn more about what key factors Conductor AI used to prioritize a particular task.
+Record Owner: Owner of the Person or Account record owner the Cadence is associated with
+Due Date: Date that the Cadence step is due
+
+
+You can hover over each Cadence step task to either reschedule the task, skip the step, or remove the step from its Cadence. 
+
+One-Off Tasks
+
+Tasks in Salesloft allow you to schedule one-off actions outside of Cadences. 
+
+One-off tasks include things like sending an email, or scheduling a phone call. If Conductor AI determines that a particular task is likely to lead to a successful outcome, that task will be prioritized in the Rhythm Focus Zone. 
+
+ 
+
+Let’s take a look at the details you can find on Cadence step tasks.
+
+
+One-off Tasks in the Rhythm Focus Zone include the following:
+
+Task Subject: Title of the task that gives insight about the task
+Buyer Priority Icon: Icon that determines the likelihood that a task will lead to a successful outcome
+Things to Note: You can hover over the Buyer Priority Icon to learn more about what key factors Conductor AI used to prioritize a particular task.
+Task Assignee: User the task is assigned to
+Due Date: Date the task is due
+
+
+You can hover over each One-off task to either reschedule the task, skip it, or remove it. 
+
+Deals and Opportunity Sync Data Associated With a Task
+
+If you use Salesloft Deals or Opportunity Sync, Conductor AI will also use this data to determine the likelihood of a task’s success. 
+
+Conductor AI uses the Deal Priority Model to determine the likelihood that a deal will close, and prioritizes associated tasks based on that logic. 
+
+Tasks that include Deals and Opportunity Sync data include the following:
+
+Task Title: Title of the task or Deals To-Do
+Deal Priority Icon: Differentiates tasks prioritized based on the Deal Priority Model
+Things to Note: You can hover over the Deal Priority Icon to learn more about what key factors Conductor AI used to prioritize a particular task.
+Deal Engagement Score: Score that determines a deal’s health and the likelihood that it will close
+Task Assignee: User the task is assigned to
+Due Date: Date the task is due
+
+
+You can hover over each One-off task to either reschedule the task, skip it, or remove it.
+
+Last Modified By
+Raequel Sank, 9/13/2023 9:19 PM
+Title
+Rhythm Focus Zone
+URL Name
+Rhythm-Focus-Zone
+Salesloft Knowledge
+Rhythm
+Rhythm Workflow
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

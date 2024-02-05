@@ -1,0 +1,82 @@
+ADMIN GUIDES
+Manage General Settings
+
+Sep 22, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The majority of your Salesloft management will take place from the Team Settings. As a Salesloft admin, you can access the Team Settings to change your team's name, manage invoices, invite new Salesloft users, and configure your team’s Salesloft account.
+
+Your Team Settings can be accessed by clicking your name in the top right corner of the Salesloft platform, and selecting Settings or Team (selecting Team will take you directly to the General Settings, while Settings will take you to the Profile Settings page).
+
+The General Settings allows you to manage your team by editing its name and configuring team-wide Settings.
+
+In this article, we will walk through General Settings, including:
+Edit Your Team Name
+Global Opt-Out
+Available Import Options
+Edit Your Team Name
+When your team's Salesloft account is created, your company name becomes your Salesloft Team Name (unless we are told otherwise). In other words, your Team Name is the name designated to your team's Salesloft instance. 
+
+But if you are a part of a division of your business or your company changes their name (these things happen), you can update your team's name as an admin.
+
+Follow the instructions below to change or edit your team name:
+Go to the General Settings under your Team Settings.
+Your current name will be listed under Team Name.
+In the text box, type in the name you would like your team to go by.
+Select Update Name.
+ 
+Global Opt-Out
+When an email recipient selects an opt-out link, they are marked as Do Not Contact in Salesloft, cutting off potential future communication from Cadences, emails, or phone calls.  
+
+Users have the option of adding an opt-out link across a Cadence or they can add a link via dynamic field in specific templates.
+
+However, if your email reputation is at risk, you may want to mandate the addition of the opt-out link in your team's emails. The global opt-out link lets you control whether or not your team’s emails will contain an opt-out link that allows recipients to unsubscribe from future emails. You can even decide whether you want the opt-out link visible in all emails sent via Salesloft or only emails sent from Cadences.
+
+Things to Note:
+If you do not see the global opt-out link setting in your General Settings, reach out to Salesloft Support or your Success Manager so they can enable the feature. 
+Clicking the global opt-out link will not register as a click. 
+To determine the opt-out link settings for your team, follow the instructions below: 
+Under Settings, go to the Communication Settings.
+Find the Email Footer section.
+Click Default Footer to edit it.
+In Edit Default Footer, locate Opt-Out Link.
+Edit the Opt-Out Link Text.
+Click Save.
+Things to Note:
+You can check or uncheck the box next to Use Salesloft's Opt-Out Link, depending on your needs.
+If a person opts out of emails via the footer link, they will be marked as Do Not Contact in Salesloft.
+ 
+End User Experience: Clicking the Global Opt-Out Link
+The global opt-out link will include a text link that reads “Would you like to opt out?” at the bottom of the email they received.
+ 
+
+What does an email recipient experience if they click on the global opt-out link?
+
+When a recipient clicks on the opt-out link, a new browser will open. In the new window, they will see a prompt to complete the opt-out process. Once they click Confirm, they will opt out of future messages and a contact restriction will be added to the Person's record. 
+ 
+Available Import Options
+Salesloft users have the ability to import People from three available sources. Whenever they select Import People (from the People page), they will see all of their available importing options.
+
+If you would like to select specific import options to be sure your users only import using a particular method, you can select/deselect your preferred import options. Follow these steps to set your available import options:
+Go to the General Settings under your Team Settings.
+Scroll to Available Import Options.
+Only put a check next to your preferred import option(s). If the checkbox is selected, the import option will show.
+ 
+ 
+Last Modified By
+Briana Morgan, 9/22/2022 1:51 PM
+Title
+Manage General Settings
+URL Name
+Manage-General-Settings
+Salesloft Knowledge
+Admin Guides
+Team Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

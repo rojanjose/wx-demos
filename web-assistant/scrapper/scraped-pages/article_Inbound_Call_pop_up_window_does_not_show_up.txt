@@ -1,0 +1,120 @@
+DIALER + MESSENGER
+Inbound Call pop-up window does not show up
+
+Dec 20, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+If the call pop-up is not appearing, your computer’s Do Not Disturb settings may be enabled. If Do Not Disturb is enabled, most computers will block notifications like inbound call notifications from Salesloft. 
+
+The settings will differ based on the operating systems of your Mac or PC. For more information, check out our Do Not Disturb article, as well as this support article on Focus assist.
+
+The instructions below will walk you through the steps to enable notifications for the following systems:
+
+Enable Notifications in Google Chrome for Windows 10
+Enable Notifications in Google Chrome for Mac
+Do Not Disturb Settings for Mac
+
+ 
+
+Enable Notifications in Google Chrome for Windows 10
+
+Windows 10 may require additional steps to enable Chrome notifications. If you have downloaded the Chrome extension and set your notifications, but still aren't receiving your inbound call notifications, follow these steps:
+
+From your Windows Desktop, click on the Windows button in the bottom left corner.
+Use the Find a setting search bar and type the word “Notifications”.
+Choose Notifications & Actions from the left side menu.
+Under Notification, toggle the button for Get notifications from apps and other senders "on" to enable notifications.
+Now, make sure Google Chrome is configured as: Banners, Sounds to enable the push
+Notifications. Scroll down to Get notifications from these senders and find the Google Chrome icon. Toggle the Google Chrome button on to enable notifications.
+Back in the left side Settings menu, find and select Focus assist. Be sure the Focus assist setting is off. This will disable Do not Disturb mode. 
+Exit out of the settings. 
+
+ 
+
+ 
+
+Enable Notifications in Google Chrome for Mac
+
+Mac users may need to enable Chrome notifications in your System Preferences. If you have downloaded the Chrome extension and set your notifications in Salesloft, but still aren't receiving your inbound call notifications, follow these steps:
+
+Click on the Apple icon in the upper left corner of your computer screen, then select System Preferences.
+Select Notifications. This will open the Notification Center. 
+
+ 
+
+ 
+
+Scroll down to the Application Notifications section. Here you will enable notifications for specific apps. Google Chrome has 2 related apps. Both will need notifications enabled for Inbound call notifications to work. These apps include:
+Google Chrome
+Google Chrome Helper (Alerts)
+
+ 
+
+ 
+
+Select Google Chrome. You'll enter the Google Chrome-specific page. First, find Allow Notifications and flip the toggle to the right to enable notifications. When notifications are enabled, you will also select a notification style. We recommend Banners as the Google Chrome alert style.
+
+ 
+
+ 
+
+Go back to the Notification Center and select Google Chrome Helper (Alerts).
+
+ 
+
+ 
+
+Enable the Google Chrome Helper (Alerts) notifications. Then chose the notification style Alerts.
+
+ 
+
+ 
+
+Do Not Disturb Settings for Mac
+
+If Chrome notifications still do not appear after you have enabled notifications, your default Do Not Disturb settings may be interfering with notifications.
+
+Do Not Disturb settings are managed from the Focus section in the System Settings. Ideally, the Focus settings remove notifications so you can focus only on what is on your screen, but if notifications are not allowed, you will not receive Inbound calls. 
+
+There are two ways to work around Focus/ Do Not Disturb settings:
+
+Turn Do Not Disturb Status Off: This disables Do Not Disturb, so notifications will function normally.
+Allow apps during Focus Mode: This creates exceptions to the Do Not Disturb rules. 
+
+To disable the Do Not Disturb, follow these steps.
+
+  
+
+ 
+
+To allow Chrome notifications within a Focus type, like Do Not Disturb, follow these steps: 
+
+Things to Note: Apple creates the Do Not Disturb status by default. Users may create their own types of Focus to limit notifications. If you have created additional Focus areas, you will need to allow Chrome notifications for each focus area type. 
+
+Go to you System Settings.
+Select Focus.
+Select the Do Not Disturb focus type.
+Find and select Allowed Apps. A menu will appear. 
+Click the Add + button.
+Type Google Chrome and click Add. Google Chrome will be added to the allowed apps list. 
+Now, Add Google Chrome Helper. Click Add +, type "Chrome," and select Google Chrome Helper, then click Add. Now you should have 2 icons, one for Google Chrome and another for Google Chrome Helper.
+Click Done.
+
+Last Modified By
+Stephanie Griffith, 12/20/2023 6:17 PM
+Title
+Inbound Call pop-up window does not show up
+URL Name
+Inbound-Call-pop-up-window-does-not-show-up
+Salesloft Knowledge
+Dialer + Messenger
+Dialer FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

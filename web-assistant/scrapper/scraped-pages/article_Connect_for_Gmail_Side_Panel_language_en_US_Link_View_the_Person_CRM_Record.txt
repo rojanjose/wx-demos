@@ -1,0 +1,110 @@
+USER GUIDES
+SALESLOFT CONNECT
+CONNECT FOR GMAIL
+Connect for Gmail Side Panel
+
+Oct 6, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Salesloft Connect for Gmail Side Panel brings Salesloft’s core functionality into your Gmail inbox. The side panel allows you to view and manage a Person’s profile, keep up with your Live Feed, and even execute on one-off Tasks. 
+To open the side panel, click the << icon found on the right side of the Salesloft bar in your Gmail. When the side panel is opened, this arrow icon will flip the other way >>.
+
+You must have the Salesloft Chrome Extension downloaded in order to view the Gmail Side Panel.
+
+In this article, we will explore the actions you can take from the Gmail Side Panel, including: 
+Add a Person to Salesloft from Gmail
+The Gmail Person Profile View Tab
+Link and View the Person’s CRM Record
+Edit a Person from Gmail
+Book a Meeting on Demand in Gmail
+Live Feed in Gmail
+Tasks Manager in Gmail
+Add a Person to Salesloft from Gmail
+The person you are emailing must be added to Salesloft’s database in order to benefit from Connect for Gmail (or else we have no data to work with). If the person is not in Salesloft, you can quickly add them directly from Gmail.
+
+Follow these steps:
+Select the Person’s email. The Salesloft Panel will show a message that says This Person was not found in Salesloft.
+Click the button Add to Salesloft.
+Enter the Person’s information and click Save Person.
+The Person will now exist in Salesloft. Based on your Linking People to Salesforce Settings, Salesloft will scan your Salesforce for a matching Lead or Contact record. If linking People is enabled and a record is found, Salesloft will link the Person to their matching Salesforce record.  
+ 
+The Gmail Person Profile View Tab
+Once a Person has been added to Salesloft, the Gmail Side Panel will show their Person Profile View. 
+
+To learn more about the Gmail Person Profile View, check out the Person Profile View in Gmail Article. 
+Link and View the Person’s CRM Record
+Below the Person’s information, you will see a cloud icon that is meant to link this Person to their CRM record. If the cloud icon has an arrow in the middle of it, the Person is not linked to a CRM record. 
+
+If the icon is completely filled in, the Person is linked to their CRM record. Click the icon to open the record in your CRM. 
+Manually Link a Person to CRM
+When a Person is not linked to their CRM, the CRM icon (that looks like a cloud) will have a white arrow in the middle of it. 
+
+To manually link a Person to their Salesforce Lead or Contact record, follow these steps:
+From the new Person record, click the cloud icon to Link to CRM Record.
+Possible Lead and Contact matches will display for that Person.
+The Person's data will sync to the linked record, ensuring all of your CRM activities are captured promptly and correctly.
+Creating a New Salesforce Contact from Gmail
+When adding a new Person from Gmail, Salesloft can take care of the additional step to create a Contact record in Salesforce. However, unlike creating a Lead in Salesforce, Contacts must be linked to an Account record. If the new Person is linked to a Salesloft Account that has a corresponding Salesforce Account, we'll create the Contact immediately, no problem.
+
+For People who are not connected to an Account in Salesloft and/or Salesforce, we'll create the Salesloft Account or link the existing Salesforce Account to the Salesloft Account. Upon adding the Person to Salesloft, select the appropriate Salesforce Account and we'll take care of the rest.
+
+Things to Note:
+Creating a Contact does not allow users to create new Accounts in Salesforce. 
+Creating Contacts and Leads requires Salesforce Sync to be enabled for your team's account, as well as Person fields to be mapped correctly.
+You must be configured as a user in Salesloft Connect Settings.
+ 
+Edit a Person from Gmail
+The Person Profile Page in Salesloft offers a lot of data related to that Person from their name, contact information, and perhaps, details that are vital to your deal. 
+
+Things to Note: Custom fields must be created by an admin using field configuration. 
+
+If you are working from the Gmail side panel and learn that your contact’s information has changed in some way, you can quickly edit their Person information without leaving your Gmail inbox. 
+
+To edit a Person’s information, follow these steps: 
+In the Gmail side panel, go to the Person Profile tab. 
+Click the pencil icon. This will open the contact details view in the side panel. 
+Find the appropriate field and edit the information. 
+Click Save Person.
+ 
+Book a Meeting on Demand in Gmail
+Booking a meeting using Salesloft allows you to create calendar events that will log into Salesloft and Salesforce. 
+
+With Connect for Gmail, you can schedule meetings with prospects on the fly from the Person Profile view in the Salesloft Connect for Gmail sidebar.
+
+To book a meeting on demand from Gmail, follow these steps:
+Open the Salesloft Person Profile side panel in your Gmail.
+Click the Calendar icon to book a meeting. The Book a Meeting module will appear. 
+Select a meeting type to populate meeting details automatically.
+Assign the meeting to anyone on your team who has their calendar set up in Salesloft (if applicable).
+In the Attendees section, invite additional guests to the meeting by email.
+Select the time slot(s) you want to apply to the meeting.
+Once a required time slot is selected and all meeting details are filled in, users can click the Book Meeting button and the invite will be sent to the prospect. 
+ 
+Live Feed in Gmail
+The Live Feed provides you with real-time alerts when your prospects interact with your emails, including viewing the email, clicking a link, or replying, all directly within Gmail.
+
+To access the Live Feed in Connect for Gmail, navigate to the heartbeat monitor icon in the top right corner of the side panel. Learn more about what's including in the Live Feed in the Live Feed article.
+Tasks Manager in Gmail
+Select the checkbox icon in the upper right corner of the side panel to open the Tasks Manager. Here you can manage and execute on any Salesloft Tasks. 
+
+You can also create a task by clicking the Create Task icon on the Person Profile view in the side panel. 
+
+To learn more about Tasks, check out the Tasks in Gmail article.  
+Last Modified By
+Stephanie Griffith, 10/6/2021 8:01 PM
+Title
+Connect for Gmail Side Panel
+URL Name
+Connect-for-Gmail-Side-Panel
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Connect For Gmail
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

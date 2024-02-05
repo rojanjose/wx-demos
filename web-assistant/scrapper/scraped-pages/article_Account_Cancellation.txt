@@ -1,0 +1,32 @@
+ADMIN GUIDES
+Account Cancellation
+
+Oct 25, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+If we have to part ways, we’ll make sure your data isn’t at risk.
+
+To cancel and delete your account, please contact your account manager or our Customer Success team. Canceling your account will disable all access to Salesloft Platform and affects all data associated with your account.
+
+Before you cancel your account, you must make sure you export or print any information you might need from Salesloft Platform, for example leads and contacts are exportable via CSV. Activity specific data in Cadence, such as call logs, sentiments, activity, etc, are synchronized to Salesforce (SFDC) automatically.
+
+We will respond to any appropriate request to access, correct, update, or delete personal information belonging to your customers and prospects within the time period specified by law (if applicable). Any requests to delete this personal data will be done promptly unless the request is not technically feasible or such data is required to be retained by law (in which case we will block access to such data).
+
+Last Modified By
+Stephanie Griffith, 10/25/2023 8:51 PM
+Title
+Account Cancellation
+URL Name
+Account-Cancellation
+Admin Guides FAQ + Troubleshooting
+Admin Guides
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

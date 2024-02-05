@@ -1,0 +1,117 @@
+PEOPLE AND ACCOUNTS
+The Person Status Labels
+
+May 15, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Person status feature offers quick information about the prospect based off of previous actions. The status keeps you up-to-date on your communication with that Person on whether the Person's email address is correct, whether you've previously had success with the individual, or even if they've entirely opted out of communication. 
+
+Salesloft keeps you well informed about Person status updates with specific labels on the People page and icons located at the top of the Person's profile page. 
+
+In this article, you will learn about the different Person status options, including: 
+Star
+New Person
+Do Not Contact
+Contact Restrictions
+Replied
+Missing Email
+Bounced
+Success
+European Union (EU) Resident
+Out of Office Detection
+Star
+The yellow star icon denotes a Salesloft “favorite” Person. If a Person has been “starred,” the star icon will be filled in. You can manually set star status from the People page or an individual Person Profile
+
+When a Person has been starred by a Salesloft user, the star icon will be highlighted to the left of the Person's name on the People page. 
+
+The star icon will also appear in the upper right corner of the Person Panel on the Person's Profile Page. 
+New Person
+The green New label designates a Person that has recently been created in Salesloft.
+
+This status will remain on the Person until an activity is logged to the Person. Once a person with this status is contacted or added to a cadence, this status will get removed.
+Do Not Contact
+When a Person selects the opt-out link or requests to be removed from future communication, they are marked as Do Not Contact  (aka DNC) inside Salesloft. DNC prevents any and all communication, as well as prevent the ability for a prospect to be added to any Cadence.
+
+A Person can also be marked as Do Not Contact by a Salesloft user.
+
+The DNC label is a red circle with a strike through. When a Person is marked as Do Not Contact, you will see the label on the People page and in the upper right corner of the Person Panel on the Person's Profile Page. 
+Contact Restrictions
+Contact Restrictions disable specific methods of communication for People. This means, if someone says, "Never call me" or, "I don't check my email ever," you can block off that contact method, and keep your efforts on focussed on their preferred communication style. 
+
+The contact restrictions include: 
+Restrict Calls
+Restrict Emails 
+Restrict Text Messages
+If any contact restriction has been selected for a Person, the yellow circle with the strikethrough restriction icon can be found on the People page. 
+The Restrict icon will also appear in the upper right corner of the Person Panel on the Person's Profile Page. If you hover over the icon you can see what the specific restriction is. A restriction icon will appear for each type of restriction. So if you have calls and emails restricted, you will see two restriction icons. 
+Replied
+If a Person replies to an email sent using Salesloft, the Replied status will appear for that Person. The Replied status icon is a green arrow. 
+
+The green replied icon is also visible on the Person Profile page. 
+Missing Email
+The red email envelope icon means that the Person does no have an email address listed in their contact info. 
+
+If the email address is missing you will not be able to create an email or send emails to the Person for one-off or Cadence emails. 
+
+Things to Note: An email address or phone number must be provided when you create a Person.
+
+The missing email icon will also appear in the Cadence side panel. 
+Bounced
+A bounced Person status means that a previous email to this Person resulted in a bounce back. Salesloft allows one hard bounce or two "soft" bounces before marking someone as bounced. To learn more, check out "How Are Bounces Tracked?" 
+
+If a bounce is detected, the bounced icon can be found on the People page as a yellow arrow.
+
+
+
+The bounce icon will also appear in the upper right corner of the Person Panel on the Person's Profile Page. 
+Success
+People who have been marked as success have reached the ultimate outcome through Salesloft. As a team, you will determined what it means for a Person to reach "Success". Is booking a demo a success? Maybe receiving a signed contract is your team's success point?
+
+If a success has been logged, the Success icon can be found on the People page as a purple badge .
+ 
+
+The success icon will also appear in the upper right corner of the Person Panel on the Person's Profile Page. 
+European Union (EU) Resident
+People who are marked as EU Residents have open tracking, click tracking, and Live Website Tracking disabled by default. 
+
+Things to Note: The Mark as EU Resident option must be enabled by an Admin from Roles and Permissions.
+
+Since EU Residents have email restrictions put in place, it's important for Salesloft users to be aware of People who have been marked as EU residents. Salesloft identifies EU Residents with the following notifications:
+Person Panel Icon
+People marked as EU Residents will display the shield icon on the top status line of the Person panel on the Person's profile page. 
+
+When a Person is marked (or unmarked) as an EU Resident, the event is logged in the activity feed. 
+Disabled Open and Click Tracking
+Depending on the team's privacy settings, open tracking and click tracking are disabled when sending emails to a Person marked as an EU Resident. 
+
+When users send an email to a person marked as an EU resident, the click and open tracking icons will be grayed on. This means tracking has been disabled for those features. If you hover over the icons, a pop up label will explain that the tracking has been disabled due to the Person being an EU resident. 
+Person Page Status
+If a Person has been marked as an EU Resident by a Salesloft user, the EU blue shield icon can be found on the People page. 
+
+The DNC icon will also appear in the upper right corner of the Person Panel on the Person's Profile Page. 
+Out Of Office Detection
+Out Of Office (OOO) Detection keeps you from repeatedly reaching out to prospects who are less likely to connect (let's be honest, if a prospect is on a beach somewhere, they probably want to disengage as much as possible).
+
+You can enable OOO Detection inside your Cadence Settings. Once the setting is enabled, Salesloft will automatically shift Cadence step due dates when someone on your team receives an out of office message from a prospect. 
+
+If you try to contact a Person who is out of office, you will see the out of office notification within your email or call window. The notification contains the green palm tree icon along with the date that the user was detected as out of office. 
+ 
+Last Modified By
+Briana Morgan, 5/15/2023 2:34 PM
+Title
+The Person Status Labels
+URL Name
+The-Person-Status-Labels
+Salesloft Knowledge
+People And Accounts
+People
+People Page
+People Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

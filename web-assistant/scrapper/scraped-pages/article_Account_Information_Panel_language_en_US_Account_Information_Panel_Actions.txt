@@ -1,0 +1,69 @@
+PEOPLE AND ACCOUNTS
+ACCOUNT PROFILE PAGE
+Account Information Panel
+
+Aug 10, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Account information panel displays key information like the Account’s name, phone number, website, and their linked social and Salesforce records. This panel is located in the top left corner of the Account Profile page.  
+
+In this article, we will walk through the visible items and actions you can take within the Account Information panel, including:
+Account Information Panel Actions
+Standard Account Information
+Account Related Links
+Current Time and Account's Timezone
+Account Information Panel Actions
+The Account Information Panel actions provide Account Actions you can take from this panel. 
+
+Located in the top right corner of the Account information panel. Click the '•••' icon to open a menu to take the following actions:
+Add Person: The Account Profile lets you keep track of the communication that occurs with every Person from that Account. To add a Person to their Account, select Add a Person from the People Actions tab. Search for the Person’s name or email. If the Person does not exist in Salesloft, click Create Person to add them into Salesloft and the Account in one step.
+Link to CRM: Allows Salesloft to search and link to the correct CRM Account record.
+Things to Note: If an Account is not linked to their CRM record, activities will not log and will result in failed CRM activities. You can view failing activities by clicking the lightning bolt icon in the top navigation menu.
+Mark as Do Not Contact: This button marks the Account as Do Not Contact. Any People linked to this account will also be marked as Do Not Contact. This means, a Person will be removed from all Cadences and any future communication with the Contact will be stopped. 
+Delete Account: Removes the Account from Salesloft. Things to Note: Deleting an Account will not delete the People from Salesloft. It simply removes the link between the Account and the People.
+View CRM Sync Logs: Access any Person or Account Record's sync history.
+Standard Account Information
+The standard Account information includes the primary information you need on this Account at all times. If any of this information is not listed under the Account details, the field will not display. 
+
+The information includes:
+Account’s name
+Account’s primary phone number
+Account’s URL
+Account Related Links
+Account links offer links to sources outside of Salesloft for quick access. Linked information must be included in the Account details in order for the links to appear. 
+
+Links include:
+LinkedIn profile page: Opens the Account's LinkedIn profile.
+View in CRM: Accounts connected to their CRM record will display a blue cloud icon. If the account is not connected to their CRM, the icon will not be visible. You can sync them by selecting Link to CRM from the Account Actions.
+View Twitter: Opens the Account's Twitter account.
+View Account URL: Opens the Account’s website.
+Current Time and Account's Timezone
+The bottom of the Account Information panel shows the time of day that relates to the Account you are viewing. By taking a look at these details, you can make an informed decision about whether to contact anyone related to that Account or which method of communication is best for the moment (to send an email or make a call.
+
+
+The panel includes the following time details: 
+Current Time: Found on the lower left side of panel, this shows what time it is for the Account.
+Account's Timezone: Found on the lower right side of the panel, this lets you know the designated timezone of the Account. 
+The Current Time and Timezone will only appear when the Timezone filled has been entered in the Account details. If you don't see the current time and timezone in the Account panel, check the Account details to make sure the Timezone is visible. 
+
+If the timezone is not listed, Edit the Account Details to update the Timezone field. Once you save the details, the Current Time and Timezone will be included in the Information panel. 
+ 
+Last Modified By
+Briana Morgan, 8/10/2022 7:17 PM
+Title
+Account Information Panel
+URL Name
+Account-Information-Panel
+Salesloft Knowledge
+People And Accounts
+Accounts
+Accounts Page
+Account Profile Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

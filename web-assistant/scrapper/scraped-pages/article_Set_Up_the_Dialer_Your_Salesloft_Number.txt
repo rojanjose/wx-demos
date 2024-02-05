@@ -1,0 +1,180 @@
+DIALER + MESSENGER
+Set Up the Dialer
+
+Aug 23, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Salesloft Dialer is designed to increase your call efficiency and effectiveness with features that make your sales process smarter. But before you hit the phones, you need to be sure your Dialer is set up properly.
+
+The majority of the Dialer setup takes place in the Calls Settings which you will access from your Personal Settings. Navigate to the Settings by clicking your name in the upper right corner. Then, click Settings in the dropdown menu. Once you've gone to the Settings pages, select the Calls Settings from the left side menu.   
+
+In this article, we will walk through how to set up your Dialer, including:
+
+Your Salesloft Number
+Custom Caller ID
+Add Pass Through Number
+Enable Click to Call
+Inbound Call Settings
+Enter Your Forwarding Number
+Record Drop-In Voicemail Messages
+Register for Trust Hub
+SLU: Personal Settings Calls (Video)
+
+If you run into any technical problems with the Dialer, check out our Dialer Troubleshooting Guide for more help. 
+
+After the Dialer is set up, you will need to enable your microphone. Check out our Microphones and Headsets article for instructions about enabling your Microphone. 
+
+Your Salesloft Number ​​​​​​​
+
+If you're wondering whether or not you have Dialer access, there is a quick way to figure that out (besides asking your admin).
+
+Salesloft users with access to the Dialer will have an assigned phone number listed in the Call Settings. This phone number has been provisioned for your Dialer access by your team admin and will allow you to call People using the Salesloft platform.
+
+The assigned number will be in a grey text box, meaning you can't edit it. When you call prospects using the Dialer, the assigned number will show up as your Caller ID number (unless you are using LocalDial or set a custom Caller ID ).
+ 
+
+If you do not see a phone number listed, reach out to your team admin so they can assign your phone number.
+
+Custom Caller ID
+
+Today, most people can see who they are receiving a call from thanks to Caller ID. Anyone guilty of screening their calls can admit you typically answer a phone number you recognize, while unknown numbers get ignored and are left to leave voicemails. 
+
+When you make calls through Salesloft, your Caller ID defaults to your assigned phone number. However, that doesn’t mean you are stuck displaying that number. If your customers are familiar with your personal cell phone number, or you would prefer People to see your desk line, you can edit your Salesloft Caller ID to reflect the number you want.
+
+Things to Note:
+
+A verified number cannot be used by any other user.  
+LocalDial will override the Custom Caller ID.
+
+Follow these steps to set up a Custom Caller ID:
+
+Access your Settings in the top right corner.
+Under Personal Settings, go to the Calls Settings.
+Below the Phone Settings, find the Your Salesloft Number.
+In the Salesloft Number instructions, is the inscription, Want to show a different number on Caller ID? Click here. Click the here link. The Custom Caller ID Number instructions and textbox will appear. 
+Enter a number in the Caller ID box.
+After you enter the number you will be required to verify the number. Click the Verify button. An on-screen code will appear. 
+You will receive a call to the number you entered. Listen to the voice instructions and dial in the on-screen code in order to verify you have access to the phone.
+After you verify your preferred Caller ID number, it will appear as your Caller ID on outbound calls. 
+ 
+ 
+
+To revert the Caller ID using your provisioned Assigned Number, select Remove. 
+
+If you remove or change your Caller ID and revert back to the same number later, you do not have to verify the phone number again. Simply re-enter the number and hit Verify to reset the Caller ID.
+
+Add a Pass Through Number
+
+Call Pass Through allows you to use a landline, like your office phone, or a cell phone. Calls will still initiate from the Salesloft platform, but they will be passed (get it?) from the Dialer to whichever line you prefer.
+
+To learn more about how to enable Call Pass Through, check out our Pass Through Calls article.
+
+Enable Click to Call
+
+Click to Call brings the functionality of the Salesloft Dialer into your CRM account with the click of a button.
+
+Things to Note: Call to Call adds Salesloft call icons in Salesforce and Dynamics CRMs.
+
+Follow these instructions to enable Click to Call:
+
+1. Go to your Calls Settings.
+
+2. Scroll to the Click to Call Enabled? option.
+
+3. Select the checkbox.
+
+
+4. Refresh your Salesloft page. 
+
+5. Open your CRM. You will now see the Salesloft Call button next to any phone number. Click the number to open the Dialer.
+
+ 
+
+For more information on making calls from Salesforce, check out our the click to call in Salesforce or Dynamics.
+
+Inbound Call Settings
+
+Inbound Calling allows you to receive calls from People you have previously called. There are two options for inbound calls you can select between:
+
+Send to a Forwarding Number: The forwarding number will redirect calls made to your Salesloft-provisioned number. You select the phone line that calls will redirect to. Typically, users opt to have calls forwarded to their mobile or office lines. 
+Send to Voicemail : Calls made to your Salesloft-provisioned number will be returned as an Inbound call to your desktop. If you cannot pick up the phone, the caller will be able to leave a voicemail message. You will be notified of the voicemail message and can listen to the record in Salesloft.
+Things to Note:
+Inbound Calling must be enabled to receive voicemails. If Voicemail is selected, inbound calling will be checked on by default. 
+When a new user is created and assigned a phone number, their Inbound Call Settings default to Send to Voicemail. 
+
+ 
+
+
+Once you have selected your inbound call option, you will see the Accept Inbound Calling setting. This setting enables inbound calling through your desktop. To learn more about Inbound Calling and the steps to set it up, check out Getting Started with Inbound Calling.
+
+Things to Note: In order to use inbound calling, you must download the Salesloft Chrome Extension.
+
+When you make selections for your Inbound Call Settings, complete the set up by clicking Save. 
+ 
+
+Enter Your Forwarding Number
+
+Salesloft can receive incoming calls outside of the Salesloft platform as long as you provide a forwarding phone number — like a cell phone or desk line — in your Calls Settings.
+
+With a forwarding number in place, a call from a Person calling your provisioned number will be redirected to the phone line you enter as your forwarding number so you can accept the incoming call. 
+
+Things to Note:
+
+You must enter a direct phone line as your forwarding number, like a cell phone or landline. Phone numbers that require extensions will not work.  
+Include your country code when setting your forwarding number. For example, if your forwarding number is a US number, enter +1 followed by the telephone number, as in the screenshot above.
+You can answer incoming calls within the platform itself. Learn more in our Inbound Calling article.  
+
+To set up your forwarding number, follow these steps:
+
+Go to your Personal Settings.
+Select the Calls Settings. Scroll to the Inbound Call Settings. 
+For the Inbound Call Options, select Send to a Forwarding Number. 
+The Forwarding Number box will appear as a text box below the Inbound Call Options. Enter the phone number that you would like your calls forwarded to.
+Things to Note: Make sure to use the proper number formatting when adding your forwarding number. 
+Click Save.
+
+ 
+
+ 
+
+Record Drop-In Voicemail Messages
+
+You can pre-record voicemails from your Calls Settings. Once messages are recorded, you can drop them in your prospect's voicemail box when using the Dialer. 
+
+To learn more about how to add a new drop-in voicemail message, check out our Voicemails Recordings article. 
+
+Register for Trust Hub
+
+Trust Hub is a Twilio feature that allows you to verify your business for the STIR/SHAKEN regulation. Trust Hub registration is required to use the Salesloft Dialer.
+
+ 
+
+Things to Note: Only US/domestic outbound dialer and SMS traffic from Salesloft (Twilio) purchased numbers require Trust Hub. International customers with no US numbers assigned do not need Trust Hub.  
+
+ 
+
+To learn more about Trust Hub registration, check out our Manage Trust Hub article. You can also check out our STIR/SHAKEN Regulations Guide to learn more about the STIR/SHAKEN regulation.
+
+SLU: Personal Settings Calls (Video)
+
+Want to know how to set up your Salesloft Profile Settings, but prefer a video format? Visit Salesloft University to see the Dialer Setup video tutorial. 
+
+ 
+Last Modified By
+Raequel Sank, 8/23/2023 7:06 PM
+Title
+Set Up the Dialer
+URL Name
+Set-Up-the-Dialer
+Salesloft Knowledge
+Dialer + Messenger
+Set Up The Dialer
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

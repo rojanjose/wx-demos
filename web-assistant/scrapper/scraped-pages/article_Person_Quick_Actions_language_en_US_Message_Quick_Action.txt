@@ -1,0 +1,79 @@
+PEOPLE AND ACCOUNTS
+Person Quick Actions
+
+Aug 1, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Quick Actions panel allows you to make one-off actions with the click of a button. 
+
+You will find the Quick Actions on the Person Profile Page. This way, if you are looking at a Person's details or history and realize you need to reach out to them right at that moment, you can by clicking a Quick Action. 
+ 
+ 
+In this article, you will learn about each available Quick Action, including:
+Call Quick Action
+Email Quick Action
+Cadence Quick Action
+Meeting Quick Action
+Tasks Quick Action
+Success Quick Action
+Message Quick Action
+Call Quick Action
+The Call Quick Action instantly calls the Person. 
+
+Clicking the Call quick action opens the Dialer in the bottom right corner and the Call Log box to the left of the Dialer. The call will dial as soon as the Dialer is opened. The best use case is for one-off phone calls outside of a Cadence.
+
+Things to Note:
+The Call quick action relies on the Standard Salesloft phone fields: Mobile Phone, Home Phone or Office Phone. 
+The Call quick action will not appear when all of the Standard phone number fields are blank. If you do not see the Call quick action, check the Person's details and make sure they have a phone number listed. 
+The Call quick action will not pull from custom phone fields added to Salesloft. Reach out to a team admin about mapping your Person fields to a standard field. You can view the standard fields for the following CRMs:
+Salesforce
+Dynamics
+Email Quick Action
+The Email Quick Action opens the Email Window in the bottom right corner of your window. 
+
+The best use case is for one-off emails to the Person for quick communication or follow-ups.
+
+If you have previously created an email to this Person, but did not send the email, a Saved icon will appear next to the quick action. Click the quick action to open the saved email. 
+
+Things to Note: The Email quick action will not appear when the email field is blank. If you do not see the Email quick action, check the Person's details and make sure they have an email address listed. 
+Cadence Quick Action
+The Cadence Quick Action adds the Person to a created Cadence. Once a Person is added, they will be on Day 1 of the Cadence. 
+
+If user doesn't have permissions to add people to Team and Personal Cadence or if Person marked as Do Not Contact, the quick Action will be disabled. 
+
+When you click the Cadence quick action, the Add To Cadence modal will pop up. Here you can select the Cadence and step.
+
+After the Person is added to the Cadence, you will remain on the Person Profile Page.
+Meeting Quick Action
+The Meeting Quick Action books a meeting on demand with the Person whose Profile page you are viewing. 
+Tasks Quick Action
+The Tasks Quick Action creates a one-off, scheduled action for the Person whose Profile page you are viewing. 
+Success Quick Action  
+The Success Quick Action allows you to quickly identify a successful outbound activity, such as a demo scheduled on a phone call.
+
+The definition of success will vary by team, but the key is to make sure the team understands what that definition is and is marking it consistently. Marking an activity as a "success" adds a record to the activity feed on the Person's Profile page.
+Message Quick Action
+The Message Quick Action open the Messenger pane to send an SMS text message to the Person.
+
+The Message Quick action will be disabled when the Person does not have a Mobile phone number listed. 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 8/1/2022 7:46 PM
+Title
+Person Quick Actions
+URL Name
+Person-Quick-Actions
+Salesloft Knowledge
+People And Accounts
+People
+People Page
+Person Profile Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

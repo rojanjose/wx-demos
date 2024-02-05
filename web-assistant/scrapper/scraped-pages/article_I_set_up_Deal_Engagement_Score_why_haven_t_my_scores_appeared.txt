@@ -1,0 +1,26 @@
+DEALS
+I set up Deal Engagement Score, why haven't my scores appeared?
+
+Mar 29, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Once your settings are enabled , our system needs to do some computing to generate your team's scores. Deal Engagement Scores should appear within one (1) hour of configuring your settings.
+
+If they don't appear within an hour, recheck your settings to confirm that they are set up for new business Opportunities only.
+Last Modified By
+Stephanie Griffith, 3/29/2023 2:52 PM
+Title
+I set up Deal Engagement Score, why haven't my scores appeared?
+URL Name
+I-set-up-Deal-Engagement-Score-why-haven-t-my-scores-appeared
+Deals
+Salesloft Knowledge
+Deals FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

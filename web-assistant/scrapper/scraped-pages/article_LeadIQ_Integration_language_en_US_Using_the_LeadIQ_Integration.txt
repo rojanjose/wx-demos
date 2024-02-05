@@ -1,0 +1,78 @@
+INTEGRATIONS
+INTEGRATION PARTNERS
+LeadIQ Integration
+
+Sep 16, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+LeadIQ finds and verifies contact data as you browse the web, building prospect lists that import right into Salesforce. The Salesloft and LeadIQ integration allows users to find prospect contact data, and add Leads and Contacts into Salesloft with minimal effort.
+
+Things to Note: 
+In order to use LeadIQ Salesloft Integration, customers need to be on LeadIQ’s Sales Plan or the LeadIQ’s Enterprise Plan.
+If you have any questions please reach out to support@leadiq.com.
+In this article, you will learn how to setup and us the LeadIQ integration with Salesloft, including:
+LeadIQ Set Up
+Using the LeadIQ Integration
+Add People to Cadences from Your IQ Sheets
+LeadIQ Set Up
+First, let's walk you through how to enable the LeadIQ integration. You will notice that most of the function will take place directly in LeadIQ. 
+
+To set up the LeadIQ integration with Salesloft, follow these steps:
+
+1. Go to LeadIQ and sign in using the link in the upper right.
+ 
+2. Select the gear icon in the upper right, then click Salesloft.
+ 
+
+3. Click Connect.
+ 
+4. If you’re not signed into Salesloft, you’ll be taken to a page where you can log in.
+
+5. You will be redirected to a screen confirming that LeadIQ is now connected to Salesloft.
+Using the LeadIQ Integration
+Once the integration has been enabled, you can leverage Salesloft's functionality within the LeadIQ extension. 
+
+To use the integration, follow these steps: 
+
+1. Launch the LeadIQ extension in the upper right corner of Google Chrome. You will see that the Salesloft functionality has been added to the capture window.
+ 
+ 
+
+2. Whenever you capture a lead, a little Cadence button will appear. This button will let you add the person to the Cadence that is shown on the line above the person's information. In the example below, Mei will be added to the "git gud" Cadence.
+ 
+ 
+8. Change the Cadence you're adding people to by selecting from the drop-down. 
+ 
+ 
+9. Set tags that will apply to each lead as they are added to Salesloft, for easy list building.
+ 
+ 
+10. Finally, you can set LeadIQ to automatically send all verified captured leads straight to the currently selected Cadence, with the tags you've entered.
+ 
+ 
+Add People to Cadences from Your IQ Sheet
+In addition to using Salesloft in the LeadIQ extension, you can add People to Cadences directly from your LeadIQ sheets. 
+
+Follow these steps:
+Open your IQ sheet.
+Select the lead(s) you want.
+Click Export.
+Click To Salesloft Cadence.
+Select the Cadence of your choice. 
+Last Modified By
+Raequel Sank, 9/16/2021 9:04 PM
+Title
+LeadIQ Integration
+URL Name
+LeadIQ-Integration
+Salesloft Knowledge
+Integration Partners
+Integrations
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

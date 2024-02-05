@@ -1,0 +1,72 @@
+DEALS
+Pipeline Dashboard Actions
+
+Sep 20, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Each Dashboard offers actions that add to or provide additional management of the Dashboard. To access these actions, select the three vertical dots to the left of the Dashboard title. 
+
+Things to Note: You may also open the Dashboard Actions menu from the Personal Dashboard and edit any of the visible Dashboards. 
+
+In this article, we will walkthrough of each Dashboard Action, including: 
+Rename the Dashboard
+Edit Dashboard Sharing
+Duplicate a Dashboard
+Delete a Dashboard
+Rename the Dashboard
+If you decide the name of your dashboard doesn’t quite fit the use case, you can edit the dashboard in order to rename it.
+
+To edit the title of a Dashboard, follow these steps: 
+Select the three vertical dots to the right of the Dashboard Title. The Dashboard Actions menu will appear. 
+Click Rename. This will open the Dashboard Settings within the Personal Dashboard menu.
+In the Title line, edit the name. 
+Click Save Dashboard Settings. The Dashboard will refresh with the new title. 
+ 
+ 
+Edit Dashboard Sharing
+If you have created a Dashboard that may benefit one of more of your team members, you can edit the Sharing Settings to share the Dashboard with that user.
+
+Things to Note: Team members are based on Salesforce users associated with your team's Salesforce instance. 
+
+To edit the Sharing Settings of a Dashboard, follow these steps: 
+Select the three vertical dots to the right of the Dashboard Title. The Dashboard Actions menu will appear. 
+Click Edit Sharing. This will open the Personal Dashboard menu to the Share with Team Setting.
+Enter a team member's name or click Everyone to share with your whole team. 
+Click Save Dashboard Settings. An icon signifying that the Dashboard has been shared will appear to the right of the Dashboard title. 
+ 
+ 
+ 
+Duplicate a Dashboard
+If you would like to copy an existing Dashboard (like a Team Dashboard), so you can use it as the foundation of a Personal Dashboard, you may copy the Dashboard to your Personal Dashboards by duplicating it. 
+
+To duplicate a Dashboard, follow these steps: 
+Select the three vertical dots to the right of the Dashboard Title. The Dashboard Actions menu will appear. 
+Click Duplicate. This will open the Personal Dashboard edit options.
+In the Dashboard Title, the existing name of the Dashboard will be entered followed by "(Copy)". In the Title line, edit the name if you wish.
+Click Add New Dashboard. The Dashboard will be added to your Personal Dashboards list. 
+ 
+Delete a Dashboard
+To remove a Dashboard entirely, delete it by following these steps: 
+Select the three vertical dots to the right of the Dashboard Title. The Dashboard Actions menu will appear. 
+Click Delete. A message will pop up to confirm you wish to delete. 
+Click Yes, Continue to delete the Dashboard. Or click Cancel if you change your mind.
+Once deleted, the Dashboard will be removed from your Personal Dashboards. 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 9/20/2021 1:33 AM
+Title
+Pipeline Dashboard Actions
+URL Name
+Dashboard-Actions
+Deals
+Salesloft Knowledge
+Pipeline Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

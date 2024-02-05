@@ -1,0 +1,28 @@
+ANALYTICS + REPORTING
+Why is my Meetings Booked removal reason so low?
+
+Mar 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Meeting Booked removal reason on the People Removed from a Cadence chart will only appear when you have enabled the Automatically remove people from this cadence if a meeting is booked from related cadence step checkbox in your Cadence settings.
+
+Since the People Removed for a Cadence chart only registers automation from the Cadence settings, the chart will look like your data is not appearing if your team uses the When a Meeting is Booked Automation Rule trigger to remove People from Cadences.
+
+We recommend you update the Cadence settings to automatically remove people when meetings are booked. Also, disable any automation rules for Meeting Booked removals and/or edit the rule so it doesn't include the Remove from all Cadences action.
+Last Modified By
+Stephanie Griffith, 3/28/2023 5:57 PM
+Title
+Why is my Meetings Booked removal reason so low?
+URL Name
+Why-is-my-Meetings-Booked-removal-reason-so-low
+Analytics FAQ + Troubleshooting
+Analytics + Reporting
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

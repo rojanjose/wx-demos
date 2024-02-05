@@ -1,0 +1,120 @@
+ADMIN GUIDES
+Manage Meetings
+
+Nov 21, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Each user has the ability to set their calendar invites and meetings the way that suits their process the best. However, certain calendar components may be set by a team admin to provide a unified look for the entire team.
+
+Your team's meetings can be managed from the Meetings Settings located under the Communication section in your Admin Settings. The Meetings page is split into the following tabs:
+
+General
+Video Conferencing
+Meeting Types
+
+All admins have the ability to manage meetings by default. You can allow non-admin team members to manage meetings by enabling the Manage Meeting Types permission for their role.
+
+In this article, you will learn about the Meetings Settings page General tab, including:
+
+Enable Calendar Sync
+Configure External Calendar Availability
+Set a Team Default for Reschedule Meeting Link 
+Create a Connectivity Issues Reference Link
+Customize Meeting Branding
+Meeting Activity Logs
+Enable Calendar Sync
+
+Your team can schedule meetings directly from the Salesloft platform. Sometimes a meeting might be booked outside of Salesloft. For these instances, Salesloft syncs to your calendars so that your meeting activity will still be logged.
+
+In order for your team's meetings to sync from the calendar, you (or any team admin) must turn calendar sync on by enabling the feature. 
+
+Things to Note: 
+
+Enabling calendar sync grants access to the feature for your entire team. 
+Calendar Sync is available only for users with Gmail, Office 365, and Microsoft Exchange EWS calendar connections. 
+To log meetings to your CRM, logging meetings must be enabled in your CRM sync.
+Calendar sync will not create new People records. At least one guest must be an existing Salesloft Person record. 
+Events will not be logged if the guest domain is on the team domain exclusion list. 
+Private events will not be logged to Salesloft or the connect CRM. 
+
+To enable calendar sync, follow these steps:
+
+Go to the Meetings Settings, listed under the Communication section. When you access the page, you will be in the General Meeting Settings tab. 
+Under Calendar Sync, make sure the Calendar Sync toggle is turned on (blue). When the toggle is on, the label will say Calendar Sync is enabled. 
+Once the sync is enabled, each user will need to enable the feature on an individual level.
+Things to Note: If the user does not turn the feature on, their calendar will not sync.
+
+ 
+
+ 
+ 
+Configure External Calendar Availability
+
+Salesloft allows users to connect to the calendar synced with their email address. Many teams use Google or Microsoft as their email connection and the calendar by association.
+
+ 
+
+However, if your team uses an alternative email solution, the External Calendar Availability settings allows (or disallows) your users to connect their calendars.
+
+
+To allow your team to use External Calendars, go to the team Meeting Settings. You will land on the General Meetings Settings page. Find the External Calendar Availability section of the page. Turn the toggle on (blue) to enable External Calendar Availability. You can disable the feature after it’s been turned on by clicking the toggle off.
+Set a Team Default for Reschedule Meeting Link 
+As a team admin, you can determine the best practices for your team when it comes to meeting behavior. This includes setting up a default for the reschedule meeting link .
+
+If your team decides that including a reschedule link is a practice to uphold, enable the Reschedule Meeting Link Team Default. The setting means that anytime a team member creates a meeting, the reschedule link will be included by default. 
+
+Things to Note: The Reschedule Meeting Link Team Default settings is only available for Google, Office 365, LinkedIn, and Microsoft Exchange EWS users.
+
+Now, “default” does not mean “override.” Your users can still edit their own reschedule meeting link settings. This means, if you set the default to include the reschedule link, a user can select to not include the reschedule link from their own settings.  
+Create a Connectivity Issues Reference Link
+The Connectivity Issues Reference Link is for external Calendar users to receive updates in the event that their calendar is disconnected. 
+
+Things to Note: Salesloft users with Google or Microsoft calendar connections will receive updates in the event of their calendar disconnecting. For most users (those not using External Calendar), the reference link will look like a shortcut to the calendar connection area
+
+To set a Connectivity Issues Reference Link, follow these steps:
+Go to the team Meeting Settings. You will land on the General Meetings Settings page. Find the Connectivity Issues Reference Link section of the page. 
+Click Edit. A text box will appear.
+Enter the appropriate link in the box. 
+Click the green check mark to save. A notification will inform you Connectivity Issues Reference Link Saved.
+You users can navigate to the link in case of a calendar disconnection.
+ 
+Customize Meeting Branding
+
+The Meeting Branding section allows you to edit how meeting invites will be seen. Adding your company branding to meeting invites adds professionalism and trust to the meetings you send, since you’re putting your company’s stamp on the message. 
+
+ 
+
+To update your team’s meeting branding, go to the Meeting Settings and find the Branding section. Select Edit. To learn more about what you can edit in the Branding Settings, check out our Manage Meeting Branding article.
+
+Meeting Activity Logs
+
+By default, Salesloft logs all activities, including meetings, as tasks in your CRM. While the Task object suits perfectly for completed activities like calls and emails, CRMs have a dedicated activity type for tracking meetings with prospects and customers, known as Events.
+
+When you create meetings in Salesloft, you can also decide how you want to log meetings to your CRM. You may select one of the following options:
+
+Log Meeting as an Event: Logs to the CRM-specific object designated for meetings and logs meeting information previously missing, like Description, Location, and Invitees.
+Log Meeting as a Task: Logs meetings in the same manner as all other activities executed from Salesloft. 
+Things to Note: If you log meetings as tasks, an admin must create custom fields to track important meeting details.
+
+The logging settings are managed from the CRM Connector Settings. To learn how to select your preferred Meeting log type, follow the steps listed in the Manage CRM Team Settings article.
+
+ 
+ 
+Last Modified By
+Raequel Sank, 11/21/2023 6:15 PM
+Title
+Manage Meetings
+URL Name
+Manage-Meetings
+Salesloft Knowledge
+Admin Guides
+Communication Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

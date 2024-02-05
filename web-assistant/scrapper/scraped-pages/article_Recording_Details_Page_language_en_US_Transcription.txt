@@ -1,0 +1,125 @@
+CONVERSATIONS
+Conversations Recording Details Page Overview
+
+Sep 12, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Conversations Recording Details Page is where you access and review calls that have been captured in Conversations. 
+
+You can access the Recording Details page by clicking the title of a recording in Conversations. 
+
+Once on the Recording Details page, you can watch or listen to the recording, and access call insights like related objects, the recording transcript, and more. 
+ 
+
+In this article, we will walk through each section of the Conversations Recording Details Page, including:
+
+Recording Details Page Actions
+Details Panel
+Related Records Panel
+Trackers Panel
+Audio/Video Player
+Recording Participants, Trackers, Comments, and Notes Panel
+Transcription  
+Recording Details Page Actions
+
+There are a number of actions you can take from the Recording Details Page. 
+
+The drop-down beside the recording title opens the Recording Details Page Actions menu where you can perform the following actions:
+
+Edit Details
+Download Transcript
+Download Video
+Delete Recording
+
+
+From the right corner of the page, you can Add the recording to a Playlist to keep it easily accessible or Share the Recording to increase the meeting’s scope. 
+
+
+ 
+
+Details Panel
+
+The Details panel contains the basic meeting details, including:
+
+Organizer's Name: Name of the Salesloft user who owns the meeting. Typically this is the person who sent the meeting invite in the first place.
+The number beside the Organizer’s name reflects the number of participants, invitees, and attendees.Click the drop-down beside the Organizer’s Name to view them:
+Participants: Salesloft users who participated in the meeting
+Invitees: People who were sent an invite to the meeting. Email addresses will be included in the invitee list.
+Attendees: Any registered attendee of the meeting. Attendees will include names and phone numbers based on who logs into the meeting.
+Meeting Details:
+Length of meeting (hours:minutes)
+Date and time the meeting took place
+Meeting language
+Playlists that this conversation has been added to
+Related Records Panel
+
+The Related Records panel lists relevant Person, Account, and Opportunity data. The data included on this tile is automatically populated by Conversations and contains clickable links that direct you to the corresponding Person Page, Account Page, or Opportunity in Deals. 
+
+ 
+
+On the Related Records tile you will find the following: 
+
+Person: Person record associated with the recording. Click the name to be directed to the Person Profile page.
+Account: Account associated with the recording. Click the Account name to be directed to the Account Profile page.
+Opportunity: Opportunity associated with the recording. Click the Opportunity to be directed to the Opportunity in Deals
+Things to Note: If you do not have an active Deals license, when you click a linked Opportunity, you will be redirected to the Opportunity in SFDC.
+Opportunity Stage: The status of the Opportunity. Click the down arrow to view the Opportunity Snapshot which includes the following:
+Opportunity Owner
+Create Date
+Close Date
+Amount
+
+ 
+
+ 
+
+To learn more about how Person, Account, and Opportunity data is automatically populated on the Related Records tile, check out our Related Records on the Recording Details Page article. 
+
+Trackers Panel
+
+The Trackers Panel lists Tracker Groups that you can use to scan the transcription and identify keywords or phrases. 
+
+Audio/Video Player
+
+The Audio/Video Player allows you to watch or listen to the audio or video recording.
+
+You can also create clips, share the recording, rewind/play/fast forward, change the playback speed, or view the recording in full screen mode. 
+
+Participants, Trackers, Comments, and Notes Tabs
+
+Beneath the video player are four tabs: Participants, Trackers, Comments, and Notes. 
+
+These tabs provide the following information:
+
+Participants: Gain insight on speaker talk times
+Trackers: Identify Trackers used during the call and the timestamp in which they occurred. Click a Tracker Group from the Trackers panel to get started.
+Comments: Review and leave comments 
+Notes: Take notes and mention/tag other Salesloft users
+
+Transcription
+
+While you watch the recording, the transcript will auto-scroll to align with the speaker. While reviewing the transcript, you can use the search bar to identify keywords, phrases, or numerical amounts mentioned in the recording. 
+
+You can also click the drop-down arrow beside the conversation title to download the transcript.
+
+ 
+ 
+To learn more about transcriptions, check out our Conversations Transcription article. 
+Last Modified By
+Raequel Sank, 9/12/2023 1:28 AM
+Title
+Conversations Recording Details Page Overview
+URL Name
+Recording-Details-Page
+Conversations
+Salesloft Knowledge
+Conversations Recordings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

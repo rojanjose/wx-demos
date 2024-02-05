@@ -1,0 +1,194 @@
+PEOPLE AND ACCOUNTS
+ACCOUNT PROFILE PAGE
+The Account Profile Page
+
+Aug 25, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Salesloft Account Profile page allows you to view and manage all of the information related to an Account or Company in one central location.
+
+Each Account Profile page contains a series of smart panels. These panels provide critical sales insights and intelligence so that sales teams can better understand, connect, and engage with customers.
+
+The Account Profile page layout separates the panels into thirds on the page. The information panels include basic information, stats, Account details, and tags. All of these panels take up the left side of the page. The activities panel is located in the center of the page and presents a comprehensive view of completed tasks. Finally, the People and integrations panels build up the right side of the page.
+
+In this article, you will learn about the Account Profile page, including:
+
+The Account Information Panel
+View Account Stats
+Edit the Account Details Panel
+Manage Account Tags
+The Account Activities Panel
+Account Layout Configuration
+The Cadences Panel on the Account 
+The People at Account Panel
+Manage the Opportunities Panel
+Account Page Integrations Panels
+The Account Information Panel
+
+The Account information panel displays key information like the Account’s name, phone number, website, and their linked social and Salesforce records. This panel is located in the top left corner of the Account Profile page.
+ 
+
+
+For more information on this panel, check out the Account Information Panel article. 
+
+View Account Stats
+
+The Stats panel displays an overview of valuable metrics based on activities across the entire team. This means stats between you and all of the People linked to that Account, as well as other Salesloft users who reach out to People on that Account.
+
+The stats include:
+
+People: Total number of People linked to the Account. The number is a clickable link that takes you to a filtered list of the People from the Account.
+Calls Logged: Total number of calls that have been logged to the Account.
+Emails Sent: Total number of emails sent to People on the Account.
+Opened: Total number of emails opened.
+Clicked: Total number of email links clicked.
+Replied: Total number of replied emails.
+
+ 
+Edit the Account Details Panel
+
+The Account Details panel shows all populated fields for the Account, as well as custom fields. Information may be updated by clicking the Edit button.
+
+To edit fields in the panel, hover over the field, and it will become gray to show that it’s editable. Click the field to enter edit mode. Either a text box or non-text edit (like a calendar or dropdown menu options) will appear. Once changes are made, press the "Return"/"Enter" button on your keyboard or by clicking outside the edited field to save your changes.
+
+View Blank Fields: Blank fields are hidden by default because they do not have data. If you would like to view all of your available fields or edit a blank field, click the View Blank Fields button to expand the Account details list. To collapse the list, hit Hide Blank Fields.
+
+Things to Note: Only fields populated with data will appear in the information panels.
+
+For more information about the Account Details panel, check out the Edit Account Details article.
+
+Manage Account Tags
+
+The Tags panel displays current tags associated with the Account. Tags are labels or folders that you can use to organize groups of Accounts in Salesloft. Use tags to quickly designate and filter Accounts from a particular list or similar groups like regions.
+
+The Tags panel also lets you add new tags or remove existing tags. To add a tag, type the name of the tag in the text box and hit your enter key. To remove a tag, find the tag you want to delete and click the X next to the tag name.
+
+The Account Activity Feed
+
+The Account activities panel enables your team to view your entire correspondence history with the Account. This includes emails sent, calls logged, Cadence activity involving any Person in the Account, notes made, and meetings booked.
+
+For more information on each tab within the activities panel, check out the Account Activity Feed article. 
+
+Account Layout Configuration
+
+The Edit Layout drop-down menu displays a list of panels you can disable and reorder to best fit your needs. This panel layout configuration applies to the panels on the left and right sides of the profile page. For example, if you don’t use Twitter in your sales process, you can toggle the Twitter panel off so it is no longer visible.
+
+Things to Note: Additional panels may be available with Salesloft integrations like LinkedIn Sales Navigator. When you enable integrations, they will also appear in the panel layout menu. 
+
+You may access the menu from the top right of the person’s profile page. To enable or disable the visibility of a panel, toggle the switch next to the panel name on or off. You can also reorder the panels shown in the right column. Simple click and drag on the icon to the left of the panel name.
+
+The Cadences Panel on the Account
+
+The Cadence Panel on the Account profile page shows cadence activity that is due on People associated with the Account. 
+
+ 
+
+In other words, the panel lists out all of the People who have a cadence step due or overdue. The list also includes the cadence name and step information (like step number and name). 
+
+ 
+
+The Cadences panel displays information about Cadences an Account is on as well as its Cadence history. The available actions inside the panel include the following:
+
+Update the Account Stage: The Account stage keeps you up-to-date with where the Account is in the sales cycle. The Account stage may already be updated if you have configured your Cadence to update the stage settings automatically. To update an Account’s stage, select the Account Stage drop-down menu and pick the stage you want.
+Run Step: This action runs the current step in the cadence.
+Change Due Date: If you need to change the date a cadence step is due, you can reschedule the step’s due date.
+Skip This Step: If the first or next step in a cadence is unnecessary and/or has already been completed, you can skip that step and run the next one.
+Move to Step: Moving People to a new step is very similar to skipping a step, but with a little more control. Instead of simply skipping the step, you can move it ahead or behind in the cadence.
+Reassign Remaining Steps (team cadence only): Whether a rep is no longer with the company, someone’s workload is too much to manage, or something else entirely, you can reassign the steps remaining in the cadence to another member of the team.
+Remove from This Cadence: If an account does not need to be on a cadence any longer, you can easily remove it.
+
+ 
+
+ 
+
+The People at Account Panel
+
+The People at Account Panel gives visibility to each Person that is linked to the Account you are viewing. The panel offers transparency into engagement with each Person as your team works together to tackle target accounts.
+
+To learn more about the details you can view and actions you can take from the People at Account panel, check out the People at Account Panel article. 
+
+Manage the Opportunities Panel
+
+The Opportunities Panel allows you to access Opportunities information, such as where a deal is in the sales cycle, from the Account Profile page.
+
+ 
+
+Things to Note: 
+
+The Opportunities Panel only shows sync opportunities for Salesforce and Microsoft Dynamics CRM users. 
+Hubspot CRM users can access the Opportunities panel, but it will be empty.
+
+ 
+
+Salesloft syncs Opportunities from your CRM that are associated with a Contact who is also an Account in Salesloft. If a related Opportunity is found, the data will appear on the Account's Profile page Opportunity Panel. 
+
+ 
+
+Things to Note: Bi-directional sync is not required for the Opportunities Panel data to populate, but it is recommended.
+
+
+
+
+Things to Note: 
+
+The Opportunities Panel is available to Salesforce and Microsoft Dynamics CRM users. 
+The Opportunities Panel is not available for Hubspot CRM users.
+
+
+From the opportunities panel, you may take the following actions:
+
+View the Opportunity in your CRM: Click the name of the opportunity (with the external link icon) to open that opportunity in your CRM in a new tab.
+Edit Standard fields: Select the pencil icon to the right of the opportunities name to view and edit fields. These fields include the following:
+Stage
+Amount
+Close Date
+Last Updated
+Created Date
+Probability
+Things to Note:
+Fields will be visible if they are mapped in your team’s Opportunity Field Mapping.
+Some fields, like Probability, will only appear when there is a value.
+Some fields may not be edited. Fields that cannot be edited will be grayed out.
+Read-only fields or custom Opportunity fields must be edited in your CRM.
+Sort & Filter: These options include the following:
+Sort By: You can sort the target field in ascending or descending order by these criteria:
+Created Date (select by default when you select descending order)
+Close Date
+Last Updated
+Stage: The dropdown field to select an opportunity stage to filter by. The stage values for the filter reflect the current setting for Salesloft opportunity stages (only active stages are populated in the filter). By default, the value for the filter is All.
+Things to Note:
+The Clear All button will reset the dropdown to its default values:
+Sort By: Created Date in descending order
+Stage: All
+Once applied, all filters in the opportunity panel for Account Profile pages will also be reflected in Person Profile pages.
+Show/hide Opportunity panel feature within the Edit Layout functionality doesn’t affect the filtered/sorted opportunity list.
+
+ 
+
+ 
+
+Account Page Integrations Panels
+
+There are several integration panels that are available to display on the account's profile page. For more information about integrations, visit the Salesloft Integrations article.
+
+ 
+Last Modified By
+Briana Morgan, 8/25/2023 8:01 PM
+Title
+The Account Profile Page
+URL Name
+The-Account-Profile-Page
+Salesloft Knowledge
+People And Accounts
+Accounts
+Accounts Page
+Account Profile Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

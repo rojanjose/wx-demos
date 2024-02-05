@@ -1,0 +1,169 @@
+RHYTHM
+Rhythm Sidebar Overview
+
+Jan 9, 2024•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Rhythm Sidebar is a panel that displays your Rhythm workflow. Appearing on the right side of your screen, the Rhythm Sidebar follows you as you move through Salesloft and allows you to complete tasks from virtually anywhere. 
+
+ 
+
+To access the Rhythm Sidebar, navigate to the Rhythm Focus Zone and click on a task. You will be directed to the Person’s profile page and the Rhythm Sidebar will appear on the right side of the screen.
+
+ 
+
+From the Rhythm Sidebar, you can complete tasks from the Rhythm Focus Zone, the Cadence Focus Zone, or the Close Focus Zone. 
+
+ 
+
+In this article, you will identify and learn about the components of the Rhythm Sidebar, including:
+
+Rhythm Sidebar Layout
+One-Off Tasks in the Sidebar
+Cadence Step Tasks in the Sidebar
+
+ 
+
+Want a tutorial on how to run tasks or cadence steps in the Rhythm Sidebar? Check out our Tasks in Salesloft article and our Run a Cadence article.
+
+Rhythm Sidebar Layout
+
+The Rhythm Sidebar allows you to run tasks, perform activities, and complete cadence steps anywhere in Salesloft.
+
+ 
+
+Here's a look at the Rhythm Sidebar layout:
+
+ 
+
+The Rhythm Sidebar includes:
+
+Sidebar Focus Zone: Allows you to view and complete tasks between the three focus zones: Rhythm, Cadence, and Close. By default, the Sidebar displays the Rhythm Focus Zone.
+Things to Note: When you switch the Sidebar to a difference focus zone, the tasks will appear in the same order that it does in its corresponding Focus Zone on the Salesloft homepage. 
+Rhythm Sidebar Filters: Allows you to tailor the list of tasks to best suit your workflow. To learn more about how filters work, check out the Complete List of Salesloft Filters article.
+Task/Activity Tile: Each task is listed on its own tile. Each tile contains details about the task or cadence step. 
+
+
+To learn more about the information included on each task tile, check out the One-Off Tasks in the Sidebar section and the Cadence Step Tasks section below. 
+
+One-Off Tasks in the Sidebar
+
+One-off tasks allow you to complete one-off actions that may not be associated with a cadence. One-off tasks will appear in the Sidebar from the Rhythm Focus Zone or from the Close Focus Zone.
+
+ 
+
+Like your Rhythm workflow, the Sidebar displays each task on its own tile. Each tile contains details that you need to know in order to complete the task. 
+
+ 
+
+Here’s a look at a one-off task tile in the Sidebar:
+
+One-off task tiles in the Sidebar include the following details:
+
+Task Details:
+Icon that depicts the type of activity
+Description of the activity
+Person
+Things to Note: Depending on the task type, the tile may also include the last interaction, the person who created it, or the name of the related cadence.
+Task Priority Icon: How Conductor AI prioritized the task
+Things to Note: You can hover over the priority icon to learn more about the data Conductor AI used to prioritize that task.
+Person Details:
+Name of Person
+Company
+Role
+Due Date: Date that the task is due.
+
+ 
+
+Task Tile Actions
+
+When you hover over the task tile, you will see the task action icons. These actions help you manage the tasks in your workflow.
+
+ 
+
+Here’s a look at the task action icons:
+
+Using these icons, you can perform the following actions:
+
+Trash: Delete Task
+Calendar: Reschedule Task
+Pen: Edit Task
+Checkmark: Mark Task Complete
+Play Button: Run Task
+Cadence Step Tasks in the Sidebar
+
+Cadence steps allow you to execute tasks that are built into a cadence. You can view and complete cadence step tasks in the Sidebar by switching to the Cadence Focus Zone.
+
+ 
+
+You may notice that the Cadence Focus Zone Sidebar looks slightly different from the Rhythm and Close Sidebar. The Cadence Focus Zone Sidebar is organized by cadence, then lists the cadence steps.
+
+ 
+
+Here’s a look at Cadence Focus Zone in the Sidebar:
+
+
+The Cadence Focus Zone in the Sidebar includes the following details:
+
+Name of Cadence
+Step Details: 
+
+Step Name
+Cadence Day
+Number of tasks within the cadence step
+
+ 
+
+To view the cadence step tasks, click the play button. When you click the play button, you will see a full list of cadence step tasks.
+
+ 
+
+Here's a look at the list of cadence step tasks:
+
+ 
+
+ 
+
+The cadence step task tile includes the following details:
+
+Cadence Name and Task Icon
+Name of Person
+Due Date
+
+Cadence Step Tile Actions
+
+You can perform actions on your cadence step tasks from the Sidebar. When you hover over the cadence step task tile, you will see the action icons. 
+
+ 
+
+Here’s a look at the action icons:
+
+Using these icons, you can perform the following actions:
+
+Stop: Remove Person from cadence
+Calendar: Reschedule step
+Fast Forward: Skip step
+Play: Run step
+
+ 
+
+ 
+
+Last Modified By
+Raequel Sank, 1/9/2024 9:43 PM
+Title
+Rhythm Sidebar Overview
+URL Name
+Rhythm-Sidebar
+Salesloft Knowledge
+Rhythm
+Rhythm Workflow
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

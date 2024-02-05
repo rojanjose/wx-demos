@@ -1,0 +1,76 @@
+INTEGRATIONS
+INTEGRATION PARTNERS
+DocuSign Integration
+
+Sep 25, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The DocuSign Integration brings DocuSign signals into Salesloft Rhythm where you can perform the right actions for your workflow.
+
+ 
+
+This integration works by connecting your Salesloft and DocuSign accounts. Establishing this connection allows Salesloft to receive signals from DocuSign, such as a customer opening a contract. Your admin can create DocuSign Plays to designate specific actions that should follow a DocuSign signal, such as a follow-up email. 
+
+ 
+
+By leveraging the DocuSign Integration, you can access all the information you need right inside Salesloft and make the best decisions for your workflow. 
+
+ 
+
+Things to Note: The DocuSign Integration is available for DocuSign accounts that have access to Salesloft Connect, which DocuSign makes available to Business Pro accounts, Enterprise Pro level accounts, and as an add-on.
+
+ 
+
+In this article, you will learn about using the DocuSign Integration, including:
+
+Enable the DocuSign Integration
+Run a DocuSign Integration Play
+Enable the DocuSign Integration
+
+
+Enabling the DocuSign Integration allows you to utilize the DocuSign Plays in Salesloft Rhythm that were set up by your admin.
+
+ 
+
+To enable the DocuSign Integration, follow these steps:
+
+Navigate to your settings.
+Select Integrations under Administration.
+Scroll to find DocuSign, then click the toggle. You will be directed to the DocuSign login page.
+Use your credentials to log in to your DocuSign account. 
+Navigate back to your Integrations Settings in Salesloft to ensure that the Docusign toggle is blue. (Blue toggle area = enabled)
+
+Once you’ve enabled the integration and your admin has set up DocuSign Plays, you can run them from the Rhythm Focus Zone.
+
+Run a DocuSign Integration Play
+
+To run a DocuSign Integration Play, navigate to the Rhythm Focus Zone. The Rhythm Focus Zone houses your workflow and is where you can access Plays and tasks.
+
+ 
+
+To run a DocuSign Integration Play from the Rhythm Focus Zone, follow these steps:
+
+Scroll through your Rhythm Focus Zone tasks list and find a DocuSign Play.
+Click the DocuSign Play to gain insight on related Person, Account, and/or Opportunity records and to learn which actions you'll need to complete.
+Hit the Play icon to complete the DocuSign Play.
+Last Modified By
+Raequel Sank, 9/25/2023 8:06 PM
+Title
+DocuSign Integration
+URL Name
+DocuSign-Integration
+Salesloft Knowledge
+Integration Partners
+Integrations
+Rhythm
+Rhythm Workflow
+Plays
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

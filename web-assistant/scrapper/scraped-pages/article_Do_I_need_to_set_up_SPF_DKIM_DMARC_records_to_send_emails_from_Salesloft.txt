@@ -1,0 +1,32 @@
+EMAIL
+Do I Need To Set Up SPF/DKIM/DMARC Records To Send Emails From Salesloft?
+
+Sep 14, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+SPF/DKIM/DMARC Records are not needed to send emails from Salesloft. 
+
+Salesloft connects directly to your Outlook or Google Workspace mailbox. When you send an email through Salesloft, the email is sent via the provider’s mail server and inherits the same email authentication you have already configured on your domain. 
+
+Lofted emails are sent and authenticated the same as if you were to send an email natively from your mailbox.
+
+
+
+Last Modified By
+Raequel Sank, 9/14/2023 8:24 PM
+Title
+Do I Need To Set Up SPF/DKIM/DMARC Records To Send Emails From Salesloft?
+URL Name
+Do-I-need-to-set-up-SPF-DKIM-DMARC-records-to-send-emails-from-Salesloft
+Email
+Salesloft Knowledge
+Email FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

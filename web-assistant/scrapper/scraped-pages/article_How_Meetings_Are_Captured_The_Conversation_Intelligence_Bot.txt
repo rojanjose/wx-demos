@@ -1,0 +1,114 @@
+CONVERSATIONS
+How Conversations Recordings Are Captured
+
+Dec 6, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Your recorded video conferences and calls live on the Conversations page where you can review, edit, and manage them. But you may be wondering, how do those recordings actually get there? Well, Conversations captures them.
+
+
+A recording is captured when Conversations receives a recording file and adds it to the Conversations Page where you can review and manage your recordings.
+
+
+There are two types of recording files that Conversations captures: video conference recordings and call recordings, ex. a recorded Dialer call. Conversations can receive video conferencing and call recording files via the following methods:
+
+API Integrations
+Conversations Bot
+Manual Upload
+Dialer 
+
+ 
+
+In this article, you will learn about the different ways Conversations captures recorded video conferences and calls, including:
+
+Conversations Meeting Capture Rules
+
+Conversations API Integrations
+The Conversations Bot 
+The Salesloft Dialer
+Conversations Meeting Capture Rules
+
+To capture a meeting in Conversations, there are certain rules you’ll need to follow when you schedule your meetings. These rules act like guardrails to make sure your meetings are captured successfully.
+
+ 
+
+Here are the Conversations meeting capturing rules: 
+
+Your calendar must be connected to Salesloft
+This lets Conversations know when a meeting is scheduled.
+Meeting must be scheduled in advance
+The calendar invite must have been sent and include the meeting platform link at least 20 minutes or more prior to the scheduled start time. This rule only applies to meetings captured by the Conversations Bot.
+Your meeting invite list must include an external domain
+Conversations will not join internal meetings. So if all of the email addresses on your invite list have your same domain (the end of your email address i.e. @salesloft.com), that meeting will not be automatically captured.
+Domains on your meeting invite must not be on your team's Do Not Record list
+If your team admin has added any domain to the Do Not Record list, Conversations will not capture the meeting based on the setting's rule.
+Public domain recognition must be enabled
+By default, public domains, like Gmail or Yahoo, are not captured by Conversations. However, if a team admin enabled the Public Domain Recognition setting, Conversations will capture meetings invited to those email addresses.
+Things to Note: If a public domain is included in your internal domain list or in your team's Do Not Record list, Conversations will not capture the meeting per those governance rules.
+Meeting link must be listed in the meeting invite
+Your meeting URL (i.e. https://zoom.us/j/5555555555) is like the access code that triggers Conversations into action. For visibility, the meeting link must be included in one of the following spots in your meeting invite:
+The location field
+Within the meeting description field
+Google Calendar's Add Video Conferencing link exclusively for Zoom
+Conversations API Integrations
+
+Conversations API Integrations establish a connection between Salesloft Conversations and your preferred video conferencing platform. This connection allows your preferred video conferencing platform to share meeting recording files with Conversations via an application program interface (API).
+
+ 
+
+Using one of our API Integrations allows you to ensure that your meetings are automatically captured in Conversations and available for you and your team to review.
+
+ 
+
+To learn more about our Conversations API Integrations, check out our Conversations Integrations knowledge base.
+
+The Conversations Bot
+
+The Conversations Bot is a digital recorder that joins your meetings to record and transcribe the conversation. 
+
+ 
+
+The Bot can automatically join meetings that are scheduled in your calendar via the link in the meeting invite. You can also manually add the Bot to your meeting from the Conversations page.
+
+ 
+
+Team admins can edit the Bot name to change the name that appears when the Bot joins your meetings (i.e. naming it after a person or something clever). Admins and users can set times for when they would like the Bot to join a meeting and start recording.
+
+Things to Note:
+
+The Bot can join password-protected meetings for Zoom.
+The Bot will not join meetings to public/generic email domains (like @yahoo or @gmail) unless a team admin enables Public Domain Provider Recognition.
+Meetings must be 120 seconds or more to be picked up by the Conversations record.
+We currently cannot support web conferencing meetings that are over 10 hours long due to the large file sizes.
+Salesloft Dialer
+
+Recorded Salesloft Dialer calls can also be captured in Conversations. Admins can enable the Call Recording setting, which allows recorded calls to be automatically captured in Conversations. 
+
+
+Things to Note: 
+
+Calls must be 120 seconds or more in order to be picked up by the Conversations record. However, if you have a business case where you need to review Dialer calls that are 60 seconds and over inside Conversations, you can submit a case to our Support team to update that setting for you.
+Call recordings will adhere to the same settings applied within your team's recording governance restrictions. If a recording is disabled, Conversations will not work. Meanwhile, one-sided recordings will be picked up by Conversations.
+We currently cannot support Dialer calls that are over 2 hours long due to the large file sizes.
+
+
+To learn more about recording Dialer calls, check out our Call Recordings article. 
+
+Last Modified By
+Raequel Sank, 12/6/2023 8:25 PM
+Title
+How Conversations Recordings Are Captured
+URL Name
+How-Meetings-Are-Captured
+Conversations
+Salesloft Knowledge
+Conversations Essentials
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

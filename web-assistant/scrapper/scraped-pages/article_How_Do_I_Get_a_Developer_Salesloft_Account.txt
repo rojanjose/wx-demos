@@ -1,0 +1,24 @@
+INTEGRATIONS
+How Do I Get a Developer Salesloft Account?
+
+Mar 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+In order to get a developer Salesloft Account, you must have a Developer license. Please reach out to partners@salesloft.com to set up your license. 
+Last Modified By
+Stephanie Griffith, 3/28/2023 5:18 PM
+Title
+How Do I Get a Developer Salesloft Account?
+URL Name
+How-Do-I-Get-a-Developer-Salesloft-Account
+Integrations
+Salesloft Knowledge
+Integrations FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

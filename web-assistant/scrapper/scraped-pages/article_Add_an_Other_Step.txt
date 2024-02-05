@@ -1,0 +1,55 @@
+CADENCES + TASKS
+Add an Other Step
+
+Apr 25, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+You can think of “other" steps like your sales process's catch-all. With that being said, other steps could involve anything – from company research and sending swag (or cupcakes), to customizing a video message or reaching out using the latest social trend.
+
+In this article, you will learn about adding other steps to a Cadence, including: 
+Add an Other Step
+Other Step Best Practices
+Other Step Details on the Cadence Overview Page
+Add an Other Step
+To add an other step to your Cadence, follow these steps:
+Create a Cadence.
+From your Cadence’s overview page, add a Cadence step.
+In the Create Step box, select the other icon.
+Enter the Day you would like the step to run.
+Hit Next.
+Give your other step a name to let you know what the purpose of this step will be. Common examples include “Research” or “Hand-Written Letter.”
+Add any instructions you would like listed.
+Click Add & Create Another to continue adding steps to your Cadence or Add Step to add the step and close the add step window.
+ 
+Other Step Best Practices
+There are a lot of unique pieces within a Cadence, like the number of other steps you use, the resources you can incorporate in other steps, or even what you deem a success. That being said, there are certain tactics that we at Salesloft have seen consistent enough success with that you can put in place while creating your Cadences.  
+Other Steps to Drive a Deal Cycle Cadence
+Creating a Deal Cycle Cadence can help increase deal visibility and decrease sales cycle time. Every deal is going to be different, so instead of prescribing specific call or email instructions, you can place other steps at regular intervals as a reminder to take an action.
+End Cadence with an Other Step 
+At the end of a Cadence, instead of giving up, consider using an “other” step as a holding tank.
+
+If a Person goes through an entire Cadence with no engagement, when they land in the final day “other step,” you can view their history and prescribe creative ideas to connect via other channels or place the Person in a slow drip nurture Cadence.
+Other Step Details on the Cadence Overview Page
+Once the step is added, you will see it on the Cadence Overview page as its own Cadence Step details panel. 
+ 
+The Other step includes the following details: 
+Other Step Name: Designated name of the Other step. Since your other step is any recurring action you want to take within your Cadence, outside of emails and calls, the name will let you know what action to take. Common examples include, “LinkedIn Follow,” “Handwritten note,” “Send Cupcakes.”
+Instructions: Written out instructions on what should take place for your other step.
+ 
+Last Modified By
+Stephanie Griffith, 4/25/2023 8:27 PM
+Title
+Add an Other Step
+URL Name
+Add-an-Other-Step
+Salesloft Knowledge
+Cadences + Tasks
+Create A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

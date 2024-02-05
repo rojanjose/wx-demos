@@ -1,0 +1,78 @@
+CONVERSATIONS
+Conversations Webex Integration
+
+Jan 9, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Teams using the Webex video conferencing application host hundreds of meetings each day. With that many meetings happening each day, how can you possibly find the time to review calls?
+
+Combining Webex with Salesloft Conversations puts all of your meetings in one, centralized location. From Salesloft, you can easily annotate, coach, clip, share, and review meetings. By leveraging these tools together, you can manage your time wisely and improve the conversations you're having with customers. 
+
+Salesloft’s Conversations Webex Integration securely connects to the Webex API to reliably collect the recordings that you would like to analyze.  
+
+Things to Note: The Conversations Webex Integration will gather Webex meetings that are set to be recorded. If the meeting is not set to be recorded, or it you are not the host of the meeting, you will not be able to capture the meeting. 
+
+In this article, you will learn about the Conversations Webex Integration, including: 
+What is the Conversations Webex API Integration?
+How to Switch from the Conversations Bot to the Webex API Integration
+Webex Integration Guides
+Webex Integration FAQ
+For setup instructions follow the Conversations Webex Integration Admin Guide or Conversations Webex Integration User Guide.
+What is the Conversations Webex API Integration?
+Salesloft Conversations Webex integration connects to Webex via API (Application Programming Interface). 
+
+APIs allow two different applications to “talk” to each other and create a collaborative experience between the two systems. Organizations (like Webex), create APIs so outside applications (like Salesloft) can perform certain functions. 
+
+So, the Conversations Webex Integration uses the back end of Webex’s software to communicate to Salesloft. Specifically, the API enables Webex to record your meetings and then makes those recordings available in Salesloft.
+
+You will need to make sure your Webex and Salesloft account are correctly configured and you follow the Rules of Recording to use the API. To learn more, keep scrolling to check out the Webex Integration Guides section. 
+How to Switch from the Conversations Bot to the Webex API Integration
+Prior to April 2021, Salesloft and Webex users relied solely on the Conversations Bot. The bot joined meetings as a participant in order to record and bring the recording into Salesloft. As security protocols for video conferencing increased, the bot had an increasingly difficult time joining Webex calls. 
+
+The Webex API Integration records using your Webex interface and then calls upon the API to bring the recording into Salesloft. 
+
+If you were a previous Conversations user who needs to move from the former bot method to the API, follow these steps to make the switch. You can find detailed instructions by clicking the link and reading the Conversations Webex Integration User Guide article. 
+Authenticate Webex in your Salesloft Personal Settings.
+For the API to work, you must record the meeting in Webex.
+Set up your Conversations notifications in your Personal Settings. This way you can confirm that a meeting will be added to Conversations ahead of time or take action to make sure the recording is collected by Salesloft. 
+When you send a meeting invite, remember that the Webex link must be in the location field or in the description field.
+Webex Integration Guides
+Now that you have a grasp of what the Webex Conversations Integration is, let's put it into action. 
+
+Team admins need to enable the integration before your Salesloft users begin using the integration. To set up the Conversations Webex Integration for your team follow the instructions found in the Conversations Webex Integration Admin Guide.
+
+Once that setup is complete, check out the Conversations Webex Integration User Guide for individual setup and recording instructions.
+Webex Integration FAQ
+Why is my recording still listed as In Progress?
+The recording will stay on the In Progress tab with the “The bot should join any moment now” status until the meeting is over and we receive the video from Webex. 
+
+When the meeting is over, Salesloft waits for Webex to finish processing the recording. During this time, recording will remain under In Progress and you will see the “Recording is still in progress” status on the recording.
+
+On average, recordings can remain under the In Progress for about an hour after the meeting has ended. After that time, refresh your browser to see the recording move to the recordings tab. 
+
+Things to Note: After the recording moves from In Progress to the Recording tab, it can take roughly 20 min to complete processing.
+ 
+
+Why did my meeting move to Incomplete Meetings?
+When a meeting is recorded properly, the meeting will flow from the Scheduled tab to the In Progress tab during the meeting and while it’s processing. The meeting will move to the Recordings tab anywhere between 10 minutes and 4-5 hours after the recording information is available from Webex.
+
+The recording will move to Incomplete Meetings after 4-5 hours if the meeting never occurred or if Webex doesn’t have any information about the recording. Check your Webex account if a meeting occurred, but landed in Incomplete Meetings. If the meeting recording is in Webex, you can upload the recording into Salesloft. 
+ 
+Last Modified By
+Raequel Sank, 1/9/2023 4:00 PM
+Title
+Conversations Webex Integration
+URL Name
+Conversations-Webex-Integration
+Conversations
+Salesloft Knowledge
+Conversations Integrations
+Conversations Webex Integration
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

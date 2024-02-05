@@ -1,0 +1,72 @@
+PEOPLE AND ACCOUNTS
+Update Job Seniority
+
+May 23, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Job Seniority uses a predictive model that takes job titles and predicts the level a prospect is on within a company's hierarchy. Our model has been trained and tested on 1 million data samples of job titles with an accuracy of a 99.98% match to relevant seniority.
+
+Only a new Person record being created will trigger the seniority prediction model.
+
+Things to Note: Job Seniority will only populate when a Job Title is provided upon a Person record being added (aka when you import or add a Person). 
+
+If a Person’s title changes or the Job Seniority is incorrect (it happens), update the Person’s job seniority. This will not only keep your information up to date, but it also teaches the Job Seniority model.
+
+In this article, you will learn about the job seniority field and how to update it, including: 
+When Salesloft Predicts Job Seniority
+Available Job Seniorities
+Edit the Job Seniority
+When Salesloft Predicts Job Seniority
+Job Seniority can be predicted for a Person when they are created in Salesloft. The model requires a relatively minimal amount of data to predict the job seniority.
+
+Examples of when the model will predict:
+When a Person is created through Salesforce Sync, and a job title has been added
+When a Person is created manually in Salesloft, and a job title has been added
+When a Person is created on import, and a job title has been added
+Available Job Seniorities
+Salesloft has defined a set of job seniorities that are standard across most industries. Using these seniorities, a sales rep is able to create a more targeted and customized Cadence for each persona. 
+
+Things to Note: The Job Seniorities listed below cannot be edited. They are a set of defined data used for predictive behavior. 
+
+The set of seniorities that Salesloft has identified to be the standard across many industries include:
+Individual Contributor: Examples include Sales rep, Sales Analyst, Account Executive
+Manager: Examples include Sales Manager, Senior Manager of Marketing
+Director: Examples include Director of Sales, Director of Engineering, Marketing Director
+Vice President: Examples include Vice President of Services, VP of Sales
+Executive: Examples include CEO, COO, Chief Human Resources Officer
+Unknown: Unknown means that the job title provided was not recognized by our algorithm. A purple diamond will appear next to the word Unknown on the People page and the Person Profile page. Click the diamond to select an applicable Job Seniority. 
+
+(Image of the Job Seniority Column in a People list)
+Edit the Job Seniority
+While Salesloft will predict the Job Seniority of a prospect upon import, you can always manually change Job Seniority on a Person. Any changes will never be overwritten unless you manually change it again.
+
+Things to Note: Updating the job title on existing Person records will not trigger the model to predict a seniority. So, if a prospect is promoted and you edit their job title, you will also need to edit their Job Seniority.
+
+You can edit a Person's Job Seniority from the following places in Salesloft:
+People List found on the People page and the Cadence People tab
+Person Profile page inside the Edit Person Details page
+To edit the Job Seniority from a People list, follow these steps: 
+Go to the People Page or the People tab Inside a Cadence.
+Select the Person (or People) you want to update the Job Seniority for.
+When you select a Person, a line of People action items will appear at the top of your list. Click the Edit button from the top bar. The Edit People module will appear
+Select the Job Seniority dropdown. The options will appear. 
+Choose the Job Seniority. 
+Click Save. A message will appear to confirm the Job Seniority was updated. 
+ 
+Last Modified By
+Stephanie Griffith, 5/23/2023 3:56 PM
+Title
+Update Job Seniority
+URL Name
+Update-Job-Seniority
+People Page
+Salesloft Knowledge
+People And Accounts
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,32 @@
+ANALYTICS + REPORTING
+Is there a difference between Email Sentiment and Call Sentiment?
+
+Mar 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Both Email and Call Sentiments gather qualitative data on your engagement. However, that’s where the similarities end. 
+ 
+Email Sentiments use a machine learning model to suggest a sentiment based on a reply. Call sentiments are entirely based on how the USER logs the call—a machine learning model is not partaking in logging a call.
+ 
+Also, Email and Call Sentiments differ in that each type of communication may result in a different action. 
+ 
+For instance, call sentiments are more descriptive and detailed because users may take in more information while they are talking directly to prospects. Your team can even include custom sentiments to provide more context. 
+ 
+While email is a time-efficient method, Email Sentiments are trickier to decipher since you can only gather a limited amount of information from text. The available Email Sentiments are more limited and have different choices to provide insight.
+Last Modified By
+Stephanie Griffith, 3/28/2023 10:22 AM
+Title
+Is there a difference between Email Sentiment and Call Sentiment?
+URL Name
+Is-there-a-difference-between-Email-Sentiment-and-Call-Sentiment
+Analytics FAQ + Troubleshooting
+Analytics + Reporting
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

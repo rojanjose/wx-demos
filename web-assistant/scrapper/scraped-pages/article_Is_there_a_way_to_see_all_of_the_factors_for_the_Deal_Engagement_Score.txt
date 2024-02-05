@@ -1,0 +1,30 @@
+DEALS
+Is there a way to see all of the factors for the Deal Engagement Score?
+
+Mar 29, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Deal Engagement Score shows up to three (3) key factors. Key factors were kept at three to encourage you to focus on the engagement items that are most likely provide insight and potentially improve your score with actionable results. 
+
+There are over twenty factors impacting the Deal Engagement Score. The Deal Insights panel only shows the top three (3) factors that have the biggest impact on the current score. Factors will display in the top 3 if they meet the +/-5 threshold requirement which means this is impacting your score the most in a positive or negative way. 
+
+If you are going to focus on anything with the Deal, you should start with these three factors and these three factors only. Deals that are showing primarily positive results, don't warrant as much attention. Deals that show most negative key factors, will need more time and effort
+
+You can view a full list of the facts in the Deal Engagement Score Overview article.  
+Last Modified By
+Stephanie Griffith, 3/29/2023 4:40 PM
+Title
+Is there a way to see all of the factors for the Deal Engagement Score?
+URL Name
+Is-there-a-way-to-see-all-of-the-factors-for-the-Deal-Engagement-Score
+Deals
+Salesloft Knowledge
+Deals FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

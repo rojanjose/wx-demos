@@ -1,0 +1,191 @@
+CONVERSATIONS
+Conversations Zoom API Integration
+
+Oct 3, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft Conversations makes it easy to share meetings with your team. But what if the way Salesloft Conversations and video conferencing platforms, like Zoom, shared your meetings was this simple? Good news, it is!
+
+The Conversations Zoom API Integration allows Zoom to share your recorded meetings with Salesloft Conversations. This allows you to record meetings in Zoom, then access them in Conversations without any additional elbow grease. 
+
+In this article, you will learn about the Conversations Zoom API Integration, including:
+Important Things for Admins to Know About the Conversations Zoom API Integration
+User Setup for the Conversations Zoom API Integration 
+Tips for Using the Conversations Zoom API Integration
+Conversations Zoom API Integration FAQ and Troubleshooting
+Related Articles
+ 
+Important Things for Admins to Know About the Conversations Zoom API Integration
+Before your team begins using the Conversations Zoom API Integration, your Zoom Administrator must pre-approve the Salesloft Conversations app for your team. This can be done in the Zoom Marketplace. 
+
+Things to Note:
+The Salesloft Conversations app may be listed in the Zoom Marketplace with our previous logo and spelling, i.e. SalesLoft.
+We recommend that you check with IT or an admin in order to pre-approve the Salesloft app in the Zoom Marketplace.
+
+To pre-approve the Salesloft Conversations app in the Zoom Marketplace, your Zoom Administrator should follow the instructions listed in Zoom's App Pre-Approval Guide.
+
+We also recommend reviewing the Conversations Admin Checklist. Reviewing this checklist will ensure your team is set up for recording success.
+ 
+User Setup for the Conversations Zoom API Integration 
+Setting up the Conversations Zoom API Integration establishes the connection between Salesloft Conversations and Zoom.
+
+Things to Note: When you set up the Conversations Zoom API Integration, only meetings scheduled AFTER you enabled the integration will be captured in Conversations. Check out the Previously Scheduled Meetings section below for additional information.
+
+To set up the Conversations Zoom API Integration, follow these steps:
+ 
+1. Navigate to your Personal Settings.
+2. Select Conversations.
+3. Scroll to the Zoom tile and click Connect. (You will be directed to Zoom’s login page.)
+Things to Note: The Zoom for Meetings setting is not required for the Conversations Zoom API Integration. Both can be used without interrupting each other.
+ 
+4. From Zoom’s login page, enter your Zoom credentials to continue.
+5. Review the Authorize Notification page, then click Authorize. 
+6. In the Zoom tile, you should now see Connected as [your email address].
+ 
+ 
+
+
+Didn’t work? Here is what you might see:
+If you see this error, you will need to configure your Zoom settings. Click Manage to find out which settings you need to enable.
+
+ 
+Troubleshooting: Need to enable Cloud Recording in Zoom?
+Turning on cloud recording allows your Conversations to successfully capture your Zoom video and audio recordings.
+
+To turn on Cloud Recording in Zoom, follow these steps:
+1. From the Zoom tile, click Manage.
+2. Select View Zoom Settings. This will open your Zoom Settings page.
+3. Enable Cloud Recording.
+4. You should now see All settings needed to capture your meetings are enabled.
+ 
+ 
+
+
+Troubleshooting: Issues with your other Zoom Settings?
+The Audio Transcript and Timestamp settings allow Conversations to access the metadata associated with your Zoom recordings. 
+
+To turn on the Audio Transcript and Timestamp settings, follow these steps:
+1. From the Zoom tile, click Manage.
+2. Select View Zoom Settings. This will open your Zoom Settings page.
+3. Scroll to the Advanced Cloud Settings and check the box beside the following:
+Create Audio Transcript
+Add a timestamp to the recording 
+Things to Note: Cloud recording is only available for the Pro, Business, Education, or Enterprise account in Zoom. 
+5. You should now see All settings needed to capture your meetings are enabled.
+ 
+
+
+ 
+
+Tips for Using the Conversations Zoom API Integration
+
+Once you've enabled the Conversations Zoom API Integration, you’re ready to start recording!
+
+To ensure you and your team are set up for Conversations success, here are a few tips to keep in mind:
+
+Automatic Recording
+Turn on Zoom email notifications
+Personal Meeting Cloud Recording
+Confirm That Your Meeting Will Be Captured
+Removing Meetings from Zoom
+Previously Scheduled Meetings
+
+
+ 
+
+Automatic Recording
+
+To record a meeting in Zoom, you can either click the Record button during your meeting or turn on automatic recording in Zoom.
+ 
+Things to Note:
+
+If automatic recording in Zoom is enabled, internal meetings will be recorded by Zoom, but they will not be captured in Conversation Intelligence. 
+Before enabling automatic recording, keep in mind that this setting may cause an increase in your company's Zoom cloud storage costs, which you'll need to discuss with Zoom, along with your manager, Finance, and IT departments first.
+
+To turn on automatic recording in Zoom, follow these steps:
+1. Log into Zoom and open the User Settings.
+2. Navigate to the Automatic Recording section and click the toggle to turn the setting on.
+ 
+
+
+ 
+
+Zoom Email Notifications
+Turning on Zoom email notifications allows you to receive meeting-related notifications via email, such as an email informing you that your meeting recording is ready.  
+
+Receiving notifications when your meeting recording is available in Zoom may provide insight on when your recording is available in Conversations.
+
+
+ 
+Personal Meeting Cloud Recording
+Personal Meeting Cloud Recording is a Zoom setting that turns on cloud recording for meetings using your personal meeting links/individual meetings.  
+
+Turning this setting on ensures that all of your meetings are recorded, regardless of whether cloud recording is turned on at the account, group, or user level.
+
+
+ 
+Confirm That Your Meeting Will Be Captured
+You can confirm that your meeting will be captured from the Scheduled tab in Conversations. 
+
+Things to Note: The Conversations Zoom API Integration follows the Conversations meeting capturing rules. If a meeting does not follow the meeting capturing rules, it will not be captured in Conversations. 
+
+To access the Scheduled tab and confirm that your meeting will be captured, follow these steps:
+1. Navigate to the Conversations product tab.
+2. Click the Scheduled tab.
+3. If your meeting is listed on a recording tile (below), it will be captured by the Conversations Zoom API Integration.
+
+
+
+(Google Calendar and Sidecar Users): If you use Google calendar and sidecar, you can confirm that your meetings will be captured by checking for visual confirmation in your calendar invite.
+ 
+
+
+
+Removing Meetings from Zoom
+The Conversations Zoom API Integration captures your recorded Zoom meetings via an API. Once your meetings are inside Salesloft Conversations, you can delete them in Zoom to free up Zoom storage. 
+
+
+ 
+Previously Scheduled Meetings
+The Conversations Zoom API Integration only records meetings that are scheduled AFTER you enabled the integration. This integration will NOT capture meetings that you previously scheduled but have not yet occurred, ex: recurring meetings. 
+
+For any meeting on your calendar that has not occurred yet, we recommend one of the following:
+For one-off, previously scheduled meetings, manually hit Record at the beginning of the meeting. 
+For recurring meetings, update the meeting link. By updating the meeting link, you are altering the meeting. Zoom will recognize this update as a new meeting, and will allow it to be captured by Conversations.
+
+To update your meeting links for recurring meetings, follow these steps:
+1. Open the calendar invite for the meeting whose link you would like to update.
+2. Navigate to the meeting link. This is typically in the location area.
+3. Remove your meeting link.
+4. Add your meeting link back.
+5. Hit Save.
+Conversations Zoom API Integration FAQ and Troubleshooting
+The Conversations Zoom API Integration requires two systems to communicate, and in the event of miscommunication, an error can occur. For assistance with troubleshooting Conversations Zoom API Integration errors, check out the Conversations Zoom API Integration Troubleshooting Guide. 
+ 
+If you have a general question about the Conversations Zoom API Integration, check out the Conversations Zoom API Integration FAQs.
+Related Articles
+Want some additional information about using the Conversations Zoom API Integration, or Conversations in general? Check out this list of related articles:
+Conversations Zoom API Integration Recording Tiles
+Conversation Intelligence Admin Checklist
+How Meetings are Captured
+Conversations Zoom API Setup Walkthrough (video)
+ 
+Last Modified By
+Raequel Sank, 10/3/2022 1:57 PM
+Title
+Conversations Zoom API Integration
+URL Name
+Conversations-Zoom-API-Integration
+What's New
+Conversations
+Salesloft Knowledge
+Conversations Integrations
+Conversations Zoom Integration
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

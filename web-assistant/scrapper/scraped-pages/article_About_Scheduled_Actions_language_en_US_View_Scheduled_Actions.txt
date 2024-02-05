@@ -1,0 +1,89 @@
+COACHING
+About Scheduled Actions
+
+Oct 6, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Scheduled Actions give users and admins full visibility into their approaching workload. At the click of a button, you can see how many activities are on your upcoming calendar and plan your days accordingly.
+
+As a manager, you can quickly gauge your reps' workload. Depending on what the Scheduled Actions show, you can coach reps that are managing a high number of activities or motivate any reps who seem to be falling behind in their tasks.
+
+In this article, you will learn how to set up and use Scheduled Actions, including:
+
+Grant Access for Scheduled Actions
+View Scheduled Actions
+The Scheduled Actions Report
+Filter and Sort the Scheduled Actions
+Grant Access for Scheduled Actions
+
+All admins have permission to access Scheduled Actions by default. For non-admin users, you can grant custom roles access to Scheduled Actions using Roles and Permissions.  
+
+Things to Note: Scheduled Actions is not a standard feature for the default User role. If you would like your users to have access to Scheduled Actions, create a role that contains the permission and assign users to that new role.
+
+Under your Admin Settings, navigate to Roles & Permissions.
+Under the Roles tab create your ideal role for the selected users (e.g., sales manager or sales rep). Note: “Admin” and “User” roles are set to default and will not allow you to edit or add permissions.
+Go to the Permissions tab.
+Scroll to find Scheduled Actions.
+Check the box for the role you would like to grant access to Scheduled Actions.
+
+ 
+
+View Scheduled Actions
+
+When you have access to Scheduled Actions, the Scheduled Actions tab will be visible inside the Coaching product tab.
+
+Inside Coaching, managers and Salesloft users can review the progress being made towards key goals. You can incorporate Scheduled Actions in this review to get an idea of what activities are slated for a rep. From there you can infer if the actions may contribute to your targets. 
+
+To view the Scheduled Actions, follow these steps:
+
+ Go to the Coaching product tab found in the top navigation bar. This will take you to the main Coaching page. 
+Select the Scheduled Actions tab found near the top of the Coaching page. 
+ 
+
+ 
+The Scheduled Actions Report
+
+The Scheduled Actions Report page gives you two visual representations to view your team’s upcoming activities.
+
+First, you will see the Scheduled Actions bar graph. Here you will see the number of activities that will be completed over the upcoming days. Each activity is displayed separately, with its own colored bar.
+
+Below the graph, you will see the detailed information view. This spreadsheet provides the name of each rep, along with their group name, and states the number of tasks or activities they are scheduled to complete per date.
+
+Filter and Sort the Scheduled Actions
+
+You can filter your Scheduled Actions Report to see data for a specific group or individual user on your team. This allows admins and users to see how entire teams or individuals are performing.
+
+The Rep filters include the following options:
+
+Me: Shows your activity report.
+Everyone: Shows the collected activity of everyone on your Salesloft team.
+Groups: Shows the select activity of Salesloft users that belong to a specific group. Groups are set by admins.
+Individual Team Members: Shows the activity report of specific individual users on the team. Restricted to admins or anyone with the filter by teammates permission.
+
+Next, you can filter by action within the report. The actions you can filter by include:
+
+All: All Salesloft activity that is due over the next few days is included.
+Emails: Only displays upcoming email activities.
+Calls: Only displays upcoming call activities.
+Other: Only displays upcoming Other tasks.
+
+Finally, you may sort your list by Rep or Group, meaning the list will be sorted in alphabetical order based on the option you select.
+
+ 
+Last Modified By
+Stephanie Griffith, 10/6/2023 2:43 PM
+Title
+About Scheduled Actions
+URL Name
+About-Scheduled-Actions
+Salesloft Knowledge
+Coaching
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

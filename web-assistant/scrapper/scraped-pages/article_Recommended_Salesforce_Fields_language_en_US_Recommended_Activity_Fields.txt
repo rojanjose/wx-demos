@@ -1,0 +1,248 @@
+CRM
+Recommended Salesforce Fields
+
+Sep 16, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+If you've taken a look at the Field Configuration tab on a Person or Accounts Details page, you know there are a lot of fields available to you.
+
+Things to Note: If you are new to Salesloft and haven't mapped any fields yet, start with our auto-mapped fields guide. This will map the recommended Salesforce fields for you!
+
+You may be wondering what do some of these fields mean and, more importantly, which ones do you need to map?
+
+The rule of thumb is to complete your field configuration based on the information and data your team values the most.  
+
+However, for those of you who have started mapping fields and would like to know which fields you can gain the most value from, here are the lists of fields that you will want to consider mapping per Salesforce object: 
+Recommended Person Fields
+Required and Recommended Account Fields
+Recommended Activity Fields
+Recommended Opportunity Fields
+Recommended Person Fields
+Here are the Salesloft Person fields we recommend you map to the appropriate Salesforce Lead and/or Contact field:
+ 
+Person Field Name	Salesforce Lead Field Name	Salesforce Contact Field Name	Field Type	Description
+Account CRM ID	N/A	AccountId	Reference	Allows Salesloft to identify which Salesforce accounts match which Salesloft accounts. This field maps to the “Account ID” field on Contacts only.
+City	City	MailingCity	String	 
+Company Name	Company	 	String	 
+Country	Country	MailingCountry	String	This field contributes to Salesloft's timezone detection feature. Things to Note: Configure the full country name, rather than the two letter ISO-3116 Country Field.
+Email Address	Email	Email	Email	 
+First Name	FirstName	FirstName	String	 
+Industry	Industry	 	 	 
+Last Name	LastName	LastName	String	 
+Owner CRM ID	OwnerId	OwnerId	Reference	Allows Salesloft to identify the Lead, Contact, and Account object owners, based on the Salesforce user matches set under the User Management section.This field must be set to use any automation rules associated with owner changes in Salesloft or Salesforce.
+Person Stage	Person Stage or Cadence Stage*	Person Stage or Cadence Stage*	Picklist	We recommend to map the Person Stage to a custom field which you may call Person Stage or Cadence Stage (whatever is your preference). The custom field will mimic the picklist items from the Salesloft Stage Settings . 
+Phone	Phone	Phone (Business Phone)	Phone Number	 
+State	State	MailingState	String	 
+Title	Title	Title	String	 
+Do Not Call	DoNotCall	DoNotCall	Boolean	If you would like to respect your Do Not Call permission set by the standard Lead field in Salesforce, we recommend mapping this field to Salesloft.
+Do Not Email	HasOptedOutOfEmail	HasOptedOutOfEmail	Boolean	If you would like to respect your Do Not Email permission set by the standard Lead field in Salesforce, we recommend mapping this field to Salesloft.
+Required and Recommended Account Fields
+The Account fields contain a couple of required fields that need to be mapped.
+
+Company Name & Domain are required fields in Salesloft. You must map these fields to import Accounts from Salesforce. We recommend that you map the Salesloft Domain field to the Salesforce Website field.
+
+Outside of the Company Name and Domain, your account field mapping boils down to team preference. Which fields and details matter the most to your team?
+
+To start your Account field mapping, here are the fields we recommend for the most basic level of Account field mapping:
+ 
+Account Field Name	Salesforce Name	Salesforce Field Type
+
+
+City
+
+	
+
+City
+
+	String
+Account Stage	 	 
+Company Name (Required)	Name	String
+Domain (Required)	Website	String
+Do Not Contact	 	 
+State	State	String
+Recommended Activity Fields
+The list below shows all of the recommended Activity fields. 
+
+Things to Note: All of these fields can be created in Salesforce by downloading the Insight from Salesloft dashboard package. Once the fields are created via the download, you will still need to map the fields in Salesloft. 
+ 
+Activity Field Name	Field Type	Salesforce APi
+
+
+Call Disposition
+
+	
+
+Text(255)
+
+	
+
+Salesloft1__Call_Disposition__c
+
+
+
+
+Call Sentiment
+
+	
+
+Text(255)
+
+	
+
+Salesloft1__Call_Sentiment__c
+
+
+
+
+Salesloft Cadence Name
+
+	
+
+Text(255)
+
+	
+
+Salesloft1__Salesloft_Cadence_Name__c
+
+
+
+
+Salesloft Clicked Count
+
+	
+
+Number(18, 0)
+
+	
+
+Salesloft1__Salesloft_Clicked_Count__c
+
+
+
+
+Salesloft Email Template Title
+
+	
+
+Text(255)
+
+	
+
+Salesloft1__Salesloft_Email_Template_Title__c
+
+
+
+
+Salesloft Replies Count
+
+	
+
+Number(18, 0)
+
+	
+
+Salesloft1__Salesloft_Replies_Count__c
+
+
+
+
+Salesloft Step Day
+
+	
+
+Number(18, 0)
+
+	
+
+Salesloft1__Salesloft_Step_Day__c
+
+
+
+
+Salesloft Type
+
+	
+
+Formula (Text)
+
+	
+
+Salesloft1__Salesloft_Type__c
+
+
+
+
+Salesloft Unique Click Count
+
+	
+
+Formula (Number)
+
+	
+
+Salesloft1__Salesloft_Unique_Click_Count__c
+
+
+
+
+Salesloft Unique Reply Count
+
+	
+
+Formula (Number)
+
+	
+
+Salesloft1__Salesloft_Unique_Reply_Count__c
+
+
+
+
+Salesloft Unique View Count
+
+	
+
+Formula (Number)
+
+	
+
+Salesloft1__Salesloft_Unique_View_Count__c
+
+
+
+
+Salesloft View Count
+
+	
+
+Number (18, 0) 
+
+	
+
+Salesloft1__Salesloft_View_Count__c
+
+Recommended Opportunity Fields
+Here are the Salesloft Opportunity fields we recommend you map to the appropriate Salesforce fields:
+ 
+Opportunity Field Name	Salesforce Name	Salesforce Field Type
+Amount	Amount	Currency
+Name 	Name	String
+Stage	StageName	Picklist
+Last Modified By
+Stephanie Griffith, 9/16/2021 8:56 PM
+Title
+Recommended Salesforce Fields
+URL Name
+Recommended-Salesforce-Fields
+Salesloft Knowledge
+Salesforce
+CRM
+Salesforce Admin Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

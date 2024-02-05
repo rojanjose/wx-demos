@@ -1,0 +1,152 @@
+CRM
+Salesforce Activity Logging
+
+Sep 6, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Once your Salesloft is connected to your Salesforce account, all of your completed activities will be logged in Salesforce. This means that each time you send an email (or Loft It), log a phone call with the Dialer, complete an Other step, or even take a note, that completed activity will be recorded within the Salesforce record’s activity history.
+
+All activity will be logged on the Lead or Contact level. If a Contact is associated with a Salesforce Account, the activity will log under the Account’s activity history as well.
+
+Each activity type will log the same standard information by default. To include further activity data and information, ask your Salesloft admin about mapping activity information from the Salesforce Field Configuration.
+ 
+
+ 
+In this article, we will go over Salesforce logs, including: 
+Select Salesforce Activity Logging Preferences
+CRM Record Selection
+Salesforce Email Logs
+Salesforce Call Logs
+Salesforce Other Step Logs
+Messenger Logs
+Salesloft Note Logs in Salesforce
+Meeting Logged as a Task
+Meeting Logged as an Event
+Duplicate Events Synced with "Meeting Booked"
+Conversation Intelligence Logs in Salesforce
+Task Subtype
+CRM Record Selection
+CRM Record Selection allows users to log email activity to alternative records, giving you complete control over which Salesforce record an email will be logged to.
+
+To learn more about logging to alternative records with CRM Record Selection, check out our CRM Record Selection article. 
+
+You can also log to an alternative record when Lofting an email from Gmail, Outlook for Windows and Mac, and Outlook Office 365.
+ 
+Salesforce Email Logs
+After an email is sent from Salesloft or sent from Gmail or Outlook using the Loft It button, the log will appear under the activity history of the Lead or Contact and the Account.
+
+Email logs will be recorded with the subject line "Email: (Subject line of the email)."
+ 
+When you enter the activity details, you will find the body of your email message in the Comments. Other activity-related data will be filled out according to your Activity Field Mapping Settings.
+Salesforce Call Logs
+Calls that are logged from the Dialer will appear under the activity history of the Lead or Contact and the Account.
+
+Call logs will be recorded with the subject line "Call: (Call Disposition)|(Call Sentiment)."
+ 
+When you enter the activity details, you will find any notes that were logged from the call in the Comments. Other activity-related data will be filled out according to your Activity Field Mapping Settings.
+Salesforce Other Step Logs
+Other steps are logged under the activity history along with your emails and calls any time an Other step is logged from a Cadence. Things to Note: Other steps that are Complete Only will not be logged. 
+
+Other steps will be logged as "Other: (Step Name)."
+ 
+Any notes logged in the Other step log box will appear in the comments in the activity details.
+Messenger Logs
+When a text is sent with Messenger from Salesloft, activity logging happens automatically as messages are sent and received. 
+
+A new activity is created when a new message is sent outbound or is received. As you and your prospect continue their conversation, the texts will be added to that activity. If there is a 1-hour break in the conversation, a new message (sent or received) will generate a new activity. These are visible in the activity feed on a Person. 
+ 
+Activities are then synced with CRM activities according to the user's specified field configuration.
+ 
+Salesloft Note Logs in Salesforce
+Salesloft allows you to log single notes on a Person record. Any time a note is taken, it will be logged in Salesforce under the activity history on that Salesforce object. When logs are made to a Salesforce Contact, the log will also roll up the the Salesforce Account. 
+
+Notes will be logged with the subject line "Note" and note details will appear in the Comments in the activity details.
+ 
+Meeting Logged as a Task
+Whenever you Book Meetings Through Salesloft, whether you send a Person a meeting invite or they select a meeting time from a calendar link, the meeting will appear on the Person Profile page in Salesloft. By default, the meeting will also log to Salesforce as a closed activity task. 
+
+Things to Note:
+Meetings will log as tasks unless otherwise designated in the Salesforce Activity Logging settings.
+If a meeting is rescheduled or canceled, Salesloft will not reflect the changes. Once an event has been created, Salesloft does not track or maintain any further updates on the event.
+Salesforce meeting tasks will log with the subject, like "Meeting Booked: (Meeting Title)." Additional field information may be logged as well based on your team's Activity Field Configuration. The specific fields for a booked meeting include: 
+Meeting Booked By
+Meeting Type
+ 
+Meeting Logged as an Event
+If your team has selected to log meetings to Salesforce as events in the Salesforce Activity Logging Settings, all meetings will be logged to Salesforce as events. Logging meetings as tasks will automatically stop.
+
+The following meeting details will be logged to standard Event fields:
+Subject
+Description
+Location
+Assigned To
+Meeting Start/End
+Attendees will be logged to Salesforce in case an attendee email matches the email of the Salesloft user with a connected CRM, or it matches the email of the Salesloft Person with a related CRM record. All attendees will be logged with "Hasn't Responded" status.
+
+Things to Note:
+Salesloft will ignore custom fields mapping, which will still only be applied to logging meetings as tasks.
+"Meeting Booked by" and "Meeting Type" fields will be logged to the custom fields specified under activity field configuration.
+Logging meetings as events will apply only to scheduled meetings; Conversation Intelligence recordings will still be logged as tasks. 
+Duplicate Events Synced with "Meeting Booked"  
+Salesloft adds the prefix "Meeting Booked" when events sync to Salesforce so that Salesloft events can be easily filtered out in the reports (for example: Meeting Booked: Discovery Call).
+
+If your team has event sync enabled in Salesforce, Salesforce recognizes this event as a new event since the original title of the event was modified. It then syncs the event back to the user’s calendar.  This logic may cause some users to see duplicate meetings with additional “Meeting Booked” prefixes on their calendars.
+
+In order to avoid this situation we recommend disabling or modifying the event sync setting in Salesforce. If you have calendar sync enabled, Salesloft will still capture and log the meeting event as long as the Person (attendee) is syncing with a Lead or Contact in Salesforce.
+
+Alternatively, you can modify your CRM Sync and personal Calendar Sync settings in Salesloft. Learn how to Set Up Calendar Sync here.
+Conversation Intelligence Logs in Salesforce
+Processed Conversations meeting recordings will log as tasks in Salesforce. The tasks will log to Leads and Contacts if the record is linked between Salesloft and Salesforce. 
+
+Things to Note: Calls made through the Salesloft Dialer that are recorded within Conversation Intelligence will log to Salesforce as a Call. 
+
+If there are multiple people on the invitees list, the completed task will log to all the people who are on the invitees list of the calendar invite, as long as the invitee exists in Salesforce already.
+
+To ensure that your Conversations meeting recordings push to Salesforce as intended, be sure that the Subject, Date, and Description are always included in your meeting invites. Additionally, a team admin may map the following fields in your Activity Field Configuration:
+Meeting Date
+Meeting Name
+Meeting Assigned To
+Meeting Duration
+Meeting Start Time
+Meeting Recording URL
+Things to Note: Mapping these fields is optional, but can be done to ensure that your meetings are pushed to Salesforce.
+
+Admins can use the Meeting Recording URL as a unique identifier when pulling reports-related CI activity data.
+
+Conversation Intelligence recordings will log to Salesforce under the subject line Recording: (Name of the Recording). The comments section will include a list of the invitees as well as the meeting recording URL.
+Task Subtype
+Salesloft allows you to map Task Subtype as a Salesforce Activity Field. Using this value, you can filter and view activity history based on the Task Subtype value.
+
+Task Subtype is a standard Task field in Salesforce that categorizes a Task into one of the following values:
+Task
+Email
+List Email
+Cadence 
+Call
+In order to have your activity fields logged as a Task Subtype, a team admin must map the activity field as a Task Subtype in the Field Configuration. 
+
+Once the field mapping has been configured and you begin logging activities using Salesloft, you can view and filter your activity history based on the Task Subtype value inside Salesforce. 
+ 
+
+Subtype determines the icon that is displayed on the left of the activity. Additionally, you can use Subtype when filtering by Activity Type on Salesforce activity history.
+
+
+ 
+Last Modified By
+Briana Morgan, 9/6/2022 6:21 PM
+Title
+Salesforce Activity Logging
+URL Name
+Salesforce-Activity-Logging
+Salesloft Knowledge
+Salesforce
+CRM
+Salesforce User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

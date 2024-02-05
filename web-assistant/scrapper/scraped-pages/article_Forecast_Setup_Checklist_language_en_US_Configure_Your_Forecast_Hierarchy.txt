@@ -1,0 +1,234 @@
+FORECAST
+Forecast Setup Checklist
+
+Aug 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Forecast helps your teams establish their forecasting process, efficiently submit and agree upon a forecast number, and communicate that number to their business. 
+
+ 
+
+Before your team can participate in Forecasts, a team admin must grant feature access and complete the Forecast configuration. This setup determines how reps, managers, and sales leaders add and view forecast numbers.
+
+ 
+
+In this article, you will learn the steps you need to take to set up Forecast for your team, including: 
+
+Enable Forecast Permissions
+Check Your Salesforce Manager Field and Connector Permissions
+Set Quotas for Reps and Managers  
+Configure Your Segment(s)  
+Configure Your Forecast Hierarchy
+Identify Rollup Metrics  
+Setup Forecast Submission Frequency
+Test Forecast with a Group of Users
+Expand Access to Additional Team Members
+
+  
+
+Enable Forecast Permissions
+
+Forecast is available to customers with the Premier Package.
+
+Salesloft team admins have access to Forecast by default. This means as soon as someone is granted access to Salesloft with the default Admin role,  they can enter the Deals Forecast section of the Deals Admin Settings and configure the Forecast setup.
+
+Non-admins cannot see Forecast or use the feature until you enable certain permissions for their user role. 
+
+ 
+
+   
+
+ 
+
+First, as an admin, go to the Permissions page and assign the Forecast permission to the applicable user groups. This permission will allow the group to view the Forecast tab inside of Deals and have access to the option to submit a forecast. 
+
+ 
+
+Some teams have users who require access to Forecast and all forecast data but may not be submitting forecasts. Typically these roles are individuals like revenue operations. To grant one of these individuals access to view Forecast and ALL forecast data, you will assign the Forecasting role permission and then we will assign them a second permission, View all Opportunities in Salesloft, with no access restrictions.
+
+ 
+
+To download your Forecast History Reports, you must enable the Export Team Analytics permission. Once this permission has been turned on, you will be able to download a CSV file of previous periods’ forecast history and determine the accuracy of those forecasts.
+
+ 
+
+ 
+
+Things to Note: By default, these permissions are ON for the standard Admin role, and OFF for the User role.
+
+ 
+
+Check Your Salesforce Manager Field and Connector Permissions
+
+Salesloft's Forecast relies on a connection between Salesloft and Salesforce. There are specific fields that must be updated in Salesforce for Forecast to work properly.
+
+ 
+
+First, the user that is the CRM Main User Connector in Salesloft must have permission to see ALL user objects in Salesforce. This will provide the necessary data between the two platforms. Your hierarchy information is pulled from the Manager Field on the User Object in Salesforce.
+
+ 
+
+Second, the Manager Field on the User object in Salesforce must be updated to reflect each user’s manager. When configuring the Manager Field on the User object, fill in your team's managers for each user in the forecasting hierarchy.
+
+  
+
+ 
+
+Later in your configuration, you can customize your Forecast hierarchy so that only users visible who are a part of the Forecasting process are visible. 
+
+ 
+
+Set Quotas for Reps and Managers  
+
+Sales forecasts typically refer to predetermined goals for each rep and manager (sometimes referred to as quotas) that the business has set for them to hit. 
+
+ 
+
+Before your team can adequately use Forecast, you need to identify your team’s goals inside of Salesloft. Goals can be added in Salesloft from the Goal Management Settings. 
+
+  
+
+Things to Note: 
+
+If the Goals value is not configured, these areas and metric values will be blank. 
+Forecast will still work without Goal Settings, but you will not be able to compare your forecast to your actual goal.
+Only one period of quotas can be active at a given time (monthly, quarterly, annually), and whatever quota is set will be the quota displayed in Forecast.
+
+ 
+
+Configure Your Segment(s) 
+
+Next, you will configure your Forecast Segment(s). Salesloft’s Forecast Segments allow you to filter opportunities based on the data most important to the forecast you’re submitting.
+
+ 
+
+As a manager who forecasts new business opportunities, it’s important that you’re able to view all the opportunities that equal new business. Similarly, a Customer Success Manager may want to view a Forecast Rollup of Renewal opportunities. With Forecast Segments, admins can create Forecast Segments that specify the criteria by which your Forecast opportunities appear in a Forecast Rollup or Forecast Pipeline (e.g. Renewals, Churn, Upgrades, etc.).
+
+ 
+
+By default, each customer has a segment called Overall available to their team. This segment pulls in ALL opportunities. If your team is ONLY interested in forecasting on New Business opportunities, you’ll want to customize the Overall segment to filter to only New Business opportunities. 
+
+ 
+
+If you have multiple segments and teams that are forecasting, you can also create new segments. 
+
+ 
+
+Configure Your Forecast Hierarchy
+
+The next step involves configuring your Forecast Hierarchy. A visual hierarchy of your team appears on the Forecast page. The hierarchy shows which reps report to managers, which managers report to sales leaders, and so on.
+ 
+
+Things to Note:
+
+For Salesloft to generate a hierarchy for a user, the sync user (CRM Main User Connector) must have permission to see the User object in Salesforce. If a sync user doesn’t have access to this object, contact a Salesforce admin to adjust the sync user’s permissions. 
+Once your team begins to use Forecast, the Salesforce Hierarchy must be kept up-to-date to reflect your team’s current structure.
+For more information, check out this developer documentation about the Manager Field object. 
+
+In the Hierarchy Visibility settings, you can determine which users are visible in your Forecast view. If only certain reps and users should be appearing within the Forecast, this is where you configure these settings.  
+
+To manage Hierarchy Visibility settings, proceed as follows:
+
+Within Deals Admin Settings, scroll down to the Hierarchy Visibility section.
+Click the Edit button.
+Inside the editing window, you’ll see the hierarchy pulled from Salesforce’s Manager Field found on the user record. Below, you’ll see three segments to the right of the Role column: New Business, Renewals, and Upsells.
+Things to Note: If you have created your own segments, you will see their names in this column instead. For more information, see our Forecast Segments article.
+
+ 
+
+Check or uncheck the box next to Visible under each segment to add or remove users from the forecast hierarchy.
+
+ 
+
+ 
+
+To expand the different hierarchy levels, click the drop-down arrow beside the User name. Salesloft displays 8 different hierarchy levels.
+
+ 
+
+ 
+
+6. Once you’re finished, click Save to update the hierarchy.
+ 
+Identify Rollup Metrics 
+
+Now, configure your team’s Rollup Metrics. Rollup Metrics determine which values, or categories of metrics, will be visible for your team on the Forecast dashboard. For example, you may want rollup metrics that correspond to the different stages or forecast categories related to the opportunities you are forecasting on. You can customize each and every metric’s name, criteria, and data to display a common forecast language for all users. 
+
+ 
+
+These metrics are configured in the Deals Forecast Rollup Metrics Settings. Once the Rollup Metrics setup is complete, Salesloft pulls all rollup metric criteria from the fields set up in opportunities.
+
+ 
+
+ 
+
+To learn more about setting up Rollup Metrics, check out our Forecast Rollup Metrics Settings article.
+
+ 
+
+Set Up Forecast Submission Frequency 
+
+The Forecast Submission Frequency Setting determines the day/time and how often forecasts are supposed to be submitted by the team. 
+
+ 
+
+Things to Note: Forecast will work without this setting being complete. However, configuring the settings provides a layer of accountability for team members to submit their Forecasts. 
+
+ 
+
+To learn more about setting up how often forecasts should be submitted, check out our article about how to Manage Forecast Submissions Frequency.
+
+  
+
+Test Forecast with a Group of Users
+
+If this is your team’s first experience with Salesloft’s Forecast, we highly recommend that you test the feature with a select group of users before rolling it out to your entire team.
+
+ 
+
+Testing allows you to make sure that your Forecast is set up correctly, while also allowing users to test the workflow, offer feedback for the team’s use case, and be the first to see success with the feature. 
+
+ 
+
+Ideally, your test group will include a single sales team of reps and a manager. Once the team is selected, an Admin can assign access to the feature by enabling the Forecast role permission to the test group. 
+
+ 
+
+After the feature is enabled for the test group, reps and managers can validate that the numbers on the Forecast page are accurate and rolling up correctly. They will be the ones who know if the deals are included that are expected and if the values are correct. 
+
+ 
+
+Once the test group has validated numbers, they can submit their first Forecasts. Pay attention to any questions that arise from the test group throughout the process, since they will be good points to bring up when Forecast is introduced to the rest of your organization.
+ 
+
+Expand Access to Additional Team Members
+
+The final step to rolling out Forecast is to enable the Forecast for additional team members. This step should be done once the test group has a good understanding of the feature. You may also want to involve the test group in any additional team training. 
+
+ 
+
+Once the feature is enabled for the team at large, you have successfully set up Forecast in your organization.
+
+ 
+ 
+ 
+ 
+Last Modified By
+Briana Morgan, 8/28/2023 2:45 PM
+Title
+Forecast Setup Checklist
+URL Name
+Forecast-Setup-Checklist
+What's New
+Forecast
+Forecast Admin
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

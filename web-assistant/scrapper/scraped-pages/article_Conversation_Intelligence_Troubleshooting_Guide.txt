@@ -1,0 +1,147 @@
+CONVERSATIONS
+Conversations Troubleshooting Guide
+
+Jan 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+This troubleshooting guide lists some common problems you may encounter with Conversations.
+
+In this article, you will learn some tips and resources to help you troubleshoot, including:
+Zoom Bot Integration is Not Recording Meetings 
+What are Incomplete Meetings?
+Conversations Stops Recording Playback
+How to Remove the Bot from a Meeting
+Bot Failed to Automatically Join the Meeting
+Zoom "Authenticated User" Setting
+Why isn't my calendar pulling meetings?
+Missing Call Transcript
+Email Notifications Did Not Send
+Words Do Not Appear in Search
+Zoom Bot Integration is Not Recording Meetings
+Due to a recent Zoom security update, Salesloft’s Conversations Bot with the Zoom integration is experiencing issues where the bot is failing to record a meeting.
+
+To replace the bot and resume Conversations use, we suggest setting up the new Conversations Zoom API Integration. 
+
+Things to Note: The Zoom API Conversations integration only works with Premium Zoom accounts. The Zoom API Integration does not work with the free version of Zoom. 
+
+To switch the Zoom API integration, each user will need to take the following steps:
+Connect Salesloft to the Zoom Integration in your Personal Profile Settings. Follow these steps:
+Access your Personal Settings by clicking your name in the upper left corner of Salesloft and selecting Settings. You will land in your Personal Profile Setings.
+Scroll down below the email signature and select Connect Zoom under the ZOOM FOR CONVERSATIONS option.
+When you click connect, you will oauth the application through zoom. 
+Once the connection is complete, you will need to check that any Zoom meetings you are hosting are set to record. You have the following options: 
+Manually click record in the meeting. 
+Enable automatic recording in your Zoom Account. 
+Request your Team Zoom Admin to set up automatic recording for your team in Zoom. 
+You can also follow the Zoom API for Conversations setup instructions video walkthrough. 
+What are Incomplete Meetings?
+When an error occurs during a recording upload, Conversations calls these errors "Meeting States." In other words, we state the reason that the meeting failed to load. In the event of an upload error, the meeting state could be any of the following:
+Bot denied from meeting
+Bot dismissed from screen share meeting platform before anyone spoke
+Bot dismissed from Salesloft before anyone spoke
+Bot encountered technical issue
+Bot timed out because meeting never started
+Bot timed out because no speaking was detected after 25 minutes
+Conversation too short
+Host ended meeting before anyone spoke
+While Salesloft noticing the issue is important, it's even more helpful for you to see if any errors have occurred. You can view all of the uploading errors and meeting states information from the Incomplete Meetings page.
+
+Things to Note: The Incomplete Meetings page will show meeting errors for your entire team's meetings. 
+
+To access the Incomplete Meetings page, click the Incomplete Meetings link in the upper right corner of the Recordings or In Progress tabs.
+The Incomplete Meetings page will show a complete list of meetings that were not able to upload due to an issue.
+Conversations Stops Recording Playback
+Your Conversations recording may stop during the playback or will not let you skip to the end of the playback at all. If you are using Chrome 79, the issue is occurring due to a specific Chrome feature flag. 
+
+Please check which version of Chrome you are using. You can do this by following these instructions: 
+In your Chrome browser, click the vertical three dots in the upper right corner of the browser window. 
+Go to Help.
+Click About Google Chrome. Your Chrome version will be listed on the top of the page.  
+There are two ways to help keep a seamless viewing experience for you, your team, and your prospects/customers. 
+
+If you are sharing the video outside of your organization, download the recording and email it. This way your prospects/customers will be able to view the entire video with no issue. 
+Chrome 79
+Internally, you can disable the feature flag in Chrome 79 in order to view recordings in their entirety. Follow these steps to disable the feature flag: 
+
+1. In your Chrome browser, copy and paste the following: chrome://flags/#disable-accelerated-video-decode. 
+
+2. The link will take you to the Hardware-accelerated video decode feature. Use the dropdown menu to switch Enabled to Disabled.
+3. The Relaunch button will pop up at the bottom of the screen. Click Relaunch.
+Chrome 80
+Google launch of Chrome 80 should correct the errors created by the Chrome 79 feature flag. With the update, you no longer need to uncheck the Chrome feature flag in order for Conversations videos to play all the way through.
+
+The objective of the Chrome feature flag is to delegate video decoding to a separate processor in the computer, leaving the main CPU more time to work on other things. Having the flag disabled means that the video decoding falls on the main CPU. Modern CPUs are totally capable of decoding the kind of videos we use.
+
+Things to Note: If you have an older Mac and try to watch some high-definition videos, like a 4K movie, you may experience some lag. We recommended unchecking the flag for these instances.
+ 
+How to Remove the Bot from a Meeting
+ While Conversations offers a lot of great information, compliance and regulations may mean that a call should not be recorded. For these moments, you will want to remove the bot from the meeting. 
+
+If your meeting has been scheduled but has not taken place, follow these steps to remove the bot: 
+From the Conversations page, go to the Scheduled tab.
+Find or search for the meeting that has been scheduled. 
+In the upper right corner of the meeting details panel, find the Record Meeting toggle. The toggle will be blue, meaning the meeting is set to record. 
+Click the toggle. The recording option will save, and the bot will not join your meeting. 
+To remove the bot from a meeting that is already in progress, follow these steps: 
+On the Conversations page, go to the In Progress tab.
+Find the meeting that you are currently in, click the 3 dots.
+Select the last option in the menu is Dismiss Bot. The bot will immediately leave the meeting. 
+Bot Failed to Automatically Join the Meeting
+If the Conversations Bot failed to join the call, check your attendee email addresses for the following domain exceptions:
+Internal domains only: The bot will not join internal meetings automatically. We define this as any calendar invite that only contains @yourcompanydomain.com emails. 
+Attendees Dial In via Phone Number: Bots will not record audio when any attendee uses the "Dial In" option. Recordings are only captured when all attendees join via the meeting link.
+Generic email domains: The bot assumes emails listed with @gmail.com and @yahoo.com may be personal meetings by default, and won't automatically attend the meeting.
+Things to Note: This does not apply when a team admin enables Public Domain Provider Recognition. 
+Zoom Room Invitees: Conversation Intelligence will ignore all Zoom Rooms on invites, so the bot will skip over those meetings.
+If you would like for the bot to join these meetings you can use the Add Bot to Meeting button from the Conversations page to manually add the bot during the meeting.  
+
+Things to Note: The Bot will only automatically join meetings if they are using Gmail and Office 365. If they are using ActiveSync it will have to be added manually .
+Zoom "Authenticated User" Setting
+Some users who have the "Only authenticated users can join meetings from Web client" setting enabled are not able to get the Conversations Bot to successfully record their meetings.
+
+Users who have this setting enabled must disable it in order for the bot to successfully record their meetings. Follow these steps to disable the authenticated user setting: 
+Access your Zoom settings. To get to this you can click the settings cog in the upper right corner of the Zoom app home screen. From the settings menu hit View More Settings. 
+From your in app Zoom profile page, click the Settings tab on the left side navigation.
+Scroll down the page until you find Only authenticated users can join meetings. 
+If the setting is enabled (the toggle is blue), click the toggle to turn it off. Your settings will save.  
+Why isn't my calendar pulling meetings?
+If you have sent a meeting invite, but are not seeing the meeting in the your Scheduled meetings list, check the calendar that your Salesloft account is linked to.
+
+Most likely you have connected your calendar to an alternative email calendar. For example, your calendar may be synced to your standard Gmail address, but your Salesloft login uses your work email address. 
+
+Conversations searches for the same calendar email as your Salesloft email address (aka, the email address you use to login).
+
+There are two possible solutions to this error:
+Sync your calendar to the same email address you use as your login.
+Contact Support to override the default and recognize the alternative calendar. 
+Missing Call Transcript
+Your call transcript may be missing for one of the following reasons:
+Processing is not complete: While the bot is working as fast as possible, some transcripts may take longer than others
+Error with the transcript: If the transcription is still not available after 5 minutes, contact Support so that our support engineers can help.
+Email Notifications Did Not Send
+Similar to the missing calendar schedules, check the calendar that your Salesloft account is linked to. The email notifications send to your Salesloft email. 
+
+If you have connected your calendar to an alternative email address other than the one of your Salesloft account:
+Sync your calendar to the same email address you use as your login.
+Contact Support to override the default and recognize the alternative calendar. 
+Words Do Not Appear in Search
+Transcription elastic searches recognize some words or phrases as "stop words." A stop word cannot be searched because they are not considered to add value to the conversation. 
+ 
+ 
+Last Modified By
+Raequel Sank, 1/10/2023 7:15 PM
+Title
+Conversations Troubleshooting Guide
+URL Name
+Conversation-Intelligence-Troubleshooting-Guide
+Conversations
+Salesloft Knowledge
+Conversations Essentials
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

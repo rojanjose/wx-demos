@@ -1,0 +1,33 @@
+USER GUIDES
+Why Isn't My Calendar Syncing?
+
+Mar 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+In order for Calendar Sync to work it must be enabled by a team admin and then set up by each user.
+
+If your calendar isn't syncing after you set up your email, a block on the backend may be preventing calendar retrieval.
+
+If this occurs, you will see an error message that prompts you to contact Salesloft Support. 
+
+
+
+You can select the green Contact Support button to submit a support ticket regarding this issue. You may also attempt to sync your calendar from the Calendar page in your Personal Settings.
+ 
+Last Modified By
+Stephanie Griffith, 3/10/2023 9:59 PM
+Title
+Why Isn't My Calendar Syncing?
+URL Name
+Why-Isn-t-My-Calendar-Syncing
+Salesloft Knowledge
+User Guides
+User Guides FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

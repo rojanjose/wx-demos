@@ -1,0 +1,104 @@
+CADENCES + TASKS
+Multi-Touch Cadence Workflows
+
+May 15, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Cadences come in all shapes and sizes, but your most common question is likely going to be "what works best in a Cadence?" One common methodology that's proven successful is executing different channel steps back-to-back, like calling a prospect and immediately following with an email or sending an email in conjunction with connecting on LinkedIn. 
+
+Salesloft's Multi-Touch Cadence workflows allow you to put this method into action. Multi-touch lets you run a day's steps for a prospect all at one time. 
+
+In this article, we will walk through Multi-Touch Cadence workflows setup and execution, including: 
+Create a Multi-Touch Cadence
+Edit a Cadence to Add Multi-Touch
+Run Multi-Touch Steps
+View Multi-Touch Steps from the Person's Profile Page
+View Multi-Touch Steps from the Cadence People Page
+Examples of Multi-Touch Cadences
+Create a Multi-Touch Cadence
+Multi-Touch Cadences are set up from the Cadence Overview page. You can set Multi-Touch for Phone, Email, Other, or Integration steps.
+
+Things to Note:
+Multi-Touch steps must be set to run on the same Day. 
+You cannot set Multi-Touch on an automated email step, since the objective is to run them back to back. 
+Multi-Touch for threaded email steps is coming soon. 
+When you have steps that need to be executed back to back on the same day, they must be marked as Multi-touch. When it is marked as Multi-touch, the step will be due immediately after the previous step. To set up Multi-Touch Cadences, follow these steps: 
+Open a Cadence and go to the Cadence Overview Page or Create a Cadence. 
+Find the step that needs to be included in the Multi-Touch group. This will include the 2nd, 3rd, + step(s) for a certain day in your Cadence.
+Things to Note: The first step in a multi-touch grouping should not have the ‘Multi-touch checkbox checked.
+Click Edit Step over the 2nd step for that Cadence day. The Edit Step module will appear.
+ From the module, click the checkbox for Multi-touch. This will enable the Multi-Touch functionality. 
+Click Save. 
+ 
+
+ 
+When the Mutli-touch checkbox is selected, a Multi-touch flag will also appear on the Cadence Overview Page. This way you can quickly see Multi-Touch groupings that have been setup.
+ 
+Edit a Cadence to Add Multi-Touch
+If you would like to add Multi-Touch steps to an existing Cadence, you can edit the Cadence to add the Multi-touch tags and perform back-to-back actions.
+
+To learn more about editing the step to include multi-touch, check out the Edit an Existing Cadence article. 
+Run Multi-Touch Steps
+Your Cadence workflow is slightly different for the standard Cadence when you perform multi-touches. Typically, you work through one type of action at a time – like all of your email steps due for a Cadence.
+
+Multi-touch steps are a packaged deal. So, instead of moving to the next Person after you run a step, you will run your follow-up step immediately after the first step is completed on the same Person. 
+
+Let's walk through an example. Say you create a Multi-Touch Cadence with Phone and Email steps. You add three People to the Cadence. When those People are due to run the Cadence steps, both steps will appear as due inside the Home Dashboard Cadences Panel or your Cadence Side Panel. 
+ 
+When you click the Due button to Run Cadence Steps, the Cadence workflow panel will open. The Salesloft app will redirect to the Person Profile page of the first Person due for the Cadence step.
+
+In the Cadence workflow panel, you will see the list of steps to complete the multi-touches. The top of the workflow panel will have the prospect's name. Each card under the Person's name displays the type of step and step name.
+ 
+
+Things to Note: The "send all" option will not be available for email steps set to Multi-touch since the idea behind a multi-touch step is to complete the steps for that Person back-to-back. For example, if you send 50 emails out at one time, you cannot immediately call 50 People. 
+
+The Cadence workflow will automatically open the first step in the Multi-Touch grouping. Once the first step has been completed (ex: Click Send on an email), the second step will automatically open. You will stay on the Person’s Profile page the entire time you are running Cadence steps due to that Person. Once all steps are completed for a Person, the Cadence workflow will open the next Person due with the multi-touch panel.
+
+Things to Note:
+If you would like an email step to land in the prospect's inbox later that day, you can still schedule it for a specific time in the Cadence workflow.
+You can run the Multi-Touch steps in any order. Click on the card to open the step panel.
+If you want to view the list of People due in the Cadence that day, click the back button at the top of the Cadence Workflow Panel.
+ 
+ 
+View Multi-Touch Steps from the Person's Profile Page
+The Person Activities Panel on the Person Profile page (and the Account Profile Page Activities Panel) will show all multi-touch steps in the Upcoming Actions. 
+
+Whenever a Multi-Touch step’s date is updated, all Multi-Touch step action’s dates are updated as well.
+
+If Multi-Touch steps are removed from Cadence, all Multi-Touch steps are removed from the upcoming view.
+ 
+ 
+View Multi-Touch Steps from the Cadence People Page
+The Cadence People Tab will have labels to show when a Person is running Multi-Touch steps.
+ 
+Example of Multi-Touch Cadences
+Now that we've walked through how to set up and run Multi-Touch Cadences, you may be bursting at the seams to put them into action, but slightly overwhelmed at the possibilities. 
+
+Here are some example Multi-Touch Cadences to help get you started: 
+New Rep Introduction
+This Cadence depends on sending emails paired with LinkedIn steps to help introduce a new rep to the Account. 
+ 
+Pilot Engagement
+This Cadence depends on sending emails paired with Other steps, like research or admin work. 
+ 
+Want more ideas? Check out the Big Book of Cadences.
+ 
+ 
+Last Modified By
+Stephanie Griffith, 5/15/2023 5:55 PM
+Title
+Multi-Touch Cadence Workflows
+URL Name
+Multi-Touch-Cadence-Workflows
+Salesloft Knowledge
+Cadences + Tasks
+Create A Cadence
+Run A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

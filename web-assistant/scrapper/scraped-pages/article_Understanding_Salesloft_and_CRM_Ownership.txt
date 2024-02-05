@@ -1,0 +1,77 @@
+CRM
+Understanding Salesloft and CRM Ownership
+
+Aug 2, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+To most people in business, an owned record is the account or customer that you are in charge of. Salesloft offers the Person and Account Owner field in order to convey similar information. 
+
+While the idea of ownership seems simple enough, things become a little more complex when you transfer ownership between different users or between your engagement platform (Salesloft) and your CRM. 
+
+In this article, you will learn what ownership means in the different platforms and how they can be managed, including: 
+Salesloft Owner
+Options for Updating the Salesloft Owner
+CRM Owner
+How the CRM Owner Is Determined
+Salesloft Owner
+The Salesloft Owner is, simply, the Salesloft user who is responsible for the actions related to a Person or Account in Salesloft. If someone is the Salesloft Owner of a Person record in Salesloft, that Person will appear under the Owner's People list view by default.
+
+The Salesloft Owner is determined based on one of the following factors:
+A Person is imported via CRM List, Report, or Campaign: The Salesloft Owner will be the user who imports the record.
+Things to Note: If you re-import an already imported person (purposefully check the shaded people) the Salesloft owner does NOT update to the re-importing person, but rather remains the original owner prior to re-import.
+A Person is imported via CSV: By default, People being imported into Salesloft will be assigned to the user that does the importing. When importing a CSV, you can assign the contact to any Salesloft user. This way, you can import new People to Salesloft and assign them to multiple different users at the same time.
+A Person is imported as a one-off record from your CRM: The Salesloft Owner will be the user who imports the record.
+A Person is created in Salesloft via an Automation Rule: The Salesloft Owner will be the same as the CRM Owner.
+Things to Note: Your team must have CRM Owner ID mapped and user must be mapped in CRM Connector User Management.
+In the event that the CRM Owner ID is not mapped, user management is not set up, or the CRM Owner is not a Salesloft User, the Owner will be the CRM Connector Integration User.
+Options for Updating the Salesloft Owner
+While the Salesloft Owner is typically determined upon import, there are ways to edit the field to a different Salesloft user. Some reasons you may want to update Salesloft ownership include:
+Sales rep transferring ownership to an account or sales executive.
+A sales rep transferring to another SDR or BDR.
+CRM ownership updates and Salesloft needs to replicate the ownership.
+A Salesloft user leaves the company, and their records need to be transferred to a different user.
+To manually update Salesloft Owner from a Person Record, update the Salesloft Owner when editing a Person Record in Salesloft from the Person's Profile page.
+
+To manually update Salesloft Owner for multiple Person Records at the same time, update the Salesloft Owner from the Person list view. Here you can select multiple Person Records and update their Salesloft Owner en masse.
+
+Finally, you can update the Salesloft Owner via Automation Rules. There are two actions to update the Salesloft Owner using a Salesloft Automation Rule:
+Set Salesloft Owner to CRM Owner: When this action fires, it updates the Salesloft Owner to the CRM Owner.
+Things to Note: Based on CRM Owner ID & User Management mapping in the CRM Connector.
+Set Person Field “Salesloft Owner”: This action allows an admin to select a specific Salesloft user from a dropdown menu. When a record matches a rule with this action, their Salesloft Owner will be updated to the Salesloft user defined in the rule action.
+CRM Owner
+The CRM Owner is the CRM user that owns a record in your CRM. CRM ownership means that any tasks or Opportunities that align to that record are assigned to the Owner.
+
+When a CRM Owner has a Lead or Contact imported into Salesloft, that record syncs with a Salesloft Person Record. The Owner of the record may also sync to Salesloft. This is determined by the Owner CRM ID field on the Person mapping table in Salesloft.
+
+Things to Note: This requires Salesloft User Management mapping in the CRM Connector for all users.
+
+Additional Ownership fields include:
+CRM Owner (Account): The CRM Account Owner. This is based on the Owner CRM ID field and also requires the Account Owner be mapped in User Management in Salesloft.
+CRM Owner (Opportunity): The CRM Opportunity Owner. This is based on the Owner CRM ID field and also requires the Opportunity Owner be mapped in User Management in Salesloft.
+How the CRM Owner Is Determined
+The CRM Owner is determined by the following data points:
+CRM Owner ID mapped in Salesloft field configuration (Lead, Contact, Account, Opportunity).
+Things to Note: This can be ANY User lookup field in CRM.
+The Salesloft user must be mapped to a CRM Username (CRM Connector - User Management) in order for the Salesloft Owner to be populated.
+Things to Note: If the CRM Owner is not mapped in User Management, the CRM Owner will be displayed as "Unmapped Owner" in Salesloft.
+If the CRM Owner changes in your CRM, the CRM Owner will automatically update in Salesloft as well.
+Things to Note: In order to show the correct user, User Management configuration is required.
+Last Modified By
+Briana Morgan, 8/2/2022 8:26 PM
+Title
+Understanding Salesloft and CRM Ownership
+URL Name
+Understanding-Salesloft-and-CRM-Ownership
+Salesloft Knowledge
+Salesforce
+CRM
+CRM Essentials
+Salesforce User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

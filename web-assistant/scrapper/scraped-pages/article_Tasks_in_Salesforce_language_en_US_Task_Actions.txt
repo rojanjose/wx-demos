@@ -1,0 +1,85 @@
+USER GUIDES
+SALESLOFT CONNECT
+CONNECT FOR SALESFORCE
+Tasks in Salesforce
+
+Mar 3, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Tasks in Salesloft create and handle one-off actions.
+
+These events will sync to the appropriate CRM records in Salesforce to give increased visibility to other sellers and managers in the organization.
+
+Specifically, you can create one-off Call or Email Tasks that is assigned with a date and time inside of the Connect for Salesforce Sidebar. After the tasks is created, you will receive a Chrome notification  when the time is reached.
+
+Things to Note:
+Tasks may only be assigned to People who have been imported into Salesloft.
+To receive notifications, Chrome Notifications must be enabled . 
+Once a Tasks is created, you can run it with a single click automatically leveraging the Dialer and email compose window. Once a Task is complete, the event will automatically sync to Salesforce, providing a higher level of visibility across the organization.
+
+To access Tasks, open the Salesloft sidebar while using Connect for Salesforce and click the top tab with the checkmark on it.
+ 
+In this article, you will learn about managing tasks from Salesforce, including: 
+Create a Task in Salesforce
+The Tasks List in Salesforce
+Complete a Task in Salesforce
+Task Actions
+Create a Task in Salesforce
+Before you can complete one-off actions via Tasks, you must create the Tasks to work out of. Follow these steps to create a task:
+In Salesforce, click the Salesloft icon in the lower right hand corner to open the Salesloft side panel.
+Click the Tasks icon in the Side panel.
+Click Create Task. The Sidebar will open to the Create Tasks module. 
+Add a Subject for the tasks. The Subject can be anything the user would like to help them remember details about this task, up to 255 characters.
+Choose from one of the following Tasks Types:
+Call
+Email
+Add the Related Person. The Related Person is the Person in Salesloft linked to this scheduled action.
+Confirm the Assignee. The Assignee will be the Salesloft user who runs the Task. Typically, the Assignee will be you, so you will see your name. However, if you was to give the Task to another team member, use the dropdown menu to find and select their name.  
+Due Date should be the date the user wants to complete this action. Users can optionally add a time to the Due Date which will surface a chrome notification to the user. This is useful for any action that is time sensitive like a scheduled call.
+Click Set Task Reminder to add a specific time to complete the Tasks. When you click Set Task Reminder, the Reminder Time (15 Minutes) text box will appear. Enter a time of day or use the up down arrows to adjust the time.
+If you change your mind and don't wish to set a reminder time, click the minus icon to the right of the Reminder text box to cancel. 
+Click Create Task to save.  
+ 
+The Tasks List in Salesforce
+Tasks that have not yet been completed will display in this list view. Tasks are ordered by Due Date with overdue Tasks appearing at the top of the list.
+
+Each tasks shows the following details:
+Tasks Type: Icon that signifies the type of tasks to be completed. 
+Subject: Description of the tasks. 
+Person Name and Account: Salesloft Person the tasks will be logged to. If the Person and Account are linked in Salesloft, they will appear as a blue link that you may click to view them in Salesloft. 
+Due Date and Time if applicable
+Complete a Task in Salesforce
+When you are ready to complete a task, hover over the Task card and either a Call or Email button will display depending on the task type.
+
+Clicking the Call button will open the Salesloft Dialer with the Person's number automatically input.
+
+Clicking the Email button will open a new email pane. Type a new email or insert a template from this view.
+
+Finishing a call or sending an email will complete the task and remove it from the user's view. The completed task will sync to Salesforce as a completed activity.
+Task Actions
+When you hover over a task, you will have the option to select and perform the task action or you can click the down arrow to open additional actions.
+
+You can perform the following actions for any tasks for in the tasks list: 
+Mark Complete: If you reply to a threaded email chain outside of Salesforce or use a different phone line to complete a call, choose the option to 'Mark Complete which will complete the task and remove it from the Task view. Tasks marked complete will also sync to Salesforce as a completed activity.
+Edit Task: To edit any information inside of a Task, access Edit from the drop-down on an individual Task. For example, a Task may need to get rescheduled farther into the future. This can be achieved by using the edit function.
+Delete Task: To delete a Task, select Delete from the drop-down on an individual Task.
+ 
+ 
+Last Modified By
+Stephanie Griffith, 3/3/2022 4:47 PM
+Title
+Tasks in Salesforce
+URL Name
+Tasks-in-Salesforce
+Salesloft Knowledge
+Salesloft Connect
+User Guides
+Connect For Salesforce
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

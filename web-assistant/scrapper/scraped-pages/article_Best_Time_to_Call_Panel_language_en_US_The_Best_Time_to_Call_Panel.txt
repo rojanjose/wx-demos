@@ -1,0 +1,91 @@
+ANALYTICS + REPORTING
+Analytics Overview: Best Time to Call Panel
+
+Jul 13, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Best Time to Call panel allows you to make sure you are calling prospects at the most opportune time. This panel generates a chart, the Best Time to Call Chart, based on the dates you select in your Analytics Filters. 
+
+The Best Time to Call chart displays opportune times– in your time zone– to make calls based on the number of logged calls and call conversion rates within your selected date range. 
+
+In this article, you will learn about the Best Time to Call panel, including:
+The Best Time to Call Panel 
+How to Read the Best Time to Call Chart
+Best Time to Call Panel Results
+Panel Drill Down: Calls Report
+The Best Time to Call Panel
+The Best Time to Call panel contains the following details from the top of the panel working our way down:
+Best Time to Call: Panel name
+Optimal Time to Call: (Metric) The Optimal Time to Call metric is based on a minimum of ten calls and shows the best time to call today.
+View Report: (Drill down to more details) Takes you to the Calls Standard Report. 
+Best Time to Call Chart: The calls chart uses bubbles to display the best times to call. The chart shows how well each hour has performed based on the date range and group filter.
+Things to Note:
+In order for the chart to generate, there must be greater than 10 calls logged for any hour within the dates you select in your Analytics Filters.
+To see weekend results click including Saturdays and Sundays at the bottom of the date filter.
+ 
+Chart hover state: Hover over an individual bubble to learn more about that bubble's related metrics, including:
+Hour of day
+Number of calls during that hour
+Number of Connected Calls made in that hour
+Conversation rate
+ 
+How to Read the Best Time to Call Chart
+When looking at the Best Time to Call chart and all of those bubbles, there are two main things to consider: 
+Bubble size = number of calls logged
+Bubble color = Connected Call rate (connected disposition divided by calls logged)
+The bubble size is based on the number of calls logged. The more calls that are logged during that time slot, the larger the bubble. 
+
+The bubble color relies on the Connected Call rate of your calls. When a calls is logged as Connected, Salesloft recognizes that as a Connected Call. The Connected Call rate takes the number of calls logged with the Connected disposition divided by the total number of logged calls.  
+ 
+Best Time to Call Panel Results
+The different size and color shade of the bubbles in the Best Time to Call panel allow you to infer the success of your call volume at certain times in the day.
+
+Let's take a look at the potential results you may read from the panel and how to interpret that data:
+Large and Dark Shade Bubble 
+This is the most successful combination! The number of calls logged and the connection rates are both at their highest peak when the bubble looks like this. 
+
+Most likely, this will also be your Best Time to Call bubble. 
+ 
+
+ 
+Try to prioritize making calls during this time block. 
+Large and Light Shade Bubble 
+Hours that have large and light shade bubbles means many calls are being logged with minimal success at actually making call connections.
+
+Try calling at different times to boost connection rates. 
+Small and Dark Shade Bubble
+Hours with a small and dark shade bubble mean that your Connected Call rates are high, but your logged calls numbers are lower. 
+
+ 
+It may be worth making more calls during these time blocks to increase your calls logged number and see if you can reach the large and dark share bubble status.
+Small and Light Shade Bubble 
+This bubble means that logged calls and connection rates are both on the low side. 
+ 
+
+ 
+While you don't necessarily have to avoid making calls during this time block, it may be the best use of your time to focus on emails or other channels during the hours where you see these bubbles. 
+ 
+Panel Drill Down: Calls Report
+This panel drills down into the Calls Standard Report, where you can see daily and hourly call results.
+ 
+ 
+ 
+ 
+Last Modified By
+Briana Morgan, 7/13/2022 8:25 PM
+Title
+Analytics Overview: Best Time to Call Panel
+URL Name
+Best-Time-to-Call-Panel
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Overview Panels
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,83 @@
+PEOPLE AND ACCOUNTS
+IMPORTS INTO SALESLOFT
+Import into Salesloft
+
+May 24, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Before you can engage with any Person from Salesloft, they have to actually exist in your Salesloft instance. That may sound complicated (and a little existential), but it simply means the Person needs to be added or imported into the platform.
+
+Salesloft offers multiple import methods so you can add People to your sales engagement platform in the way that best suits your needs. Do you work primarily with Leads or Contacts from a Salesforce instance? Do you gather prospects from mailing lists or conferences? Maybe you prefer to engage a limited number of Contacts, so manually adding People keeps you on top of your tasks? 
+
+In this article, we will walk through the different importing methods and the steps to complete your import into Salesloft, including how to:
+Create a Person
+Import People from a CSV
+Import People from CRM
+ 
+Create a Person
+If you are on a call and learn about a new manager you should be communicating with, would you rather go through the bulk import steps or manually add that Person and their primary contact information so you can engage with them quickly?
+
+That's why Salesloft's first importing method is creating a single Person. Manual adds let you create the Person in Salesloft using their contact information (phone number and/or email address). 
+
+Things to Note: When adding a new Person to Salesloft, you must have either an email address or phone number associated with that Person and a partial name (like J. Smith).
+
+To create a new Person to Salesloft, follow these steps:
+From the People page, click Create People in the upper right-hand corner.
+Select Create Person. The Create Person module will appear. 
+Enter the following primary details. Things to Note: An email address, or at least a partial name and phone number are required. 
+Email Address
+First Name, Last Name
+Office Number and Extension
+Click Show Additional Phone Fields to add the following: 
+Mobile Phone
+Home Phone
+Once you have entered an email address or phone number, you can edit any additional fields you see. The fields include the following:
+Related Account: This will link the Person to an Account that has been previously created in Salesloft. Type in the name of the Account and select the related Account. If the Account does not exist in Salesloft, you can set the Company Name field.
+Things to Note: Setting the related Account to the Company Name will not create a new Account in Salesloft.
+Owner: the Salesloft user who is responsible for the actions related to that Person.
+Job Title: Person's job title
+Job Seniority: Identifies the Person's job level based on our predictive model. Select Automatically Set to use Salesloft's Job Seniority algorithm or pick a specific Job Seniority level from the dropdown menu 
+City/State/Country
+Timezone
+Click Create Person to complete the process and add the Person into Salesloft. 
+Alternatively, you can select one of the following: 
+Click Cancel to close the module without creating the Person.
+Click Create and Add Another to complete the process of creating this Person in Salesloft, and then open a blank module so you can add an additional Person.
+
+
+
+SLU: Creating a Person Manually (Video)
+Want to know how to create a Person manually into Salesloft, but prefer a video format? Visit Salesloft University to see the Creating a Person Manually in Salesloft video tutorial. 
+Import People from a CSV
+Whether you are working on an entire Leads list or a particular campaign, entering every single Person manually is not the best use of your time. This is why Salesloft allows you to add People in bulk via CSV files. 
+
+To learn more about CSV imports, including how to complete a CSV import, check out the Import People from a CSV article.
+ 
+Import People from CRM
+The Create People options also shows the option to import People from your Salesforce instance. However, if you click How to Import from Salesforce, you will be directed to this article (if that is how you arrived here, welcome!)
+
+The Salesforce import takes place within your Salesforce instance. When you Download the Salesloft Chrome Extension, the extension adds import buttons to Salesforce. Click the import button from the individual or list view of Leads, Contacts, Accounts, Campaigns, or Reports. For more information and a complete walkthrough of how to import from Salesforce, please check out our Imports from Salesforce article.
+
+Things to Note:
+Imports from Salesforce Lead, Contact, or Account list views will import a maximum of 500 People at a time. If your list contains more than 500 People, the first 500 will be imported.
+Imports from Salesforce reports will import a maximum of 2,000 People at a time.
+Imports from reports only apply to Lead and Contact records and can be imported from any Report Type in a tabular format as long as there is at least one column in the saved Report with valid Lead or Contact ID values. 
+Last Modified By
+Briana Morgan, 5/24/2023 2:03 PM
+Title
+Import into Salesloft
+URL Name
+Import-into-Salesloft
+Salesloft Knowledge
+People And Accounts
+People
+Imports Into Salesloft
+People Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

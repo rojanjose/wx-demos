@@ -1,0 +1,116 @@
+USER GUIDES
+MEETINGS/CALENDAR
+Salesloft Meetings and Your Calendar
+
+Nov 21, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft Meetings are designed to work along with your calendar. In fact, a calendar connection is required. 
+
+There are certain calendar features, like syncing meetings in real time and Lofting invites directly from your calendar that make Salesloft Meetings even for accessible and valuable. 
+
+In this article, you will learn different calendar settings and your Salesloft Meetings, including: 
+
+Lofting Google Calendar Invites
+Log Custom CRM Fields for Events from Google Calendar
+Lofting Google Calendar Invites
+
+If you're a G Suite user, you probably live on your Google Calendar page. While scheduling meetings within Salesloft is possible, you can also schedule meetings from your Google Calendar and Loft the meeting invite so everything syncs into Salesloft. Google Calendar Lofting performs the following: 
+
+Logs new events to Salesloft and Salesforce directly from the Google calendar.
+Allows you to retroactively log events that were not previously synced to Salesloft. To complete this, go into your Google calendar and edit the event. In the event details, toggle Lofting on, and click Loft It.
+Control which Person record an event will be logged in Salesloft if there are multiple guests
+Designate which CRM record will log an event in Salesforce.
+Create a new Person in Salesloft if an invitee doesn't have a Person record in the Salesloft platform.
+
+
+Things to Note: Microsoft meeting links are not supported when Lofting calendar invites. When lofting calendar invites that contain Microsoft meeting links, you will need to manually add the meeting link to the description field in Salesloft. 
+
+
+To enable Lofting in your Google Calendar, you must have a connected Google Calendar and an up-to-date Salesloft Chrome Extension . In the Chrome Extension, turn on the Event Lofting Enabled setting. This setting controls whether the Lofting feature will display in your calendar.
+ 
+
+
+ 
+
+Once the setting is enabled, the Lofting toggle and CRM Record Selection widget will appear when you create of edit events in your calendar.
+
+Things to Note: Lofting a Google Calendar invite will not appear from the event invite slots on the calendar page. In the event module, click More Options to go to the calendar event page. This is where the Lofting toggle will appear. 
+
+The page will appear as the standard Google Calendar invite page until Lofting is turned on. 
+
+Lofting will be automatically disabled for certain events. If any of these occur, hover over the toggle to view the reason Lofting is disabled. Errors include the following reasons: 
+
+Events without guests
+The primary guest is on the Domain Exclusion List (both Team and Personal)
+Private events
+Events with the guests not existing in Salesloft: In cases where the user does not have permission to Create People when Lofting.
+
+Follow these steps to Loft Google Calendar invites: 
+
+Go to your Google Calendar. Create an event time in the calendar. Click More Options.
+Add guest(s) to your invite list. 
+Toggle Lofting on. The first added guest will populate as the Lofting to Person.
+(Optional) Manually update the main guest by selecting the Lofting to contact from the dropdown. This will change which Person the meeting invite will log to in Salesloft. 
+(Optional) Teams with CRM Record Selection enabled will see the CRM record selection widget. After adding a guest, the records will be selected by default if that guest has an existing record in Salesforce with that same email address. Update the default records by clicking the Edit button and selecting a different record in the pop-up.
+Click Loft It to the right of the meeting title. The event will be logged to Salesloft and Salesforce. If an event is Lofted and the Person doesn’t exist in Salesloft, you will receive a  prompt to select what action they would like to take:
+Save Without Logging: Will the send the meeting invite without logging the meeting in Salesloft.
+Create Person and Log: Add the Person in Salesloft and logs the meeting invite to their record.  
+Log Custom CRM Fields for Events from Google Calendar
+
+Some teams track additional information about meetings using custom fields to advanced reporting in your CRM. 
+
+Logging custom CRM fields for events allows your team to set up custom fields that each user can select while creating an event from their Google calendar and seamlessly log it to their CRM.
+
+Things to Note: This feature is currently only available for Google Calendar users. 
+
+Before fields can be logged from your calendar, a team admin will need to create a custom activity field that will log for events inside your team's Activity Field configuration. Follow these steps to set up a custom field: 
+
+Navigate to the Activity Fields tab by accessing your Team Settings, selecting Field Configuration, and clicking the Activity Fields tab.
+Scroll to the bottom of the page and click New Additional Field.
+From the picklist, select the CRM Field Name the field will map to.
+To enable specific CRM field logging for events Admins need to check Log Field For Events option. 
+Hit Save.
+
+ 
+
+
+Once custom fields have been added by your admin, the field will be visible inside your Google calendar when scheduling meetings. Updates to the custom fields are immediately synced to  your CRM.
+
+Things to Note: 
+
+Any user on your team that is added to the invite can edit Custom fields for the event regardless Guest permissions settings for this event. 
+Users are not required to Save the event in order to log updates in CRM.
+
+To log a custom field to an event from your Google Calendar, follow these steps: 
+
+In your Google calendar, click Create. The Create Event calendar widget will pop up inside your calendar. 
+Click More Options found to the left of the Save button. You will go to the Create Event page. 
+Enter your event details including title of the event and invitees. 
+Enable Lofting to the invitee by turning the toggle on. This will log the event to Salesloft. Once the toggle is turned on, you will see where the event will log in Salesloft. 
+Below the Lofting setup, you will see any additional custom fields. Use the dropdown menu to select a field. 
+Click Loft It to schedule your meeting. The event and event custom fields will log to Salesloft and Salesforce. 
+Things to Note: 
+To sync calendar events to Salesforce, Salesforce Admins must enable logging meetings as events under CRM Sync Settings, otherwise events will not be logged to Salesforce. 
+If any update to the custom fields is made directly in Salesforce, it will not be reflected on the Google calendar. Updates from the Google calendar might override previously made changes in Salesforce. 
+
+ 
+
+Last Modified By
+Raequel Sank, 11/21/2023 6:15 PM
+Title
+Salesloft Meetings and Your Calendar
+URL Name
+Salesloft-Meetings-and-Your-Calendar
+Salesloft Knowledge
+Meetings/Calendar
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

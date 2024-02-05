@@ -1,0 +1,1329 @@
+ANALYTICS + REPORTING
+Salesloft Metrics Glossary
+
+Nov 16, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Show us the numbers! Data is super important in validating your sales process. Salesloft data takes the activities you perform and provides metrics, or the numbers or percentages associated to actions.
+
+Since there are so many data points available, there are a lot of metrics visible throughout Salesloft. You may even wonder what a certain metric is really showing you or what you're support to do with all of this information.
+
+In this article, we have laid out all of the metrics you can find inside Salesloft's Analytics. Each metric includes a definition, calculation for how that number is determined, where you can find that metric, and additional details. 
+
+ 
+
+ 
+
+A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z
+
+A
+Accounts Touched
+
+Type: Accounts/People | Calculation: count(Unique Accounts with a Touch)
+
+Unique number of accounts with activities (emails, calls, integration steps, other steps, and SMS Convos) completed.
+
+Activities per Meeting
+
+Type: Activities | Calculation: sum(total activities) / sum(meetings)
+
+Average number of activities (calls, emails, integration steps, other steps) it takes to book one meeting.
+
+Activities per Opportunity
+
+Type: Activities | Calculation: sum(total activities) / sum(opportunities)
+
+Average number of activities (calls, emails, integration steps, other steps) it takes to create one opportunity.
+
+Activities per Success
+
+Type: Activities | Calculation: sum(total activities) / sum(successes)
+
+Average number of activities (calls, emails, integration steps, other steps) it takes to get a success.
+
+Average Activities Per Day
+
+Type: Activities | Calculation: sum (Emails Sent + Calls Logged + Other Steps + Integration Steps + SMS Convos) / Count(Days)
+
+Average number of activities completed per day. This takes the total number of activities completed and divides it by the number of days in the filtered date range.
+
+Average Deal Size
+
+Type: Deals | Calculation: sum(amount) / sum(closed won deals)
+
+Average contract value for closed won deals.    
+
+The amount is in USD ($) unless multi-currency is enabled (in which the corporate currency will be represented). If opportunity splits are enabled, the total amount only includes the split share of the deal for the rep or team.
+
+Average Duration (Avg. Call Duration)
+
+Type: Calls | Calculation: sum(Call duration in Seconds)/Sum(Calls Dialed)
+
+Average amount of time spent on dialed calls made using the Salesloft Dialer.    
+
+The smallest increment of Avg. Call Duration in analytics is by user by hour.
+
+Average Meetings Attended per Day
+
+Type: Activities | Calculation: sum(meetings attended) / count(days)
+
+AKA: Attended per day
+
+Average number of booked meetings that were also attended on a daily basis.     
+
+On reports and charts, the day corresponds to the day the meeting was booked and not the day the meeting was scheduled to start."
+
+Average Meetings per Day
+
+Type: Activities | Calculation: sum(meetings) /count(days)
+
+AKA: Meetings per day
+
+Average number of booked meetings (and not canceled) on a daily basis.     
+
+This takes the total number of meetings and divides it by the number of days in the filtered date range.
+
+Average Personalization Score (Avg. Personalization)
+
+Type: Emails | Calculation: Average(Personalization Score)
+
+Average personalization scores across a set of emails.    
+
+This counts any email, regardless of if they were sent from a Cadence, Lofted, or one-off emails. One-off emails have 100% personalization. 20-25% average personalization is recommended.
+
+Average Recording Duration (Avg. Recording Duration)
+
+Type: Conversations | Calculation: sum(time in seconds for each recording) / count(recordings)
+
+Average amount of time spent on Conversations recordings. 
+
+The smallest increment of duration is seconds.
+
+Average Sales Cycle
+
+Type: Deals  | Calculation: total deal duration / sum(closed won deals)
+
+Average number of days between deal creation and deal closing for closed won deals.
+
+Average Days to Meeting
+
+Type: Activities  | Calculation: (total meeting window in seconds / total seconds in a day) / sum(meetings booked)
+
+Average number of days it takes to book a meeting.    
+
+This will show the average number of days it took for a Person to book a meeting from the moment they were imported into Salesloft. This is measured from the time of their last meeting booked.
+
+Average Calls Logged Per Day
+
+Type: Calls | Calculation: Sum(Calls Logged)/Count(Days)
+
+Average number of calls logged per day.    
+
+This takes the total number of calls logged and divides it by the number of days in the filtered date range.
+
+Average Other Steps Per Day
+
+Type: Cadences  | Calculation: sum(other steps completed) / count(days)
+
+Average number of other steps completed per day.
+
+This takes the total number of other steps completed and divides it by the number of days in the filtered date range.
+
+Average People Added Per Day
+
+Type: Cadences | Calculation: sum(people added) / count(days)
+
+Average number of people added to cadence per day.    
+
+This takes the total number of people added and divides it by the number of days in the filtered date range.
+
+B
+Bounced
+
+Type: Emails  | Calculation: count(bounced emails)
+
+Total sent emails resulting in a hard or soft bounce status.
+
+% Bounced
+
+Type: Emails | Calculation: Sum(emails bounced)/Sum(emails sent)
+
+AKA Bounce Rate
+
+Percentage of sent emails sent that resulted in a hard or soft bounce.
+
+Less than 5% bounce rate is recommended.
+
+ 
+
+C
+Cadence ID
+
+Type: Cadences  | Calculation : assigned by Cadence
+
+The unique identifier of the Salesloft cadence.
+
+Call Tasks Completed
+
+Type: Tasks | Calculation: count(Call Tasks)
+
+Total number of call tasks with a due date that were completed.
+
+Things to Note: This includes steps in a cadence as well as one off tasks.
+
+
+Call Tasks Deleted
+
+Type: Tasks | Calculation: count (deleted call tasks)
+
+Total call tasks that are skipped or deleted. 
+
+Things to Note: If a Person has multiple skipped steps in a Cadence, each step is counted as deleted.
+
+
+Call Tasks On-Time
+
+Type: Tasks | Calculation: count(on-time call tasks)
+
+Total call tasks that were completed on or before the due date.
+
+
+Call Tasks Overdue
+
+Type: Tasks | Calculation: count(overdue call tasks)
+
+Total call tasks that were completed after the due date. 
+
+Things to Note: A task is counted as overdue only after the task is marked completed. In progress tasks that are past the due date are not counted.
+
+Call Touches Per Success
+
+Type: Accounts/People | Calculation: sum(call touches) / sum(successes)
+
+Average number of Call touches (logged call activities on an account) it took to get a success.
+
+Calls Completed
+
+Type: Calls | Calculation: count(completed call steps)
+
+Total cadence call steps completed.    
+
+Only “Log and Complete” counts toward a completed call step.
+
+Calls Dialed
+
+Type: Calls | Calculation: count(Calls Dialed)
+
+Total calls made using the Salesloft Dialer.    
+
+These calls are set by the status assigned by the Dialer provider. Calls dialed include all calls with the following status: Completed Busy No-answer Canceled Failed.
+
+Calls Logged
+
+Type: Calls | Calculation: count(Calls Logged)
+
+Total calls that have been logged by the user.    
+
+This can include calls as part of a cadence as well as one-offs. Both “Log Only” and “Log and Complete” count towards the calls logged metric, but only “Log and Complete” counts toward a completed call step.
+
+Calls On Time
+
+Type: Calls | Calculation: count(on-time call steps)
+
+Total cadence call steps that were completed on or before the due date.
+
+% Calls On Time
+
+Type: Calls  |  Calculation: Sum(On-time call steps)/sum(Completed call Steps) 
+
+Total cadence call steps that were completed after the due date.     A step is counted as overdue only after the step is marked completed. In progress steps that are past the due date are not counted.
+
+Calls Overdue
+
+Type: Calls | Calculation: count(overdue call steps)
+
+Total cadence call steps that were completed after the due date.    
+
+A step is counted as overdue only after the step is marked completed. In progress steps that are past the due date are not counted.
+
+% Calls Overdue
+
+Type: Calls | Calculation: Sum(overdue call steps)/sum( Completed call Steps)
+
+Percentage of cadence call steps that were completed after the due date.
+
+Calls Skipped
+
+Type: Calls | Calculation: count (skipped call steps)
+
+Total cadence call steps that are skipped.    
+
+If a Person has multiple skipped steps in a Cadence, each step is counted.
+
+% Calls Skipped
+
+Type: Calls | Calculation: Sum (skipped call steps)/sum(Completed call Steps + Skipped call Steps)
+
+Percentage of cadence call steps that were skipped.
+
+Clicked
+
+Type: Emails | Calculation: count (Clicked)
+
+Total sent emails that resulted in at least one link being clicked.
+
+% Clicked
+
+Type:  | Calculation: Sum(emails clicked)/Sum(emails delivered)
+
+AKA Click Rate. 
+
+Percentage of delivered emails that had at least one link click.   
+
+5-10% is considered a good benchmark. 
+
+Clicks
+
+Type: Emails | Calculation: count (Clicks)
+
+Total email links that have been clicked.
+
+Closed Won
+
+Type: Deals | Calculation: sum(pipeline amount for closed won deals)
+
+Total amount of pipeline represented by deals with a Closed Won status.    
+
+The amount is in USD ($) unless multi-currency is enabled (in which the corporate currency will be represented). If opportunity splits are enabled, the total amount only includes the split share of the deal for the rep or team.
+
+Completed Steps
+
+Type: Cadences | Calculation: Sum(email steps completed + call steps completed + integration steps completed + other steps completed)
+
+Total number of cadence steps completed.    
+
+This does not include one-off activities.
+
+Connected Calls
+
+Type: Calls | Calculation: count (Calls logged with Connected disposition)
+
+Total calls logged with the standard disposition Connected.
+
+% Connected Calls
+
+Type: Calls | Calculation: sum(Connected Calls) /sum(Calls Logged)
+
+AKA Connected Rate. 
+
+Percentage of calls logged that have the standard disposition of Connected.     
+
+5-10% is considered a good benchmark.
+
+Connected Calls per Meeting
+
+Type: Calls | Calculation: sum(connected calls) / sum(meetings)
+
+Average number of calls logged with the Connected disposition it takes to book one meeting.
+
+Connected Calls per Opportunity
+
+Type: Calls | Calculation: sum(connected calls) / sum(opportunities)
+
+Average number of calls logged with the Connected disposition it takes to create one opportunity.
+
+Create Date
+
+Type: Cadences | Calculation: Issued when the Cadence is created
+
+The date the cadence was created in Salesloft.
+
+D
+% Deleted Call Tasks
+
+Type: Tasks | Calculation: Sum (deleted call tasks) / sum(Completed call tasks + Deleted call tasks)
+
+Percentage of call tasks that were skipped or deleted.
+
+
+% Deleted Email Tasks
+
+Type: Tasks | Calculation: Sum (deleted email tasks) / sum(Completed email tasks + Deleted email tasks)
+
+Percentage of email tasks that were skipped or deleted.
+
+
+% Deleted General Tasks
+
+Type: Tasks | Calculation: Sum (deleted general tasks) / sum(Completed general tasks + Deleted general tasks)
+
+Percentage of general tasks that were skipped or deleted.
+
+
+% Deleted Integration Tasks
+
+Type: Tasks | Calculation: Sum (deleted integration tasks) / sum(Completed integration tasks + Deleted integration tasks)
+
+Percentage of integration tasks that were skipped or deleted.
+
+
+% Deleted Rhythm Tasks
+
+Type: Tasks | Calculation: Sum (deleted rhythm tasks) / sum(Completed rhythm tasks + Deleted rhythm tasks)
+
+Percentage of Rhythm tasks that were skipped or deleted.
+
+Delivered
+
+Type: Emails | Calculation: Sum (Emails Sent) - Sum (Bounced)
+
+Total emails sent that were delivered and not bounced.
+
+Disposition Name
+
+Type: Calls | Calculation: 
+
+The names of each standard and custom disposition that has been logged based on your report filters.
+
+E
+Effectiveness Score
+
+Type: Accounts/People | Calculation: sum (Email touches per success + Call touches per success + Other touches per success)
+
+Average number of account activities (calls, emails, and other steps) it takes to get a single success.    
+
+Email Touches Per Success
+
+Type: Accounts/People | Calculation: sum(email touches) / sum(successes)
+
+Average number of sent emails it took to get a success.
+
+Emails Completed
+
+Type: Emails | Calculation: count(completed email steps)
+
+Total cadence email steps completed.
+
+Emails On Time
+
+Type: Emails | Calculation: count(on-time email steps)
+
+Total cadence email steps that were completed on or before the due date.
+
+% Emails On Time
+
+Type: Emails | Calculation: Sum(On-time email steps)/sum( Completed email Steps)
+
+Percentage of cadence email steps that were completed on or before the due date.
+
+Emails Overdue
+
+Type: Emails | Calculation: count(overdue email steps)
+
+Total cadence email steps that were completed after the due date.    
+
+A step is counted as overdue only after the step is marked completed. In progress steps that are past the due date are not counted.
+
+% Emails Overdue
+
+Type: Emails | Calculation: Sum(overdue email steps)/sum( Completed email Steps)
+
+Percentage of cadence email steps that were completed after the due date.
+
+Emails Skipped
+
+Type: Emails | Calculation: count (skipped email steps)
+
+Total cadence email steps that are skipped.    
+
+If a Person has multiple skipped steps in a Cadence, each step is counted.
+
+% Emails Skipped
+
+Type: Emails | Calculation: Sum (skipped email steps)/sum(Completed email Steps + Skipped email Steps)
+
+Percentage of cadence email steps that were skipped.
+
+Email Tasks Completed
+
+Type: Tasks | Calculation: count(Email Tasks)
+
+Total number of email tasks with a due date that were completed.
+
+Things to Note: This includes steps in a cadence as well as one off tasks.
+
+Email Tasks Deleted
+
+Type: Tasks | Calculation: count (deleted email tasks)
+
+Total email tasks that are skipped or deleted. 
+
+Things to Note: If a Person has multiple skipped steps in a Cadence, each step is counted as deleted.
+
+
+Email Tasks On-time
+
+Type: Tasks | Calculation: count(on-time email tasks)
+
+Total email tasks that were completed on or before the due date.
+
+
+Email Tasks Overdue
+
+Type: Tasks | Calculation: count(overdue email tasks)
+
+Total email tasks that were completed after the due date. 
+
+Things to Note: A task is counted as overdue only after the task is marked completed. In progress tasks that are past the due date are not counted.
+
+External ID
+
+Type: Cadences | Calculation: Selected by user in Cadence
+
+The cadence external identifier mapped in advanced cadence settings.
+
+F
+First Step Completed
+
+Type: Cadences | Calculation: count(step 1 completed)
+
+Total number of first steps completed (step number 1, includes variants).
+
+Function
+
+Type: Cadences | Calculation: 
+
+The functionality type of the cadence: Outbound, Inbound, Event, Other.
+
+G
+General Tasks Completed
+
+Type: Tasks | Calculation: count(general Tasks)
+
+Total number of general tasks with a due date that were completed.
+
+
+General Tasks Deleted
+
+Type: Tasks | Calculation: count (deleted general tasks)
+
+Total general tasks that are skipped or deleted.
+
+
+General Tasks On-time
+
+Type: Tasks | Calculation: count(on-time general tasks)
+
+Total general tasks that were completed on or before the due date.
+
+
+General Tasks Overdue
+
+Type: Tasks | Calculation: count(overdue general tasks)
+
+Total general tasks that were completed after the due date. 
+
+Things to Note: A task is counted as overdue only after the task is marked completed. In progress tasks that are past the due date are not counted.
+
+Group Name
+
+Type: Teams | Calculation: 
+
+The Salesloft team member's group assignment at the time of the activity. 
+
+If the team member is not assigned to a group, N/A will display. If the team member has changed groups, the metrics from a previous group will not be re-assigned to the new group.
+
+ 
+
+H
+Hot Leads
+
+Type: Activities | Calculation: Count(new hot leads created)
+
+Total number of new hot leads created (Person classified as hot leads based on custom configuration).    
+
+A hot lead can be created and deleted within the same period as the report, but the hot leads metric will only reflect the number of hot leads created.
+
+I
+Integration Steps
+
+Type: Cadences | Calculation: count (Integration Steps completed)
+
+Total completed cadence integration steps across all integrations, such as LinkedIn, Sendoso, etc.
+
+Integration Tasks Completed
+
+Type: Tasks | Calculation: count(integration Tasks)
+
+Total number of integration tasks with a due date that were completed.
+
+Things to Note: This includes steps in a cadence as well as one off tasks.
+
+
+Integration Tasks Deleted
+
+Type: Tasks | Calculation: count (deleted integration tasks)
+
+Total integration tasks that are skipped or deleted. 
+
+Things to Note: If a Person has multiple skipped steps in a Cadence, each step is counted as deleted.
+
+
+Integration Tasks On-time
+
+Type: Tasks | Calculation: count(on-time integration tasks)
+
+Total integration tasks that were completed on or before the due date.
+
+
+Integration Tasks Overdue
+
+Type: Tasks | Calculation: count(overdue integration tasks)
+
+Total integration tasks that were completed after the due date. 
+
+Things to Note: A task is counted as overdue only after the task is marked completed. In progress tasks that are past the due date are not counted.
+
+ 
+
+J
+K
+L
+Last Touched
+
+Type: Accounts/People | Calculation: 
+
+The date the most recent activity (email, call, integration steps or other steps) was completed on the account.
+
+Last Used
+
+Type: Templates | Calculation: 
+
+The date the template was most recently used in an email activity (one off email sent or email cadence step completed).
+
+Lead Lifetime
+
+Type: Accounts/People | Calculation: (total person lifetime in seconds / total seconds in a day) / sum(successes)
+
+Total elapsed time required to achieve a Success for a Person.    
+
+This will show the average number of days it took for a Person to reach success from the moment they were imported into Salesloft. This is measured from the time of their last Success. If they have never had Success clicked, it is the time they were imported into Cadence.
+
+LinkedIn Completed Steps
+
+Type: Cadences | Calculation: Total completed LinkedIn integration steps (research, connections, inmail, introductions).
+
+Total completed LinkedIn integration steps (research, connections, inmail, introductions).
+
+LinkedIn Connections
+
+Type: Cadences | Calculation: count(Completed LinkedIn Connection Steps)
+
+Total completed LinkedIn steps that are connections.
+
+LinkedIn InMail
+
+Type: Cadences | Calculation: count(Completed LinkedIn InMail Steps)
+
+count(Completed LinkedIn Connection Steps)
+
+LinkedIn Introductions
+
+Type: Cadences | Calculation: count(Completed LinkedIn Introduction Steps)
+
+Total completed LinkedIn steps that are introductions.
+
+LinkedIn Research
+
+Type: Cadences | Calculation: count(completed LinkedIn Research Steps)
+
+Total completed LinkedIn steps that are research.
+
+M
+Meeting Conversion Rate
+
+Type: Activities | Calculation: sum(Meetings Booked) / sum(People Touched)
+
+Percentage of people touched that resulted in a new meeting booked.
+
+Meetings
+
+Type: Activities | Calculation: sum (Meetings booked) - sum (meetings canceled)
+
+Total meetings booked excluding canceled meetings.    
+
+This includes meetings booked as a result of scheduling through Salesloft, synchronized through calendar sync, and lofting invites from the Google calendar.
+
+For cadence reports, meetings are attributed to the last completed cadence step for that Person.
+
+Meetings Attended
+
+Type: Activities | Calculation: count(meetings attended)
+
+AKA: Attended Meetings
+
+Total number of booked and completed meetings that were not marked as no show or canceled.     
+
+Attended are displayed based on when the meeting was originally booked, NOT when the meeting takes place. This count only increases after the scheduled meeting ends. On reports and charts, the day corresponds to the day the meeting was booked and not the day the meeting was scheduled to start.
+
+Meetings Booked
+
+Type: Activities | Calculation: count (Meetings booked)
+
+Total number of meetings booked as a result of scheduling through Salesloft, synchronized through calendar sync, and lofting invites from the Google calendar.
+
+Meetings Canceled
+
+Type: Activities | Calculation: count (meetings canceled)
+
+AKA: Canceled
+
+Total number of booked meetings that were canceled.
+
+% Meetings Canceled
+
+Type: Activities | Calculation: sum(meetings canceled) / sum(meetings booked)
+
+AKA: % Canceled
+
+Percentage of meetings booked that were then canceled.
+
+Meetings per Opportunity
+
+Type: Activities | Calculation: sum(meetings) / sum(opportunities)
+
+Average number of meetings it takes to create one opportunity.
+
+N
+Name
+
+Type: Accounts/People/Cadence/Teams | Calculation: Name entered for record
+
+The name of the record, cadence or user. 
+
+New Deals
+
+Type: Deals | Calculation: count(new deals)
+
+Total number of deals created in the period by the opportunity owner.
+
+New Pipeline Added
+
+Type: Deals | Calculation: sum(pipeline amount for new deals)
+
+Total amount of pipeline represented by deals created in the period by the opportunity owner.    
+
+This metric does not include any deal amount changes after the deal was created. The amount is in USD ($) unless multi-currency is enabled (in which the corporate currency will be represented). If opportunity splits are enabled, the total amount only includes the split share of the deal for the rep or team.
+
+No Show
+
+Type: Activities | Calculation: count(meeting no show)
+
+Total booked meetings that a user has marked as Not Attended to indicate invited attendees did not attend.
+
+% No Show
+
+Type: Activities | Calculation: sum(no show) / sum(meetings)
+
+Percentage of booked meetings that the user marked as Not Attended.
+
+ 
+
+O
+Objection - Competitor
+
+Type: Emails | Calculation: count (Objection - Competitor)
+
+Total email replies with a sentiment of competitor objections.
+
+Objection - No Interest
+
+Type: Emails | Calculation: count (Objection - No Interest)
+
+Total email replies with a sentiment of non interest objections.
+
+Objection - Not the Buyer
+
+Type: Emails | Calculation: count (Objection - Not the Buyer)
+
+Total email replies with a sentiment of not the buyer objections
+
+Objection - Timing
+
+Type: Emails | Calculation: count (Objection - Timing)
+
+Total email replies with a sentiment of timing objections
+
+% On-Time Call Tasks
+
+Type: Tasks | Calculation: Sum(On-time call tasks) / sum(Completed call tasks)
+
+Percentage of call tasks that were completed on or before the due date.
+
+% On-Time Email Tasks
+
+Type: Tasks | Calculation: Sum(On-time email tasks) / sum(Completed email tasks)
+
+Percentage of email tasks that were completed on or before the due date.
+
+
+% On-Time General Tasks
+
+Type: Tasks | Calculation: Sum(On-time general tasks) / sum(Completed general tasks)
+
+Percentage of general tasks that were completed on or before the due date.
+
+On-Time Integration Steps
+
+Type: Cadences | Calculation: count(on-time integration steps)
+
+Total cadence integration steps that were completed on or before the due date.
+
+% On-Time Integration Steps
+
+Type: Cadences | Calculation: Sum(On-time integration steps)/sum( Completed integration Steps)
+
+Percentage of cadence integration steps that were completed on or before the due date.
+% On-Time Integration Tasks
+
+Type: Tasks | Calculation: Sum(On-time integration tasks) / sum(Completed integration tasks)
+
+Percentage of integration tasks that were completed on or before the due date. 
+
+On-Time Other Steps
+
+Type: Cadences | Calculation: count(on-time other steps)
+
+Total cadence other steps that were completed on or before the due date.
+
+% On-Time Other Steps
+
+Type: Cadences | Calculation: Sum(On-time other steps)/sum( Completed other Steps)
+
+Percentage of cadence other steps that were completed on or before the due date.
+
+% On-Time Rhythm Tasks
+
+Type: Tasks | Calculation: Sum(On-time rhythm tasks) / sum(Completed rhythm tasks)
+
+Percentage of Rhythm tasks that were completed on or before the due date.
+
+On-time Steps
+
+Type:  | Calculation: 
+
+% On-Time Steps
+
+Type: Cadences | Calculation: count(on-time steps)
+
+Total cadence steps that were completed on or before the due date.
+
+Opened
+
+Type: Emails | Calculation: count(opened)
+
+Total sent emails that resulted in at least one open or view.
+
+% Opened
+
+Type: Emails | Calculation: Sum(emails opened)/Sum(emails delivered)
+
+AKA: Open Rate
+
+Percentage of delivered emails that had at least one open or view.     
+
+20-30% open rate is considered a good benchmark.
+
+Opportunities (Opportunities Created)
+
+Type: Activities | Calculation: count (opportunities created)
+
+Total opportunities created by a Salesloft user in their CRM and synced to Salesloft.    
+
+For cadence reports, opportunities are attributed to the last completed cadence step for the Person on the opportunity.
+
+Opportunity Conversion Rate
+
+Type: Activities | Calculation: sum(Opportunities Created) / sum(People Touched)
+
+Percentage of people touched that resulted in a new opportunity.
+
+Other Steps
+
+Type: Cadences | Calculation: count(Other Steps)
+
+
+Total cadence other steps completed. These do not include integration steps.
+
+Other Tasks Completed
+
+Type: Tasks | Calculation: sum(General Tasks + Integration Tasks)
+
+Total number of one-off general or integration tasks with a due date that were completed.
+
+Other Touches per Success
+
+Type: Accounts/People | Calculation: sum(Other step activities + Other tasks) / sum(successes)
+
+Average number of Other cadence steps and Other tasks it took to get a success.
+
+Other/Unsure
+
+Type: Emails | Calculation: count(other sentiment)
+
+Total email replies with a sentiment classified as Other or Unsure.
+
+% Overdue Call Tasks
+
+Type: Tasks | Calculation: Sum(overdue call tasks) / sum(Completed call tasks)
+
+Percentage of call tasks that were completed after the due date.
+
+% Overdue Email Tasks
+
+Type: Tasks | Calculation: Sum(overdue email tasks) / sum(Completed email tasks)
+
+Percentage of email tasks that were completed after the due date.
+
+% Overdue General Tasks
+
+Type: Tasks | Calculation: Sum(overdue general tasks) / sum(Completed general tasks)
+
+Percentage of general tasks that were completed after the due date.
+
+Overdue Integration Steps
+
+Type: Cadences | Calculation: count(overdue integration steps)
+
+
+Total cadence integration steps that were completed after the due date.    
+
+A step is counted as overdue only after the step is marked completed. In progress steps that are past the due date are not counted.
+
+% Overdue Integration Steps
+
+Type: Cadences | Calculation: Sum(overdue integration steps)/sum( Completed integration Steps)
+
+Percentage of cadence integration steps that were completed after the due date.
+
+% Overdue Integration Tasks
+
+Type: Tasks | Calculation: Sum(overdue integration tasks) / sum(Completed integration tasks)
+
+Percentage of integration tasks that were completed after the due date.
+
+Overdue Other Steps
+
+Type: Cadences | Calculation: count(overdue other steps)
+
+Total cadence other steps that were completed after the due date.    
+
+A step is counted as overdue only after the step is marked completed. In progress steps that are past the due date are not counted.
+
+% Overdue Other Steps
+
+Type: Cadences | Calculation: Sum(overdue other steps)/sum( Completed other Steps)
+
+Percentage of cadence other steps that were completed after the due date.
+
+% Overdue Rhythm Tasks
+
+Type: Tasks | Calculation: Sum(overdue rhythm tasks) / sum(Completed rhythm tasks)
+
+Percentage of Rhythm tasks that were completed after the due date.
+
+Overdue Steps
+
+Type: Cadences | Calculation: count(overdue steps)
+
+
+Total cadence steps that were completed after the due date.    
+
+A step is counted as overdue only after the step is marked completed. In progress steps that are past the due date are not counted.
+
+% Overdue Steps
+
+Type: Cadences | Calculation: Sum(overdue steps)/sum( Completed Steps)
+
+Percentage of cadence steps that were completed after the due date.
+
+Owner
+
+Type:  | Calculation: 
+
+The first and last name of the Salesloft user that owns the record. Typically, it's the person who imported or created the record inside Salesloft, unless the record is assigned to another user.
+
+P
+People
+
+Type: Accounts/People | Calculation: count(people on the account)
+
+Total number of people on the Account.    
+
+This should match the People stat on the individual Account page as well as in the Accounts table.
+
+People Added
+
+Type: Cadences | Calculation: count (People added to a dadence)
+
+Total new people added to a cadence.    
+
+This is not a count of unique people ever added as a person can be added to the same cadence multiple times. This does not count any steps completed.
+
+People Touched
+
+Type: Accounts/People | Calculation: count(Unique People with a Touch)
+
+Unique number of people with activities (emails, calls, integration steps, other steps, and SMS Convos) completed.
+
+Personalized
+
+Type: Emails | Calculation: Sum(emails with >5% personalization score)
+
+Total sent emails that were personalized with > 5% personalization score.    
+
+This counts any email, regardless of if they were sent from a Cadence, Lofted, or one-off emails. The 5% reflects a minimum threshold for meaningful personalization that impacts reply rates.
+
+One-off emails have 100% personalization.
+
+% Personalized
+
+Type: Emails | Calculation: Sum(emails with > 5% personalization)/Sum(emails delivered)
+
+AKA: Personalization Rate
+
+Percentage of delivered emails that have > 5% personalization score.   
+
+The 5% reflects a minimum threshold for meaningful personalization that impacts reply rates.
+
+Positive Calls (Pos. Calls)
+
+Type: Calls | Calculation: count(positive calls)
+
+Total calls logged with the disposition Connected and one of the following sentiments:
+
+Interested
+Timeline 6-12 Months
+Demo Scheduled
+% Positive Calls
+
+Type: Calls | Calculation: sum(positive calls) / sum(connected calls)
+
+AKA: Positive Calls Rate
+
+Percentage of calls logged with a Connected disposition that have also been logged with a Positive Calls sentiment.   
+
+Positive Call sentiments include the standard sentiments of: Interested, Timeline 6-12 Months, or Demo Scheduled. If both the correct disposition and sentiment isn't used when logging the call, this calculation will be inaccurate.
+
+Positive Replies
+
+Type: Emails | Calculation: count(positive replies)
+
+Total email replies with a positive sentiment.
+
+% Positive Replies
+
+Type: Emails | Calculation: Sum(emails with positive sentiment)/Sum(emails delivered)
+
+AKA Positive Reply Rate 
+
+Percentage of emails delivered that had at least one reply with a positive sentiment.
+
+ 
+
+Q
+R
+Replied
+
+Type: Emails | Calculation: count (Replied)
+
+The unique number of emails with a reply. Total sent emails that resulted in at least one reply.  
+
+For example, if you sent 100 emails, the maximum number Replied can only be 100.  
+
+This counts any emails replied, regardless of if they were sent from a Cadence, Lofted, or one-off emails.
+
+% Replied
+
+Type: Emails | Calculation: Sum(emails with replies)/Sum(emails delivered)
+
+Percentage of delivered emails that had at least one reply.    
+
+Reply Rate. 5-7% reply rate is considered a good benchmark.
+
+Replies
+
+Type: Emails | Calculation: count (replies)
+
+Total replies to sent emails.
+
+For example, if you sent 100 emails, replies could be 200 or unlimited depending on how long the average thread is.
+
+This doesn’t appear in any analytics reports, but it does appear everywhere else (cadence stats, emails page, templates stats, person/accounts stats)
+
+Rhythm Tasks Completed
+
+Type: Tasks | Calculation: sum(Email Tasks + Call Tasks + Other Tasks)
+
+Total number of tasks (emails, calls, integration, general) with a due date that can only be completed in Salesloft (in-app or extension).
+
+Things to Note: This includes steps in a cadence as well as one off tasks and tasks from Plays.
+
+
+Rhythm Tasks Deleted
+
+Type: Tasks | Calculation: count (deleted rhythm tasks)
+
+Total Rhythm tasks that are skipped or deleted. 
+
+Things to Note: If a Person has multiple skipped steps in a Cadence, each step is counted as deleted.
+
+
+Rhythm Tasks On-Time
+
+Type: Tasks | Calculation: count(on-time rhythm tasks)
+
+Total Rhythm tasks that were completed on or before the due date.
+
+
+Rhythm Tasks Overdue
+
+Type: Tasks | Calculation: count(overdue rhythm tasks)
+
+Total Rhythm tasks that were completed after the due date.
+
+Things to Note: A task is counted as overdue only after the task is marked completed. In progress tasks that are past the due date are not counted.
+
+ 
+
+S
+Seniority
+
+Type: Calls | 
+
+The seniority of the Person for whom the call was logged to.    
+
+This includes:
+
+Director
+Executive
+Manager
+IC
+Vice President
+Other/Unknown.
+Sent
+
+Type: Emails | Calculation: count (emails sent)
+
+Total emails sent, which includes emails sent from a Cadence, Lofted, or one-off emails.    
+
+Cadence reports will only count emails sent from a cadence.
+
+Skipped Integration Steps
+
+Type: Cadences | Calculation: count (skipped integration steps)
+
+Total cadence integration steps that are skipped.    
+
+If a Person has multiple skipped steps in a Cadence, each step is counted.
+
+% Skipped Integration Steps
+
+Type: Cadences | Calculation: Sum (skipped integration steps)/sum(Completed integration Steps + Skipped integration Steps)
+
+Percentage of cadence integration steps that were skipped.
+
+Skipped Other Steps
+
+Type: Cadences | Calculation: count (skipped other steps)
+
+Total cadence other steps that are skipped. 
+
+If a Person has multiple skipped steps in a Cadence, each step is counted.
+
+% Skipped Other Steps
+
+Type: Cadences | Calculation: Sum (skipped other steps)/sum(Completed other Steps + Skipped other Steps)
+
+Percentage of cadence other steps that were skipped.
+
+Skipped Steps
+
+Type: Cadences | Calculation: count (skipped steps)
+
+Total cadence steps that are skipped.     If a Person has multiple skipped steps in a Cadence, each step is counted.
+
+% Skipped Steps
+
+Type: Cadences | Calculation: Sum (skipped steps)/sum(Completed Steps + Skipped Steps)
+
+Percentage of cadence steps that were skipped.
+
+SMS Convos
+
+Type: Activities | Calculation: Count(sms conversations)
+
+Total number of text conversations in Salesloft Messenger started by the user.    
+
+A text conversation is defined by correspondence between 2 phone numbers (a Salesloft user and Person) within a sliding 1-hour window.
+
+Steps per Meeting
+
+Type: Cadences | Calculation: sum(completed steps) / sum(meetings)
+
+Average number of cadence steps completed it takes to book one meeting.
+
+Steps per Opportunity
+
+Type: Cadences | Calculation: sum(completed steps) / sum(opportunities)
+
+Average number of cadence steps completed it takes to create one opportunity.
+
+Success Rate
+
+Type: Cadences | Calculation: sum(Successes) / count( Unique People with a Touch)
+
+Percentage of People marked as a success in a Cadence.
+
+Successes
+
+Type: Activities | Calculation: count(Successes)
+
+Total number of times the user has marked a Person as a Success (Success button on the person page).    
+
+A success is an outcome defined by your team. For cadence reports, successes are attributed to the last completed cadence step for that Person.
+
+Successes per 1,000 Activities
+
+Type: Activities | Calculation: sum(Successes)*1000) / sum(total Activities
+
+Average number of success achieved over 1,000 activities.    
+
+This is a measure of how effective a user is at converting activities into success.
+
+T
+Talk Time %
+
+Type: Conversations | Calculation: sum(time in seconds the user spends talking) / sum(total time in seconds every recording participant spends talking)
+
+Average percentage of time spent in Conversations recordings that the user is talking.
+
+Template Id
+
+Type: Templates 
+
+The unique identifier of the Salesloft cadence.
+
+Template Name
+
+Type: Templates
+
+The name of the email template.
+
+Template Owner
+
+Type: Templates 
+
+The first and last name of the Salesloft user that owns the template.
+
+Total Activities
+
+Type: Activities | Calculation: sum(Emails Sent + Calls Logged + Other Steps + Integration Steps + SMS Convos)
+
+Total number of activities (emails, calls, integration steps, other steps, and SMS Convos) completed.    
+
+This includes steps in a cadence as well as one off activities. Also known as Total Touches on accounts.
+
+Total Count
+
+Type: Calls | Calculation: count(calls logged)
+
+Total number of calls that have been logged by the user.
+
+Total Objections
+
+Type: Emails | Calculation: count (Objection - Competitor + Objection - No Interest + Objection - Not the Buyer + Objection - Timing)
+
+Total email replies with an objection sentiment (Competitor, Not Interested, Not Buyer, Timing).
+
+% Total Objections
+
+Type: Emails | Calculation: Sum (Email Sentiment: Objection: Competitor + Objection: Not Interested + Objection: Not Buyer + Objection: Timing) / sum( emails delivered)
+
+Percentage of delivered emails that have at least one reply with an objection sentiment (Competitor, Not Interested, Not Buyer, Timing).
+
+Total Recordings
+
+Type: Conversations | Calculation: count(recordings)
+
+Total number of non-Dialer recordings within Conversations.    
+
+This includes web recordings, but excludes manual recording uploads.
+
+Total Touches
+
+Type: Accounts/People | Calculation: sum(Emails Sent + Calls Logged + Other Steps + Integration Steps + SMS Convos)
+
+Total number of activities (emails, calls, integration steps, other steps, and SMS Convos) completed.
+
+Touches per Account
+
+Type: Accounts/People | Calculation: sum(Total Touches) / sum(Accounts Touched)
+
+Average number of activities completed per account.
+
+Type
+
+Type: Cadences
+
+Whether the Cadence is a Personal or Team Cadence.
+
+U
+User
+
+Type: Teams
+
+The Salesloft team member.
+
+V
+Views (Opens)
+
+Type: Emails | Calculation: count(opens)
+
+Total views or opens of a sent email.
+
+Voicemails
+
+Type: Calls | Calculation: count (Voicemail Disposition)
+
+Total outbound calls logged with the standard Disposition Left Voicemail.
+
+W
+Win Rate
+
+Type: Deals | Calculation: sum(deals won) / sum(deals won + deals lost)
+
+Percentage of closed deals that were won.
+
+X
+Y
+Z
+ 
+Last Modified By
+Stephanie Griffith, 11/16/2023 2:41 PM
+Title
+Salesloft Metrics Glossary
+URL Name
+Salesloft-Metrics-Glossary
+Analytics + Reporting
+Salesloft Knowledge
+Analytics Essentials
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

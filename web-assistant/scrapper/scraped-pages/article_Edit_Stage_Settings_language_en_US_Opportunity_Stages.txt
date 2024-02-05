@@ -1,0 +1,164 @@
+ADMIN GUIDES
+Edit Stage Settings
+
+Jul 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Stages are the Salesloft equivalent to Salesforce's status fields on the Lead, Contact, Account, or Opportunity level. 
+
+If stages are kept up-to-date, users can accurately filter people and accounts in Salesloft based off of their stage. From there, the rep can take the stage-appropriate action to engage that prospect.
+
+Most teams set their stages to mimic their sales process, using stages like "Prospect," "Open," "Closed," etc. to show where a Person is in your sales cycle. You can edit and manage your team's stages to best fit your needs and make them your own. 
+
+To set up your stages, go to your Team Settings and select Stages to open the Stages Settings. From the Stages Settings you can manage People, Accounts, and Opportunity Stages and set team wide stage defaults for People that run through Cadences. 
+
+In this article, you will learn how to view and manage your team's Stages, including:
+People Stages
+Account Stages
+Opportunity Stages
+People Stages
+The People Stages define the stage settings for an individual person in Salesloft. Similar to your Salesforce Lead or Contact status, the People Stages are meant to help you determine where a Person is within your sales cycle. 
+
+By default, Salesloft provides the following People Stages:
+Open
+Working
+Closed- Converted
+Closed- Not Converted
+Bounced
+Do Not Contact
+Completed
+Replied
+To add a People Stage:
+Navigate to the Stages tab and then People Stages.
+Click Create New Stage above the right side of the stages list. The Add New Stage modal will appear.  
+Enter the name of the stage you would like to create in the text field.
+Click Save.
+To edit a People Stage:
+Navigate to the Stages and then People Stages tab.
+From the stage list, select the ellipses icon (three dots) for the stage you would like to edit. 
+In the drop-down menu, choose Rename.
+Enter the new name of the stage. 
+Click Rename to complete your edits.
+To reorder People Stages: 
+Navigate to the Stages and then People Stages tab.
+From the stage list, select the ellipses icon (three dots) for the stage you would like to move. 
+In the drop-down menu, chose the direction you would like to reorder the stage. The options are: Move to Top, Move Up, Move Down, Move to Bottom. 
+The same order of the list will then be reflected when a user goes in to select a stage from the drop-down.
+To remove a People Stage:
+Navigate to the Stages tab and then People Stages.
+From the stage list, select the ellipses icon (three dots) for the stage you would like to delete. 
+Click the red Delete button.
+You will receive a pop up asking if you want to remove the stage. Click Remove.
+ 
+ 
+Account Stages
+The Account Stages define the Stage settings for Accounts as a whole (versus just the individual person). By keeping the Account Stages up to date, you can easily filter and sort by a Stage and find out where an Account is within the sales cycle, giving you further visibility into where to focus your efforts.
+
+By default, Salesloft provides the following Account Stages:
+Open
+Working
+Completed
+Disqualified
+To add an Account Stage:
+Navigate to the Stages and then Account Stages tab.
+In the left column, you will find Create New Stage.
+Enter the name of the stage you would like to create in the text field.
+Click Save.
+To edit an Account Stage:
+Navigate to the Stages and then Account Stages tab.
+From the stage list, select the ellipses icon (three dots) for the stage you would like to edit. 
+In the drop-down menu, choose Rename.
+Enter the new name of the stage. 
+Click Rename to complete your edits.
+To reorder Account Stages: 
+Navigate to the Stages and then Account Stages tab.
+From the stage list, select the ellipses icon (three dots) for the stage you would like to move. 
+In the drop-down menu, chose the direction you would like to reorder the stage. The options are: Move to Top, Move Up, Move Down, Move to Bottom. 
+The same order of the list will then be reflected when a user goes in to select a stage from the drop-down.
+To remove an Account Stage:
+Navigate to the Stages and then Account Stages tab.
+From the stage list, select the ellipses icon (three dots) for the stage you would like to delete. 
+Click the red Delete button.
+You will receive a pop up asking if you want to remove the stage. Click Remove.
+ 
+Opportunity Stages
+
+ 
+
+The Opportunity Stages define the stage settings at the Opportunity level. By keeping the Opportunity Stages up to date, you can easily track the progress of an Opportunity through the sales cycle. You can also add, edit, reorder, and remove Opportunity Stages to match your organization’s unique sales process and CRM data.
+
+ 
+
+Things to Note:
+
+Inactive picklist options for Stages will behave the same as inactive picklist options on custom fields: inactive values can be accepted via CRM Sync but cannot be selected when manually editing a record in Salesloft. 
+If Salesloft receives an Opportunity Stage from the CRM that has not been created in Salesloft, the system will create that Stage automatically and set it as inactive.
+
+ 
+
+To add a picklist option to an Opportunity Stage:
+
+Go to Team Settings and then Field Configuration.
+Navigate to the Opportunity Stages tab.
+In the table, beside Stage, click the dropdown arrow.
+Click Edit Field.
+Under Active Picklist Options, click + Add an Option.
+Enter the picklist option name you want in the Name field.
+Scroll down and click Save.
+ 
+
+To edit your picklist options in an Opportunity Stage:
+
+Go to Team Settings and then Field Configuration.
+Navigate to the Opportunity Stages tab.
+In the table, beside Stage, click the dropdown arrow.
+Click Edit Field.
+Under Active Picklist Options, find the stage you want to edit. Click anywhere in the field and type your desired name change.
+Click Save.
+ 
+
+To reorder picklist options in an Opportunity Stage: 
+
+Go to Team Settings and then Field Configuration.
+Navigate to the Opportunity Stages tab.
+In the table, beside Stage, click the dropdown arrow.
+Click Edit Field.
+Under Active Picklist Options, find the field you want to move. Click the six dots beside the field and drag to reorder it.
+Click Save.
+ 
+
+To remove a picklist option from an Opportunity Stage:
+
+Go to Team Settings and then Field Configuration.
+Navigate to the Opportunity Stages tab.
+In the table, beside Stage, click the dropdown arrow.
+Click Edit Field.
+Under Active Picklist Options, find the field you want to move. Click the minus beside it to remove the picklist option.
+Click Save.
+
+ 
+
+Things to Note: To deactivate a custom picklist option, you must first create it and save it.
+
+ 
+
+
+ 
+ 
+Last Modified By
+Briana Morgan, 7/10/2023 3:54 PM
+Title
+Edit Stage Settings
+URL Name
+Edit-Stage-Settings
+Salesloft Knowledge
+Admin Guides
+Data Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

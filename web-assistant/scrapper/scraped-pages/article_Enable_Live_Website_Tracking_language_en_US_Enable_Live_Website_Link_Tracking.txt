@@ -1,0 +1,82 @@
+ADMIN GUIDES
+Enable Live Website Tracking
+
+Apr 27, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Live Website Tracking lets your team track your prospects’ and customers’ activity and interactions with your web pages in real time. Links sent in emails from Salesloft and clicked by the recipient will trigger the view tracking of your web pages. 
+
+Things to Note: If you click a link that was meant for a prospect at one point, your activity may be linked to that Person. Download the Salesloft Chrome Extension to prevent any tracking of your own site views.
+
+Before your team can start keeping track of prospect viewing behavior, you must set up Live Website Tracking. 
+
+In this article you will learn how to set up Live Website Tracking, including:
+Establish the Tracking Code
+Adding New Domains
+Enable Live Website Link Tracking  
+Enabling Live Website Tracking Visibility
+Live Website Tracking Cookie Information 
+Establish the Tracking Code
+To set up the Live Website Tracking the first step is to add a tracking code into the desired website to enable tracking. This requires a little bit of code work on the back end. If you've dabbled in web code before, follow the steps below to add the code. If code looks more like hieroglyphics to you, contact your website administrator or primary website manager to assist you.
+
+Things to Note: Many websites will have a “global footer” setting that allows you to automatically embed the same code in the footer of all your web pages all at once, if those pages are tied to the same domain.
+Navigate to the Live Website Tracking Settings under the Data settings. 
+Under Tracking Code, copy the code from text box. Below the box, select Copy to Clipboard.
+Paste the tracking code into the code script of any web page you would like to track.
+ 
+Adding New Domains
+After the code has been added to the website, Salesloft needs to know what domains contain the  tracking code.
+
+When adding domains, only include the domain or subdomain. Do not include the protocol or path (http://). Subdomains must be listed here separately from main domains to ensure the subdomain will also be tracked. For example, support.salesloft.com must be listed, along with salesloft.com.
+
+To add a new domain, follow the steps below:
+Navigate to the Live Website Tracking settings under the Data settings.
+Under Domains Tracked select Add New Domain. 
+Enter the domain or subdomain.
+Click Add Domain. The domain will be added to the Domains Tracked list. If you wish to remove the domain, click Remove found on the right side of the listed domain's row. 
+Things to Note:
+Be sure that the domain url you add is an exact match to the website url. If the domain url you add is not an exact match, Live Website Tracking will not work. For example: If you add 'www.example.com', but your actual website url is, 'https://www.example.com';, activity will not be tracked.
+If you remove a domain and re-add it at a later time, the tracking will reactivate. 
+Enable Live Website Link Tracking  
+Once you've set up the webpages that you would like Live Website Tracking to apply to, you need to enable the actual tracking function. After the feature has been enabled, a tracking parameter will be applied to the links of the designated domains in your emails. 
+
+Things to Note: If you disable the Live Website Tracking feature and re-enable it later (toggle it off and then back on), the tracking will reactivate.
+
+To enable Live Website link tracking, follow these steps:
+Navigate to the Live Website Tracking Settings under the Data settings.
+Under Enable Website Link Tracking, toggle the switch on. 
+ 
+Enabling Live Website Tracking Visibility
+To allow all users to see the Live Website Tracking dashboard, and view any tracking results, you must enable Live Website Tracking visibility. Once the feature is visible to all users they will see the Live Website Tracking tab in their side navigation panel.
+
+You can override this visibility for some users if you create a custom role with this permission removed, and then place the user under that custom role. See the Roles & Permissions article.
+
+To enable Live Website Tracking, follow these steps:
+Navigate to the Live Website Tracking settings under the Data settings.
+Under the Enable Live Website Link Tracking section, toggle the button on.
+Live Website Tracking Cookie Information  
+Live Website Tracking uses the following cookies: 
+Four cookies live on the domain of the page that the script is executed on (mycompany.com, for example):
+sliguid: Persistent/12 months (1 year) - This cookie provides an anonymous user identifier across multiple requests.
+slirequested: Persistent/12 months (1 year) - Once the sliguid cookie has been confirmed against a central server, this cookie is set for every request that comes in.
+slireg: Persistent/7 days - This cookie identifies the Salesloft server region that the Team's data is on.
+sli_token: Persistent/30days - This cookie is set when the email recipient clicks through a Live Web Tracking tracked link.
+site_identity: Persistent/1000days - This cookie is set when the email recipient clicks through a Live Web Tracking tracked link. This cookie is for scout.salesloft.com. We do this to allow multi-site tracking.
+ 
+Last Modified By
+Raequel Sank, 4/27/2023 4:53 PM
+Title
+Enable Live Website Tracking
+URL Name
+Enable-Live-Website-Tracking
+Salesloft Knowledge
+Admin Guides
+Data Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

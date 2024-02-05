@@ -1,0 +1,83 @@
+DIALER + MESSENGER
+Phone Number Porting
+
+Nov 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Porting a number means that you are taking an existing phone number from one provider and transferring it to another. For our specific instance, it typically means taking your existing service provider number and transferring it to our third-party provider. 
+
+While that may sound like a simple switch, porting a number is a process that can take anywhere between 1-6 weeks. The process includes coordination between our upstream provider and your service provider in order to transfer the number.
+
+In this article, we will go over how phone number porting occurs, including:
+
+Requirements Before Porting a Number
+The Phone Number Porting Process
+Phone Number Porting - Countries
+Requirements Before Porting a Number
+
+When you submit your Porting request, you will need the following for a successful request:
+
+The authorized user or owner’s first and last name.
+The corresponding service address. This must be an actual physical address. PO Boxes are not valid addresses.
+Fill out the Letter of Authorization which includes the following:
+The authorized owner's first and last name and business name (if the service is in your company's name)
+Service address on the current carrier
+List of all numbers you authorize to change
+Signature by the authorized user and/or owner of the number(s).
+Obtain a Customer Service Record from your current provider.
+A scanned, or electronic, copy of the most recent phone bill within the last 30 days. Must include:
+Account
+Owner/authorized user name
+Address information for each number to be submitted for porting
+The Phone Number Porting Process
+Submit your Porting request with the requirements listed above.
+If you submitted all of the correct information and documents, the porting request should be approved within 24 hours after submission.
+If the porting request is denied, correct the necessary documentation and then re-submit for approval.
+The number will be submitted to the carrier partner. Your request is then submitted to your soon-to-be former carrier as a port request. During this time, do not close your account with your carrier and keep your numbers active.
+Carrier partner reaches out to losing carrier. 
+Response from carrier. At this point, your request will either be approved or rejected:
+Approved request will have a porting date and time of when the number will be ported will be sent to you in your Salesloft support request.
+Rejected request will require the customer reaching out to their losing carrier to find out what needs to be done to approve the port request.
+After approval,Salesloft will reach out with your porting date. You'll receive an email of your porting date for when your number will be transferred to Salesloft. Once your date has passed and you’ve verified the number has transferred to your Salesloft account, you can begin using your number.
+Salesloft will configure your number and verify the correct number has been ported.
+Phone Number Porting - Countries
+
+Phone number porting is available for the following countries:
+
+United States
+Australia
+Austria
+Belgium
+Brazil
+Canada
+Czech Republic
+Denmark
+France
+Germany
+Ireland
+Italy
+Mexico
+Netherlands
+New Zealand
+Puerto Rico
+Spain
+Switzerland
+United Kingdom
+Last Modified By
+Raequel Sank, 11/28/2023 4:27 AM
+Title
+Phone Number Porting
+URL Name
+Phone-Number-Porting
+Salesloft Knowledge
+Dialer + Messenger
+Set Up The Dialer
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

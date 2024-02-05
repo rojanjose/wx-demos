@@ -1,0 +1,70 @@
+CONVERSATIONS
+Conversations Summary
+
+Oct 31, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Reviewing recorded calls is a great way to understand a customer’s needs; however, with quotas to meet and deals to drive forward, there may be little time each day to review entire recordings. You can save time by reviewing the Conversations Summary. 
+
+ 
+
+A Conversations Summary is a summarized version of a call in Conversations. Salesloft Conversations uses artificial intelligence to transcribe a summary of the call transcript during the meeting processing phase. Once a meeting is captured in Conversations and processed, you can access the summary to quickly gain insight on the conversation that took place.
+
+ 
+
+Things to Note: Conversations Summary uses Microsoft Azure’s OpenAI service to generate a summary of your call transcripts.
+
+ 
+
+In this article, you will learn about Conversations Summary, including:
+
+Manage Conversations Summary Access
+
+Review a Conversations Summary on the Recording Details Page
+
+Manage Conversations Summary Access
+
+Salesloft admins can manage your team's access to Conversations Summary via the Conversations Summaries and Action Items setting. This setting allows Salesloft AI to generate summaries of your calls.
+
+ 
+
+To learn more about managing this setting, check out the Manage Generative Artificial Intelligence Integrations article. 
+
+Review a Conversations Summary on the Recording Details Page
+
+The Recording Details Page is where you can access your Conversations recordings as well as tools that help review and assess the call—like the Conversations Summary.
+
+ 
+
+To access a Conversations Summary from the Recording Details Page, follow these steps:
+
+Navigate to the Conversations Recordings tab. 
+
+Find the call you would like to review and click the title. This will open the Recording Details Page.
+
+The Conversations Summary is located on the Recap tab beneath the audio/video player. 
+
+Click the pencil icon to edit the summary as necessary.
+
+Things to Note: We recommend reviewing and editing your Conversations Summary content before sharing to confirm accuracy.
+
+Last Modified By
+Raequel Sank, 10/31/2023 4:09 PM
+Title
+Conversations Summary
+URL Name
+Conversations-Summary
+Conversations
+Salesloft Knowledge
+Conversations Essentials
+Conversations Recordings
+Conversations Pages
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

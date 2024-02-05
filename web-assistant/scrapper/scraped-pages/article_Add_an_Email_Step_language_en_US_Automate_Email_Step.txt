@@ -1,0 +1,117 @@
+CADENCES + TASKS
+Add an Email Step
+
+Apr 25, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Cadences allow you to send emails to People through a consistent process. The idea of your Cadence email is to maintain consistent engagement. That means you are hopefully receiving replies to emails early in a Cadence or you’re staying top of mind until a Person is ready to chat more. 
+
+Cadence Email messages can be drafted during the Cadence creation process or you can insert a previously created template as your message. If the email is a saved template, using the template will contribute to template-specific stats.
+
+In this article, you will learn about adding email steps to a Cadence, including: 
+Add an Email Step
+Automate an Email Step
+Send an Email Step on Saturdays and Sundays
+Thread an Email
+Email Step Details on the Cadence Overview Page
+Add an Email Step
+To add an email step to your Cadence, follow these steps:
+Create a Cadence.
+From your Cadence’s overview page, add a Cadence step.
+In the Create Step box, select the email icon.
+Enter the Day you would like the step to run.
+(Optional Field) Automate this step .
+Hit Next: Step Content.
+The Create Step box will appear. Here you have two options:
+Choose a previously created template.
+Compose a new message.
+Email Yourself a Preview.
+Click Add & Create Another to continue adding steps to your Cadence or Add Step to add the step and close the add step window.
+ 
+
+
+ 
+Things to Note: Sending preview emails ensures formatting and dynamic tags are populating correctly. Due to this nature, expect the following behavior with email previews: 
+When adding an email step to a Cadence that is set to thread from a previous email, the email preview will not thread from other email subject lines in the Cadence.
+The Email Myself a Preview option uses a third-party service to send a preview to Salesloft and does not account for the outgoing email server's format. As a result, the preview may differ from the actual email your recipients receive.
+Automate an Email Step
+Sometimes you may want an email step to run automatically, meaning that if a Person has an email step due they will receive the email without you having to hit Send.
+
+To automate an email step, select the checkbox Automate this step below the Day selector inside the Create Step window. Once the box is checked, the Send Email options dropdown will appear. Click the dropdown menu and choose one of following options:
+At a Specific Time: Allows automated emails to be sent at a specific time. When you select this option the following fields will appear for you to fill out:
+Select Time: Type in a time of click the clock icon on the right side of the text box to open the time dropdown. Select a time. 
+Select Time Zone’s: Pick one of the following options:
+Person's Time Zone
+Your Time Zone
+After a Time Delay: Enter the number of minutes after a Person enters this step you want the email to wait before sending.
+When an automated email step is created, the overview page will show a stylized email icon. The email step will also have an Automated label.
+ 
+Send an Email Step on Saturdays and Sundays
+Below the Automated Step Send Email options, you will see the Send on Saturdays and Sundays checkbox.
+
+Typically, Cadence emails do not send on Saturdays and Sundays since this is considered the weekend for many people and most people are taking that time away from work. However, sending and automated email on Saturdays and Sundays has a special audience – for inbound leads or those that work different days of the week.
+
+Here's a best practice scenario. Let's say a new lead fills out a form on your website on a Saturday. You (and a team admin with permissions to create Automation Rules) can update your inbound experience by setting up the following in Salesloft.
+
+Things to Note:
+Steps will only run on a Saturday or Sunday if a Person starts a Cadence and the Day of an automatically scheduled email step is a Saturday or Sunday. Outside of that, the automated step will occur the day of the week the Person is due for that step. 
+The scheduled, automated email step will be the only step that runs during the weekend. All other steps will still be due on weekdays. For example, if you have a Day 1 automated email step followed by a Day 1 automated call step, the email step will run on a scheduled Saturday, however, the call step will be due that Monday. 
+To create an automated email step that sends on the weekend, follow these instructions:
+Create an Automation Rule to add new marketing qualified leads to an Inbound Cadence.
+Create an Inbound Cadence or update your existing Cadence. 
+Edit the first step in the cadence to be an automated email.
+Set to send after 0 min time delay.
+Check the box to Send on Saturdays and Sundays.
+ 
+Thread an Email Step
+By threading your email, the subject line of the email will show as “Re: (previously email’s subject line) and your recipient will see the previous message underneath your email.
+
+Things to Note: An email will only be threaded from the previous specified email step when the recipient has received the previous email. If the recipient did not receive the email, Salesloft cannot recognize the thread and the Cadence will not thread from a previous step.
+
+While adding steps to your Cadence, you can choose to thread follow-up emails to any emails a come before it. 
+
+Follow the steps below to thread an email:
+Select the Cadence you want to add your email to from the Cadences page.
+In the Cadence Overview, add a Cadence step.
+Pick Email, and select the day you want your step to run.
+Choose your Template or compose your own message.
+Find the New Thread dropdown to the left of the Choose a Template.
+Click the drop-down arrows. You will have the option to thread any prior email step.
+Hit Add Step.
+The email step details on the Overview page shows the subject line will pull from the threaded email.
+ 
+ 
+Email Step Details on the Cadence Overview Page
+Once the step is added, you will see it on the Cadence Overview page as its own Cadence Step details panel. 
+
+The Email step includes the following details: 
+Email Details:
+Name: Each email used will have a designated name.
+Preview: The preview shows the first line of text in your email. 
+Template Labels: Right next to your template you may see a boxed template label. The labels include the following:
+Saved: Saved templates were either chosen from your template list or were composed while creating your Cadence and saved later. Either way, a saved template gathers metrics and can be used in other Cadences and one-off emails.
+Team: Any templates used within your Cadence that are saved as Team Templates.
+Automated: Email step is set to send automatically on the date the Person is due for that step. 
+Email Stats: Comprehensive breakdown of the email stats specific to this Cadence step
+Sent: Total number of emails sent using this Cadence steps.
+Views: Percentage of emails views over the number of emails sent.
+Clicks: Percentage of emails that contain links that were clicked over the number of emails sent.
+Replies: Percentage of emails that received replies over the number of emails sent.
+ 
+Last Modified By
+Stephanie Griffith, 4/25/2023 8:28 PM
+Title
+Add an Email Step
+URL Name
+Add-an-Email-Step
+Salesloft Knowledge
+Cadences + Tasks
+Create A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

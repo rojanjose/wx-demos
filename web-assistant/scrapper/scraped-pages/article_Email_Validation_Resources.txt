@@ -1,0 +1,47 @@
+EMAIL
+Email Validation Resources
+
+Jun 16, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Email communication is essential to the sales workplace, and effective email communication starts with sending emails to real people. 
+
+You can use email validation resources to verify the contacts in your email list. By validating your email list, you can send emails confidently and ensure that the emails you send land in an inbox.
+
+In this article, you will learn about and access a list of email validation resources, including:
+ZeroBounce
+Bouncer
+Xverify
+NeverBounce
+BriteVerify
+Email Industries
+ZeroBounce
+ZeroBounce is an online email validation platform that removes invalid, inactive and spam-trap emails in bulk. 
+Bouncer
+Bouncer is an email verification API that verifies and validates your email list. 
+Xverify
+Xverify is an email verification tool that uses data intelligence to improve email deliverability, monitor IP blacklists, filter out spam and more. 
+NeverBounce
+NeverBounce offers email deliverability solutions such as high-risk detection, and instant bounce analysis. 
+BriteVerify
+BriteVerify helps you maintain a clean database by validating contact information, including international phone numbers and mailing addresses. 
+Email Industries
+Email Industries provides email marketing and deliverability solutions such as removing spam, and validating email addresses in your contact list.
+Last Modified By
+Raequel Sank, 6/16/2022 7:24 PM
+Title
+Email Validation Resources
+URL Name
+Email-Validation-Resources
+What's New
+Email
+Salesloft Knowledge
+Email Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,106 @@
+CONVERSATIONS
+View Conversations Video and Audio Recordings
+
+Dec 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+After a meeting has been captured, you can watch and listen to the meeting from the video and audio player. The video and audio player takes up the center portion of the Conversations Recording Detail page. From the video and audio player you can watch the video, see the meeting's speakers, and search the call transcription.
+
+In this article, you will learn all about the video and audio player in Conversations, including:
+
+The Video Player
+The Audio Player
+Participants
+Recap
+Trackers
+Comments and Notes
+The Video Player 
+
+The video player is where you will view and analyze your recorded meeting. It contains the video itself along with additional features that help you pick apart the call whenever necessary.
+
+The video player contains a toolbar that holds the following actions:
+
+Play/Pause Button: Click the start playing the recording. Once the recording starts, the Play button will turn into a Pause button that you can click to briefly stop the recording.
+Step Back 10 seconds: Jumps back ten seconds in the video recording on the timeline.
+Step Forward 10 seconds: Jumps ahead ten seconds in the video recording on the timeline.
+Volume: Slide to raise or lower the audio.
+Create a Clip: Click the scissors icon to clip a particular part of the recording.
+Speed: Click to adjust the video speed. Speed options include:
+0.5x
+1x (default)
+1.25x
+1.5x
+1.75x
+2x
+2.5x
+3x
+Full Screen: View the video in full screen mode. Selecting Full Screen will open the recording in another tab.
+Media Progress Bar: Shows the time remaining on the video and and includes a loading bar to show how much of the video has been loaded.
+
+ 
+
+The Audio Player
+
+For Dialer calls that have been processed within Conversations, you will see an audio player. Since there is no video to display, the audio player is compacted into the recording controls only. 
+
+Within the audio player, you will see the following buttons:
+
+Media Progress Bar: Shows the time length of the audio and includes a loading bar to show how much of the audio has been loaded.
+Clip: Allows you to create clips from important parts of the call that may be shared with others. 
+Share: Send the recording to other team members or people outside of your organization.
+Rewind: Rewinds the audio within the recorded timeline.
+Play Button: Runs the audio recording.
+Fast-forward: Moves the audio forward through the audio timeline quickly.
+Speed Control: Plays the audio at a faster speed. This way you still hear and see all the content but in a fraction of the time. Speed options include:
+0.5x
+1x (default)
+1.25x
+1.5x
+1.75x
+2x
+2.5x
+3x
+Full Screen: Opens the recording to full screen.
+Participants
+
+The meeting speakers section breaks down talk time per each attendee. All meeting attendees will appear on the list with their talk time percentage listed next to their name.
+
+Below the name, you will see a visual representation of the talk time. The timeline shows blocks of color whenever the attendee speaks in the recording. You can select a moment in the timeline to jump to that spot in the recording.
+
+Recap
+
+The Recap tab shows a summary of the conversation and a list of action items you can take after the meeting.
+
+ 
+
+To learn more about the summaries and action items in the Recap tab, check out our Conversations Summary article and our Recap Action Items in Conversations article. 
+
+Trackers
+
+The Trackers tab shows the Trackers used in the conversations. To populate Trackers in this tab, click a word or phrase in the Tracker panel. If that Tracker was used, it will appear timestamped in this section.
+
+Comments and Notes
+
+The Comments tab and the Notes tab allow you to leave comments and take notes on particular timestamps.
+
+ 
+
+ 
+Last Modified By
+Raequel Sank, 12/13/2023 4:54 PM
+Title
+View Conversations Video and Audio Recordings
+URL Name
+View-Conversations-Video-and-Audio-Player
+Conversations
+Salesloft Knowledge
+Conversations Recordings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

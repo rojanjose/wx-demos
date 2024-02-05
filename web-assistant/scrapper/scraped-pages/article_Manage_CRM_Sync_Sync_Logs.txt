@@ -1,0 +1,253 @@
+ADMIN GUIDES
+Manage CRM Sync
+
+May 3, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+CRM Sync is the simplest and most reliable way to keep the data between your CRM and Salesloft entirely up-to-date. The sync works in near real-time, and administrators have the ability to decide which application “wins” when syncing each field.
+
+ 
+
+In this article, we will walk through:
+
+CRM Sync Requirements and Expectations Before You Begin
+CRM Sync Logs
+Enabling CRM Sync
+Initial Sync and Permissions
+Main CRM Connector
+CRM Sync Alert Contact
+Sync Frequency
+Sync Historical Opportunity Data
+Recognize CRM Merges and Deletion Settings
+
+ 
+
+CRM Sync Requirements & Expectations Before You Begin
+
+Your company must have one of the following CRM editions:
+
+Salesforce Professional edition with REST API access
+Salesforce Enterprise edition
+Salesforce Unlimited edition
+Microsoft Dynamics 365.
+
+The Main CRM Connector is used by Salesloft to make all CRM Sync updates for Leads, Contacts, Accounts, and Opportunities on behalf of this user. The user acting as the Main CRM Connector must have the following Permissions:
+
+Lead: “read,” “edit,” “create”
+Contact: “read,” “edit,” “create”
+Activity: “read,” “edit,” “create”
+Account: “read,” “edit”
+Opportunity: “read,” “edit”
+Field Accessibility:
+Read Access: Unidirectional Fields (CRM > Salesloft)
+Read & Write Access: Bi-directional Fields & Unidirectional Fields (Salesloft > CRM)
+
+The Main CRM Connector must also have these sharing settings enabled:
+
+For Salesforce, Read Access (Organization-wide) is recommended for any record regardless of Object that should sync with Salesloft. Organization-wide Read Access is required for Dynamics.
+The Main CRM Connector needs Read access not just for the records you plan to sync with Salesloft, but for all records (Leads, Contacts, Accounts, and Opportunities)
+For Salesforce and Dynamics, Read/Write Access is required for any record regardless of Object that should be updated or created by Salesloft
+For Salesforce and Dynamics, Read/Write Access is required for any record regardless of Object that should be updated or created by Salesloft
+
+Things to Note:
+
+We recommend connecting the Main CRM Connector to a user who has CRM administrator privileges. This is not required as long as the Connector user has the proper permissions.
+For field mapping that only comes in from CRM into Salesloft (aka, import-only information), read-access is the only permission required by the Main CRM Sync.
+For anything synced bi-directionally, the Main Connector license requires read and write access.
+
+ 
+
+Be aware of your API limit. You only have a certain number of API Calls per day, based on your CRM edition and the number of seats. You can read more about how to find Salesforce API Call limits and how to change them here.
+CRM Sync Logs
+
+Sync Logs give you full visibility into all sync actions that are completed. You can access the bidirectional sync logs between Salesloft and your CRM on the Sync Management page by clicking this View Logs button in the top section.
+
+Things to Note: The CRM sync logs can be accessed whether or not CRM Sync is enabled.
+ 
+
+
+The CRM logs page shows the following information: 
+
+Log ID number
+Timestamp
+Source
+Type
+Status of each sync action: If a sync status shows Fail, you can correct the error and click Retry to attempt the sync again. 
+Error: Hover over the Error column to obtain the full text of the error:
+Object ID
+Object Details
+
+
+Click any object to view the external record associated with the action. This will redirect you to the lead or contact pages in CRM or the Person record in Salesloft, depending on the sync rule. 
+
+To learn more about the Sync Logs, check out the View CRM Sync Logs article. 
+ 
+
+Enabling CRM Sync
+
+The CRM Sync setting determines if and how Salesloft syncs certain data with your CRM. The majority of other settings on this page are dependent on the CRM Sync setting being enabled. 
+
+Once CRM Sync is enabled, and you've mapped the necessary fields, data will flow between Salesloft and CRM to keep all of your information up-to-date. If any team member's CRM connection disconnects, their data will still sync between CRM and Salesloft through this CRM Sync. 
+
+The sync uses a CRM Sync to maintain the connection between the two platforms. This connection uses a team member's (usually an admin’s) CRM username to make all updates in both Salesloft and CRM on behalf of each Salesloft team member. 
+
+If no users have authenticated to the CRM from their personal settings, Sync cannot be enabled.
+
+Things to Note: Activity logging relies on individual, user-specific connections.
+ 
+
+
+ 
+
+When at least one user is authenticated to the CRM, but CRM Sync is off, users will see Not Configured in Crm Sync box, indicating Sync is disabled.
+ 
+
+
+To enable CRM Sync, follow these steps:
+
+In Salesloft, click on your name in the upper right corner and select Team.
+Go to the CRM Sync Settings in the left-hand menu.
+Click on the Sync Management tab at the top.
+Find the CRM Sync section of the page. Click Edit. The Edit CRM Sync widget will appear. 
+In the Edit CRM Sync widget, click the toggle to enable CRM Sync. The widget will expand to Select CRM Connector, which will be your team's Main Connector used for CRM Sync. 
+Click the drop-down menu and choose the Salesloft user you want to set as your Main CRM Connector. Typically, this will be you or the main admin on your account, as outlined in the requirements section above.
+Click Save to complete. 
+ 
+
+  
+When CRM Sync is enabled and in a healthy state, a green check mark will appear on the page along with the Salesloft user acting as the main connector user. The following components will also be visible on the page: 
+
+CRM Sync Alert Contact
+Sync Frequency
+Recognize CRM Merges
+Recognize CRM Deletions
+ 
+ 
+Initial Sync and Permissions
+Once Salesforce Sync has been enabled and you have configured the amount, Deals will start to sync the following objects:
+Complete history backload of object types: Account, OpportunityHistory, Opportunity, OpportunityContactRole, OpportunitySplit, OpportunityTeamMember, Contact, Lead, Event, Task, User, UserRole
+Lead - Last modified within 2 years, Event - created within 2 years, and Task - created within 2 years
+
+Things to Note: Although the Deals CRM Sync and the Cadence CRM Sync seem alike, there are significant differences. Deals syncs everything the Main CRM Connector has access to, while Cadence only syncs with records directly imported from CRM.
+
+Deals reads data using the connector user to ensure a consistent view of the objects/custom fields, but all writes occur on behalf of the logged-in user so that Salesloft respects their permissions in Salesforce.
+
+ 
+Main CRM Connector
+
+Salesloft Admins select a Salesloft account to be their team's Main CRM Connector to help with syncing fields on accounts, people and opportunities. 
+ 
+Things to Note: See the Requirements above for a list of recommended settings that must be applied to the user that is assigned as the Main CRM Connector. 
+ 
+When you set up CRM Sync for the first time, you will select a user as your Main CRM Connector. Once that setting has been enabled, you can verify the user by going to the CRM Sync settings and look for a green checkmark that designates Enabled using Main CRM Connector.
+ 
+
+
+If the user is disconnected from their CRM, you will see a red warning signal that means the Main CRM Connector is disconnected. This will also prompt the CRM Disconnect banner to appear at the top of any page in Salesloft. 
+ 
+
+ 
+
+ 
+If you ever need to change which user is your Main CRM Connector, you may edit the user from the Main CRM Connector panel. 
+ 
+Follow these steps to update the Main CRM Connector: 
+
+Go to your CRM Sync Settings in your Data Settings (Data > CRM Sync > Sync Management > CRM Sync), or by clicking View CRM Sync Settings from the Connection Lost for Main CRM Connector Error message.
+Under CRM Sync, click Edit. The Edit CRM Sync window will pop up. 
+Once the CRM Sync modal is open, you will see a clear error message indicating who the main CRM connector was and that their CRM connection is no longer working. From here, you can still see if you need to personally re-establish your own connection and select a new main connector.
+Things to Note:
+Email addresses will be listed in alphabetical order.
+This list will only display active Salesloft users. 
+If you do not see the user you want to select, it is because that user is not mapped in the User Management tab to their Salesforce email or that they are an inactive Salesloft account.
+To select a new Connector, use the dropdown and click a user's email address. 
+Click Save. 
+ 
+
+ 
+
+ 
+
+If you close the modal without selecting a new main connector, an error icon will appear where in your CRM Sync. All related settings will be locked until a valid main CRM connection is established.
+
+CRM Sync Alert Contact
+If an error occurs with your CRM sync, you will want to act fast to resolve the error (or risk missing some data). So, it's very important that the right person is notified if/when an error occurs.
+
+The CRM Sync Alert Contact proactively notifies the correct admin within your organization. The following CRM Sync errors will prompt the alert: 
+Picklist Value errors
+Picklist field errors
+API threshold limit is reached
+If one of the aforementioned CRM Sync error occurs, the CRM Sync Alert Contact will receive an email every 48 hours until any issues are resolved. 
+
+By default, this will be the same email address of your Main CRM Connector. If you want to change the user who will be the CRM Sync Alert Contact, we recommend that you select the CRM Sync Alert Contact during your initial Salesloft configuration. 
+
+To select or edit a CRM Sync Alert Contact, follow these steps: 
+From your dashboard, click on your name and select Team.
+Go to the CRM Sync Settings in the left-hand menu.
+Click on the Sync Management tab at the top of the page.
+Under CRM Sync Alert Contact, select Edit. A dropdown menu will appear where the edit button was previously. 
+Enter an email address or scroll through the dropdown to find the user you would like to make the contact. Select their name. 
+Click the checkmark to save. 
+ 
+ 
+Sync Frequency
+After sync has been enabled you can view and edit your sync frequency. Your sync frequency controls how often Salesloft connects to your CRM instance, looks for changes, and updates field information through API calls. 
+
+Things to Note: The more frequently we connect to CRM, the more API calls we use. As mentioned at the start of setup, you only have a certain number of API Calls per day, based on your CRM edition and number of seats. To learn more, check out our Salesloft API Limits article
+
+Since API calls are made to the objects mapped in your CRM field configuration, you can adjust how often Salesloft Sync will occur for each record type: Account, Leads, Contacts, and/or Opportunities. You can set the sync frequency to once a minute, check every 5 minutes, or every 10 minutes. Our default sync time is set to check every 10 minutes.
+
+The Sync Frequency panel will show the frequencies that have been set for your team. To edit the frequency of any object, follow these steps: 
+Go to the Sync Management tab inside your CRM Sync Team Settings. 
+Find the Sync Frequency section of the page. Click Edit. The Edit Sync Frequency and Historical Data window will appear. 
+Things to Note: Sync Frequency will only appear when Sync is enabled. If you do not see the Frequency section, make sure Sync is enabled. 
+In the Edit Sync Frequency and Historical Data window, select the dropdown menu for the object you would like to update. 
+Pick your frequency option. You can select one of the following: 
+Every Minute
+Every 5 Minutes
+Every 10 Minutes
+Click Save. The frequency options you select will now appear in the Sync Frequency section.
+ 
+
+ 
+Sync Historical Opportunity Data
+If you have previous opportunity data you would like to sync in your Salesloft Opportunity panels, Salesloft can search and sync your recent opportunity history.
+
+Follow these steps to sync your opportunity data:
+Go to the Sync Management tab inside your CRM Sync Team Settings. 
+Find the Sync Frequency section of the page. Click Edit. The Edit Sync Frequency and Historical Data window will appear. 
+Things to Note: Sync Frequency will only appear when Sync is enabled. If you do not see the Frequency section, make sure Sync is enabled. 
+In the Edit Sync Frequency and Historical Data window, go to the Opportunity object and check the box Sync Historical Opportunity Data. When the box is checked, more information will appear. 
+Click the dropdown Sync Opportunity Data From: to select the date range of past opportunities. Salesloft can sync opportunity data from up to four weeks prior to today's date.
+Hit Save. A message will confirm the begin of the sync process.
+ 
+ 
+Recognize CRM Merges and Deletion Settings
+The Recognize CRM Merges and Deletion settings determine whether Salesloft will recognize merges or deletions in the CRM and reconcile records in Salesloft accordingly.
+
+Things to Note: These settings previously lived on the CRM Sync Settings tab. 
+
+To learn more about setting up the CRM merge and Deletion Settings, check out the CRM Mirroring: Recognize Salesforce Merges and Deletions article. 
+ 
+ 
+ 
+Last Modified By
+Briana Morgan, 5/3/2023 2:20 PM
+Title
+Manage CRM Sync
+URL Name
+Manage-CRM-Sync
+Salesloft Knowledge
+Admin Guides
+CRM
+CRM Essentials
+Data Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

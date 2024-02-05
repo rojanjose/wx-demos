@@ -1,0 +1,79 @@
+CONVERSATIONS
+Conversations User Checklist
+
+Jan 9, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+In this article, you will learn the recommended steps to set up Conversations as a user. Each step will direct you to additional resources for including set up instructions. Use the list below to track your progress!
+Connect to Your Email
+Connect to Your Calendar
+Manage Your Meeting Platform Settings
+Select Your Bot Timing Preference
+Confirm Your Email Address(es) Are Recognized by Conversations
+Choose Your Conversations Notifications
+Conversations Daily Checklist
+Connect to Your Email
+Your email address acts as your personal identifier in Conversations. This means Salesloft uses your email address to verify you are an approved Conversations user. 
+
+To learn how to connect your email, select your email client from the options below:
+Gmail: Follow the instructions listed in our Set Up Your Email Account - Gmail article.
+Outlook: Check out our Set Up Your Email Account - Outlook article. 
+Salesloft Mail: Check out the Salesloft Available Email Clients article for more information. 
+Connect to Your Calendar
+Before you set up Conversations, your Calendar must be set up. Your calendar connection syncs with Conversations. This way, meeting invites that you book will be added to your Scheduled meetings in Conversations. 
+
+You will set up and manage your calendar from The Calendar page in your Personal Settings. To learn more about how to set up your calendar, check out the Set Up Your Meetings Calendar article. 
+Manage Your Meeting Platform Settings
+Before Conversations begins capturing your meetings, you will want to be sure your meeting platform is set up just the way you would like it. From your meeting platform you can manage video, audio, recording, or profile settings. 
+
+To manage your meeting platform settings, you will need to venture outside the Salesloft platform and select the settings option for your meeting platform. 
+Select Your Bot Timing Preference
+When the Conversations bot attends a meeting it will look like an additional meeting participant. From your Conversations Settings, you can designate when the bot joins the meetings. 
+
+You can have the bot join five minutes before the meeting assurance or have the bot join right at the start of the meeting so you can skip over any awkward waiting time. Ultimately, the decision is yours (or your team admin's). Now, if only you could control when your invitees joined too. 
+
+To learn how to select your bot timing preference, check out the Set Up Conversations article. 
+ 
+Confirm Your Email Address(es) Are Recognized by Conversations
+Your Conversations Settings will show the email address(es) that the bot identifies as yours. The bot is designed to join meetings of any email address that it detects. So, you will want to confirm that any and all email addresses shown in the Bot Detects Alternate Emails window are approved by you. 
+
+When will this come into play? Many of us have at least two email addresses: your work and your personal. Some of us may have more than one work email address: for example, the email address that contains your name and a distribution email that you oversee. Now, you may want the bot to join meetings for both of your work email addresses, but you most likely don't want it attending meeting sent via your personal email. 
+
+If you go to verify the email address(es) that are recognized by Conversations and find an email addresses needs to be added or removed, submit a request to our Support team.
+Choose Your Conversations Notifications
+Conversations notifications inform you of upcoming and completed actions. These notifications can be via email or Slack. 
+
+If you would like to cut down on the noise of notifications as much as possible, there are two notifications we recommend enabling: 
+My Upcoming Calls
+Upcoming Calls I'm Invited To
+These notifications give you a heads up that your meeting is coming soon, let you know it's being captured by Conversations, and provides a link to Live Notes that you can update during your call. 
+
+To learn how to set your Conversations Notification preferences, check out the Set Up Conversations article. 
+Conversations Daily Checklist
+Yes, we have a checklist within a checklist. You see, setting up Conversations is just the launchpad. Now that you have completed the setup, there are steps you can take each day in order to get the most out of Conversations. 
+
+Here are the recommended daily steps for Conversations: 
+At the start of your day, check the Scheduled tab and confirm your Scheduled meetings match your calendar. In the event that your meeting is not scheduled, add the bot to the meeting.
+Start your meeting. Confirm the bot is in attendance. If the bot is not in attendance, perform one of the following:
+Add the bot to the meeting
+Record the meeting. Meeting recordings may be uploaded into Conversations later. 
+Open Live Notes from the In Progress tab or your Conversations Notification email.
+End the meeting for all. 
+At the end of the day, view your meetings in the Recordings tab. Create clips to share with fellow meeting attendees or save meetings to playlists for future review with your manager. 
+Last Modified By
+Raequel Sank, 1/9/2023 3:51 PM
+Title
+Conversations User Checklist
+URL Name
+Conversation-Intelligence-User-Checklist
+Conversations
+Salesloft Knowledge
+Conversations Essentials
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

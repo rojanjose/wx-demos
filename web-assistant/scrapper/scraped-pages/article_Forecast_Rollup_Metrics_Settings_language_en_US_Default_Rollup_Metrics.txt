@@ -1,0 +1,158 @@
+FORECAST
+Forecast Rollup Metrics Settings
+
+Jul 19, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Your Forecast page shows different visual representations of how your team is tracking toward their goal and forecast. To gather this data, an admin will need to configure the Forecast Rollup Metrics that apply to your team. 
+ 
+
+What is a rollup metric? A rollup metric is any metric that represents a part of your team’s forecast data. For example, if your team is forecasting new business deals your rollup metrics may include the stages that represent your new business deals – Pipeline, Discovery, Proposal, Negotiation. You can also combine field values, such as Forecast Category, into one metric (i.e. Commit + Closed Won). When defined these metrics add up the values of the deals that match the criteria. 
+ 
+
+The Forecast Rollup Metrics are the values that will appear inside the Forecast Dashboard. Salesloft gives each team a set of default metrics. These metrics can be edited or you can create new metrics specific to your business. 
+
+For example, let’s say your team uses Opportunity Stages as indicators for your forecast and you want to forecast based on opportunities that are “In progress” and “Closed Won.” To accomplish this, you will add “Opportunity Stage” as a Rollup Metric. The field criteria for your Rollup Metrics will include "In progress" and "Closed Won." Once you click Save, the monetary value of any opportunities that fit these criteria will be added to that metric in your Forecast Dashboard.
+
+Only Deals Admins can select criteria for a single rollup category. However, within a single rollup category, an admin can choose multiple values from a single field.
+
+For example, as an Admin, you can choose Forecast Category as a single rollup category and then choose multiple values within that category, such as Closed Won, Commit, and Probable. This rollup will now roll up opportunities in those multiple categories into a single number.
+
+Things to Note: A maximum of 15 characters will be shown in the metric name.
+
+You will set up the Rollup Metrics from the Deals Forecast Settings. To access the page, go to Deals, select Admin, and go to the General Settings tab. Inside the General Settings, select Deals Forecast.
+ 
+
+
+In this article, you will learn about setting up your team’s Rollup Metrics, including: 
+
+Edit and Add Rollup Metrics
+Default Rollup Metrics
+Delete a Rollup Metric
+Edit and Add Rollup Metrics
+
+In order for your team to view accurate numbers, you will need to edit your Rollup Metrics and configure the metric values. Configuring the values is a lot like field mapping—you decide to pull data from Opportunity fields that are appropriate for your team. 
+
+
+When it’s time to add metrics, or if you would like to adjust your Rollup Metrics, you will select Edit from the Forecast Rollup Metrics section of the Deals Forecast Settings. Clicking Edit will open a modal where you will configure and edit rollup values. 
+
+ 
+
+In the Edit Forecast Metrics window, all metrics are added and edited in the same way. Changing your metrics will automatically roll up any opportunities that fit within these categories into your forecast dashboards as columns.
+
+ 
+
+Things to Note: 
+
+You can reorder rollup categories or select which rollup metrics are visible to your team directly on the forecast page.
+These will define all of the available metrics that can be added to any segment that is active for your team. If you want different metrics per segment, this is possible
+
+ 
+
+To add a rollup metric, follow these steps: 
+
+Go to the Deals Forecast Settings within your Deal Admin General Settings. 
+In the Forecast Rollup Metrics section, click Edit. 
+Click Add Metric toward the bottom of the window (you may need to scroll down to find it). A new field with editable text boxes will appear as the first item in the Rollup Metrics.
+Type in a Metric Name. The metric name will appear in the Team Rollup and Hierarchy panels. You’ll want to make sure the name is something your team will understand and recognize. 
+Next, set the Rollup Category. This is where you will define the Opportunity field and value criteria that will contribute to the Rollup Metric. 
+Select a filter: scroll through the dropdown and click an opportunity field name (i.e. Stage or Forecast Category). 
+Select filter values: The sub-filter will let you pick the specific type of this filter that will add to the value. The values in this drop-down will be specific to the rollup type you select and specific to your CRM. You can then select one or multiple values of rollup categories. 
+Once you select the filter value, click inside the filter value box to complete your selection. You will see a pill with the filter name or a pill that tells you the number of selections you have made. 
+Click Apply Changes.
+Click the green checkmark on the right side of the edit area to Save the metric and add it to your available metrics list. 
+Things to Note: You will not be able to save until you include a Metric Name. 
+To cancel the action, click the X instead of the Save button. 
+Click Save in the Edit Forecast Rollup Metrics window to apply the field. 
+
+ 
+
+ 
+
+To edit an existing rollup metric, follow these steps:
+
+Go to the Deals Forecast Settings within your Deals Admin General Settings. 
+In the Forecast Rollup Metrics section, click Edit. 
+Find the metric you would like to edit and click the pencil icon. The metric will switch to editable text boxes.
+Make your changes:
+Type to enter a different metric name
+Select a different filter.
+Select different filter values. You can remove existing values by clicking the X inside the filter value pill. 
+Click the green checkmark on the right side of the edit area to Save the metric.
+Click Save in the Edit Forecast Rollup Metrics window to apply the field. 
+
+ 
+
+ 
+
+ 
+
+Default Rollup Metrics
+
+You can add or edit opportunity metrics to view them inside the Forecast Dashboard. Salesloft also provides default rollup metrics to get you started and set you up for forecast success. 
+
+The default metrics include: 
+
+Goal: The Goal metric pulls from your Goal Management settings. It will always be visible inside the Rollup Metrics. 
+Things to Note:
+To update the Goal value, check out the Goal Management Settings article. 
+You cannot edit or delete the Goal value from the Rollup Metrics.
+Forecast: This value is based on the amount that each user submits as their Forecast. You may edit the name of the Forecast default metric. 
+AI Forecast: A data-driven, suggested metric that users and managers can use to determine their own accurate revenue forecasts.   
+Things to Note: AI Forecast is not enabled by default. Contact your Salesloft representative to learn if AI Forecast is right for your team.
+Closed Won
+Open Pipeline
+This value helps teams evaluate whether they have enough pipeline coverage to hit their goals or quotas. Sales pipeline coverage measures the ratio between the dollar value of a funnel and upcoming revenue targets.
+Things to Note: Within Forecasting, Open Pipeline is calculated as Unweighted Pipeline / Remaining Goal.
+Unweighted Pipeline: Total amount of opportunities open in the pipeline during a specified period
+Remaining Goal: Goal for period - Amount Closed Won in this period
+Open + Closed
+Pipeline (SFDC standard forecast category)
+Best Case (SFDC standard forecast category)
+Commit (SFDC standard forecast category)
+Omitted (SFDC standard forecast category)
+ 
+
+Things to Note:
+
+Some metrics cannot be deleted as they are standard metrics for all customers: Open Pipeline, AI Forecast/Weighted Pipeline, Goal, and any of your Forecast Types. 
+All other metrics can be edited, deleted, etc. 
+Delete a Rollup Metric
+
+As you use Forecast more often, you may find certain metrics aren’t as helpful to your team. Or, maybe you got a little overzealous adding Rollup Metrics at first, and now your Forecast Dashboard is looking a little cluttered. 
+
+ 
+
+For these types of instances, you can remove a Rollup Metric by deleting it from the list. To delete a rollup metric, follow these steps:
+
+Go to the Deals Forecast Settings within your Deals Admin General Settings. 
+In the Forecast Rollup Metrics section, click Edit. 
+Find the metric you would like to delete, and click the trash can icon. The item will be removed. 
+Click Save to apply the settings to the Forecast dashboard. 
+Things to Note: If you accidentally deleted the wrong item or changed your mind, click Cancel. 
+
+ 
+
+
+ 
+ 
+ 
+Last Modified By
+Stephanie Griffith, 7/19/2023 3:28 PM
+Title
+Forecast Rollup Metrics Settings
+URL Name
+Forecast-Rollup-Metrics-Settings
+What's New
+Forecast
+Forecast Admin
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

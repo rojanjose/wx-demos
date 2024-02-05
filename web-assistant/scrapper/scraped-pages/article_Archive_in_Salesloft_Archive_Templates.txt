@@ -1,0 +1,138 @@
+PEOPLE AND ACCOUNTS
+ACCOUNTS PAGE
+Archive in Salesloft
+
+Nov 14, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Once a record or piece of content in Salesloft becomes out of date or is no longer of use to you, you will likely want to get rid of it. Your first instinct is probably to delete the record, but not so fast.
+
+Deleting items removes all data that is associated with that record from Salesloft. So metrics you have gathered (replies, clicks, opens) will all be lost if you hit delete.
+
+Instead of deleting records, Salesloft recommends that you Archive your old records. Archiving removes the record from your list, but retains all the (important) data!
+
+You have the ability to archive, Accounts, Cadences, Templates, and Snippets inside Salesloft.
+
+In this article, you will learn about archiving Salesloft records, including: 
+
+Archive Accounts
+Archive a Cadence
+Archive Templates
+Archive Snippets
+Bulk Archive Cadences
+Include Archived Items in Your Listview
+Unarchive
+Archive Accounts
+
+Salesloft offers the ability to archive Accounts. You may want to archive Accounts that are no longer in business or have gone through a merger. These use cases allow you to retain engagement metrics made toward the Account, and will keep you from contacting them again.
+
+To archive Accounts, follow these steps:
+
+From the The Accounts Page, select the Account or Accounts by clicking the checkbox next to their name.
+Click the More button on the Account actions toolbar. A dropdown menu will appear. 
+In the dropdown, click Archive. 
+A prompt will popup to confirm that you wish to archive the Account. Click Archive. 
+Archive a Cadence
+
+Salesloft allows you to archive cadences. Archiving cadences means you will no longer see the Cadence on your list view, but you retain all of your engagement metrics associated with that Cadence. 
+
+You should archive Cadences that are out of date, no longer relevant to your sales process, and even Cadences that performed poorly. All of those Cadences contain valuable data that should be saved. 
+
+Things to Note:
+
+Things to Note: Effective November 30, 2023, any Active Person in a cadence that was archived prior to June 12, 2023 will be removed from that cadence.
+Once a Cadence is archived, any upcoming steps that were due will no longer appear.
+If an automated email was scheduled in a Cadence before the Cadence was archived, the automated email will still send at its scheduled time. You can cancel the email from the Emails Page.
+Any user assigned to a due or overdue step(s) associated with an archived cadence will no longer see those steps appear on their Cadence Panel via the Home Dashboard.
+
+To archive a Cadence:
+
+Open the Cadence list. 
+From the Cadence list, there are three ways to archive Cadences, including:
+Check the box beside each Cadence you want to archive, then click Archive. 
+Click the down arrow to the right of the Cadence Name, then select Archive. 
+
+Things to Note: Archiving a Cadence removes it from your Cadence list view, but you can view archived Cadences by selecting "Include Archived" under the filtering option.
+
+ 
+ 
+
+
+Archive Templates
+
+To archive templates:
+
+Select the template or templates by clicking the checkbox next to their name.
+Click the Archive icon. Archiving a template removes it from your template list view.
+Archive Snippets
+
+To archive snippets:
+
+Select the snippet(s) by clicking the checkbox next to their name. The actions will appear at the top of the table. 
+Select More. 
+Click the Archive icon. Archiving a snippet removes it from your list view.
+
+ 
+
+Bulk Archive Cadences
+
+You can also archive cadences in bulk. Bulk archiving cadences will remove them from the default cadence list and the add to cadence modal. It will also prevent any new people from being added to the cadences.
+
+ 
+
+Things to Note: 
+
+Effective November 30, 2023, any Active Person in an archived cadence will be removed from that cadence.
+You can archive up to 100 cadences at once. 
+
+ 
+
+To bulk archive cadences:
+
+Check the box beside each cadence you would like to archive. You can also check the box at the top of the cadences list to remove all cadences at once.
+Click Archive.
+Choose one of the following archive options:
+Archive and do not remove People from cadence
+Archive and remove people from cadence
+Things to Note: Removing People from a cadence is not reversible
+Hit Archive Cadences.
+
+ 
+
+ 
+
+Include Archived Items in Your Listview
+
+Once an Account has been archived, the Account will be hidden from the listview unless you add the Include Archived filter option. When archived Accounts appear, the archive icon will appear to the left of the name in the list. 
+
+Unarchive
+
+If you ever want to bring a record out of the archive, you can "unarchive" the record. 
+
+To unarchive records, filter the listview to include Archived items. Select the archived item. Follow the same steps as you did when you archived the item, however this time the action will say Unarchive instead. 
+
+Once an item is unarchived, it will appear in your listview by default and you can perform actions with the item again. 
+
+ 
+Last Modified By
+Raequel Sank, 11/14/2023 3:38 PM
+Title
+Archive in Salesloft
+URL Name
+Archive-in-Salesloft
+Email
+Salesloft Knowledge
+Cadences + Tasks
+People And Accounts
+Email Guides
+Manage A Cadence
+Accounts Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

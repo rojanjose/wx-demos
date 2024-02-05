@@ -1,0 +1,38 @@
+ADMIN GUIDES
+ADMIN ESSENTIALS
+Security and Compliance
+
+Oct 25, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+At Salesloft, we take security and privacy seriously. We understand that in gaining your business, we are forming a relationship based on trust, and we intend to maintain and build upon that trust.
+
+To help ensure the security, privacy, integrity, and availability of your company's information, Salesloft partners with industry-leading technology providers and has implemented robust security and risk-management practices.
+
+Please visit the Salesloft Trust Portal for an overview of our program and to access to confidential documentation, including the following: 
+
+Our SOC 2 Type 2 attestation report
+ISO 27001 certification
+Other independent assessments
+Company policies and standards related to security, privacy and compliance
+
+Things to Note: You will need to request access prior to viewing the information contained in the Trust Portal. 
+
+Last Modified By
+Stephanie Griffith, 10/25/2023 9:05 PM
+Title
+Security and Compliance
+URL Name
+Security-and-Compliance
+Salesloft Knowledge
+Admin Essentials
+Admin Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

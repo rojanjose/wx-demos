@@ -1,0 +1,193 @@
+DEALS
+DEAL MANAGEMENT
+Deal Activity Timeline
+
+Mar 18, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Timeline tab in the Deal View shows all activities that have happened in the past on an opportunity. For each activity, a user can expand the view in order to view more granular details on each activity. 
+
+Since this tab shows the activities that happen over a timeline, we also refer to it as the Deal Activity Timeline tab. 
+
+In this article, you will learn about each part of the Deal Activity Timeline tab, including: 
+Activity Timeline Chart
+Deal Activity Timeline Filter
+Upcoming and Past Activities
+Access Conversations Recordings in Deals
+Play Conversations Recordings in Deals Activity Feed
+Activity Timeline Chart
+The horizontal Activity Timeline chart shows historical activities for meetings, prospect activity, rep activity, and CRM change events (amount change, close date change, and stage change). 
+
+This bar chart displays how many activities have occurred on this deal and the meetings, prospect activity, and rep activity on a given day. In addition to that, CRM change event icons appear at the top of the chart to show the following details: 
+Amount Change: For an amount change, it will display the newest amount and then the change (up or down) from the previous amount. If there are multiple amount changes in a given day, then it will compare the current amount to what the amount was at the beginning of the day
+Close Date Change: For close date change, it will display the newest close date for the opportunity. If there are multiple close date changes on a given day, then it will show the close date from the beginning of the day.
+Stage Change: For stage change, it will display the current stage the opportunity was moved to.
+In the Activity Timeline, you can hover over each day and see a hover state which shows what changes were made on that given day. Additionally, it will also show how old the deal is at the top by displaying "Day 48" as an example to indicate this deal has been open for 48 days.
+
+Finally, you can click the arrow on the left side of the chart to view activities in the past.
+ 
+Deal Activity Timeline Filter
+Inside the Deal Activity Timeline, you can filter activities by activity type. This way, if you want to review how many phone calls or meetings have happened through the stages in the opportunity, all you need to do is filter by those activity types. 
+
+On the Deals Activity Timeline, you'll find the filter option directly above the timeline. By default it will show all types of activities. 
+
+Click Activities to open the list of activities and select which activities you want to view in the timeline. Click to Apply to update the timeline to show only the activity types selected. 
+
+
+ 
+Upcoming and Past Activities
+The rest of the timeline views shows the activities that are currently scheduled (Upcoming) and those that have previously been logged (Past) to the Opportunity. 
+ 
+
+Activity Type
+
+	
+
+Activity Description
+
+	
+
+Icon
+
+
+
+
+Call
+
+	
+
+This activity is when a Call is logged and completed in the database. This does not indicate a where a call is connected, meaning the activity log includes times when a call was attempted but didn’t connect as well as calls that connected.
+
+Could included logging of internal calls, or when a prospect calls back and the user logs that event. 
+
+	
+
+
+
+
+Sent Email
+
+	
+
+This activity is when a user sends an email to the prospect.
+
+	
+
+
+
+
+Email Reply
+
+	
+
+This activity is when a user receives an email from the prospect.
+
+	
+
+
+
+
+Meeting Booked
+
+	
+
+This activity is for when a meeting is booked with a prospect.
+
+	
+
+
+
+
+Meeting Cancelled
+
+	
+
+This activity is for when a meeting that is booked is changed to cancelled.
+
+	
+
+
+
+
+Meeting Held/Completed
+
+	
+
+This activity is for when a meeting that is booked has been marked as completed/held.
+
+	
+
+
+
+
+Stage Change
+
+	
+
+This is a CRM Pipeline Change event when an opportunity moved from one stage to another.
+
+	
+
+
+
+
+Amount Change
+
+	
+
+This is a CRM Pipeline Change event when an opportunity amount is changed.
+
+	
+
+
+
+
+Close Date Change
+
+	
+
+This is a CRM Pipeline Change event when an opportunity close date is changed.
+
+	
+
+Access Conversations Recordings in Deals
+Your Deal View Activity Timeline shows all of the actions that have been taking on this particular Deal. As shown above, this includes interactions such as emails, calls, CRM change events, and meetings. While seeing a meeting took place is helpful, being able to view meeting recordings helps bring additional insights and coaching opportunities to the Deal View, which is why the Deal View pulls in any meetings recorded by Conversation Intelligence. 
+
+Viewing Conversation Intelligence recordings from the Deal View links Conversation Intelligence recordings to relevant opportunities when viewing in Deals. From there, you can access and play Recordings in Deals Activity Feed. You can navigate to the Conversation Intelligence Recording Page from Deals to view additional recordings. 
+
+Things to Note:
+You must have access to both Deals and Conversation Intelligence to use this feature. 
+If a recording doesn't exist for a meeting, the activity will display by itself.
+In order to find Conversation Intelligence Recordings in your Deal View using one of the following methods:
+Start on the Pipeline Tab within Deals and click on a Deal Name.
+Click into one of the drill-downs on the Deals Summary page.
+Click into the Conversion Rate Analytics Drill-Down
+Regardless of how you get to the Deal View page, you will access Conversation Intelligence recordings by navigating to the Timeline Tab and viewing the Activity Timeline . 
+
+Below the video player, you will see the option to open the recording in Conversations. Select this button to open Conversations in a new tab.
+Play Conversations Recordings in Deals Activity Feed
+The Timeline Tab will present them with all of the activities related to the deal in a Horizontal Chart and the below Vertical Activity Feed. In the Vertical Activity Feed, Conversation Intelligence Recordings will appear on Meeting activities that have been held in the past. Clicks the meeting activity to see the details of the meeting and open the Conversation Intelligence recording player.
+
+From this view, you can play your recording. You will have the options to rewind, fast forward, speed up, slow down, and expand the video to full screen.
+
+Things to Note: From the Deal View Conversation Intelligence player, you will NOT have the option to share or clip the video. To take those actions, open the recording in Conversations.
+
+
+ 
+Last Modified By
+Stephanie Griffith, 3/18/2022 7:49 PM
+Title
+Deal Activity Timeline
+URL Name
+Deal-Activity-Timeline
+Deals
+Salesloft Knowledge
+Deal Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,204 @@
+DEALS
+Pipeline Dashboard Overview
+
+Dec 15, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Your Dashboards act as the motherboard of data within Deals. The Dashboard will determine the data that builds your Pipeline and Deal Views. Dashboards can be created for a variety of Salesforce records.
+
+The Pipeline Dashboard tabulates all of your Deals. It's highly customizable and offers a variety of insights that paint a clear picture into how your sales are progressing.
+
+To access the Pipeline Dashboard, go to the Deals product tab in the top navigation. By default, you will be directed to the Pipeline tab. The Dashboards are available under the Pipeline tab.
+
+In this article, you will learn the components of the Pipeline Dashboard and how to manage it, including: 
+
+Personal Dashboards
+Add a New Dashboard
+Dashboard Actions
+Pipeline Dashboard Filters
+Manage Pipeline Dashboard Columns 
+Deal List
+Personal Dashboards
+
+In the top left corner of each Dashboard, you will see an icon followed by the name, or title, of the Dashboard. The icon signifies the Salesforce record type the Dashboard is pulling data from.
+
+ 
+
+By clicking the title of the Dashboard you can view all of the other Dashboards that are accessible to you. These may include Dashboards you have previously created and saved or Dashboards created by a team member and shared with you. 
+ 
+
+ 
+Here, you can search for your desired Dashboard by name. You can also toggle between Dashboards of different account types, such as Opportunities, Accounts, and Contacts. Click each record type to filter the Dashboard to only show that specific record type.
+ 
+ 
+
+ 
+
+To make certain dashboards easier to find, you can hover over their name and Favorite them. You can view favorited dashboards in the Favorites section of the dropdown.
+ 
+ 
+ 
+Add a New Dashboard
+
+At first glance, Dashboards offer a lot of information, which may be overwhelming. If you only need to see a fraction of the data visible to you, you can add a new Dashboard and use filters to customize your data. 
+
+To add a new Dashboard, follow these steps: 
+
+From the Pipeline Dashboard, find the name of the Dashboard and click the down arrow to the right of the name. This will open the Personal Dashboards menu. 
+Select Add New Dashboard at the bottom of the menu. The menu will expand. 
+Enter a Dashboard Title.
+Pick a Record Type from the following options:
+Opportunity
+Account 
+Contact
+(Optional) Share the Dashboard you are creating with a team member or everyone on your team. 
+Click Add New Dashboard to save the Dashboard you created. Once the Dashboard has been added, it will appear in your Personal Dashboard menu. 
+Things to Note: You cannot create a Dashboard until the title and record type have been added. 
+
+ 
+
+ 
+
+ 
+ 
+Dashboard Actions
+
+Each Dashboard offers actions that add to or provide additional management of the Dashboard. To access these actions, select the three vertical dots to the left of the Dashboard title. 
+
+Things to Note: You may also open the Dashboard Actions menu from the Personal Dashboard and edit any of the visible Dashboards. 
+
+For a walkthrough of each action, check out the Pipeline Dashboard Actions article. 
+ 
+
+Pipeline Dashboard Filters
+
+Pipeline Dashboard filters allow you to drill down the list of Deals you are viewing based off of certain criteria. The filters are broken down into the following categories:
+
+Owners
+Stages
+Close Date
+Gaps
+Advanced Filters
+
+To learn more about the filter options, check out our Pipeline Dashboard Filters article.  
+
+Manage Pipeline Dashboard Columns  
+
+You can edit the location of columns within the Pipeline table to create the list view that contains the information that is most relevant and important to your business.
+
+To edit the columns inside the dashboard to fit your preference, select the Manage Columns button that looks like three columns at the top of your Pipeline Dashboard.  
+
+ 
+
+ 
+
+When you click the Manage Columns icon, the Customize Columns window will appear. From the Customize Columns window, you can perform the following:
+
+Add Columns
+Remove Columns
+Set Column Order
+
+ 
+
+Add Columns
+
+You can select, or add, fields that will appear as the columns inside your Pipeline Dashboard. 
+
+The fields are listed in the following categories: 
+
+Salesloft Feature Fields: Salesloft Deals exclusive fields that offer additional insights into your pipeline. 
+Opportunity Fields: The complete list of Opportunity fields pulled from your Salesforce instance.
+Account Fields: The complete list of Account fields pulled from your Salesforce instance.
+
+ 
+
+To add a field as a column in your Pipeline Dashboard, follow these steps: 
+
+Select the Manage Columns icon found above the Pipeline Dashboard. The Customize Columns window will appear. 
+Find the field name you would like to add as a column. You can search for a field by entering the name in the text box or scroll the list of available fields. 
+Things to Note: Fields that are already included as columns will be selected by a checkmark. 
+Once you find the field, check the box in front of the field name. The field will be added to the end of the Field Order list on the right side of the window. 
+Click Apply to save. 
+
+ 
+
+Remove Columns
+
+If you find that a field is no longer providing value or that it’s taking up space and you constantly skip over it, those are very good reasons to remove a column from your list view. 
+
+Removing a column means the data will no longer be visible within the Pipeline view. The data will still be available inside the in depth Deal View and/or your CRM. 
+
+You can remove a column by selecting Manage Columns. Inside the Customize Columns window, there are actually two methods you can use to remove a column.
+
+From the Fields list (Left Side), search for the field name and deselect the previously checked box.
+From the Fields Order (Right Side), click the minus icon to the right of the field name. 
+Once you’ve performed the action to remove the field column, click Apply to save. 
+
+ 
+
+Set Column Order
+
+The Field Order section of the Customize Columns window shows the existing columns visible in the Pipeline Dashboard and their order. 
+
+As you are adding or removing columns, you can also rearrange the column fields in the order you would prefer to see them. You could order them alphabetically, by priority, or totally at random – the choice is yours. 
+
+Things to Note: The Name field cannot be moved. It is locked as the first column displayed so you always know the name of the Deal. 
+
+To change the order of the columns in your Pipeline Dashboard from the Customize Columns window, follow these steps:
+
+Go to the Field Order section. 
+To the left of the field name, you will see a six-dot icon. That is the grab icon.
+Click and hold the icon, then drag the field name to the preferred location in the list. 
+Release the name once you find the correct spot. 
+Click Apply to save.
+
+ 
+
+ 
+
+Once the columns are in place, you can click to edit information. This could be rich text, amounts, or dates.
+
+
+
+
+
+Deal List
+
+The first column of the Pipeline View is the Deal List. The Deal List shows the Opportunities (based on your set filters). 
+
+The Deal List is static from the Pipeline View and the Deal View, so you can always reference and view the entire list. 
+
+Each Deal panel shows a brief glimpse of information, including: 
+
+Deal Search
+Opportunity Name
+Age of the Opportunity
+Opportunity Owner
+Account Name
+
+Things to Note: To appear on the Deal panel, the Opportunity Owner must be connected to a CRM instance. 
+
+ 
+
+At the bottom of the page, the last line gives the total number of Deals listed. 
+
+
+ 
+Last Modified By
+Raequel Sank, 12/15/2023 5:32 PM
+Title
+Pipeline Dashboard Overview
+URL Name
+Pipeline-Dashboard-Overview
+Deals
+Salesloft Knowledge
+Pipeline Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

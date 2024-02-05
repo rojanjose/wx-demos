@@ -1,0 +1,134 @@
+CRM
+Dynamics Admin Guide
+
+Mar 8, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft's integration with Microsoft Dynamics 365 connects your team's sales engagement to another vital tool: their CRM. 
+
+Things to Note: Salesloft only integrates with Microsoft Dynamics 365.
+
+Before your team can reap the reward from a connection between Salesloft and Microsoft Dynamics, a team admin must set up the connection. This is a two-step process involving:
+Adding credentials to sync Dynamics to Salesloft
+Connecting your personal Dynamics instance to Salesloft
+Once the initial setup is complete, there are additional configurations you can perform as an admin to enhance your team’s connection between Salesloft and Dynamics. 
+
+In this article, you will learn how to set up your Dynamics integration with Salesloft. We will walk through the following steps: 
+Set Up Dynamics as Your Team’s CRM Type 
+Connect Your Personal Dynamics Connection to Salesloft
+Setup Field Mapping in Dynamics and Salesloft
+Setup Automation Rules to Import Leads and Contacts
+Set Up Dynamics as Your Team’s CRM Type 
+In order to sync to your Dynamics Instance, you must gather your Dynamics credentials. The credentials require the following fields: 
+URI
+App ID
+
+We will explain how to gather these field times in the setup steps below. 
+
+To set up Salesloft's Dynamics integration for your team, follow these steps: 
+
+1. Sign Into Salesloft. 
+
+2. Once you're logged in, click the your name in the upper right corner and select Team.
+
+3. Under the Data section, select CRM Sync. You will land inside the CRM Sync Settings tab. 
+
+4. Select Dynamics as your CRM type. When you select Dynamics, the following fields will appear:
+
+URI
+App ID
+ 
+
+5. Gather the URI field information from Dynamics. In a separate window, open Dynamics 365 and click My Apps on the left hand side.
+
+6. Click Sales Hub or in some instances can also be called Sales Professional app (This is the new Unified View Sales App).
+
+7. While viewing the Main Dashboard, look at the URL in the browser and highlight the “https://xxxxxxxxxxxxxxxxxxx.com” including both the “https://” and “.com” part. Copy the highlighted text.
+
+
+8. Return to your CRM Sync Settings in Salesloft. Paste the URL text you copied into the URI field.
+
+9. Now you will gather the App ID back in Dynamics 365. Look at the URL in the browser again and highlight the “appid=xxxxxxxxxxxxxxxxxxxxxx” all the way until the ampersand sign (&). Copy the highlighted text.
+
+Things to Note: If your team uses a custom Dynamics application, follow the same pattern by highlighting from "app=xxxxxxxxxxxxxxxxxxxxxx" until the ampersand sign (&). This will allow your teams to be routed directly to this custom app when navigating between Salesloft and Dynamics.
+
+ 
+
+
+10. Return to your CRM Sync Settings in Salesloft again. Paste the text you just copied in the App ID field. You should now have both fields in the form populated.
+
+
+11. Click Save on the CRM Type form in Salesloft. When you click save, a modal will pop up letting you know that you are about to lock in your CRM Type to be Dynamics and verifying that this is what you are intending to do. 
+
+12. Click Confirm. You will see a message that your CRM Type is Saved to Dynamics.
+
+13. Finally, click Navigate to CRM Page to Connect. You should be taken to the personal CRM connection page where you can connect your personal Dynamics account to Salesloft .
+ 
+
+Connect Your Personal Dynamics Connection to Salesloft
+To complete the setup process, each user will need to connect their Salesloft account to their Dynamics instance, including you, the team admin.
+
+Why is an admin's connection important? In order for the integration to be successful, our system authenticates the credentials entered by the admin. Once a successful connection has been created, then the credentials get locked down and the Dynamics instance is verified. If a connection is not successful, you will see an error message and and your Dynamics credentials will need to be altered.
+
+You can learn how to connect Salesloft to your Dynamics Instance, check out Connect to Your Dynamics Account.
+
+When you connect Salesloft to your Dynamics account, you will be asked to provide your Microsoft credentials if you are not actively logged into Dynamics in the same browser session. You will not be asked to provide your credentials if you are already logged in.
+
+If you have administrative privileges in Dynamics and are the first to connect to Dynamics from Salesloft, you will be prompted to grant access to the Salesloft application and can choose to Accept and grant consent to this application on behalf of your organization.
+ 
+
+If you do not have administrative privileges in Dynamics and no admin has already granted consent, a prompt will appear requiring an admin's approval from an Admin Consent Needed notice:
+
+You may be able to request admin consent in order to connect. Request admin consent (users may or may not be able to request consent from this screen)
+
+
+
+Once this setup process is complete, subsequent users should be able to authenticate to Salesloft directly from their Personal CRM Settings without needing to replicate any of the above steps.
+ 
+Setup Field Mapping in Dynamics and Salesloft
+Field Mapping is completed from the Field Configuration tab. It allows you to share recorded field data between Salesloft and Dynamics (based on your Configuration settings). 
+
+As soon as your credentials are logged and your admin account is connected, Salesloft will sync up the Dynamics and Salesloft instances. As long as you have not completed any field mapping previously, Salesloft will auto-map standard fields . To learn more about auto-mapping and the fields included, check out our Auto-mapped Standard Dynamics Fields article. 
+
+When fields are auto-mapped, they are mapped in one direction (from Dynamics into Salesloft). Keeping this in mind, you may want to edit your fields. Or there may be fields that you would like to custom create.
+
+For more information on how to edit field mapping and more, check out the following articles: 
+Field Configuration Overview
+Recommended Dynamics Fields
+Setup Automation Rules to Import Leads and Contacts
+Your users will likely have a lists of Leads and Contacts within their CRM that they will need to engage. The first step on this process is to import those Leads and Contacts into Salesloft.
+
+Currently, Dynamics users may export a Lead or Contact list as an excel file and Import People from a CSV into Salesloft. However, this method may be timely and is susceptible to user error. For this reason, Salesloft Automation Rules help to automate the import process.
+
+Automation Rules use triggers to define the starting point of a rule. In order to import Leads and Contacts, you will want to use two different triggers when creating your rules: 
+For Leads not yet in Salesloft the trigger to Use: When a Lead is not found in Salesloft
+For Contacts not yet in Salesloft the trigger to Use: When a Contact is not found in Salesloft
+In order to build any Automation Rule, you must determine what field values you will use as criteria and what actions you will take when the rule fires.
+
+We recommend identifying the following:
+What fields are required for your Person records (e.g. Email, Name, Phone)?
+What field(s) indicate that a new inbound request has been received
+(e.g. Lead Source, Most Recent Action/Activity)?
+Are there any exclusions you’d like to include in the criteria? (e.g. records who should not match the rule)?
+What action(s) do you want this rule to take? (e.g. Add to Cadence, Update field values) 
+For importing records from Dynamics into Salesloft, we recommend the action Create Person.
+ 
+ 
+Last Modified By
+Stephanie Griffith, 3/8/2022 8:30 PM
+Title
+Dynamics Admin Guide
+URL Name
+Dynamics-Admin-Guide
+Salesloft Knowledge
+CRM
+Dynamics
+Dynamics Admin Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

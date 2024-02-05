@@ -1,0 +1,60 @@
+GETTING STARTED
+How to Clear Your Cache
+
+Oct 18, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+If you are experiencing an issue with your Chrome browser or Salesloft's Chrome extension, often the simplest fix is to clear your cache of excess files and cookies.
+
+Things to Note: For the best results, log out of Salesloft before you clear your cache. This way the platform refreshes and you can be sure any previous errors have been resolved. 
+
+In this article, you will learn how to reset your Chrome browser, including:
+How to Clear Your Cache
+How to Run a Hard Refresh
+How to Clear Your Cache
+To clear your cache, follow these steps:
+
+1. Click the three vertical dot Chrome menu in the toolbar at the top right of your browser.
+
+2. Scroll and hover over More Tools to expand the menu.
+
+3. Select Clear Browsing Data.
+ 
+4. Select either the Basic or Advanced tab. The Advanced tab allows you to have more control over the cached items (for example, you can opt to retain passwords).
+
+5. Select your Time Range from the drop-down menu. Choose All time.
+
+6. Check the boxes next to Cookies and other site data and Cached images and files.
+
+7. Hit Clear Data. 
+How to Run a Hard Refresh
+Sometimes the best way to solve a technical issue is to do a hard refresh.
+
+To run a hard refresh for your browser, use the following short keys based on your computer:
+Windows: ctrl + F5 
+Mac/Apple: Apple + R or command + R
+Once the refresh has been performed, access your microphone settings in Chrome, and follow these steps:
+Open Chrome.
+At the top right, click Menu.
+Click Settings.
+Then in the search field, type in "MICROPHONE".
+Click Content Settings.
+Scroll down to Microphone.
+Click on Manage exceptions and hit the trashcan icon next to any mentions of Salesloft. 
+Last Modified By
+Stephanie Griffith, 10/18/2021 3:22 PM
+Title
+How to Clear Your Cache
+URL Name
+How-to-Clear-Your-Cache
+Salesloft Knowledge
+Getting Started
+Support Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

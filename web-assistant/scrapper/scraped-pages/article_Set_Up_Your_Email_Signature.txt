@@ -1,0 +1,63 @@
+EMAIL
+Set Up Your Email Signature
+
+Mar 23, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Your email signature lets email recipients know who sent them an email. We’ve seen the standard email signatures which include the name, number, and other basic information. Some signatures even include images and interactive elements to boost connections. 
+
+Whatever your preference may be for your email signature (or your marketing team’s preference), you can edit the look and feel of your email signature for the Email Signature window found in your Profile Settings.
+
+When a signature is saved to your Salesloft profile, that signature will be added at the end of every Salesloft email you send. 
+
+In this article, you will learn about setting up your signature from your Profile Settings, including:
+Create Your Email Signature
+Add Images to Your Email Signature
+Create Your Email Signature
+When it’s time to create your signature, you can do so from the Email Signature window found in your Profile Settings. 
+
+The window contains many of the same editing tools found in Salesloft’s email editor so you can edit fonts and  add images or meetings links.
+
+To set up your email signature follow the instructions below:
+Go to your Profile Settings.
+In the Email Signature text box, enter your preferred signature. You can edit your signature to achieve the look you want by using the toolbar located at the top of the box.
+A quick pro-tip: Add "Best" or "Sincerely" into your Salesloft signature so that you don't have to include the sign-off in any of your templates.
+You have the option to Edit Your Signature with HTML Code.
+Calibri and Century Gothic are not web-safe fonts. Using these fonts may affect your email recipient's ability to see your email signature content. 
+Once your signature is complete, control your signature click tracking by checking the box labeled Enable click tracking in my Signature. By unchecking the box, your signature will not track any links that are clicked (for example, if your website is listed in your signature, and it’s clicked, the click will not register in Salesloft).
+ 
+ 
+Add Images to Your Email Signature
+A small image in your signature adds a little more character to an otherwise word-heavy block of text. Adding your company’s logo is probably the most common use for a signature image. 
+
+To add an image to your signature, follow these steps: 
+Go to your Profile Settings.
+In the Email Signature text box, enter your preferred signature.
+Place your cursor where you would like the image to appear by clicking on that spot. 
+In the toolbar, select the Insert/edit image icon (which looks like a little framed picture). The Insert/Edit Image module will appear. 
+From the General tab, you can add information or text related to the image:
+Source: Provides the link for where the image is hosted. 
+Image Description
+Click the Upload tab. Drag and drop your image into the window. Or click Browse for an Image to open the image folder on your computer. Once an image is selected, it will appear in the signature window. 
+
+Why is my signature showing up as an attachment?
+
+Last Modified By
+Stephanie Griffith, 3/23/2023 3:30 PM
+Title
+Set Up Your Email Signature
+URL Name
+Set-Up-Your-Email-Signature
+Email
+Salesloft Knowledge
+Getting Started
+Set Up Salesloft
+Set Up Your Emails
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

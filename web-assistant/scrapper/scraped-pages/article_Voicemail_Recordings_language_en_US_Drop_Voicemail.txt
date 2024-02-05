@@ -1,0 +1,94 @@
+DIALER + MESSENGER
+Voicemail Recordings
+
+Mar 18, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+It may seem that society has shifted to primarily text, but voice contact with a prospect or customer helps develop a more personal connection and makes for much better conversation. Even the thought of actually reaching someone on the phone seems like a win. 
+
+However, the truth of the matter is that call connections are hard to come by. Consider the amount of tasks items on your to-do list every day. Now multiply that by the number of people you are trying to contact. There are going to be some misses. And for those moments, fortunately, you can leave a message after the beep with voicemail. 
+
+Salesloft voicemail works two ways:
+You can setup a voicemail box where People you have called may leave messages for you.
+Pre-record voicemail messages that you can drop while making outbound calls. 
+In this article, you will learn about leaving voicemails through Salesloft, including:
+Setup Your Inbound Voicemail
+Test Voicemail in Salesloft
+Receiving a Voicemail
+Add Drop-In Voicemail Messages
+Drop a Voicemail from the Dialer
+Setup Your Inbound Voicemail
+Inbound Voicemail allows the People you have previously called to leave a voicemail message for you.
+
+Whenever someone calls you back, you will receive an inbound call notification. If you can't accept the call at the time for whatever reason, the caller will be prompted to leave a message. The voicemail will be captured and stored in Salesloft.
+
+Prior to receiving voicemails, you must setup your inbound voicemail. To setup your inbound voicemail, follow these steps: 
+Go to your Personal Settings.
+Select the Calls Settings. Scroll to the Inbound Call Settings. 
+For the Inbound Call Options, select Send to Voicemail. 
+The Voicemail Greeting options will appear below the Inbound Call Options. Select one of the following choices:
+Default Greeting: The default greeting is a voice stating "You have reached the number (number). Please leave a message at the tone."
+Custom Greeting: If you select custom greeting, you will record your own inbound message. Follow these steps to record:
+Hit the New button with the microphone on it. (Allow Salesloft access to your microphone if you haven't already). The recorder will start.
+Record your message and hit Stop. 
+The message will become your Inbound voicemail recording. To make changes or remove the message, click Update. Selecting Cancel will remove the message. 
+Click Save. 
+ 
+Test Voicemail in Salesloft
+After your voicemail setup is complete, you probably want to be sure that it's actually working. You can run a test of the voicemail through Salesloft to ensure that the voicemail is setup properly. 
+
+To test voicemail, follow these steps: 
+From a mobile device or a landline, call your assigned number.
+Do Not Answer The Call. 
+Leave yourself a voicemail. You can say something nice to yourself, leave a voice memo, or stay quiet, whatever works for you.
+Wait for the email confirmation from Salesloft and listen to the voicemail recording when it becomes available. If you run into any issues, make sure your microphone is enabled or check out our Dialer Troubleshooting Guide. 
+Receiving a Voicemail
+Anytime you receive a voicemail, you will receive both a notification alert in your Live Feed and an email notification (see the Gmail example below).
+
+Things to Note: Mobile app users will also see the live feed alert on their mobile device. 
+
+The email notification will contain any available caller ID information, the number the customer called to reach the user, the voicemail recording, and links to the relevant areas of Salesloft.
+You can listen to voicemails from the following locations in Salesloft:
+The Person Activities Panel: In the Activities Panel under Past Activities and the Calls tab.
+The Calls Page: Voicemails will be designated by the Voicemail status option.
+ 
+Add Drop-In Voicemail Messages
+Let's face it, voicemail's are fairly repetitive. You are going to leave your name, the reason you're calling, and a number to reach you after the "beep." Why not have a previously recorded message that you can drop-in to voicemail boxes? 
+
+Salesloft allows you to pre-record voicemails then drop them in your prospect's voicemail box when using the Dialer. This is a great way to save time and ensure that the voice messages you leave are perfect every time.
+
+To add a drop-in voicemail message, follow these steps to record the messages you will ultimately use as drop-in voicemails:
+Go to your Call Settings. 
+Navigate to Drop-in Voicemail Recordings and select New.
+When you hit new, your recording will begin. Leave your message. Once you’ve completed your recording hit Stop. If you do not wish to record, or want to start over, click Cancel.
+Your recording will appear on the left. Click the three vertical dots to open a dropdown menu. Here, you can download the recording. 
+On the right, add a title to the recording in the available text box.
+Click Save.Your newly recorded voicemail will show up under Drop-in Voicemail Recordings. You can also remove the voicemail message by selecting the Delete button.
+ 
+Drop a Voicemail
+Ideally, the person you are reaching out to will answer the phone, but in the event that they don’t, voicemail drop allows you to pre-record the perfect voicemail message so you don’t have to waste valuable time reciting the same message over and over. 
+
+Let’s look at how to use drop-in voicemails within the Salesloft Dialer:
+Start your call in the Salesloft Dialer.
+You will see the voicemail drop icon in the top left of the Dialer.
+Leave your message after the beep. Click the voicemail drop icon and select the voicemail you want to use.
+Once the voicemail has been dropped, you will receive a “Voicemail Dropped” call status notification above the Dialer and the Dialer will hang up.
+ 
+ 
+Last Modified By
+Stephanie Griffith, 3/18/2022 2:37 PM
+Title
+Voicemail Recordings
+URL Name
+Voicemail-Recordings
+Salesloft Knowledge
+Dialer + Messenger
+Phone Calls With The Dialer
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

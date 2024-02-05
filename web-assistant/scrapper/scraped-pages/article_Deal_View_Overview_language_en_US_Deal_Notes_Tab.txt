@@ -1,0 +1,95 @@
+DEALS
+DEAL MANAGEMENT
+Deal View Overview
+
+Dec 14, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Deal View gives reps, managers, and leaders across the company a simple, streamlined view of everything that matters when managing a deal.
+
+The best part? Deal View is available right inside your Pipeline, so you don’t have to navigate to an entirely different app, screen, or tab.
+
+To access the Deal View, go to the Pipeline tab. There you can select between the Pipeline View and the Deal view in the upper left corner. You can also select an individual Deal from the Pipeline view. 
+ 
+Things to Note: Click the X in the upper right corner of the Deal View to return to the Pipeline View. 
+
+In this article, we will walk through the Deal View, including:
+Deal Information Panel
+Deal Insights Panel
+Stakeholders Panel
+Deal Overview Tab
+Deal Notes Tab
+Deal Activity Timeline Tab
+SLU: Salesloft Deals: The Deal View (Video)
+Deal Information Panel
+The Deal Information panel is anchored in the center of your Deal View, allowing you to have an immediate look into how an individual Deal is progressing. See your “quick hits” quickly with both standard info and other custom fields of your choosing. Here’s a rundown of what you’ll find in this panel:
+Deal Name and Deal Links: Includes Salesforce record, Twitter, and LinkedIn
+Deal Owner: Who in Salesloft is working this Deal.
+Deal Stage: With the number of days in stage, and an icon showing any potential Deal Gap.
+Days Active: How long since the Deal was created. 
+Deal Amount: With the ability to edit inline as the Deal progresses.
+Expected Close Date: With the ability to edit inline as the Deal progresses.
+Custom Fields: Salesloft Admins can add custom fields to this panel. Go to the Deal Status section of your Screen Settings in the Admin tab, then add fields under Deal Status Fields.
+ 
+Deal Insights Panel
+ The Deal Insights panel on the Deal View page shows the health score and details associated with the deal, if it is available. The score, known as the Deal Engagement Score, is created from a machine learning model that uses factors of the deal to gauge the likelihood of the deal closing. 
+ 
+Things to Note: 
+Deal Engagement Score must be enabled by a team admin before you can add or view the panel on the Deal View.
+Deal Engagement Score relies on logged activities to Deals Stakeholders. If you do not see any numbers, check that you have added Stakeholders in Deals. Then make sure you log calls, emails, and book meetings through Salesloft. 
+Deal Engagement Score only applies to new business deals. If the deal is NOT new business, then the historical changes will not display on the Deal Insights Panel.
+If a score doesn't exist for a deal, a user will see a "-" symbol and can hover to get a tooltip.
+ The Deal Insights panel contains the following information related the Deal Engagement Score: 
+The score: Each score is represented by a colored circle with a number in the center. The color signifies the health of the deal: green is for good scores (71 and above), orange is for scores that may require more attention (scores between 41-70), and red represents deals that are in danger and need attention (scores below 40). 
+Score trends: Score Trends include historical figures that will show how the score has changed over time and recently in the past 7 and 30-day periods.
+If a score went up, it will display an up arrow and green color
+If a score went down, it will display a down arrow and red color
+What happens if a deal is NOT open for 30 days or 7 days? An “-” (emdash) will appear in its place
+The 7-day summary
+Key factors influencing the score
+ 
+Stakeholders Panel
+Deal View gives your team an easier, more intuitive way to manage Stakeholders with the Stakeholders panel, so you can quickly figure out who matters most, what they care about, and what their blockers are.
+
+To learn more about the Stakeholders panel, check out the Deal Stakeholders Panel article. 
+Deal Overview Tab
+Quickly find the most important Deal details like key buying criteria, key challenges, and desired outcomes.
+
+The Deal Overview tab shows the following: 
+To-Dos for this Deal
+Your Deal Summary which has an “Overview” category and Next Step and Description fields that come standard.
+Salesloft admins can add much more to this tab:
+Go to the Deal Status section of your Screen Settings in the Admin tab.
+Go to Deal Summary Fields.
+Click Add New Category.
+Add a Category Title and select from a list of available fields.
+Click the Required checkbox if you’d like to make these fields mandatory.
+Things to Note: You can also add fields to the current Overview category and rename the category entirely.
+ 
+Deal Notes Tab
+Quickly access a list of past and upcoming calls and their associated Call Notes in the Notes tab, so you can quickly prep for the next call with the right context. You can view (and edit, if needed) each Call Note for the Deal by clicking Go to Summary. To create a new Call Note, click New Note at the top right of the tab. Learn more about making Call Notes in Deals.
+
+Things to Note: If you made a Call Note but haven’t gone through the Wrap Up process, the Go to Summary button will be replaced with a Go to Note button.
+Deal Activity Timeline Tab
+The Deal View Timeline tab, or the Activity Timeline Tab, shows all activities that have happened in the past on an opportunity. For each activity, a user can expand the view in order to view more granular details on each activity. 
+
+To learn more about the Timeline Activity tab, check out the Deal Activity Timeline article. 
+SLU: Salesloft Deals: The Deal View (Video)
+Want to know about the Deal View, but prefer a video format? Visit Salesloft University to see the Salesloft Deals: The Deal View video tutorial. 
+Last Modified By
+Briana Morgan, 12/14/2022 7:27 PM
+Title
+Deal View Overview
+URL Name
+Deal-View-Overview
+Deals
+Salesloft Knowledge
+Deal Management
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

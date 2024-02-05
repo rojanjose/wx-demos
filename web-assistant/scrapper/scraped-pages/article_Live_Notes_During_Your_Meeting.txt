@@ -1,0 +1,84 @@
+CONVERSATIONS
+Live Notes During Your Meeting
+
+Jan 9, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Do you ever scramble for a notepad to write something down during a call or search your desk for a note you know you made about a call?
+
+Live notes are your electronic notepad with Conversations enhancements. In addition to remarks about things that are said during the call, Live Notes also tracks the time stamp of when those notes were made during the meeting. 
+
+In this article, you will learn about the Live Notes page layout and actions, including: 
+Live Notes Meeting Details
+Currently Viewing Panel
+Meeting Tags Panel
+Comment in Live Notes
+Live Notes Meeting Details
+The first panel on the Live Notes page offers meeting details. This panel contains information about the current meeting, including:
+Meeting Title: Title of the meeting according to the meeting invite. 
+Meeting Owner: Name of the Salesloft user who set the meeting. 
+Meeting Platform: The type of platform being used for the meeting. 
+Call Duration: The running time of the call. The call duration will increase when the call is in progress. 
+Date and Time: Date and time that the call took place according to the meeting invite.
+Currently Viewing Panel
+The Currently Viewing panel shows Salesloft User currently accessing the Live Notes page. If a user views the Live Notes page, they can use Live Notes as a chat function between any other viewers with the Comments. 
+
+Things to Note: Just because someone is currently viewing the page, does not necessarily mean the have joined the meeting. You will need to invite user to the meeting through your meeting platform in order for them to hear your call. 
+Meeting Tags Panel
+Tags are labels you can add to any comments made during the meeting. Live Notes allow you and your team to easily find call trends. Once calls are tagged, you can even filter your recording list by a specific tag, to search and review the meetings that tag applies to.
+
+Your tag panel shows the tags that are available to add to your Live Notes during the meeting. 
+
+Things to Note: Only admins can create the tags that the team will use.
+ 
+
+To add a tag to your Live Notes, Follow these steps:
+Go to the Conversations page. 
+Select your meeting from the In Progress tab.
+Go to the Meeting Tags panel.
+To tag this moment, in other words, drop-down to tag whatever was most recently said, select the tag from the Meeting Tags panel. 
+To tag a comment that was left in the Live Notes, select the ellipses on the line of the comment. Select Add Tag. Chose the tag you need from the drop-down menu and click Save. 
+ 
+Comment in Live Notes
+The live notes panel is a running commentary during your call. Any user who is currently viewing the Live Notes may leave a comment. The comment will be marked with the time stamp from that moment in the call. 
+
+To leave a comment, follow these steps: 
+Go to the Conversations page. 
+Select your meeting from the In Progress tab.
+From the Live Notes Panel, find the text box that says Start Typing.
+Type your comment or note into the text box. 
+Hit the enter key on your keyboard. The comment will be made at that timestamp in the meeting recording. 
+ 
+
+To edit a comment, follow these steps:
+From the Live Notes panel, find the comment you would like to edit. 
+On the comment row, select the ellipses icon to the right of the comment. 
+From the dropdown menu, select Edit Note.
+The note will become a text box. Make any changes to the text. 
+Hit the enter key to save your edit. Hit the esc key to cancel. 
+ 
+
+ 
+To delete a comment, follow these steps:
+From the Live Notes panel, find the comment you would like to edit. 
+On the comment row, select the ellipses icon to the right of the comment. 
+From the dropdown menu, select Delete.
+A window will appear to confirm the delete. Click Confirm Delete. 
+ 
+Last Modified By
+Raequel Sank, 1/9/2023 4:11 PM
+Title
+Live Notes During Your Meeting
+URL Name
+Live-Notes-During-Your-Meeting
+Conversations
+Salesloft Knowledge
+Conversations Pages
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

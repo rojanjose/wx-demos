@@ -1,0 +1,45 @@
+EMAIL
+Edit Your Signature with HTML Code
+
+Mar 23, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+You can set up your signature by typing it in or copying and pasting a previously existing signature into the window. 
+
+However, if you run into an error with the copy and paste method or want to stretch your HTML design muscles, you can edit your signature using HTML code to ensure that the design and format are exactly the way you want them to be.
+
+Things to Note:
+The ability to edit HTML in the editor window must be enabled by a team admin. If you do not see the editor option in your editor window, reach out to your team admin to verify Edit HTML is turned on in the team Email Settings.
+Salesloft's editor is built and maintained with Tiny MCE. Tiny runs on basic HTML 5 rules. If you update the code, but the end result is different than anticipated, check the editor. Tiny will try to fix any code that looks weird or is built in a way that seems unrecognizable or constructed incorrectly. 
+
+If HTML makes you a little nervous because it looks totally foreign, that's OK. Here are some tips:
+Request the code view of your company's designated email signature from your marketing team. Then you can copy and paste the code into the HTML editor.
+Here are a few code basics:
+<p></p> designates a paragraph of text.
+<br> designates a line break.
+<strong>text</strong> bolds the text in between the code blocks. 
+Let's walk through how to edit your signature using HTML code:
+Click on your name in the top right corner and select Settings.
+From the Profile Settings, scroll to the Email Signature edit box.
+Click the Code View (</>) icon on the signature toolbar. The source code editor will pop up. 
+Enter or edit the code. 
+Click Save in the Source Code window. The changes you made will appear in the Email Signature Editor window.
+Click Save Profile. 
+ 
+Last Modified By
+Stephanie Griffith, 3/23/2023 3:27 PM
+Title
+Edit Your Signature with HTML Code
+URL Name
+Edit-Your-Signature-with-HTML-Code
+Set Up Your Emails
+Email
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

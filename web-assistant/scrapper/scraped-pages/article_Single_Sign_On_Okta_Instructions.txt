@@ -1,0 +1,54 @@
+ADMIN GUIDES
+Single Sign-On: Okta Instructions
+
+Feb 14, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+To set up single sign-on to your Okta server follow these steps:
+
+1. Log in to Salesloft as you usually would and navigate to your Team Settings. 
+
+2. Scroll to the Adminstration section on the left and select Single Sign-On. 
+
+3. Now you'll need to configure the Salesloft application in Okta. Open Okta in a new tab and navigate to Applications in the top menu.
+ 
+3. Click Add Application. 
+ 
+4. Search for "Salesloft." When the tile appears, click Add. 
+Things to Note: The Salesloft application may appear with our previous logo and branding.
+ 
+5. On the Add Salesloft page, verify the information and click Next. 
+ 
+
+6. From the Salesloft app page, click the Identity Provider metadata link to download the metadata file.
+ 
+
+7. Click Done. You will be redirected to the Salesloft application page. 
+
+8. Click Assign next to the Salesloft app.A dropdown menu will appear. Select Assign to People or Assign to Groups based on which option is applicable for your team. 
+ 
+9. Search and find the People (or groups) in the Assign module. Click Assign on the person (or group). 
+
+10. When assigning People, click Save and Go Back, and you should see Assigned next to the Salesloft app listing: 
+
+11. Your user should now have the Salesloft app assigned to them as well (like below): 
+ 
+12. Go back into the Salesloft Single-Sign On Settings, and follow the instructions to Enable Single-Sign On. 
+ 
+Last Modified By
+Raequel Sank, 2/14/2023 3:58 PM
+Title
+Single Sign-On: Okta Instructions
+URL Name
+Single-Sign-On-Okta-Instructions
+Salesloft Knowledge
+Admin Guides
+Single Sign-On
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

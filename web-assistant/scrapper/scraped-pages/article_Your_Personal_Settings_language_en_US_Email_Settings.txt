@@ -1,0 +1,185 @@
+GETTING STARTED
+Your Personal Settings
+
+Dec 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Your user profile information is all managed from your Salesloft Personal Settings. To access your Personal Settings at any time, click your name in the upper right corner of your Salesloft window. From the dropdown menu options, select the Settings.
+
+In this article, we will explore each tab listed in your Personal Settings, including: 
+
+Profile Settings
+Calendar Settings
+Calls Settings
+CRM Settings
+Downloads
+Email Settings
+Conversations Settings
+Profile Settings
+
+You can set up and edit your Salesloft account information and email signature in your Profile Settings. 
+
+From the Profile Settings page, you can perform the following: 
+
+Update your account info
+Select your job role
+Set your email signature
+Connect personal integrations
+Set your time zone
+Enable email summaries
+
+To learn more about these settings, check out the Set Up Your Profile article. 
+
+Calendar Settings
+
+Your calendar is an essential part of your day and your workflow. It contains your availability so that prospects know when to book meetings with you. It displays your schedule so that you know every call or meeting that you need to join each day. Simply put, calendars help you plan and allocate time so that you can prioritize time with prospects and closing deals.
+
+ 
+
+Your Calendar Settings in Salesloft help you to make the most of your calendar. From the Calendar Settings, you can perform the following actions:
+
+ 
+
+Connect Your Calendar to Salesloft
+Enable Calendar Sync
+Set up Default Video Conferencing Link
+Set up Your Default Meeting Invite
+Manage Your Calendar Availability and Meetings Link
+Set Your Working Hours
+Manage Your Scheduling Preferences
+Manage Your Team’s Access To Your Calendar
+Calls Settings
+
+The majority of the Dialer setup takes place in the Calls Settings, which you will access from your Personal Settings. 
+
+From the Call Settings, you can perform the following actions:
+
+View your assigned Dialer number
+Enable personal phone settings
+Set up your Inbound Call Settings and Voicemail Greetings
+Create pre-recorded voicemails to drop while making calls
+
+To learn more about how to set up your Dialer, including instructions on the Dialer setup features, check out the Set Up the Dialer article. 
+
+CRM Settings
+
+Salesloft currently integrates with Salesforce and Microsoft Dynamics. To learn how to connect to your Salesforce account, check out the relevant article: 
+
+Salesforce User Guide
+Dynamics User Guide
+
+If you are using another CRM, you can log emails in your CRM using our Custom BCC Address feature.
+
+Things to Note: 
+
+Connecting to your CRM is not required with Salesloft. If you do not have a CRM to connect to, you will not lose any Salesloft application functionality (saving and sharing templates, email intelligence, in-app dialer, etc.).
+Enabling the BCC option along with a Salesforce connection will result in a duplicate activity being synced. Salesforce activity is automatically synced, so this BCC option is not required for Salesforce users.
+
+Follow these steps to set up your BCC:
+
+Ensure your CRM supports BCC functionality and set up your CRM to support logging emails sent in this way.
+Access your Salesloft Settings and go to the CRM Settings page. 
+Enter the desired BCC address in the field provided. Now, all of your emails sent from Salesloft will be logged in your CRM.
+
+ 
+
+Downloads
+
+The Downloads Settings page provides available downloads from the Salesloft platform. 
+
+The Salesloft Chrome Extension
+
+The Salesloft Google Chrome Extension enhances your Salesloft experience beyond the platform itself with features like Connect, the Dialer Everywhere, and more. Install the extension from the Downloads Settings page. To learn more about the extension, check out the Download the Salesloft Chrome Extension article. 
+
+Additional Downloads
+
+The Downloads Settings page also contains a Salesforce Dashboard Package called Insight from Salesloft. For more information on the Insight Dashboard Package, including a download walkthrough, check out the How to Install Insight from Salesloft article.
+
+Things to Note: This package may only be downloaded by a Salesloft and Salesforce admin. Please contact your team admin to ask about Insight.  
+
+Email Settings
+
+Salesloft improves your standard email sends with tracking capabilities, templates, and smart tools that will enhance your communication, increase overall efficiency, and make your sales process smarter.
+
+Your personal email setup takes place in the Email Settings within your Personal Settings. From here, you may connect your email client and enable email sync.
+
+Connect to Your Email
+
+To set up your email client, you must connect to your email account. Select your email client to view instructions on how to connect your email:
+
+Gmail: Follow the instructions listed in our Set Up Your Email Account - Gmail article.
+Outlook: Check out our Set Up Your Email Account - Outlook article. 
+Salesloft Mail: Check out our Set Up Your Email Account - Salesloft Mail article. 
+
+Check out the Salesloft Available Email Clients to see a list of the email clients you can connect to. 
+
+After you select your email, you will see the Email Client window. The window will show the following details:
+
+Your email client
+The email address connected to your Salesloft account
+Your team's Daily Send Limit
+Calendar connection status: You can click the Calendar Connection link to open the Calendar Connection window. The status will show one of the following options
+Green: You email calendar is connected and sync is enabled. 
+Yellow: Your email calendar has been connected, but you have not enabled Calendar Sync. 
+Red: Email calendar is not connected. You will be prompted to connect your calendar.
+
+ 
+
+Connect to Your Calendar from the Calendar Connection Window
+
+The Calendar Connection window is where you can manage calendar settings from the Email Settings page. These two settings (Email and Calendar) are tied very closely together since most of us use the calendar associated with our email address for daily meetings.
+
+As soon as you connect your email, Salesloft prompts you to connect the calendar associated with that email address by opening the Calendar Connection Window.
+
+Inside the Calendar Connection window, select the email client for your calendar. Here, you can also Set Up Calendar Sync.
+
+Things to Note: The Calendar Connection window does not eliminate the Calendar settings page. If you would prefer to connect your calendar from the Calendar Settings, hit Cancel, then select Calendar from the Personal Settings menu options.
+
+
+Email Activity Sync
+
+If your team's admin has enabled Email Activity Sync from the Team Email Settings, you will find your own personal Email Activity Sync Settings under your Email Settings. 
+
+Things to Note: Email Activity Sync will appear once your team admin has enabled Email Activity Sync, and once you have connected your personal email account.
+
+Your Email Activity Sync allows you to have control over outbound and/or inbound Email Activity Sync. The following sync options are available:
+
+Allow Outbound Email Activity: Captures all outgoing emails from your connected email account into Salesloft without hitting the "Loft It" button. This included emails that are sent from your mobile device.
+Allow Inbound Email Activity Sync: Syncs inbound emails received from people who have been previously imported into Salesloft.
+
+Things to Note: 
+
+The person you are corresponding with (email recipient or sender depending on Outbound or Inbound Sync) must already be imported into Salesloft.
+Using the "Loft It" button disables Outbound/Inbound Email Sync. Messages sent with "Loft It" button will log, but all other outbound and inbound emails will not sync. In other words, if at any point during the thread the "Loft It" button is used, Email Activity Sync will no longer apply. 
+
+The Personal Email Activity Sync Settings also include the Activity Sync Exclusion List. From the list, users can specify domains and email addresses to exclude from being captured by Salesloft for their own account.
+
+To learn more about the Activity Sync Settings, check out the Manage Team Email Settings article.  
+
+Conversations Settings
+
+Conversations captures recordings of your sales meetings to provide your team with further insights into what happens during your calls. For more information on how to set up Conversations, check out our Set Up Conversations article. 
+
+Things to Note: Your admin must activate Conversations for your team and enable Conversations for you as an individual user. 
+
+ 
+ 
+ 
+Last Modified By
+Raequel Sank, 12/13/2023 3:57 PM
+Title
+Your Personal Settings
+URL Name
+Your-Personal-Settings
+Salesloft Knowledge
+Getting Started
+Set Up Salesloft
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

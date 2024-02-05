@@ -1,0 +1,69 @@
+CADENCES + TASKS
+Skip a Cadence Step
+
+May 22, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+If your upcoming Cadence Action has already been completed outside of Salesloft, you can skip the Person to the next step in your Cadence.
+
+In this article, you will learn when and how to skip cadence steps with Salesloft, including: 
+Use Cases for Skipping a Cadence Step
+Skip this Step from the Cadence Side Panel
+Skip this Step from the Cadence People tab
+Skip steps from the Person Profile Page
+Use Cases for Skipping a Cadence Step
+When you run cadences, be aware of the content included in your cadences and skip steps when you have previously accomplished the outcome of the step. 
+
+Here are some common examples that may prompt you to skip a Cadence step: 
+Introduction Complete
+If you add someone to a new Cadence where the first step is an intro call, but you have already spoken with that Person on the phone. In this instance, you would want to skip them onto step 2.
+Already Booked a Meeting
+Many users send emails inside Cadences requesting to book a meeting. However, if a meeting was already booked during a phone call or previous interaction, an email that includes a meeting request is not necessary (and looks like a miss on your part). 
+ 
+Skip this Step from the Cadence Side Panel
+The Cadence Side Panel is where you run the steps of your Cadence. As you run Cadence steps, you may realize that a Person doesn’t need to run a step. In these moments, you can skip the step right from the Cadence Side panel. 
+
+To skip a contact on a step:
+Open the cadence side panel by clicking the rocket ship icon in the upper right corner. 
+Find the Person who you would like to skip. Hover over a person's name from the list of people running that step. Actions will appear in place of the metrics. 
+Click the Ellipses (three horizontal dots) on the right side of the person's name. A drop-down menu will appear. 
+Select Skip this Step.
+The person’s name on the Cadence list will fade away and a pop-up notification will appear to inform you the step has been skipped. 
+Skip this Step from the Cadence People Tab
+The People tab inside a Cadence allows you to view the People who are actively running in that cadence. From this view, you can also take actions to control the Person’s cadence activity including skipping cadence steps. 
+
+To skip a Person on a step from the People tab in a Cadence, follow these instructions:
+Access the Cadence you need to move People on and select the People tab of the Cadence.
+Filter and sort your People list (if necessary).
+Select specific People or all the People you want to move. Cadence actions will appear at the top of the list.
+Click the down arrow to the right of the Add to Cadence button (rocket ship icon). A drop-down menu will appear. 
+From the Cadence Actions dropdown, select Skip this Step. The Skip this Step window will pop up.
+Confirm the action by clicking Skip Step. A popup notification will appear to inform you the step has been skipped.
+ 
+Skip steps from the Person Profile Page
+A Person's Profile Page contains their activity history and their Salesloft record details. From the Person Profile page you can even take actions to further your engagement with that individual. 
+
+Whenever you run a Cadence step, the Person Profile page loads by default. This is so you have all of their details right in front of you for reference. It also means you can take actions, like skipping a cadence step, in the moment. 
+
+If you are talking with someone who is running in a Cadence and realize the next step in the Cadence is no longer necessary, you can skip Cadence steps from the Cadences Panel. 
+
+Things to Note: Don’t see the Cadence Panel on your Person Profile Page? Check the Edit Layout menu in the upper right corner and make sure the Cadence Panel is turned on. 
+
+To skip a step from the Cadence Panel on the Person Profile page, hover over the Cadence information in the panel. Various actions will appear in the listing. Click the drop-down link. Select Skip This Step. 
+Last Modified By
+Stephanie Griffith, 5/22/2023 2:37 PM
+Title
+Skip a Cadence Step
+URL Name
+Skip-a-Cadence-Step
+Cadences + Tasks
+Manage A Cadence
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

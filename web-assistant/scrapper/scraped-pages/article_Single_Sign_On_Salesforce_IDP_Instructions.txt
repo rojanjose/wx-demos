@@ -1,0 +1,79 @@
+ADMIN GUIDES
+Single Sign-On: Salesforce IDP Instructions
+
+Sep 28, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+In order to setup your Salesforce IDP, we need to configure the Salesloft application in Salesforce. Follow the instructions listed below to configure your Salesforce IDP in Salesforce Classic:
+
+1. Open Salesforce in a new tab and enter the word domain in the Quick Find/Search bar on the left side.
+ 
+
+2. Select My Domain from the list, and follow the on-screen instructions to set up your domain.
+ 
+3. Now, use the Quick Find bar on the left of the page and enter Apps. Or you can navigate to the page by selecting Build, then click Create, and, finally, Apps.
+ 
+
+4. From the Apps page, scroll to the very bottom section and find Connected Apps. Click the New button. 
+ 
+5. Now you will create a new app. Fill in the fields with the information below:
+Connected App Name: Salesloft
+API Name: Salesloft
+Contact Email: Use the email address which matches your admin login in Salesloft
+Enable SAML: True (check checkbox)
+Entity ID: SalesLoft
+Things to Note: The second L in Salesloft must be capitalized as it is shown above or the Entity ID will not work.
+ 
+ACS URL: https://accounts.salesloft.com/auth/saml-callback
+Subject Type: Username
+Name ID Format: urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress
+6. Once the fields are completed, click Save at the bottom of the page. Now, the Salesloft app has been saved.
+
+7. Go to the quick search bar. Enter the word Identity Provider. Select Identity Provider nested under Security Controls.
+
+8. Click the Enable Identity Provider button. 
+ 
+9. In the Quick Find/Search bar on the left side, enter the word app. Select Connected Apps.
+
+10. From the Connected Apps page, locate the Salesloft app you've just created, and select it.
+
+11. Scroll down to the SAML Login Information section and copy the IdP-Initiated Login URL.
+
+12. Click the Edit Policies button at the top of the page. Paste the URL you just copied into the Start URL field.
+
+13. Click Save.
+
+14. Scroll to the bottom of the screen and find the Profiles. Click the Manage Profiles button.
+
+15. Select profiles for any types of users in Salesforce who will need SSO access in Salesloft. Click Save.
+ 
+16. Copy the entire URL in the Start URL field (you may need to "edit policies" to get to a longer URL).
+
+17. Go to the Apps page (Search for "Apps" in the quick find or return to Build>Create>Apps).
+
+18. Under Connected Apps, click the Salesloft app listed.
+
+19. Confirm that the Start URL is present in the Web Apps section. If it is not, click the edit button and then paste in the URL you just copied.
+
+20. Delete any text in the Issuer field.
+
+21. From the Connected Apps section, select the Salesloft app. Scroll to the SAML Login Information section and click the Download Metadata button. 
+ 
+22. Go back into the Salesloft Single-Sign On Settings page, and follow the instructions to Enable Single-Sign On.
+Last Modified By
+Raequel Sank, 9/28/2021 8:28 PM
+Title
+Single Sign-On: Salesforce IDP Instructions
+URL Name
+Single-Sign-On-Salesforce-IDP-Instructions
+Salesloft Knowledge
+Admin Guides
+Single Sign-On
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

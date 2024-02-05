@@ -1,0 +1,64 @@
+ANALYTICS + REPORTING
+Analytics Overview: Calls Results Panel
+
+Sep 23, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Calls Results panel provides a quick insight into the logged call activity based on your Analytics Filters. 
+
+The panel looks at the the total calls logged for the selected date range as well as the average calls logged per day. 
+
+Taking these details into consideration, the panel aims to answer the following questions: 
+Are we logging calls?
+Are we making enough calls?
+Are we hitting our call activity targets?
+In this article, you will learn about the Call Results panel, including:
+The Call Results Panel
+Call Results Metrics and Calculations
+Panel Drill Down: Calls Report
+The Call Results Panel
+The Call Results panel contains the following details from the top of the panel working our way down:
+Panel Name: Call Results
+View Report: (Drill down to more details) Takes you to the Calls Standard Report.  
+Primary Metric: Total Calls Logged
+Primary Metric Chart: Below the Total Calls Logged, the chart shows the visual representation of the primary metric. 
+Secondary Metrics Include:
+Average Calls Logged Per Day
+Voicemails
+Connected Calls
+Positive Calls: Connected Calls are determined by any calls labeled with the disposition Connected. Then, whenever calls are logged with the sentiments Interested, Timeline 6-12 Months, or Demo Scheduled, those calls are added to the number of positive calls.
+Period Comparison based on date selection: To the right of the metrics, you will see a small percentage in either green or red. This will show how your numbers have increased or decreased over time. 
+ 
+Call Results Metrics and Calculations
+Each panel contains primary and secondary metrics. These metrics are calculated in different ways. Check out the Analytics Metric Calculations for a complete list of metrics. 
+
+The Calls Results  panel includes the following metrics based on the associated calculations. 
+ 
+Metrics
+	
+Calculations
+
+ Total Calls Logged	 Sum(Calls Logged)
+ Average Calls Logged Per Day 	 Sum(Calls Logged)/Count(Days)
+ 
+Panel Drill Down: Calls Report
+ This panel drills down into the Calls Standard Report, where you can see a detailed record of each rep's call activity.
+ 
+ 
+Last Modified By
+Briana Morgan, 9/23/2022 2:32 PM
+Title
+Analytics Overview: Calls Results Panel
+URL Name
+Calls-Results-Panel
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Overview Panels
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

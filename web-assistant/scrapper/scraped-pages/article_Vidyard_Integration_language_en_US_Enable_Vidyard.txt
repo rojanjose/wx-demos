@@ -1,0 +1,47 @@
+INTEGRATIONS
+INTEGRATION PARTNERS
+Vidyard Integration
+
+Oct 13, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft's integration with Vidyard allows users to insert one-off videos recorded directly from the Salesloft app or choose from a library of pre-recorded videos to insert into any email as a hyperlinked image. 
+
+In this article, you will learn about the Vidyard integration, including how to: 
+Enable Vidyard
+Using the Vidyard Integration
+Enable Vidyard
+A Salesloft admin needs to enable the Vidyard integration from the settings Integrations tab. To enable the integration, follow these steps:
+Navigate to your Settings.
+Select the Integrations tab. 
+Find the Vidyard integration row. Turn the integration on by switching the toggle on so the button is blue. 
+ 
+Using the Vidyard Integration
+After enabling, each user will see the Vidyard icon when composing or editing an email within the platform. This means you can add video messages to your emails, just like you would add an image or a gif, but it's a video of your face. 
+
+Things to Note: You cannot attach a video only in an email. Text must  be included as content within the email for the email to be delivered with the attachment.
+
+To use Vidyard in your emails, follow these steps:
+Open your email message. 
+Click the Integrations icon on the email compose window toolbar. 
+From the drop down menu, select Vidyard.
+Record your video.
+Send the email with your personal video message embedded. 
+ 
+Last Modified By
+Raequel Sank, 10/13/2021 5:47 PM
+Title
+Vidyard Integration
+URL Name
+Vidyard-Integration
+Salesloft Knowledge
+Integration Partners
+Integrations
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

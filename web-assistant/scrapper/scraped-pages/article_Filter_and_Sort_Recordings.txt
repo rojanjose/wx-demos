@@ -1,0 +1,117 @@
+CONVERSATIONS
+Filter and Sort Conversations Recordings
+
+Dec 20, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Recordings and In Progress tabs show all meetings that have been captured for your team by default and all meetings currently in progress for your team respectively. Based on the size of your team, it may be overwhelming to view so many recording tiles at once. 
+
+You can use the Conversations filters to sort through your team's recordings and refine your search on each page. by using the default filters along with the + Add Filter dropdown menu options from the Conversations toolbar.
+ 
+
+In this article, you will learn about each of the Conversations filter options, including: 
+Saved Views in Conversations
+Owner
+Participant
+Date
+Visibility
+Add Filters
+Saved Views in Conversations
+Saved Views are sets of filtered criteria you can save within Conversations. Once you set filers and save them, you can access that view easily rather than setting up your page filers each time.
+
+Some common Saved Views include viewing your personal meetings only, filtering by specific x-rays groups to coach on handling competitors or minimizing use of crutch words, or managers can use filters to segment groups for training purposes.
+
+Things to Note: Saved Views only apply to the Recordings tab in Conversations.
+
+To save a filtered view, follow these instructions:
+In the Conversations product tab, go to your Recordings page.
+Set your filters to your liking. For more information on the filter options, continuing reading this article. Once the filters are all set, hit Update.
+In the top right of the page, to the right of Conversations, a Save As button will appear. Click Save As. The Saved View Settings module will pop up.
+Enter a new name for your Saved View. Hit Save.
+Once the view has been created you can access it by selecting the view name from the dropdown in the top left corner of the page. In the dropdown, a check mark will appear beside the name of whichever view is currently live on the page.
+
+If you are already looking at a Saved View, and make an update to the filters or search bar within Conversations, a Save button will appear at the top left next to the Save As button. Click the Save button to save the updated view under the pre-existing name.
+  
+With Saved Views, you can designate a default view. The default view will be the first saved view you see whenever you go to Conversations. Prior to selecting your own default view, the standard My Recordings view will be the default view. 
+
+To set up a default view, follow these steps:
+From the Conversation's Recordings page, select the Saved View dropdown in the upper left corner of the page.
+In the dropdown, you will see a list of all of your saved views. Hover over a saved view option to see available actions.
+Click the star icon to set the view as the default. Once the default view is set, a notification will appear confirming the view has been set as the default. When you look at your saved views, the star icon will be visible on the default view.
+
+ 
+Owner
+The Owner filter allows you to view recordings based on the meeting owner. You can select from the following options: 
+Owned by You: Shows recordings that you own, that you were invited to, and/or that you attended
+Owned by All Users: Shows recordings owned by all users on your team
+Owned by a Specific User: Shows recordings owned by a user that you select
+Owned by Specific Group: Shows recordings by the groups set up in your team's Salesloft settings, including both parent groups and child groups
+
+ 
+
+Participant
+The Participant filter allows you to view recordings based on whether the meeting's participants were external or internal, i.e. members within your organization vs members outside of your organization respectively. 
+
+If you select Internal Participant or External Participant, a search bar will appear where you can search for specific participants. 
+
+
+Date
+The Date filter allows you to select recordings based on certain time parameters. The date filters include:
+All Time
+Custom
+Last Week
+Last 30 Days
+This Month
+Last Month
+This Year
+Visibility
+The Visibility filter allows you to view recordings based on whether they have been marked Public or Private. 
+Add Filters
+The Add Filter button allows you to add more filters to your Filter & Sort search.
+ 
+
+There are two types of filters that can be added to your search: Standard Fields and Opportunity Fields. Check out the subsections below for more details on each filter type.
+
+Standard Fields
+Standard Fields includes filters commonly associated with the recording itself. These include the following:
+Duration: Filter recordings based on how long the recording is
+Language: Filter recordings based on the language used during the meeting. You can filter by the following languages: Dutch, English, French, German, Italian, and Spanish
+Platform: Filter recordings based on which recording platform was used to record the call. For more information on each recording platform, check out the How Meetings Are Captured article
+Tag: Filter recordings based on the Conversations tags that have been added to the recording.
+X-Ray: Filter recordings based on X-Ray Groups. The X-Ray filter can also work alongside the Language filter. If you select a Language filter before an X-Ray filter, the X-Ray Group filter will show the language as the first tier filter. From there, you can choose the "second tier" X-Ray Group filter. 
+
+ 
+ 
+Opportunity Fields
+Filters listed beneath Opportunity Fields are filters associated with an opportunity. Opportunity Fields filters include:
+Amount
+Close Date
+Record Type
+Stage
+
+ 
+
+Things to note: We recommend that you only update filters inside their filter category. If you select the language using the X-Ray Group filter, and then try to choose a different language inside the Language filter, the results will show No matching recordings found. This is because the logic of a single filter cannot be found. If this happens, reset your filters and specify the Language filter followed by the X-Ray Filter.
+
+
+ 
+
+ 
+ 
+Last Modified By
+Raequel Sank, 12/20/2022 9:27 PM
+Title
+Filter and Sort Conversations Recordings
+URL Name
+Filter-and-Sort-Recordings
+Conversations
+Salesloft Knowledge
+Conversations Recordings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

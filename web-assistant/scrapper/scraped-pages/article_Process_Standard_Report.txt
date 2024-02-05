@@ -1,0 +1,100 @@
+ANALYTICS + REPORTING
+Process Standard Report
+
+Sep 19, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Process report shows how well team members are executing Cadence steps and adhering to processes. 
+
+In this article, you will learn about the Process Report, including:
+Access the Process Report
+Add Filter Options
+Process Report Metrics
+Sort the Process Report
+Access the Process Report
+Access the Process report from one of the following methods:
+The Cadence Process Panel: Click the View Report link in the upper right corner of the panel. 
+The Process Standard View from your Reports Tab: Select the Standard Process View link found in the Process Section of the Reports Tab. You will be redirected to the Process Report.
+When you access the report, you will see the name of the report you have accessed and a breadcrumb trail in the upper left corner. This can take you back to Your Analytics Overview by clicking Analytics. 
+Add Filter Options
+The Process Report data can be adjusted by using Analytics Filters. When you change any of these filters, you can save the page view to Create Custom Reports.
+
+Outside of the standard filter options, you can add additional filters to your report. The Process Report's additional filters include: 
+People Added
+Completed Steps
+% Skipped Steps
+% Overdue Steps
+ 
+Process Report Metrics
+The first row of the report contains the total metrics based on your filter settings.
+
+Each process metric is visible in its own column. Since there are so many available column metrics, some column options are "hidden" by default. You can customize the columns to edit which columns are visible.
+
+The columns include: 
+ 
+Column Name
+	
+Definition
+	
+Column Default
+
+User	The Salesloft team member.	Visible
+People Added	Number of People the team member adds to their Cadences each day.	Visible
+Avg. People Added Per Day	 	Visible
+Completed Steps	Number of Cadence steps the team member has completed.	Visible
+On-Time Steps	The number of steps that have been finished on or before the due date.	Visible
+Skipped Steps	How often the filtered team members are skipping steps of their Cadence process.	Visible
+Overdue Steps	The total overdue steps in Cadence. A step is counted as overdue after the step is marked completed. 	Visible
+Calls Skipped	Number of Call steps that have been skipped.	Hidden
+Calls Overdue	Number of Call steps that are overdue.	Hidden
+Calls On Time	Number of Call steps that have been run on-time.	Hidden
+Emails Completed	Total number of Email steps completed. 	Hidden
+Emails Skipped	Number of Email steps that have been skipped.	Hidden
+Emails On Time	Number of Email steps that have been run on-time.	Hidden
+Emails Overdue	Number of Email steps that are overdue.	Hidden
+% On-Time Steps	How often the team member executed their step actions on or prior to the due date.	Visible
+% Skipped Steps	The number of steps skipped divided by the total number of steps.	Visible
+% Overdue Steps	 Percentage of overdue steps divided by the total step count. 	Visible
+% Skipped Integration Steps	Rate of integrations skipped over the total integrations steps.	Hidden
+% Overdue Integration Steps	Rate of integration steps that are overdue divided by the total number of integrations steps.	Hidden
+% Skipped Other Steps	Rate of other steps that are skipped divided by the total number of other steps	Hidden
+% Overdue Other Steps	Rate of other steps that are overdue divided by the total number of other steps.	Hidden
+% On-Time Other Steps	Rate of other steps that are run on-time divided by the total number of other steps.	Hidden
+% Calls Skipped	Rate of call steps that are skipped divided by the total number of call steps.	Hidden
+% Emails On-Time	Rate of email steps that are run on-time divided by the total number of email steps	Hidden
+% Emails Overdue	Rate of email steps that are overdue divided by the total number of email steps.	Hidden
+Other Steps	These are the completed other steps. If users don't have LinkedIn Sales Navigator, this can often represent their LinkedIn steps.	Visible
+Avg. Other Steps Per Day	The total number of other steps divided by the number of days selected. 	Visible
+Integration Steps	These are the total completed integration steps across all integrations, such as LinkedIn, Sendoso, etc.	Visible
+LinkedIn Completed Steps	The total completed LinkedIn steps.	Visible
+LinkedIn Research	The completed LinkedIn steps that are research.	Visible
+LinkedIn Introductions	The completed LinkedIn steps that are introductions.	Visible
+LinkedIn Connections	The completed LinkedIn steps that are connections.	Visible
+LinkedIn InMail	The completed LinkedIn steps that are InMail.	Visible
+Skipped Integration Steps	Number of Integration steps that have been skipped.	Hidden
+Overdue Integration Steps	Number of Integration steps that are overdue.	Hidden
+On-Time Integration Steps	Number of Integration steps that have been run on-time.	Hidden
+Skipped Other Steps	Number of Other steps that have been skipped.	Hidden
+Overdue Other Steps	Number of Other steps that are overdue.	Hidden
+On-Time Other Steps	Number of Other steps that have been completed on-time.	Hidden
+Sort the Process Report
+Each column header can also be used to sort the list. To sort the Process report to fit your preference, follow these steps:
+Select the appropriate column header. The header name will turn blue.
+Use the arrow to the right of the header name to set the sorting direction. The arrow will point up or down (ascending or descending order) to reflect the order of the list. 
+Last Modified By
+Stephanie Griffith, 9/19/2021 6:13 PM
+Title
+Process Standard Report
+URL Name
+Process-Standard-Report
+Salesloft Knowledge
+Analytics Reports
+Analytics + Reporting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

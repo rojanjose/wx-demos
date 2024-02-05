@@ -1,0 +1,131 @@
+ADMIN GUIDES
+ADMIN ESSENTIALS
+Admin Setup Checklist
+
+Jul 6, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Congratulations! You are now the proud Admin of your team’s Salesloft account. Admins are Salesloft users that manage the rest of the team. So you get to call the shots on who has which role, Dialer accessibility, email settings, cadence creation, automation rule set up, and more.
+
+If you have logged into Salesloft, you have probably noticed, there are a number of Team Admin settings to pick and choose from. Before you get into the full swing of all things Salesloft, let’s take a step back and focus on how to set up your team’s account. Your admin setup includes the full configuration that should occur before your users log in.
+
+Things to Note: This guide is a lot like Salesloft Admins 101. Meaning, some features and tabs are not explained. For a complete look at all things Salesloft Admin, check out the articles listed in the Admins Category of the Knowledge Base. 
+
+In this article, you will learn the recommended start up steps you should take as a team admin. Each step will direct you to additional resources for including set up instructions. Use the checklist below to track your progress!
+
+New Salesloft Admin Resources
+Create Groups
+Invite Users
+Create Custom Roles and Permissions
+Set Up Single Sign On
+Manage Payment Settings
+Email Management
+Grant Dialer Access
+CRM Field Configuration
+Integrations
+New Salesloft Admin Resources
+If you are a new Salesloft Admin, the number of setup steps and recommended configurations may seem a little daunting. To help ease you into the admin role, our team of Salesloft experts have put together this handy list of resources: 
+Admin Education
+Learn the what it means to be a Salesloft Admin and prove your a master by testing your knowledge:
+Salesloft Admin Training
+Salesloft Admin Exam
+Frequently Visited Admin Settings
+The following Knowledge Base articles will walk you through some of the admin-specific settings pages that you will configure as an admin: 
+CRM Sync
+Field Configuration
+Calendar Sync (org level)
+Opportunity Sync
+Messenger
+Conversation Intelligence
+Automation Rules
+Additional Resources
+Salesloft Admin 101 Webinar
+Salesloft Admin - Mini Video Lessons
+How to Audit Your Own Salesloft Instance
+ 
+Create Groups
+Groups are a collection of Salesloft users. You can designate groups however you want. If your team is divided by different role functions, name the group after the role. If you separate your team into pods with awesome names like "Ninja Turtle Revivalists," Groups are the perfect way to put that name to use.
+
+We recommended creating groups first so you have your segments defined prior to adding users (or else you'll give yourself an extra step after the fact).
+
+Once groups are created you can assign Salesloft rules, cadences, and templates to specific groups as well as view group data as a single entity.
+
+To learn more about how groups are created, check out our Manage Groups and Hierarchy article.
+Invite Users
+Your users are all of the team members who need access to Salesloft. So, you are definitely going to want to take the time to send invites to all of the appropriate people.
+
+To learn how to add and invite users to your team, check out our Invite Users article.
+Create Custom Roles and Permissions
+While all users will access the platform in the same way, every user may not need the same level of access inside of Salesloft. Some team members, like managers or team leads, may need permission to create and manage users, while you may want to limit the number of features available to newer reps so they can focus on learning their role.
+
+This is where roles and permissions come into play. Roles and Permissions allow you to denote the types of users you have, based on function, and determine the level of Salesloft access they have based on their role.
+
+To learn how to create roles and permissions, check out our Roles and Permissions article.
+Set Up Single Sign-On
+Single Sign-On (SSO) services allow your users to log in to one service in order to sign in to multiple applications.
+
+Salesloft can be set up and accessed through multiple SSO providers.
+
+To learn more about how to set up Single Sign-On for your team, check out our Manage Single Sign-On article.
+Manage Payment Settings
+Now that you have the ball rolling a bit, let's be sure you have the business end all squared away. Payment setup and receipt information can all be taken care of from the Payments tab in your settings.
+
+To learn more about payment setup and an overview of pricing information, check out the following articles:
+Manage Payments
+Dialer Pricing Guide
+Email Management
+The team email settings act as a safety net for your team's email practices. This way we can establish good email habits and bolster your team’s deliverability record from day one.
+
+To learn more about team wide email settings, check out the following articles:
+Set Up a Custom Tracking Domain
+Verify Your Email Deliverability Checklist
+Set an Email Send Limit
+Enable Click Tracking
+Allow Creation of Automated Steps 
+Grant Dialer Access
+The Dialer acts as your team's call center as well as one of your ultimate coaching tools. So when you set up this dialer for your users, you want to go ahead and enable the elements that will allow you to continually train your team moving forward.
+
+To complete the dialer setup for your team, follow the steps listed in these articles:
+Provision Phone Numbers
+Assign Each User a Provisioned Number
+Establish Recoding Settings
+Enable Live Call Studio
+Manage LocalDial Numbers
+CRM Field Configuration
+Okay, you are making your way through this list and doing a great job!
+
+Now, let's move on to the fun (albeit slightly intimidating) piece: the CRM configuration.
+
+Whether you are working with Salesforce or Microsoft Dynamics, your CRM delivers a lot of data. To make sure this data syncs well with Salesloft (and vice versa), the CRM to Salesloft integration configuration involves a few more steps than the average Salesloft admin feature setup.
+
+The Salesloft to CRM configuration includes field mapping, enabling sync between the two platforms, and setting up your users. It's may seem like a lot, but you can do this!
+
+We've listed out the each component of your CRM configuration in the following articles.
+Select your team's CRM type and team-wide CRM settings
+Dynamics Admin Guide
+Admin Setup for HubSpot
+(Optional) Install Insights Dashboard (Salesforce Dashboard)
+Toggle on CRM Connector & Select Main CRM Connector Account
+Set User Management
+Set Field Configuration
+Integrations
+Incorporating integrations alongside the Salesloft platform offers your team an even more robust arsenal of sales tools. Fortunately, Salesloft has an ever-growing list of integration partners and capabilities that can take your sales enablement the extra mile.
+
+To learn more about Salesloft's available integrations, check out our Salesloft Integrations page.
+Last Modified By
+Stephanie Griffith, 7/6/2022 1:04 PM
+Title
+Admin Setup Checklist
+URL Name
+Admin-Setup-Checklist
+Salesloft Knowledge
+Admin Essentials
+Admin Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

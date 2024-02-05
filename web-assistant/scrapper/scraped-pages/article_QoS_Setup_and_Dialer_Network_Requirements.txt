@@ -1,0 +1,215 @@
+DIALER + MESSENGER
+QoS Setup and Dialer Network Requirements
+
+Oct 13, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Before using the Salesloft Dialer, your company and/or IT team should ensure that your environment is suitable for VoIP calling. The Salesloft Dialer relies on Voice over Internet Protocol (VoIP) technology which allows you to make phone calls via an internet connection.
+
+ 
+
+Ensuring your environment is suitable for VoIP calling results in better call quality. Failing to check and meet these requirements may result in spotty call connections and poor call quality.
+
+In this article, you will learn the requirements necessary for network setup to comply with the Salesloft Dialer, including:
+
+Firewall Configuration
+Computer Requirements and Equipment Recommendations
+DSCP Tagging
+Salesloft Network Test
+Firewall Configuration
+Set Up QoS
+
+To ensure that the Salesloft Dialer works great on your office network, you need to implement Quality of Service (QoS). By setting up QoS, you can prioritize voice traffic on your network and prevent issues with call quality.
+
+Things to Note:
+
+We recommend setting up QoS prior to using the Salesloft Dialer in order to avoid any interference with network traffic.
+For remote users, there is generally no need to worry about setting up QoS. Most SoHo Routers provided by ISPs are already equipped with built-in QoS abilities.
+
+ 
+
+Your router should be configured to prioritize packets on the mentioned ports and the Differentiated Services Code Point (DSCP) tag.
+
+The Dialer media travels via UDP on ports 10,000-60,000.
+The packets are tagged with DSCP 46 for High Priority, Expedited Forwarding.
+
+ 
+
+While Salesloft has researched QoS and believes it is the best practice for quality, the nuances of your particular network configuration may vary. An IT professional should always verify that this is the correct configuration for your environment.
+
+ 
+
+Also, while QoS is a great start, there are other considerations to make when using Salesloft Dialer. In some cases, your network will need to be adjusted to allow the Dialer application to work. Any changes should be applied to all firewalls, routers, switches, load-balancers, and any other hardware or software that could block or manipulate network access to the destinations listed below. 
+
+
+Open Up Outbound Phone Ports
+
+Twilio's requests come from different IP addresses, and we want to make sure your network can connect to all of them. To do this, you will need to whitelist Twilio's IPs and prioritize outbound media UDP ports ranging from 10,000 to 60,000. The reason why the port ranges are so wide is because this is the default RFC standard. Given that our Dialer is only used for outbound calls, there is no need to worry about security risks.
+ 
+Things to Note: Ensure both the Salesloft and Twilio IPs/domains are excluded from stateful packet inspection (SPI), or you might experience high UDP/TCP latency.
+ 
+
+Whitelist Twilio IPs
+
+Effective January 23rd, 2024, Twilio will move to a single global IP range which covers the below:
+
+168.86.128.0/18
+
+ 
+
+Things to Note: This new IP range is currently live and accepting traffic. The following Legacy IPs will be deprecated January 23rd, 2024, and can be removed from any existing network policies going forward.
+
+54.252.254.64/26
+177.71.206.192/26
+54.171.127.192/26
+52.215.127.0/24
+54.65.63.192/26
+54.169.127.128/26
+54.172.60.0/23
+34.203.250.0/23
+35.156.191.128/25
+3.1.77.0/24
+3.112.80.0/24
+3.122.181.0/24
+18.228.249.0/24
+3.104.90.0/24
+54.244.51.0/24
+
+ 
+
+Comply with these network activity requirements to make sure all ports are open so you may complete and receive calls on your network.
+
+ 
+
+The Salesloft Dialer uses the following ports (outbound):
+
+TCP: 443
+UDP: 10,000 to 60,000
+
+ 
+
+The ports listed above must be able to communicate to specific domains/IP addresses. Below are the Twilio domains and IPs you will need to allow access to:
+
+chunderw-gll.twilio.com
+chunderw-vpc-gll.twilio.com
+chunderw-vpc-gll-au1.twilio.com
+chunderw-vpc-gll-br1.twilio.com
+chunderw-vpc-gll-ie1.twilio.com
+chunderw-vpc-gll-jp1.twilio.com
+chunderw-vpc-gll-sg1.twilio.com
+chunderw-vpc-gll-us1.twilio.com
+chunderw-vpc-gll-us2.twilio.com
+matrix.twilio.com
+eventgw.twilio.com
+Chunderw-vpc-gll-de1.twilio.com
+keyscore.io
+app.keyscore.io
+
+Cloud Proxies
+
+As a general overview, a cloud proxy provider sits between your organization and the internet. All traffic that is sent by both the end-users located in the office and the end-users who are remote, are first routed through the cloud proxy. 
+
+Traffic returning from the internet is then routed back through the cloud-proxy before reaching the end-users. The end-user and the destination server, whether it be a general google search, a SaaS, or an internal database, never communicate directly. Cloud proxies basically fool end-user devices into thinking that inbound responses from the internet came directly from the remote server, check out the diagram below:
+
+
+There are many cloud-proxy providers out there; Zscaler, Cisco Umbrella, McAfee, Bluecoat, Netskope, and Symantec, just to name a few. Therefore, regardless of which cloud-proxy vendor you’re using, it is imperative that you ensure that your cloud-proxy is configured correctly to avoid any type of service disruption of your Salesloft Dialer. 
+
+The reason this is important is that cloud-proxy providers have the ability to implement security policies at a granular level. Sometimes said policies can have negative effects on legitimate applications; our Salesloft Dialer is no exception. 
+
+If integrating and/or have integrated a cloud-proxy into your organization’s network, we recommend the following:
+
+Verify with your cloud-proxy administrator that all components required for a fully functional dialer are in fact enabled and available for access:
+Verify that there is connectivity to all IP’s and ports associated with Salesloft.
+Most cloud-proxy vendors have an automatic policy enforcement functionality, default settings if you will, which can be catered to suit your organization’s needs. 
+Verify with your administrator that there are no conflicting settings within said policies that will affect your dialer’s functionality.
+If browser-specific policies are configured, verify that they allow all Salesloft-related elements full access. (i.e URL’s, JavaScript, etc).
+Cloud-proxies tend to have the ability to block specific end-users/groups from accessing certain URLs. Check to make sure that all users have access to every URL associated with Salesloft.
+
+ 
+
+Computer Requirements and Equipment Recommendations
+Recommendations
+
+Best Practices to Ensure Dialer Functionality.
+Ok, so your WAN connection is stable ( no packet loss ), your Customer Premise Equipment (CPE) is configured correctly and there are no issues at layer 2 (i.e no switching loops and or network congestion). Let's take it a step further and examine the end-user. 
+
+End-users have a tendency to run streaming services while using their Salesloft Dialer. Streaming services (i.e Netflix, PLEX, Youtube, Twitch, Hulu, etc), alone, can eat up a ton of network resources, making it very difficult for the end-user to experience great call quality while using their Salesloft Dialer. Therefore it is imperative that the end-user refrain from using such services while using our dialer. This does not mean hitting the pause button to make a phone call, it means closing out the application, entirely.
+
+Here are some other things the end-user can do:
+
+Close Spotify before a call blitz.
+Close out any tabs in your browser that are not currently in use.
+Disable Salesloft panels on the Person Profile and account Profile pages you are not actively using, like Twitter or LinkedIn.
+Download an extension that will put tabs to sleep after 5 or 10 minutes.
+Close any unused apps (i.e Apple Music, Spotify, safari, etc.)
+For Mac users, close out unused virtual desktops.
+
+Things to Note: The end-user recommendations listed above are not specific to our Salesloft Dialer, but are general recommendations for any application/service (especially voip-related products) that uses the internet and/or intranet. These recommendations will help limit the amount of activity traversing your network and increase the end-user’s chances of having a fully functional Salesloft Dialer.
+
+Check your activity monitor or task manager for any applications that are taking up CPU usage: Specifically, if you are experiencing audio quality issues, CPU spikes from other apps will cause call quality issues.
+
+
+
+
+Connect Directly Via Ethernet
+
+A Wi-Fi connection is fantastic when it comes to day-to-day internet traffic, but when it comes to VoIP, Wi-Fi can lack the stability and bandwidth of an ethernet connection. A hardwire connection is preferred for calling purposes.
+
+If you are using a USB ethernet adaptor, stick to name-brand adaptors. These may cost a bit more, but the bandwidth capacities are much higher. USB 2.0 adapters are not fast enough for our Dialer requirements, so if you must use an ethernet adapter, opt for a USB 3.0, not USB 2.0.
+
+ 
+
+
+Use Fiber Internet When Possible
+
+Fiber internet provides the best quality network connection to the outside world. If you have an option to choose between a Cable and Fiber internet connection, opt for Fiber; specifically a Dedicated Fiber Connection, not a Shared Fiber Connection. 
+
+Typically a shared connection is used by residential customers, folks in a residential home and or apartment building. The problem with a shared connection is that users are susceptible to receiving far less bandwidth than what they're paying for both during surges and during high peak data usage times; not good for businesses. So try getting a dedicated fiber connection if possible and opt for at least a 20Mbps connection because although the packets for voice are small, it would be best to account for any overhead on your local network.
+
+DSCP Tagging
+
+The DSCP assigns, or tags, the packets that travel through a network. DSCP tags in packets are useful for letting network appliances know how to prioritize traffic.
+ 
+If congestion is an issue on your network, consider implementing DSCP on your network/domain. By default the Salesloft Dialer traffic call gets a DSCP tag of 46.
+ 
+These details explain how DSCP will be implemented within your system: 
+
+Twilio Client 1.3 enables DSCP by default in compatible browsers, like Google Chrome.
+Things to Note: To check if you're on the latest version of Chrome, navigate to: "chrome://help/" in your address bar. If there is a "Relaunch" button, click it; this will update Chrome.
+The Salesloft Dialer works with the WebRTC technology. Google Chrome will tag WebRTC media packets. This enables differentiated handling on a LAN, so that real-time media can be prioritized above other network traffic.
+The Differentiated Services Field is located in the IPv4 header TOS octet or the IPv6 Traffic Class octet. A differentiated services-compliant network node (e.g. router) includes a classifier that selects packets based on the value of the DS field, along with buffer management and packet scheduling mechanisms capable of delivering the specific packet forwarding treatment indicated by the DS field value.
+With Client 1.3 sent RTP packets will have a DiffServ code point on their local Wireshark packet captures. When we enable DSCP, the WebRTC engine marks the RTP packets with EF, and below are the values related to Expedited forwarding:
+binary: 101 110
+hex: 0x2e
+decimal: 46
+Windows has options around DSCP tagging, check with your windows admin to make sure things are set up correctly.
+Salesloft Network Test
+
+The most important thing to maintain effective call quality is a good, solid, reliable network.
+
+To ensure that your network fits the demands of VoIP calling, we recommend you complete the network test . The results of this test will provide a real-time glimpse of your network environment which is crucial when it comes to network configuration for the dialer and troubleshooting dialer issues.
+
+When you run the network test, we recommend testing at three times throughout the day and then compare results. Typically, that would be once in the morning, once during normal call times, and once at the end of the day. If possible, run the test(s) using a wireless connection and again with a computer that is wired/plugged into an ethernet internet connection. This way you can compare a range of results.
+
+When you're looking at your throughput, the minimum number of sessions should be greater than or equal to the number of sales reps using the dialer. A high variance between minimum, average, and maximum indicates an unstable network connection and an indication that the team might be operating on WiFi or there is a need to implement QoS.
+
+If you have any further questions about this test please reach out to Salesloft Support.
+
+Last Modified By
+Raequel Sank, 10/13/2023 7:02 PM
+Title
+QoS Setup and Dialer Network Requirements
+URL Name
+QoS-Setup-and-Dialer-Network-Requirements
+Salesloft Knowledge
+Dialer + Messenger
+Set Up The Dialer
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

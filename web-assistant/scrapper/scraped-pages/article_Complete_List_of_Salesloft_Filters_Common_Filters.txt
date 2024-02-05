@@ -1,0 +1,776 @@
+USER GUIDES
+Complete List of Salesloft Filters
+
+Mar 31, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Filters allow you to refine Salesloft lists so you can focus on a specific set of data. 
+
+There are a wide variety of filters available throughout the Salesloft platform. The filters include standard filters, which are available by default, and custom filters, which are added in your team's Field Configuration.
+
+The Salesloft Pages include a number of standard filters that are included in all Salesloft instances. The sections described in this article explain the standard filters. The filters include a label in italics for Default or Add Filter to designate if the filter is on the page by default or if the filter must be added. 
+
+In this article, you will find the standard available Salesloft filters split into their feature sets, including: 
+Common Filters
+Account Page Filters
+People Page Filters
+Complete Your Import Filters
+Emails Page Filters
+Calls Page Filters
+Conversations Filters
+Deals Pipeline View Filters
+Forecast Filters
+Deals Analytics Filters
+Coaching Filters
+CRM Activities Log Filters
+Common Filters
+
+ 
+
+Owner Filter
+
+The Owner filter alters your list based on the user who is assigned the actions related to the Person. The owner defaults to the user who imported the record or performed the action unless reassigned.
+
+Filtering by owner allows you to view which records are owned by yourself and/or different users on your team. 
+
+The Owner filter includes the following options: 
+
+You: Shows only the Cadences you have created
+All Users: Shows every record that has been created by your team from both active and inactive users.
+Active Users: Shows the records of all users that are currently active in Salesloft.
+Inactive Users*: Shows the records for any users that have been switched to Inactive by an admin. Inactive users include people who are no longer with your organization or no longer using their Salesloft account.
+No Owner**: Filters Accounts based on those that do not have an owner assigned to them. 
+Specific User: Allows you to see the Cadences created by a specific user on your team.
+Specific Groups***: Shows the select activity of Salesloft users that belong to a specific group. Groups are set by admins.
+
+The Owner filter is available on the follows Salesloft pages: 
+
+Cadences Page
+Cadence People tab
+Account Page
+People Page
+Complete Your Import
+Snippets
+Templates
+Conversations Recordings
+
+Things to Note:
+* Inactive Users do not appear in the Conversations Recording filters
+** No Owner is exclusive to the Accounts Page filters.
+*** Specific Groups only appear in the Snippets and Conversations Recordings filters. 
+
+Close Date Filter
+
+The Deal Close Date is the date or time frame in which an opportunity is expected to close. You can use the Close Date filter to find opportunities that are expected to close.
+
+The Close Date filter includes the following options: 
+
+All
+This Month
+This Calendar Quarter
+Next Month
+Next Calendar Quarter
+Custom Time Range: Click in the date range box to make the calendar appear. Then, select the start of the range, followed by the end of the range.
+
+You can find the Close Date filter on the following Salesloft pages: 
+
+Deals Pipeline View Filters
+Forecast Filters
+Deals Analytics Filters
+Date Filter
+
+The Date filters show data for a selected period of time. There are two types of data filters you can use:
+
+Relative date: Defined periods of time. Examples of Relative Dates include Week to Date, Month to Date, Quarter to Date, and Year to Date.
+Custom date range: Manually selected time frame. 
+
+When you view date filters on the Analytics Overview page, you will also see comparative data to a prior period. The prior period will be different for a relative date range versus a custom date range.
+
+Viewing your data over a specific time period allows you to see progress over the course of a month, a quarter, or dwindle the record down to see how your engagement has been on this very day.
+
+Things to Note: Many Salesloft pages use a variation of the Date filter. Since the filter name and default date ranges are different, those filters are explained in their filter area (example Account Page Filters - Date Added). 
+
+The Date filter includes the following options: 
+
+Today * : Shows your analytics report for this calendar day. The report starts at 12:00 am. The data shown will include all data that has been collected.
+Yesterday * : Shows your analytics reported during the previous day. All days of the week apply (including weekend).
+Last 7 Days: (Default time range) Shows your analytics report over the last seven days, including the current day.
+Last 30 Days: Shows your analytics report over the last 30 days, including the current day.
+Last 90 Days: Shows your analytics report over the last 90 days, including the current day.
+Last Month: This shows the metrics of the prior, or last, month based on the current month. For example, if the current date is in July, then Last Month will filter results for June.
+Week to Date: See data only for the current week.
+Things to Note: The week always starts with Monday.
+Month to Date: Shows progress for the current month. This includes from the first of the month to the current date. 
+Quarter to Date: Summarizes results for the current calendar quarter and offers a comparison to the prior quarter. Quarters are as follows:
+January, February and March
+April, May and June
+July, August and September
+October, November and December
+Year to Date: Summarizes results since January 1st of the current year and offers a comparison of Year over Year results.
+Things to Note: This is a calendar year to date and not a fiscal year to date.
+Custom: Allows you to pick the specific date range for your analytics report. When you select Custom, the filter box will expand. Select the date box to view a calendar and choose your date range.
+
+You can filter by time range from the following Salesloft pages: 
+
+Analytics:  Overview, Reports, and Ranking tabs.
+Cadence Activity: By default, your Cadence Activity dashboard shows data for the previous seven days. 
+
+Things to Note:
+
+The Start Date and End Date will adjust to the date option you select. 
+Cadence activity does not run on weekends, unless you have automated an email step to send on weekends. By default, weekends will not be included in the Cadence Activity charts. To view weekend data, select the Include Saturday and Sunday checkbox in the Date filter. 
+The hours correlate directly to the time zone set on your computer. 
+Salesloft will only display data that has been collected for the day. Data for the current or an upcoming hour may take some time to load. 
+
+* While most filters break down to show the number of emails or calls made on a given day, the individual day filters (Today and Yesterday) break down activity by the hour. 
+
+Stage Filter
+
+The Stage filter defines your listview by where a record is in your sales process or whatever segments are defined by your team’s Stage settings.
+
+Stages may be identified by the record type (i.e. Person Stage)
+
+The Conversations Pages and Deals Pipeline View Stages come from Salesforce Opportunity Stage which is synced to to Salesloft.
+
+Stages will vary based on your team’s assigned stages.
+
+You can find the Stage filter on the following Salesloft pages:  
+
+Cadence People tab
+Accounts Page
+People Page
+Conversations Recordings
+Deals Pipeline View
+Tag Filter
+
+Users can filter by a particular Tag. Tags act like labels or buckets of similar records. They are created by a team admin in the Tag Settings
+
+Tags can be created, removed, or edited from the Record’s Page actions or a Profile page. 
+
+Available tags will vary since they are created by your team admin.
+
+All tags created by your admin will appear as filter options to select. If you select a tag that has not been assigned, your listview will result in “No Matches.”
+
+You can filter by Tag from the following Salesloft pages: 
+
+Cadences Page
+Cadence People tab
+Account Page
+People Page
+Templates Page
+User Filter
+
+The User filter refines your reported data for a specific group or individual user on your team. This filter allows admins and users to see how entire teams or individuals are performing. 
+
+The options for the standard User filter in Salesloft include: 
+
+All Users: Shows the collected activity of everyone on your Salesloft team.
+You: Shows your activity report.
+Specific Users: Shows the activity report of specific individual users on the team. Restricted to admins or anyone with the filter by teammates permission.
+Users in Specific Groups: Shows the select activity of Salesloft users that belong to a specific group. Groups are set by admins. 
+
+The User filter can be found on the following Salesloft pages: 
+
+Analytics Overview
+CRM Activities Log
+Calls Page
+Cadence Activity Tab
+Archived Filter
+
+If you (or a team member) have previously archived any records, this filter allows you to still view that data in addition to the active data. 
+
+The filter dropdown shows a checkbox to Include Archived. When you check the box, archived records will be included in the list.
+
+You can find the Archived filter on the following Salesloft pages: 
+
+Cadences Page
+Account Page
+Snippets
+Account Page Filters
+As your Salesloft usage increases, the number of Accounts that are visible on The Accounts Page Layout will also increase. And while it's great to have that list readily available, seeing that many Accounts could be difficult to sift through. 
+
+Salesloft makes it easy to refine your list of Accounts to a selective group using the filters. This way you can view the Accounts that matter most to you in the order you prefer to see them.
+
+The following filters are specific to the Accounts page: 
+City Filter
+Add Filter
+
+The City Filter allows you to refine your list to only see Accounts that reside in a certain city. The city information is pulled from the Account Location in the Account details.   
+
+To filter by city, you will type the city name in the available text box.    
+Country Filter
+Add Filter
+
+The Country Filter allows you to refine your list to only see Accounts by their country. The country information is pulled from the Account Location in the Account details.   
+
+To filter by country, you will type the country name in the available text box.    
+CRM Owner Filter
+Default
+
+The CRM Owner filter refines your list of Accounts based on the user assigned to the linked Account record in your CRM. Use this to confirm that the CRM Owner and Salesloft Owner are the aligned or, use the No CRM Owner option to spot gaps in sales coverage.
+
+Things to Note: Only users who have been linked to a CRM user in the CRM User Management will appear as filter options. 
+Date Added Filter
+Add Filter
+
+The Account's Date Added filter shows you the date that the Account record was created.
+
+The Date Added filter includes the following options:
+Today
+This Week
+This Month
+More Than 7 Days Ago
+More Than 14 Days Ago
+More Than 30 Days Ago
+Never Contacted
+Custom Dates: For Custom Dates, you can choose both a Start and End date, just a Start Date, or just an End Date.
+Industry Filter
+Add Filter
+
+The Industry filter presents Account's with their company's industry labeled. This is particularly useful if you are looking into a particular market. 
+
+To filter by industry, you will type the industry name in the available text box.  
+Last Contacted Date
+Add Filter
+
+The Last Contacted Date filter shows when a Salesloft user on your team last reached out to a Person associated with an Account. This filter keeps you informed about whether or not you are engaging with Accounts enough. 
+
+The Last Contacted Date filter includes the following options:  
+Today
+This Week
+This Month
+More Than 7 Days Ago
+More Than 14 Days Ago
+More Than 30 Days Ago
+Never Contacted
+Custom Dates: For Custom Dates, you can choose both a Start and End date, just a Start Date, or just an End Date.
+Last Updated Filter
+Add Filter
+
+ The Last Updated filter pulls data based on when changes were last made to the record.  
+
+The Last Updated filter includes the following options:  
+Today
+This Week
+This Month
+More Than 7 Days Ago
+More Than 14 Days Ago
+More Than 30 Days Ago
+Never Contacted
+Custom Dates: For Custom Dates, you can choose both a Start and End date, just a Start Date, or just an End Date.
+State Filter
+Add Filter
+
+The State Filter allows you to refine your list to only see Accounts by the state they are located in or state listed in their address. The state information is pulled from the Account Location in the Account details.   
+
+To filter by state, you will type the state name in the available text box.   
+Tier Filter
+Add Filter
+
+Account Tiers create prioritization and strategy for your Accounts. A team admin will set the tier levels in your Account Field Configuration. Once the tiers are set, they can be mapped to your CRM and/or edited from the Account Details page. 
+
+Tiers will vary since they are created by your team admin. 
+ 
+Time Zone Filter
+Add Filter
+
+The Time Zone filter shows the Account record's time zone as listed on the Account Profile Page . 
+
+When you select the Time Zone filter, a list of available time zones will appear. Check the boxes for the timezone you wish to filter. 
+ 
+People Page Filters
+ 
+Account Filter
+Add Filter 
+
+The Account filter allows you to filter the People list to all People linked to the same Account. 
+
+To filter by Account, you will type the account or company name in the available text box.   
+Cadence Filter
+Add Filter 
+
+Users can filter by Cadence Name, displayed in a list. This will show People actively on the Cadence name chosen.
+
+ Text box
+No Cadence
+City Filter
+Add Filter 
+
+The People page's City Filter allows you to refine your list to only see People that reside in a certain city. The city information is pulled from the Person Location Details in the Person details.   
+
+To filter by city, you will type the city name in the available text box.    
+ 
+Country Filter
+Add Filter 
+
+The People page's Country Filter allows you to refine your list to see People that live in a specific country. The country information is pulled from the Person Location Details in the Person details.   
+
+To filter by country, you will type the country name in the available text box. 
+CRM Owner Filter
+Default
+
+The CRM Owner filter refines your list of Leads or Contacts based on the user assigned to the linked Account record in your CRM. Use this to confirm that the CRM Owner and Salesloft Owner are the aligned or, use the No CRM Owner option to spot gaps in sales coverage.
+
+Things to Note: Only users who have been linked to a CRM user in the CRM User Management will appear as filter options. 
+
+The following options appear for the CRM Owner Filter on the People Page: 
+No CRM Owner
+Unmapped CRM Owner
+List of users
+Date Added Filter
+Add Filter 
+
+The People Pages's Date Added filter shows you the date that the contact record was created.
+
+The Date Added filter includes the following options:
+Today
+This Week
+This Month
+More Than 7 Days Ago
+More Than 14 Days Ago
+More Than 30 Days Ago
+Never Contacted
+Custom Dates: For Custom Dates, you can choose both a Start and End date, just a Start Date, or just an End Date.
+Import Filter
+Add Filter 
+
+Users can filter by Import Batch Name, displayed in a list. This is particularly helpful if you would like to view leads gathered from a specific event. 
+
+Imports will vary since they are created by each user. 
+Job Seniority Filter
+Add Filter 
+
+Users can filter by Job Seniority, displayed in a list. Users can filter for People who do not have Job Seniority assigned.
+
+The Job Seniority filter options include: 
+Individual Contributor: Examples include Sales rep, Sales Analyst, Account Executive
+Manager: Examples include Sales Manager, Senior Manager of Marketing
+Director: Examples include Director of Sales, Director of Engineering, Marketing Director
+Vice President: Examples include Vice President of Services, VP of Sales
+Executive: Examples include CEO, COO, Chief Human Resources Officer
+Unknown: Unknown means that the job title provided was not recognized by our algorithm. A purple diamond will appear next to the word Unknown on the People page and the Person Profile page. Click the diamond to select an applicable Job Seniority. 
+Last Contacted Filter
+Add Filter 
+
+Filters by the last date someone reached out to a contact record.  
+
+The Last Contacted Filter options include: 
+Today
+This Week
+This Month
+More Than 7 Days Ago
+More Than 14 Days Ago
+More Than 30 Days Ago
+Never Contacted
+Custom Dates: For Custom Dates, you can choose both a Start and End date, just a Start Date, or just an End Date.
+Last Updated Filter
+Add Filter 
+
+The Last Updated Filter on the People page filters the list based on when changes were last made to the record.    
+Today
+This Week
+This Month
+More Than 7 Days Ago
+More Than 14 Days Ago
+More Than 30 Days Ago
+Never Contacted
+Custom Dates: For Custom Dates, you can choose both a Start and End date, just a Start Date, or just an End Date.
+State Filter 
+Add Filter
+
+The State Filter allows you to refine your list to only see People by the state they are located in or state listed in their address. The state information is pulled from the Person Location Details in the Person details.   
+
+To filter by state, you will type the state name in the available text box.   
+Status Filter
+Add Filter 
+
+The Status filter on the People page filters based on the status label. The labels are shown as different icons to the left of the Person's name.  
+Bounced
+Do Not Contact: Does not include Contact Restrictions
+New 
+Started
+Success
+Time Zone Filter
+Add Filter 
+
+Filters based on the contact record's time zone .
+
+When you select the Time Zone filter, a list of available time zones will appear. Check the boxes for the timezone you wish to filter. 
+Title Filter
+Add Filter 
+
+Filters based on the contact record's Title as listed in the Title field on the Person Profile page.
+ 
+Complete Your Import Filters
+The Complete Your Import page is where you can confirm the information being imported into Salesloft. Filters help refine the available data so you only see certain information. 
+
+For example, if you want to confirm that your CSV data was complete, with no missing fields, you can filter by No Accounts or No Emails to make sure those fields are not blank. 
+Account Filter
+Add Filter
+
+Select No Account to verify that all People being added are assigned to an Account or search by a specific Account name. 
+
+The Account filter includes the following options:
+Search Account
+No Account
+Cadence Filter
+Add Filter
+
+If the record already exists in Salesloft, searches existing Cadences.    
+
+The Cadence filter includes the following options:
+Search Cadence
+No Cadence
+Email Filter
+Add Filter
+
+Filter records by presence or absence of an email address.
+
+The Email filter includes the following options:
+With Email
+No Email
+Last Contacted Filter
+Add Filter
+
+Can help filter existing records and define those that need to be updated on importing.
+
+The Last Contacted filter includes the following options:
+Today
+This Week
+This Month
+More Than 7 Days Ago
+More Than 14 Days Ago
+More Than 30 Days Ago
+Never Contacted
+Custom Dates
+Phone Filter
+Add Filter
+
+Helps to find records with no phone numbers
+
+The Phone filter includes the following options:
+No Phone
+Office Phone
+Home Phone
+Mobile Phone
+Record Type Filter
+Add Filter
+
+Quickly identify all of the records with specific types, such as people who are already in Salesloft or new contacts only. This way you can select (or deselect) anyone who needs to be imported into Salesloft. 
+
+The Record Type filter includes the following options:
+New Record
+Exists in Salesloft
+On Active Cadence
+Contains Errors
+ 
+Emails Page Filters
+The Emails page shows all emails you have attempted to send by default. You can use filters to specify a select type of emails.  
+Status Filter
+Default
+
+The Status field informs you of the email's standing, specifically whether or not the email has been sent successfully. All statuses are on display in the Emails list under the Status column. 
+
+You can filter email by status to confirm messages were sent. Based on an email's status, you can perform additional actions, like retrying any failed sends or cancelling an email that is pending. 
+
+The Status filter includes the following options:
+Scheduled
+Pending
+Sent
+Failed
+Cancelled
+Cadence Filter
+Default
+
+The Cadence filter on the Emails page allows you to filter emails that were sent from a specific Cadence. By filtering emails per Cadence, you can review email performance within a Cadence. This can help you learn if your Cadence emails are truly engaging your prospects. 
+
+The Cadence filter includes the following options:
+Search option: Search for the Cadence by typing in the Cadence Name
+No Cadence: One off emails that are not sent from a Cadence
+Cadences: List of Personal and Team Cadences arranged from which Cadence Settings were most recently updated. 
+Calls Page Filters
+Your Call page shows all listed calls by default. If you would like to refine the list to show a select type of calls or sort the list in the order that makes the most sense for your use case, you can use the Filter & Sort feature to simplify your call list.
+Direction Filter
+The Call Direction filter refines your list based on whether a call was inbound or outbound, in other words the direction of the call.
+
+The Direction filter includes the following options:
+Inbound 
+Outbound
+Status Filter
+The Status filter is based on the state of your call, whether it was successful or a reason the call was not completed.
+
+The Status filter includes the following options:
+Busy: The number was dialed but received a busy response. 
+Call Failed: The Dialer could not connect the call. Possible causes include the destination is unreachable, or the number may have been input incorrectly.
+Cancelled: Prior to being answered, an outbound call was cancelled via an HTTP POST request to the REST API.
+Completed: A connection was established.
+No Answer: The number was dialed but no one answered.
+Sentiment Filter
+The Sentiment filter helps to specify your calls based on the outcome of the call.
+
+The list of sentiments are set and managed by a team admin. 
+Disposition Filter
+The Disposition field defines the result of the call.
+
+Dispositions may be managed by a team admin.  
+Conversations Filters
+The Recordings and In Progress tabs show all meetings that have been captured for your team by default and all meetings currently in progress for your team respectively. Based on the size of your team, it may be overwhelming to view so many recording tiles at once. 
+
+You can use the Conversations filters to sort through your team's recordings and refine your search on each page.
+Participant Filter 
+Default
+
+The Participant filter allows you to view recordings based on whether the meeting's participants were external or internal, i.e. members within your organization vs members outside of your organization respectively. 
+
+The Participant filter includes the following options:
+Everyone
+By Internal Participant
+By External Participant
+If you select Internal Participant or External Participant, a search bar will appear where you can search for specific participants.     
+Visibility Filter
+Default - Conversations Recording Page
+
+The Visibility filter allows you to view recordings based on whether they have been marked Public or Private. 
+
+The Visibility filter includes the following options:​​​
+All
+Private
+Public
+Duration Filter
+Add Filter - Conversations Recording Page
+
+Filter recordings based on how long the recording is.
+
+Recording length timeline
+Language Filter
+Add Filter
+
+Filter recordings based on the language used during the meeting.
+
+The Language filter includes the following options:​​​
+Dutch
+English
+French
+German
+Italian
+Spanish
+Platform Filter
+Add Filter
+
+Filter recordings based on which recording platform was used to record the call.
+
+The Platform filter includes the following options:​​​
+Search Platform
+Microsoft Teams
+GoToMeeting
+Join.me
+BlueJeans
+Uploaded
+Dialer
+Uberconference
+Webex
+Google Meet
+Zoom
+Tracker Filter
+Add Filter - Conversations Recording Page
+
+Filter recordings based on Tracker Groups. The Tracker filter can also work alongside the Language filter. If you select a Language filter before an Tracker filter, the Tracker Group filter will show the language as the first tier filter. From there, you can choose the "second tier" Tracker Group filter. 
+
+Trackers are determined by a team admin in your Conversations Settings.
+
+Things to note: We recommend that you only update filters inside their filter category. If you select the language using the Tracker Group filter, and then try to choose a different language inside the Language filter, the results will show No matching recordings found. This is because the logic of a single filter cannot be found. If this happens, reset your filters and specify the Language filter followed by the Tracker Filter.
+Opportunity Field Filters
+Filters listed beneath Opportunity Fields are filters associated with an opportunity. 
+
+Things to Note: Opportunity filters will only appear when your Opportunity Fields are mapped. 
+
+Opportunity Fields filters include:
+Amount
+Closed Date
+Record Type
+Stage
+Deals Pipeline View Filters
+The Pipeline Dashboard will bring in all of the data related to your team's Opportunities. While having everything may sound nice, it's overwhelming for our eyes and minds to take in all of that information and may not ultimately fit your needs. This is where Dashboard filtering comes into place. 
+
+Pipeline Dashboard filters allow you to drill down the list of Deals you are viewing based off of certain criteria.
+Owners Filter
+Default
+
+The Deals Owners filter refers to the Salesforce Opportunity owner. This filter breaks down Deals by the team member or groups of team members who are in charge of that Opportunity. Typically, this is the user who is working on the Deal or originally created the Opportunity. 
+
+You can use the filter to see a range of Opportunities based on your entire team, certain members of your team, specific groups from your team (determined by your teams Groups set up), or Opportunities that are owned by you.
+You: Filter results based on the Opportunities that are owned by you, aka the logged-in user.
+All Owners: Filters results based on the Opportunities that are owned by all team members. 
+Salesforce Owners: Filters results based on the Opportunities that are owned by the selected users in the dropdown. When you click the Specific Owners option, a secondary box will appear where you may choose to filter by one or multiple team members. 
+Owners in Specific Groups: Filters results based on the Opportunities that are owned by users within the Groups selected in the dropdown. When you click the Owners in Specific Groups option when filtering, it will display a secondary box where the user will choose from the list of Salesloft Groups. The groups will appear in their designated hierarchy format.
+Gaps Filter
+Default
+
+Pipeline Health and Deal Gaps are the data points that could negatively impact your Deals. 
+
+With Deal Gaps filters, managers and reps can create tailored views based on specific gaps. This way you can quickly assess any issues in your pipeline. 
+
+The options in this menu will populate based on the Deal Gap filters that have been set up for your team. When filtering by Deal Gaps, you can add one or multiple Deal Gap filters.  
+
+Things to Note: Admins can Manage Deal Gaps from the Pipeline tab.
+ 
+Deals Pipeline Advanced Filters
+Once you've selected the filters for your columns, you can select Advanced Filters for each of your columns. Advanced Filters allow you to get into certain types of Opportunities. You can use the following types of fields as Advanced Filters: 
+Boolean
+Currency
+Date
+Double
+Email
+Integer
+Multi-select
+Percent
+Reference
+Select
+String: Examples include Title, Sales Segment Stamp, Description, Next Steps, Competitor, and many more. 
+Things to Note: String fields filter criteria must be an exact match to the value of the string field in order for the criteria to apply. 
+
+To set Advanced Filters, follow these steps:
+On your Deals Pipeline, click the Funnel icon to open the Advanced Filters. The icon is under the Dashboard name. The Advanced Filter window will appear. 
+Select any and all filters you would like to apply to your Dashboard. 
+Click Done. 
+Forecast Filters 
+
+The Forecast Dashboard displays your team’s goals and forecast metrics. In order to view a precise data set, you may want to refine the metrics on this page to reflect a specific time period or based on the size of your team, .
+
+You can use the Forecast Dashboard filters to refine the data shown on the Forecast Dashboard based on the Deal Owner and the Deal Close Date. 
+
+Owner Filter
+Default 
+
+An Owner in Salesloft is the person who is working on a particular deal. By default, the Forecast Dashboard shows your entire team’s goals and forecast metrics, however, you can use the Owner filter to find opportunities that are owned by a specific person.
+
+The Forecast Owner Filter includes the following options:
+My Team (default)
+Specific User: When you select the Specific User option, you can search for a member of your team by typing their name into the Select User bar. When you search for a Specific User, their name will appear along with their direct and indirect reports–depending on their hierarchy. Once you select a user, you will see the data for that user and their direct and indirect reports. 
+Deals Analytics Filters
+
+The Deals Analytics Filters allow you to select the data sets you want to view inside the Analytics for Deals. 
+
+Owner Filter
+Default
+
+The Deals Owner filter presents which individual or group whose data you would like to view. The Owner is based on the Owner fields inside Salesforce. So, if the records being displayed are opportunities, the Opportunity Owner will determine whose data is shown. 
+
+The Deals Owner filter includes the following options:
+You: Filter results based on the Opportunities that are owned by you, aka the logged-in user.
+All Owners: Filters results based on the Opportunities that are owned by all team members. 
+Salesforce Owners: Filters results based on the Opportunities that are owned by the selected users in the dropdown. When you click the Specific Owners option, a secondary box will appear where you may choose to filter by one or multiple team members. 
+Owners in Specific Groups: Filters results based on the Opportunities that are owned by users within the Groups selected in the dropdown. When you click the Owners in Specific Groups option when filtering, it will display a secondary box where the user will choose from the list of Salesloft Groups. The groups will appear in their designated hierarchy format.
+Categories Filter
+Default
+
+Categories are the different types of deals as determined in your Salesforce Forecast configuration. These will determine which options appear on the “starting” (left-hand) side of the Deals Flow Chart. 
+
+Categories include the Salesforce defaults as well as any other custom categories your team may have. 
+
+Things to Note: The Pulled In and New categories are default Salesloft Deals Flow Chart categories. They cannot be filtered out.
+
+The Categories filter includes the following options:
+Pipeline
+Best Case 
+Commit
+Omitted
+Pulled In
+New
+Pipeline Changes Filter
+Default
+
+The Pipeline Changes Filter presents opportunities that have changed in the last 7 days, two weeks, months, and quarters. 
+Deal Size Filter
+Default
+
+The Deal Size Filter selects deals that are between two specific amounts. 
+
+When selecting this filter you will enter the minimum to maximum amounts in the text box provided. 
+Coaching Filters
+
+The Coaching filters allow you to drill down into more granular information. 
+
+Group Filter 
+
+
+The group filter is only available on the Coaching Team View page. The filter selects one or more groups.
+
+The group filter is particularly useful to help refine the list of users. Let’s say you manage a region of sales reps that are all groups in Team 1. Within that group, you have a bunch of child groups that segment your reps into subregions. if you want to only see users in one of the subregions, use the filter to select the child group, and only those users will be visible. 
+
+By default, the Coaching Team View will show the group that you are assigned to and the list of users also assigned to that group.
+
+User Filter
+
+Allows Admins and managers to switch between different users from the individual summary page. Standard Salesloft users do not have this permission enabled by default to maintain privacy between reps. 
+
+Things to Note: Available to users with the Team View permission only
+
+Date Filter
+
+The Coaching Date filter defines the time period of the data that is viewed. 
+
+Things to Note: Weekends are included in the Coaching Date filter.
+
+This filter affects the data as well as the percent change. One example of the Percentage Change example is when filtered to This Month, the percent change is between the same days last month as this month. When filtered to Last Month, the percent change is between the last full month and the month prior to that.
+
+The date filter in Coaching includes the following options: 
+
+Last Week
+Last Month
+Last Quarter
+This Week
+This Month
+This Quarter
+Coaching Recordings Filter
+Filter by recordings where the user is the organizer or whether the user was an attendee. 
+
+The Coaching Recordings Filter includes the following options:
+
+All Attended
+Attended As Organizer
+CRM Activities Log Filters
+
+The filters help you quickly identify potential errors that could negatively impact your sync longs. If you notice errors occur for a collection (or large amount) of logs, you can use the error messages to help resolve the issue. 
+
+Date Filter
+Default
+
+The Failed CRM Activities Date filter lets you view the failed CRM activities by the date the log was attempted. This is particularly helpful if any error occurred on a certain date and you would only like to see those records or you want to see the number of logs that took place during a period of time.
+
+Things to Note:
+Admins only
+Admins can select a date range of up to 90 days in the past.
+
+The CRM Activities Log Date filter options include: 
+Today
+Last 2 Days
+Last 7 Days
+Last 14 Days
+Last 30 Days
+Last 60 Days
+Last 90 Days
+Custom Date Range: Enter the Start and End dates for the range you would like to see.
+ 
+Error Filter
+Default
+
+The Error Theme filter categorizes sync errors into various error themes. This way, you can select a theme and view any errors that fit the error classification. When you filter by an error theme, you gain visibility into how big or small an issue is. You can also gain further understanding into the reason an error is happening across a series of logs.
+
+To apply the Error Theme filter, search and/or select for a certain theme from the Error Theme dropdown. Once you click a theme, the filter will be applied to the list. 
+Last Modified By
+Stephanie Griffith, 3/31/2023 6:58 PM
+Title
+Complete List of Salesloft Filters
+URL Name
+Complete-List-of-Salesloft-Filters
+Salesloft Knowledge
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

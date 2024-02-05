@@ -1,0 +1,125 @@
+ANALYTICS + REPORTING
+Analytics Overview: Objection Emails Panel
+
+Dec 16, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Objection Emails panel gathers Objection Email Sentiments to provide insight into how often you’re receiving replies that are considered an objection. The panel also breaks down which objections occur the most. 
+
+Managers that view this panel can offer targeted coaching to reps on the most common objections, so they can expertly handle them in the future. As a rep, you can learn more and build goals to decrease the objections you receive. 
+
+In this article, you will learn about the Cadence Process panel, including:
+The Objection Emails Panel
+Object Emails Panel Metrics and Calculations
+Panel Drill Down: Email Sentiments Over Time Report
+The Objection Emails Panel
+The Objection Emails panel contains the following details from the top of the panel working our way down:
+Panel Name: Objection Emails
+View Report: (Drill down to more details) Takes you to the Email Sentiments Over Time Report.
+Primary Metric: Total Objections
+Primary Metric Chart: Below the Total Objections, the chart shows the visual representation of the primary metric. 
+Secondary Metrics: Objections by Sentiment breakdown
+Objection - Competitor
+Objection - Not Interested
+Objection - Not the Buyer
+Objection - Timing
+Period Comparison based on date selection: To the right of any metric, you will see a small percentage in either green or red. This will show how your numbers have increased or decreased over time. 
+ 
+ 
+ 
+Objection Email Metrics and Calculations
+Each panel contains primary and secondary metrics. These metrics are calculated in different ways. Check out the Analytics Metric Calculations for a complete list of metrics. 
+
+The Objection Email panel includes the following metrics based on the associated calculations. 
+ 
+Metrics
+	
+Description
+	
+Calculations
+
+
+
+Total Objections
+
+	
+
+The count of replies that were assigned with an Objective Email Sentiment.
+
+	
+
+Sum (Email Sentiment: Objection: Competitor + Objection: Not Interested + Objection: Not Buyer + Objection: Timing)
+
+
+
+
+Objection - Competitor 
+
+	
+
+The number of competitor objections
+
+	
+
+Sum (Email Sentiment:  Objection: Competitor)
+
+
+
+
+Objection - Not Interested
+
+	
+
+The number of non interest objections
+
+	 
+
+Sum (Email Sentiment: Objection: Not Interested)
+
+
+
+
+Objection - Not the Buyer
+
+	
+
+The number of not the buyer objections
+
+	 
+
+Sum (Email Sentiment: Objection: Not Buyer)
+
+
+
+
+Objection - Timing
+
+	
+
+The number of timing objections
+
+	 
+
+Sum (Email Sentiment: Objection: Timing)
+
+ 
+Panel Drill Down: Email Sentiments Over Time Report
+This panel drills down into the Email Sentiments Over Time Report, where you can see more granular data of the Email Sentiments assigned each day. 
+ 
+Last Modified By
+Stephanie Griffith, 12/16/2021 2:22 PM
+Title
+Analytics Overview: Objection Emails Panel
+URL Name
+Analytics-Overview-Objection-Emails-Panel
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Overview Panels
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

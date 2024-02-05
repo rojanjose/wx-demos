@@ -1,0 +1,93 @@
+ANALYTICS + REPORTING
+Create Custom Reports
+
+Sep 13, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft's Analytics measure the effectiveness of your sales process. When a user takes an action in the Salesloft platform, that activity and data shows up in their Analytics Reports as soon as they visit or refresh the Analytics page.
+
+The Salesloft Analytics page houses several metric reports full of valuable data. You can customize reports to help answer specific questions including the following: 
+Who are the top/bottom performers on my team?
+How do my groups compare?
+What are the best days and times to send emails?
+Which Accounts or Cadences do I want to keep an eye on?
+To create a custom report, use filters and column management to select the data you want to view. Once your report meets your needs, you can save the report. After you save a report, you can access it any time. 
+
+You will find the Saved Views, filters, and exports buttons below the report name and about the report itself.  
+
+In this article, you will learn how to create custom reports, including:
+Saved Views
+Filter Your Report
+Column Management
+Export Analytics
+Saved Views
+The first button shows your Saved Views. A Saved View is a previously created report that has been saved. Saved views include all filters, columns, display by and sorting rules you have set in places. So, essentially the different views are your different custom reports. 
+
+By default, Salesloft will display the Standard View of each report. The Standard View is the "out of box" version of the report which majority of the fields on display and none of the filters in place. 
+
+If you click the name of the saved view, a dropdown menu will appear with all of you available reports. The reports will be separated into the following sections: 
+Standard View
+Custom Views
+Any time you adjust Analytics Filters, you can create a new or custom view. To create a Saved View, follow these steps:
+Adjust the filters or the view on the report. As you make changes to the filters, a green Save View As button will appear. 
+Click Save View As. The name of the view will change into an editable text box. 
+Enter the name of your new view. 
+Click Save. If you change your mind, click Cancel. Once you Save, a notification will appear confirming that a new view has been created. 
+Any time you make changes to the filters of a view that has previously been saved, a Save View button will appear next to Saved View As. Click Save View to save any changes you make in your report. If you would like to create a new report based on the changes (and keep the original report as is), click Saved View As. 
+Filter Your Report
+Filters adjust the data set and change the metrics you will see in your report. 
+
+To apply a filter, select the filter tab at the top of the report. A drop down menu will appear where you can select an filter option. You can add multiple filters at a time. 
+
+For an explanation of the different types of filters, check out the Analytics Filters article. 
+Column Management
+Salesloft Reports provide a lot of data. While it's great to have access to so much information, if can be a little overwhelming. Plus, if you are reporting on specific use cases, each data column may not be relevant to your report.
+
+Column Management allows you to include or exclude columns in a custom report. This way you can include only the columns most relevant to your particular analysis.
+
+There are two parts to column management: 
+Selecting which columns are visible.
+Arranging the order of the visible columns. The fields will appear from left to right into the report.
+Things to Note: If you have selected a Display By filter, that column will appear first in the report by default. 
+
+To set your column management, follow these steps: 
+Select the Edit Column button found on far right side of the filter row. The Customize Columns window will appear. 
+Search for fields or scroll through the list to select or deselect the available fields. Once a field is selected, it will appear in the Field Order side of the window. 
+Rearrange the order of your fields so they are in your preferred order.  To rearrange the fields, hover over a field name, click and hold the field title, then drag the field to the spot in the order. Once it's in the correct spot, release the field. You can remove a field from the list by clicking the cancel button to the right of the field name.
+Things to Note: If you have selected a Display By filter, that column will appear first in the report by default. 
+Click Apply. 
+Once the settings are applied, save your view so you can access the report again and again. 
+ 
+Export Analytics
+Exporting your Analytics downloads the raw data compiled in each report.
+
+Team admins and team members can export from the Analytics tab. However, as a team admin, you can export your team’s analytics to process your data in a multitude of ways. The export will provide you complete reports with your Salesloft data. Use these reports in another external database, or easily send the file with company executives and managers to share your team’s progress.
+
+The analytics will arrive as a .zip file containing six CSV files, one for each of the analytics reports.
+
+Things to Note: Beginning July 2021, the bulk Analytics Export option found in the Overview and Rankings tabs was removed. While you’ll no longer see the Export button on the Analytics home dashboard, you can still export a customized .csv from the individual analytics report (e.g. Standard Cadences Report). Read more about the removal of the Bulk Export button here (you must be sign into the Help Center to view this article). 
+
+To export your analytics reports, follow these steps:
+From the side nav, click the Analytics icon.
+Set the parameters for the reports you want to export, such as the date range and the group or individual team member.
+Click the Export button.
+Confirm you want to export your reports.
+You'll receive an email when your exported reports are ready to download, this normally takes just a few minutes. Click Download your export here in the email you receive.
+ 
+Last Modified By
+Stephanie Griffith, 9/13/2021 7:01 PM
+Title
+Create Custom Reports
+URL Name
+Create-Custom-Reports
+Salesloft Knowledge
+Analytics + Reporting
+Analytics Essentials
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

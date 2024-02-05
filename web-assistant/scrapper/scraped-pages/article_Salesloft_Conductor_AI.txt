@@ -1,0 +1,148 @@
+RHYTHM
+Conductor AI
+
+Jan 5, 2024•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Salesloft’s Conductor AI is the brains behind Rhythm that prioritizes your workflow tasks. Conductor AI uses artificial intelligence (AI) that learns from the outcomes of buyer and seller behaviors. This learned data is then ranked based on algorithms outlined in our Buyer and Deal Priority Models to create an individualized workflow in your Rhythm Focus Zone. 
+
+Conductor AI thinks like a full cycle seller, constantly learning from the outcome of activities and engagement. Using this mindset, Conductor AI can prioritize your tasks accordingly and offer you the best possible workflow to move deals forward and drive the outcomes you desire.
+
+In this article, we will discuss everything you need to know about Conductor AI, including:
+
+How Does Conductor AI Prioritize Tasks?
+Deal Priority
+Buyer Engagement
+How Does Conductor AI Prioritize Tasks?
+
+Conductor AI prioritizes tasks based on the success of buyer and seller behavior. To determine the success of these behaviors, Conductor AI considers two categories: 
+
+Close Deals: Open opportunities that have a greater chance of reaching a closed won status based on stakeholder engagement.  
+Prospecting: Prospecting consists of activities that lead to either a booked meeting or conversion to an open opportunity, e.g.: a Cadence step that includes a highly engaged prospect.
+
+While both prospecting and working open opportunities are vital to the full cycle selling workflow, they have different goals and lead to different outcomes. So, Conductor AI considers activities based on the success of their distinct outcome. 
+
+Conductor AI ranks the success of open opportunity-related activities according to the Deal Priority Model, which considers the likelihood that a deal will close. 
+
+Prospecting related activities are ranked according to the Buyer Priority Model, which considers the likelihood that an activity will lead to a booked meeting or conversion to an open opportunity.
+
+Once Conductor AI has considered these probabilities, it determines which tasks you should complete first based on the data from past activities and lists them in your Rhythm Focus Zone. 
+
+
+To learn more about your Rhythm Focus Zone and your Rhythm Workflow, check out our Rhythm Focus Zone article and our Your Rhythm Workflow article.
+
+Deal Priority 
+
+Conductor AI prioritizes tasks in your Rhythm workflow based on the likelihood that open opportunity-related activities will lead to a closed deal.
+
+To determine the likelihood that open opportunity-related activities will lead to a closed deal, Conductor AI observes your Deals data, or synced opportunity data for non-Deals users. Deals data is then ranked according to the Deal Priority Model. 
+
+The Deal Priority Model uses opportunity data and Person data across all stakeholders on the opportunity to determine the likelihood that a deal will close. This model considers the following:
+
+Deal Engagement Score (when available)
+Deal stage (probability field)
+Early and late-stage deals are favored over mid-stage deals
+New deals are favored over renewals/upgrades/downgrades
+Deal close date 
+Overdue close dates are penalized
+Deal amount
+
+Conductor AI learns from this opportunity data and uses it to assign a Deal Priority Score to each open opportunity-related activity. 
+
+Conductor AI then prioritizes tasks in your Rhythm workflow based on the activity’s Deal Priority Score. You can hover over each task in your Rhythm workflow to learn more about the opportunity data Conductor AI used to determine the Deal Priority Score. The Deal Priority hover includes the following details: 
+
+Opportunity Name
+Deal Engagement Score
+Deal Close Date
+Deal Amount
+Deal Stage
+
+
+Things to Note: 
+
+If a Person is not associated with an open opportunity, Conductor AI prioritizes based on individual person data (not account-level data).
+Deal Priority Scores are assigned to new businesses and renewals, upgrades, and downgrades.
+If there is no associated Deal Engagement Score, a blank icon will appear beside the opportunity data in your Rhythm workflow.
+Buyer Engagement
+
+Conductor AI prioritizes prospecting-related activities by highlighting Buyer Engagement according to the Buyer Priority Model. 
+
+The Buyer Priority Model ranks prospecting activities based on the likelihood that they will convert to an open opportunity or lead to a booked meeting within 7 days.
+
+The likelihood that a prospecting activity will convert to an open opportunity or lead to a booked meeting depends on the buyer engagement. The buyer engagement looks at the activities between you and the People you connect with in Salesloft. Buyer Engagement includes the following activities:
+
+Emails sent and email replies
+Calls made and labeled with the standard Connected disposition
+Email views and email clicks
+Email sentiment
+Custom call sentiments and dispositions
+
+Things to Note: Custom call dispositions are not included in Conductor AI.
+
+The more a Person or buyer engages, the more likely it is that prospecting activities will convert to an open opportunity or lead to a booked meeting. 
+
+After ranking prospecting activities according to the Buyer Priority Model, Conductor AI assigns each activity a Buyer Priority Score. This score is used to prioritize tasks in your Rhythm workflow. 
+
+Buyer Priority Symbol
+
+	
+
+Definition
+
+
+
+
+	
+
+High prospect engagement
+
+
+
+
+	
+
+Medium engagement
+
+
+
+
+	
+
+Low engagement
+
+
+
+
+	
+
+No engagement
+
+ 
+
+Buyer Priority in Your Rhythm Workflow
+
+Inside your Rhythm Workflow, you will see prospecting-related tasks prioritized based on their Buyer Priority Score. 
+
+You can hover over each Buyer Priority Symbol to learn more about the buyer engagement data Conductor AI used to determine the Buyer Priority Score. The Buyer Priority hover includes the following details: 
+
+Buyer Priority Score and Person's Name: Defines the buyer priority score based on engagement and lists name of Person.
+Key Factors: Activities that contribute to the score
+
+Last Modified By
+Raequel Sank, 1/5/2024 6:45 PM
+Title
+Conductor AI
+URL Name
+Salesloft-Conductor-AI
+Salesloft Knowledge
+Rhythm
+Rhythm Workflow
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

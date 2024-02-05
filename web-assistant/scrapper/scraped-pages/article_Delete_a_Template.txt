@@ -1,0 +1,34 @@
+EMAIL
+Delete a Template
+
+Apr 12, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+For templates that you want completely removed from your Salesloft record, you have the option to delete them. Deleted templates cannot be recovered and the data is gone.
+
+Things to Note: Salesloft best practice is to archive previously used templates . 
+
+Deleting a template may be useful for templates that were created but never sent or templates that were used as tests for formatting. 
+
+To delete a template, follow these steps:
+Select the template or templates by clicking the checkbox next to their name.
+Click the Trash icon. The Delete Template window will appear. 
+Select Delete.  
+ 
+Last Modified By
+Stephanie Griffith, 4/12/2023 2:19 PM
+Title
+Delete a Template
+URL Name
+Delete-a-Template
+Email Guides
+Email
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

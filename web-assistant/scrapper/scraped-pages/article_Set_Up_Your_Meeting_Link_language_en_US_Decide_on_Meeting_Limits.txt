@@ -1,0 +1,47 @@
+USER GUIDES
+MEETINGS/CALENDAR
+Edit Your Meeting Link
+
+Dec 6, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Meeting Links direct email recipients to your calendar where they can view your availability and book a meeting. You can add meeting links to your emails, one-off messages, descriptions, and even social posts (if you're really ambitious).
+
+
+ 
+
+By default, you have a meeting link that consists of your Salesloft team name, your first name, and your last name. You can use the default meeting link, or edit it according to your preference.
+
+ 
+
+To edit your meeting link, follow these steps: 
+
+Click your name in the upper right corner to open your settings.
+Select Calendar under your Personal Settings.
+From the Calendar Settings, select the Meeting Setup tab.
+Select Edit in the Meeting Link tile. The edit button will switch to a text box where you can change the end portion of your meeting link.
+Edit the end of the URL.
+Click the green checkmark. 
+
+ 
+
+Things to Note: To obtain a copy of your meeting link, click the click the copy icon before your meeting link url. 
+
+Last Modified By
+Raequel Sank, 12/6/2023 4:26 PM
+Title
+Edit Your Meeting Link
+URL Name
+Set-Up-Your-Meeting-Link
+Salesloft Knowledge
+Meetings/Calendar
+User Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

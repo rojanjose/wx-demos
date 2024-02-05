@@ -1,0 +1,145 @@
+RHYTHM
+PLAYS
+Create a Play
+
+Dec 18, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Plays generate tasks based on the activities captured in Salesloft. So if there are common workflows you would like your team to perform, like sending a follow-up email after a meeting or making sure reps respond to any email reply from a potential buyer, Plays will make sure those tasks are on your reps’ to-do lists. 
+
+If your team is new to Salesloft, a couple of plays will be enabled by default. These Plays are such common best practices we recommend everyone give them a try. 
+
+Outside of the default Plays, we encourage you to create the Plays that meet your team’s business needs. Your plays should promote action that fits your team’s workflow.
+
+Things to Note: 
+
+Plays can only be created or edited by Salesloft Admins.
+Plays will apply to the entire team, unless assigned to a specific group.
+
+In this article, we will guide you through each step to create a Play for your team, including: 
+
+Creating a Play from a Framework
+Select a Signal
+Assign the Play Action
+Set a Due Date
+Activate Play for Groups
+Enable Play after Saving
+Creating a Play from a Framework
+
+There are various types of Plays – Meeting Plays, Emails Plays, and Integration Plays. Salesloft offers Play Frameworks as the base level structure for your existing plays. 
+
+To create a Play using a Play Framework, follow these steps: 
+
+Navigate to the Plays Settings by going to your Team Settings and selecting Plays under the Workflow category. 
+Go to the Discover Plays tab inside the Plays Settings. This page provides a full list of the Play Frameworks available to your team, including both Salesloft and Partner plays.
+Scroll through the list and select the desired Framework. You will be directed to the New Play page. 
+Review the default configuration on the New Play page. The signal will already be selected. You can make changes to the action and due date if you would like. 
+Select or deselect the Enable Play after saving button.
+Click the Save button. Your play will now be visible under the My Plays list. 
+
+ 
+
+Select a Signal
+
+Signals refer to the activity that triggers a Play to run. The Signal section on the New Play page will tell you the actions that must take place before a Play action will appear in the Rhythm workflow.
+
+If you’ve selected a Play Framework, the signal will already be completed and cannot be edited. 
+
+Here are some examples of Play signals you can expect to see: 
+
+Meeting is booked
+Meeting is completed
+Recording available (Conversations customers only)
+Action items available (Conversations customers only)
+Contract signed (Docusign Integration Play)
+Content is viewed (G2 Integration Play and Seismic Integration Play)
+Content is downloaded (Highspot Integration Play)
+Video is watched (Vidyard Integration Play)
+
+ 
+
+Things to Note:
+
+Before creating a third-party integration Play, be sure that users have enabled the integration from the Administration Integration Settings.
+Enablement for third-party integration Plays differ based on the third-party application. Before creating a third-party integration Play, check out the Manage Users article to learn more about setup. 
+
+ 
+
+ 
+
+Assign the Play Action
+
+Play Actions refer to the task type that will be created when a Play is signaled. Along with the generated tasks, the action also includes a customizable template that will be included in the tasks.
+
+The action will vary depending on the type of signal, or Play Framework, you’ve selected. Let’s walk through an example action using Create an Email Task.
+
+To set up the Play Action, follow these steps: 
+
+Create a New Play.
+On the New Play page, find the Action section (the second box). 
+Click the down arrow to expand the box and open the edit options. 
+Select the drop-down menu to choose an action. Example: Create an Email Task. 
+To the left of the action, configure the tasks template. Click Configure Email. The configure window will open. For email tasks, you can add an email subject and message.
+Things to Note: Play Frameworks will already include a suggested template.  
+Save the template. Your action is now prepared. 
+
+  
+
+Set a Due Date
+
+The Play Due Date assigns when the task will be due. Any assigned tasks will appear in the user’s Rhythm workflow. Due Dates promote timely interactions. 
+
+The time periods may vary based on the type of Play. For example, a Meeting Reminder play would be suggested before your event (the meeting), whereas and Meeting Follow-up would take place after the meeting. 
+
+Things to Note: If a new meeting is created and the start time of the meeting is less than 24 hours from the Play, no task will be created.
+
+When creating a play, you can select from the following Due Date options.
+
+0 Hours: Means the task is due the day the signal is received. 
+24 Hours before or after the signal is received.
+48 Hours before or after the signal is received.
+
+  
+
+ 
+
+Activate Play for Groups
+
+Each user on your team likely uses Plays differently based on their role and workflow. When creating a Play, you can activate it for a specific group(s) to meet the needs of everyone in your organization. 
+
+ 
+
+To activate a Play for a group, follow these steps:
+
+Click the Settings tab.
+From this tab, click the search bar to select the group(s) you would like to activate the Play for.
+
+Enable Play after Saving
+
+As soon as you’ve confirmed your Play settings, you can select whether or not you want to enable the Play as soon as you hit Save. 
+
+Before you save, check the Enable Play after saving option found in the upper left corner of the New Play page, to the right of the Save button. When the toggle is on (blue), the Play you create will start to work as soon as it is created or saved.
+
+All Plays are disabled by default and the toggle shows as gray. You can enable a Play that has not been enabled from the Play Settings. This is beneficial if you want to confirm additional settings or wait to enable the Play at a certain time.  
+
+
+   
+
+Last Modified By
+Stephanie Griffith, 12/18/2023 7:20 PM
+Title
+Create a Play
+URL Name
+Create-a-Play
+Salesloft Knowledge
+Rhythm
+Plays
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,102 @@
+DIALER + MESSENGER
+ADVANCED DIALER GUIDES
+Complete Guide to Live Call Studio
+
+Jun 20, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+With Live Call Studio, you can view all of your reps' active outbound calls from one centralized place. Live Call Studio (LCS) is compatible with all calls made using the Salesloft Dialer. Whether the user is calling out of Salesforce, Facebook, Gmail - the calls will all show up in LCS.
+
+With Live Call Studio you can:
+Listen-only: Hear both sides of the conversation without being heard.
+Whisper: Speak to your rep without the prospect hearing to provide audible tips in real time.
+Join: Join the call and talk to both sides.
+In this article, you will learn how to set up and use Live Call Studio, including:
+Enable Live Call Studio
+Grant Access to Live Call Studio
+Launch Live Call Studio
+The Live Call Studio Dashboard
+Filter Live Call Studio by Group
+The Hand-Raise Feature
+If you run into any technical problems with the Dialer or Live Call Studio, check out our Dialer FAQ + Troubleshooting page for more help. 
+Enable Live Call Studio
+If you are a Salesloft admin or have specific Live Call Studio permissions, you will have the ability to turn on Live Call Studio for your team.
+
+To turn on Live Call Studio, follow the instructions below:
+Go to the Communication Settings and select Dialer.
+Select the Live Call Studio tab at the top of the page.
+Click the toggle to enable Live Call Studio.
+ 
+Grant Access to Live Call Studio
+All admins have permissions to access Live Call Studio by default, but you can grant access to custom roles that you create using Roles and Permissions .  
+Under your Admin Settings, navigate to Roles & Permissions.
+Under the Roles tab create your ideal role for the selected users (e.g. sales manager or sales rep). Note: “Admin” and “User” roles are set to default and will not allow you to edit or add permissions.
+Go to the Permissions tab.
+Scroll to find Live Calls.
+Check the box for the role you would like to grant access to Live Call Studio.
+Launch Live Call Studio
+If you have access to Live Call Studio, you will see a Launch button in Coaching.
+
+Clicking the launch icon will open the Live Call Studio Dashboard in a new window.
+ 
+
+
+ 
+The Live Call Studio Dashboard
+Once you launch Live Call Studio, you will be able to see all the calls actively occurring on your team in real-time from the Live Call Studio dashboard.
+
+Things to Note:
+Live Call Studio only applies to outbound calls.
+A microphone must be configured and enabled in order for Live Call Studio to work. 
+Each call label will display the name of the rep making the call, along with the details for the Person they are calling, including their name, Account, and title. Calls are ordered by the most recent call in the top left, with the total call time listed on the left side of each card. The total number of active calls is visible at the top right of the screen.
+
+You can view your Live Call Studio dashboard in two ways: the detail view or the list view. All of your LCS functionality is available in both card and list view.
+Detail View
+
+If you select Listen on a call, the detail view will open and you will be brought into the call in Listen mode. While in Listen mode, you will have the option to switch to Whisper mode, where you will be able to speak and be heard only by the rep, or Join mode, where you will join the call and be heard by both the rep and the prospect. You can also choose to leave the call to go back to the main LCS dashboard. 
+ 
+List View
+
+If you would like to toggle your LCS dashboard into a list view, select the List View icon at the top right corner of the screen.
+
+
+Filter Live Call Studio by Group
+Live Call Studio has the ability to filter by groups of users. This way organizations that make a high volume of calls across a large number of users can easily filter by callers per team.
+
+The groups filter is in the upper right corner of the Live Call Studio page. 
+
+To filter Live Call Studio by group, follow these steps: 
+Launch Live Call Studio from the Home Dashboard. 
+Click the Groups filter in the upper right corner. 
+Select the group or groups you would like to display. The groups list will change to live calls that are being made by any users who are in the selected group. 
+Things to Note: When you filter by groups, you can stay aware of any live calls the filter is hiding in the top right corner of your screen. 
+Hand-Raise Feature
+Each Salesloft user has the ability to signal someone in Live Call Studio that you would like them to listen to your call or you need assistance by "raising your hand."
+
+When you raise your hand, anyone viewing Live Call Studio will see a waving hand next to your name in Live Call Studio and the card color will change from white to red. This will alert the viewer (whether they are an admin or manager) to hop on your call and provide assistance or coaching. The alert will be visible in both card view and list view.  
+
+Click the Raise Hand icon located in the Salesloft Dialer to create an alert within Live Call Studio.
+
+ 
+
+By clicking the Raise Hand button you can also lower your hand to remove the alert.
+ 
+
+ 
+Last Modified By
+Briana Morgan, 6/20/2023 7:15 PM
+Title
+Complete Guide to Live Call Studio
+URL Name
+Complete-Guide-to-Live-Call-Studio
+Salesloft Knowledge
+Dialer + Messenger
+Advanced Dialer Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

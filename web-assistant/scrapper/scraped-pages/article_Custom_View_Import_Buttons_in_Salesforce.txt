@@ -1,0 +1,289 @@
+CRM
+SALESFORCE
+ADVANCED SALESFORCE GUIDES
+Custom View Import Buttons in Salesforce
+
+Jan 2, 2024•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+The Salesloft Chrome Extension allows easy importing directly from Salesforce. However, if you use a custom view the Chrome plugin will not be able to place our import buttons. For these instances, you can complete imports from Leads, Contacts, or Accounts in Salesforce.
+
+Creating an import button will perform the same core functionality as the Chrome extension version – it will move data from Salesforce into Salesloft. But the buttons act differently. The Salesloft extension pulls the full list view, while the custom import button allows you to select specifically from a list view.
+
+This means that while the setup and creation of the buttons look very similar, the end result is different. So, in this article, we will walk through each button creation separately. 
+
+Things to Note:
+
+The custom import button will not work for users on Salesforce's Group Edition.
+Salesforce site settings may prevent the selective import button from opening the Salesloft window with an import. To resolve this issue, make sure pop-ups and redirects are allowed in the security settings. To access the security settings in your Chrome browser, hit the lock icon seen in front of the URL address. Select Site Settings. It the settings page, find Pop-ups and redirects. Make sure this is set to Allow.
+
+
+In this article, we will walk through how to create the custom import buttons in your Salesforce instance, including:
+
+Salesforce Requirements Before You Begin
+Salesforce Lightning Selecting List View 
+The Custom Import Button for Lead Views
+The Custom Import Button for Contact Views
+The Custom Import Button for Account View
+Import Individual People Records in Console View
+Salesforce Requirements Before You Begin
+You must have Salesforce admin permissions to install this button.
+The custom buttons apply when set up specifically for Lead, Contact, or Account list views. 
+
+Things to Note: Selecting a high number of objects using the selective import button (for Leads, Contacts, or Accounts) may violate Chrome's specified URL length limits. Google allows up to 2,083 characters in a get request. URLs longer than that may result in 400 (Bad Request) response errors. If you're running into 400 errors while using the selective import button, some workarounds, including:
+
+Reduce the batch size of the selected leads, contacts, or accounts to 100 or less. 
+Create additional filters for your list and use the standard Import to Salesloft button.
+Clear your cookies from the browser (this will require you to log in again).
+Salesforce Lightning Select List View
+
+In order to create the custom import button within a Salesforce Lightning instance, you will need to download the button from our package installation. 
+
+Things to Note: The following install may be completed for Leads, Contacts, and/or Accounts. 
+
+To install the custom import button so your users, follow these steps: 
+
+1. Have a Salesforce admin visit the package installation URL. To install into your org's domain, use on of the following links: 
+
+Install in Production
+Install in Sandbox 
+
+2. For the question: "What if existing component names conflict with ones in this package?":
+
+3. Select the Do not install radial button.
+
+4. Below that, select Install for All Users. 
+
+5. Click Install.
+ 
+
+6. In Salesforce Lightning, go to the Gear icon at the top right corner. 
+
+7. Select Setup.
+
+8. Select Objects & Fields.
+
+9. Click Object Manager.
+ 
+
+10. Click the appropriate object to modify (Contact and/or Lead).
+11. Select Buttons, Links, and Actions on the menu to the left.
+12. Click New Button or Link in the top right.
+ 
+
+13. You will be redirected to the Custom Button or Link Edit page. Complete the following information: 
+
+Enter a Label and Name for the menu option. This will be whatever you want the import button to be called. Choose a name that will easily let a Salesforce administrator know what this button is. We recommend "Import Selected to Salesloft."
+Display Type: select the checkbox for List Button.
+Below List Button, check the box for Display Checkboxes (for Multi-Record Selection)
+Behavior: select Display in existing window with sidebar.
+Content Source: select Visualforce Page.
+Content: select ImportLeadsToSalesloft.
+
+14. Click Save.
+
+15. Once the button or link has been created, you'll be on the Custom Button or Link page. Click Search  List View Button Layout from the side menu. 
+
+16. Go to the List View line item.
+
+17. Click the dropdown button to the right of that line.
+
+18. Select Edit.
+
+19. Under Available Buttons, find your newly created button and select the button to highlight it. 
+
+20. Click the Add > (arrow) to move it over to the Selected Buttons list. 
+
+21. Click Save.
+ 
+
+22. Now, when you go to your list views, click the in the dropdown button (down arrow) to the right of the Import Into Salesloft button to use the select import.
+
+ 
+The Custom Import Button for Lead Views
+
+1. Open Salesforce and click Setup in the upper right corner. 
+
+2. In the left column under the Build heading, click Customize. 
+
+3. From the Customize menu, click Leads. 
+
+4. Under the Leads menu, click Buttons, Links, and Actions. 
+ 
+
+5. In the window that appears, click New Button or Link. 
+
+6. This is the Custom Button window where you will create the import button. Type or select these values for the following fields:
+
+Label: Salesloft Import
+Name: salesloft_import
+Display Type: List Button
+Behavior: Execute JavaScript
+Content Source: OnClick JavaScript: In the large text-area, paste the following JavaScript code:
+var leads = {!GETRECORDIDS( $ObjectType.Lead )};
+
+var myurl = "https://app.salesloft.com/app/import/crm?lead="+ leads;
+
+window.open(myurl,'_blank');
+
+
+7. Click Save.
+
+Add your Custom Button to Lead List Views
+
+Now that you have a fancy new button, we just need to add it to the lead list view!
+
+1. In the left column, click Search Layouts.
+
+2. In the Lead Search Layouts window, locate the Layout called Leads List View and click Edit.
+
+3. Find the name of your new button in the Available Buttons list and click the Add arrow. The button name should now be in the Selected Buttons list.
+
+The Custom Import Button for Contact Views
+
+1. Open Salesforce and click Setup in the upper right corner.
+
+2. In the left column under the Build heading, click Customize.
+
+3. From the Customize menu, click Contacts.
+
+4. Under the Contacts menu, click Buttons, Links, and Actions.
+
+5. In the window that appears, click New Button or Link.
+
+6. This is the Custom Button window where you will create the import button. Type or select these values for the following fields:
+
+Label: Salesloft Contact Import
+Name: SL_Contact_Import
+Display Type: List Button
+Behavior: Execute JavaScript
+Content Source: OnClick JavaScript: In the large text-area, paste the following JavaScript code:
+var contacts = {!GETRECORDIDS( $ObjectType.Contact )}; 
+
+var myurl = "https://app.salesloft.com/app/import/crm?contact="+ contacts; 
+
+window.open(myurl,'_blank');
+
+
+
+7. Click Save.
+
+Add your Custom Button to Contact List Views
+
+Now that you have a fancy new button, we just need to add it to the contact list view!
+
+1. In the left column, click Search Layouts.
+
+2. In the Contact Search Layouts window, locate the Layout called Contacts List View and click Edit.
+
+3. Find the name of your new button in the Available Buttons list and click the Add arrow. The button name should now be in the Selected Buttons list.
+ 
+
+Once the button has been created, it will appear at the top of your list view. The button will show with whatever name you added. In the image below, the button was created using the name "Selective Import": 
+
+The Custom Import Button for Account View
+
+1. Open Salesforce and click Setup in the upper right corner
+
+2. In the left column under the Build heading, click Customize.
+
+3. From the Customize menu, click Accounts.
+
+4. Under the Accounts menu, click Buttons, Links, and Actions.
+
+5. In the window that appears, click New Button or Link.
+
+6. This is the Custom Button window where you will create the import button.  Type or select these values for the following fields:
+
+Label: Salesloft Account Import
+Name: SL_Account_Import
+Display Type: List Button
+Behavior: Execute JavaScript
+Content Source: OnClick JavaScript
+In the large text-area, paste the following JavaScript code:
+ 
+var accounts = {!GETRECORDIDS( $ObjectType.Account )};
+
+var myurl = "https://app.salesloft.com/app/import/crm?account="+ accounts;
+
+window.open(myurl,'_blank');
+
+
+7. Click Save. 
+
+Add your Custom Button to Account List Views
+
+Now that you have a fancy new button, we just need to add it to the Account list view!
+
+1. In the left column, click Search Layouts.
+
+2. In the Account Search Layouts window, locate the Layout called Accounts List View and click Edit.
+
+3. Find the name of your new button in the Available Buttons list and click the Add arrow. The button name should now be in the Selected Buttons list. 
+
+Finally, add it to the contacts that are associated with the account!
+
+1. Go into Accounts page layout. 
+
+2. Select the Related List for contacts.
+
+3. Click Edit, and at the bottom of the screen expand the “buttons” section.
+
+4. Select your Custom contact import button and click OK.
+
+Once the button has been created, your list view will look like the image below:  
+
+Import Individual People Records in Console View
+
+Teams using Console View in Salesforce Classic can add a custom button that allows users to import individual leads and/or contacts from the Salesforce detail page into Salesloft.
+
+To create the individual custom import button, follow these steps:
+
+1. A Salesloft user with Salesforce admin privileges must download the following package: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t0W000000xF8j&isdtp=p1. 
+
+2. Once the package is installed, go to the Setup page from the button in the top right corner of your Salesforce instance. 
+
+3. Find the Build section, select Customize.
+
+4. Select Console. 
+
+5. Click Custom Console Components.
+
+6. Select the object you wish to customize: Leads or Contacts.
+
+7. Select Create a new custom link.
+
+8. Click New Button or Link.
+ 
+
+9. Fill in the follow Custom Button or Link Edit fields:
+
+Label: Give the button whatever Label you wish.
+Display Type: select Detail Page Button.
+Behavior: select Display in new window.
+Content Source: select Visualforce Page.
+Content: there should only be one option ("Import[Lead/Contact]ToSalesloft")
+
+10. Click Save. 
+
+11. Once you have created this button, add it to the desired layout as you would normally add any other button or link.
+
+Last Modified By
+Stephanie Griffith, 1/2/2024 7:30 PM
+Title
+Custom View Import Buttons in Salesforce
+URL Name
+Custom-View-Import-Buttons-in-Salesforce
+Salesloft Knowledge
+Salesforce
+CRM
+Advanced Salesforce Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

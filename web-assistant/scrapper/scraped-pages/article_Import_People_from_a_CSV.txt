@@ -1,0 +1,209 @@
+PEOPLE AND ACCOUNTS
+IMPORTS INTO SALESLOFT
+Import People from a CSV
+
+Aug 17, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+A bulk import is the best method for creating more than one Person to Salesloft. When you are importing People in bulk, you have two options: Imports from Salesforce or import from a CSV. 
+
+CSV files can be created in a spreadsheet tool, like Microsoft Excel. The spreadsheet will contain all of your Leads or Contacts along with columns for data relevant to that contact. These columns will ultimately be the fields that you can view in Salesloft and use as dynamic fields in your emails. 
+
+Once the spreadsheet is complete, you will save the document as a .CSV. From there, you can upload it to Salesloft. All of the contacts will become Salesloft People. Each Person, plus their data, now exists in your Salesloft and you can begin engaging with those People. 
+
+Things to Note: When importing date fields, we only accept the international yyyy-mm-dd format.
+
+In this article, you will learn about CSV imports, including: 
+
+CSV Import Guidelines
+Create People from a CSV Import
+Complete Your CSV Import Filters​
+Edit Fields from the CSV Complete Your Import Page
+Import and Add to a Team Cadence
+Assign Salesloft Owner When Importing from a CSV
+Update People Ownership when Reimporting Contacts from CSV
+SLU: Importing to Salesloft via CSV (Video)
+
+ 
+
+CSV Import Guidelines
+Create a CSV file with the headers of the fields you need or want to create or update. Common headers include:
+First Name
+Last Name
+Company / Account
+Job Title
+Email Address
+Phone Number
+Your CSV must contain a maximum of 5000 people records per import. This may require breaking your original list into multiple CSVs. Once the file contains 5000 records or less, you can import. Importing more than 5000 records may result in an error message. We strongly recommend to use 1000 people records per import to ensure the import success.
+Items in your CSV must use the UTF-8 format, meaning accents, symbols, different characters may not be accepted.   
+ 
+Create People from a CSV Import
+
+When you are ready to import from a CSV, follow these steps:
+
+Things to Note: When adding a new Person to Salesloft you must have either an email address or phone number associated with that Person and a partial name (like J. Smith).
+
+Create a spreadsheet with the list of People. Include column headers to designate field types (e.g., “First Name,” “Account Name”).
+Save your list as a CSV file.
+From the People page, click Create People in the upper right-hand corner.
+Select Import from CSV.
+From the Import from CSV page, click Choose a CSV file.
+Select your CSV file. Click Open.
+On the Map Your Fields page, you will match your CSV column headers to the appropriate field in Salesloft. Use the dropdown in the Salesloft Field column to select the best field to match the column. The third column shows the Mapped Data Preview. It pulls information from the CSV so you know what data would map to the field. 
+Capitalize: Toggle the Capitalize option on and Salesloft will make sure all entries in the data field are capitalized. This is particularly useful if your CSVs are put together quickly with low regard for grammatical correctness and will ensure that your dynamics fields are professional. The Capitalize toggle may be applied to the follow data fields: 
+First Name
+Last Name
+Company
+City
+State
+Things to Note: Only map column headers that exist as Salesloft fields. Learn how to create custom fields in the Field Configuration Overview article. 
+Click Next.
+Complete Your Import. The Complete Your Import page contains additional tools and details when  importing from a CSV. Keep reading this article to learn more. 
+
+ 
+
+ 
+Complete Your CSV Import Filters
+
+The Complete Your Import page is where you can confirm the information being imported into Salesloft. Filters help refine the available data so you only see certain information. 
+
+For example, if you want to confirm that your CSV data was complete, with no missing fields, you can filter by No Accounts or No Emails to make sure those fields are not blank. 
+
+The Owner filter will appear by default on all Complete Your Import pages. In your CSV import, you can add filters to your view. The CSV Import filters include the following options: 
+
+Account: Select No Account to verify that all People being added are assigned to an Account or search by a specific Account name. 
+Cadence: Contains No Cadence option and supports multiple selection.
+Email: Filter records by presence or absence of an email address.
+Last Contacted: Can help filter existing records and define those that need to be updated on importing.
+Phone: Helps to find records with no phone numbers include or you can search by a specific phone type (Office, Mobile, Home).
+Record Type: Quickly identify all of the records with specific types, such as people who are already in Salesloft or new contacts only. This way you can select (or deselect) anyone who needs to be imported into Salesloft.
+
+ 
+
+ 
+Edit Fields from the CSV Complete Your Import Page
+
+Before your CSV is fully imported into Salesloft, you may find that some of your data needs to be changed. If this occurs, you can select People in the import list and edit their details. 
+
+The following edits can be made from the CSV Complete Your Import Page: 
+
+Account
+Owner
+Tags
+
+To set or update the Owner or Account, follow these steps:
+
+Filter your import list, if necessary. You can filter by Account or Owner to view specific data.
+Select the Person or multiple People by checking the box to the left of their name.
+Click Edit in the top bar. The Edit module will appear
+Select or search in the Account and/or Owner field(s). The available options will appear. 
+Click Save. A message will appear to confirm the Owner was updated.
+
+Tags are a way to label objects inside of Salesloft. You can tag people upon import to help designate campaigns they are a part of or their assigned region. To manage tags, follow these steps:
+
+Select answer Person you would a tag assigned.
+Click the Tag button (next to the Edit button). An Edit Tags window will appear.
+In the edit tags window, type your tag and click the enter key on your keyboard. Any tags added will be listed under the Add Tags section. To remove tags, go under the Remove Tags section and click the X next to each tag you wish to remove.
+Continue adding your tags individually, and click Update.
+ 
+
+ 
+
+
+Once your tags are saved, you can view the tags in the Tag column on the Complete Your Import page to preview all tag’s changes. 
+
+Import and Add to a Team Cadence
+
+Based on the territory, persona, or account, you may need to add People to different Cadences upon import. 
+
+Salesloft team Cadences have a specific Cadence ID number. When this ID is listed in a CSV import, Salesloft will add that Person the the team Cadence with that ID.
+
+Things to Note: 
+
+You can only add prospects to the team Cadences, system will not recognize any personal Cadences.
+The number of Cadences users can add People to within one import is not limited.
+
+To add a Person to a Team Cadence upon import, follow these steps: 
+
+1. Create a CSV file. Label one of the column headers Cadence.
+
+2. Copy the Cadence ID number. You will find the Cadence ID number on the Cadence Settings page of you Team Cadences. The Cadence ID will be listed below the Cadence Name. 
+ 
+
+3. Paste the Cadence ID in the CSV file under the Cadence column and on the rows of any contact you want added to that Cadence. 
+
+4. Map Assignee (optional). If you have added Cadence ID to your CSV file, then you can add the column named Assignee and fill out it with Salesloft email address of the user you would like to be the assignee.
+
+Things to Note: If assignee isn’t specified, then all People will be assigned to their Salesloft Owners in the Cadence to which they are added.
+
+5. Follow the steps listed in the section above to Import from a CSV. During step 7 (Map your CSV column headers to the appropriate field in Salesloft.), the field mapping should recognize Cadence → Cadence ID. If you added the Assignee field, you can map the Assigned To.
+
+Things to Note: You cannot proceed with import if the Assignee is mapped but Cadence ID isn't mapped. 
+
+6. Once your CSV is prepared in Salesloft, click Next.
+
+7. On the Complete Your Import page, you will see an additional column for Add to Cadence. This field will display the name of the Cadence recognized by Cadence ID. As long as the Cadence ID field is mapped, you will only have the option to Finish Import and Add to Cadence. Click Finish Import and Add to Cadence to complete your import. 
+
+Things to Note: Any records that don't have Cadence ID specified in CSV will be imported to Salesloft without adding to Cadence.
+
+ 
+
+Assign Salesloft Owner When Importing from a CSV
+
+By default, People being imported into Salesloft will be assigned to the user that does the importing. The user who is assigned a Person is known as the Salesloft Owner since they will own that Person's record in Salesloft.  
+
+When importing a CSV, you can assign the contact to any Salesloft user. This way, you can import new People to Salesloft and assign them to multiple different users at the same time. 
+
+Things to Note:
+
+Ownership can be different than the assignee.
+If the owner was not specified in the CSV file, Salesloft will automatically assign the record to the user completing the import.
+
+To assign a user as the owner of a Person record during a CSV import, follow these sets: 
+
+Create your CSV file with a column designated to the Salesloft users. We recommend that you name the column Salesloft Owner (or SL owner). When the column is titled as such, Salesloft can automatically map the column to the required field.
+Things to Note: REQUIREMENT The Salesloft Owner field must match the user's Salesloft email address. To avoid mistakes, we recommend copying the email from the Users list found in your Team Settings.
+If Salesloft was not able to recognize the owner by email, the record will be marked as an error and the user will be provided a tooltip explaining the error reason.
+Follow steps 2-6 to import from a CSV.
+Map your CSV fields. Make sure your Salesloft Owner column is mapped to the Salesloft Owner field. Click Next
+Preview your list and view the Owner column on the Complete Import page. 
+Update People Ownership when Reimporting Contacts from CSV
+
+One common way to track and assign Account and Contact ownership is via spreadsheets, which gives you flexibility with columns sorting, filtering, and editing.
+
+If you use this method to update record ownership, you can bulk update People ownership when re-importing records to Salesloft from CSV file. Follow these steps to re-import a CSV and update the Owner field: 
+
+Follow steps 1 and 2 listed in the Assign Salesloft Owner When Importing from a CSV section above. Stop on the Map Your Fields page. 
+If Owner field is mapped, you will see the option Overwrite Ownership for Existing Records in the lower left corner of the Map Your Fields page. Click the option to check it on. 
+Things to Note: the Overwrite Ownership option is only available for users with Edit People permissions , otherwise it will not be visible.
+Click Next. When Overwrite Ownership for Existing Records is checked, the Complete Your Import page new owner will be shown in the “Salesloft Owner” column. Records, where ownership will change are indicated with a special icon with the explanation tooltip on hover. 
+Things to Note: The Owner column in CSV filed should contain a valid email address of the active user in Salesloft, otherwise the record will be marked as error.
+
+
+Additionally, if the ownership is changing, a Last Contacted at field will appear for the People who already exist in Salesloft. This field provides context about whether the prospect is being actively worked on by another user. When you see this information, you can check and review whether updating the ownership would be disruptive or problematic to the Person being contacted. 
+
+SLU: Importing to Salesloft via CSV (Video)
+
+Want to know about how to import from a CSV, but prefer a video format? Visit Salesloft University to see the Importing to Salesloft via CSV video tutorial. 
+
+ 
+Last Modified By
+Briana Morgan, 8/17/2023 6:37 PM
+Title
+Import People from a CSV
+URL Name
+Import-People-from-a-CSV
+Salesloft Knowledge
+People And Accounts
+People
+Imports Into Salesloft
+People Page
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,53 @@
+CONVERSATIONS
+Conversations Transcription
+
+Jun 22, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+A Conversations Transcription is the text version of a meeting. 
+
+When Conversations processes meeting recording files, the audio is also converted into a text file so that you can review the conversation that took place. 
+
+You can access a meeting's transcription from the Recording Detail Page, where you can review the transcript alongside the video to identify trackers, make notes on specific talk points, and pinpoint coaching opportunities. 
+
+In this article, you will learn about Conversations Transcriptions, including:
+Conversations Transcription Actions
+Multi-Language Detection in Your Conversations Transcription
+Conversations Transcription Actions
+While reviewing a meeting's transcription, there are particular actions you can perform to help you gain additional insight about the conversation that took place. 
+
+These actions include:
+Search: Use the search bar to identify keywords, amounts, and phrases. If the item you searched is found multiple times in the transcription, you can use the arrows to identify each time the word or phrase was used.
+Download Transcription: Use the drop-box icon to download a .txt file of the transcription.
+Multi-Language Detection in Your Conversations Transcription
+
+Salesloft Conversations uses Amazon Web Services (AWS) Transcription Services to process meeting transcriptions.
+AWS Transcription Services can detect audio in six different languages, including: Dutch, English, French, German, Italian, and Spanish.
+
+Each recording tile includes a language label to help you identify the language(s) that AWS detected in your meeting. 
+
+Things to Note: 
+
+Transcriptions can not be translated from one language to another.
+AWS only detects languages in the transcription itself. An admin can add Trackers in one of the six languages listed above to ensure that you can identify Trackers in your transcriptions based on the language that was detected. 
+ 
+
+ 
+
+Last Modified By
+Raequel Sank, 6/22/2023 4:51 PM
+Title
+Conversations Transcription
+URL Name
+Conversations-Transcripts
+Conversations
+Salesloft Knowledge
+Conversations Recordings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,40 @@
+INTEGRATIONS
+Error: "LinkedIn Sales Navigator subscription not found"
+
+Mar 24, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Another error you may encounter is the "LinkedIn Sales Navigator subscription not found" message. There are several methods for addressing this error, including:
+Confirm your license: Reach out to LinkedIn Sales Navigator admins to confirm you have the appropriate license. For more information, review the LinkedIn Sales Navigator plans.
+Check the LinkedIn primary email setting:
+In LinkedIn, navigate to Me.
+Click Settings & Privacy.
+Select Account Access/Email.
+Confirm that the corporate email address for the subscription is set as the primary email address.
+Deauthorize the LinkedIn app:
+In LinkedIn, navigate to Me.
+Click Settings & Privacy.
+Select Data Privacy.
+Select Other Applications.
+Next to Permitted Services, choose Change.
+Remove the Navigator Widget Production App.
+Return to Salesloft, clear your cookies, and reattempt the LinkedIn Navigator steps. You will need to reauthorize and confirm the connected LinkedIn user seat.
+Contact LinkedIn: If none of the other suggested fixes solve the issue, reach out to the LinkedIn support team to confirm licensing and eliminate problems with duplicate seats, license reassignments, etc.
+ 
+Last Modified By
+Stephanie Griffith, 3/24/2023 9:29 PM
+Title
+Error: "LinkedIn Sales Navigator subscription not found"
+URL Name
+Error-LinkedIn-Sales-Navigator-subscription-not-found
+Integrations
+Salesloft Knowledge
+Integrations FAQ + Troubleshooting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

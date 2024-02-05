@@ -1,0 +1,937 @@
+CRM
+Auto-Map Standard Salesforce Fields
+
+Sep 16, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+From mapping default and standard fields to creating custom fields, a large portion of time as a new Salesloft customer can be spent setting up your team's instance between your CRM and Salesloft. 
+
+Fortunately, Salesloft created a feature that auto-maps standard fields to decrease your set up time.
+
+Things to Note:
+IMPORTANT - ORDER MATTERS: If you or any admin on your team starts mapping fields BEFORE you select Salesforce as the CRM Type, you WILL NOT be able to take advantage of the auto-mapping. Our system will see fields mapped and will respect them.
+Due to the reason above, auto-mapping will not impact current customers with any field mappings. All current field mappings will be respected and stay intact.
+If you are a customer that has never had CRM Sync enabled, you can auto-map fields using the CRM Type setting. The auto-map feature will map 47 standard fields in an inbound from CRM to SL direction. You can edit this mapping's direction or remove the mapping, if needed.
+
+In this article, you will learn how fields are auto-mapped and the fields included in auto-mapping in Salesforce, including:
+Auto-Map Standard Salesforce Fields
+Auto-Mapped Salesforce Person Fields: Lead/Contact Fields
+Auto-Mapped Salesforce Account Fields
+Auto-Mapped Salesforce Opportunity Fields
+Auto-Map Standard Salesforce Fields 
+To auto-map standard fields from Salesforce to Salesloft, follow these steps: 
+In Salesloft, click your name in the upper right corner to your  and select your Team settings. Then go to the CRM Sync settings.
+Choose Salesforce as your CRM Type. As a new customer that has had no previous connections to a CRM, you will now have to choose between one of the following: Salesforce or No CRM. 
+Thing to Note: If you are a Salesloft customers that has ever had a Salesforce CRM connection, You will not need to select the CRM Type. Your CRM Type will default to Salesforce.  
+A window will pop up asking you to confirm the CRM Type. Click Confirm. Once you select a CRM Type, the field options will be greyed out. 
+Set up your Personal CRM connection.
+Connect Salesloft to your Salesforce Main Connector account or a Salesforce Sandbox. 
+Set your field level security in Salesforce.
+Back in Salesloft, go to the Field Configuration Page to see your Auto-Mapped Standard Fields and verify the mapping is exactly how you want it to be. The field direction defaults to import information from Salesforce into Salesloft. If you want to edit the field or the direction, make those changes on the Field Configuration page. 
+Auto-Mapped Salesforce Lead and Contact Fields
+Beginning October 2020, new Salesforce customers using Salesloft have the option to auto-map 47 standard fields. To learn how to enable field auto-mapping check out the Salesforce Field Configuration article. 
+
+Things to Note: DO NOT manually map any fields if you would like to use the auto-map feature. If any fields have been previously mapped, auto-mapping will not be applied to your instance, and you will have to map all of your own fields. 
+
+Fields will be mapped using the Salesforce into Salesloft direction option. If you want to change the direction, you can edit the field. Field edits can also include changing the field that is mapped or deleting the field entirely
+
+The following Lead and Contact fields will be included in the auto-mapping feature: 
+Auto-Mapped Leads
+
+Salesloft Field Name
+
+	
+
+Salesforce Field Label
+
+	
+
+Salesforce Field Name
+
+	
+
+Direction
+
+
+
+
+City
+
+	
+
+City
+
+	
+
+City
+
+	
+
+SL← SF
+
+
+
+
+Country
+
+	
+
+Country
+
+	
+
+Country
+
+	
+
+SL← SF
+
+
+
+
+Owner Crm Id
+
+	
+
+Lead Owner
+
+	
+
+OwnerId
+
+	
+
+SL← SF
+
+
+
+
+Phone
+
+	
+
+Phone
+
+	
+
+Phone
+
+	
+
+SL← SF
+
+
+
+
+State
+
+	
+
+State
+
+	
+
+State
+
+	
+
+SL← SF
+
+
+
+
+Title
+
+	
+
+Title
+
+	
+
+Title
+
+	
+
+SL← SF
+
+
+
+
+Email Address
+
+	
+
+Email
+
+	
+
+Email
+
+	
+
+SL← SF
+
+
+
+
+First Name
+
+	
+
+First Name
+
+	
+
+FirstName
+
+	
+
+SL← SF
+
+
+
+
+Last Name
+
+	
+
+Last Name
+
+	
+
+LastName
+
+	
+
+SL← SF
+
+
+
+
+Company Industry
+
+	
+
+Industry
+
+	
+
+Industry
+
+	
+
+SL← SF
+
+
+
+
+Company Name
+
+	
+
+Company
+
+	
+
+Company
+
+	
+
+SL← SF
+
+
+
+
+Company Website
+
+	
+
+Website
+
+	
+
+Website
+
+	
+
+SL← SF
+
+
+
+
+Mobile Phone
+
+	
+
+Mobile
+
+	
+
+MobilePhone
+
+	
+
+SL← SF
+
+ 
+Auto-Mapped Contacts
+
+Salesloft Field Name
+
+	
+
+Salesforce Field Label
+
+	
+
+Salesforce Field Name
+
+	
+
+Direction
+
+
+
+
+Account Crm Id (Contact)
+
+	
+
+ID
+
+	
+
+AccountID
+
+	
+
+SL← SF
+
+
+
+
+City
+
+	
+
+Mailing City
+
+	
+
+MailingCity
+
+	
+
+SL← SF
+
+
+
+
+Country
+
+	
+
+Mailing Country
+
+	
+
+MailingCountry
+
+	
+
+SL← SF
+
+
+
+
+Email Address
+
+	
+
+Email
+
+	
+
+Email
+
+	
+
+SL← SF
+
+
+
+
+First Name
+
+	
+
+First Name
+
+	
+
+FirstName
+
+	
+
+SL← SF
+
+
+
+
+Last Name
+
+	
+
+Last Name
+
+	
+
+LastName
+
+	
+
+SL← SF
+
+
+
+
+Owner Crm ID
+
+	
+
+Contact Owner
+
+	
+
+OwnerId
+
+	
+
+SL← SF
+
+
+
+
+State
+
+	
+
+Mailing State
+
+	
+
+MailingState
+
+	
+
+SL← SF
+
+
+
+
+Title
+
+	
+
+Title
+
+	
+
+Title
+
+	
+
+SL← SF
+
+
+
+
+Home Phone
+
+	
+
+Home Phone
+
+	
+
+HomePhone
+
+	
+
+SL← SF
+
+
+
+
+Mobile Phone
+
+	
+
+Mobile
+
+	
+
+MobilePhone
+
+	
+
+SL← SF
+
+ 
+Auto-Mapped Salesforce Account Fields
+Beginning October 2020, new Salesforce customers using Salesloft have the option to auto-map 47 standard fields. To learn how to enable field auto-mapping check out the Salesforce Field Configuration article. 
+
+Things to Note: DO NOT manually map any fields if you would like to use the auto-map feature. If any fields have been previously mapped, auto-mapping will not be applied to your instance, and you will have to map all of your own fields. 
+
+Fields will be mapped using the Salesforce into Salesloft direction option. If you want to change the direction, you can edit the field. Field edits can also include changing the field that is mapped or deleting the field entirely
+
+The following Account fields will be included in the auto-mapping feature: 
+
+Salesloft Field Name
+
+	
+
+Salesforce Field Label
+
+	
+
+Salesforce Field Name
+
+	
+
+Direction
+
+
+
+
+Name
+
+	
+
+Account Name
+
+	
+
+Name
+
+	
+
+SL← SF
+
+
+
+
+Domain
+
+	
+
+Website
+
+	
+
+Website
+
+	
+
+SL← SF
+
+
+
+
+Description
+
+	
+
+Description
+
+	
+
+Description
+
+	
+
+SL← SF
+
+
+
+
+Owner Crm Id
+
+	
+
+Account Owner
+
+	
+
+OwnerId
+
+	
+
+SL← SF
+
+
+
+
+Phone
+
+	
+
+Phone
+
+	
+
+Phone
+
+	
+
+SL← SF
+
+
+
+
+Industry
+
+	
+
+Industry
+
+	
+
+Industry
+
+	
+
+SL← SF
+
+
+
+
+Street
+
+	
+
+Billing Street
+
+	
+
+BillingStreet
+
+	
+
+SL← SF
+
+
+
+
+City
+
+	
+
+Billing City
+
+	
+
+BillingCity
+
+	
+
+SL← SF
+
+
+
+
+State
+
+	
+
+Billing State
+
+	
+
+BillingState
+
+	
+
+SL← SF
+
+
+
+
+Country
+
+	
+
+Billing Country
+
+	
+
+BillingCountry
+
+	
+
+SL← SF
+
+
+
+
+Postal Code
+
+	
+
+Billing Postal Code
+
+	
+
+BillingPostalCode
+
+	
+
+SL← SF
+
+
+
+
+Size
+
+	
+
+Employees
+
+	
+
+NumberOfEmployees
+
+	
+
+SL← SF
+
+ 
+Auto-Mapped Salesforce Opportunity Fields
+Beginning October 2020, new Salesforce customers using Salesloft have the option to auto-map 47 standard fields. To learn how to enable field auto-mapping check out the Salesforce Field Configuration article. 
+
+Things to Note:
+DO NOT manually map any fields if you would like to use the auto-map feature. If any fields have been previously mapped, auto-mapping will not be applied to your instance, and you will have to map all of your own fields. 
+RECOMMENDED FIELDS: If you can't auto-map fields and are wondering which Opportunity fields we recommend you map, check out the Recommended fields chart. The list of fields included in the auto-mapping feature is also the list of recommended fields to map for Opportunities.
+Fields will be mapped using the Salesforce into Salesloft direction option. If you want to change the direction, you can edit the field . Field edits can also include changing the field that is mapped or deleting the field entirely.
+
+The following Opportunity fields will be included in the auto-mapping feature: 
+
+Salesloft Field Name
+
+	
+
+Salesforce Field Label
+
+	
+
+Salesforce Field Name
+
+	
+
+Direction
+
+
+
+
+Amount
+
+	
+
+Amount
+
+	
+
+Amount
+
+	
+
+SL← SF
+
+
+
+
+Close Date
+
+	
+
+Close Date
+
+	
+
+CloseDate
+
+	
+
+SL← SF
+
+
+
+
+Account Crm Id
+
+	
+
+Account Name
+
+	
+
+AccountId
+
+	
+
+SL← SF
+
+
+
+
+Created by Crm Id
+
+	
+
+Created By
+
+	
+
+CreatedById
+
+	
+
+SL← SF
+
+
+
+
+Created Date
+
+	
+
+Created Date
+
+	
+
+CreatedDate
+
+	
+
+SL← SF
+
+
+
+
+Crm Last Updated Date
+
+	
+
+Last Modified Date
+
+	
+
+LastModifiedDate
+
+	
+
+SL← SF
+
+
+
+
+Is_Won
+
+	
+
+Won
+
+	
+
+IsWon
+
+	
+
+SL← SF
+
+
+
+
+Name
+
+	
+
+Name
+
+	
+
+Name
+
+	
+
+SL← SF
+
+
+
+
+Owner Crm Id
+
+	
+
+Opportunity Owner
+
+	
+
+OwnerId
+
+	
+
+SL← SF
+
+
+
+
+Probability
+
+	
+
+Probability (%)
+
+	
+
+Probability
+
+	
+
+SL← SF
+
+
+
+
+Stage Name
+
+	
+
+Stage
+
+	
+
+StageName
+
+	
+
+SL← SF
+
+Last Modified By
+Raequel Sank, 9/16/2021 8:40 PM
+Title
+Auto-Map Standard Salesforce Fields
+URL Name
+Auto-Map-Standard-Salesforce-Fields
+Salesloft Knowledge
+Salesforce
+CRM
+Salesforce Admin Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

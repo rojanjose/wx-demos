@@ -1,0 +1,72 @@
+CONVERSATIONS
+Upload a Recording in Conversations
+
+Nov 29, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+
+Conversations recordings are recorded calls and video conferences. There are a number of ways to capture recordings in Conversations; one of these being manually uploading your recordings. 
+
+ 
+
+Things to Note: Due to the nature of an uploaded file, active speaker detection (ASD) and percent talk time for speakers are unavailable.
+
+ 
+
+In this article, you will learn how to upload a recording in Conversations, including:
+
+Criteria for Uploading a Recording
+Upload a Recording
+Criteria for Uploading a Recording
+
+In order for a recording to be uploaded to Conversations, the recording file must meet certain criteria. 
+
+ 
+
+To upload a recording in Conversations, the recording file must be:
+
+ 
+
+One of the following formats:
+Audio Files: mp3, wav, ogg, m4a
+Video Files: mp4, m4v, mov
+No larger than 3gb
+At least 60 seconds in length
+Upload a Recording
+
+To upload a recording, navigate to the Conversations page then follow these steps:
+
+ 
+
+Go to the Conversations product tab.
+Click Upload a Recording in the upper right corner. The Upload a Recording window will appear.
+From the Upload a Recording window, add the following meeting details:
+Meeting Title
+Meeting Organizer (Click the dropdown arrow to find and select a name.)
+Meeting Date
+Once you've added the meeting details, add your recording file by:
+Drag and drop the recording file into the Drag and Drop box
+Click the Drag and Drop box to select a file saved on your computer.
+(Optional): Link the recording to an Account. If the Account is associated with an Opportunity, that Opportunity will also be linked to the recording. 
+Click Upload.
+
+Once your recording is uploaded, you will see it listed under the Recordings tab. 
+
+Last Modified By
+Raequel Sank, 11/29/2023 4:03 PM
+Title
+Upload a Recording in Conversations
+URL Name
+Upload-a-Recording-in-Conversations
+Conversations
+Conversations Essentials
+Salesloft Knowledge
+Conversations Recordings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

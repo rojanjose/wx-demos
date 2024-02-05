@@ -1,0 +1,57 @@
+CRM
+Insight from Salesloft Troubleshooting
+
+Dec 2, 2021•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+These are troubleshooting steps in the event that you experience any problems with the Insight from Salesloft package. 
+
+In this article, you will find the following Troubleshooting:
+An Error Occurred When Executing a Flow Interview
+What will happen if I deactivate these flow definitions?
+How to Deactivate the Flow
+How to Deactivate the Process Builder Automation
+Our Team Cannot Install Insight from Salesloft
+For additional troubleshooting help with Salesloft and Salesforce, check out our Salesforce Troubleshooting Guide.
+An Error Occurred When Executing a Flow Interview
+After installing the Insight from Salesloft dashboard package, if there are existing automated flow definitions in Salesforce that conflict with the flow definitions included in the Insight from Salesloft package, we recommend deactivating both the Process Builders and Flow included in the package:
+Process Builders:
+Populate Primary Contact Opportunity Field from Contact Roles (API Name: Populate_Primary_Contact_Opportunity_Field_from_Contact_Roles)
+Insight from Salesloft Update Salesloft Most Recent Cadence Fields on Opportunity (API Name: Insight_from_Salesloft_Update_Salesloft_Most_Recent_Cadence_Fields_on_Opportunity)
+Salesforce Flow:
+Auto_Populate_PrimaryContact_from_Contact_Role_Object (API NAME: Auto_Populate_PrimaryContact_from_Contact_Role_Object)
+What will happen if I deactivate these flow definitions?
+Deactivating the Processes & Flow means you are deactivating the process that accounts for Contact to Opportunity Cadence attribution.
+
+Things to Note: If you are using Leads primarily in Salesloft, the Processes are not needed and instead you can leverage Lead Conversion Field Mapping for Cadence to Opportunity attribution reporting.
+ 
+How to Deactivate the Flow
+Go to Set up.
+Under Create > Workflow and Approvals > Flow
+From the Flow page, select Auto_Populate_PrimaryContact_from_Contact_Role_Object.
+From page, click Deactivate in the Flow versions table.
+How to Deactivate the Process Builder Automation
+If you don't want to leverage the process and flow from the Insight package into your Salesforce org, or an error occurred and you need to remove the process, follow these instructions:
+Under Create > Workflow and Approvals > Process Builder
+From the My Processes page, select the blue arrow to the left of Populate Primary Contact Opportunity Field or Insight from Salesloft Update Salesloft Most Recent Cadence Fields on Opportunity.
+Under the version, click Deactivate.
+Our Team Cannot Install Insight from Salesloft
+In the event that your team cannot install our package, use our Insights from Salesloft Report Filters, Groups, Formulas, Formula Fields Guide to learn how to re-create any of the reports or package components manually in Salesforce. You can find the guide in the attachment linked .
+Last Modified By
+Stephanie Griffith, 12/2/2021 10:03 PM
+Title
+Insight from Salesloft Troubleshooting
+URL Name
+Insight-from-Salesloft-Troubleshooting
+Salesloft Knowledge
+Salesforce
+CRM
+Insight For Salesforce
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

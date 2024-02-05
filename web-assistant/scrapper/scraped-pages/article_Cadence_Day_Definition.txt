@@ -1,0 +1,30 @@
+CADENCES + TASKS
+Cadence Day Definition
+
+Apr 25, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Whenever you Create a Cadence, you pick the day your steps will run once a person has been added to the Cadence.
+
+To clarify, this doesn't mean a specific date or day of the week, but the number of days that pass between the start of the Cadence and when that step will occur.
+
+For example, you create a Cadence with a step on Day 1 followed by another on Day 3. Let's say you add people to that Cadence on a Monday. The first step (Day 1) will run on Monday and the second step (Day 3) will run on Wednesday. Now, if you were to add people to the Cadence on Tuesday, the first step would run on Tuesday and the second would run on Thursday.
+
+Things to Note: Cadences run on a weekday-only schedule. By default, they can be set up to run on weekends. For more information on weekend Cadence steps, check out our Add an Email Step article.
+Last Modified By
+Stephanie Griffith, 4/25/2023 8:24 PM
+Title
+Cadence Day Definition
+URL Name
+Cadence-Day-Definition
+Cadences + Tasks
+Salesloft Knowledge
+Create A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,72 @@
+CONVERSATIONS
+Conversations Bot Integrations Overview
+
+Jan 9, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft’s Conversations Bot integrations allow you to capture recorded meetings and access them later through your Salesloft account. From Salesloft, you can easily annotate, coach, clip, share, and review meetings. 
+
+Leveraging your meetings platform and Salesloft together allows you to manage your time and improve the conversations you’re having with customers.
+
+In this article, you will learn about the Conversations Bot integrations, including:
+How Do Conversations Bot Integrations Work?
+What Setup is Required for Bot Integrations?
+How Do I View My Captured Meetings?
+Troubleshooting
+ 
+How Do Conversations Bot Integrations Work?
+Conversations Bot integrations enable the Conversations Bot to join and capture meetings that are scheduled on your calendar. The Conversations Bot is a virtual machine that joins your meetings as a participant to record, transcribe, and perform additional Conversations magic. 
+
+In order for the Conversations Bot to capture your meetings, you must meet the following criteria:
+Your calendar is connected
+Your admin has enabled Conversations
+Your admin has enabled your team’s meeting platform
+Once the criteria has been met, the Conversations Bot should automatically join meetings that are scheduled on your calendar. You can also manually add the bot from the Add Bot To Meeting button on the Conversations page. 
+
+Once the Conversations Bot captures your meeting, the meeting can be uploaded into your Salesloft account. From Salesloft, you can easily annotate, clip, and share meetings for review and coaching sessions. 
+
+Check out the What Setup is Required section for information on how to use the Bot integrations.
+
+For more information on recorded meetings, check out the How Meetings Are Captured article.
+ 
+What Setup is Required for Bot Integrations?
+To use the bot integrations, you will need to connect your calendar and ensure that Conversations is enabled properly in Salesloft.
+
+For steps to connect your calendar, check out the Set Up Your Meetings Calendar article.
+
+Once you have connected your calendar and enabled Conversations and your meeting platform, the bot should automatically join meetings that are scheduled in your calendar. 
+
+For more information on Conversations setup, check out the Conversations User Checklist and the Conversations Admin Checklist. 
+ 
+How Do I View My Captured Meetings?
+To view meetings that have been captured by the Conversations Bot, select the Recordings tab, located within the Conversations product tab. 
+The Recordings tab contains all of the meetings that have been captured for your team. The captured meetings will appear in tiles, like the image below, and will include the meeting title, the length of the meeting from the time that the bot joined until the time that the meeting ended, and additional details about the meeting.
+ 
+To view additional details about the captured meeting, you can click the meeting title to open the Recordings Details page.
+
+If your team uses multiple meeting platforms, you can use the Filter & Sort dropdown menu options from the Conversations toolbar to filter meetings by meeting duration, meeting platform...etc. 
+
+ 
+
+ 
+
+Conversations Troubleshooting
+Experiencing trouble with Conversations? Whether the bot isn’t joining your meetings or your call transcripts are available, check out the Conversations Troubleshooting Guide for assistance with Conversations.
+ 
+Last Modified By
+Raequel Sank, 1/9/2023 3:51 PM
+Title
+Conversations Bot Integrations Overview
+URL Name
+Conversation-Intelligence-Bot-Integrations-Overview
+Conversations
+Salesloft Knowledge
+Conversations Integrations
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,105 @@
+ADMIN GUIDES
+CRM Field Configuration Overview
+
+Apr 28, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Your CRM Field Configuration defines how data exchanges between your CRM and the Salesloft platform. While "field configuration" sounds daunting, it means picking and choosing the Salesloft fields that map to a CRM field (and vice versa). We call this process field mapping. 
+
+Field mapping gives you control over which fields share information between Salesloft and your CRM. By completing your field mapping (and enabling CRM Sync), Lead, Contact, Account, and Opportunity records will update as changes are made in either platform. Boolean field values must match the API values exactly (e.g. if uppercase in Salesforce, must be uppercase in Salesloft) for field mapping to work.
+
+Things to Note: Field configuration applies to the following CRM and field types:
+Salesforce: Lead, Contact, Account, Opportunity, and Activity
+Microsoft Dynamics 365: Lead, Contact, Account, and Activity
+In this article, we will walk through CRM Field Configuration and field mapping, including:
+Things to Know About CRM Field Configuration
+Set CRM Field Level Security
+Mapping Your Team's CRM Field
+Understanding Field Mapping Direction and Data Reconcile
+SLU: Introduction to Field Configuration: Integrating Salesforce with Salesloft (Video)
+Psst, new to Salesloft and want to make mapping easier? Start by Auto-Mapping Standard Salesforce Fields or Auto-Mapping Standard Dynamics Fields!
+Things to Know About CRM Field Configuration
+Before you begin mapping fields left and right, review your CRM account and follow these guidelines:
+CRM Field Types
+Salesloft supports the following types of CRM fields:
+Text fields
+Date fields (on the Lead or Contact level)
+Single picklists
+Checkboxes (use "true" or "false" in all lowercase letters)
+Number fields (for mapping Salesloft metrics only)
+Formula fields (the value displayed in the field is not a static value but determined by a formula)
+Fields Requiring Validation: if a specific value is entered into the controlling field, a separate field must be populated before the update can be saved.
+Permission Sets/Roles/Accessibility
+Make sure all of your team members have access to edit the standard or custom field.
+Fields must be set as "Read & Edit" or "Visible."
+Fields cannot be "Read-Only" or "Admin Only."
+Field Location
+Any customized CRM fields must be located on the object page layout (e.g., Lead, Contact, or Account records).
+Lead Assignment Rules
+Salesloft automatically instructs your CRM to ignore (or bypass) triggering Lead Assignment Rules when we update any field on a lead. However, if a particular team wishes to trigger Lead Assignment Rules when a field is updated, send a request to our Salesloft Support team.
+Set CRM Field Level Security
+Your CRM Field Level Security restricts your user's access to view and edit specific fields. As we mentioned above, your team members must have access to edit fields in order for field mapping to function properly. If any fields are restricted, it's highly likely that you will run into some errors.
+
+Things to Note: For Salesforce users, you can read about more about possible errors and solutions in our Salesforce Troubleshooting Guide .
+
+To prevent these errors from happening, a CRM admin must enable Field Level Security for different field types. There are two options to enable Field Level Security.
+Follow these steps to enable via the Task Fields in Salesforce Classic:
+1. From Salesforce, click Setup in the top right corner.
+
+2. Go to the Administer panel on the left. Search for Task Fields OR scroll to the Build section. Select the arrow to the left of Customize. Select the arrow to the left of Activities and then click Task Fields.
+
+3. On the Task Fields page, find and select the Type field label.
+ 
+4. Click the Set Field-Level Security button located above the Field Information section in the upper right corner of the page layout.
+ 
+5. Check the box next to Visible to enable visibility for all of the roles.
+ 
+Follow these steps to enable Field Level Security via Field Accessibility:
+Navigate to Administer.
+Click the security controls arrow.
+Select Field accessibility.
+Then select which object and either field of profile you would like to set security for.
+Follow these steps to enable via the Task Fields in Dynamics:
+The best way to adjust field security if needed is to go to Field Security Profiles and check permissions for the profiles of Salesloft users.
+
+If field permissions need to be adjusted, check out this article for more instructions. 
+Mapping Your Team's CRM Fields 
+Your CRM Field Configuration allows you to map Salesloft fields to an equivalent CRM field. For a complete walk through of the Salesloft field type mapping, check out the following articles:
+Person Field Configuration
+Account Field Configuration
+Activity Field Configuration
+Opportunity Field Configuration (Salesforce only)
+Understanding Field Mapping Direction and Data Reconcile   
+Person, Account, and Opportunity fields allow you to select the direction that says how the fields will update information. There are three direction options:
+Salesloft ⇋ CRM: This indicates that you want your data to stay in sync between Salesloft and your CRM. Click Show Advanced Configuration to edit the field’s Data Reconcile. For more information on Data Reconcile, see the explanation below.
+Salesloft ← CRM: This indicates that you only want to bring your CRM data into Salesloft. With this option, we will never send Salesloft data back to your CRM.
+Salesloft → CRM: This indicates that you only want to bring Salesloft data into your CRM. With this option, we will never send CRM data back to Salesloft.
+Data Reconcile allows you to control what data will be used when a CRM record and a Salesloft record merge. If the values in the fields are different or one of the fields is null, the data reconcile decides which data will be selected. You can choose one of the following data reconcile options:
+Use recent value unless blank (default): Fields will sync based on whichever system was last updated. For example, if you update a Contact's phone number in your CRM, their phone number will update in Salesloft and vice versa. 
+Use Salesforce value unless blank: If there is data in that CRM field, changes in Salesloft will not update the field.
+Use Salesloft value unless blank: If there is data in that Salesloft field, changes in your CRM will not update the field.
+Things to Note: A data reconcile happens most frequently when:
+A Salesloft record is first linked to a CRM record
+A failed sync job is retried
+If one record has data that the other is missing, or if the records have differing data, Salesloft fills in the missing data or selects the preferred data based on your Advanced Configuration settings. The most recent value is determined by the last updated timestamp for the record in either system. 
+SLU: Introduction to Field Configuration: Integrating Salesforce with Salesloft (Video)
+Want to know about integration Salesforce with Salesloft with field integration, but prefer a video format? Visit Salesloft University to see the Introduction to Field Mapping video tutorial. 
+Last Modified By
+Raequel Sank, 4/28/2023 8:05 PM
+Title
+CRM Field Configuration Overview
+URL Name
+Field-Configuration-Overview
+Salesloft Knowledge
+Admin Guides
+CRM
+CRM Essentials
+Field Configuration
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,83 @@
+CONVERSATIONS
+Conversations Webex Integration User Guide
+
+Oct 6, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft's Conversations Webex Integration connects to Webex via API to provide a secure and stable recording experience. 
+
+Once you’ve authorized the connection between Salesloft and Webex, Conversation Intelligence will import your Webex recordings into Salesloft.
+
+Your recording notifications and controls will all be managed from the Webex user interface.
+
+In this article, you will learn how to setup and use Conversations Webex Integration as a Salesloft user, including: 
+Oauth Webex in Your Personal Settings
+Enable Conversation Intelligence Notifications
+Rules of Recording for the Webex Integration
+During Your Webex Meeting 
+Things to Note: ​​​​​​If you used Conversation Intelligence and Webex with the Bot prior to April 2021, check out the How to Switch from the Conversation Intelligence Bot to the Webex API Integration instructions. 
+Authorize Webex in Your Personal Settings
+In order for your Webex recordings to be brought into Salesloft, you will need to authorize (or oauth) the connection between Webex and Salesloft. 
+
+Once the connection takes place, Salesloft Conversations will capture Webex meetings that have been scheduled on your calendar when recording is enabled in Webex.
+
+To oauth the Webex connection to Salesloft, follow these steps:
+
+1. Navigate to your Personal Settings. 
+
+2. From the Personal Settings options, select Conversations.
+
+3. Scroll to the Webex tile and click Connect. This will direct you to a Webex login page. 
+
+4. Use your Webex credentials to log in to your account. Once logged in, you will be redirected to your Salesloft Profile page. 
+
+5. Once the connection is established, you should see a green checkmark, and Connected as [your email address] in the Webex tile. 
+Enable Conversation Intelligence Notifications
+Conversation Intelligence notifications inform you about meetings and recordings. When used in line with the Webex Integration, these notifications can help confirm that a meeting is set to record and will be brought into Salesloft. 
+
+You can manage notifications from the Conversation Intelligence Settings under your Personal Settings. You will want to enable the My Upcoming Calls notification. 
+
+If you do not receive a notification for a meeting you have scheduled, check your Scheduled Meetings in Conversations. Then, confirm the meeting is set to record within Webex. 
+Rules of Recording for the Webex Integration
+The number one rule for the Conversations Webex Integration is that you MUST record your meeting in Webex in order for the meeting to get pulled into Salesloft. 
+
+Talk with your team administration about recording protocol. They may have set automatic recording for your team. Otherwise, you can enable recording while scheduling your meeting. 
+
+To make sure that your meetings will be recorded and picked up by Conversation Intelligence, follow these rules: 
+When you send a calendar invite, remember to include the Webex link in the location field or in the description field.
+Follow the Conversation Intelligence Meeting Capture Rules.
+As long as your meeting is already scheduled on your connected calendar, enabling recording from the Webex app’s video player controls will also capture the meeting in Conversation Intelligence.   
+Use the Quick Reference Sheet when hosting a Webex meeting for additional meeting management information.
+Pre-Set Automatic Recording: This setting is selected on a per-meeting basis when scheduling the meeting from within Webex. Follow these steps to set up the meeting:
+From your Webex Homepage got to Meetings. 
+Go to Schedule and select the Show advanced options dropdown. 
+In your Scheduling options, check the box for Automatically start recording when the meeting starts. 
+Things to Note: You can’t pause or stop recording with this setting.
+During Your Webex Meeting
+The Conversations Webex Integration includes these features during your meeting: 
+When a meeting is being recorded, all participants in the meeting are able to see on the screen that it is being recorded. 
+Pause and Resume Recordings: When using the Webex app’s video player controls, you can pause or resume recording if you are recording manually.
+Things to Note: 
+If meeting is “scheduled” from Webex and automatic recording is enabled, user can’t pause or stop recording.
+If meeting is saved as a template via being scheduled from Webex and automatic recording is enabled, user can’t pause or stop recording.
+Live Notes during the Meeting: Any notes taken during the meeting will display in the Extra Notes tab
+Things to Note:. The timestamps for notes will not appear next to those notes automatically, unless they are added after the recording has processed.
+ 
+Last Modified By
+Raequel Sank, 10/6/2022 6:58 PM
+Title
+Conversations Webex Integration User Guide
+URL Name
+Conversations-Webex-Integration-User-Guide
+Conversations
+Salesloft Knowledge
+Conversations Integrations
+Conversations Webex Integration
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

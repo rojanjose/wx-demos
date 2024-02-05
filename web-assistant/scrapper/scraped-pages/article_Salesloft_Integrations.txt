@@ -1,0 +1,35 @@
+INTEGRATIONS
+INTEGRATION PARTNERS
+Salesloft Integrations
+
+Jul 29, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft's Integrations expand the capabilities of your sales engagement platform.
+
+Our integration partners cover a range of data categories so you can pinpoint and explore the insights and powerful tools you need the most. And the cherry on top of it all? Integrations provide access to some of your favorite apps meaning you don't have to leave your browser to find the information you seek.
+
+In this article, you will find a comprehensive list of Salesloft Integration partners, the link to their page in our App directory, and a brief explanation of the integration itself. 
+Where is the Owler integration?
+The Salesloft + Owler integration retired on July 31, 2022. While you’ll no longer see Owler Insights throughout Salesloft via our integration, you can still enjoy the intelligence Owler provides directly from Owler .
+Learn More About Integrations
+For more information on all of Salesloft's Integrations, check out our App Directory. 
+Become an Integration Partner
+Want to add a Salesloft integration? Reach out to partners@salesloft.com to receive a developer license.  
+Last Modified By
+Stephanie Griffith, 7/29/2022 1:47 PM
+Title
+Salesloft Integrations
+URL Name
+Salesloft-Integrations
+Salesloft Knowledge
+Integration Partners
+Integrations
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

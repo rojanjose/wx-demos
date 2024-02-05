@@ -1,0 +1,120 @@
+ADMIN GUIDES
+View CRM Sync Logs
+
+Dec 21, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The CRM Sync Log provides full visibility into all CRM sync actions that are completed. This means any time data is shared between your team's CRM and SalesLoft, a record of the sync will be kept in the Sync log. From the log, you can view, manage, and even retry failed sync attempts. 
+
+To access the CRM sync log, go to your Team Settings and click the CRM Sync Settings under the Data category. Inside the CRM Sync Settings, select the Sync tab. On the CRM Sync page, click the View CRM Sync Logs link found towards the top of the page. 
+
+In this article, you will learn about what's included in the CRM sync log and what actions you can take from the page, including: 
+CRM Log Status Filter
+CRM Log Date Filter
+CRM Log Error Theme Filter
+Retry CRM Logs in Bulk
+Retry One CRM Log
+CRM API Usage Count
+CRM Log Table
+CRM Log Status Filter
+The Status filter in your CRM Logs allows you to decide which CRM sync logs will display in the table based on whether or not the log successfully synced. 
+
+You can select one of the following filter options: 
+All: Shows all sync longs that have been attempted. 
+Failed: Only shows the logs that have failed to sync. This is best used if you want to correct a syncing error and retry your sync. 
+Success: Only shows successful sync logs. This is best if you would like to explore how many successful logs have occurred. 
+ 
+CRM Log Date Filter
+The CRM Log Date filter lets you view the CRM logs by the date the log was attempted. This is particularly helpful if any error occurred on a certain date and you would only like to see those records or you want to see the number of logs that took place during a period of time.
+
+The Date filter includes the following options: 
+Today
+Last 2 Days
+Last 7 Days
+Last 14 Days
+Last 30 Days
+Last 60 Days
+Last 90 Days
+Custom Date Range: Enter the Start and End dates for the range you would like to see.
+When you select a date range, hit Apply to set the filter. 
+
+
+CRM Log Error Theme Filter
+The Error Theme filter categorizes sync errors into various error themes. This way, you can select a theme and view any errors that fit the error classification. When you filter by an error theme, you gain visibility into how big or small an issue is. You can also gain further understanding into the reason an error is happening across a series of logs.
+
+For example, if you filter the errors by the theme Invalid Picklist Values, the theme would comprise of errors such as "Invalid field for inserting into db", "invalid custom validation", "field custom validation error". 
+ 
+  
+Retry CRM Logs in Bulk
+The filters listed above can help you quickly identify potential errors that could negatively impact your sync longs. If you notice errors occur for a collection (or large amount) of logs, you can use the error messages to help resolve the issue. 
+
+After the error is fixed, you can retry the sync attempt for any impacted records. This way, your data will sync successfully.
+
+To retry sync from the CRM logs page, follow these steps: 
+ 
+Go to your CRM Sync Logs and filter the table by the Failed status. You can also add a specific error theme filter you you want to view a certain type of error. 
+
+2. Once the filter is in place, go to the table and hover over the Error column to see the complete error message. 
+Best Practice Tip: When you hover over the message, you have the option to Copy Error. Select copy error and paste the error message into a search engine. The CRM or other sources may have instructions on how to correct the error. 
+ 
+
+3. Correct the error. Usually, this will require some work inside of your CRM. 
+
+4. In your CRM Sync Log, check the boxes for each line item you would like to retry. You can also select a whole page's worth of logs. When you select a check box, the Retry Sync button will appear at the top of the list. 
+Things to Note: The maximum number of items on a page is 50. If you have a list of errors that is greater than 50 items, you will need to perform the retry for each page. 
+ 
+
+5. Click Retry Sync. A pop-up will show you the number of items being retried and other relevant details. Clicking on Cancel or X closes the window without the retry being executed. You can click View retry tips to learn more in Troubleshooting Guide article. 
+
+
+
+6. Click Retry. When the retry is successful, a blue notification displaying the number of items being retried will appear. 
+
+If none of the items fit the retry criteria, a Red notification will appear with the reason for the failure.
+ 
+Retry One CRM Log
+Using filtering, there may be instances where an error occurs one time. If this occurs, you can retry a single CRM log, rather than selecting from the listview. 
+
+To retry a sync attempt for an individual log, follow these steps: 
+
+1. Go to your CRM Sync Logs and filter the table by the Failed Status. You can also add a specific error theme filter you you want to view a certain type of error. 
+
+2. Once the filter is in place, go to the table and hover over the Error column to see the complete error message. 
+
+3. Correct the error. Usually this will require some work inside of your CRM. 
+
+4. After the changes have been made in your CRM, click Retry in the CRM Sync Log table. The Retry button is under the Status column, next to the Failed status. 
+ 
+CRM API Usage Count
+The API Usage number shows the total API calls made from all of your integrations (not just Salesloft) and the total API calls allowed by your CRM.
+
+To learn more about API Limits, check out the Salesloft API Limits article. 
+CRM Log Table
+The CRM Sync Log shows a table that contains the following information: 
+ID: Log ID number
+Timestamp
+Source
+Type
+Status of each sync action
+Error Theme
+Error
+Object ID: Include filter options
+Object Details
+ 
+Last Modified By
+Briana Morgan, 12/21/2022 2:56 PM
+Title
+View CRM Sync Logs
+URL Name
+View-CRM-Sync-Logs
+Salesloft Knowledge
+Admin Guides
+Data Settings
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

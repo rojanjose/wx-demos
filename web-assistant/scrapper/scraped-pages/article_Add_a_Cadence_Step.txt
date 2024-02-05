@@ -1,0 +1,49 @@
+CADENCES + TASKS
+Add a Cadence Step
+
+May 1, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+When you create a Cadence, you define the settings for that particular Cadence. These settings are the Cadence’s foundation. They determine how your Cadence will be identified and what will occur whenever an action is made.
+
+However, the Cadence you’ve created is an empty shell. Cadence Steps need to be added in order to complete your new Cadence. 
+
+As soon as you hit Save Settings in a new Cadence, you will be directed to the Cadence Overview page. The space will have two available options: 
+Start from Scratch: Allows you to add steps on your own. This is best for creating your own specific Cadences. 
+Start with Cadence Frameworks: Allows you to select a Cadence Framework. 
+ 
+
+If you start from scratch, you will choose the type of step you want to add to your Cadence. Click the appropriate link below to learn more about each kind of step type you can add to your Cadences.
+Add an Email Step
+Add a Phone Step
+Add an Other Step
+Add an Integration Step
+Each time you create a new step you have the option to click Add & Create Another to continue adding steps to your Cadence or Add Step to add the step and close the add step window.
+
+All of your steps will appear in the Cadence Overview tab. 
+
+If you look over your Cadence steps and realize you would like to add more steps, there are multiple places on the Cadence Overview tab where you can add another step to the Cadence.
+Cadence Actions dropdown menu: In the upper right corner of the Cadence Overview page, you will find the Cadence Actions dropdown. The first option in the menu is the Add Step button. 
+ 
+Add Step Button between each Day: Add Step buttons are in between each Cadence Day listed on the Overview page. This button is especially useful if you are reviewing your Cadence and think more steps should be added after your last action. 
+
+Clicking Add Step will open the Create Step module where you can add specific steps types.
+ 
+ 
+Last Modified By
+Stephanie Griffith, 5/1/2023 7:54 PM
+Title
+Add a Cadence Step
+URL Name
+Add-a-Cadence-Step
+Cadences + Tasks
+Salesloft Knowledge
+Create A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

@@ -1,0 +1,78 @@
+DEALS
+Deals Admin Settings
+
+Jul 20, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Deals Admin Settings are where team admins can manage Deals for their entire team. Here, admins can determine Salesforce field defaults that must be adhered to, fields that are required when creating new records, and more. 
+
+Salesloft team admins can access the Deals Admin Settings within the Deals product tab. 
+
+Things to Note: The Admin tab is only visible to users with the default Admin role.
+
+In this article, we will give a quick overview of what is included in the Deals Admin Settings, including:
+Sync Requirements Before Your Team Can Use Deals
+Screen Settings
+Integrations
+General Settings
+Profile
+SLU: Salesloft Deals: Admin Overview and Configuration (Video)
+ 
+Sync Requirements Before Your Team Can Use Deals
+The following sync permissions must be enabled in your team's Salesforce instance before you can leverage Deals: 
+Read the following objects Opportunity, OpportunityHistory, OpportunityContactRole, Account, Contact, OpportunitySplit, User, Event, Task (all of these are not required, but would result in degraded experiences without them)
+Read the fields on the above objects (only fields that they want Deals to have access to)
+Read the following objects RecordType, Organization, CurrencyType, DatedConversionRate
+Screen Settings
+The Screen Settings determine what fields are visible to users and what fields are required when new records are created. 
+
+The Screen Settings include the following pages: 
+Call Screen: Select the Salesforce fields to be displayed in the right-hand sidebar of the Call Screen. The pre-populated fields shown are the most common ones and can be reordered or deleted as needed. You can add other fields using the search box provided.
+Call Note Settings: Enable you to choose default CRM mappings when there are no active playbooks.
+CRM Object Creation: Select which fields are displayed when creating new Salesforce objects. This includes required fields necessary to create some objects.
+Closed Lost Reason: Closed lost reason fields will be presented to the user anytime they transition an Opportunity to a closed lost stage. If no closed lost reason fields are provided, then no additional action will be required by the user.
+Opportunities: New Business Engagement Score - Score new business opportunities based on engagement activity between reps and stakeholders.
+Deal Summary
+Goal Management:  Set goals for your reps to measure against in the Deals Summary.
+Summary Screen
+Activity Logging: Select the Salesforce Activity fields to be displayed in the Call Summary section of the post-call summary screen below the Call Summary text box. These fields are optional and are typically used for capturing standardized information about the call for reporting purposes.
+Opportunity Creation: Select the list of Salesforce Opportunity fields that should be displayed while creating or converting to an Opportunity. Be sure to include any required fields that don't have defaults or workflow rules.
+Deal Status: Select the Salesforce Opportunity fields to be displayed in the Deal Status section of the post-call summary screen. 
+Stakeholders: Select the Salesforce Contact fields to be displayed when adding a new stakeholder.
+To learn more about the Screen Settings, check out the Deals Screen Settings article. 
+ 
+Integrations ​​​​​​​
+The Integrations page shows any integrations you may link to Deals. 
+General Settings
+The General Settings in Deals contain the following pages: 
+Salesforce Sync
+Deals Forecast
+Profile
+The Profile page in the Deals Admin Settings shows your profile information. 
+
+Things to Note: This page is only visible to admins. 
+
+The Profile page contains the following: 
+Name: Your first and last name according to your Account info. 
+Email: The email address associated with your Salesloft login.
+Created Date: The date you gained access to Deals. 
+Connected Salesforce Account: The Salesforce Account ID that is connected to your Deals login. 
+SLU: Salesloft Deals: Admin Overview and Configuration (Video)
+Want to know about Deals admin Settings, but prefer a video format? Visit Salesloft University to see the Salesloft Deals: Admin Overview and Configuration video tutorial. 
+Last Modified By
+Briana Morgan, 7/20/2023 5:33 PM
+Title
+Deals Admin Settings
+URL Name
+Deals-Admin-Settings
+Deals
+Salesloft Knowledge
+Deals Admins
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

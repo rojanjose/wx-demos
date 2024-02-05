@@ -1,0 +1,110 @@
+CADENCES + TASKS
+Complete Team Cadences Guide
+
+Jul 6, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Managers and admins know the importance of creating controlled, “best practice” content, messaging, and processes for their team. In Salesloft, admins can create and deploy Team Cadences to control and disperse an entire multi-step communication process to all Salesloft users through central Cadences.
+
+Team Cadences allow leaders to control and qualify sales messaging, quickly align with marketing initiatives, and seamlessly initiate team-wide campaigns. Releasing the same content within a codified sales process also simplifies the onboarding of new reps and reduces the stress for new reps to create their own messaging.
+
+In addition, if any changes are made to the Cadence as a result of new initiatives or performance enhancements, the updates will be released to all users that work with that Cadence.
+
+In this article, we will go over the ins and outs of Team Cadences, including:
+Who Can Create Team Cadences?
+Create a Team Cadence
+Convert a Personal Cadence to a Team Cadence
+Assign People in a Team Cadence
+What If I Want to Assign People to Different Users on My Team?
+Reassign Remaining Steps
+Team Cadence User Interface
+Team Cadence Stats
+Who Can Create a Team Cadence?
+Team Cadences can only be created by team admins or users with specific Team Cadence permissions.
+
+Team Cadences have the concept of ownership, which means they can be owned and used by any member of the team. Only admins with the permissions can actually edit or manage Team Cadences.
+
+The concept of ownership is separate from Team Cadence accessibility. Accessibility is determined by Group visibility settings.
+Create a Team Cadence
+Adding a Team Cadence follows a process similar to Creating a personal Cadence.
+
+Before you begin adding Team Cadences, we encourage you to align with marketing and set key initiatives for your entire sales team. This may take more time, but it will give you a clear idea of how to design your Cadence.
+
+Once your process is planned out, follow these steps to create a Team Cadence:
+Navigate to the Cadences page. 
+Select Add Cadence.
+On the Cadence Settings page, fill in the name and Cadence settings out just like you would when creating a Personal Cadence.
+Under Sharing Settings, click the Cadence Type drop-down and switch the type from Personal Cadence to Team Cadence.
+Assign your stages (recommended, but not required).
+Hit Save Cadence.
+Your Team Cadence has now been created! From the Cadence overview, you can now add steps to finish building the Cadence.
+ 
+Convert a Personal Cadence to a Team Cadence
+Have a Cadence that you previously created that you would like to provide to your entire team? You can convert a Personal Cadence into a Team Cadence from the individual Cadence Settings.
+
+To change an existing Cadence from a Personal to a Team Cadence, follow the instructions below:
+Select the Cadence you would like to convert to a Team Cadence.
+From the Cadence Overview page, click the Settings tab.
+In your Cadence Settings, scroll to Sharing Settings and select Cadence Type from the drop-down. Choose either Personal or Team. This can be done during Cadence creation or changed on an existing Cadence.
+ 
+Assign People in a Team Cadence
+With multiple users accessing the same Cadence within Team Cadences, how do you know which user is accountable for a Person or list of People within the Cadence?
+
+Users can have People assigned to them within Team Cadences. The "assigned to" user is the rep accountable for running the email, call, or other steps associated to those People in the Cadence. In other words, whatever Cadence step is due gets assigned to that rep. 
+
+Things to Note:
+By default, the "assigned to" user is the user who imports the People into Salesloft or adds People to the Cadence. Admins can change the assigned to user.  
+The "assigned to" user does not change the Salesloft owner. 
+Here’s an example:
+
+Johanna is a team admin, and she wants her recent hire, Nathan, to send him ten Leads to prospect. Johanna can import the list to Salesloft, add those Leads to a Team Cadence, and then assign them to Nathan. The People will be owned in Salesloft by Johanna, but the People will appear in Nathan’s Cadence To-Do list and he is accountable for running the email, call, or other steps associated to those People in the Cadence.
+What If I Want to Assign People to Different Users on My Team?
+Follow the instructions below to distribute an import to different team members:
+Complete your import from Salesforce or a CSV.
+Go to the People tab.
+Filter & Sort your People list by Import. Select your most recent import.
+Select specific People by checking the boxes to the left of their names. The Cadence Actions will appear above; click Add to Cadence (Rocket ship icon).
+From the Add People to Cadence menu, select Team Cadences.
+At the bottom of the Add People to Cadence box, be sure Assign to is checked. In the drop-down, select the user you want to assign the People to.
+Click Add to Cadence.
+Repeat steps 4-7 for any team member you would like to assign People to. 
+Reassign Remaining Steps 
+Team Cadences allow you to reassign People to different users. 
+
+Why would you want to reassign Team Cadence steps or People? Maybe a rep is no longer with your company. Maybe someone's workload is too much to manage. 
+
+Whatever the reason, reassigning and filtering can be used together to easily search for all the steps a user has assigned to them and reassign those steps to another team member. 
+
+To reassign Cadence steps for a Person in a Team Cadence by the Assigned to filter option, follow these steps:
+Navigate to either the In Progress filter or a particular step on the People tab inside a Team Cadence.
+Use the Filter & Sort drop-down, and filter by the appropriate "Assigned to" option.
+Select People that need to be reassigned using the checkboxes on the left side. When you select People, menu options will appear above the listview. 
+Click the Rocket ship ( when you hover over the icon, is reads Cadence Actions) icon found above the list. The Reassign Remaining Steps pop up will appear. 
+From the Reassign Remaining Steps pop up, select a user from the drop-down. You can scroll through the list, or type, to find the name of the Salesloft user you'd like to reassign the remaining steps to.
+Click Reassign Steps. All of the remaining steps in the Cadence will be reassigned to the Salesloft user you have selected, for all People selected.
+Team Cadence User Interface
+Team Cadences will appear like Personal Cadences in most ways. You can easily determine whether or not you are viewing a Team Cadence by the orange Team Cadence label, next to the Cadence name.
+
+Depending on how your team’s permissions are set, users will see various parts of the Team Cadence. Admins with Manage Team Cadence permissions can see all tabs (Overview, People, Calls, Emails, Settings).
+ 
+Team Cadence Stats
+The stats or metrics for a Team Cadence include all Cadence stats for the entire team, not the stats of individual reps using that Cadence. However, People Due will reflect only steps assigned to that particular rep viewing and running the Cadence.
+ 
+Last Modified By
+Raequel Sank, 7/6/2023 3:31 PM
+Title
+Complete Team Cadences Guide
+URL Name
+Complete-Team-Cadences-Guide
+Salesloft Knowledge
+Cadences + Tasks
+Create A Cadence
+Manage A Cadence
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

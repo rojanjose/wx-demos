@@ -1,0 +1,276 @@
+ADMIN GUIDES
+ADMIN ESSENTIALS
+Domain Changes & Salesloft
+
+Aug 16, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+If your company is going through an acquisitions, mergers, or rebranding, they may also be looking at changing the company domain. Changing the domain of your company can be a daunting task since you have to make sure it's changed everywhere, including in your Salesloft instance. 
+
+To ease your worries a little bit and help make the domain change a little easier, we have prepared this guide with the steps that should be taken if/when your company changed domains. The list will walk you through Salesloft personal settings, email, Salesforce integration, etc.
+
+In this article, you'll find the following
+Domain Change Checklist for Admin
+Domain Change Checklist for Users
+ 
+Domain Change Checklist for Admins
+As a Salesloft Admin, it's up to you to manage team settings. If a domain change is in progress there are multiple aspects of Salesloft that will need to be edited. You will be taking action in the following focus areas: 
+General: Team and payment info
+Email Domain & Website
+Salesforce
+Content
+Calendars and Meetings
+All of these steps should be initiated at least one to two weeks prior to your go-live date. That way you can test and verify every thing is running smoothly before the new domain is launched. 
+
+Things to Note: Suggested best practices are denoted by an asterisk (*). We strongly recommend these steps, but they are not technically required for your users to continue using. 
+
+ General
+
+
+ 	
+
+Share User instructions
+
+	
+
+Several actions are required by your end-users. Please be sure to share the checklist ahead of time and emphasize the importance of these steps.
+
+
+ 	
+
+Update Payment Notifications
+
+	
+
+Ensure emails for Payment Receipts and Low Credit Notifications are updated with relevant email addresses.
+
+
+
+
+ Email Domain & Website
+
+
+ 	
+
+Update Custom Tracking Domain *
+
+	
+
+Choose a custom tracking domain consistent with your new domain. 
+
+Things to Note: Emails on your old tracking domain will lose click tracking.
+
+
+ 	
+
+Update Whitelisted IP’s
+
+	
+
+For users connecting with Microsoft Exchange EWS, SMTP/IMAP, or Salesloft Mail.
+
+
+ 	
+
+“Warm” new email domain*
+
+	
+
+Ensure your new domain develops a strong reputation.
+
+
+ 	
+
+Review Email Deliverability Checklist
+
+	
+
+Share with your IT team as applicable to review.
+
+
+ 	Update Live Website Tracking	If you’re creating a totally new website under the new domain, you want to make sure the Live Website Tracking code is still in your website headers. Then you’ll also want to add the new domain to the tracked domain list.
+
+
+Salesforce
+
+Only applicable if you are implementing a new Salesforce domain. If you are moving to a completely new Salesforce instance, reach out to your Customer Success team ASAP. If there is no new domain or no new instance, no action is required.
+
+
+ 	
+
+Update CRM URLs
+
+	
+
+Please reach out to Customer Success to initiate this request.
+
+
+ 	
+
+Update Main Connector User
+
+	
+
+Toggle CRM Sync off, disconnect and re-authenticate under Personal CRM Settings, then toggle CRM Sync back on.
+
+
+
+
+Content
+
+
+ 	
+
+Update Content
+
+	
+
+Review Templates, Snippets, and Cadences for usage of your old company name/domain, or links using your old domain.
+
+
+ 	
+
+Notify Customers*
+
+	
+
+Create Team Templates and Snippet for reps to notify customers of the change.
+
+
+ 	
+
+Email Signatures
+
+	
+
+Provide reps with new signatures for updated branding, etc.
+
+
+
+
+Calendars & Meetings
+
+
+ 	
+
+Update Team Name*
+
+	
+
+If desired, update your team name under your Salesloft General Settings, which is used in user’s Salesloft meeting links. Can be done day-of.
+
+
+ 	
+
+Manage Meeting Types
+
+	
+
+Review descriptions for Meeting Types to ensure new name/domain is reflected.
+
+
+ 	
+
+Manage Meeting Branding
+
+	
+
+Review logo and Team Name under Meeting Branding to ensure they are consistent with new branding.
+
+
+ 	
+
+Manage the Conversation Intelligence Bot
+
+	
+
+Only applicable if using Salesloft’s Conversation module.
+
+Ensure Do Not Record Domains and Alternate Emails are configured under Bot Settings. Add new domain name to X-Ray terms, if desired.
+
+ 
+Domain Change Checklist for Users
+Since your company is updating their domain, you want to be sure that all of your Salesloft information matches the change. Imagine the confusion a potential buyer might have if there are multiple different names for your own company in your emails. Let's just say, it's better if you don't have to experience that. 
+
+Once you receive these instructions from your team admin (or whenever your team admin gives you the ok), follow the steps below to keep all of your Salesloft personal settings and content up to your professional standard. 
+
+Make sure to take these steps the day your new domain goes live!
+
+Personal Settings
+
+
+ 	
+
+Update your Salesloft login
+
+	
+
+Update your Salesloft username to match your new email address by clicking ‘Update your Account Info’ on this page.
+
+
+ 	
+
+Update Your Email Signature
+
+	
+
+Ensure your new email address, company website, and any new branding are reflected, as applicable. Update here and make sure to click Save at the bottom of the page!
+
+
+ 	
+
+Re-authenticate email connection
+
+	
+
+Ensure emails are being sent from your new email address. Authenticate here.
+
+
+ 	
+
+Update Calendar
+
+	
+
+After re-authenticating your email address, reconnect your Calendar here. Make sure your meeting name, location, and description are up to date with new information.
+
+
+ 	
+
+Re-authenticate CRM connection
+
+	
+
+Only applicable if implementing a new CRM domain. Authenticate here.
+
+
+
+
+Personal Content
+
+
+ 	
+
+Update Content
+
+	
+
+Review and update any personal Templates, Snippets, and Cadences that reference to your old company name/domain.
+
+Last Modified By
+Briana Morgan, 8/16/2022 3:27 PM
+Title
+Domain Changes & Salesloft
+URL Name
+Domain-Changes-Salesloft
+Salesloft Knowledge
+Admin Essentials
+Admin Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

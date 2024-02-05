@@ -1,0 +1,65 @@
+INTEGRATIONS
+INTEGRATION PARTNERS
+Voice Links: Calling Using Third-Party Dialers
+
+Jun 2, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Salesloft offers a robust Dialer that places calls directly through your computer. However, if your team has an existing telephony system in place and you would like to continue using that as your own dialer, Salesloft allows you to integrate Third-Party Dialer via Voice Links. 
+
+In this article, you will learn about Salesloft Voice Links, including:
+What Is a Voice Link?
+Set Up Third-Party Dialers via Voice Links
+Make a Call with Voice Links
+Log a Call with a Third-Party Dialer
+What Is a Voice Link?
+Voice Links connect Salesloft to alternative, Third-Party Dialers via tel:links. A "tel:" is for phone numbers what mailto: is to email.
+
+A browser will use tel:+############## to use the device's default method for making phone calls initiate a phone call to that number. This default method can be set per device or by policy.
+
+Once Voice Links are all setup on the internal development side, there are two primary pieces of using Voice Links for a user: Making a Call and Logging a Call.
+Set Up Third-Party Dialers via Voice Links
+Voice Links need to be set up by an administrator and/or your IT team. The IT team or the device administrator, will need to change the setting from the default program, to the specified Third-Party Dialer. The Third-Party Dialer must be able to open a tel: link.
+
+To learn more about setting up Voice Links, check out out Developer Portal's Third-Party Dialers.
+
+Once Voice Links are set up, work with your Customer Success Manager to activate the feature in your Salesloft instance. After this change is made, the standard Dialer team setup page will be replaced with a 3rd Party Dialer Settings page. Here you will select the following:
+My 3rd Party Dialer Uses: This will designate the protocol being used to initiate the Third-Party Dialer, for example "Tel Links."
+Log Calls with the Salesloft Logger: Select this option if you would like to log calls via the Salesloft log box. If you wish the log calls from your Third-Party Dialer, deselect the option.
+ 
+Make a Call with Voice Links
+When Voice Links and the Third-Party Dialer settings are enabled, anywhere the user would open the Salesloft Dialer will instead open a small box with the number to be called. 
+
+Things to Note: If a team is set to use a Third-Party Dialer, all Salesloft Dialer features will be unavailable.
+
+Users will be able to hit Call to execute the call using Third-Party Dialer. Salesloft will pass along the e.164 formatted phone number to the Third-Party Dialer along with the person ID and action ID, if applicable.
+
+When calls are made using a Third-Party Dialer, the call is not actually being made by Salesloft. It takes place entirely outside of Salesloft. Due to this, Salesloft has no control over call quality or the ability to change functionality. If you run into any issues with call quality or functionality, please reach out to your dialer provider. 
+Log a Call with a Third-Party Dialer
+Users will have 2 options for logging calls when using a Third-Party Dialer: 
+Log the Call in Salesloft
+For teams that have selected the Log Calls with the Salesloft Logger option in the Third-Party Dialer settings, placing a call will direct them to a third-party, but the ability to log, including sentiments, dispositions, and custom fields, will remain in the Salesloft platform. When you Log a Call in Salesloft, it records the call information in Salesloft and your connected CRM. 
+Choose to log using the Third-Party Dialer
+If a user selects this option they should be aware of the following details:
+Salesloft will not provide any way for the user to enter information about the call.
+Salesloft will provide the ability to manually proceed to the next step if on a Cadence, but no activity will be logged.
+3rd party dialers who wish to integrate with Salesloft can build an integration using our public API. If the third party builds an integration they can create a call activity, pass us back information about the call, and complete steps in a Cadence.
+It is the responsibility of the third party to get us this information if they are selected for logging. See https://developer.salesloft.com/api.html#!/Topic/ReadingCalls and https://developer.salesloft.com/api.html#!/Calls/get_v2_activities_calls_json for more information on logging calls to Salesloft through our API.
+ 
+Last Modified By
+Raequel Sank, 6/2/2022 3:25 PM
+Title
+Voice Links: Calling Using Third-Party Dialers
+URL Name
+Voice-Links-Calling-Using-Third-Party-Dialers
+Salesloft Knowledge
+Integration Partners
+Integrations
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

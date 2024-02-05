@@ -1,0 +1,85 @@
+EMAIL
+Templates Page
+
+Apr 12, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Templates are previously prepared email messages that are readily available for you to use. By creating a template you can easily send the same email messages to a multitude of prospects. Each template also gathers metrics, like the number of sends, clicks, and replies, that can shed insight into how your email messaging engages with prospective customers.
+
+Whether you leverage your own templates or team templates, Salesloft gives you the power to build emails and tailor messages to each recipient for empathetic and effective sales communication.
+
+The Templates page allows you to view and create email templates in one concise page. You can also export key template metrics and complete template actions in a snap. 
+
+Once your templates are created, find out where you can add templates in Salesloft in our Using a Template article. 
+
+In this article, you will learn all about the Templates page and the template actions you can complete, including:
+Templates Page Layout
+Templates List
+Templates Page Actions
+Templates Page Layout
+The Templates Page offers a variety of tools to manage your templates. 
+
+The Templates Page layout contains the following features: 
+Personal and Team Templates: You have two view options when you access the templates page:
+Personal Templates: Personal Templates show the templates you have created or copied for your own use. 
+Team Templates: Team Templates will show a list of all templates that have been created by your team admin.
+Template Tag Filter Panel: The Tag Filter panel located to the left of your template list shows a list of all the tags that have been used on your templates, along with the number of templates that contain that tag.  
+By clicking on a particular template tag, your template view will be filtered down to only the templates containing that tag.
+To clear the filter you can either select the name of the tag from the Tag Filter panel or you can remove the filter by selecting Clear in the filter notification at the top of your template list. 
+Search Templates:  Search templates in order to locate a certain template. You can search using a key word or phrase contained in the name or message of the template. 
+To search templates, type the key word in the search bar located in the upper right corner of the Templates page. Click the enter key on your keyboard to perform the search. The results will populate, or you will see an empty state that prompts you to create a new template. 
+Things to Note: Personal templates and team template have two separate searches. You must be on the correct template type page in order to search templates.
+Export: Select this button to create a CSV file with your template data.
+Create Template: Add a new template. New templates will be added to the list and can be used inside emails. 
+Filter and Sort Templates: Find the template you're looking for without having to scroll by using the filter & sort feature to refine your template list to a particular group and in a specific order.
+Template List: The list of templates created. 
+Templates List
+Whether you are viewing the personal or team templates tab, the Templates page will show a list of available templates. 
+
+
+
+Each view will show a list of the following template information:
+Template Name: Name of the template that is determined when you create the template. Click the template name to edit the template. When you edit a template, you can change the name and/or the content. 
+Subject Line: Your email subject line will show up in the recipient’s inbox. 
+Template Tags: Any tags that have been added will be listed
+Groups (Team Templates Only) When a template is assigned to a certain Group , it is visible to the group members. This is a great way to share content with specific groups rather than the entire team. Team admins can set group content visibility to determine if teams will only see their Group's content by default. 
+If the Team Template is assigned to multiple groups, you will see the number of groups listed. Click the number to view a dropdown list of the group names. 
+Click a Group name to filter the template list by Team Templates that have been assigned to that group. 
+Last Modified: Owner and Last Modified information
+Stats: Metrics associated with the use of this template. 
+Total Sent: Total number the template has been sent to
+Open Rate: Percentage of the amount of time that template has been opened when it was sent
+Click Rate: Percentage of clicks
+Reply Rate: Percentage of replies to the sent email template
+Templates Page Actions
+If you select multiple or individual templates within the Template List view, even more template action items appear at the top of your template list. 
+
+
+
+The Template Page Actions include the following options: 
+Check box: The box found before the template name. Select this box to view template actions. You can select one or multiple templates. If you select the box at the top of the listview, all of the templates seen on that page will be selected. 
+Tags: Tags are like labels or folders you can use to designate Salesloft records. 
+Shared (Personal Templates only) Determine whether a template can be shared with other users or locked for private use. 
+Archive: Remove a template but retain the data. Archived templates may be recovered if necessary.
+Copy: Duplicate a template. 
+Convert (Personal Templates only)
+Delete: Remove the template from Salesloft. 
+Assign Groups (Team Templates only - not pictured)
+ 
+Last Modified By
+Stephanie Griffith, 4/12/2023 8:25 PM
+Title
+Templates Page
+URL Name
+Templates-Page
+Email
+Salesloft Knowledge
+Email Guides
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

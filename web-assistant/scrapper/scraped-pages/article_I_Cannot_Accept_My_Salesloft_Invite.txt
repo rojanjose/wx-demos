@@ -1,0 +1,30 @@
+GETTING STARTED
+I Cannot Accept My Salesloft Invite
+
+Mar 23, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+New Salesloft teams send invites to each user so they gain access to the platform. When an invite is sent, the user receives an email to accept their Salesloft invitation. Each user will open the email, click Set Up Your Account, and then follow the prompts to create their Salesloft account and complete the login process.
+
+There are events that could result in an error message when you click Set Up Your Account. If you click the link to join and receive an error message, try the following methods to finish accepting your Salesloft invite: 
+Go directly to the Salesloft Sign In Page attempt to login using your company email address. Click Sign In. If you are able to proceed, your credentials have already been registered and there is no need to accept the invite again. Proceed through the sign in process by following the Single Sign On options or entering your password. 
+Have not set a password: If you enter an email address, land on the password page, but you don't remember setting a password (or can't remember your password), click Forgot Password. You can reset the password. Then, sign into that platform using your email and newly created password.
+Ask your team admin to cancel your invite and attempt the send the invite again.
+If you are still unable to accept your invite, Contact Support.  
+Last Modified By
+Stephanie Griffith, 3/23/2023 3:08 PM
+Title
+I Cannot Accept My Salesloft Invite
+URL Name
+I-Cannot-Accept-My-Salesloft-Invite
+Salesloft Knowledge
+Getting Started FAQ + Troubleshooting
+Getting Started
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

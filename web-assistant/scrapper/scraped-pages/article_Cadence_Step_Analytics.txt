@@ -1,0 +1,91 @@
+ANALYTICS + REPORTING
+Cadence Step Analytics
+
+Jun 3, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+Cadence Step Analytics pull the data from an individual Cadence to show you the performance of the steps within Cadence. 
+
+Knowing this information helps you to identify which steps lead to success versus the steps that are less effective.
+
+The Step Analytics will help answer the following questions in relation to Cadence performance:
+Am I (or is my team) getting the most out of my (their) Cadences?
+How does this Cadence compare to my other Cadences or best practices?
+What is driving the change in this Cadence’s results?
+Which step can we attribute a successful outcome to?
+How many steps, generally, does it take to get to an outcome?
+Which step type is generating the most outcomes?
+How does this Cadence compare to others at generating outcomes?
+Is this Cadence more efficient (less effort) than others at generating outcomes?
+Which step or part of my Cadence is having the most impact?
+Which email step gets the most replies?
+Which step is being skipped the most? Should we delete that step from our process?
+Where are my successes occurring?
+At which step are People most likely to leave the Cadence?
+To access the Cadence Step Analytics, go to your Cadences Standard Report. The names of the Cadences in the report will appear as clickable links. Select a Cadence to view the Cadence Step Analytics. You can also access the Cadence Analytics from the Cadence Overview.  
+
+In this article, you will learn about the Cadence Step Analytics Dashboard, including: 
+Cadence Step Analytics Filters
+Cadence Step Summary Metrics
+Cadence Step Analytics Charts
+Cadence Step Analytics Table
+Cadence Step Analytics Filters
+Your Cadence Step Analytics show you the metrics on whichever Cadence you select from the Cadences report. 
+
+However, the data that you see in the chart can be altered based on filters. You can edit the step analytics filters from the top of the Cadence Step Analytics Dashboard.
+
+When your Cadences report already had filters in place, those same filter will apply to the Cadence Step Analytics Dashboard when you arrive on the page. 
+
+If you would like to see a different range of filters or compare metrics, you can edit the filters on the dashboard. The Cadence Step Analytics Dashboard offers the following filters: 
+Filter by Time Range
+Filter by Salesloft User
+Things to Note: The Users in Specific Groups filter will still be visible in personal Cadences even though personal Cadences will only show Cadences owned by you. Selecting Users in Specific Groups will not change the value of any insights, since you are included in the group.
+ 
+Cadence Step Summary Metrics
+The summary metrics at the top of the page offer a quick glimpse into how the Cadence is performing.
+
+Things to Note: These metrics are also available as columns in the cadences report.
+
+To the right of the % On-Time Steps and Success Rate you will see a smaller number. This is a comparison metric which offers a sense of how this Cadence is doing compared to other Cadences. The comparison metrics reflect the average for all Cadences with the same function. For instance, if this selected cadence is an outbound Cadence it will show the avg. % On-Time Steps and % Success for all outbound Cadences. 
+
+The summary metrics include: 
+Completed Steps
+Steps per Opportunity - The number of completed steps it took to create an opportunity in the specified date range.
+Steps per Meeting Booked - The number of completed steps it took to book a meeting in the specified date range.  
+Cadence Outcome Benchmarks - Steps per Opportunity and per Meeting have a corresponding benchmark found to the lower right. The benchmark displayed, found on the lower right,  is the average of cadences with the similar cadence function, i.e. outbound, inbound, event or other.
+On-time Steps - The number of steps that have been finished on or before the due date.
+On-time Average - Average percentage of steps completed on time.
+Success Rate: Percent of all People in the Cadence with at least one activity that has been marked a success.
+Success Rate Average
+ 
+Cadence Step Analytics Charts
+The Cadence Step Analytics Dashboard includes two charts that provide a visual representation of your Cadence Steps and their impact. 
+
+To learn more about each chart, click the link below: 
+Cadence Performance Chart
+People Removed from a Cadence Chart
+Cadence Step Analytics Table
+At the bottom of the Step Analytics Dashboard you will see a table full of your steps details. This table provides all of the data found in each drop down of the Cadence Performance chart.
+
+The first column will show all of the Cadence steps. If any steps in the Cadence include variants, the variants will have their own rows so you can see how that step is performing. 
+
+This table can be exported. Click Export Report in the upper right corner of the table to start your export. When you confirm the export, a CSV file will be emailed to your Salesloft email address. 
+ 
+ 
+Last Modified By
+Briana Morgan, 6/3/2022 7:28 PM
+Title
+Cadence Step Analytics
+URL Name
+Cadence-Step-Analytics
+Salesloft Knowledge
+Analytics Reports
+Analytics + Reporting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

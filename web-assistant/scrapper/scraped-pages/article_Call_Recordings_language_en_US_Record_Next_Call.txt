@@ -1,0 +1,94 @@
+DIALER + MESSENGER
+Call Recordings
+
+Nov 14, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+With the Salesloft Dialer, you can record your calls from start to finish, then play them back later for review. 
+
+Reviewing call recordings allows you to expand your call quality on a personal level. By listening to call recordings, you can learn from previous calls, review a call before following up with a prospect, and even train newer reps on the behaviors to follow (or even what not to do). 
+
+In this article, you'll learn all about recordings with the Dialer, including: 
+Call Recording Settings
+Record Next Call
+Recording Disabled
+Start, Pause, and Resume Call Recordings
+Listen to Call Recordings
+Call Recording Settings
+Recording your calls can be a very beneficial internal tool for call reviews and coaching. However, call recordings also come with a set of regulations that must be adhered to based on things like region or state legislature. 
+
+With all of these in mind, call recording settings are managed on the Admin level (or by users with the specific permission set). You can learn more about how to set call recording defaults and restrictions in the Manage Call Recordings and Governance article. 
+
+Things to Note: If you have questions related to acceptable practices for recording phone calls in certain regions, please refer to your own internal compliance/legal counsel to determine acceptable use cases. While we provide this feature, we do not have recommendations related to appropriate usability.
+Record Next Call
+If recording has been enabled for you as a user, you can control whether or not a call will record from the Dialer.   
+
+When call recording is on, the recording icon (circle) in the upper left corner of the Dialer will appear red. If you hover your cursor over the icon, Record Next Call text will display, informing you that the next call you dial will be recorded. 
+
+To turn recording on, follow these steps: 
+Open the Dialer. 
+Click the recording icon in the upper right corner. When the icon is red, the call is set to record. 
+Dial your call. Once the call has ended you can listen to the recording .
+ 
+
+Things to Note: Only calls to numbers set up as a Person Contact will be recorded. For details about creating a Person, check out the Import into Salesloft article.
+Recording Disabled
+When recording is disabled, the recording icon will appear grey. 
+
+Based on your team's settings, recording may be disabled by default, or be disabled when calling into specific areas. In some cases, you may not be able to turn on recording at all. Ask a team admin if you are unsure about why recording is disabled. 
+
+If you have permissions to enable call recording, you may click the recording icon to turn recording on prior to making the call. 
+ 
+Start, Pause, and Resume Call Recordings 
+Call recording seems pretty simple, but due to regulations as well as personal feelings, you may need a little more control over a call recording. Let's say someone doesn't want the call to be recorded, and you need the option to stop the recording. On the other hand, you may start a call without recording, request permission, and then record the call for future training purposes. 
+
+Whatever reasons you may have, the Salesloft Dialer allows you to seamlessly start a recording during a call, pause that recording, and even resume the recording.
+
+ Things to Note: 
+Recording governance will always override end user decisions. If a call is set to Do Not Record or One-Sided Recording, the user will not be able to change this using this new feature.
+When call collaboration is utilized, the current recording setting will apply to both users, and both users will have the option to change the recording status.
+While you are on a call, click the recording icon to change the recording status. The recording options during the call include:
+Start Call Recording
+Pause Call Recording
+When listening to a recording playback, if the recording starts partway through the call, the recording will start playback from the moment recording begins. If the recording is paused, the playback will continue with a silence occurring during the time the recording was paused.
+Listen to Call Recordings
+For calls that have been recorded you can listen to the call once it's been completed in the following places:
+
+The Recordings Page
+Calls recorded using the Salesloft Dialer or a third-party dialer will appear on the Conversations Recordings page.
+
+To identify Dialer calls on the Conversations Recordings page, look for recording tiles that have a phone icon and that are labeled Dialer. 
+
+
+The Calls Page
+All completed calls will be listed on the Calls page. Find the number that you dialed.
+
+Click Listen to Recording to hear the call recording. Calls without recordings will be listed as No Recording.
+
+
+The Person Profile Page
+The Person activity panel shows all logged activities to the Person record. When a call is logged, the call recording is including in the log. 
+
+Within the panel, go to the Calls tab to view only the calls that have been logged to that Person. 
+
+
+Salesforce Activity Log
+Calls that have been logged will appear on the Lead or Contact record in Salesforce. The call recording will appear as a link under the Comments section of the activity log. 
+ 
+Last Modified By
+Raequel Sank, 11/14/2022 2:09 PM
+Title
+Call Recordings
+URL Name
+Call-Recordings
+Salesloft Knowledge
+Dialer + Messenger
+Phone Calls With The Dialer
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

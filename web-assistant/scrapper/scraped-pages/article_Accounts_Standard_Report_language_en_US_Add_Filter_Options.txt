@@ -1,0 +1,98 @@
+ANALYTICS + REPORTING
+Accounts Standard Report
+
+Jun 6, 2022•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Accounts Report gives an overview of the Account-based activity that has been completed by your team. These centralized metrics make it quick and easy to see the most and least engaged Accounts through several data points.  
+
+To access the Accounts Report, go to the Reports Tab. Find the Cadences section and select the Standard Cadence View. 
+
+In this article, you will learn about the Account Report, including:
+Account Report Add Filter Options
+Account Metrics
+Sorting the Account Analytics
+Account Analytics Table
+Account Report Add Filter Options
+The Account Report data can be adjusted by using Analytics Filters. When you change any of these filters, you can save the page view to Create Custom Reports.
+
+Outside of the standard filter options, you can add additional filters to your report. The Account Report's additional filters include: 
+Touches
+People
+Successes
+Meetings Booked
+Sent
+% Opened
+% Replied
+Account Metrics
+Account Reporting shows a detailed report for the Accounts your team interacts with. This way admins and users alike can figure out which Accounts are seeing the most traction versus which ones require more engagement.
+
+Each performance metric is visible in its own column with the Accounts Report. The columns include:
+ 
+Name	Name of the Account (aka company name).
+Owner	First and last name of the Salesloft user.
+Last Touched	The date the most recent activity (email, call, integration steps or other steps) was completed. 
+Touches	Number of times the activity has been completed towards this Account. 
+People (on Account)	Number of People on the Account.
+Successes	Number of Successes marked on Accounts.
+Meetings Booked	Number of meetings booked through the
+Salesloft Calendar feature within the platform.
+Calls Logged	Number of calls logged to the Account.
+Sent	Number of emails sent to the Account.
+Bounced	Number of emails bounced.
+%Bounced	Number of emails the user has sent that resulted in a bounced email.
+Opened	Number of times an email sent from the user resulted in an open or view.
+%Opened	Percentage of emails sent from the user that resulted in an open or view out of the total number of emails sent.
+Clicked	Number of times an email sent from the user resulted in a click.
+%Clicked	Percentage of emails sent that resulted in a link being clicked.
+Replied	Number of emails sent that resulted in a reply. This counts any emails replied, regardless of if they were sent from a Cadence, Lofted, or one-off emails.
+%Replied	Percentage of replied emails based off of the total number of emails sent.
+Positive	The count of positive replies
+Total Objections	The count of objection replies
+Completed Steps	 Actual number of steps completed based on the filter settings.
+Skipped Steps	 How often the filtered team members are skipping steps of their Cadence process.
+% Skipped Steps	 The number of steps skipped divided by the total number of steps.
+Overdue Steps	The total overdue steps in Cadence. A step is counted as overdue after the step is marked completed.  
+% Overdue Steps	 Percentage of overdue steps divided by the total step count. 
+On-time Steps	 The number of steps that have been finished on or before the due date.
+% On-Time Steps	 the percentage of steps that have been finished on or before the due date.
+Integration Steps	 These are the total completed integration steps across all integrations, such as LinkedIn, Sendoso, etc.
+Other Steps	These are the completed other steps. If users don't have LinkedIn Sales Navigator, this can often represent their LinkedIn steps. 
+LinkedIn Research	 The total completed LinkedIn steps.
+LinkedIn Completed Steps	 The completed LinkedIn steps that are research.
+LinkedIn Introductions	 The completed LinkedIn steps that are introductions.
+LinkedIn Connections	 The completed LinkedIn steps that are connections.
+LinkedIn InMail	The completed LinkedIn steps that are InMail.  
+ 
+Sorting the Account Analytics
+Each column header can also be used to sort the list.
+ 
+
+To sort the Analytics metrics to fit your preference, follow these steps:
+Select the appropriate column header. The header name will turn blue.
+Use the arrow to the right of the header name to set the sorting direction. The arrow will point up or down (ascending or descending order) to reflect the order of the list.
+Account Analytics Table
+All of your Account analytics metrics are listed out in the Account Analytics Table.
+
+Your column headers name off each given metric point. You may also sort your table by clicking any of the column headers. For example, if you select the column header of the Name column, the headers will sort in alphabetical order. The first time you click it, the order will switch to ascending order. If you click the header again, it will switch to descending order.
+
+Since there are so many metrics to view, you can scroll horizontally down the list of metrics in a clean and concise view.
+
+The Name column is known as a "freeze column." This means that it will remain anchored (or frozen) when you horizontally scroll through the rest of the analytics in the table.  
+Last Modified By
+Briana Morgan, 6/6/2022 3:15 PM
+Title
+Accounts Standard Report
+URL Name
+Accounts-Standard-Report
+Salesloft Knowledge
+Analytics Reports
+Analytics + Reporting
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support

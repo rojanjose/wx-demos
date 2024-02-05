@@ -1,0 +1,73 @@
+FORECAST
+Forecast Weekly Trend Chart
+
+Mar 10, 2023•Knowledge
+Package Availability
+Indicates which SalesLoft package(s) include the feature referenced in this knowledge article.
+Content
+The Forecast Weekly Trend chart compares your team’s triangulation values, or various Opportunity points, to your target revenue goal for a particular close date period. 
+
+Triangulation values include the AI Forecast (if enabled), Forecast, and Probable Sum. These values are impacted when changes are made to an opportunity. Opportunity changes can occur frequently, especially within a close date period, and tracking these changes can show how your forecast has changed over time. 
+
+The Weekly Trend chart gathers all of this data and makes it readily available inside the Weekly Trend panel. Here, your team can simplify your forecast workflow by identifying business trends and determining accurate goals to set. 
+
+In this article, we will walk through the Weekly Trend chart, including:
+Forecast Weekly Trend Chart Breakdown
+View More in the Weekly Trend Hover Details
+View Opportunity Changes from the Weekly Trend Chart
+Forecast Weekly Trend Chart Breakdown
+The Weekly Trend chart plots your team’s triangulation rollup values to show how your forecast has changed over a period of time. 
+
+Things to Note: The triangulation values may differ
+
+The values on the Weekly Trend chart are generated based on the close date period you select using the Close Date filter. By default, the Forecast Dashboard Filters show forecast metrics for your entire team for the current month. 
+
+Once you set your filters, the Weekly Trend chart adjusts based on how your team’s triangulation values have changed over the close date period you selected. The close date period you selected is broken down into weekly increments across the bottom axis of the chart.
+
+The Weekly Trend chart generates a dotted line to indicate your team’s target revenue goal. Use this line to compare your forecast metrics to your target revenue goal over the selected close date period. 
+
+
+
+You can hover over any data point on the chart to open a detailed hover view. This detailed view shows you the specific triangulation values for that data point. 
+View More in the Weekly Trend Hover Details
+When you hover over a particular data point on the Weekly Trend chart, you can view the specific triangulation values for that data point. 
+
+Things to Note: Values on the trend chart will only include Rollup Triangulation metrics that use standard Forecast Category or Opportunity Stage fields. Custom fields will not be shown on the trend chart.
+
+The hover details view contains the following for each data point:
+Percent Change: Amount your forecast metrics have changed. These will appear green when they increase and red if they decrease in the given time period.
+AI Forecast: Suggested forecast numbers based on data trends. 
+Forecast: The submitted forcast numbers for that period of time. 
+Other Triangulation metrics: These will only appear if your team has added and configured other Triangulation metrics. 
+If changes have been made to an opportunity, you will see the View Opportunity Changes option at the bottom of the Weekly Trend Hover Details. Check out the View Opportunity Changes section below for more information.
+View Opportunity Changes from the Weekly Trend Chart
+From the Weekly Trend hover details, select View Opportunity Changes to learn what changes were made to an opportunity inside open the Opportunity Changes window. 
+
+The Opportunity Changes window includes the following tabs that offer information about specific kinds of opportunity changes (where the apply):
+Amount Changes: Any amount changes that have been made to opportunities. If an Amount Change has taken place, you will see the current amount as well as the amount that was changed.
+Close Date Changes: If an opportunity's close date has been changed, you will see the original close date and the new close date. You will also be able to see whether a deal was pushed into the next quarter.
+Stage Changes: Any stage changes that have happened to opportunities. 
+Each tab will show the number of opportunities that experienced a change along with and list of the Opportunities that have changed. The Opportunities will show the following details so you can quickly see if it was a positive or negative change: 
+Deal Engagement Score
+Opportunity Details: Include Opportunity name and Owner
+Amount
+Change
+
+Click an individual opportunity to open the Deal Details View. From the Deal Details view you can view the Deal activity timeline, perform Stakeholder actions, and leverage information specific to the Deal.
+Last Modified By
+Briana Morgan, 3/10/2023 6:37 PM
+Title
+Forecast Weekly Trend Chart
+URL Name
+Forecast-Weekly-Trend-Chart
+What's New
+Forecast
+Forecast Dashboard
+Salesloft Knowledge
+Trending Articles
+Salesloft Chrome Extension Overview (Early Access)
+Salesloft Email Deliverability Best Practices
+Imports from Salesforce
+How to Reduce Background Noise
+Download the Salesloft Chrome Extension
+Contact Support
