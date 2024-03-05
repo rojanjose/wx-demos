@@ -1,0 +1,8 @@
+{
+    "parameters": {
+        "prompt_variables": {
+            "context_str": "What are Incomplete Meetings?\\nWhen an error occurs during a recording upload, Conversations calls these errors \"Meeting States.\" In other words, we state the reason that the meeting failed to load. In the event of an upload error, the meeting state could be any of the following:\\nBot denied from meeting\\nBot dismissed from screen share meeting platform before anyone spoke\\nBot dismissed from Salesloft before anyone spoke\\nBot encountered technical issue\\nBot timed out because meeting never started\\nBot timed out because no speaking was detected after 25 minutes\\nConversation too short\\nHost ended meeting before anyone spoke\\nWhile Salesloft noticing the issue is important, it's even more helpful for you to see if any errors have occurred. You can view all of the uploading errors and meeting states information from the Incomplete Meetings page.\\nThings to Note: The Incomplete Meetings page will show meeting errors for your entire team's meetings.\\n To access the Incomplete Meetings page, click the Incomplete Meetings link in the upper right corner of the Recordings or In Progress tabs. The Incomplete Meetings page will show a complete list of meetings that were not able to upload due to an issue.",
+            "query_str": "Why is my meeting showing incomplete?"
+        }
+    }
+}

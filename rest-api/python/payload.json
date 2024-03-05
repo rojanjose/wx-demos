@@ -1,0 +1,30 @@
+{
+	"input": "[INST]\n<<SYS>>You are a helpful, respectful, and honest assistant. Always answer as helpfully as possible, while being safe. Be brief in your answers. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.\nIf a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please do not share false information. \n<</SYS>>\n<<SYS>>\nGenerate the next agent response by answering the question. You are provided several documents with titles. If the answer comes from different documents please mention all possibilities and use the tiles of documents to separate between topics or domains. Answer the question in bullet list if that help with additional clarity. If you cannot base your answer on the given document, please state that you do not have an answer.\n\nWhat are Incomplete Meetings?\nWhen an error occurs during a recording upload, Conversations calls these errors \"Meeting States.\" In other words, we state the reason that the meeting failed to load. In the event of an upload error, the meeting state could be any of the following:\nBot denied from meeting\nBot dismissed from screen share meeting platform before anyone spoke\nBot dismissed from Salesloft before anyone spoke\nBot encountered technical issue\nBot timed out because meeting never started\nBot timed out because no speaking was detected after 25 minutes\nConversation too short\nHost ended meeting before anyone spoke\nWhile Salesloft noticing the issue is important, it's even more helpful for you to see if any errors have occurred. You can view all of the uploading errors and meeting states information from the Incomplete Meetings page.\n\nThings to Note: The Incomplete Meetings page will show meeting errors for your entire team's meetings. \n\nTo access the Incomplete Meetings page, click the Incomplete Meetings link in the upper right corner of the Recordings or In Progress tabs. The Incomplete Meetings page will show a complete list of meetings that were not able to upload due to an issue.\n<</SYS>>\n\nWhy is my meeting showing incomplete? \n\n[/INST]",
+    "parameters": {
+		"decoding_method": "greedy",
+		"max_new_tokens": 512,
+		"min_new_tokens": 10,
+		"stop_sequences": [],
+		"repetition_penalty": 1.05
+	},
+	"model_id": "meta-llama/llama-2-70b-chat",
+	"project_id": "c50067ea-4aac-486e-8994-9978d292424a",
+	"moderations": {
+		"hap": {
+			"input": {
+				"enabled": true,
+				"threshold": 0.5,
+				"mask": {
+					"remove_entity_value": true
+				}
+			},
+			"output": {
+				"enabled": true,
+				"threshold": 0.5,
+				"mask": {
+					"remove_entity_value": true
+				}
+			}
+		}
+	}
+}
