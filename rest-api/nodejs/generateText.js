@@ -18,7 +18,7 @@ async function getAccessToken() {
             },
         });
 
-        // console.log("Access Token:", response.data.access_token);
+        console.log("Access Token:", response.data.access_token);
         return response.data.access_token;
     } catch (error) {
         console.error("Error getting access token:", error.response.data);
@@ -29,21 +29,24 @@ async function generateText(accessToken) {
 
     const generateEndpoint = process.env.GENERATE_ENDPOINT;
     const headers = {
-		"Accept": "application/json",
-		"Content-Type": "application/json",
-		"Authorization": "Bearer " + accessToken
+        headers: {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Authorization": "Bearer " + accessToken
+        }
 	};
 
     const payload = require('./payload.json');
     // console.log("Payload data is:\n", payload);
 
-    try {
-        const response = await axios.post(generateEndpoint, new URLSearchParams(payload).toString(), {
-            headers: headers,
-        });
+    console.log("Payload data is:\n", payload);
 
-        console.log("Response:", response.data);
+    try {
+        const response = await axios.post(generateEndpoint, payload, headers);
+
+        console.log("Response:", response.data.results[0].generated_text);
         return response.data;
+
     } catch (error) {
         console.error("Error generating LLM response:", error.response.data);
     }

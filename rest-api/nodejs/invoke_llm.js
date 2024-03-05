@@ -30,6 +30,9 @@ async function getAccessToken() {
         } else {
             console.error('Failed to obtain access token:', data);
         }
+
+        return data.access_token
+
     } catch (error) {
         console.error('Error fetching access token:', error);
     }
@@ -49,19 +52,18 @@ async function generateText(accessToken){
     console.log("Headers: ", headers)
     const payload = require('./payload.json');
 
-	const response = await fetch(generateEndpoint, {
-		headers,
-		method: "POST",
-		body: JSON.stringify(payload)
-	});
+    try {
+        const response = await fetch(generateEndpoint, {
+            headers,
+            method: "POST",
+            body: JSON.stringify(payload)
+        });
 
-	if (!response.ok) {
-		throw new Error("Non-200 response");
-	}
-	
-    console.log("Response: ", response.json() )
-  
-	return await response.json();
+        return await response.json();
+
+    } catch (error) {
+        console.error("Error generating LLM response:", error.response.data);
+    }
 }
 
 
@@ -70,6 +72,8 @@ async function runMain() {
         const accessToken = await getAccessToken();
 
         const response = await generateText(accessToken);
+
+        console.log("Response:", response);
 
     } catch (error) {
         console.error("An error occurred:", error);
